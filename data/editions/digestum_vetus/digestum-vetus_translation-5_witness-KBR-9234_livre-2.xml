@@ -1,0 +1,2112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Traduction 5 du Digeste de Justinien</title>
+        <author>Anonyme</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Édition du texte</edition>
+        <respStmt>
+          <name xml:id="IR">Irene Reginato</name>
+          <resp>Éditeur</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
+          ancien français.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness>Bruxelles, Bibliothèque Royale, ms. 9234</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
+      </langUsage>
+      <creation notBefore="1200" notAfter="1300">XIIIe siècle.</creation>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Transcription du manuscrit Bruxelles, Bibliothèque Royale, ms. 9234, avec corrections <hi
+            rend="i">ope ingenii</hi> et sur la base de la Traduction 3 et du texte latin.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <head>Critères d’édition</head>
+      <p>La toilette du texte suit les orientations fournies par <bibl><title>Vielliard Françoise,
+            Guyotjeannin Olivier, <hi rend="i">Conseils pour l’édition des textes médiévaux,</hi>
+            vol. I, « Conseils généraux », Paris, École Nationale des Chartes,
+        2014.</title></bibl></p>
+      <div>
+        <head><hi rend="i">Normalisation du texte</hi></head>
+        <p>L’édition régularise le flottement graphique des allophones ‹i› et ‹j›, ‹u› et ‹v› : la
+          graphie ‹j› est réservée à la semi-occlusive palatale [dž], indépendamment de sa
+          réalisation paléographique dans le manuscrit (‹i› court, long ou plongeant), alors que la
+          graphie ‹i› est employée dans les autres cas et ‹y› est gardé tel quel. De même, ‹v›
+          signale la fricative [v] et ‹u› la voyelle. Les formes du futur et du conditionnel des
+          verbes avoir et savoir utilisent la graphie avec ‹v› (ex. <hi rend="i">avra, savra</hi>).
+          La graphie avec ‹u› a pourtant été choisie pour les formes du verbe <hi rend="i"
+            >pouoir</hi>.</p>
+        <p>La séparation des mots tend à régulariser les formes sur les habitudes modernes (ex. <hi
+            rend="i">lequel, laquelle</hi>) et l'apostrophe est aussi employée pour distinguer <hi
+            rend="i">qui</hi> pronom relatif de <hi rend="i">qu'i</hi> conjonction plus pronom sujet
+          réduit (de <hi rend="i">il</hi> à <hi rend="i">i).</hi></p>
+        <p>La ponctuation et les majuscules suivent les normes modernes.</p>
+        <p>La majuscule est réservée uniquement aux noms propres de personne, de lieu et de peuple,
+          alors que les institutions (<hi rend="i">senat, prevosté</hi>) et les titres juridiques
+            (<hi rend="i">empereeur, prevost</hi>) sont écrits avec une minuscule. Les chiffres
+          romains simples ont été transcrits en minuscules encadrées par deux points. On a gardé le
+          numéral <hi rend="i">.i.</hi> sans le transformer en article indéfini <hi rend="i">uns,
+            une</hi>.</p>
+        <p>Le système des accents suit un compromis entre l’orientation conservatrice habituelle, la
+          nécessité de faciliter la lemmatisation du texte et la volonté de distinguer les
+          homographes. Nous employons régulièrement l’accent aigu sur le ‹é› tonique de la syllabe
+          finale des mots terminant par ‹é› ou ‹és›, mais nous utilisons aussi des accents en
+          fonction diacritique. Ainsi, les monosyllabes <hi rend="i">à</hi>, <hi rend="i">là</hi> et
+            <hi rend="i">où</hi> reçoivent-ils un accent grave lorsqu’ils indiquent respectivement
+          la préposition, l’adverbe et le pronom relatif. De même, les homographes sont distingués à
+          l'aide d'accents aigus placés sur les mots lexicaux ou sur les termes ayant plus de
+          contenu sémantique (ex. le participé <hi rend="i">né</hi> par rapport à la particule
+          négative <hi rend="i">ne</hi>). Le tréma n’est pas ajouté aux formes verbales <hi rend="i"
+            >eust, deust, feussent, veu...</hi>, mais il est employé sur des formes qui ont conservé
+          l’hiatus en français moderne, comme certains substantifs tels que <hi rend="i">païs/paÿs</hi>.
+            Le manuscrit n’emploie jamais la cédille, qui a été introduite lorsque
+          nécessaire.</p>
+      </div>
+      <div>
+        <head><hi rend="i">Résolution des abréviations</hi></head>
+        <p>Le système d’abréviations du manuscrit est assez simple et se limite à peu de signes :
+          notes tironiennes pour <hi rend="i">et</hi> et <hi rend="i">con/com</hi>, tilde pour les
+          nasales, <hi rend="i">p</hi> barré pour <hi rend="i">par</hi>, apostrophe pour <hi
+            rend="i">er/re</hi> et peu de lettres suscrites. Toutes les abréviations sont résolues
+          en caractères romains et sur la base des formes écrites en toutes lettres.</p>
+      </div>
+      <div>
+        <head><hi rend="i">Particularités</hi></head>
+        <p>La <hi rend="i">Traduction 5</hi> se caractérise par l’emploi de discours indirects à la
+          place de la plupart des citations rapportées par les autres traduction. Néanmoins,
+          l’emploi des guillemets n’a pas été plus extensif que dans les autres textes. Les énoncés
+          présentés comme citations (introduites par un syntagme nominal et un <hi rend="i">verbum
+            dicendi/scribendi</hi>) ne comportent toujours pas de guillemets et sont signalés
+          uniquement par l’emploi des deux points et d’un lettre majuscule au début de la citation.
+          De même, nous n’utilisons jamais de guillemets pour encadrer des traductions ou des
+          explications de termes techniques, du moment que celles-ci n’ont pas toujours des limites
+          claires et se confondent souvent avec la suite du texte. Ainsi, les seuls cas qui admettent
+          l’usage de guillemets – sous forme de chevrons doubles – concernent les discours directs
+          de deuxième degré. D’autres citations concernent la mention de titres de livres et
+          d’ouvrages : pour ceux-ci, nous employons toujours l’italique et la lettre majuscule,
+          qu'ils soient en latin ou en traduction.</p>
+        <p>Une autre caractéristique du texte, qui ne s’explique pas de manière évidente par sa
+          provenance géographique, est la présence assez nombreuse de formes féminines en ‹-e› (au
+          lieu de ‹-ee›). S’agissant d’un trait récurrent, nous avons conservé ces formes telles
+          quelles. </p>
+      </div>
+      <div>
+        <head><hi rend="i">Apparat critique</hi></head>
+        <p>L’apparat critique, positif et à un seul étage, présente: (a) les leçons rejetées ; (b)
+          des notes proposant une interprétation des passages complexes.</p>
+      </div>
+    </front>
+    <body>
+      <div>
+        <head>[Liber secondus]</head>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.8.0"><seg type="rubric">[2.8.0 Qui satisdare cogantur vel
+              iurato promittant vel suae promissioni committantur.]<cb n="22b"/> De cels qui sont
+              pourforciez de fere satisfaccion, ou le prometent par leur serement ; de ceuls qui
+              sont mis en possession.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.8.1"><label>[2.8.1]</label>
+            <hi rend="b">P</hi>auis dist : <hi rend="b">S</hi>atisdation et satisfation si ont il
+            meismes seneficat. Et senefient faire satisfaction. Faire satisfaction vaut autant comme
+            fait à emplir la volenté d’autrui. Et einssi devons nous faire satisfaction à nostre
+            adversaire, qui pour ice que il nous demande, gardon fere lui sactisfaction ou donner
+            pleges.</p>
+          <p xml:id="KBR_9234-digeste.2.8.2"><label>[2.8.2]</label>
+            <hi rend="b">U</hi>lpians dit que se aucun riche home demande plege en jugement d’estre
+            à droit envers lui et il li soit donné, il le doit tel avoir qu’i soit riches de
+            possessions et ne mie tant seulement de mueble. <label>[1]</label> Se aucuns donne
+            pleges <cb n="22c"/>
+            <choice>
+              <sic source="#ms"/>
+              <corr resp="#ed">à</corr>
+            </choice><note resp="editor">à] om. <hi rend="i">ms.</hi></note>personnes qui ne
+            puissent mie estre pris, ne ne doient en cause d’estre en jugement, le plege ne sera mie
+            de value. <label>[2]</label> Le prevost dist : Se aucuns a parens de patrons ou de <choice>
+              <sic source="#ms">patronner</sic>
+              <corr resp="#ed">patronne</corr>
+            </choice><note resp="editor">patronnes] patronner <hi rend="i">ms.</hi></note>, ou
+            aucuns franchis ou filz, ou aucun qui soit en <choice>
+              <sic source="#ms">en</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">en] <hi rend="i">Répété.</hi></note> sa poesté, soit fame
+            ou homme, et il les ait apelez en jugement pour li plegier, chascun soit pris plege en
+            sa cause sanz contredit. <label>[3]</label>
+            <choice>
+              <sic source="#ms">Prevous dit le prevost</sic>
+              <corr resp="#ed">Le prevost dit</corr>
+            </choice><note resp="editor">Le prevost dit] Prevous dit le prevost <hi rend="i">ms.
+                Corr. d’après le lat. « <seg rend="eleve">Quod ait praetor "liberosve
+                suos" ».</seg></hi></note> : les filz ou les parens ou les franchis descendanz du
+            seuxe feminin. Nous meismes donnons et faimes ceste bonté et cest benefice au pere et
+            non mie seulement de sa <choice>
+              <sic source="#ms">de sa</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">de sa] <hi rend="i">Répété</hi></note> debte ne de son
+            droit. Mes se il est en poesté d’aucun ou d’aucune, et ce est ce, certainement, que
+            Pomponius escrist : « Se le filz puet estre pris en plege pour le pere, se il est en
+            autre poesté que en la seue, nous devons d’ileuc en aprés garder au nombre des heritages
+            et des choses qui enclinent à lui ». <label>[4]</label> Et c’est ce que li prevost dist,
+            que en quelconques maniere que plege soit pris, l’en doit regarder à ses facultez
+            moebles et heritages. <label>[5]</label> Li prevost donne action à celui qui laisse
+            aucun en plege d’estre en jugement, que chascun sache la verité : de quel pris la chose
+            est, pour quoi li pleges est, et que nous en veons la quantité, car il est melz que
+            celui qui est plege soit tenu pour certain pris et pour certaine quantité que
+            autrement.</p>
+          <p xml:id="KBR_9234-digeste.2.8.3"><label>[2.8.3]</label>
+            <hi rend="b">P</hi>aulus dist que, se l’action est doublee en double ou en treble ou en
+            quadruble, que le plege doit estre tenu en toute maniere pour toute la value que la
+            chose pour quoi il est plege est entendue valoir.</p>
+          <p xml:id="KBR_9234-digeste.2.8.4"><label>[2.8.4]</label>
+            <hi rend="b">P</hi>aulus dist que se aucun est dechaoit par plet, et il ait donné plege
+            por sa cause d’estre à droit, li prevost ne le doit mie commander à restraindre ; car se
+            li prevolz ignoranz l’avoit commandé <cb n="22d"/> à restraindre et il sera dechaoit
+            aprés le decret ou devant le jour de la refrainte, l’aucion porra estre nee ; et porra
+            ce estre fait proffitablement, ce einssi n’est que aprés le jour de la refrainte il soit
+            dechaoit et ait perdue sa cité.</p>
+          <p xml:id="KBR_9234-digeste.2.8.5"><label>[2.8.5]</label>
+            <hi rend="b">P</hi>aulus dit que se aucuns se met em plege pour .i. condampné, et le
+            condampné soit dechaoit et ait perdu la cité de Romme, celui qui avra plegié le
+            condampné avra afaire tant seulement pour le condampné. <label>[1]</label> Celui qui
+            donne plege riche en demant et offre à prouver que il soit assez puissant, se aucun en
+            doute, d’estre pris en jugement pour sa cause ; et celui à qui il veult donner le plege
+            le refuse et ne le veult mie prendre. Celui qui donne le plege souffisant pour suivre
+            son adversaire d’injuries, par action et sainement chascune, ne celle injure n’est pas
+            faite à celui seulement à celui qui donne le plege convenable, mes icelui qui n’est pas
+            receu em plege ne n’i puet estre pris se porra complaindre aussi comme se grant injure
+            li avoit esté faite.</p>
+          <p xml:id="KBR_9234-digeste.2.8.6"><label>[2.8.6]</label>
+            <hi rend="b">P</hi>aulus dist : <hi rend="b">P</hi>ar quantes fois une chose est prise
+            corrompuement ou en faisant lui satisfaction, elle est aucune fois veue ne mie prise ne
+            ne mie faisant lui satisfaction.</p>
+          <p xml:id="KBR_9234-digeste.2.8.7"><label>[2.8.7]</label>
+            <hi rend="b">U</hi>lpians dist : <hi rend="b">S</hi>e aucuns requis pour estre plege ne
+            voit mie lui estre convenable, ainz reconnoisse lui estre riche et avoir prescripcion de
+            marchié et mout de richoises, et le requerreour targe que il ne veuille user de celle
+            prescription de marchié, il est à voier quel chose est affaire de droit, et se le
+            seigneur est debonnaire. Et ce est ce que Pomponius raconte el livre des <title><hi
+                rend="it">Epitres</hi></title>, et Marculien el tiers de <title><hi rend="it"
+                >Digeste</hi></title>, et Papinians el livre quart des <title><hi rend="it"
+                >Questions</hi></title>. Cornelio escrist ceste <cb n="23a"/> peticion et tel plege
+            estre refusé, et se il ne puet autrement faire ne eschiver, il li doit dire devant que
+            il ne use mie de son privilege, ainz i renonce en tant comme pleges. <label>[1]</label>
+            Se satisfaction aucune avra esté neccessaire, et celui qui est coupable ne la puisse mie
+            faire à son aucteur ou lieu où il sera assemblé avoec lui, en quel lieu el li est
+            neccessaire à estre faite, il puet estre oï se einssi est que il soit appellé à ffaire
+            la en autre cité de celle meismes province. <label>[2]</label> Et se einssi est que il
+            ne soit appareillié à ffaire en celle province, autre lieu ne li doit mie estre assigné,
+            ne celui n’a mie desservi à estre oÿ à qui que elle soit fait, en autre liu à qui la
+            satisfaction est neccessaire. ¶ <label>[3]</label> Se aucuns n’a mie fait satisfaction à
+            son aucteur de chose mouvable, et celui de qui la satisfaction est desiree soit personne
+            soupeçonneuse et non mie solvable, et se ce est personne qui ait office, il doit estre
+            desposé de s’office par la volenté du juge, jusques à tant que il ait fait satisfaction
+            ou que le plait de l’un et de l’autre ait pris fin en aucune maniere.</p>
+          <p xml:id="KBR_9234-digeste.2.8.8"><label>[2.8.8]</label>
+            <hi rend="b">P</hi>aulus dist : <hi rend="b">Q</hi>uant aucun jour est assigné à aucuns
+            pledeors, il seulent assembler en stipulacion. Et se il ne se puent acorder, Pedius
+            cuide que espace atrempee leur soit donnee du juge en la poesté du stipuleeur.
+              <label>[1]</label> Qui donne em plege une fame de faire satisfaction à autrui, il
+            n’eschive mie son domage, mais ne chevalier ne homme de meneur <choice>
+              <sic source="#ms">aage qui de</sic>
+              <corr resp="#ed">aage de</corr>
+            </choice><note resp="editor">aage de] aage qui de <hi rend="i">ms.</hi></note> .xxv. anz
+            ne puet estre aprové estre donné en plege, se ce ne sont personnes qui puissent metre
+            leur heritage en plege ou establir general procurateur ou aussi comme pour son general
+            procurateur. ¶ Aucuns dient certainement que quant aucune fame requiert douaire de son
+            mari et elle a fons de douaire, elle puet requerre estre plegerresse et plegier une
+            autre fame. ¶ <label>[2]</label> Se aucun sergent viengne en jugement qui soit pris
+            cauteleusement ainz qu’il ait donné plege de paier le jugié en quoi il est tenu, l’en
+            doit aidier en droit à l’aucteur, si que il soit paié entierement de sa debte. Aussi
+            doit l’en aidier par aventure à homme qui est de meneur aage que de .xxv. anz, et à
+            fame, pour ce que fame est de trop foible sens. <label>[3]</label> Se l’oir d’un
+            stipuleor est donné en plege de faire satisfacion du jugié ou le stipuleeur est donné em <choice>
+              <sic source="#ms">ple</sic>
+              <corr resp="#ed">plege</corr>
+            </choice><note resp="editor">plege] ple <hi rend="i">ms.</hi></note>de faire satisfacion
+            à son hoir, et li uns et li autres doit faire satisfaction de ce pour quoi il est mis en
+            pleges. <label>[4]</label> Li tuteur et li curateur de l’enfant qui n’est mie d’aage
+            doivent si metre sa chose en saufgarnissement, que il en puissent faire audit enfant
+            neccessaire satisfaction. Et ce, se celui qui use de droit a donné au seigneur, doit
+            estre establi en sa proprieté. Derechief, <choice>
+              <sic source="#ms">se</sic>
+              <corr resp="#ed">de</corr>
+            </choice><note resp="editor">de] se <hi rend="i">ms.</hi></note> celui qui est alé en
+            essil, que satisfaction ne soit faite à son aucteur sus son heritage et pour plus
+            esloignier l’aucteur et que il ne li souviengne de sa debte, et l’oir de celui qui est
+            alé en essil face satisfaction à l’aucteur el non de celui qui est alez en essil, l’oir
+            i doit estre oïs, et en doit estre mis en possession et en garnissement. Et se celui qui
+            est alez en essil soit ja mis en <choice>
+              <sic source="#ms">possessions</sic>
+              <corr resp="#ed">possession</corr>
+            </choice><note resp="editor">possession] possessions <hi rend="i">ms.</hi></note>, li
+            hoir doit requerre que il soit mis hors de possession comme celui qui a mis l’eritage
+            hors des mains à l’aucteur. Et ne doit pas l’oir enpetrer que il soit mis en autrui main
+            en garde, car ce seroit diverse chose se, sans blasme ou sanz tricherie faire à l’oir,
+            que il fust <cb n="23c"/> mis en possession. <label>[5]</label> Il est commandé à jurer
+            par son serement de calompne que aucun ne truisse cause par aventure de travaillier son
+            adversaire comme il apiaut, et puisse faire satisfacion en la municipion de Romme.
+            Sachiez que cest serement de calompne n’est mie envoié fors que es parens et es patrons.
+            Il est certain que il devra jurer en tel maniere que il requiert estre mis en
+            municipion, car il ne pot mie faire satisfaction à Romme, mes il la pot bien faire là où
+            il requiert estre envoié, et ne fait mie ce par cause de calompne. Et pour ice n’est il
+            mie pourforcié jurer ailleurs faire satisfacion que en icel lieu ; car par aventure, se
+            il ne pot mie faire satisfaction à Romme et il le puisse bien faire en pluseurs autres
+            lieus. <label>[6]</label> Donques enpeterras tu que il est pourforcié parjurer soi, ja
+            soit ce que il ait bonne cause et juste par semblant, car quant il iert envoié en
+            message il vouloit faire satisfaction, et donc ne dois tu mie enpetrer lui estre parjuré
+            en cest cas, pour ice que il s’i est aresté et que ce est le liu où il desirre faire
+            satisfaction.</p>
+          <p xml:id="KBR_9234-digeste.2.8.9"><label>[2.8.9]</label>
+            <hi rend="b">G</hi>aius dit que quant aucun arbitre <choice>
+              <sic source="#ms">esleu</sic>
+              <corr resp="#ed">est esleu</corr>
+            </choice><note resp="editor">est esleu] esleu <hi rend="i">ms.</hi></note> à esprouver
+            pleges, se il est einssi que l’arbitre soit veu felon à l’une partie et à l’autre, il
+            soit seu que par ice l’une partie et l’autre puet apeler devant le juge.</p>
+          <p xml:id="KBR_9234-digeste.2.8.10"><label>[2.8.10]</label>
+            <hi rend="b">P</hi>aulus dist que se ice est que les pleges soient esprouvez pour riches
+            par le dit de l’arbitre, la querelle pourra bien estre prononciee devant le juge
+            poissant. Et se aucuns prent pleges qui li soient blasmez de son arbitre et delaisse
+            ceuls qui li sont loez et les aime miex à sa volenté que à la volenté de son arbitre, il
+            les doit avoir et n’en doit pas aler l’arbitre en<cb n="23d"/>contre. Et se einssi
+            avient que en nul lieu du temps qui a esté donné au deteur de paier, et le plege soit
+            chaoit en chetiveté ou en grant souffraite la cause congneue, il convendra que
+            satisfaction soit faite à l’aucteur à plain.</p>
+          <p xml:id="KBR_9234-digeste.2.8.11"><label>[2.8.11]</label>
+            <hi rend="b">U</hi>lpians dist : <hi rend="b">S</hi>e aucun homme a requis le fons d’un
+            heritage ançois que je le mandasse, et celui qui l’a requis l’ait pris souffisaument, et
+            aprés contre mon mandement il ait donné et trouvé affaire ans pleges et les ait fait
+            tenir prison ; et est assavoir en droit, se il doit estre punis ou non.</p>
+          <p xml:id="KBR_9234-digeste.2.8.12"><label>[2.8.12]</label>
+            <hi rend="b">C</hi>il meismes dist que quant .i. hoir qui est assemblé entre .i. general
+            poursiet .i. heritage sus condicion, et est establi faire satisfaction de l’eritaige
+            selonc la condicion faite entre lui et celui de qui il tient l’eritage, l’eritage li
+            puet estre requis et ostez, se einssi est que il defaille de la condicion faite et se il
+            en veult maintenir la condicion estauré et devant le jour assigné par la cause de la
+            peticion.</p>
+          <p xml:id="KBR_9234-digeste.2.8.13"><label>[2.8.13]</label>
+            <hi rend="b">P</hi>aulus dist : <hi rend="b">S</hi>e .i. general est soumis ou tenu en
+            aucune chose à un especial aussi comme à .i. ou à .ii. qui<note resp="editor">qui] <hi
+                rend="i">lire « à qui ».</hi></note> il doit faire satisfaction à l’especial de ce
+            en quoi il est tenu loiaument.</p>
+          <p xml:id="KBR_9234-digeste.2.8.14"><label>[2.8.14]</label>
+            <hi rend="b">C</hi>il meismes dit que se li filz desfent le pere desfaillant en
+            jugement, je demant se il doit faire satisfaction du jugié en quoi le pere est tenu pour
+            lui. À ce respont Paulus et dit que le filz puet desfendre le pere desfaillant et faire
+            satisfaction pour lui ; et le pere aussi pour le filz, soit en banissement ou en quel
+            cas que ce soit.</p>
+          <p xml:id="KBR_9234-digeste.2.8.15"><label>[2.8.15]</label>
+            <hi rend="b">M</hi>arcians dist que cels qui poursieent les choses mouvables ne doivent
+            estre pris en plege, <cb n="24a"/> ne ne doivent estre pourforciez de fere satisfacion.
+            Mes celui pourseeur est d’estre pris en plege, qui poursiet sa chose et son heritage,
+            soit en champ ou en terre ou en autres heritages. <label>[1]</label> Celui meismes est
+            dit pourseeur, qui poursiet cel champ qui est apelé emphiteoticum. Derechief, celui qui
+            a proprieté seulement est entendu pourseeur. Cil meismes en dit pourseeur qui est
+            usufrutier, et c’est ce que Ulpians escrist. <label>[2]</label> Celui est dit creancier,
+            qui preste aucune peccune sus gage, et non mie pourseeur, ja soit ce que il ait
+            possession qui li ait esté bailliee ou otroiee de celui à qui il a presté.
+              <label>[3]</label> Se un fons de heritage est donné en doaire à aucune fame qui ait
+            mari, tant à la fame, tant au mari en la possession de l’eritaige et du fons, doivent
+            estre entenduz et dis pourseeurs. <label>[4]</label> Mes la cause dudit fons est diverse
+            et n’est pas une, car il puet avoir peticion personnel. <label>[5]</label> Les meneeurs
+            d’enfans souz aage sont dis pourseeurs en lieu des enfans souz aage de cui il sont
+            meneeurs. Et se il sont en droit ajournez contre aucuns executeurs, il le doivent offrir
+            en droit, aussi comme possesseurs pour lesdis souz aage. ¶ <label>[6]</label> Et se
+            aucuns me demande ou ara demandé le fons d’un heritage que je poursiee ou avoie poursis,
+            et de ileuc en avant le heritage soit jugié estre à celui qui l’a requis, et je enfourme
+            .i. appel, dont di je que je meismes puis estre dit pourseeur de son heritage et non mie
+            du mien, car je ne poursie rien autre chose ne la possession de la chose, laquelle il
+            m’a requise ne puet à moi apartenir. <label>[7]</label> Celui qui offre à donner
+            caucion, l’en doit regarder le temps de la causion ; aussi comme celui qui aprés ce que
+            il a donnee caucion veut la possession, ce ne li aide de riens ne ne nuist, se einssi
+            est que aprés la caucion faite il se soit pris à pourseoir aucune chose.</p>
+          <p xml:id="KBR_9234-digeste.2.8.16"><label>[2.8.16]</label>
+            <hi rend="b">P</hi>aulus dist que, se aucun fait serement d’estre en jugement contre son
+            adversaire et il i lait à aler pour ce que il delaisse la cause du tout à son
+            adversaire, que il apert que il ne se parjure mie.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.9.0">[2.9.0] <seg rend="eleve">Si ex noxali causa agatur,
+              quemadmodum caveatur.</seg>] <seg type="rubric">De celui qui a afaire et est accusé de
+              crime, en quel maniere il puisse eschiver la cause criminal dont il est
+            suivi.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.9.1"><label>[2.9.1]</label>
+            <hi rend="b">U</hi>lpians dist que se aucun seignor ait plegié son sergent d’une action
+            criminal d’estre à droit contre cui li voudra riens demander, le prevost dist que il i
+            doit estre oïs en celle cause en quoi il le plege, jusques à tant que jugement ait fait
+            contre lui. <label>[1]</label> Mais or veons quel chose c’est plegier d’estre à droit en
+            celle cause. Je cuide que plus vraie chose seroit le seigneur estre veu en jugement pour
+            le sergent que il a plegié que autrement, ne que esprouver se il y vendra ou non. ¶ Car
+            se il n’i vient, le droit de l’aucteur en porroit estre pieur. Et se einssi est que le
+            sergent celui qui l’a plegié et il n’i ose mie aler pour ce qu’il a sa cause perdue,
+            c’est ce que Labeo dit : que se celui que son seigneur avoit plegié, qui ert en lui egal
+            de pledier quant il ert o lui, ait pris service d’omme plus desfensaable et plus riche
+            et de meilleur lieu et ait mué maistre en tel maniere que le seigneur qui le plega ne le
+            puet mie amener là où il avoit promis, et la cause criminal soit vendue au grant
+            seigneur avoec qui il s’est derrenierement mis, il cuide et li est avis que il est miex
+            que il ne soit mie rendu en jugement que autrement. Mes se celui qui a esté racheté de
+            la cause criminal cuide eschaper d’autel cause s’il la faisoit et il la face en celle
+            fiance, il doit estre puni sanz rachat.</p>
+          <p xml:id="KBR_9234-digeste.2.9.2"><label>[2.9.2]</label>
+            <hi rend="b">P</hi>aulus dit que d’autre droit use l’en es causes qui sont devant mises,
+            quar celui qui est accusé d’une cause criminal n’est pas delivré, ainz est pris por
+            celle cause et suivi, aussi comme se il fust vendu. <label>[1]</label> Se il avint que
+            .i. sergent ne soit <cb n="24c"/> pas present, por lequel une action criminal avra esté
+            faite à autri, et le seigneur avoec qui il est ne <choice>
+              <sic source="#ms">nait</sic>
+              <corr resp="#ed">nie</corr>
+            </choice><note resp="editor">nie] nait <hi rend="i">ms. Corr. d’après le lat. « <seg
+                  rend="eleve">si quidem dominus non negat in sua potestate
+              esse ».</seg></hi></note> mie que il ne soit en son service, ja soit ce que il l’en
+            deust metre hors, ou le juge cuide que il le voeille plegier de rendre le jugement
+            devant le juge, et se il ne le veult mie desfendre, il doit estre pris, ja soit ce que
+            il le poïst bien desfendre et metre hors de peril. Et se le seigneur renioit son serf et
+            die que il ne soit mie en sa poesté, ja soit ce que ce soit mensonge, il ne doit mie
+            estre condampnné sanz dedicion de cause nuisible, ja soit ce que il soit seu que il le
+            face par tricherie. Et c’est ce que Julius escrist. ¶ Se le serf du seingneur soit
+            present à .i. mesfait et le seigneur soit absent et le serf soit en la desfensse du
+            seigneur, le serf sera demené par le commandement du prevost pour l’absence du seigneur.
+            Mes, la cause conneue au seigneur, desfenssion li sera donnee, si comme Pomponius et
+            Vindius escristrent, que l’absence du seigneur ne li nuise ; et donques sera restablie
+            son action à l’aucteur, et prendra des biens au serf jusques à la value de son
+            mesfait.</p>
+          <p xml:id="KBR_9234-digeste.2.9.3"><label>[2.9.3]</label>
+            <hi rend="b">U</hi>lpians dist que se le serf et le usufruitier plaident ensemble de
+            cause muable en jugement pour usufruitier ou pour autre cause, et le serf ne li puisse
+            fere desfensse, il li doit fere desfendre par le prevost que il ne mete la main sus ce
+            pour quoi le plet est meu jusques à tant que il soit afiné.</p>
+          <p xml:id="KBR_9234-digeste.2.9.4"><label>[2.9.4]</label>
+            <hi rend="b">G</hi>aius dit que se la cause de .ii. seigneurs soit demené en jugement,
+            et l’un voeille faire satisfaction pour l’autre en partie et non mie en tout, Sabius
+            dist que ce ne doit mie estre fait, quar ou il le desfende tout se il a necessité
+            d’avoir le, car il ne doit pas estre oï se il est appareillié de desfendre le en
+            partie.</p>
+          <p xml:id="KBR_9234-digeste.f.24d"><label><cb n="24d"/> [2.9.5] </label><hi rend="b"
+              >U</hi>lpians dist : <hi rend="b">S</hi>e aucun a promis à metre son serf en celle
+            meisme cause estre mis pour lui en jugement, et il s’en aut franc et le serf demeure
+            chevetaigne de toutes ses injures et de toutes ses actions et non mie en son non, mais
+            el non de celui qui li a mis, le serf doit estre puni par tourment et par batemenz
+            jusques à tant que satifacion des injures soit faite à plain. Mes vengance doit estre
+            prise autrement de celui qui s’en va franc ou il doit estre condampné en grant somme de
+            peccune. Quel chose apartient il donques à ces choses autres et à ces causes nuisibles ?
+            L’en les doit certainement amener à la meilleur fin que l’en puet.</p>
+          <p xml:id="KBR_9234-digeste.2.9.6"><label>[2.9.6]</label>
+            <hi rend="b">P</hi>aulus dit que se celui qui est franc s’est promis metre soi en
+            jugement por autrui, et il se mete maintenant pour icelle cause, ja soit ce que il soit
+            franc, si fait il franchise à celui et bonté pour cui il se met.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.10.0">[2.10.0 De eo per quem factum erit quominus quis in
+            iudicio sistat.] <seg type="rubric">De celui qui fait tant que aucun n’aille en
+              jugement.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.10.1"><label>[2.10.1]</label>
+            <hi rend="b">U</hi>lpians dist que le prevost cuida te fraindre la droite tricherie de
+            celui qui enpeeche aucun que il ne viengne en jugement. <label>[1]</label> Mes il ne
+            pert pas que celui empeeche autrui par sa tricherie mauvaisement quant il ne le retient
+            o ses propres mains, ja soit ce que ce soit voir que il ait proié autres gens que il le
+            detenissent et que il le menassent en tel lieu que il ne venist en jugement, liquiex
+            estoit innocent et ingnoranz et nonsachanz quel chose ce estoit, et se il forfaisoient
+            ou non. <label>[2]</label> Nous prenons mauvaise tricherie en tel maniere : se aucun
+            retient autrui venant en jugement, et li prononce et dit aucune chose dont il ait
+            tristrece et besoing, ou besoing en tel maniere que il soit detenu et n’i viengne mie.
+            Celui qui sera creable sera tenu par cest banissement, ja soit ce que aucuns cui<cb
+              n="25a"/>dent que celui li puisse metre au devant ou reprouver, se einssi est que
+            celui qui est coupable ne puisse venir en jugement par la tricherie de son aucteur.
+              <label>[3]</label> Celui qui est coupable n’avra mie accion vers son aucteur par cel
+            banissement, ja soit ce que il li souffisist bien par l’excepcion de la tricherie. Et se
+            ainssi avient que il en assemble en plet, et il le suive de la paine que il a eue pour
+            ce que il n’est venu en jugement, et autre que lui l’ait detenu en aucune maniere, il ne
+            porra mie ceste action demener contre son acteur en nule bone cause ne mais vers celui
+            qui l’avra detenu. <label>[4]</label> Se pluseurs ont detenu .i. homme que il ne viengne
+            en jugement, il doivent estre touz tenuz. Et se .i. le retient et ne sache pourquoi il
+            le retient, le doivent delivrer. <label>[5]</label> Et ou commun consentement une
+            mauvaise cause pour .i. serf et en son non, celui pour cui la mauvaise cause est
+            soustenue et en qui non les en doit delivrer. <label>[6]</label> Accion doit estre
+            donnee à l’oir qui poursiet aucun heritage que son ancesseur tenoit par usage, et fait
+            estre donné l’action dedenz l’an et le jour que li ancesseur est mort, car l’oir ne doit
+            mie partir ne avoir profit en la tricherie de son ancesseur mort.</p>
+          <p xml:id="KBR_9234-digeste.2.10.2"><label>[2.10.2]</label>
+            <hi rend="b">P</hi>aulus dist : <hi rend="b">S</hi>e li serf d’un aucteur fait tant à
+            moi coupable par sa tricherie mauvaisement que je n’aille mie en jugement pour ma cause
+            et .i. acteur sache bien la tricherie et il ne li desfende mie, il dit que l’aucteur ne
+            doit mie avoir proffit en la tricherie de son<choice>
+              <sic source="#ms">son</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">son] <hi rend="i">Répété.</hi></note> serf, ja soit ce que
+            je, Offilius, coupable, eusse donné excepction à mon acteur de estre à droit. Et se
+            einsi est que le serf le face sanz le seu et sanz la volenté de son seigneur, Sabius dit
+            que il doit estre puni par cruel jugement, car ne le fait meismes du serf ne doit <cb
+              n="25b"/> nuire au seigneur ne aidier en cest cas, mes il li puet nuire se il
+            reconnoist que la mauvaistié ait esté faite par lui et il en traie le fais à soi.</p>
+          <p xml:id="KBR_9234-digeste.2.10.3"><label>[2.10.3]</label>
+            <hi rend="b">U</hi>lpians dist que par cest banissement doit estre mise en fait de droit
+            l’auction vers celui qui par sa tricherie a fait tant que celui qui est apelé en
+            jugement n’i puet estre alé. Et si doit on savoir en quel jugement la cause a esté
+            demenee, se einssi est que l’aucteur perde sa cause pour celle inquisicion. Et le
+            coupable entre ces choses aquiere seignorie de la cause en temps deu, ou il soit delivré
+            de l’action plainement. <label>[1]</label> Celui qui avra detenu par sa tricherie celui
+            dont j’ai devant parlé ne devra mie faire à celui qui sera coupable restitution de
+            l’action perdue, que celui qui sera coupable ne face profit par la tricherie d’autrui et
+            l’aucteur ne soit tormenté de dommages. ¶ <label>[2]</label> Mes, se aucun a promis à
+            .i. stipuleeur estre à droit en jugement en paine de .c. mars, et il soit detenu par
+            aucun que il n’i aille, l’action doit estre esprouvee ou fait de celui par quel
+            tricherie il a esté empeechié. <label>[3]</label> Mes, se li stipuleor soit detenu par
+            la tricherie du prometeur, et le prometeur par la tricherie du stipuleeur, que li uns ne
+            li autres ne viengnent en jugement, le prevost, penssant la traïson de l’un et de
+            l’autre, ne leur doit de riens aider. <label>[4]</label> Se je avrai esté aguillonné de
+            mon plege, et se je, coupable, avrai esté requis d’estre en jugement pour .c. mars en
+            quoi je sui obligié à mon aucteur et je n’i aille mie, ainz soie retenu par la tricherie
+            d’un homme apellé Sinfronien, l’aucteur suivra celui par cui je avrai esté detenu de .c.
+            mars et porra dire ces paroles : « Celui que <cb n="25c"/> tu as detenu fust venu en
+            jugement, je eusse gaaignié ma cause, ja soit ce que son plege m’en eust promis à rendre
+            la meneur partie ».</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.11.0">[2.11.0 Si quis cautionibus in iudicio sistendi
+            causa factis non obtemperaverit.] <seg type="rubric">De celui qui n’a pas trampees les
+              caucions faites en jugement.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.11.1"><label>[2.11.1]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">L</hi>e prevost commande .xx. mile pas estre
+            anombrez en sengles jourz, et que celui jour soit excepté, qui est pris communaument des
+            parties et ouquel il convient que il soient en jugement, car sainement telle numeracton
+            devaee n’est greveuse ni à l’une partie ni à l’autre.</p>
+          <p xml:id="KBR_9234-digeste.2.11.2"><label>[2.11.2]</label>
+            <hi rend="b">U</hi>lpians dist : <hi rend="b">N</hi>ous ne requerrons pas celui qui est
+            coupable d’estre en jugement, se einssi est que le negoce pour quoi il avoit promis
+            estre en jugement soit passé ou passast ainçois que il li convenist estre. Mes se il ert
+            aprés ce que il avoit promis estre en jugement, et il ne fust pas passé, celui à qui il
+            avoit promis d’estre en jugement loue pour sa besoigne, porra suivre ledit coupable, se
+            einssi est que il li soit promis ou que il ait paine pour son absence, ja soit ce que le
+            coupable cuidast que la besoigne fust passee, pour quoi il li avoit promis à estre. Mais
+            se le contraut avra esté especialment fait par le consentement des parties, l’un ne
+            porra suivre l’autre de nule paine. ¶ <label>[1]</label> Se aucun preneeur de dons ait
+            promis à autrui d’estre en jugement pour tesmoniage ou pour autre cause, et soit
+            empeechié par sa tricherie ou par aucuns dons en tel maniere que il n’i soit pas venu
+            pour aquitier sa promesse, celui à qui il a promis d’estre en jugement le porra suivre
+            par excepcion de plet. ¶ <label>[2]</label> Et se celui qui avra esté requis d’estre en
+            jugement en cause de tesmoing et il n’i porra estre en nulle maniere, l’en le doit
+            deporter et aidier en la meilleur maniere que <cb n="25d"/> l’en porra.
+              <label>[3]</label> Se aucun a promis d’estre en jugement pour autrui cause ou pour la
+            seue, et il n’i puisse estre par fortune, dont il soit retenu ou empeechié par tampeste
+            de fleuve ou d’autre chose, l’en li doit aidier par excepcion et avoir le pour excusé,
+            et non mie sanz cause, ja soit ce que celui à qui il avoit promis d’estre en jugement
+            pour sa cause eust grant mestier que il i fust, autresi comme se il n’i peust estre, que
+            fortune a empeechié. Se aucun juge, ou l’une partie, ou l’autre de ceuls qui plaident
+            devant lui, soient souspris soudainement par maladie, le jour qui est assigné entre euls
+            doit estre aloignié. ¶ <label>[4]</label> Se une fame ne puet venir en jugement, ja soit
+            ce que elle l’ait promis, ainz soit empeechiee par fortune ou par ce que elle est
+            enceinte d’un enfant, l’en la doit avoir pour escusee, si comme Labeo dit, se einssi est
+            que aprés l’enfantement elle puisse prouver que elle avra esté empeechiee par fortune.
+              <label>[5]</label> Aussi est il se aucun a promis d’estre en jugement et il soit
+            empeechié par ce que il est entré en forssenerie, il doit estre escusé, car qui est
+            empeechié par forsennerie est empeechié par fortune. ¶ <label>[6]</label> Nous devons
+            aidier à celui qui est empeechié par tampeste de flueve qu’i ne viengne mie en jugement.
+            Mes nous devons tampeste entendre en tel maniere, soit de mer ou de terre. Empeechement
+            de terre est quant aucun est retenu en voie en quel maniere que ce soit, mauvaisement.
+              <label>[7]</label> La force du flueuve est, ou la tampeste, est à estre prise ou
+            entendue en maniere quant aucun est en mer et il ne puisse mie trouver navie.
+              <label>[8]</label> Et se aucun soit passé la mer en temps convenable, et tampeste soit
+            levee en la mer que il ne puisse ne n’ose metre s’en <cb n="36a"/> en peril, et il se
+            refraigne pour la cause ou peril, porquoi ne li proffitera telle excepcion, se einssi
+            est que la cause soit conneue pour quoi il ne puet mie venir et pour quoi il est
+            contraint demorer ? Et se aucun dit : « Pourquoi a il tant targié à venir, et pourquoi
+            ne vint il lonc temps devant ce que le jour venist ouquel il avoit promis estre en
+            jugement ? ». Se einssi est que ce li soit mis au devant, il doit dire que la force et
+            la tampeste de la mer a esté cause de sa demoree. Se aucuns soit ou est alé à Romme de
+            sa volonté non, ne pour sa cause, ja soit ce que il i soit alé pour gaaigner et il eust
+            promis d’estre en jugement pour la cause devant dite, pourquoi ne sera il digne que
+            ceste excepcion li vaille ? Se aucune tampeste est en la mer et celui qui est à terre
+            seche ne puisse venir à son jour ne avironner le fleuve, ceste excepcion ne proffitte
+            pas toutes fois, se einssi n’est que celui qui est à terre seche soit angoisseus de
+            passer et se il ne mesure la terre ou avironne à celle fin que il sache se il porra
+            venir à heure à son jour. Et comme il avra einssi avironné le flueve, que il avra le
+            temps tot aempli et le lieu où il avoit promis à estre en droit, ou aucune chetiveté ou
+            fortune perilleuse l’a empeechié, je croi que à bon droit ceste excepcion li doit estre
+            proffitable. <label>[9]</label> Aussi doit estre donnee excepcion à celui qui voloit
+            venir en jugement, si comme il avoit promis, et n’i est pas venu pource que son mestre
+            l’a retenu, se ainssi est que il ne l’ait fait par tricherie ; car, se il avoit donné
+            cause à son maistre de retenir le et eust talent que il le retenist, telle excepcion ne
+            li profitera mie, ne se il demeure ne se son maistre le retient en nule maniere por ce
+            que il l’en doingne cause.</p>
+          <p xml:id="KBR_9234-digeste.2.11.3"><label>[2.11.3]</label>
+            <hi rend="b">P</hi>aulus dit que action doit estre donnee à celui qui retient autrui que
+            il ne <cb n="26b"/> viengne en jugement quant il a promis à estre, ou pour quel cause
+            que ce soit, ne mais que elle li apartiengne.</p>
+          <p xml:id="KBR_9234-digeste.2.11.4"><label>[2.11.4]</label>
+            <hi rend="b">U</hi>lpians dist que, se aucun a promis de estre en jugement, et il soit
+            condampné d’une cause chevetaigne en tel maniere que il n’i puisse mie venir, l’en le
+            doit tenir à bon droit pour escusé. Mes nous devons prendre le condampnement de la
+            chose : aucuns dient que ceste excepcion proffitera dont au condampné, se einssi est que
+            il ne soit refraint par condampnacion de mort ou d’aler en essil. Mes aucun puet
+            respondre que ceste excepcion est neccessaire es pleges, car se il s’en va en essil,
+            sauf sa cité, ceste excepcion portera profit à son desfenssour. ¶ <label>[2]</label>
+            Ceste chose est assavoir que celui qui est fait coupable pour la cause chevetaigne et ne
+            puet mie venir en jugement comme il avoit promis, ne doit mie user de ceste excepcion se
+            il n’est condampné en tel maniere que il soit retenuz en loiaus ou en pechié, en tel
+            maniere que il ne puisse venir en jugement. De ceste excepcion porra user celui qui sera
+            condampné en tel maniere. Derechief, se aucuns est empeechié par mort ou par
+            destruiement de sa maison que il ne viengne à droit, ceste excepcion li doit estre de
+            value. ¶ Derechief, se aucuns est en servise d’anemis et pour ce il laisse à venir en
+            jugement, il puet user de ceste exception plainement. ¶ <label>[4]</label> Aucun puet
+            demander se il puet avenir que l’en puisse aler encontre que exception aucune ne soit
+            donnee à celui qui a promis d’estre en jugement et n’i vient mie. Sabius dit que ceste
+            convencion n’est mie de value, mes je croi que elle soit de value especialment à cels
+            qui ont promis à estre en jugement, et de leur gré ont renoncié à la promesse. ¶
+              <label>[5]</label> Derechief, l’en demande aucune fois se aucun a promis de faire
+            satisfaction à son deteur en lieu, et ainçois que il li doie faire et <cb n="26c"/> il
+            li face, assavoir mon se exception sera donnee à ses pleges. Je croi ainssi que il
+            convient savoir se celui qui a faite la satisfaction l’a faite par erreur ou par
+            convencion. Se il a fait satisfacion par erreur, excepcion doit estre donnee es pleges ;
+            et se il l’a faite par convencion, el ne leur doit pas estre donnee. Juliens escrist que
+            se aucuns est semons d’estre en jugement pour sa cause et il ait promis par ignorance
+            faire satisfacion de plus que il ne li est establi, l’exception li doit estre donnee. Et
+            se einssi est que il n’eust pas si grant somme <choice>
+              <sic source="#ms">somme</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">somme] <hi rend="i">Répété.</hi></note> de peccune en leur
+            convencion comme il i a promis, le exception doit estre afermee par la replicacion du
+            convenant, si comme Juliens dit.</p>
+          <p xml:id="KBR_9234-digeste.2.11.5"><label>[2.11.5]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e .ii. coupables d’une meismes cause
+            et compaignons d’une meismes debte soient tenuz à .i. deteur, et l’un ait promis à son
+            deteur d’estre en jugement sus une paine pour faire la satisfaction, et l’autre l’ait
+            empeechié, excepcion doit estre donnee à celui qui ne l’a mie empeechié, car la
+            tricherie de l’un ne doit mie nuire à l’autre pour ce se il sont compaignons.
+              <label>[1]</label> Derechief, se .ii. coupables d’une debte aient promis à leur deteur
+            d’estre en jugement pour faire satisfacion, et .i. des deteurs n’i viengne mie,
+            l’aucteur doit demander sa debte à celui qui est present et à l’autre la paine mise
+            quant il ara essaié que il fera de ce que il li avoit promis d’estre en jugement pour
+            faire lui satisfaction. ¶ <label>[2]</label> Aussi est il se le pere a promis d’estre en
+            jugement par le contraut du filz, et puis aprés le pere doinst affaire au filz pour la
+            cause que il a esté en jugement por le contralt du fil, il sera meu par exception se
+            einssi est que il ait afaire vers son pere pour la promesse. Et aussi <cb n="26d"/> est
+            il du filz, se il a promis d’estre en jugement por le contraut au pere.</p>
+          <p xml:id="KBR_9234-digeste.2.11.6"><label>[2.11.6]</label>
+            <hi rend="b">G</hi>aius dit : <hi rend="b">S</hi>e aucun a donné pleges à son deteur, et
+            pour ce il ne daigne estre en jugement pour sa cause pour laquele il a donné plege,
+            felonnesse chose et forte est au plege estre obligié pour le besoing d’autrui. Et celui
+            pour qui il est obligié ne daigne estre en jugement pour sa cause, ainz s’en va
+            franc.</p>
+          <p xml:id="KBR_9234-digeste.2.11.7"><label>[2.11.7]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e aucuns avra promis son serf en
+            jugement pour sa cause ou autre qui soit en estrange poesté, il doivent user d’unes
+            meismes exceptions, esquelles le filz s’est promis pour le pere et le serf pour le
+            franchi, exceptee celle où le pere s’est promis pour le filz, en laquele le serf est
+            promis pour son seigneur, ne puet pas faudre l’exception. Ces autres exceptions sont
+            toutes communes et aussi bien en franchi comme en serf, ne mes en celle qui est
+            exceptee.</p>
+          <p xml:id="KBR_9234-digeste.2.11.8"><label>[2.11.8]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e aucuns a promis à son aucteur
+            d’estre en jugement aprés .iii. jourz ou .v., car il i devoit estre, et il face son
+            pooir de pledier avoec lui, il doit estre desfendu par exception se einssi n’est que le
+            droit à l’aucteur soit pieur por sa demoree.</p>
+          <p xml:id="KBR_9234-digeste.2.11.9"><label>[2.11.9]</label>
+            <hi rend="b">U</hi>lpians dit : <hi rend="b">S</hi>e aucuns met son serf en plege ou le
+            promete metre pour lui en jugement pour sa cause, il ne peche mie avoec le seigneur qui
+            est stipuleeur avoec son plege. ¶ <label>[1]</label> Se aucun ait promis soi estre en
+            jugement en une paine en non de pluseurs sers en une meismes stipulacion, la paine en
+            quoi il est connus doit estre entiere, ja soit ce <cb n="27a"/> que .i. en soit
+            desfaillant. Labeo dist que ce est voir, ja soit ce que il n’i soient mie touz presens.
+            Et est voir que celui qui s’est osté de celle stipulacion à celle fin que il en portast
+            meneur paine, et par sa tricherie il doit estre parçonnier de la paine, non contraitant
+            sa tricherie.</p>
+          <p xml:id="KBR_9234-digeste.2.11.10"><label>[2.11.10]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e je ai promis en jugement aucun home
+            qui ert delivré grant temps a du jugement el quel je l’avoie promis à estre et ne tenoit
+            mais par aventure pour celle action, l’auction doit estre donnee en moi, car ou je le
+            desfende ou je le demoustre que la verité en soit enquise. ¶ <label>[1]</label> Se aucun
+            homme ait proumis lui estre en jugement, et il soit peri devant le jour de sa promesse
+            par sa tricherie, nous dimes ou dison par certain droit que il ne doit mie encorre en
+            paine devant que son jour vienge, car toute la stipulacion est concuilliee en jour
+            assigné. ¶ <label>[2]</label> Se aucun a fait ajourner son adversaire en jugement par
+            cause d’injures, la stipulacion commise, l’aversaire soit mort devant ce que la plederie
+            soit commenciee, il ne doit pas plaire à l’oir ; ne ne li souffit mie l’action du
+            stipulement, car l’action des injures ne souffist mie à l’oir, ja soit ce que la
+            stipulacion de estre en jugement pour la cause faite trespasse jusques à l’oir ; si ne
+            doit l’en mie suivre l’oir des injures au mort, ainz doit chaoir l’action des injures
+            sanz reprouver les à l’oir ¶ par action. Aussi est il se celui à qui je vouloie pledier
+            en jugement par cause d’injures soit mort la stipulacion commise, je ne puis mie envers
+            l’oir du mort suivre mon action. Et c’est ce que Julien escrist, selonc ce que, se il
+            donne plege des injures, l’en ne l’en porra suivre aprés la mort au coupa<cb n="27b"
+            />ble. Pomponius escrist et cuide que ce soit voir, se einssi n’est que aprés lonc temps
+            des injures faites il sera mort, et fust venu en jugement pour faire satifacion des
+            injures et eust suivi sa cause, ne l’aucteur ne fust le plege : en cest cas le plege
+            porra estre sui des injures au mort.</p>
+          <p xml:id="KBR_9234-digeste.2.11.11"><label>[2.11.11]</label>
+            <hi rend="b">U</hi>lpians dit : <hi rend="b">S</hi>e aucun a promis autrui d’estre en
+            jugement en celle meismes cause, il doit faire tant que il i soit en tel maniere que
+            l’aucteur n’ait pieur droit pour lui, ja soit ce que l’action de la chose en puisse bien
+            estre plus forte, et ja soit ce que l’action en soit plus forte. Si doit l’en dire, et
+            est veu en droit, que il i doit estre, car se celui qui est promis d’estre en jugement
+            fesoit tant que l’aucteur perdist sa pecune, il devroit estre en jugement en icele cause
+            pour le coupable, et faire satisfacion ; donques celui qui est promis estre en jugement,
+            il doit estre par droit escript.</p>
+          <p xml:id="KBR_9234-digeste.2.11.12"><label>[2.11.12]</label>
+            <hi rend="b">P</hi>aulus dit que celui qui use de nouvel priviliege ne doit mie estre en
+            jugement pour la cause devant dite. ¶ <label>[1]</label> Ce meismes doit estre tenu,
+            car, ja soit ce que il ait grant quantité de temps, que il apartient de l’aucteur seut
+            suivre sa cause, l’en doit raporter le temps en quoi il oult promis d’estre en jugement,
+            ouquel temps il avoit affaire vers son aucteur, ja soit ce que il ait delaissié à estre
+            i.</p>
+          <p xml:id="KBR_9234-digeste.2.11.13"><label>[2.11.13]</label>
+            <hi rend="b">P</hi>aulus dit que quant .i. serf a promis estre en jugement pour sa cause
+            pledier, soit aucteur ou decteur, et la plaiderie n’est pas commise ne les pleges
+            enplaidié ne es autres, il ne doit ne ne puet estre condampné.</p>
+          <p xml:id="KBR_9234-digeste.2.11.14"><label>[2.11.14]</label>
+            <hi rend="b">N</hi>eracius dit : <hi rend="b">S</hi>e aucun procurateur plaide en tel
+            maniere que il cause son adversaire en paine ou en despens, comme que ce soit, et il ne
+            fust mie en paine, se le procurateur n’eust <cb n="27c"/> la plaiderie commenciee et
+            enprés la maniere du mouvement, la stipulacion ne la paine en laquelle le coupable a
+            esté mise ne doit mie porter proffit au procurateur. Mes se einssi est que il ait pris à
+            pledier ou desfendre pour .i. autre besoing, et il face tant que il le puisse desfendre
+            non mie comme procurateur mes aussi comme esperant proffit en la cause dont il maine la
+            plaiderie aussi comme se il en fust seigneur, et se la cause fust seue de celui pour qui
+            il l’a prise, certaineme[nt] de cele stipulacion le proffit courra vers celui qui avra
+            la cause desfendue. Ice meismes et plus fort puet estre fait se le procurateur plaide ou
+            face tant que il gaaint la cause son mestre, ou il promete son mestre estre en jugement
+            pour sa cause et il n’i viengne mie. Ceste concepcion de paroles ne doit mie estre
+            raportee ne porter proffit au procurateur mes à son mestre.</p>
+          <p xml:id="KBR_9234-digeste.2.11.15"><label>[2.11.15]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e le meneur d’un enfant souz aage ara
+            promis li estre en jugement pour la cause dudit souz aage, et il n’abregera mie la
+            plaiderie ne ne l’atrempera mie, et entre ces choses ledit souz aage croistra ou il sera
+            mort ou il tendra son heritaige, se einssi est, il porra deneer la chose qui avra esté
+            demandee à son meneeur en jugement par la cause de sa plaiderie, se le meneur en est
+            enchaoit ; et ne l’en porra l’en suivre par action de plaidié en nulle maniere, car ce
+            est droit tout prouvé.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.12.0">[2.12.0 De feriis et dilationibus et diversis
+            temporibus.] <seg type="rubric">Des causes des fruiz de dilacion des divers temps, par
+              quel cause il sont empeechiees.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.12.1"><label>[2.12.1]</label>
+            <hi rend="b">U</hi>lpians dit que, se aucuns requiert son adversaire d’estre à droit en
+            jugement contre lui en temps l’en doit cuidier les blez ou vendengier les vingnes, il
+            est repris par la proiere de marchié, car la gent sont oc<cb n="27d"/>cupez en cel temps
+            des blez qui sont sus la terre. Et pour ce ne doivent il mie estre deboutez.
+              <label>[1]</label> Mes se le prevost par son ignorance ou par la desverie ara
+            perseveré ceuls apeler pour estre en jugement, et il i viengnent de leur volenté, ¶ se
+            aucun avra dit sa sentence en la presence de ceuls pledans de leur volenté, la sentence
+            vaudra, ja soit ce que celui n’a pas fait droit qui les a apelez. Et se einssi est que
+            ceus que le prevost avra apelez soient defaillanz, et le prevost voudra perseverer en la
+            sentence en leur absence, il doivent dire, et ensuit à dire, que la sentence n’est mie
+            de value ; ne ne doit l’en mie soustenir le dit du prevost, ainz doit estre la sentence
+            condampnee et destruite par appel. <label>[2]</label> Mes nous en exceptons les causes
+            esquelles nous sommes, ou poons estre, pourforciez venir au prevost, ja soit ce que il
+            soit le temps el quel l’en cuit les blez ou l’en vendenge les vingnes, c’est assavoir se
+            la cause est perie par dilacion de temps, et l’action. Dont est il assavoir sainement
+            que nous sommes pourforciez venir au prevost toutes les foiz que la chose le requiert
+            pour le pledié prendre fin. Et einssi sommes nous exprimez par les paroles de l’oroison
+            dudit Marc. Derechief, l’oroison otroie l’un et l’autre escusanz soi par tel maniere que
+            il suivent leur pleiderie.</p>
+          <p xml:id="KBR_9234-digeste.2.12.2"><label>[2.12.2]</label>
+            <hi rend="b">C</hi>il meismes dit que par celle meismes oroison recitee el senat de Marc
+            ne doit pas le prevost requerre aler en jugement à jour de feste, aussi comme les
+            tuteurs sont donnez devant les curateurs à jour de feste establis. Et si i pueent estre
+            amonnestez aucuns de faire service, se il cesse à faire le et il l’ait fait devant
+            excusacions, il pueent estre ajugiees. <cb n="28a"/> Et norrissemenz establis et prouver
+            aages et metre em possession autrui de garder sa chose ou legatoire et commissions de
+            foy ou domages fais. Derechief, en testamenz puet l’en ajouster ces oevres que l’en puet
+            faire à feste, car tuteur i puet estre donné pour les biens à aucun mort duquel .i. hoir
+            est issu, ou nourrir aucuns franchiz ou d’aler à l’eritage d’aucuns parens ou patrons
+            amonnester. Et leur doivent prester franchise par la commission de lor foy, ou il soient
+            crains d’euls par l’injure de regart felon.</p>
+          <p xml:id="KBR_9234-digeste.2.12.3"><label>[2.12.3]</label>
+            <hi rend="b">C</hi>il meismes dit que le temps où l’en quelt les blez ou l’en vendenge
+            les vingnes seult estre assigné. Et le droit dit des choses qui perissent par temps
+            perilleus ou par mort. Par mort aussi comme par domage de fruit ou de deluges cruels ou
+            par peril d’embrasemenz, ou sont ravis ou par aucun naviee ou par chose semblable.
+              <label>[1]</label> Derechief, se aucune chose est perie par temps, celui qui a action
+            vers autrui le puet suivre par action en temps de la chose perie. Item jugemenz frans
+            puuent estre fenis en touz temps. <label>[2]</label> Derechief, droit doit estre donné
+            envers celui en touz temps qui pour le besoing et pour le proffit commun suit les
+            foires.</p>
+          <p xml:id="KBR_9234-digeste.2.12.4"><label>[2.12.4]</label>
+            <hi rend="b">P</hi>aulus dit que les seigneurs des provinces ou des regions seulent
+            assigner le temps en chascun lieu de lour province de queudre les blez ou de vendengier
+            les vingnes, et establir la cause du temps.</p>
+          <p xml:id="KBR_9234-digeste.2.12.5"><label>[2.12.5]</label>
+            <hi rend="b">U</hi>lpians dit que les maistres ont acoustumé que il ne doivent faire
+            jugement ne moustrer leur poesté au premier jour des kalendes de janvier.</p>
+          <p xml:id="KBR_9234-digeste.2.12.6"><label>[2.12.6]</label>
+            <hi rend="b">C</hi>il meismes dit que se aucun a jugié ou a esté jugié, celui qui a
+            jugié est pris par la premiere regle de cest tytre que il ne juge, ne <cb n="28b"/> seit
+            jugier es jours de feste se ce <choice>
+              <sic source="#ms">nnest</sic>
+              <corr resp="#ed">n'est</corr>
+            </choice><note resp="editor">n’est] nnest <hi rend="i">ms.</hi></note> de la volenté des
+            parties. Et pour ce jugera l’en autrement envers les choses qui seront faites en temps
+            que l’en queult les blés et que l’en vendenge les vingnes, ouquel l’en ne doit faire
+            jugement ne faire soi paier à force d’autrui, se einssi n’est que la chose pourforce le
+            jugement estre fait.</p>
+          <p xml:id="KBR_9234-digeste.2.12.7"><label>[2.12.7]</label>
+            <hi rend="b">C</hi>il meismes dit : <hi rend="b">C'</hi>est que l’empereor Marc requiert
+            par oroison, que nus ne doit donner plus d’une fois dilacion d’instrumenz loiaus par le
+            proffit et par la grace de la cause conneue, et entre ces choses dilacion seult estre
+            departie selonc la moderacion des liens de celle meismes province ou d’autre. Et
+            meesmement, se aucun soit plegié par plet vient cuidablement. ¶ Ceste chose est à veoir,
+            se aucun avra requis dilacion pour ses instrumenz, et celui qui avra requise la dilacion
+            soit mort, et son successeur i veille qu’elle li soit donnee ; ja soit ce que elle ait
+            esté donnee devant, si puet elle estre donnee en la cause conneue.</p>
+          <p xml:id="KBR_9234-digeste.2.12.8"><label>[2.12.8]</label>
+            <hi rend="b">P</hi>aulus dit que par la coustume de Romme le jour commence à mienuit et
+            la nuit fenist en demie l’autre, ice que les heures du jour et de la nuit qui sont
+            .xxiiii. sont parties par mi, ja soit ce que les heures du jour soient faites et celles
+            de la nuit.</p>
+          <p xml:id="KBR_9234-digeste.2.12.9"><label>[2.12.9]</label>
+            <hi rend="b">U</hi>lpians dit que le seigneur de Troies en Champaigne escrist en la
+            municion naturelle que l’en doit donner vacacions es besoignes natureles des festes.
+            L’en doit donner dilacion es besoignes qui apartienent à chevalier en jour de feste.</p>
+          <p xml:id="KBR_9234-digeste.2.12.10"><label>[2.12.10]</label>
+            <hi rend="b">P</hi>aulus dit que es choses mouvables en toutes ensemble et en chascune
+            par soi ne puet estre dilacion donnee plus d’une fois. En cause <cb n="28c"/> capital,
+            l’en en doit donner .iii. au coupable, et à l’aucteur .ii., mes la cause de l’une partie
+            et de l’autre doit estre contenue de demoustrer response de cause.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.13.0">[2.13.0] <seg rend="eleve">De edendo.</seg>]</head>
+          <p xml:id="KBR_9234-digeste.2.13.1"><label>[2.13.1]</label>
+            <hi rend="b">U</hi>lpians dit que quiconques veult suivre autrui par action, il doit
+            ainçois demoustrer son action que il commence à suivre son action, car ce est plus juste
+            chose, si comme il m’est avis, que il la moustre ainz que il procede en la cause, et que
+            par celle demonstrance le coupable sache à dire se il voudra laissier sa cause ou il
+            voudra proceder contre son aucteur. Et se il velt estriver, il doit venir tout
+            conseillié de respondre l’auction conneue quant il assemblera avoec son acteur.
+              <label>[1]</label> Demostrer action est baillier par escrit et par copie faire, ou par
+            libelle complet ou diter. Et ce doit l’aucteur demoustrer, si comme Labeo escrist, que
+            qui maine tant son adversaire que il demoustre à .i. autre que quel chose il veult dire.
+              <label>[2]</label> Demoustrance de choses doivent estre faites sanz conseil, que celui
+            ne se pourpensse le jour demoustré et que il ne se conseille le jour aloignié. Tel jour
+            et tel conseil doit excepter le prevost en quoi li instrument est conscrit, et non mie
+            celui ouquel la solucion est conceue, car le jour de la solucion est aussi comme la
+            souveraine partie de la stipulacion. Les raisons doivent estre moustrees o le jour et o
+            le conseil por ce que le jour est receu et donné, car se le jour du conseil n’est
+            aloignié, il n’en porront autrefois apeler. ¶ <label>[3]</label> L’aucteur doit
+            demoustrer touz les instrumenz lesquiex il a empensé de moustrer au juge et user vers
+            son adversaire, car l’en ne doit pas porforcier de mostrer les instrumenz desquiex il
+            n’a mie empenssé de user. ¶ <label>[4]</label> Celui ne demoustre mie, qui ne moustre
+            toute sa stipulacion. <label>[5]</label> L’en doit escuser cels <cb n="28d"/> qui par
+            aage ou par ruderie ou par sexe ne moustrent mie leur instrumenz, ou par autre juste
+            cause.</p>
+          <p xml:id="KBR_9234-digeste.2.13.2"><label>[2.13.2]</label>
+            <hi rend="b">P</hi>aulus dit que se aucun lais est requis, le prevost ne commande mie
+            moustrer les paroles du testament, pour ice par aventure que les hoirs seulent avoir
+            l’example et la copie du testament.</p>
+          <p xml:id="KBR_9234-digeste.2.13.3"><label>[2.13.3]</label>
+            <hi rend="b">M</hi>arcians dit que aucun possesseur ne doit pas estre requis de moustrer
+            instrumenz, se einssi n’est que il n’apartiengne à la cause de quoi il plede vers son
+            adversaire.</p>
+          <p xml:id="KBR_9234-digeste.2.13.4"><label>[2.13.4]</label>
+            <hi rend="b">U</hi>lpians dit : Le prevost dit que les changeeurs d’une table d’argent
+            demoustrent les raisons qui apartienent à euls ou jour à jeter à leur conseilleeur. ¶
+              <label>[1]</label> La raison de cest banissement est tres droituriere, comme einssi
+            soit que les raisons de l’argentier confusent les raisons de pluseurs singulierement. Il
+            fut et est droit que celui qui les confit par ma cause en aucune maniere me doit
+            moustrer l’instrument. <label>[2]</label> Mes le filz du pere qui à moi <choice>
+              <sic source="#ms">estrive familie</sic>
+              <corr resp="#ed">estrive</corr>
+            </choice><note resp="editor">estrive] estrive familie <hi rend="i">ms.</hi></note> est
+            tenus de moustrer par ces paroles, et puet l’en demander savoir mon se il est pere.
+            Labeo escrist que lui non mie pourforcie estre pere, ne mes le pere savant qui a
+            l’excercion de l’argenterie. ¶ Mes Sabien respont droitement ce à estre delaissié quant
+            à maintenant comme il raconte et demande lui estre pere. <label>[3]</label> Mes se
+            einssi est que aucun sergent face l’argenterie et il face aucune tels chose de la
+            volenté au seigneur, le seigneur doit estre pourforcié de moustrer. Et doit l’en
+            demoustrer et donner jugement contre lui, aussi comme se il l’eust fait. Mais se il
+            l’avra fait non mie de la volenté du seigneur, dont porra jurer le seigneur non mie
+            avoir raison d’estre porforcié. Mes se le sergent fait la peculiere ou l’argentier, il
+            doit estre tenu seigneur de l’un et de l’autre ; mes se le seigneur <cb n="29a"/> a ces
+            raisons et il ne les moustre mie, il est tenu coupable en fait. <label>[4]</label> Celui
+            qui a delaissié son argenterie à faire est porforcié à respondre. <label>[5]</label> Mes
+            il est porforcié respondre illeuc, en cel lieu el quel il tient son argenterie ; mes ce
+            est establi que, se il a l’instrument argentier en autre province, je cuide que illeuc
+            doit il estre pourforcié de moustrer en liu où il tient son argenterie, car il a lessié
+            le premier lieu et s’est tresporté en autre lieu, li et son instrument. Et se
+            l’argentier tient son argenterie en autre lieu, et il soit porforciez faire
+            demoustracion non mie en lieu, ce ne doit pas estre fait, ne il ne doit mie estre
+            porforcié par droit commun, se ce n’est par aucun rescrit que celui qui suit voille
+            enpetrer ; et celui qui est suivi doit faire satisfacion des despens.</p>
+          <p xml:id="KBR_9234-digeste.2.13.5"><label>[2.13.5]</label>
+            <hi rend="b">P</hi>aulus dit que l’espace doit estre donnee à prononcier ces causes.</p>
+          <p xml:id="KBR_9234-digeste.2.13.6"><label>[2.13.6]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">S</hi>e aucun des argentiers aussi comme
+            l’un des devant dis ait envielli son instrument ou en grenier où il te maint ou lieu ou
+            il die raisons descriptes pour quoi il ne t’i doie mie mener, à ce doit il estre
+            porforcié. <label>[1]</label> Et aussi doivent estre porforciés ses successeurs de
+            moustrer raisons. Et se il soient, ou sont, pluseurs hoirs, et .i. tout seul ait
+            l’argenterie, il doit estre porforcié à demoustrer les raison. Et se pluseurs le
+            tienent, et .i. ait demoustré pour touz, il doivent estre porforciez touz à demoustrer.
+            Et se einssi est que .i. des hoirs humeliant et requerrant et demoustrant que il se
+            doute que il ne soit coupable de la demoustroison, ou puisse estre, aussi doivent dire
+            les autres ou avoir la subscripcion de la demoustrance de l’autre ; einssi sera il. Se
+            einssi est que il soient pluseurs argentiers de qui demous<cb n="29b"/>troison doit
+            estre desirree, aussi est il se pluseurs tuteurs amenistrent la garde à .i. enffant souz
+            aage, il doivent demoustroison faire ensenble ou soustrere la demoustroison de l’un.
+              <label>[2]</label> Il est requis de l’aversaire de l’argentier non mie en demandant de
+            son argentier serement de calongne estre demoustré à lui, que l’en ne cuide que il
+            voeille proceder par raisons vacantes pour travaillier la cause de l’argentier.
+              <label>[3]</label> Labeo escript la raison estre telle de croire de son gré vers la <choice>
+              <sic source="#ms">negociun</sic>
+              <corr resp="#ed">negociaciun</corr>
+            </choice><note resp="editor">negociaciun] negociun <hi rend="i">ms.</hi></note>. L’en
+            doit donner au creancier pooir d’obligier pour la cause de son negoce et ne mie prendre
+            aucune raison contre la nue solucion de la debte. <label>[4]</label> Et se le creancier
+            avra pris gage ou mandement, il sera porforcié de demoustrer vers la raison du
+            mandement. Et se il a paié l’argentier, il doit respondre, car de l’argenterie vient la
+            cause. <label>[5]</label> Donques apert il par cest banissement que contre icelui à qui
+            l’action apartient puet aler celui qui a fait le mandement, et li apartient se il a obei
+            au mandement. Apartenir m’est il avis à moi quant il l’avra traitié contre mon
+            mandement, il li ara obei devant. Mes, se mon procurateur le mande en mon abscence aussi
+            comme se ce fust en ma presence, il porra demoustrer aussi comme se il apartenist à moi,
+            et est miex que il face demoustroison. Je ne dout donques mie que il n’i ait raison de
+            faire lui demoustroison, laquelle il avoit à moi. <label>[6]</label> Se aucun a jor à ce
+            que il ait pris une debte de aucun presteeur, et il ne soit pas escript par le vice du
+            clerc ou des tables, et aprés l’en moustre à celui qui a pris la debte les tables sanz
+            le jour ouquel laquelle debte fu prestee, le jour et le conseil de la debte prestee doit
+            estre commun le jour proposé et le conseil où la debte fu prestee. <label>[7]</label>
+            Demoustrer est ditier ou <choice>
+              <sic source="#ms">esespondre</sic>
+              <corr resp="#ed">espondre</corr>
+            </choice><note resp="editor">espondre] esespondre <hi rend="i">ms.</hi></note> ou
+            baillier libelle ou caier en prononçant. <label>[8]</label> Le prevost dit à l’argentier
+            ou à celui qui requiert la demostrance : « Je vous commanderai de moustrer vostre cause
+            quant je l’arai conneue ». <label>[9]</label> Il denoie à l’argentier moustrer sa cause
+            par ceste raison, car il puet estre ensaignié de l’instrument de sa prophecion ou de son
+            art, car ce est chose à dire de sourt, car comme celui soit ensaignié en la cause que il
+            de l’autre requiere de moustrer lui la cause, ¶ l’en doit voir se la raison de la cause
+            doie estre demoustree à l’oir de l’argentier et se l’instrument de l’argentier li
+            parvendra. Et se l’instrument li parvient, la cause li doit estre moustree. Mes à cel
+            argentier la raison doit estre demoustree par grant cause se il puet prouver que il ait
+            perdues ses raisons ou par peril de mer ou par embrasement, ou il ne les puet avoir pour
+            ice que il sont trop loing, aussi comme outre la mer. <label>[10]</label> Le prevost ne
+            li doit mie commander que il les moustre à celui qui les demande à veoir, ne mais par
+            juste cause.</p>
+          <p xml:id="KBR_9234-digeste.2.13.7"><label>[2.13.7]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">A</hi>ssi comme celui qui s’en va hors du
+            paÿs en pelerinage par banissement ou il en suit mains planierement par banissement, ou
+            il ara perdu ses raisons par greigneur cas et non mie par sa negligence, car se il l’a
+            perdu par cel cas il li doie estre pardonné, il commanda et porra commander la cause
+            estre planierement demoustree. ¶ <label>[1]</label> Ceste vois derechief senefie .ii.
+            choses : l’une demoustre bonne chose, et l’autre demoustre temps selonc grec. Et est
+            dite que elle appartient es temps ensuivans et prise einssi par toutes les fois que il
+            en est mestier, car elle puet estre faite et prise par .ii. fois ; et est prise
+            souventes fois pour « sepius », qui senefie souvent.</p>
+          <p xml:id="KBR_9234-digeste.f.29d"><label><cb n="29d"/>[2.13.8]</label>
+            <hi rend="b">U</hi>lpians dit : <hi rend="b">E</hi>n quiconques lieu li argentier est
+            requis moustrer les raisons, il doit estre puni se il le devee par sa tricherie.
+              <label>[1]</label> Celui qui en cest banissement sera enchaoit, icelui preste à autrui
+            pour ce que il a esté en icelle cause, doit demoustrer ses raison comme il est regardé
+            du prevost, comme l’action ait esté commenciee estre mise en fait. Et se il a delaissié
+            estre mis en fait ou de plus ou de mains, ceste action n’avra mie lieu, ne acroissement
+            ne amenuisement.</p>
+          <p xml:id="KBR_9234-digeste.2.13.9"><label>[2.13.9]</label>
+            <hi rend="b">P</hi>aulus dit que aucunes personnes sont que il nous escouvient tenir
+            pour raisonnables, ne ne sont mie teles personnes estre porforciees par cest
+            banissement. ¶ Scevola dit : Leur procurateur avra aministré nos choses ou nos raisons.
+            Le prevost ne doit mie pourforcier par paour les raisons de l’action estre demoustrees
+            en fait, car nous poons ce suivre par l’action du mandement devant dit. Mes se aucun
+            compaignon porte ma besoigne de mon plait, le prevost ne porra mie par ceste clause à
+            moi venir, car l’action est pour le compaignon ; ne le prevost ne doit mie pourforcier
+            le meneeur d’enfanz souz aage de moustrer raisons audit souz aage, mais il en doit et
+            seult estre pourforcié en jugement de la garde. <label>[1]</label> Il ne apartient de
+            riens se les successeurs ou le pere ou la mere ou le seigneur de l’argentier avront
+            estré d’une meismes profession, car comme il sont illeuc en lieu et en droit, il doivent
+            user en es parties de l’argentier. Icelui à qui l’argentier ara laissié ses raisons, ne
+            il n’est mie veu estre contenu <choice>
+              <sic source="#ms">estre contenu</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">estre contenu] <hi rend="i">Répété.</hi></note> es raisons,
+            car il est senefié estre suscesseur par ces paroles et par droit, ne mie plus que se il
+            eust donné ses choses en droit. Mes ne l’oir ne doit estre tenu comme il ne <cb n="30a"
+            /> poursie riens de son successeur, soit par tricherie ou par autre chose. Mes se il li
+            ara renoncié ainçois que le lesseeur li baillast, il i sera tenu aussi comme se il
+            l’eust fait par tricherie. ¶ Derechief, le legat sera tenu et pourforcié ainçois que il
+            voit tes raisons de moustrer <choice>
+              <sic source="#ms">de moustrer</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">de moustrer] <hi rend="i">Répété.</hi></note> sa cause, se
+            einssi est que il n’ait riens fait par tricherie. <label>[2]</label> Pomponius escrist
+            non mie estre felonnesse chose le monnoier estre porforcié de moustrer ses raisons, car
+            les monnoiers font leur raisons aussi comme les argentiers, car aussi prennent il
+            peccune et il la baillent par les parties desquelles la prouvance est escripte en
+            l’escripture et es quaiers d’icelle. Et courut souventes fois, ou est decourue, à la
+            verité d’icelle et à la foy. <label>[3]</label> Certainement, il commande requerre et
+            demoustrer à cels qui requierent monnoie à prester, ne mie juranz de calompne les
+            raisons qui leur apartiennent. <label>[4]</label> Car il nous apartient à nous argentier
+            faire le commandement estre fait par celui qui le fait, non mie tant seulement comme
+            nous aion celui contraitié ou souzmis à celui qui le contraut fist, s Se einssi est que
+            celui qui est en nostre poesté ait fait le contraut.</p>
+          <p xml:id="KBR_9234-digeste.2.13.10"><label>[2.13.10]</label>
+            <hi rend="b">G</hi>aius dit que il commande à l’argentier de moustrer les raisons de sa
+            cause, ne il ne apartient mie maintenir plaiderie avoec l’argentier ni avoec autre qui
+            soit presteeur d’argent. <label>[1]</label> Pour ce certainement le prevost ne commande
+            mie, ne ne pourforcie les argentiers ne aucuns autres qui leur resemblent moustrer leur
+            raisons, car leur office et leur mistere a cause publique, et l’oeuvre d’icels est
+            principal, en tel maniere que il confisent leur fais et leur raisons diligaument.
+              <label>[2]</label> Demoustrement de raison est entendue en tel maniere, se elle soit
+            demoustree du chief, que se la raison n’est demoustree du chief, elle ne puet estre
+            entendue. Ce est assavoir que elle doit estre demoustree <cb n="30b"/> du chief à celle
+            fin que celui à qui l’en la moustre ne puisse mie ne n’ait cause de regarder ne descrire
+            tout le quaier ne toute la grant pel, mes seulement cele parties des raisons qui
+            apertiennent à aucun instrument. Celle partie doit estre regardee et escripte.
+              <label>[3]</label> Et comme l’action conviengne en ice, de quel quantité la demande de
+            l’aucteur soit, et les raisons que apartiennent et qui dependent de l’action aussi comme
+            se aucun avoit esté condampné ou il n’ara mie gaaignié ce que il ara demandé ni eu pour
+            ice quar il n’a mie raisons par quoi il puisse desfendre sa cause. Et celui qui avra
+            einssi perdu doit estre suivi par ceste action. <label>[4]</label> Mes nous poons veoir
+            se il est einssi et comme ceste cause va. Car, se il puet prouver vers le juge devant
+            qui l’en a fait le jugement entre lui et l’argentier par lequel il a esté vaincu, que il
+            deust avoir vaincu et non mie avoir esté vaincu, et se il offri ce à prouver et il ne le
+            peust prouver ou le juge ne fera force de sa prouvance, il se puet complaindre du juge.
+            Et se il n’est einssi, si puet il estre fait : ou il demoustre maintenant raisons, ou,
+            celui demoustrant, il s’est pourpensé en autre maniere, c’est assavoir que il puet bien
+            prouver que par autres instrumenz ou par tesmoinz desquiex ne par lesquiex il ne pot mie
+            prouver en icel temps par aucune cause, et il le peust bien maintenant prouver, par ce
+            porra il dire que il n’est pas vaincu. Et en tel maniere font il condicion en icelle
+            caucion et est ainssi corrompue, et il en puet avoir action d’injures et de domages, car
+            la prouvance que nous ne poïsmes mie faire el temps passé ne prouver la caucion
+            commenciee, et pour ice perdismes nous nostre cause ; mais maintenant, par autres
+            instrumenz et par autres tesmoins par lesquiex nous ne poions mie prouver, adonc nous
+            poissons bien maintenant prouver.</p>
+          <p xml:id="KBR_9234-digeste.f.30c"><label><cb n="30c"/>[2.13.11]</label>
+            <hi rend="b">M</hi>odestins dist que les examples des instrumenz ou de la subscripcion
+            desmoustrans quant elle puet estre demoustree est receue.</p>
+          <p xml:id="KBR_9234-digeste.2.13.12"><label>[2.13.12]</label>
+            <hi rend="b">C</hi>allistratus dit que il apert que les fames soient ostees de l’office
+            d’argenterie pour que ce est oevre qui apartient à homme.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.14.0">[2.14.0 De pactis.] <seg type="rubric">Des
+              convenans.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.14.1"><label>[2.14.1]</label>
+            <hi rend="b">U</hi>lpians dit que l’egauté de cest banissement est naturelle. Quelle
+            chose est ce qui est tant bonne à la foy humaine comme les convenans gardez entre ceuls
+            qui les font ? <label>[1]</label> ¶ Convenant certainement est dit de enconvenancement
+            dont le non de pais est apelé. ¶ <label>[2]</label> Enconvenancement est de .ii. ou de
+            pluseurs et non mie plaisir ne convenancement. <label>[3]</label> La parole de
+            convencion est general : apartenante à touz ceuls qui consentent la cause du besoing
+            estre contraitié ou transportee entre ceuls qui ont afaire entre euls, aussi comme
+            convenir est dit de aucuns qui de divers lieus se assemblent ensemble en .i. lieu, aussi
+            est il de ceuls qui de divers mouvemenz de courage s’acordent ensemble, c’est assavoir
+            concordent en une sentence. Et en tant le non de convencion est general que Pedius dit
+            esliusablement que il n’est nul contraut ne nule obligacion où il n’ait convencion, soit
+            faite par chose ou par parole, car stipulacion qui n’est faite par parole est nule. ¶
+              <label>[4]</label> Les nons de convention trespassent en autre non : en achatant, en
+            alouant, en gagament ou ou en stipulacion.</p>
+          <p xml:id="KBR_9234-digeste.2.14.2"><label>[2.14.2]</label>
+            <hi rend="b">P</hi>aulus dit : <hi rend="b">L</hi>abeo dit que aucuns puet convenir
+            ensemble ou par chose ou par viande ; ou par .i. message puet il bien convenir entre
+            absens, mes certainement il sont entendus convenir par consentement taisible.
+              <label>[1]</label> Et pour ce, se je avrai donné à mon debteur caucion, il m’est avis
+            que il convient entre nous, <cb n="30d"/> car il li plut que je ne requersisse excepcion
+            de convencion à avenir.</p>
+          <p xml:id="KBR_9234-digeste.2.14.3"><label>[2.14.3]</label>
+            <hi rend="b">M</hi>odestins dist que aprés ce que je avrai rendu à mon debteur son gage,
+            et il ne m’ait mie paié ma debte, il est en doute assavoir mon se je li porroie mes
+            demander ma debte, se einsi n’est especialment que le contraut puisse estre prouvé.</p>
+          <p xml:id="KBR_9234-digeste.2.14.4"><label>[2.14.4]</label>
+            <hi rend="b">P</hi>aulus dit que les convencions qui sont faites taisiblement valent. Et
+            ce proffite à ceuls qui <choice>
+              <sic source="#ms">a habitent</sic>
+              <corr resp="#ed">habitent</corr>
+            </choice><note resp="editor">habitent] a habitent <hi rend="i">ms.</hi></note> es liex
+            des citez, se nule chose sera assemblee ou nouviaument avoec l’aloueeur de gages.
+              <label>[1]</label> Et selonc ce, le guerredon puet estre taisiblement enconvenancié.
+              <label>[2]</label> L’argument de ceste chose est car aucune stipulacion est faite par
+            la cause de douaire : car devant les noces donner ne doit mie estre requis, aussi comme
+            se ce fust esprés que douaire ne puet estre requis se ce n’est par la cause des noces ;
+            car se la cause des noces n’estoit, la stipulacion du doaire seroit esvanoïe et nule.
+              <label>[3]</label> Cil meismes dit que celui qui est consillié de cest fait ne doit
+            mie le douaire paier devant que il soient assemblez par lieu de mariage, ne il ne doit
+            mie estre requis. Et se stipulacion en est commenciee en aucune maniere, l’en i doit
+            metre condicion aussi comme se ce fust fait exprés.</p>
+          <p xml:id="KBR_9234-digeste.2.14.5"><label>[2.14.5]</label>
+            <hi rend="b">U</hi>lpians dit que il est .iii. manieres de convencion, car elle est
+            faite ou de cause publique ou de cause privee, ou de legitime ou de droit de gens.
+            Convencion publique est qui est faite par païs. Quant aucuns rois ou contes
+            s’entreguerroient, font aucuns convenanz ensemble.</p>
+          <p xml:id="KBR_9234-digeste.2.14.6"><label>[2.14.6]</label>
+            <hi rend="b">P</hi>aulus dit que la convencion legitime est qui conferme par aucune loy.
+            Et pour ce aucune fois action naist de convencion, et ist toutes les fois que la loy li
+            aide à istre les convencions <cb n="31a"/> et les actions.</p>
+          <p xml:id="KBR_9234-digeste.2.14.7"><label>[2.14.7]</label>
+            <hi rend="b">U</hi>lpians dit que droit de gens engendrent excepcions.
+              <label>[1]</label> Et les actions ne <choice>
+              <sic source="#ms">espassent</sic>
+              <corr resp="#ed">trespassent</corr>
+            </choice><note resp="editor">trespassent] espassent <hi rend="i">ms.</hi></note> mie el
+            non de convencion, mes il trespassent el non de contraut, aussi comme vente ou achat et
+            locaciun et conducion et ses autres contraus semblables. <label>[2]</label> Mes se la
+            chose ne trespasse en autre contraut, la cause sorva elegaument Ariston. Celson
+            respont obligacion estre en tel maniere aussi comme se je disoie : « Je te donne ceste
+            chose à celle fin que tu m’en doignes une autre, ou je te donne ce pour fere moi aucun
+            service ». Et pour ce croi je que Julien en est repris de Marcien quant il dit ces
+            paroles : « Je te donne que tu me doignes, puisse naistre obligacion de cité ». Julien
+            escrist en fait de ceste action, estre mise en fait par le prevost et estre donnee. Et
+            Marcilien dit que ce n’est mie action certaine de cité mes il est assavoir que les
+            paroles prescriptes et regardees : il souffit à dire que ce soit contraut. Et ce est ce
+            que Aristo dit, que telle paroles veus que il en puet istre action. <label>[3]</label>
+            Se aucun promet par sa malice et il n’ait mie fait obligement de celle convenance, car
+            pour ce que il n’en ot mie cause pour quoi il fist la convenance, l’en ne puet mie
+            establir obligement de la convenance. <label>[4]</label> Donc di je que une convenance
+            ne requiert mie obligacion mes excepcion. <label>[5]</label> Et enseurquetout el enforme
+            à la fiee action, aussi comme en la bonne foy du juge. Nous soulons dire que les choses
+            enconvenanciés de nue convenance sont en la volenté du juge. Mes ce doit estre pris en
+            tel maniere, aussi comme se aucuns suivist aucuns convenans, il doivent estre suivis de
+            par l’acteur sans intervaule, car se il y avoit intervaule, elle n’est mie de value à
+            l’acteur, que accion nesse de nue convenance aussi comme aprés la divorcion, aussi comme
+            aucun sera assemblé pour <cb n="31b"/> avoir doaire, et il sera donné avoec dilacion et
+            non mie en temps establi. Mes de maintenant ce n’est mie de value que action n’en isse
+            de nue convenance. Icelui Marcilien escrist que, se aucuns sont assemblez, ou en action
+            de garde, aussi comme se aucuns granz à cui celle garde est establiee, celle chose n’ara
+            mie lieu, que aucune action ne naisse de nue convenance. Et certainement ce sont les
+            couvenans qui donnent loy aus contraus, c’est assavoir sont fais en l’entree du
+            contraut. Ceste responsse est escripte de Papinien, que se en intervaule aprés
+            l’achatement aucun assemble aucune nature de contraut, et por ceste cause, pour celle
+            riule que action ne cesse de nu convenant, excepcion puet estre faite, laquelle chose
+            porra estre dite es juges de bone foy. Mes par la chose le convenant porra avoir lieu,
+            car les convenans qui aprés sont entreposez engendrent excepcions. <label>[6]</label>
+            Les convenances qui sont d’un meismes contraut par la bone foy du juge establies de deux
+            soient en achatement, ne la chose ne puet estre ensivie par la bone foy du juge ne ne
+            pout pas toute estre ostee de l’achatement. Et donques quant elle puet estre toute
+            ensuiviee, pourquoi ne le pourra elle estre en partie et muciee par la convenance ? Et
+            c’est ce que Papinien escrist en cest banissement, car comme einssi est que la
+            convenance ait lieu de la partie de l’aucteur, le pris de l’action ne doit mie estre
+            amenuisiee, ja soit ce que il ne suive mie sa cause. Et se par celle meismes raison li
+            puet estre sa <choice>
+              <sic source="#ms">chse</sic>
+              <corr resp="#ed">chose</corr>
+            </choice><note resp="editor">chose] chse <hi rend="i">ms.</hi></note> ostee, par quoi ne
+            puet estre la cause reformee en aucune maniere, aussi comme se le contraut fust veu
+            estre renouvelé ? Laquelle chose puet estre dite soutilment et non mie en reprouvant <cb
+              n="31c"/> ce que Pomponius escrist. Mes se .ii. hoirs avront esté l’un achateeur et
+            l’autre vendeeur, et celui qui est vendeeur <choice>
+              <sic source="#ms">a ait</sic>
+              <corr resp="#ed">ait</corr>
+            </choice><note resp="editor">ait] a ait <hi rend="i">ms.</hi></note> fait convenant
+            avoec l’achateeur que il soit departi et dessevré de son achatement (et c’est ce que
+            Julien et Vaspasien dient) et il puisse deslier en partie la convenance et l’achatement,
+            et que l’un des hoirs puisse enconvenancer ou aquerre par autre contraut la chose, l’une
+            chose et l’autre plaist à Julien, et ce est ce que Pomponius escrist. <label>[7]</label>
+            Le prevost dit : je garderai les fais ou les convenans qui seront aucune fois
+            enconvenanciez par tricherie envers les lois et les communs drois et les senas et les
+            decrez et les banissemenz des princes, que fraude n’i soit fait à aucune de ces choses.
+              <label>[8]</label> Les uns des convenans apartiennent à chose, les autres à personnes.
+            Ces choses sont et apartiennent à la chose toutes les fois que je promet ou enconvenance
+            aucune chose, ou je la requier generalment à persone toutes les foys que je requier
+            aucune chose de l’autrui. Nous devons esmer savoir mon se convenant est plus fait en
+            chose que en personne par ces paroles, si comme Pedius dit planierement que toute
+            personne est entee de convenant et non mie pour ce que le convenant soit personnel, mes
+            que il soit demoustré avoec qui convenant soit fait. <label>[9]</label> Le prevost
+            dist : je ne garderai pas le convenant qui est fait par tricherie. Pedius dit que
+            mauvaise tricherie vient de calidité et de fallace. Convenant est fait par tricherie
+            toutes les fois que aucun home fait une chose circuntrite la cause d’autrui et il fait
+            faire autre chose, et se couvenant est fait par la cause de frauder autrui.
+              <label>[10]</label> Le prevost dit, et Labeo escrist, que ce est felonnesse <choice>
+              <sic source="#ms">chose est</sic>
+              <corr resp="#ed">chose</corr>
+            </choice><note resp="editor">chose] chose est <hi rend="i">ms.</hi></note> et forsenee.
+            Felonnesse, se einssi est que le creancier ait delaissé sa deb<cb n="31d"/>te à son
+            deteur une fois jusques à .i. terme en bone foy, et puis aprés le creancier voeille
+            destruire cel terme. <choice>
+              <sic source="#ms">sorniee</sic>
+              <corr resp="#ed">Forsenee</corr>
+            </choice><note resp="editor">Forsenee] sorniee <hi rend="i">ms. Corr. d’après le lat.
+                « supervacuum ».</hi></note>, se aucun home l’avra fait pour ce que il se tient pour
+            deceu. <label>[11]</label> Se aucun ara fait tricherie en commencement de aucun
+            convenant, ou aucun ara fait tricherie aprés ce que le convenant sera passé, le
+            excepcion porra bien nuire pour les paroles de la tricherie. <label>[12]</label> Mes, se
+            aucunes paroles sont dites ou proposees en la derreniere partie des convenanz, Pomponius
+            dit sainement que telles paroles ne doivent mie estre prises ne mises en lieu de la
+            convenance, mes en lieu de la stipulacion. Et pour ce de la stipulacion puet istre
+            action se aucun ne prueve le contraire, especialment se einssi n’est que ce ne soit mie
+            fait en courage des stipulans, mes en courage des enconvenançants. <label>[13]</label> ¶
+            Se je enconvenance à aucun que aucune chose ne soit jugiee ou autre chose, le convenant
+            doit estre de value. <label>[14]</label> Et se je enconvenance que je ne suive
+            l’annonciation de une nouvelle ouvraigne ou cause que je avoie ja sivee, aucuns cuident
+            que l’enconvenancement ne soit mie de value. Aussi comme se icelle chose soit tournee en
+            commandement du prevost. Labeo distincte adecertes : se nonciacion soit faite de chose
+            de ouvraigne serviable nouvele et il me loisse et plaise à faire enconvenancement de
+            celle chose, la distinction est de value, pource que il ne me plaist mie faire
+            nonciacion de chose publique. Nonciacion est de value en toutes ces autres choses qui
+            n’apartiennent mie à l’eslision publique. Mes elle est de value à ces autres choses qui
+            apartiennent au banissement au prevost. Mes enconvenancement me laist et plaist faire de
+            chose familiere, ja soit ce que la loy laisse faire enconve<cb n="32a"/>nancement de
+            chose larrecineuse. <label>[15]</label> Derechief, se aucun enconvenance que il n’ostera
+            mie de peril aucun home, ceste promesse est de value, si comme dit Pomponius. Derechief,
+            se aucun enconvenance ou ait enconvenancié que pour la cause de ce que il ne la oste de
+            peril, il le mete en peril à son pouoir, Pomponius dit que tel enconvenancement doit
+            estre de value. Mes el ne doit mie estre gardee ne faite jouste la forme de droit.
+              <label>[16]</label> Mes generalment toutes les fois que convenant est remot et
+            contrire à droit commun, le convenant ne doit mie estre gardé, ne serement de ce fait.
+            Marcianus escrist en la loy seconde <choice>
+              <sic source="#ms">de diste digeste</sic>
+              <corr resp="#ed">de <title> Digeste</title></corr>
+            </choice> de <note resp="editor"> de Digeste] de diste digeste <hi rend="i"
+              >ms.</hi></note> que se stipulacion est entreposee des choses pour lesquelles il ne
+            plaist mie faire convenance, ne ne doit mie estre gardee mes destruicte.
+              <label>[17]</label> Mes se aucun ait promis sus son heritage de paier aucune debte
+            ainçois que il en soit em possession et il pait la moitié de la dete, le convenant doit
+            estre de value. <label>[18]</label> Mes se aucun serf vent son heritage à aucun usurier
+            ou aucun presteeur d’argent ançois que ledit serf soit em possession, ne n’ait seignorie
+            dudit heritaige, ja soit ce que il atende à estre en hoir, tel convenant de rigour de
+            droit n’est mie de value ne ne proffite pas, si comme Julien escrist.
+              <label>[18]</label> Marciaus dit que se aucun hoir, comme filz ou serjant neccessaire,
+            aient enconvenancié paier aucune debte por le pere à l’oir ainçois que le plait soit
+            commencié entr’euls, le convenant sera de value, ja soit ce que l’oir doute que il ne
+            soit pas franc et que il soit ingnorant se li heritage au pere li vendra ou se il est
+            son pere. Aussi est il se l’oir d’un estrange se enconvenance pour autrui en tel maniere
+            que il viengne au mandement du creancier, le creancier cuide avoir à celui action. Mes
+            se aucun qui est en servise, aussi comme nous avons dit devant, ait enconvenancié paier
+              <cb n="32b"/> au creancier sa debte, Marciaus dit que il ne li puet proffitier, tant
+            comme il soit en service ne comme il n’ait mie heritaige, mes aprés ce que il ara esté
+            franchi et il ne sera mes en servitude et il sera en possession de heritage ; dont di je
+            que il ne puet fere excepcion que le convenant ne soit de value. Et ice meismes proeve
+            Marciaus. Se aucun filz, au vivant du pere, ait convenant à paier la debte du pere à
+            ceuls qui li ont la debte creue et sus son heritage duquel il n’est mie encore en
+            posession mes il l’atent à estre, il dit que en tel chose est contenue excepcion de
+            tricherie à venir, ne ne doit mie estre refusee ne en pere vif ne en son filz serf. ¶
+              <label>[19]</label> Ceste convenance aujourd’ui est faite en tel maniere nuist aus
+            creanciers se elle est assemblee ensemble et il aient desclairié touz ensemble par
+            consentement commun comment il se sont contenus de la debte qui leur est deue. Mes se il
+            se descordent, telles parties sont neccessaires au prevost avoec son decret ensuit la
+            volenté de la graigneur partie.</p>
+          <p xml:id="KBR_9234-digeste.2.14.8"><label>[2.14.8]</label>
+            <hi rend="b">U</hi>lpians dit : <hi rend="b">L</hi>a greigneur partie est pour la
+            maniere de la dete et non mie pour le nombre des personnes. Il plest au prevost que se
+            il sont egauls el comble de la debte, dont doit estre devant mis le nombre de pluseurs
+            creanciers el nombre du convenant. Le prevost doit ensuivre l’auctorité des creanciers
+            se il trueve digneté en leur cause. Et se il ne li trueve mie, l’une partie et l’autre
+            doivent estre egaus, et doit le prevost eslire la plus humaine sentence et la meilleur,
+            et puet estre ce concueilli à icelui dou rescript Marcien.</p>
+          <p xml:id="KBR_9234-digeste.2.14.9"><label>[2.14.9]</label>
+            <hi rend="b">P</hi>aulus dit que se pluseurs gens aient action en une meismes chose, il
+            doivent estre en lieu d’un comme leur cause soit une. Aussi comme pluseurs plaideeurs
+            qui plaident une cause ou aussi comme pluseurs argentiers en qui <cb n="32c"/> non une
+            debte est suivie, ou desquiex les nons sont fais ensemble, car ce est une debte. Et
+            comme les tuteurs de l’enfant souz aage d’un creancier se assemblassent ensemble, il
+            doivent estre anombrez en liu d’un, car il estoient assemblez en lieu d’un enfant souz
+            aage. Et aussi est d’un tuteur de pluseurs enfanz souz aage requerrant une debte, se
+            einssi est que .i. tuteur s’en entremete, il doit estre pris el nom de pluseurs. Forte
+            chose est que .i. homme soustiengne la cause de pluseurs, car celui qui a pluseurs
+            actions est pris en lieu de pluseurs personnes vers celui qui n’a que une action.
+              <label>[1]</label> Nous devons raporter le comble de la debte à pluseurs sommes, car
+            par aventure pluseurs sommes sont raportees à une, si comme à la somme de cent aureores
+            sont raportees pluseurs sommes, et aussi à la somme de cinquante areores sont pluseurs
+            raportees. Donques regardons nous en cest cas que petites sommes aünees ensemble
+            seurmontent pluseurs autres sommes. <label>[2]</label> Nous devons apliquer cause de
+            usure à tel maniere de somme.</p>
+          <p xml:id="KBR_9234-digeste.2.14.10"><label>[2.14.10]</label>
+            <hi rend="b">U</hi>lpians dit que le rescript l’empereor Marc parole en telle maniere,
+            c’est assavoir que touz les creanciers doivent asembler, car il doivent suivre leur
+            cause par une meismes accion. Donques di ge que la cause d’aucuns d’iceuls absens doit
+            estre jugié par l’example de aucuns d’iceuls presens. Mes ceste convenance <choice>
+              <sic source="#ms">mist</sic>
+              <corr resp="#ed">nuist</corr>
+            </choice><note resp="editor">nuist] mist <hi rend="i">ms. Corr. d’après le texte latin
+                (« Sed an et privilegiariis absentibus haec pactio noceat, eleganter tractatur : si
+                modo valet pactio et contra absentes »).</hi></note> aus absens qui ont priviliege
+            et est traitié eslisablement, et se convenance est de value contre les abssens. Et
+            adecertes je puis repetier la forme du rescript l’empereor Marc, qui rescrist que il
+            convient suivre cest cas par l’example des creanciers, esquiex cas il n’ont mie
+            ypoteques ne autre priviliege. Et toutes ces choses doivent estre gardees qui n’ont mie
+            ypoteques <cb n="32d"/>. <label>[1]</label> Et se stipulacion soit souzmise au
+            convenant, l’en puet demander assavoir mon se excepcion a lieu au convenant ou se action
+            a lieu de la stipulacion. Sabius le vit et cuide que ce soit voir que l’une puisse user
+            de la cause de l’autre, se einssi est que aucun soit esleu qui soit stipulé, et se aucun
+            use par exception en la cause du convenancement, il ne le puet mie faire sanz
+            stipulacion. <label>[2]</label> Et aucune fois soulions nous dire que excepcion de
+            tricherie est deportement de excepcion de convenant, car aucuns sont qui ne puent mie
+            user de couvenant d’excepcion qui pueent bien user de excepcion de tricherie. Et Julien
+            escripst que aucuns à la fiee acordent ce qui ensuit, c’est assavoir se mon procurateur
+            enconvenance aucune chose à mon creancier qui me ara creu aucune debte, aucune fois me
+            porra proffitier exception de tricherie, car aussi comme le convenant de mon procurateur
+            me puet nuire, aussi me puet il aidier à la fiee.</p>
+          <p xml:id="KBR_9234-digeste.2.14.11"><label>[2.14.11]</label>
+            <hi rend="b">P</hi>aulus dit que par le convenant du procurateur l’en doit paier la dete
+            à son creancier.</p>
+          <p xml:id="KBR_9234-digeste.2.14.12"><label>[2.14.12]</label>
+            <hi rend="b">U</hi>lpians dit que procurateur puet nuire à son maistre en .iii. cas.
+            Premierement, se einssi est que je li aie mandé que il enconvenance aucune chose à mon
+            creancier, et il li enconvenance plus que il ne li doit enconvenancier ; ou, se je l’ai
+            fait procurateur de toutes mes choses, et c’est ce que Pantheolanus escrist en la loy
+            seconde de <title>Assessoire</title> : Et comme je arai baillié à mon procurateur ma
+            cause à demener en jugement.</p>
+          <p xml:id="KBR_9234-digeste.2.14.13"><label>[2.14.13]</label>
+            <hi rend="b">P</hi>aulus dit que se aucun ait fait son procurateur pour garder lui
+            seulement une action, et aucune convencion soit faite au procurateur, <cb n="33a"/> ne
+            doit mie nuire à son maistre. <label>[1]</label> Mes se il a fait son procurateur en
+            toutes ses causes, il puet estre pris toutes fois en lieu de son mestre, et pour ce vaut
+            aucun convenant se il le fait en lieu de son mestre.</p>
+          <p xml:id="KBR_9234-digeste.2.14.14"><label>[2.14.14]</label>
+            <hi rend="b">U</hi>lpians dit que quant aucuns procurateur fait aucun convenant en la
+            compaignie de son mestre, la compaignie li puet aidier ou nuire, ou le convenant fait
+            puet aidier ou nuire au mestre.</p>
+          <p xml:id="KBR_9234-digeste.2.14.15"><label>[2.14.15]</label>
+            <hi rend="b">P</hi>aulus dit que le convenant du meneeur puet nuire à l’enfant souz
+            aage ; et c’est ce que Juliens escrist.</p>
+          <p xml:id="KBR_9234-digeste.2.14.16"><label>[2.14.16]</label>
+            <hi rend="b">U</hi>lpians dit que se aucun vendeeur de heritage ait fait convenant avec
+            l’acheteeur et le vendeor requiere aucune chose par excepcion de tricherie, telle
+            excepcion de tricherie nuist au vendeeur ; car, comme il est escript de l’empereur Marc
+            que actions donnees à l’acheteeur de heritage proffitable<note resp="editor"><hi
+                rend="i">Cf. lat. « <seg rend="eleve">utiles actiones emptori heredita</seg><seg
+                  rend="eleve">tis dandas ».</seg></hi></note>, il puet user excepcion de tricherie
+            envers le vendeur de heritage. Mes se einssi est que il convenist einssi entre le
+            seigneur qui a vendue la chose et l’acheteeur qui a la chose achetee, la rendisst à
+            icelui procurateur qui l’avoit vendue pour son seigneur requerrant li le pris que la
+            chose avoit esté vendue, excepcion de tricherie nuist en cest cas au vendeor.</p>
+          <p xml:id="KBR_9234-digeste.2.14.17"><label>[2.14.17]</label>
+            <hi rend="b">P</hi>aulus dit que se je promet à aucun que je li donnerai .x. livres et
+            il me promet que il m’en donra .xx., je ne li doi pas requerre obligacion faire moi de
+            ce qui passe les .x. livres que il m’a promises, car obligacion de chose donnee doit
+            estre donnee en la maniere que la chose est donnee. <label>[1]</label> Aucunes actions
+            sont ostees par aucuns convenanz par cel droit meismes, aussi comme actions de injures
+            ou de larrecins. <label>[2]</label> Action naist aucune fois de chose qui n’est
+            engaigiee par droit honorable, neis se elle est ostee par aucun convenant de excepcion,
+            se einssi est <cb n="33b"/> que je enconvenance que je ne requerrai mie la chose
+            engaigiee. <label>[3]</label> Mes se aucun enconvenance que il ne la requerra mie vers
+            celui à cui il l’avra engaigiee mes vers son hoir, l’excepcion ne proffitera mie à
+            l’oir. <label>[4]</label> Se je enconvenance que je ne requerrai mie aucune chose que je
+            avai engaigiee ne mon hoir, action ne proffittera mie à mon hoir, ne ne porra suivre par
+            action ce que j’en avrai engaigié tant pour lui que pour moi. ¶ C’est ce que Julien
+            escrist, que se aucun pere a vendu aucune chose et il convenance que jamais riens n’i
+            demandera ne lui ne son hoir, li hoir n’i porra jamais rien demander aprés la mort au
+            pere, comme il soit hoir du pere qui a fait la convenance. <label>[5]</label> Se aucun a
+            fait aucune convenance de son heritage ou par don ou par engagement, et aprés le
+            convenant fait, il vende l’eritage donc il a fait le convenant selonc la sentence de
+            pluseurs, ceste chose ne nuist mie à l’acheteeur, ainz li proffite. Pomponius escrist
+            que nous devons user de tel droit selonc Sabius, qui esme ceste sentence estre de value
+            à l’achateeur, ja soit ce que il y ait translacion et conception de personnes.
+              <label>[6]</label> Se einssi est que par le donnement devant dit la suscession des
+            personnes soit faite, comme le porseeur d’autrui heritage par male foy ait
+            concouvenancié ou vendu ou engagié celui heritage lequel il porsiet non tenement, la
+            mauvaise possession ne nuira mie à l’oir de celui de qui il tient le heritage, ne ne
+            proffitera, ainz porra requerre l’eritage. <label>[7]</label> Se aucun filz ou aucun
+            serjant ait vendu aucun heritage, ou engagié ou enconvenancié à aucun achateeur, le pere
+            du filz qui a vendu ne le sergant du seigneur ne porront mie requerre ne retraire
+            l’eritage vendu du filz et du serjant.</p>
+          <p xml:id="KBR_9234-digeste.2.14.18"><label>[2.14.18]</label>
+            <hi rend="b"> G</hi>aius dit que le pere d’un enfant <cb n="33c"/> qui a son heritage
+            enconvenancié ou vendu, ou le seigneur du serjant ne le porront retraire, se ce n’est
+            par aucun contraut.</p>
+          <p xml:id="KBR_9234-digeste.2.14.19"><label>[2.14.19]</label>
+            <hi rend="b"> P</hi>aulus dit : <hi rend="b">D</hi>e ceuls qui <choice>
+              <sic source="#ms">aqui aquierent</sic>
+              <corr resp="#ed">aquierent</corr>
+            </choice><note resp="editor">aquierent] aqui aquierent <hi rend="i">ms.</hi></note>
+            excepcion <label>[1]</label> et de ceuls qui servent en bone foy est il une meismes
+            chose. </p>
+          <p xml:id="KBR_9234-digeste.2.14.20"><label>¶ [2.14.20]</label>
+            <hi rend="b"> D</hi>erechief, se le filz famelié avra enconvenancié que il ne retraira
+            mie heritaige que son pere avra vendu, le filz ne le porra mie puis le convenant fait
+            retraire.</p>
+          <p xml:id="KBR_9234-digeste.2.14.21"><label>[2.14.21]</label>
+            <hi rend="b">P</hi>aulus dit que l’oir du pere, ou vivant du filz ou aprés la mort du
+            filz, ne proffite mie excepcion de convenant, que convenant doit estre personnel.
+              <label>[1]</label> Et se aucuns sergant ara enconvenancié aucune chose pour son
+            seigneur, le couvenant ne sera mie de value. Mes or veons de excepcion de tricherie. Et
+            se aucun serf promet à faire aucune chose el non de son seigneur, il porra proffitier au
+            seigneur et à son hoir que le convenant est conceu et fait en la personne du seigneur.
+            Et donques excepcion de tricherie remaint au seigneur. <label>[2]</label> Nous ne poons
+            mie proffitier en enconvenançant ceuls qui sont en nostre poesté, mes il nous puet bien
+            profitier se nous faison assemblement el non d’iceuls. Proculus dit : <choice>
+              <sic source="#ms">cce</sic>
+              <corr resp="#ed">ce</corr>
+            </choice><note resp="editor">ce] cce <hi rend="i">ms.</hi></note> que nous creons einssi
+            estre excepcion, se ce est fait en enconvenançant, se je enconvenance à aucun que il ne
+            soit mie requis de Titius aucune fois aucune chose, et aprés celui à qui je avrai requis
+            me suive el nom de Titius, ou establisse aucune chose, ce n’est mie proffitable chose ne
+            ne convient mie au desfensseur. Julien escrist que se le pere ait enconvenancié que
+            aucune chose ne soit mie requise, ne de lui ne de son hoir, excepcion de convenant ne
+            doit mie estre donnee plus au filz que au pere, mes excepcion de tricherie.
+              <label>[3]</label> Derechief, fille qui est mariee puet enconvenancier ou engaigier
+              <cb n="33d"/> son doaire que elle avra eu et pris de droit. <label>[4]</label>
+            Derechief, le filz qui a mesme puet enconvenancier et faire convenant à qui que il
+            voudra de ce que son pere li a lessié sus condicion. <label>[5]</label> L’en puet
+            demander assavoir mon se à cels qui ont accion pour une meismes peccune ou qui sont
+            debteurs de une meismes peccune, et leur semble proffitable <choice>
+              <sic source="#ms">ou ou nuisible excepcion de convenant excepcion de convenant</sic>
+              <corr resp="#ed">ou nuisible exception de convenant</corr>
+            </choice><note resp="editor">ou nuisible exception de convenant] ou ou nuisible
+              excepcion de convenant excepcion de convenant <hi rend="i">ms.</hi></note> proffite à
+            toutes ces choses dequelles obligacion dissolue ou desliee est enconvenanciee. Et en
+            telle maniere convencion proffite es pleges du debteur.</p>
+          <p xml:id="KBR_9234-digeste.2.14.22"><label>[2.14.22]</label>
+            <hi rend="b">U</hi>lpians dit que se aucun ait presté à autrui tel chose dont il
+            convient que il ait plege, l’aucteur ne doit mie demander tant au deteur mes au plege,
+            car le plege donques ne puet issir de excepcion.</p>
+          <p xml:id="KBR_9234-digeste.2.14.23"><label>[2.14.23]</label>
+            <hi rend="b">P</hi>aulus dit que la convention du plege ne proffite mie au deteur, car
+            il n’apartient mie du plege peccune demander au deteur ; ne ce ne proffite mie au plege.
+            Mes convencion faite à l’autre à qui excepcion est donnee proffite à celui qui à
+            convenancié principaument aussi comme au coupable. Convencion de promesse proffite et à
+            ceuls qui sont obligiez pour lui.</p>
+          <p xml:id="KBR_9234-digeste.2.14.24"><label>[2.14.24]</label>
+            <hi rend="b">C</hi>il meismes dit que se .ii. coupables ont promis ou sont tenuz à .ii.
+            argentiers en une somme d’argent par convenant personnel, le convenant personnel de l’un
+            n’apartient mie à l’autre en quel maniere que ce soit, ni à son hoir. Et c’est ce que
+            Labeo escrist, que ja soit ce que le convenant du plege ne proffite mie au coupable, si
+            li proffite à la fiee excepcion de tricherie, si comme Julien dit.</p>
+          <p xml:id="KBR_9234-digeste.2.14.25"><label>[2.14.25]</label>
+            <hi rend="b">C</hi>il meismes dit que se le plege promet sa chose, ou met en gage ou
+            plege sus son heritaige aucun deteur, <cb n="34a"/> en cest cas le plege doit estre pris
+            pour le deteur, et il pert et est veu le convenant fait avoec le plege valoir autant
+            comme o le coupable.</p>
+          <p xml:id="KBR_9234-digeste.2.14.26"><label>[2.14.26]</label>
+            <hi rend="b">U</hi>lpians dit que se einssi est que il ne demant nulle chose à
+            l’aucteur, ne il ne devra mie donques demander aus pleges.</p>
+          <p xml:id="KBR_9234-digeste.2.14.27"><label>[2.14.27]</label>
+            <hi rend="b">P</hi>aulus dit que se un de .ii. argentiers compaignons aient fait
+            convenant à .i. deteur ou pris argent de lui por frauder son compaignon, le excepcion de
+              [...]<note resp="editor"><hi rend="i">Lacune, cf. le texte de la Trad. 3, ms. F
+                (« Paulus dit : Se dui creancier sont conpaignon et li uns fet covenant à leur
+                deteur que il ne li demandera rien, l’en demande se li covenanz nuist à l’autre
+                compaignon. Et Neracius et Atticinus et Proculus dient que neis se li couvenanz est
+                fez seur la chose, si ne nuist il rien à l’autre compaignon, quar li covenanz ne
+                requiert fors que li autres puisse demander tote la dete. Et ce meismes dit Labeo »)
+                et le texte latin (« Si unus ex argentariis sociis cum debitore pactus sit, an etiam
+                alteri noceat exceptio ? Neratius Atilicinus Proculus, nec si in rem pactus sit,
+                alteri nocere : tantum enim constitutum, ut solidum alter petere possit. Idem
+                Labeo : nam nec novare alium posse, quamvis ei recte solvatur : sic enim et his, qui
+                in nostra potestate sunt, recte solvi quod crediderint, licet novare non possint.
+                Quod est verum. Idemque in duobus reis stipulandi dicendum est »).</hi></note>.
+            Neracius et Accelius et Proculus dient que, se il a fait promesse aucune pour nuire à
+            l’autre, ce est affermé et contenu et establi en droit que l’autre puet demander sa
+            debte au deteur de qui son compaingnon a receu la debte, ja soit ce que le deteur l’ait
+            paié entierement. Et c’est ce que Labeo escrist. ¶ Aussi est il de cels qui sont en
+            nostre poesté de paier ce que l’en leur a creu, ja soit ce que il ne puissent la debte
+            renouveler. Et aussi est il de .ii. deteurs comme de deus argentiers en cause de
+            plederie. ¶ <label>[1]</label> Se aucune convenance est faite à aucun coupable à certain
+            temps aussi comme de prester argent, le seurplus du temps qui passe le terme mis ne
+            profite mie au debteur ni à son plege. Mes se einssi est que le deteur requiere que <choice>
+              <sic source="#ms">nen ne</sic>
+              <corr resp="#ed">ne</corr>
+            </choice><note resp="editor">ne] nen ne <hi rend="i">ms.</hi></note> demande mie sa
+            debte à son plege, ainz met sa personne en obligacion pour lui que sa debte ne li soit
+            demandee, aucuns cuident que ce ne profite de riens au plege, car comme il soit plege de
+            la chose, la chose li doit apartenir, et que telle excepcion comme il convient au plege
+            couvient au deteur. Mes comme que ce soit, je ai apris que excepcion doit valoir au
+            plege. Or veons de quel droit nous devons user, car celui qui s’est promis estre plege
+            ne puet mie istre hors du plege par tel parole. <label>[2]</label> Le creancier
+            enconvenança et fu requis que il preist plege du deteur pour sa debte, et puis le deteur
+            le plege pris requist que sa debte ne fust de<cb n="34b"/>mandee à son plege, et aprés
+            il requist que l’en demandast à son plege : dont di je que le convenant de la premiere
+            requeste est corrompue par la derreniere, car les derreniers erremenz confondent les
+            premiers, aussi comme stipulacion est corrompue par stipulacion. Et einssi doit il estre
+            fait, car droit est contenu en stipulacion, et fait est torné et usé en convenanz ; et
+            pour ce excepcion doit estre deboutee par replicacion. Et par ceste raison il convient
+            que le premier convenant ne proffite mie es pleges. Mes se aucun convenant avra tel esté
+            que il a osté l’action aussi comme de injures, il ne porra mie aprés enconvenancier seur
+            ce ses injures, car la premiere action est souztraite par la derreniere convenance, car
+            action de injures n’est pas veé de enconvenancement mes de contumelion. Derechief, ce
+            meismes poons nous dire se le convenant fait avoit souztrait toute l’obligacion des
+            contraus de bone foy, aussi comme de la chose achatee. La premiere obligacion ne doit
+            mie estre recitee mes elle proffitera au nouvel contraut, car le derrenier convenant
+            puet renouveler le premier contraut. Laquelle chose puet proceder en cas de doaire en
+            tel maniere : l’en a convenancié à une fame rendre lui son doaire en present jour et
+            elle enconvenance prendre le, et aprés elle enconvenance prendre et veult que doaire li
+            soit rendu et donné par les loys ; donques le doaire repairera à son droit, ne l’en ne
+            doit mie dire que la condicion du doaire soit pieur par cel convenancement. L’action du
+            doaire repaire à son droit naturel toutes les fois que la loy naturel le requiert, ne la
+            cause de doaire n’est mie faite pieur par tel convenance, ainz repaire à sa droite
+            forme. Et ces choses plurent à nostre maistre. <label>[3]</label> Celle chose n’est qui
+            puisse estre faite par nulle convenance que tricherie ne soit faite à autrui, <cb
+              n="34c"/> car ja soit ce que aucun promete que il n’oste mie aucune chose, l’en doit
+            regarder en cele chose enconvenancié que il n’i ait tricherie. <label>[4]</label> Les
+            convenans qui conçoivent laides causes ne doivent mie estre gardez, car se je
+            enconvenance que je face tricherie ou larrecin ou injures, il escouvient craindre la
+            paine qui vient par la cause des injures ou de larrecin. Mes ces choses delaissiés, nous
+            poons enconvenancier ou fere convenans. Derechief, nous ne poons mie enconvenancier en
+            chose qui vient par cause commune. Et se convenant est fait en chose privee ou remote,
+            il doit estre osté ne n’est mie de value. Et devant toutes ces choses nous devons
+            avertir que il n’est convencion en autre chose et avoec autre persone, et que il ne
+            nuise à autre chose ne à autre personne. <label>[5]</label> ¶ Se aucun me doit .x.
+            livres et je li enconvenance que je ne li en demanderai mie .xx., il me plest que le
+            convenant te proffite en .x. ou excepcion de tricherie. Derechief, se aucun me doit .xx.
+            livres et je li convenance que je ne li demanderai que .x. livres, ou je aie convenancié
+            faire en obligacion ou je requiere aucun que l’en praigne obligacion, l’excepcion de
+            convenant de ces choses est contraire, car l’obligacion d’une chose seroit paiee par
+            solucion, par obligacion, par acception, en tel maniere que le convenant enconvenancié
+            de une chose qui ne doit mie estre requise. Toute obligacion einssi entreposee doit
+            estre ostee. <label>[6]</label> Mes se il est einssi fait entre nous que Sichus me
+            requiere que je ne demande à aucun .x. livres ou il me face assignement, je puis
+            efficablement ou excellentement fere contre Sicum ou de Sichum en tel maniere que nus ne
+            puet aler encontre par excepcion. <label>[8]</label> Derechief, se je ai convenancié que
+            je ne requerrai mie le fons d’un heritage, mes que je requerrai choses sin<cb n="34d"
+            />gulieres, excepcion doit estre requise contre moi de la chose que je ai convenancié,
+            aussi comme se il convenoit que je ne requersisse mie le fons mes le fruit, et aussi
+            comme se je ne requiere mie la nef mes, icelle <choice>
+              <sic source="#ms">depitie</sic>
+              <corr resp="#ed">depicié</corr>
+            </choice><note resp="editor">depicié] depitie <hi rend="i">ms. Corr. d’après la Trad. 3
+                (ms. F) : « Et se ge fis covenant que ge ne demanderoie pas .i. heritage et ge
+                demant aprés les choses de cel heritage, chascune par soi, de ce que ge avrai
+                covenancié covendra il former l’excepcion de covenant, si come se ge covenançai que
+                ge ne demanderoie pas .i. champ et ge en demant l’usaire, ou que ge ne demanderoie
+                pas une meson ou une nef, et quant ele est depeciee ge en demant les pieces » (cf.
+                le texte latin : « Item si pactus, ne hereditatem peterem, singulas res ut heres
+                petam : ex eo, quod pactum erit, pacti conventi exceptio aptanda erit, quemadmodum
+                si convenerit ne fundum peterem et usum fructum petam, aut ne navem aedificiumve
+                peterem et dissolutis his singulas res petam: nisi specialiter aliud actum
+                est »).</hi></note>, je requiere les parties <choice>
+              <sic source="#ms">singlieres</sic>
+              <corr resp="#ed">singulieres</corr>
+            </choice><note resp="editor">singulieres] singlieres <hi rend="i">ms.</hi></note> la
+            nef, se einssi n’est que autre chose soit faite expecialment, se aucune acceptilacion
+            n’est ne ne fut mie proffitable. <label>[9]</label> Il m’est avis que ce fait ne doit
+            mie estre requis par convenance taisible. <label>[10]</label> ¶ Le serf qui tient aucun
+            heritaige ne puet mie enconvenancier nouviament à l’oir qui n’est mie encore né mes à
+            venir, car il n’en fut onques seigneur. Mes se einssi est que convenant soit fait à .i.
+            hoir de sa chose, le convenant porra estre aquis de l’oir de l’eritaige.</p>
+          <p xml:id="KBR_9234-digeste.2.14.28"><label>[2.14.28]</label>
+            <hi rend="b">G</hi>aius dit que les choses enconvenanciees ne sont mie fermes contre les
+            regles du droit citoien, aussi comme se l’enfant souz aage ait fait aucune convenance
+            sanz l’auctorité de son meneeur, c’est assavoir que il ne requerra mie sa debte qui li
+            est deue de son debteur devant que il soit de certain aage et devant certain temps aussi
+            comme de .xxv. anz. Certaine chose est que il ne doit mie estre paié sanz l’auctorité de
+            son meneor. Se aucun enfant souz aage enconvenance de chose diverse et die que il ne
+            doie mie ce que l’en li demande, ceste convenance doit estre ferme, car il li est otroié
+            faire sa condicion la meilleur que il porra de l’auctorité de son meneeur. ¶
+              <label>[1]</label> Se aucun tuteur ou duteur de forsené ou de follarge ait
+            enconvenancié aucune chose, c’est assavoir que peccune ne seroit mie demandee du
+            forssené ne du follarge, proffitable chose est reçoivre les convenances du cureor et non
+            du follarge ne du forssené. ¶ <label>[2]</label> Se aucun filz ou aucun serf ait
+            enconvenancié que il ne re<cb n="35a"/>querra mie aucune debte qui li sera deue ou à
+            l’un ou à l’autre, le convenant ne sera mie profittable. Mes se il ont enconvenanciee en
+            leur chose, ce est assavoir que il ne demanderont mie cele peccune en tel maniere, leur
+            convenance sera ferme et estable envers le pere et envers le seigneur. Se einssi est que
+            il aient franche aministracion de pecune et celle chose de quoi il ont fait la
+            convenance doit estre peccuniere, c’est assavoir apartenance à peccune. Et c’est voir
+            que il plest à Julien que icelui non est voirement convenable. Et meesmement, celui qui
+            a commission et à qui la commission est otroiee de peccunier n’a mie le droit ne n’est
+            mie commis de donner la peccune. Donques s’ensuit il que, se aucun a convenant que il ne
+            demandera mie sa peccune à autrui por sa cause de donner lui, la convenance ne doit mie
+            estre de value. Et aussi est il, se aucun promet aucune chose qui est ensivable ne plus
+            ne mains à la chose devant dite, la convenance devra estre ferme et estable.</p>
+          <p xml:id="KBR_9234-digeste.2.14.29"><label>[2.14.29]</label>
+            <hi rend="b">U</hi>lpians dit : <hi rend="b">S</hi>e aucune peccune est prestee ou creue
+            en jour de diemenche, le temps et le jour du prest doit estre de value ; c’est ce que
+            Celsus dit.</p>
+          <p xml:id="KBR_9234-digeste.2.14.30"><label>[2.14.30]</label>
+            <hi rend="b">G</hi>aius dit : <hi rend="b">L'</hi>en doit veoir aucune fois, se le filz
+            qui est en la poesté du pere puet faire convenant de value que il enconvenance que il
+            fera ou que il ne fera mie aucune chose, il puet estre aucune fois de value, car aucune
+            fois a il accion aussi comme de injures. Mes comme le pere ait action pour les injures
+            de son filz, il ne convient mie douter que il n’apartiengne au pere la convenance
+            conneue du filz que il ne puisse suivre les injures. Se aucun a emprunté de son serf
+            aucune peccune que Titius li devoit, et celui qui l’a empruntee la demande à Titius, il
+            est assavoir se la convenance de la chose porra estre ostee par excepcion et <cb n="35b"
+            /> se il porra demander la promesse à Titius qui doit la debte qui li a esté prestee.
+            Juliens cuide la debte non mie pooir estre demandee à Titius, car celui à qui la debte
+            est deue avoit convenant que il ne la demanderoit mie à Titius. Et einssi est il demandé
+            se action est donnee du seigneur de celui sergant au stipuleeur, c’est assavoir se le
+            serf avoit bonne cause et juste d’aler avant, car par aventure devoit autant ou avoit
+            deu par aussi grant espace de temps autant de pecune à Titius, aussi comme plege de ce
+            qui doit estre preste à Titius. Et por ce, se le sergant estoit venu à Titius, action ne
+            li doit pas estre donnee, ne le sergant ne doit mie estre dit creancier ne demander à
+            Titius ne ne le puet en nule maniere porforcier, se einssi n’est que le serf li ait
+            presté franchement sa debte et creue. Se je avrai esté stipulé sus condicion de toi de
+            ce que Titius me devoit purement ou sanz condicion, se je requier en ma debte de Titius
+            par l’excepcion de la chose enconvenanciee et je l’en puisse bien et doie amonnester, il
+            vaudroit miex que excepcion n’i fust pas mise.</p>
+          <p xml:id="KBR_9234-digeste.2.14.31"><label>[2.14. 31]</label>
+            <hi rend="b">U</hi>lpians dit que il li plest que bannissement ne soit mie fait contre
+            aucune beste morineuse, ja soit ce qu’il soit assemblé par aucun besoing en marchié de
+            vente ou aprés ce que elle i soit assemblee.</p>
+          <p xml:id="KBR_9234-digeste.2.14.32"><label>[2.14. 32]</label>
+            <hi rend="b">P</hi>aulus dit que il est dit devant que, se aucun aucteur a fait
+            convenant avoec .i. coupable que il ne li demandera mie sa debte, il doit plaire au
+            plege requerre excepcion pour la personne qui est principal deteur de la debte, que il
+            ne conviengne que il aut en jugement por la cause de la debte par aucun mandement. Mes
+            se la cause du mandement est nule pour donner hardement à celui qui est plege, l’en doit
+            dire que l’excepcion ne proffite mie au plege.</p>
+          <p xml:id="KBR_9234-digeste.2.14.33"><label>[2.14.33]</label>
+            <hi rend="b">C</hi>elsus dit : <hi rend="b">S</hi>e aucune vieille veve ait promis son
+            doere en nom <cb n="35c"/> de un filz que elle avoit de sa niece, et elle dit
+            convenancie que le doaire ne sera mie demandé de son filz, et se einssi est que le
+            doaire soit demandé du filz de la vielle, il ne devra mie estre desfendu par exception
+            de convencion, mes le filz usera de exception de convention. Et est otroié à l’oir estre
+            conseillié ; et ne mie contraire n’est à .i. des hoirs estre conseillié se einssi est
+            que il soit hoir. Et ces autres comme le filz de la niece ne doivent mie estre
+            conseilliez de avoir le doaire.</p>
+          <p xml:id="KBR_9234-digeste.2.14.34"><label>[2.14.34]</label>
+            <hi rend="b">M</hi>odestins dist que le droit de connoissance ne doit mie ne puet estre
+            reputé, ne renoncier n’i puet l’en par aucun cas, non mie autrement que non mie voloir
+            son franchi ou son cousin. Et pour ce di je la sentence de Julien estre voire.</p>
+          <p xml:id="KBR_9234-digeste.2.14.35"><label>[2.14.35]</label>
+            <hi rend="b">C</hi>il meismes dit que .iii. freres, c’est assavoir Titius et Menias et
+            Seia, departirent entre euls .i. heritaige commun, et les instrumenz entreposez par
+            lesquiex il avoient devisé et departi lor heritage, il garderent bien que riens ne leur
+            demorast en communalté, que tout ne fust departi. Mes aprés le departement de l’eritage,
+            .ii. des freres, c’est assavoir Menias et Seia, lesquiex ne estoient mie presens au
+            temps que leur mere morut, connurent et virent que leur frere avoit soustret leur
+            monnoie d’or, de laquelle monnoie il n’en ont faite nulle mencion en l’instrument de la
+            division de l’eritage. ¶ Aucuns puet demander se action puet convenir envers le frere
+            qui a souztraite la peccune aprés le convenant de la division de l’eritage. Modestins
+            respont que Menius et Seia pueent suivre proffitablement celui qui leur a souztraite
+            leur peccune pour leur partie ignorant de la fraude qui leur a esté faite.</p>
+          <p xml:id="KBR_9234-digeste.2.14.36"><label>[2.14.36]</label>
+            <hi rend="b">P</hi>aulus<note resp="editor">Paulus] <hi rend="i">« <hi rend="sc"
+                  >Proculus</hi> » dans le texte latin.</hi></note> dit que comme tu porsseïsses le
+            fons de mon heritaige et il convenist à moi et à toi que tu em baillasses la <cb n="35d"
+            /> possession à Titius nostre frere, entendent<note resp="editor">entendent] <hi
+                rend="i">À lire « entendant ».</hi></note> à querre celui fons de heritaige de toi
+            meismes non mie en metant m’en au dehors autrement par excepcion de convencion que se tu
+            l’eusses ja baillié, ou ce fust convenu par ta cause entre nous, il n’en demourast pas
+            en toi que tu ne li eusses baillié, ja soit ce que ce fust contre l’establissement des
+            freres.</p>
+          <p xml:id="KBR_9234-digeste.2.14.37"><label>[2.14.37]</label>
+            <hi rend="b">P</hi>apinians dit que les empereors, c’est assavoir Severinus et
+            Anthonius, recristrent que pecune ne doit mie estre renvoié du curateur au deteur de la
+            chose commune, et ne doit mie estre renvoiee mes rapelee.</p>
+          <p xml:id="KBR_9234-digeste.2.14.38"><label>[2.14.38]</label>
+            <hi rend="b">P</hi>apinians dit que droit commun et droit primatoire ne puet estre mué
+            par aucun convenant.</p>
+          <p xml:id="KBR_9234-digeste.2.14.39"><label>[2.14.39]</label>
+            <hi rend="b">C</hi>il meismes dit que convenance obscure plut, et convenance douteuse,
+            au vendeeur de vielles choses et à celui qui avra aloué connoistre en la poesté desquiex
+            il convient conscrire plus apertement.</p>
+          <p xml:id="KBR_9234-digeste.2.14.40"><label>[2.14.40]</label>
+            <hi rend="b">C</hi>il meismes dit que tel convenant comme je ai devant dit ne doit mie
+            estre tenu ne ne doit mie estre amé de aucunes personnes car, comme il soit general, il
+            avra lieu entre aucuns hoirs qui plederont ensemble. ¶ <label>[1]</label> Celui qui a
+            convenancié à paier en certain jour aucune peccune apele son deteur por paier lui sa
+            peccune que il n’avoit mie paié au jour certain. Le juge de la cause principal doit
+            ensuivre la juste convencion en la maniere que confessé est et la maniere de l’apelement
+            la satisfaccion et jugier du terme passé contre celui à qui la cause est bailliee et non
+            mie à autre. <label>[2]</label> Aprés la division des biens et des muebles de aucun
+            mort, sengles creanciers ou presteeurs se assemblent ainçois que les legacions ne les
+            choses soient entreposees, à celle fin que il prengnent leur usures et leur actions,
+              les<cb n="36a"/>quelles il ont envers euls pour leur parties. Il ne doivent mie estre
+            empeechez que il ne praignent leur debte, se einssi n’est que les sengles hoirs pour la
+            foy de la chose faite se seront offers aus sengles debteurs faire satisfacion de leur
+            debte. <label>[3]</label> Le pere qui a promis aucun doaire et enconvenance en mariage à
+            son filz que aprés la mort de sa fille tout le doaire li revendra, celle convencion
+            faite et aprés pluseurs hoirs frans seront issus de la fille, ce proffitera à ses hoirs
+            par excepcion de tricherie requerre le doaire comme tel chose soit faite entre les hoirs
+            contraiant, et que il soit conseillié aus hoirs que, au temps que la convenance fu
+            faite, le pere n’avoit mie tant hoirs. Le jugement est veu obeir à la cause du filz par
+            la cause du pere.</p>
+          <p xml:id="KBR_9234-digeste.2.14.41"><label>[2.14.41]</label>
+            <hi rend="b">C</hi>il meismes dit que se aucun m’avra paié partie de ma debte dedenz le
+            jour qu’il m’avoit assigné de paier ma debte, et dés qu’il m’ara paié le remanant, et je
+            li die « Je te deliverai », ja soit ce que il n’ait mie action, se puet il avoir
+            excepcion de convenant.</p>
+          <p xml:id="KBR_9234-digeste.2.14.42"><label>[2.14.42]</label>
+            <hi rend="b">C</hi>il meismes dit que aucune fois est il einssi entre le creancier et le
+            debteur que le creancier ne congnoist mie le fés du treu ou de la loiauté ou de la chose
+            engaigiee, mes atent la neccessité de la debte du deteur pour estre paié. Telle
+            convencion quant à la raison de <choice>
+              <sic source="#ms">tici</sic>
+              <corr resp="#ed">fisci</corr>
+            </choice><note resp="editor">fisci] tici <hi rend="i">ms. Corr. d’après le texte latin
+                (« Talem conventionem quantum ad fisci rationem non esse servandam respondi : pactis
+                etenim privatorum formam iuris fiscalis convelli non placuit »).</hi></note> ne doit
+            mie estre gardee en la rebriche des convenans, est ce escrit. Donques me plut il la
+            forme du droit privatoire de fiscalier estre esracié.</p>
+          <p xml:id="KBR_9234-digeste.2.14.43"><label>[2.14.43]</label>
+            <hi rend="b">P</hi>aulus dit que es ventes ou es choses vendues devons nous savoir que
+            le vendeeur doit baillier la chose vendue et l’acheteeur doit faire le contraire, car se
+            encontraitant ou en faire contraut ou en contraut fait aucun<cb n="36b"/>e chose fait
+            excepter, l’achateor doit garder au pris que la chose est achetee, et le pris
+            restraindre du mal se mestier en est.</p>
+          <p xml:id="KBR_9234-digeste.2.14.44"><label>[2.14.44]</label>
+            <hi rend="b">S</hi>cevola dit que en ce que l’enfant desouz aage se fut atenu de
+            l’eritage son pere prendre, le meneeur dudit enfant souz aage bailla certaine porcion
+            dudit heritaige aus creanciers qui avoient creu leur peccune au pere tant comme il
+            vivoit, et comme les curateurs fussent tenu à ceus. Je demant <choice>
+              <sic source="#ms">je demant</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">je demant] <hi rend="i">Répété.</hi></note> assavoir mon se
+            le creancier du pere doie retenir celle porcion que le meneor li a bailliee. La
+            responsse est telle que le meneeur doit apeler l’une partie et l’autre, et doit souffire
+            que les creanciers aient la partie qui leur est laissiee.</p>
+          <p xml:id="KBR_9234-digeste.2.14.45"><label>[2.14.45]</label>
+            <hi rend="b">H</hi>ermogenians dit que le plaisir de division de aucune chose, se elle
+            ne prent son effect à aucune action par tradition ou par stipulacion, le convenant ne
+            porra mie proffiter à aucun home en nul temps.</p>
+          <p xml:id="KBR_9234-digeste.2.14.46"><label>[2.14.46]</label>
+            <hi rend="b">T</hi>riphonius dit que le convenant fait entre le legatoire et l’oir de
+            aucun home trespasse en tel maniere que il ne prendra mie satisffacion de l’oir. La
+            constitucion de l’empereeur Marc raportee doit estre gardee en tel maniere que la
+            volenté du trespassé doit estre faite de value, ne satisfacion par les lais qui sont
+            laissiez à l’oir ne doit mie estre rapelee par enconvenancement de penitance, ja soit ce
+            que il li plaise establir la persecucion de son droit en pieur esperance de perfeccion à
+            venir.</p>
+          <p xml:id="KBR_9234-digeste.2.14.47"><label>[2.14.47]</label>
+            <hi rend="b">S</hi>cevola dit que l’achateeur de le aleu ou d’aucun heritaige avoit
+            promis paier .xx. livres en tel maniere que il disoit que il ne li vaudroit mie ensemble
+            ne que il ne paieroit mie touz les .xx. livres au vendeeur, et aprés ce il as<cb n="36c"
+            />semblerent ensemble et dist le vendeeur que il li souffiroit avoir .xiii. livres
+            maintenant, et fist convenance à l’achateeur que il soit paié dedenz certains jours,
+            aussi comme dedenz .x. jourz ; se il n’estoit paié dedenz le tens, il porroit demander
+            tout le plain des .xx. livres. Et en toutes ces choses il n’eust mie fait assignement ne
+            letre. Aucuns si puet demander que, se il n’a fait satisfacion du derrenier convenant,
+            se toute la debte de la premiere convenance li porra estre demandé. La responsse est
+            telle que elle li porroit estre toute demandee, selonc les choses qui seroient
+            proposees. <label>[1]</label> Lucius Tycius Gaius : Un de ces .iii. freres establi .i.
+            deteur avoec qui il estoit enlacié par aucune reson pour les choses que il avoit prises,
+            et qui li avoient estre bailliees. Et prist ces paroles de l’epitre par la raison de la
+            table que tu as prise avoec moi jusques à cest jour. Et par pluseurs contraus il dut à
+            celui qui l’avoit establi pour deteur, et avoec qui il avoit esté à ssa table .ccc. et
+            .lxxxvi. livres, et l’usure qui y apartient. Et dont dist celui qui avoit establi son
+            deteur à son deteur : je te delairai secreement de la somme en laquelle tu es tenu à
+            moi, ne mains que j’en soie assigné par instrument ou par letre et de chascune somme et
+            la cause, en tel maniere que li instrument remaingne par devers moi et il soit einssi
+            fait, nepourquant l’instrument soit chancellé. L’en puet demander comme celui qui est
+            tenu en la somme vers le presteeur ait mandé au presteor devant le temps de sa chartre,
+            et ait aussi mandé à son patron que il li a fait satisfacion des .ccc. livres, assavoir
+            mon se les paroles de l’epistre par lesquelles toute la caucion <choice>
+              <sic source="#ms">dec</sic>
+              <corr resp="#ed">de</corr>
+            </choice><note resp="editor">de] dec <hi rend="i">ms.</hi></note> chascun contraut sont
+            issues ou por l’instrument chancelé, se il avront la <cb n="36d"/> caucion entr’euls ne
+            se il porra suivre le debteur lui ne son filz. La responsse est telle que, se la raison
+            de la chose prise et il eust despendu tant comme il avoit en l’assignement completement,
+            l’obligacion devroit remaindre en sa poesté.</p>
+          <p xml:id="KBR_9234-digeste.2.14.48"><label>[2.14.48]</label>
+            <hi rend="b">G</hi>aius dit que quiconques face convenant en tradicion de choses, cel
+            convenant doit estre manifestaument de value.</p>
+          <p xml:id="KBR_9234-digeste.2.14.49"><label>[2.14.49]</label>
+            <hi rend="b">U</hi>lpians dit que se aucun avra creu sa peccune ou il ait en convenant
+            de prester sa peccune en tel maniere que il l’arait à son besoing, et son deteur li ait
+            convenant que il en fera son proffit à son pooir, l’en puet demander se tel convenant
+            est de value, et miex est il que il soit de value ne n’est mie chose mauvaise se le
+            presteeur requiere estre paié solut ce que sa faculté le desirre.</p>
+          <p xml:id="KBR_9234-digeste.2.14.50"><label>[2.14.50]</label>
+            <hi rend="b">C</hi>il meismes dit que il ne cuide mie estre de la chose ostee ou de la
+            chose prestee ou de la chose alouee es contraus et en ces choses semblables, et cest
+            convenant est que tu ne faces mon serf fuitif ou larron, et cest que tu ne t’escommoeves
+            en tel maniere que tu despises ton sergent, si que il soit fait larron, si comme cest
+            fait tost d’un serf corrompu. Et ceste convenance puet tenir lieu, car elle n’apartient
+            mie es sers corrompus.</p>
+          <p xml:id="KBR_9234-digeste.2.14.51"><label>[2.14.51]</label>
+            <hi rend="b">U</hi>lpians dit que se aucun fait convenant avoec son deteur de cause
+            lessiee, et il convenance que il ne l’en demandera jamés riens, ainz li delaisse ce que
+            il li doit, le deteur ne sera mie delivré de cel droit, se einssi n’est que il ne li
+            convenance que il le mete hors de toute convencion de excepcion, si comme Celsus escrist
+            en la loy. <label>[1]</label> Et celui meismes escrist en la loy que, se tu as commandé
+            à ton deteur paier ta debte à Titius, à qui tu cuides que la chose li soit laissiee par
+            aucune chose fausse, et le deteur <cb n="37a"/> ait fait convenant avoec celui qui li
+            est establi nouvelement, ne tu n’as perdue ton action envers ton deteur ne lui envers le
+            sien.</p>
+          <p xml:id="KBR_9234-digeste.2.14.52"><label>[2.14.52]</label>
+            <hi rend="b">C</hi>il meismes dit que l’epistre dit, en laquelle il est contenu, que
+            aucun ara fait eschiver aucune chose à son hoir, il ne porra mie donner aucune peticion
+            envers le porseeur apartenantes à l’eritage. <label>[1]</label> Se einssi est que
+            consentement fust fait entre le deteur et celui à qui il plest acheter du creancier
+            l’eritage, lequel le deteur avoit engaigié au creancier, et en deportant les fiees du
+            deteur et en lieu de lui il l’ait desgaigié, li eue compansassion de fruiz et du
+            seurplus paié par dessus ce que les fruiz valent, li heritage doit estre rendu au
+            deteur. <label>[2]</label> Se aucun creancier ait convenancié paier pour son deteur
+            aucunes sommes faites pour creuz ou par engaigemenz ou pour pris et il les pait pour son
+            deteur et le renie de li, il en doit estre cuite, aussi comme se il les paiast par
+            droit. <label>[3]</label> Se aucun hoir ait convenancié faire excecution du testament
+            son pere, et certaine quantité li soit bailliee de quoi il doie faire execution, il doit
+            avoir escript et requerre le ou tout soit contenu ne ne doit mie tel requeste estre
+            delessiee par droit.</p>
+          <p xml:id="KBR_9234-digeste.2.14.53"><label>[2.14.53]</label>
+            <hi rend="b">C</hi>il meismes dit que, se aucuns plaident que .i. home honneste soit
+            pris pour donner aucune chose ou pour prester, et il convenance de son gré que il ne
+            restablira mie la quantité qui est despendue en nom de celle erogacion avoec les usures
+            nie la demie partie, il me plaist que il ne puisse mie enconvenancier ne tenir le
+            convenant de celle reson.</p>
+          <p xml:id="KBR_9234-digeste.2.14.54"><label>[2.14.54]</label>
+            <hi rend="b">S</hi>cevola dit que se je, creancier, ai convenancié que je ne demanderai
+            mie à chascun ce que il me doit et je entende que ce ne soit devant .i. an, cele <cb
+              n="37b"/> demeure ne fait riens au convenant aprés la mort chascun, car devant ce que
+            convenance fust faite, il ne mist mie temps en son convenant.</p>
+          <p xml:id="KBR_9234-digeste.2.14.55"><label>[2.14.55]</label>
+            <hi rend="b">U</hi>lpians dit que se .i. deteur soit estrange ou fuitif et il
+            enconvenance à son serf que il ne li demandera riens de son fruit, en enconvenançant que
+            il ne li demandera rien, il fait sa condicion estre meilleur. Derechief, se aucun
+            creancier fruitier ait convenant que il ne demandera rien de son fruit, et le serf
+            fruitier enconvenance que il en demandera, le serf profitablement avendra à sa peticion
+            par l’interposicion du convenant.</p>
+          <p xml:id="KBR_9234-digeste.2.14.56"><label>[2.14.56]</label>
+            <hi rend="b">C</hi>il meismes dit que, se aucun cultiveeur de terre ait convenant avoec
+            son seigneur, que il ne li demandera mie son louyer de coutiver sa terre lequel il a
+            gaaignié avoec lui, ja soit ce que il l’ait gaaignié et que il ait juste cause de
+            convencion, si ne li porra il pas demander.</p>
+          <p xml:id="KBR_9234-digeste.2.14.57"><label>[2.14.57]</label>
+            <hi rend="b">F</hi>lorencius dit que se aucun qui en temps à venir avoit pris usures de
+            son deteur secreement, il apert que il enconvenance que aprés il ne la doie mie
+            demander. <label>[1]</label> Et se einssi est que le convenant soit conceu en une partie
+            en la chose et en l’autre partie une personne, aussi comme se je enconvenance que je ne
+            te requerrai mie aucune chose ou que aucune chose ne soit requise de toi, et mon hoir
+            ara la peticion de touz nous et porront toutes ces choses à ton hoir [...]<note
+              resp="editor"><hi rend="i">Plusieurs mots manquent à la fin de la phrase. Cf. lat.
+                  « <seg rend="eleve">heres meus ab omnibus vobis petitionem habebit et ab herede
+                  tuo omnes petere poterimus ».</seg></hi></note>.</p>
+          <p xml:id="KBR_9234-digeste.2.14.58"><label>[2.14.58]</label>
+            <hi rend="b">N</hi>eracius dit que touz cels qui sont obligiez par le consentement
+            d’entr’euls par achatement ou par vendicion ou par condicion ou par l’ocasion ou par
+            autres obligemens en tiers s’en pueent repentir et departir par le consentement de
+            entr’eus. Et ce ne doit mie estre mis en doute. Ceste chose est veue plus forte, car se
+            einsi est que il couviengne que je te preste ce que je ai achaté, et je le te preste, et
+            comme <cb n="37c"/> tu me deusses le pris de la chose que je te ai prestee, et nous
+            assemblissons ensemble et tu me requersisses que je t’en prestasse autant, et tu ne m’en
+            baillasses mie le pris de la chose que je te ai prestee, et tu te establisses devoir moi
+            le pris que la chose valoit que je li avoie prestee, à laquel chose toutes les choses de
+            bone foy sont ramenees, et l’interpretacion reçoit certainement ceste convencion, ne il
+            ne apartient mie que celui qui est obligié en entieres obligacions, que il s’en isse de
+            telle obligacion faite ou il pert entierement les choses qui li ont esté prestees. ¶ Et
+            ice planierement apartient par convencion à resourdre celle chose<choice>
+              <sic source="#ms">chose</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">chose] <hi rend="i">Répété.</hi></note> qui est devant
+            faite et dite, ce ne puet estre parfait que tu me contraignes prester ce que je te ai
+            presté ou ce que tu as eu de moi. Car il ne parole mie ci en maniere que nous nous
+            departons de l’establissement ancien et que entre nous soient nouveles obligacions
+            establies.</p>
+          <p xml:id="KBR_9234-digeste.2.14.59"><label>[2.14.59]</label>
+            <hi rend="b">P</hi>aulus dit que par touz ceuls par lesquiex stipulacion puet estre
+            aquise en nous par la chose enconvenanciee par ceuls, et meismement plaist il ice faire
+            pour nostre condicion estre meillor.</p>
+          <p xml:id="KBR_9234-digeste.2.14.60"><label>[2.14.60]</label>
+            <hi rend="b">P</hi>apinians dit que l’empereeur Anthoine rescrist el jugement
+            Cassien : se aucuns creanciers aient enconvenancié ou soient prés de prendre des biens
+            de aucuns estranges par leur dete, il est necessaire chose à euls suivre la reson des
+            personnes neccessaires ainçois se il sont convenables.</p>
+          <p xml:id="KBR_9234-digeste.2.14.61"><label>[2.14.61]</label>
+            <hi rend="b">P</hi>omponius dit que nul home ne puet ce faire en enconvenançant que il
+            ne li plaise dedier son lieu, ou que il ne li plaise estre enseveli en sa maniere ou en
+            son mouvement ou que il ne aleche le aleu à son voisin outre sa volenté.</p>
+          <p xml:id="KBR_9234-digeste.2.14.62"><label>[2.14.62]</label>
+            <hi rend="b">F</hi>iurus dit : Se aucun coupable aprés ce que il est enconvenancié
+            peccune non mie estre requise de lui, et pour ice il prist cel convenant pour proffiter
+            à son <cb n="37d"/> plege, et aprés il convenance peccune de lui estre requise, il est
+            demandé assavoir mon se le prevost du premier convenant soit soustraitié au plege. Mes
+            plus vraiement est excepcion de convenant estre aquise une fiee du plege que non mie
+            pooir estre estorce de celui noient volenteif.</p>
+        </div>
+        <div>
+          <head xml:id="KBR_9234-digeste.2.15.0">[2.15.0] <seg rend="eleve">De
+              transactionibus.</seg>] <seg type="rubric">Des transactions.</seg></head>
+          <p xml:id="KBR_9234-digeste.2.15.1"><label>[2.15.1]</label>
+            <hi rend="b">U</hi>lpians dit que qui se tresporte aussi comme de chose douteuse se
+            tresporte de tençon non mie certaine ne fenie. Celui qui promet aucune chose par la
+            cause de donnement envoie chose certaine et non mie doutable par sa franchise.</p>
+          <p xml:id="KBR_9234-digeste.2.15.2"><label>[2.15.2]</label>
+            <hi rend="b">S</hi>il meismes dit que prendre puet aucun chose translatee et non mie
+            seulement se stipulacion ara esté souzmise, mes se convenant enconvenancié avra esté
+            fait.</p>
+          <p xml:id="KBR_9234-digeste.2.15.3"><label>[2.15.3]</label>
+            <hi rend="b">S</hi>cevola dit que Antonius et Severius escristrent que droit de ces
+            autres choses n’est mie esgené sanz doute es convenanz privez, pour quoi le testament
+            n’est mie veu pouoir estre rescript par la transaction qui est faite entre l’oir et la
+            mere d’un mort, ne ses actions ne sont mie à estre achatees de ceuls qui sont legatoires
+            du testament, pourquoi ceuls qui requierent rescript du testament doivent assembler
+            l’oir qui a la transaction de l’eritaige, car se testament chante à l’oir pour les fais
+            de l’eritage ou n’i chante mie. Et se il n’i chante mie, il ne doit mie raporter sa
+            negligence à autre injure. <label>[1]</label> Comme transaction soit ou fust faite pour
+            la chose commise de foy, et aprés ce il sont trouvees en .i. caer, et je demande
+            assavoir mon combien mains la mere du mort ait esté suivie par transactions du mort ou
+            de sa partie. Et c’est ce que la cause de la foy commune doit ensuivre le deteur, duquel
+            le creancier tresporta le gage, qui se vantoit estre hoir legitime de ce.
+              <label>[2]</label> Li creancier avoec Menius et celui qui estoit hoir de tout se
+              trans<cb n="38a"/>lata ou tresporta i. poi et aprés le testament prononcié, Septicius
+            apparut estre hoir de celui creancier. L’en puet demander se le deteur avra afaire avoec
+            Septicius ou se il porra user de l’excepcion de transaction faite avoec Menius qui au
+            temps que le gage fu engagié n’estoit mie hoir du creancier, ou se Septitius porra faire
+            que la peccune qui a esté prestee à l’oir du creancier avoec Menius porra faire que elle
+            soit nombree et receue sus le texte de l’eritage communement. ¶ La responsse est telle
+            que selonc les choses qui sont devant mises, que sa peccune ne doit mie estre nombree
+            sus le teuxte de l’eritage, car Menius ne se tresporta avoec lui, ne ne parti mie en
+            negoce de Septicius.</p>
+          <p xml:id="KBR_9234-digeste.2.15.4"><label>[2.15.4]</label>
+            <hi rend="b">U</hi>lpians dit que stipulation aquilienne renouvele en toutes manieres
+            toutes les obligations devant à <choice>
+              <sic source="#ms">l'autes</sic>
+              <corr resp="#ed">l'autres</corr>
+            </choice><note resp="editor">l'autres] l'autes <hi rend="i">ms.</hi></note>, et les
+            destruit, et elle est destruite par acceptilation. Et de cest droit usons nous. Et pour
+            ce, les choses lessiees sus condicion ou deguerpies sont de par stipulation
+            aquilienne.</p>
+          <p xml:id="KBR_9234-digeste.2.15.5"><label>[2.15.5]</label>
+            <hi rend="b">U</hi>lpians dit que comme stipulacion aquilienne soit entreposee qui est
+            rendue par aucun consentement, les tençons de quoi l’en ne se porpensse mie sont
+            retenues, et l’interpretacion cauteleuse froisse la liberalité causonneuse des
+            sages.</p>
+          <p xml:id="KBR_9234-digeste.2.15.6"><label>[2.15.6]</label>
+            <hi rend="b">P</hi>aulus dit que de ces controversions qui proffitent en testament, la
+            verité ne puet estre autrement aquise ne tresportee que en connoissant les paroles et en
+            veant les lais du testament.</p>
+          <p xml:id="KBR_9234-digeste.2.15.7"><label>[2.15.7]</label>
+            <hi rend="b">U</hi>lpians dit que transactions vaut aprés la chose jugiee, ou
+            appellacion il i puet estre embatue, ou celui qui est enchaoit du jugement puet
+              apeler<note resp="editor"><hi rend="i">Manque dans le texte français une conjonction
+                de subordination traduisant « si ». Cf. lat. « <seg rend="eleve">Et post rem
+                  iudicatam transactio valet, si vel appellatio intercesserit vel appellare
+                  potueris ».</seg></hi></note>. <label>[1]</label> Se aucun plege qui ait plegié
+            aucun deteur ou en convenant à plegier le ait esté condampné pour la debte au deteur, et
+            le deteur de qui il est plege se soit <cb n="38b"/> tresporté avoec lui sanz faire point
+            d’atente, l’en demande ou doit demander se la transaction est de value. Et je cuide que
+            elle soit de value, aussi comme par toute la cause qui est desliee entre le deteur et
+            son plege. ¶ <label>[2]</label> Et se icelui plege qui avra esté condampné se soit
+            transporté ou ait fait transaction et la transaction ne detruist mie la chose jugiee, il
+            apartient toutevoies relever la chose jugiee en ce qui est donné, jusques à tant que ce
+            qui est donné proffite ou face proffit. Et se il ne fait mie proffit à la transaction,
+            ainz a tenue la chose jugiee en tel maniere que banissement rescrist ou einssi environ
+            la transaction, ou environ la transaction faite ou donnee du prevost, que ce qui est
+            donné profite en norrissement en tel maniere que, se aucun puet devoir par la cause de
+            tel norissement, que ce qui est devant dit li soit presté et ce qui est donné li soit
+            mis au devant.</p>
+          <p xml:id="KBR_9234-digeste.2.15.8"><label>[2.15.8]</label>
+            <hi rend="b">C</hi>il meismes dit que comme ces choses qui font de legiere transaction,
+            esquelles norrissemenz erent delaissiez, Marcians fait tout par son oroison recitee en
+            son senat, que il doivent estre souffitez de petit norrissement present, car autrement
+            transaction de norrissement ne seroit mie ferme ; laquelle transaction, se elle seult
+            estre faite du prevost, le prevost doit donques convenir entre ceuls qui sont à descorde
+            et faire arbitracion par le consentement d’euls, ou il doit faire transaction ou chose
+            qui doie estre receue entr’euls. <label>[1]</label> La connoissance de cel meismes
+            prevost sera transaction, et soit en delaissemens de habitacions ou de vestiaire ou de
+            norrissemenz de aleus. <label>[2]</label> Ceste orison apartient es norrissemens qui
+            sont delaissiez es testamenz ou es caiers ou es fais du testament. ¶ Ceste meisme chose
+            porra estre dite se aucunes cho<cb n="38c"/>ses donnees seront delaissiees par la cause
+            de mort ou de celui à qui les choses donnees sont delaissiees par la cause de mort. Mes
+            se il sont delaissiees par la grace de condicion estre emplie, encore porrons nous dire
+            ce meisme qui est devant dit. ¶ <label>[3]</label> Il me plaira planierement faire
+            transaction des norrissemenz qui ne sont mie donnez par la cause de mort et sanz
+            l’auctorité du prevost, ja soit ce que se soit en sengles mois ou en sengles jours ou en
+            sengles anz, le oroison ait lieu. Mes se il n’avront mie esté delaissez en pardurableté
+            mes jusques à ces anz devant diz, ce meismes qui est dit devant porra estre dit. ¶
+              <label>[4]</label> Se aucune quantité entiere avra esté delaissiee à aucun, en tel
+            maniere que des usures de celle quantité il se norrisset el temps de sa mort, il
+            conviengne que il rende la quantité de peccune. Encor ne cessera mie l’oroison, ja soit
+            ce que il apert que ce ne li soit mie laissié par espace d’anz singuliers, mes en
+            perpetuauté. ¶ <label>[5]</label> Mes se einssi est que certaine quantité soit
+            delaissiee à Ticius, ou chose aussi comme fons de heritaige, en telle maniere que il
+            enpreste et doigne norrissement à Sey, plus forte chose est que Ticius puisse faire
+            transaction, ne les norrissemenz de Sey ne doivent mie estre amenuisiez par la
+            transaction de Seyen. ¶ Et aussi est il se aucune chose est laissiee de aucun legatoire
+            pour commetre norrissemenz ou donner à autrui par sa foy. <label>[6]</label> Et ceste
+            transaction enquiert l’oroison qui fu por ice faite, que aucun degast la peccune
+            presente par la chose qui li a esté laissiee. Quel chose est ce donc se aucun a fait
+            transaction environ l’auctorité du prevost, en tel maniere que ce qui ert delaissié par
+            sengles anz pour faire norrissemenz est ensuivi main<cb n="38d"/>tenant que il est
+            delaissié par sengles mois ? Et aussi, ce qui est delaissié par sengles mois est ensuivi
+            en tel maniere que il est delaissié en sengles jors et de illeuc en aprés, se aucun
+            l’avra acompli, praigne arriere en commencement de l’an la chose laissié pour le
+            norrissement ? Je cuide que telle transaction est de value, car certainement le
+            norrisseur, ou celui qui laisse sa peccune pour norrir, fait sa condicion meilleur par
+            celle transaction, car il ne volt mie, ne l’oroison ne volt mie les norrissemenz estre
+            entrepris par transaction. ¶ <label>[7]</label> Ne l’en ne doit mie faire force assavoir
+            se iceuls sont frans, à qui norrissemenz sont laissiez ou de lignage assez riche ou de
+            moien. ¶ <label>[8]</label> L’oroison si veult adonques querre envers le prevost de ces
+            choses, et premierement de la cause de la transaction, et aprés de la maniere de
+            transaction, et puis aprés de la personne qui fait transaction. Et en ceste cause ce
+            devra estre requis quel cause soit de faire transfiguracion ou transaction, ou le
+            prevost orra la cause se nul home fera transaction, ou comment transaction sera faite.
+              <label>[9]</label> Les causes faites en tel maniere seulent souvent estre alleguees,
+            aussi comme se aucun hoir a sa maison en .i. lieu, et celui qui le doit norrir soit en
+            .i. autre lieu, ou se aucun pour tel chose meismes destinte deporter sa maison ou lieu
+            où celui qui le norrist demeure, ou se aucune cause le contraint de peccune presente, ou
+            se einssi est que norrissemenz lesquiex pluseurs li amenistroient li estoient faillis.
+            Forte chose est que il cueille ensemble ses choses devisees par menues pieces, ou se il
+            sera enchaoit par aucune cause, aussi comme pluseurs seulent chaoir, qui amonnestent au
+            prevost reçoivre transaction. <label>[10]</label> La maniere de la peccune qui vient en
+            transaction <cb n="39a"/> doit estre nombree aussi comme la quantité de transaction, car
+            adecertes foy est prise de la maniere de transaction. Maniere ici, en droit, est prise
+            pour l’aage ou pour la value de celui qui fait transaction ; car transaction est faite
+            une fois avoec une enfant, autre fois avoec .i. joene home, autre fois avoec un
+            vieillart. Certaine chose est norrissemens fenir avoec vie. <label>[11]</label> Mes
+            contemplacion de personnes doit estre eue, c’est assavoir que l’en doit enquerre : de
+            quel vie et de quelles meurs ceuls sont à qui norrissemenz sont delaissiez, et se il
+            usent de vie ou non, car se il ne usoient de ce, il ne li souffiroient mie ; ou à cels
+            desquiex la vie depent de norrissemenz, c’est assavoir qui n’ont de quoi vivre fors de
+            norrissemenz, et à ceuls souffissent il bien. ¶ Ces choses doivent estre regardees en la
+            personne d’icelui duquel les norrissemenz sont delaissiez, c’est assavoir desquiex
+            facultez il est, et de quel propos et de quel oppinion. Donques aperestra il que celui
+            veult circonvenir avoec celui avoec qui il veult faire transaction. ¶
+              <label>[12]</label> Celui qui fait transaction n’est mie veu faire transaction des
+            norrissemenz de habitacion ne des vestemenz faire transaction, car li empereor Marc
+            especialment de ces choses volt faire transaction. <label>[13]</label> Mes celui qui
+            fera transaction ne avra mie besoing de faire transaction des norrissemenz de
+              habitation<note resp="editor"><hi rend="i">L’alinéa 14 manque, cf. Trad. 3 (ms.
+                F) : « Et transaction de chauceure doit estre fete par l’auctorité au
+                prevost ».</hi></note>. ¶ <label>[15]</label> Se aucun fons d’heritaige ara esté
+            delaissié pour les norrissemenz d’un home ou de pluseurs, neccessaire chose est le
+            prevost distribuer de la distrancion de cel norrissement, et faire arbitracion de la
+            transaction. Mes se einssi est que le fons soit delaissié à pluseurs, et iceus facent
+            transaction sanz l’auctorité au prevost, la transaction faite sanz l’auctorité au
+            prevost ne doit mie estre ferme. Ice meismes est se .i. champ est obligié <cb n="39b"/>
+            à aucuns en norrissemenz, et se aucuns baille aucun gage pour cel champ, il ne porra mie
+            estre delivré par le prevost. <label>[16]</label> Manifeste chose est que il convient
+            faire transaction de touz norrissemenz ou departie par la volenté au prevost. ¶
+              <label>[17]</label> Se le prevost avra delaissié faire transaction environ le
+            commencement de la connoission d’une cause, la transaction sera de nul mouvement. Et tel
+            chose doit estre commise au prevost, ne ne doit mie estre<choice>
+              <sic source="#ms">ne ne doit mie estre</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">ne ne doit mie estre] <hi rend="i">Répété.</hi></note>
+            despite du prevost ne donnee. ¶ Mes se le prevost n’ara mie enquis de toutes les choses
+            que li empereor Marc commande par son oroison, ¶ c’est assavoir de la cause de
+            transaction et de la maniere des personnes qui font transaction, l’en doit dire que, ja
+            soit ce que il ait enquis de pluseurs de ces choses, la transaction est vaine.
+              <label>[18]</label> Mes ne le prevost ne le juge de la province ne porra mie mander la
+            cause de ceste jurisdicion. <label>[19]</label> Mes les transactions des norrissemenz
+            porront estre faites envers le prevost de Cesar, c’est assavoir se norrissemenz soient
+            requis de fiscum, selonc les choses dites, transaction porra estre faite.
+              <label>[20]</label> Se plet soit meu des norrissemenz ou tençon, et transaction fust
+            faite du plet ou de la tençon, la transaction du prevost non mie conseille ne puet mie
+            valoir, se einssi n’est que l’oroison i ssoit entrevenue, car les tençons porront estre
+            faites en tel maniere que transaction soit faite jouste l’auctorité du prevost. Et se
+            einssi est que aprés ces choses les norrissemenz devant diz ou la chose laissiee soit
+            donnee à celui meismes qui est devant en jour present, et transaction soit faite jouste
+            la volenté du prevost, la chose qui est donnee, se elle est reprouchiee pour lais el
+            jour present que elle est donnee, ceste chose <choice>
+              <sic source="#ms"/>
+              <corr resp="#ed">est</corr>
+            </choice><note resp="editor">est] om. <hi rend="i">ms.</hi></note> superflue en
+            norrissement. ¶ <label>[21]</label> Se aucun ait fait transaction des norrissemenz et
+            sanz <cb n="39c"/> l’auctorité du prevost, ce qui est donné, il ne apartient mie tant
+            seulement es norrissemenz trespassez donner lui, assavoir se il sont en quantité deue,
+              <label>[22]</label> ou de quel quantité la chose donnee soit, ou se elle s’estent en
+            plus ou en mains que elle ne deust, et encore ce qui est donné en solte sera reprochié
+            es norrissemenz à venir. Et sainement se celui qui fait transaction de norrissemenz en
+            soit fait plus riche, chose tres droituriere sera donner à celui repeticion par tele
+            solucion, en telle chose en quoi il est fet plus riche, car il ne doit mie estre riche
+            de domage d’autrui. <label>[23]</label> Et se einssi est que certaine quantité soit
+            laissiee à aucun home de lieu honneste en sengles anz, aussi comme salaire annuel, ou
+            otroié ou usutruit, de ce porra estre faite transaction sanz l’auctorité du prevost.
+            Certaine chose est que, se usufruit soit donné de petite quantité en norrissement, je di
+            que la transaction faite solut l’auctorité ou prevost n’est mie d’aucun moment. ¶
+              <label>[24]</label> Se celui auquel norrissement sera delaissié, non mie petit ne
+            singulier, mes en fourment ou en huille ou en tiels autres choses qui sont neccessaires
+            au vivre, de ces choses ne porra mie estre faite transaction : elles doivent estre
+            delaissiees. ¶ Se einssi est que il en aient fait transaction sanz la volenté du
+            prevost, en tel maniere que en la fiee de ces choses il ait gardé par quans anz ou par
+            quans mois il ait prins cel norrissement, et il n’ait mie le jour ne la maniere mes tant
+            seulement le lignage ou les estractions du forment ou de l’huille, et il ait promis que
+            il prengnent norrissement es <choice>
+              <sic source="#ms">gierres</sic>
+              <corr resp="#ed">gienres</corr>
+            </choice><note resp="editor">gienres] gierres <hi rend="i">ms. Corr. d’après le texte
+                latin : « Si cui non nummus ad alimenta, sed frumentum atque oleum et cetera, quae
+                ad victum necessaria sunt, fuerint relicta: non poterit de his transigere, sive
+                annua sive menstrua ei relinquantur. Si tamen ita sine praetore transegerit, ut in
+                vicem eorum nummum quotannis vel quotmensibus acciperet et neque diem neque modum
+                permutavit, sed tantum genus : vel ex contrario si pactus fuerit, ut in generibus
+                alimenta acciperet, quae in nummis ei relicta fuissent: vel si vinum pro oleo vel
+                oleum pro vino vel quid aliud commutavit: vel locum permutavit, ut quae erant ei
+                Romae alimenta relicta, in municipio vel in provincia acciperet vel contra: vel
+                personam commutavit, ut quod a pluribus erat accepturus, ab uno acciperet: vel alium
+                pro alio debitorem acceperit: haec omnia habent disceptationem praetoris et pro
+                utilitate alimentarii recipienda sunt ».</hi></note> et es manieres que il ont esté
+            lessiees en la meismes transmutacion, c’est assavoir vin pour huille ou huille pour vin,
+            ou il mua l’une chose ou prist pour<choice>
+              <sic source="#ms">pour</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">pour] <hi rend="i">Répété.</hi></note> l’autre ou il mua
+            son lieu. Aussi comme les choses li estoient lessiees à Romme, il les prist en autre
+            province ou illeuc environ <cb n="39d"/> où il mua la personne ou ce que il prenoit de
+            pluseurs. Et toutes ces choses ont discepcion de prevost, ne ne s’en doit entremetre, et
+            sont prises pour accroissement de proffit. ¶ <label>[25]</label> Se aucune quantité
+            certaine soit delaissiee à aucun en son habitacion, et transaction soit faite en tel
+            maniere que l’abitacion soit prestee sanz l’auctorité du prevost, la transaction est de
+            value, car le proffit de l’abitacion est presté avoec et, ja soit ce que l’abitacion
+            soit destruite par trebucheure ou par abrasement, la transaction est de value. Et se il
+            li plut, pour son habitacion prestee ou delaissiee, prester la certaine quantité qui li
+            avoit esté laissiee en norrissement, encore ceste transaction <choice>
+              <sic source="#ms"/>
+              <corr resp="#ed">est</corr>
+            </choice><note resp="editor">est] om. <hi rend="i">ms.</hi></note>de value sanz la
+            volenté du prevost.</p>
+          <p xml:id="KBR_9234-digeste.2.15.9"><label>[2.15.9]</label>
+            <hi rend="b">C</hi>il meismes dit que comme celui qui avoit fait ou avoit besoing de
+            seule posicion de ses meneeurs estre amenistree à sa garde, et il avoit fait transacion
+            envers iceuls meneeurs de la persone de son frere duquel il estoit hoir, celui qui a
+            faite transaction ne sera mie osté de la garde par l’excepcion de la transaction faite.
+            ¶ <label>[1]</label> Transaction, en quelle maniere que elle soit faite, puet estre
+            entreposee par le consentement de ceuls qui la font<note resp="editor"><hi rend="i"
+                >L’alinéa 2 manque, cf. Trad. 3 (ms. F) : « Cil qui ne savoit pas la verité des
+                choses qui estoient en son heritage et fist <cb n="33d"/> transaction par ce que ses
+                conpainz qui estoit hoirs o lui le deçut, il ne fet pas transaction ainz est
+                deceuz ».</hi></note>. <label>[3]</label> Se aucun ara fait transaction par
+            couvenant à icelui qui ne fu onques certain à soi apartenir la cause ou la querelle
+            faite environ le testament de son pere, ainz est souz aage en tel maniere que il le
+            translate à autres causes contre aucuns adversaires, cest convenant entreposé leur sera
+            nuisible, desquiez le convenant est prouvé entre iceuls, et à ceuls tant seulement nuist
+            transaction. Et se celui qui a plus de .xxv. anz ara faite ceste interposicion de
+            laquelle le fait est prové devant, si n’est il mie de droit d’escrivre les choses
+            desquelles les actions li apartiennent, ja soit ce que il ait fait convenant dont il
+            n’ert pas ensaignié.</p>
+          <p xml:id="KBR_9234-digeste.2.15.10"><label><cb n="21d"/></label>
+            <label>[2.15.10]</label><note resp="editor"><hi rend="i">La Trad. 5 déplace les
+                paragraphes 2.15.10-2.15.13 après 2.7.2.</hi></note>
+            <hi rend="b">C</hi>il meismes dist : <hi rend="b">L</hi>i peres qui fet transaction de
+            la chose à ses filz qui ne sont en sa poesté ne puet riens nuire à ses filz.</p>
+          <p xml:id="KBR_9234-digeste.2.15.11"><label>[2.15.11]</label>
+            <hi rend="b">C</hi>il meismes dist : <hi rend="b">L'</hi>en puet fere transaction aprés
+            la chose jugiee, ja soit ce qu’il n’i ait point d’apel, mes que l’en use que la chose
+            n’est jugiee ou se l’en puet donner en aucune maniere del jugement, et c’est por ce que
+            encore em puet estre plet.</p>
+          <p xml:id="KBR_9234-digeste.2.15.12"><label>[2.15.12]</label>
+            <hi rend="b">C</hi>elses dist : <hi rend="b">L'</hi>en ne doit souffrir à celui qui fist
+            general transaction de tout ce qui li estoit lessié en testament se il dit aprés qu’il
+            n’entendi à fere pés fors seulement de ce qui li estoit lessié en la premiere paine ne
+            mie de ce qui estoit en la derreniere partie del testament. Mes se aprés vient hors une
+            autre escripture qui n’estoit avant moustree, cil qui avoit fait pés porra bien dire
+            qu’il n’enpensoit à fere pés, fors de ce seulement qui estoit el testament qui fu primes
+            moustré.</p>
+          <p xml:id="KBR_9234-digeste.2.15.13"><label>[2.15.13]</label>
+            <hi rend="b">M</hi>arcians dist : <hi rend="b">N</hi>us des procureeurs au prince ne
+            pueent fere transaction sanz le conseil au prince <choice>
+              <sic source="#ms">sanz le conseil au prince</sic>
+              <corr resp="#ed"/>
+            </choice><note resp="editor">sanz le conseil au prince] <hi rend="i"
+            >Répété.</hi></note>.</p>
+          <p xml:id="KBR_9234-digeste.2.15.14"><label>[2.15.14]</label>
+            <choice>
+              <sic source="#ms">LCevoles</sic>
+              <corr resp="#ed"><hi rend="b">S</hi>cevoles</corr>
+            </choice><note resp="editor">Scevoles] LCeuoles <hi rend="i">ms.</hi></note> dist : <hi
+              rend="b">U</hi>ne querele est mise entre le droit hoir et celui qui estoit escriz hoir
+            el testament, et puis fu fenie la transaction qui fu fete par convenance nommee. Or,
+            demant ge liquel de cels pueent enpledier li creancier de l’eritage. Et ge respondi : se
+            cil meismes qui firent la transaction estoient creancier, ce doit estre gardé des detes
+            qu’il ordenerent entr’els. Mes se li creancier estoient autre, chascuns d’els sera tenuz
+            de cele partie qu’il ot de l’eritaige en cele transaction.</p>
+          <p xml:id="KBR_9234-digeste.2.15.15"><label>[2.15.15]</label>
+            <hi rend="b">P</hi>aulus dist : <hi rend="b">L'</hi>en seult fere aquilenus stipulacion
+            sus les convenances que l’en fet, por ce que eles soient tenues. Mes il est plus dure
+            chose que l’en mete aucune paine por ce que cil qui ne gardera la convenance ait la
+            paine.</p>
+          <p xml:id="KBR_9234-digeste.2.15.16"><label>[2.15.16]</label>
+            <hi rend="b">H</hi>ermogenians dist : <hi rend="b">Q</hi>ui depecha la loiauté de la
+            transaction qu’i fist non seulement sera ostez de sa demande par excepcion, mes encore
+            il sera contrainz à paier la poine qu’il promist se il venist encontre la convenance et
+            la convenance demorast en son estat.</p>
+          <p xml:id="KBR_9234-digeste.2.15.17"><label>[2.15.17]</label>
+            <hi rend="b">P</hi>apinians dist : <hi rend="b">C</hi>il qui avoit vendu son heritaige
+            bailla ses actions à l’acheteor ; aprés, si fist pés à .i. deteur de l’eritaige qui ne
+            savoit qu’il l’eust vendu. Se l’acheterres de l’eritaige veult demander cele dete au
+            deteur, li deteur avra excepcion contre lui de la transaction qu’il fist au vendeeur,
+            por ce qu’il ne savoit que li heritaiges fust venduz. Et ce meismes respondra l’en en
+            celui qui reçut l’eritaige qui li fu renduz par le commandament au mort, se li hoirs qui
+            li devoit rendre fist transaction au deteur de l’eritaige qui riens n’en savoit.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

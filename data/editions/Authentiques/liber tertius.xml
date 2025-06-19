@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Traduction 1 des Authentiques</title>
+        <author>Anonyme</author>
+      </titleStmt>
+      <editionStmt>
+        <edition>Édition du texte</edition>
+        <respStmt>
+          <name xml:id="LD">Lucien Dugaz</name>
+          <resp>Éditeur</resp>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <p> Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
+          ancien français.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="O"> London, British Library, Royal 20.D.IX</witness>
+          <witness xml:id="F"> Paris, Bibliothèque nationale de France, fr. 22970 (F)</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
+      </langUsage>
+      <creation notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle.</creation>
+    </profileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p> Transcription du manuscrit London, British Library, Royal 20.D.IX, avec correction par
+          le second témoin, le texte latin et par conjecture.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <div>
+        <head>[Liber tertius]</head>
+      </div>
+      <div>
+        <head>[14. De lenonibus] <seg type="rubric">Ci commance la tierce collection. Cist tytres est des lecheeurs. Ce
+          est ci li doziemes establissemenz<note><hi rend="i">Rubrique</hi>] Cest titres est des
+            houliers et des meschines et des lecheurs F</note>.</seg></head>
+        <p><label>[14.pr.]</label><hi rend="b"> L</hi>i empereres Justinians dit à ceus de Costentinoble : 
+          <choice>
+            <sic source="#O">I</sic>
+            <corr resp="#editor">IL</corr>
+          </choice>
+           semble assez male chose et as enciances
+          lois et as empereeurs qui furent jadis que li nons et la cause de leche<cb n="30c"/>eurs soit si
+          que pluseurs lois qui sont escristes contre ceus qui font tiex meffez, et nos avons acreuz
+          les tormenz qui furent pieça establiz contre ceus qui font tex choses, et se nostre
+          enceiseur ont lessié aucune chose, nos l’avons amandé par autres lois. Et porce que nos
+          avons novelement requis<note>requis] esté requis F</note> por meffez qui ont esté fet en
+          ceste grant cité por tiex causes et<note>et] om. F</note> nos n’avons pas despit la cause,
+          car nos avons oï que aucun vivent contre droit et truevent achoisons de desleaus gaainz
+          par causes cruex que l’en doit haïr, et avironnent 
+          <choice>
+            <sic source="#O">pluseurs contrees et pluseurs contrees</sic>
+            <corr resp="#editor">pluseurs contrees</corr>
+          </choice>
+          et
+          pluseur lieus et decevent les chetives meschinetes parce que il leur donnent à vestir et à
+          chaucier et les amainent à ceste beneuree cité et les ont en leur abitacions et leur
+          donnent à mangier et à vestir et puis les baillent à luxure fere de leur volenté, et il
+          recevent tout le chetif guaaing qui vient de leur cors, et font convenent o eus que eles
+          feront cest desleal servise jusqu’al terme qui sera establiz entreux, et aucunes foiz
+          avient que l’en leur demande pleges. Et ceste desleal coutume est si venue avant que pou
+          s’en faut que tiex abitacions ne sont en toute ceste real cité, et es parties d’outre la
+          mer et pres des sainz liex et des onorables mesons, qui est encor pis, où<note>où] et
+            F</note> l’en ose fere tiex desleautez<note>tiex desleautez] t. d. en nos temps
+          F</note>, si que quant aucuns ont merci de tiex fames et il les vuelent retrere de cele
+          malvese vie<note>retrere de cele malvese vie] r. de tel vie F</note> et amener les à leal
+          mariage, il ne leur est pas souffert. Et ascun sont si desleal que il pranent les
+            puceles<note>puceles] puceletes F</note> qui n’ont pas encor .x. anz et les mainnent à
+          cele perillexse corrupcion, et aucun en donnent grant qantité d’or de qoi eles peussent
+          estre <cb n="30d"/> rachatees<note>rachatees] richement r. F</note> de cele chetiveté et mariees
+          chastement. Et il i a plus de .x. mile maniere que nule parole ne porroit comprandre, car
+          cil maus a esté amenez à trop desmesuree cruelté, si que ce qui fu premierement es
+          derrenierres parties de la cité est orendroit el mileu, et les choses qui sont environ
+          sont toutes plainnes de tiex maus. Aucuns nos denonça pieça cez choses segreement, et
+          aprés ce nos commandasmes à noz prevoz que il enquersissent tiex choses et il nos
+          raportent que il estoit issi. Et quant nos oïsmes ce, nos jujasmes que il covenoit
+          commander la cause à Damedieu et delivrer vitement la cité de tel deslealté.</p>
+        <p><label>[14.1]</label> Nos establissons donc que tuit maintiegnent chateé selonc ce que il porront, car
+          ele seule est puissent de presenter à Damedieu les ames. Et porce que pluseurs choses sont
+          es homes qui sont plainnes d’art et de besoing<note>besoing] barat F</note> et de
+          tricherie, nos desfendons en toutes manieres que nules fames ne soient menees à tel
+          luxure, ne nus n’ait fiance de pestre fole fame ne n’ait tel fame en sa meson ne ne les
+          abandonne por loier, ne que nus ne face tiex marchiez ne tiex covenanz ne n’en dement
+          pleges, ne ne face chose qui contraingne les chetives fames, ne<note>ne] de F</note>
+          confondre leur chateé malgré leur, ne il n’aient nule esperance que il leur lise de ci en
+          avant à decevoir les par donner leur robes et aornemenz ou pouture si que eles facent tel
+          chose malgré leur. Car nos n’otroions que nule tel chose soit fete, més nos avons ordené
+          briement toutes tiex choses o avenent cure et establissons que toute la caucion que les
+            puceles<note>les puceles] tiex p. F</note> ont donnees por tel desleauté leur soit
+          rendue, <cb n="31a"/> et si n’otroions pas se li desleal lecheor ont donné au puceles aucune chose
+          que il leur tolent, ainz avons commandé que li desleal lecheeur soient mis hors de ceste
+          beneuree cité autresi comme malvés et commun gasteeur de chasteé qui quierent les franches
+          et les serves et les amainnent à ceste chetiveté et les decevent et les norrissent à toute
+          confusion. Nos<note>Nos] ¶ <seg type="lemme" xml:lang="lat">Preconamus.</seg> Nos F </note> disons donc que se aucuns emprant de
+          ci en avant<note>de ci en avant] om. F</note> à prandre pucele malgré suen et à abandonner
+          la à fornication por avoir en le conquest, il convient que li prevoz del pueple<note>del
+            pueple] om. F</note> de ceste beneuree cité le praingnent et que il li facent soffrir
+          tres gries tormenz, car se nos leur avons otroié que il amandent les larrecins qui sont
+          fez de deniers et d’autre chatel par molt meilleur reson, leur otroions nos que il
+          refrenent le larrecin de chasteé. Et se aucuns sueffre en sa meson aucun lecheeur qui soit
+          mestres de tele uevre et ce li est denoncié, se il ne le met hors de sa meson, sache que
+          il soutendra<note>soutendra] souffrira F</note> painne de .x. livres d’or et sera em
+          perill de perdre sa meson<note>de perdre sa meson] de perdre la <del>vie</del> meson
+            F</note>. Et se aucuns fet de ci en avant nule tel chose<note>de ci en avant nule tel
+            chose] convenant de tel chose F</note> ou il enprant plege, sache que li covenant ou li
+          pleges ne li vaudra rien, car li pleges ne sera pas obligiez à lui, et li covenanz ne li
+          escriz qui en fu fez ne sera de nule force, et il sostendra torment<note>torment] paine
+            F</note> en son cors sicomme nos avons dit, et sera chaciez molt loing de ceste cité.
+          Nos volons donc que les fames vivent chastement et les em proions, ne ne volons pas que
+          eles soient menees malgré leur<note>malgré leur] malgré eulz F</note> à vie luxurieuse ne
+          ne soient contraintes de meffere. Car nos defendons del tout que lecherie ne soit fete et
+          quant ele est fete nos la punissons, et mees<cb n="31b"/>mement en ceste beneuree cité et environ
+          et en toz les lieus qui sont par dehors qui sont de nostre empire des le commancement ou
+          que Diex nos a puis donnez, et ceus plus que les autres. Car nos volons que li don
+          Damediex que il a fez à nostre empire soient gardé pur de toute tel desleauté, si que nos
+          soions digne que li don Damedieu soient o nos, et nos creons en Damedieu que granz
+          acroissemenz vandra à nostre empire par nostre estuide que nos avons de chasteé, car Diex
+          nos aidera en tiex uevres, <label>[14.ep.]</label> si que vos qui estes nostre citeain usoiz premierement
+          de cest chaste ordenement, et por ce usons nos de ceste sainte presdiccacion, que vos
+          sachiez que nostre estuide est en garder chasteé et nostre travaill, par que nos avons
+          esperance de garder nostre empire 
+          <choice>
+            <sic source="#O">en toz lieus</sic>
+            <corr resp="#editor">en toz biens</corr>
+          </choice><note>en toz
+            biens] en toz lieus O en tout bien F<hi rend="i">, corr. d’après le texte latin « in
+              omnibus bonis ».</hi></note>. Et que cez choses soient apertes en toz lieus<note>en
+            toz lieus] om. F</note> à toz ceus qui abitent en nostre empire, ta hautece receive
+          ceste nostre loi et la face savoir à toz ceus qui sont en ta juridiction, et ele soit
+          gardee nom pas tent seulement en ceste beneuree cité més en toz les lieus qui sont es
+          contrees, car ele est offerte à Damedieu en odeur de souatume por la cité de
+          Costentinoble.</p>
+      </div>
+      <div>
+        <head>[15. De defensoribus civitatum]
+          <seg type="rubric"> Cist tytres est des defendeeurs des
+            citez. Ce est ci li treziesmes establissemenz.</seg></head>
+        <p><label>[15.pr.]</label><hi rend="b"> L</hi>i empereres Justinians dit à Jehan le prevost : Se nos ne
+          rapelons inelement par avenant office la cure des defendeeurs, nos n’avrons pas la verité
+          des encians nons, car li encian donnerent à aucuns especial nons por senefier les choses
+          que il devoient fere, et li nons des defendeeurs mostre purement<note>purement] apertement
+            F</note> <cb n="31c"/> que li encian mistrent aucuns par devant les autres 
+          <choice>
+            <sic source="#O">et</sic>
+            <corr source="#F" resp="#editor">à</corr>
+          </choice><note>à] et O <hi rend="i">corr. d’après</hi> F</note>
+          entremetre soi des choses<note>choses] autres F</note> qui gardassent que nus torz n’i
+          fust fez et em praissent venchance, et por ce les apelons nos par commun language
+          defendeeurs, que il delivrent ceus à qui l’en fet tort. Més cist nons de defendeeurs est
+            molt<note>est molt] est or m. F</note> defolez en pluseurs parties de nostre empire, et
+          si despit<note>despit] desprisiez F</note> que il i a plus de tort que d’onesté, car il
+          sont fet plus par la volenté au juges que par eslection. Car cil qui ont soffissant vivre
+          sont fet defendeeur et apelé à ceste cure et sont sozmis en autres manieres<note>en autres
+            maniers] en ceste maniere F</note> à la volenté aus juges, si que il les ostent quant il
+          vuelent quant il font .i. tres petit meffet ou ja soit ce que il n’en font nul, et metent
+          autres en leur office et font autresi comme gardes en lieu de defendeeurs. Et il font issi
+          pluseurs foiz en .i. an, si que li official et li juge des citez et cil qui i abitent ont
+          les defendeeurs en tres grant despit, et les choses qui il font sont autresi comme se eles
+          ne fussent pas fetes, ne il n’osent pas fere aucuns instrumenz par devant euls se li juge
+          des contrees le defendent, car il les servent en toutes choses<note>en toutes choses] om.
+            F</note> et obeïssent à els. Et se aucun instrument sont fet par devant elx, il les
+          vendent premierement, et porce que il n’ont nul aumaire en qoi les choses qui sont fetes
+          soient estuiees, ce qui est fet perist et l’en ne trovera ja que aucuns d’eus ait
+          instrument qui ait esté fez de lonc tens. Ainz convient que cil qui ont besoig des
+          instrumenz les demandent à leur oirs ou à ceus qui sont en leur lieu, et cil qui sont
+          trové ne sont pas digne d’estre creu, et li autre sont peri et chiet<note>chiet] cheoit et
+            peri F</note> si que il ne valent pas <cb n="31d"/> plus que se il n’eussent onques esté fet.
+          Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Nos igitur.</seg> Et F</note> porce que nos avons bien ordené des juges et avons
+          fet leur poosté gregnor seur toutes genz et la cure des citez est loing d’eus, nos fu il
+          avis que il covenoit establir defendeeurs, car lors est fete profitable<note>profitable]
+            om. F</note> concordance se li defendeeur des citez prannent office de juges. Et il sera
+          commandé que li prevoz de la contree soit li juges des juges, et par ce apere
+            il<note>apere il] aparra il F</note> que il soit li plus honestes, car de tent comme
+          aucuns est par desus les plus hauz, de tant est il graindres et plus honestes.</p>
+        <p><label>[15.1.0]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Interdum.</seg> Et F</note> l’en doit savoir premierement que nus ne
+          puet avoir congié de destorner les ordenemenz des defendeeurs, més quant tuit li melleur
+            seront<note>seront] s[o]eront O</note> assemblé, cil qui habitent es citez leur
+            acomplissent<note>acomplissent] a. cest servise F</note>, car nos avons apris que ce
+          valut premierement et fu fet en nostre empire. Ne nos n’otroions à nul que il destorne ce
+          neis se il est ordenez<note>ordenez] hennorez F</note> de tres grant dignité, ne se il est
+          chevaliers, ne se il aporta avent previliege que il ait de l’empereeur. Més cil qui
+          abitent en la cité acomplissent ce selonc l’ordre, et quant toz 
+          <choice>
+            <sic source="#O">li cernes</sic>
+            <corr source="#F" resp="#editor">li termes</corr>
+          </choice><note>li termes] li cernes O <hi rend="i">corr. d’après</hi> F</note> sera
+          acompliz, il reviegnent derechief à aministrer la cure de la cité, si que il apere que li
+          defenderres de chascune cité soit plus apelez juges que defenderres, <label>[15.1.1]</label> si que il
+          face serement par le jugement de toz ceus qui sont en cele cité que il fera
+            tout<note>tout] om. F</note> selonc la loi et selonc droit, et soit confermez par le
+          commandement à noz prevoz et ait la baillie deus anz tant seulement, et puis soit ostez de
+          la cure. Et li juges de la contree n’ait pas congié d’oster les ençois, més se il apert
+          que il facent aucune chose qui ne soit pas droiz, il le facent savoir au prevoz<note>et
+            ait la baillie [...] au prevoz ] <hi rend="i">om. saut du même au même</hi> F</note>, si
+          que la cure li soit tolue par ceus qui li donnerent.</p>
+        <p><label>[15.2]</label> Et nus congiez <cb n="32a"/> ne soit donnez au defendeeurs des citez de metre autres en
+          leur lieu, més nos defendons ce en toutes manieres, ne li juge n’envoient pas par les
+          citez aucuns qui soient en leur lieu fors les defendeors que nos volons qui acomplissent
+          es citez office de juges et que il metent diligence en toutes choses es citez où il
+          sont.</p>
+        <p><label>[15.3.0]</label> Et li testament et li don soient recordé par devant les defendeeurs, et toutes
+          les autres choses qui ont mestier d’estre mises en remanbrance, ne li juges de la contree
+          ne puisse pas defendre ce qui doit estre fet por ce se il ne veut pas que il soit fet, ne
+          commander que ce soit fet qui ne doit pas estre fet por ce se il veut que il soit
+            fet<note>ne commander que ce soit [...] soit fet ] om. F</note>, car nos ne li donnons
+          congié de nule tel chose. Car il nos semble male chose que li home lessent les choses qui
+          sont necessaires por les volentez ou por les commandemenz as juges qui ne sont pas
+          renable, més il facent ce que il voudront, et ja soit ce que ce qui est fet toche le
+          prevost de la contree ou aucun autre puissent, cil ne le puisse pas defendre, car il
+          convient que cil qui sont es baillies ou en aucune poosté facent si que il ne deffendent
+          pas les choses qui sont<note>qui sont] qui doivent estre F</note> fetes contre euls, més
+          il facent que leur maniere soit si sanz blasme que nus ne se puisse plaindre d’eus. Més se
+          li juges est en la cité ou il n’i est pas, il ne soit defenduz à nul que il ne plede par
+          devant les defendeeurs et que il n’i face intrument de qel chose que il voudra fors des
+          choses sanz plus qui ont besoig de jurisdiction ou qui apartient à l’autorité au
+          juges.</p>
+        <p><label>[15.3.1]</label> Et cil qui ont l’office de demander les communes rentes aident en toutes
+          manieres au defendeeurs dez citez et il facent instrument del despit et de la contumace à
+          ceus qui doivent les <cb n="32b"/> treüz se mestiers en est, et cez choses soient fetes
+          isnelement. Et il soient present que il voient ceus qui ne feront pas à droit et
+            portent<note>et portent] et pour tout F</note> testemoine de cez choses et ostent le
+          commun tumulte et tout asoluement il aient office 
+          <choice>
+            <sic source="#O">de juge de juges</sic>
+            <corr resp="#editor">de juge</corr>
+          </choice>. Et 
+          <choice>
+            <sic source="#O">meesment</sic>
+            <corr resp="#editor">meesmement</corr>
+          </choice> 
+          quant li prevoz ne sont pas present
+          et li official de la contree qui sont en la cité en qoi li defenderres est obeïssent à lui
+          et leur aident si que il ne faille rien aus citez où il sont, por ce se li prevost en sont
+          hors, et li defendeeur aient de la contree .i. receveeur qui leur aministre et .ii.
+          officax qui acomplissent les choses que il jugent.</p>
+        <p><label>[15.3.2]</label> Et jugent en toutes les causes de chatel jusqu’à .ccc. deniers d’or, si que
+          nostre sozmis ne puissent pas trere par devant les juges de la contree ceus qui sont
+          obligié à eus se la cause ne passe .ccc. deniers d’or<note>si que nostre sozmis [...]
+            deniers d’or ] <hi rend="i">om. saut du même au même</hi> F</note>.</p>
+        <p><label>[15.4]</label> Més li demandeeur ne doivent pas por ce plus proisier le plet por grever les
+          defendeeurs, et ne les traient pas en cause par devant le defendeeur de la cité, més par
+          devant le juge de la contree. Més se il fet aucune tel chose et la sentence mostre que li
+          plez vaut mains de .ccc. d. d’or que li demanderres crut<note>crut] la creu F</note> par
+          barat si que la cause soit examinee par devant les juges de la contree et ne mie par
+          devant le defendeeur de la cité, li damages del plet soit seur le demandeeur.</p>
+        <p><label>[15.5.0]</label> Et li apel qui sont fet seur les defendeeurs soient fet as juges. Et<note>Et] ¶
+          <seg type="lemme" xml:lang="lat">Si vero egerint.</seg> Et F </note> se li offical font aucun tort envers les defendeeurs, li
+          prevoz des contrees chastient lors les officiax, et se li prevoz despisent ce, nos donnons
+          au defendeeurs congié de noncier cez choses à la hautece de ton siege, si que il aient
+          d’ilec aide et avenant vanchance et que il soient veraiement defendeeur et ensivent <cb n="32c"/>
+          l’onesté au juges.</p>
+        <p><label>[15.5.1]</label> Et se il avient que li defenderres de la cité muire, uns autres soit maintenent
+          mis en son lieu selonc l’ordre o<note>o] et F</note> le serement qui a esté diz pieça, et
+          il receve maintenent la cure. Et cil qui sera esleuz soit nonciez à toi et confermez par
+          ta hautece. Et vicaire ne soient pas donné as defendeeurs, sicomme nos avons avant dit,
+          que nos ne daignons<note>daignons] doignons F<hi rend="i">, cf. le texte latin « ne rursus
+              priori confusioni demus quasi rationabilem occasionem ».</hi></note> par ce renable
+          achoison à la premiere confusion.</p>
+        <p><label>[15.5.2]</label> Ta hautece face commandement par chascune contree que une commune abitacion soit
+          fete es citez en qoi li defendeeur metent les instrumenz, et uns soit esleuz en la contree
+          qui en ait la garde, si que il soient sanz corrupcion et que cil qui les quieront les
+          truissent inelement, et i<note>i] il F</note> aient une aumere et ce qui a esté
+          entrelessié dusque ci soit demandé<note>demandé] amendé F</note>
+          <choice>
+            <sic source="#O">des des</sic>
+            <corr resp="#editor">des</corr>
+          </choice>
+          citez.</p>
+        <p><label>[15.6.0]</label> Et porce que li defendeeur seront sanz tout profit, se les citez sont granz,
+          .iiii. 
+          <choice>
+            <sic source="#O">om.</sic>
+            <corr source="#F" resp="#editor">deniers</corr>
+          </choice><note>deniers] om. O <hi rend="i">corr.
+              d’après</hi> F</note> d’or tent seulement seront donné à ta hautece por leur
+          ordenement, et se eles sont petites, l’on n’en donra que trois selonc ce qui a pieça esté
+          establi en noz lois. Et se il ont aucun salaire del commun, il les avront selonc la
+          costume.</p>
+        <p><label>[15.6.1]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Audient.</seg> Et F</note> il orront les plus legiers crimes et les
+            fineront<note>fineront] finent F</note> par avenant chastiement et metront<note>metront]
+            metent F</note> en chartre cex qui ont fez les gregnors mesfez et les envoient au
+          prevost de la contree, et issi avra chascune des citez cure de juge. Et toute la gent qui
+          sera soz le gregneur juge sentira gregneur porveance, et pluseurs des cures as juges
+          seront ostees, car li defendeeur des citez en prandront une partie sus euls et allegueront
+          les cures au prevoz que il ont por toz, et osteront en partie les choses qui sont fetes à
+          ceus qui suefrent force, et soudront les doutes et mosterront que cil qui sont es baillies
+          sont ho<cb n="32d"/>neste sicomme il a esté dit sovant. Et se aucuns detiennent aucuns communs
+          servises, li prevost commanderont as defendeeurs que il leur aident selonc ce contre les
+          deteneeurs. Et se aucuns ordenemenz de defendeeur est fez en autre maniere ou aucuns
+            refus<note>aucuns refus] aucuns le refuse F</note> l’office de defendeeur qui li est
+          enjoinz, ou par dignité ou par chevalerie ou par previliege ou par aucune autre achoison,
+          il sera sozmis à<note>sozmis à] s. à painne de F</note> .v. livres d’or, et quant il avra
+          paié cele painne au prou de la cité, il sera comptrains d’acomplir l’office de defendeeur,
+          car il covient que chascuns des nobles omes ait à son tor la cure de sa cité et que il li
+          rendent cest loier de ce que il i abitent.</p>
+        <p><label>[15.ep.]</label> Ta hautece s’entremete donc de fere savoir par tes letres en toutes les contrees
+          qui sont desoz toi les choses que nos avons establies et confermees par ceste loi, si que
+          tuit sachent que nos avons la cure des granz et des petiz et des maains, ne il n’est nule
+          chose que nos otons de nostre cure. Ta hautece face donc partie de ses commandemenz que li
+          prevost de toutes les genz aparreillent ce selonc chascune cité, que cil qui sont de
+          buenne opinion soient nommé defendeeur selonc l’ordre, sicomme il a esté dit, et li
+          ordenemenz soit fez o le serement qui a esté dit avant, et issi entrent il en la cure et
+          soient 
+          <choice>
+            <sic source="#O">remié</sic>
+            <corr source="#F" resp="#editor">remué</corr>
+          </choice><note>remué] remié O <hi rend="i">corr.
+              d’après</hi> F</note> chacun deus anz. Et se aucuns d’eus muert, uns autres soit mis
+          en son lieu, si qe li ordenemenz soit 
+          <choice>
+            <sic source="#O">torz</sic>
+            <corr source="#F" resp="#editor">tozjorz</corr>
+          </choice><note>tozjorz]
+            torz O <hi rend="i">corr. d’après</hi> F</note> fez o le devant dit seremen. Et cil qui
+          devra recevoir la cure face le serement, et l’eslection soit fete par l’evesque et par le
+          clergié de la cité, et li autre qui sont en la cité de bonne oppinion s’en entremetent. Et
+          il convient que ce soit fet maintenent sicomme il a ja esté dit, et toutes choses 
+          <choice>
+            <sic source="#O">il</sic>
+            <corr resp="#editor">i</corr>
+          </choice>
+           <cb n="33a"/> soient fetes selonc
+            nostre<note>nostre] ceste F</note> general loi. Et se li defendeeur qui or sont 
+          <choice>
+            <sic source="#O">om.</sic>
+            <corr source="#F" resp="#editor">sont trouvez</corr>
+          </choice><note>trouvez] om. O <hi rend="i">corr.
+              d’après</hi> F</note> convenable, il soient escrit en cele ordre et acomplissent la
+          cure par deus anz ; et se il ont ja esté deus anz en cele cure, il en soient osté se l’en
+          ne veut par commun jugement que il soit en cel office par autres deus anz ; et se il n’ont
+          pas encore acompli les .ii. anz et l’en trueve que il soient digne<note>digne] d. de estre
+            F</note> en cele ordre, il acomplissent ce qui faut des deus anz. Et nus ne soit
+          defenderres outre deus anz se toute la cité ne l’eslit derechief, si que nus ne le
+          contredie. Et quant ce sera fet, il receve la cure par autres deus anz, et lors soit il
+          desposez en toutes manieres jusqu’à tent que il soit apelez derechief à cel office selonc
+          l’ordre que aucun ne soient tozjorz en cel office par le continuement de la cure et par
+          aucun barat. Et toutes ces choses vaillent en toz tens, car nos les avons trovees par
+          l’aide Damedieu o grant estuide et o grant 
+          <choice>
+            <sic source="#O">entende entente</sic>
+            <corr resp="#editor">entente</corr>
+          </choice>
+           et les avons fet savoir à noz
+          sozmis.</p>
+      </div>
+      <div>
+        <head>[16. De mensura ordinandorum clericorum]
+          <seg type="rubric">Cist tytres est de la mesure des
+            clers qui doivent estre ordené. Ce est ci li quatorziesmes establissemenz.<note><hi
+              rend="i">Rubrique</hi>] Cest tytre est de la constitucion des clers qui sont à
+            ordener. F</note></seg> </head>
+        <p><label>[16.pr.]</label><hi rend="b"> L</hi>i empereres Justinians dit à Antime tres saint et tres
+          beneuré esvesque et universel patriarche : Nos avons novelement escrit une loi de la
+          mesure des ordenemenz et que il n’apartenist pas que eles fussent confuses, ne en la grant
+          iglise de ceste beneuree cité ne es autres, et nos volons que ele soit ferme et vaille
+            selonc<note>selonc] om. F</note> sa vertu, car nos n’avons pas intencion d’abregier les
+          ordenemenz et aquerre<note>aquerre] om. F</note> à la grant cité avenent despense que ele
+          puisse souffrir, si que la multitude des despensses soit amenuisiee. Et pour ce avons nos
+          avironné toutes les voies <cb n="33b"/> et somes venu à fere ceste loi si que nule chose n’i soit
+          autrement que en la premiere, més ceste viegne de la volenté à l’autre et vaille encore à
+          la grant iglise.</p>
+        <p><label>[16.1]</label> Nos establissons donc que se il avient en aucune des saintes iglises de qoi la
+          grant iglise de ceste cité a la cure et fet les despensses, car<note>car] que F</note> uns
+          prestres ou .i. diacres ou .i. liserres ou .i. chanterres i muire, uns autres n’i soit
+          amenez pas maintenant par dehors, ainz regart l’en combien il i a des clers qui i
+          aministrent, et se la mesure des clers n’est pas encor muee més il abondent encore quant à
+          ce que nos avons jugié devant, nus ne soit ordenez por lui devant que li nombres soit
+          restorez el nombre qui est establiz. Et se la multitude est amenuisiee si que il conviegne
+          que uns autres soit ordenez el liex de celui qui est morz que il ne faille del nombre qui
+          est establiz, ta beneurté doit regarder<note>regarder] establir F</note> se il a es
+            autres<note>autres] saintes F</note> iglises hors de la grant iglise par desus le droit
+          nombre aucun clerc de cele meisme ordre, et cil soit mis en lieu de celui qui est morz, si
+          que nul n’i soit ordenez de novel. Car quant l’en met de là où il en a trop là où il en a
+          pou, buene mesure est mise en la cause, et tele comme Diex aime, et issi sera la grant
+          iglise delivree de detes petit et petit. Et se il n’en i a nul trop, ce qui faut soit
+          amené par dehors et l’en n’en ost nul de là où il n’en a pas trop, et issi s’en ira li
+          tens tent que ce qui i<note>i] om. F</note> est plus que droit soit amenuisié.</p>
+        <p><label>[16.ep.]</label> Ta beneurté s’entremete donc de mener à effeut les choses que nos establismes
+          par droit por le preu des saintes iglises, car se aucune chose est fete contre ce, il
+          convient savoir que cil qui osera recevoir ordre contre ceste nostre loi n’avra de ce nul
+          profit, ne<note>ne] et F</note> li procurateur de la grant iglise ne li rendront rien de
+          <cb n="33c"/> despense que il face, més il avront damage par 
+          <choice>
+            <sic source="#O">es</sic>
+            <corr source="#F" resp="#editor">els</corr>
+          </choice><note>els] es O <hi rend="i">corr. d’après</hi> F</note> meismes et recevront
+          cest fruit de leur negligence.</p>
+      </div>
+      <div>
+        <head>[17. De mandatis principum] 
+          <seg type="rubric">Cist tytres est des comandemenz au princes.
+            Ce est ci li quiziesmes establissemenz<note><hi rend="i">Le texte de F témoigne
+              d’un autre état traductif des nouvelles 17 à 19 ; nous ne donnons pas ses leçons
+              ici.</hi></note>.</seg></head>
+        <p><hi rend="b">L</hi>i empereres Justinians dit à Tribunian, questeur del saint palés et
+          conseillier : Ta hautece set bien par les encians livres qui contenoient les droiz del
+          romain non con grant chose li encian feseeur des lois escristrent chacuns en son volume
+          des mandemenz aus princes ; et porce que il plot à nos que rapareillons toute encianeté
+          qui est ja perdue et amenuisiee, que nos dongnons à toz noz juges granz ou petiz, de quel
+          dignité que il soient, non pas tant seulement letres més commandemenz par qoi il puissent
+          governer toutes choses loablement, por ce feismes nos le livre des commandemenz qui est el
+          grieu et en latin, si que tuit nostre bailli puissent savoir ce qui est contenu selonc la
+          diversité des lieus où il sont en coi l’en parole en grieu ou en latin, si qu’i n’osent
+          trespasser nules des choses qui 
+          <choice>
+            <sic source="#O">il</sic>
+            <corr resp="#editor">i</corr>
+          </choice> sont,
+          ainz gardent noz salvables diposicions si que il puissent gouverner pardurablement noz
+          contrees et ceus qui sont sozmis à nostre empire. Ta noble autorité à qui li jugemenz de
+          conquest apartient commant donc que cil commandemenz soient trancrit es livres et soient
+          mis en garde es saintes aumaires, si que li bailli sachent par eus et par les letres que
+          il recevront commant<note>commant] c. [que] O</note> il puissent secorre à nostre
+          empire.</p>
+        <p><label>[17.pr.]</label> Et toutes les choses qui sont ja escleriees en nostre general loi en qoi il
+          convient que il recevent les baillies les governent, si que il leur soviegne del serement
+          que il ont fet. <cb n="33d"/> Neporquant il nos semble nescessere chose que nos facions savoir à
+          toi qui orendroit receiz l’aministracion ce qui fu trové par les peres de nostre empire
+          qui donnoient certains commandemenz à ceus qui estoient mis es baillies et les apeloient
+          les commandemenz as princes selonc qoi il convient governer les baillies.</p>
+        <p><label>[17.1]</label> Il convient donc que tu receves purement la baillie et sanz toz loier et que tu
+          gardes tes mains netement à Diex et à nos et à la loi ne ne convoites nul guaaing grant ne
+          petit ne ne faces nule chose par barat contre tel sozmis, ainz te tiegnes apaié sanz plus
+          qui te sera aministré de la borse l’empereeur, et gardes par toi leur droit et par ceus
+          qui sont environ toi, et t’entremetes premierement que li treü apartienent à la borse
+          l’empereeur soient quelli ententivement, ne ne lesses rien qui apartiegne à la commune
+          cure, que la borse l’empereeur ne soit amenuisiee, et tu li sauves de toutes pars les
+          choses qui sont seues propres. Car autresi comme nos aidons as bas homes à qui l’en fet
+          tort volons nos que la chose commune soit gardee de tout grief, car se nostre sozmis sont
+          gardé franchement de toz tort fez et de toz acusement faus, il paieront legierement les
+          treüz et sanz delaiement, et cil qui devant ce devoient longuement les choses qui
+          apartenoient à la borse l’empereeur se deliverront ore et les paieront legierement.</p>
+        <p><label>[17.2]</label> Et il est aprés covenable chose que cil des citez ne soient pas cause de tençon li
+          uns à l’autre, més que toutes pés soit es citez, et que tu gardes leauté et à noz sozmis,
+          et que tu ne te tornes à l’une et à l’autre des parties por nul guaaing ne por nule autre
+          cause.</p>
+        <p><label>[17.3]</label> Et ta tierce <cb n="34a"/> entente soit à oïr les plez 
+          <choice>
+            <sic source="#O">ou</sic>
+            <corr resp="#editor">o</corr>
+          </choice><note>o] ou O, <hi rend="i">cf. le texte latin « cum ».</hi></note> toute leauté, et à departir sanz escrit les menors et meesmement
+          ceus qui sont as basses personnes, et à delivrer les homes de contencier li uns à l’autre.
+          Et que tu n’otroies pas que aucuns soit damagiez par achoison de depenses del plet en plus
+          que en ce qui est contenu en nostre establissement se il est puissanz de donner ce qui est
+          establi ; et se il est si povres que il ne le puet donner, tu doiz oïr le plet par grace
+          et ne doiz pas otroier que là viegne de la contree et aucun prevost par ta negligence à
+          ceste beneuree cité. Et saches que ce nos greveroit, quar se aucuns 
+          <choice>
+            <sic source="#O">il</sic>
+            <corr resp="#editor">i</corr>
+          </choice>
+           vient et il nos requiert et nos li
+          demandons se il t’en requist avant et il nos respont que oïl més tu ne li vosis fere droit
+          et nos trovons que ce soit voirs, nos tornerons nostre endaignement seur toi ; et se il te
+          requist et il osa venir à ceste real cité, nos le renvoierons o tout chastiement et ne li
+          donrons nul respons.</p>
+        <p><label>[17.4.0]</label> N'est aprés avenant chose que tu ne sueffres pas que cil qui viennent à toi
+          d’aucune cort soient grevé en aucune chose ne que nus seurdemant à noz sozmis, més se
+          aucuns de ceus qui te requierent se plaint d’aucune chose, tu doiz enquerre la verité et
+          garder le de damage, et tu ne doiz otroier à nul qui aport les commandemenz d’aucune cort
+          qui sont envoié sollempnelment (por cause d’eve ou de porz ou de voies apareillier, ou
+          d’ymages ou de murs ou de mesons ou d’aucune tel chose) que il griet noz sozmis, car nos
+          ne volons que nul damages leur soit fez par tel cause. Et tu porverras de toutes cez
+          choses que eles soient fetes sanz leur damache. Et se aucuns vient à toi à qui aucune tel
+          chose est commandee, <cb n="34b"/> tu ne regardes pas à lui se il ne mostre noz letres qui aient
+          esté fetes de ce, més se noz letres te sont mostrees tu les receves, més tu n’en faces
+          rien devant que tu le nos aies mostré, et lors les receves tu selonc nostre
+          commandement.</p>
+        <p><label>[17.4.1]</label> Et tu metras grant deligence es uevres des citez et t’entremetras que li pere
+          facent des deniers des citez les uevres des citez qui sont necessaires, et les ponz et les
+          voies et les porz, et tu aies la cure des porz et des murs qui sont en toz les lieus de la
+          contree dont tu es baillis, et de tot ce qui est profitable au comun et as citez. Et tu en
+          pensseras et le feras et le nos nonceras. Et li chevalier qui sont en la contree obeïront
+          à toi es choses en coi tu avras mestier d’eus à leal servise. Et se tu trueves aucun qui
+          meffacent, tu les chastieras avenantment. Enseurquetout tu t’entremetras que sactifacion
+          soit fete de leur chatiex à ceus à qui il avront mesfet.</p>
+        <p><label>[17.5.0]</label> Tu n’otroies pas que li maufeteur usent d’aucun previlieges, més tu leur
+          estuieras itant sanz plus en aide des choses qui leur sont mesfetes se il sont sanz toz
+          meffet. Tu chatieras o grant vertu les homecides et les avoutires et les 
+          <choice>
+            <sic source="#O">ravissent</sic>
+            <corr resp="#editor">ravisseurs</corr>
+          </choice> des virges et
+          les invasions et les forces, et puniras selonc noz lois ceus qui mesferont, si que peor de
+          torment facent toz saus petit et petit.</p>
+        <p><label>[17.5.1]</label> Tu retendras sus toutes choses tel officiaus et ne leur otroieras pas que il
+          grievent noz sozmis, si que il n’apere pas qu’il soient sozmis à toi et il soient en
+          verité contre ta volenté.</p>
+        <p><label>[17.5.2]</label> Tu t’entremetras de prandre conseillier buen home et pur qui se tiegne apaié des
+          choses qui li sont donnees de la borse l’empereeur. Et se aucune chose avient <cb n="34c"/> que tu
+          ne quidoies pas et tu trueves que il ne te garde pas leal foi, tu le metras hors et
+          prandras un autre conseillier qui gardera la loi et justice et avra les mains pures et
+          netes.</p>
+        <p><label>[17.5.3]</label> Tu meismes seras tiex 
+          <choice>
+            <sic source="#O">a atoz</sic>
+            <corr resp="#editor">à toz</corr>
+          </choice> et communement et priveement, que tu soies espoventables à ceus qui mesferont
+          et qui ne seront pas obediant envers les choses qui apartienent à la borse l’empereeur, et
+          seras tres debuenneres et soés à toz ceus qui seront debonnere et obediant et les poverras
+          comme leur peres.</p>
+        <p><label>[17.7.0]</label> Et tu ne leras pas eschaper les homecides ne les avoutres ne les raviseeurs des
+          virges por ce se il sont es bonnes des sainz lieus, ainz les entreras hors et leur feras
+          sosfrir torment, car il ne convient pas espargnier ceus qui font tel meffet, ainz doit
+          l’en aidier à ceus à qui il sont fet, que nus n’enprangne les à fere derechie. Et li
+          asseuremenz des temples n’est pas donnez par la loi as malfeteurs més à ceus qui sont
+          grevé et li uns et li autres, ce est asavoir li malfeteurs et cil à qui il meffet ne
+          pueent pas estre guarenti par l’aseurement des sainz lieus.</p>
+        <p><label>[17.7.1]</label> Li treü pueent avenentment estre demandé dedanz les iglises, car les choses qui
+          apartienent à la borse l’empereeur sont profitables et 
+          <choice>
+            <sic source="#O">nessaires</sic>
+            <corr resp="#editor">necessaires</corr>
+          </choice> et à chevaliers et à bas homes et
+          as temples meismes et à toute la chose commune. Et li defendeeur des iglises et li
+          procureeur t’aideront à ce fere ne ne garantiront nul de ceus à qui li treü sont demandé
+          qui apartiennent à la borse l’empereeur, ne il ne souferront que nule force ne nule
+          cruelté soit fete à ceus qui les demanderont, et sachent que se il font aucune tel chose
+          il seront contraint de fere satisfacion <cb n="34d"/> de leur propre à la borse l’empereeur.</p>
+        <p><label>[17.8.0]</label> Il convient que li commun exsecuteur facent savoir par leur escriz toutes les
+          choses en qoi il ont donné aucune chose de ce que il ont receu, et porqoi il ont donné
+          aucune chose de ce que il ont receu, et porqoi il ont donné à la qantité de ce que il i
+          ont donné (ou en or ou en autres choses), et il doivent estre menacié d’avoir grant damage
+          et la main coupee se il ne gardent ce qui est commandé en toutes manieres. Et se il
+          truevent par aventure aucune achoison par qoi il n’en puissent dire la qantité, nos creons
+          que ce soit fet par malice. Més neporquant la borse l’empereeur n’i ait nul damage, més li
+          sozmis à la borse l’empereeur receve toutes ses choses sanz nul amenuissement, et cil qui
+          paia cele chose n’oit puis nul pooir de coillir les treüz, més la cause n’en soit de rien
+          emporiee et li treü soient paié selonc la costume et mis en la borse l’empereor. Et cez
+          choses soient nonciees à noz prevoz, et cil qui quillent les cens soient premierement
+          contraint de paier soutilment les devant dites choses, si que par ce soit la cause jugiee.
+          Et les choses qui doivent estre donnees de la borse l’empereeur soient paiees selonc la
+          coutume, et ce que nostre prevost jugeront es choses de qoi l’en doute vaille et quand la
+          verité en sera seue, cil qui quillent les treüz escrivent toutes les choses que il
+          paieront, selonc ce que nos avons ja ordené.</p>
+        <p><label>[17.8.1]</label> Et tu n’otroies pas as 
+          <choice>
+            <sic source="#O">curias</sic>
+            <corr resp="#editor">curiaus</corr>
+          </choice>
+            ne à ceus qui quillent les cens, quant leur champ sont vendu ou devisé en autre
+          maniere ou la possession en est bailliee à autres personnes, que il usent d’aucun barat,
+          més li champ soient <cb n="35a"/> baillié de ceus qui les vandent à ceus qui les achatent, et tu
+          les contraingnes de fere tel remuement sanz damage. Et se il dient que li achateeur ne
+          sont pas convenable, tu contraindras les officiax que il leur baillent sanz nul damage
+          leur chans que il leur ont vanduz, et se tu trueves veraiement que li achateeur ne sont
+          pas covenable assez, tu contraindras les vandeeurs de requenoistre ce en cort, que li treü
+          qui apartiennent à la borse l’empereeur sont tresposé à leur perill à ceus qui ont achaté
+          d’eus les chans. Et nos avons oï que ce a esté fet em plusors gent, et issi ne fera la
+          borse l’empereeur nul tort. Et cil qui porserront les chans paieront les treüz qui
+          apartiennent à la borse l’empereor, car il convient que li treü soient demandé à ceus qui
+          tienent les terres et ne mie à ceus qui ne les tienent pas.</p>
+        <p><label>[17.9]</label> Et nos volons que tu saches que se nos commandons par avanture aucune foiz que tu
+          ailles à autres contrees, il est avenent chose que tu te tiegnes apaié des choses qui te
+          sont donnees de la borse l’empereour et ne despendes pas à outrage ne ne grieves noz
+          sozmis, més se tu vas en autres regions, tu faces tes depenses de ce meismes de coi tu les
+          fesoies quant tu demoroies en ta contree sanz grever noz sozmis , et ta fame meismes aille
+          à tes propres despenses quant ele ira hors del païs. Et ce meismes soit gardé se tu n’i es
+          pas hors des bonnes de la contree, ainz avironnes les citez por aucune cause
+          necessaire.</p>
+        <p><label>[17.10]</label> Nos deffendons en toutes manieres que li juge ne doignent pas es contrees que il
+          governent ceus qui sont 
+          <choice>
+            <sic source="#O">apelees</sic>
+            <corr resp="#editor">apelés</corr>
+          </choice> 
+          gardes del lieu, ja soit ce que il soient noble home ou prevost, et se aucun chevalier
+          t’ensivent, tu ne sueffres pas que il aient por neant leur <cb n="35b"/> despensses, ainz
+          despendent del leur propre, et se il ne font pas ce ainz despendent des treüz et grievent
+          noz sozmis, tu prandras à ton propre perill de leur chatex à restorer toz les damages que
+          noz sozmis 
+          <choice>
+            <sic source="#O">avont</sic>
+            <corr resp="#editor">avront</corr>
+          </choice>  euz.</p>
+        <p><label>[17.11]</label> Ne tu n’otroies pas à aucun que il esmueve la contree de questions desresniees
+          par cause de religion ou que aucun autre commandement soient fet en la 
+          <choice>
+            <sic source="#O">contre</sic>
+            <corr resp="#editor">contree</corr>
+          </choice>  que tu governes, et tu te
+          porverras d’encerchier 
+          <choice>
+            <sic source="#O">ou</sic>
+            <corr resp="#editor">o</corr>
+          </choice>  avenant profit
+          les choses qui apartiennent à la borse l’empereeur et les autres, et que tu n’otroies pas
+          que aucune chose soit fete envers noz commandemenz par achoison de religion. Et se ce qui
+          est demandé<note>demandé] demandé [as saintes ruiles] O</note> apartient as saintes
+          riules, tu et li arcevesque de la contree en ordenoiz avenentment qui que en dout, ou li
+          esvesque ou autre, et doigniez à la cause buene fin et avenant et qui gart la foi
+          crestianne et s’entremete que la borse l’empereeur ne soit damagiee et que nostre sozmis
+          ne soient grevé.</p>
+        <p><label>[17.12]</label> Il convient que tu metes toute porveance que quant aucuns sera dignes de sofrir
+          painne tu li faces soffrir la, més tu ne touches pas à ses choses, ainz les lesses au
+          lignage et à la loi, car ce ne sont pas les choses qui mesfont, més cil qui porsieent les
+          choses, et cil mestornent l’ordre, qui quitent ceus qui mesfont et prannent leur choses et
+          punissent autres por euls qui fussent par avanture leur oir selonc les lois.</p>
+        <p><label>[17.13]</label> Et li desleal defendement que nos avons oï qui sont fet en noz contrees soient
+          amandé en toutes manieres, ne tu ne sueffres que nus praignes sus lui la vie as autres, ne
+          nus ne porprangne les chans qui ne li apartiennent à nule maniere. Nus ne pramete s’aide
+          <cb n="35c"/> en grevance d’autrui ne ne mostre sa vertu por grever la borse l’empereeur, ne il ne
+          te chaille de quel segnorie cil qui font ce soient, car la loi et la grace de l’empire te
+          soffit en toutes choses à parfete force.</p>
+        <p><label>[17.14]</label> Et tu harras si ceus qui recevent autrui coutiveeurs et contraindras ceus qui les
+          recevent malement de rendre 
+          <choice>
+            <sic source="#O">lest</sic>
+            <corr resp="#editor">les</corr>
+          </choice><note>les] lest O<hi rend="i"
+              >, cf. le texte latin « sic compelles cito reddere quod suscipiunt male ».</hi></note>
+          tost, si que se il sont longuement inobediant, tu metras seur lor possession tout le
+          fessel de la contree. Et se l’en dit que li 
+          <choice>
+            <sic source="#O">coutiveveeur</sic>
+            <corr resp="#editor">coutiveeur</corr>
+          </choice>
+           soient en autres contrees, tu
+          envoieras tes letres as prevoz des contrees, que il baillent au segnors leur coutiveeurs
+          qui s’en sont foï qui le requenoistront ou qui en seront convaincu, et il soient rapelé à
+          la contree que tu governes si que tu les chaties asprement se il sont inobediant. Car il
+          est droiz que cil qui s’entremet de tiex choses soutiegne charge et amenuisement de ses
+          choses, si que il sache, quant il sera apovriez, quel guaaing il a en grever et en meffere
+          à autres. Fai donc ce se il ont aucuns chans en ta contree ou se il sont gouverneeurs
+          d’aucuns chans qui apartiennent à autres, car il convient que li porseeor aient ce sanz
+          plus que la loi leur donne. Et cil qui governent autrui choses aient celes sanz plus qui
+          leur sont bailliees par loage ou par autre leal maniere, et que il s’atiegnent des
+          estranges choses et ne grievent pas les autres por aquerre desleal guaaing.</p>
+        <p><label>[17.15]</label> Et que metre tytres en autrui possessions ou escrivre son non seur autrui
+          ovreeurs qui sont es citez est perilleuse chose à cex qui enprenent à fere ce, car sachent
+          que cil qui feront ce donront leur sustence à la borse l’empereor. Car se aucuns essaie à
+          fere la chose qui apartient à la borse l’empereeur tent <cb n="35d"/> seulement es li
+            tierz<note>es li tierz] [iii]esli[ch] t. O</note> del chatel au pere ou à la mere, et
+          ceste mesure soit gardee quant il n’i a plus que .iiii. filz<note><hi rend="i">En
+              marge</hi> : il en doit sentir le grief es seues choses et con li commun titre seront
+            mis es soes choses O</note>.</p>
+        <p><hi rend="b">C</hi>il soit essemple as autres d’atenir soi de fere tel chose, car cil qui
+          sont corpables d’un meismes maus doivent souffrir unes meismes painnes. Gardes donques
+          toutes cez choses par que tu puez savoir quel volenté nos avrons vers toi se tu mesfez, et
+          quele se tu gardes nos commandemenz et ceus de la loi.</p>
+        <p><label>[17.16]</label> Et dés que tu enterras en la contree, tu apeleras en la mestre cité toz les
+          esvesques et les clers et les nobles homes de la cité et leur diras ces sainz
+          commandemenz, et leur proposeras communement non pas tent seulement en la mere des citez
+          més en toutes les autres citez de la contree, et leur envoieras par tes officiaus sanz
+          fere damage à nul home, que tuit sachent en quel maniere tu as receu la dignité.</p>
+        <p><label>[17.17]</label> Et voies que se tu gardes cez choses et mostres que tu soies dignes de nostre
+          jugement, cez choses feront que la dignité deduira plus longuement et tu en seras plus
+          nobles, et ces choses te rendront cler à Dieu et as lois et à nos. Et tu te poverras que
+          se aucuns de ceus qui essaient à commovoir le pueple s’enfuit aucune foiz de ceste grant
+          cité, ou seus ou o autres, et il vient en la contree que tu governes, tu le doiz
+          encerchier et examiner o toute soutilleté et noncier le nos o grant cautelle, se ce est
+          par aventure personne qui soit digne d’inquisicion et ele soit amenee à ceste beneuree
+          cité et sostiegne les painnes que la loi establist de tiex personnes.</p>
+      </div>
+      <div>
+        <head>[18. De triente et semisse et successionibus filiorum et nepotum naturalium vel
+          collationibus vel distributionibus, nec non litterarum aut annumerationum atque rerum ex
+          quibus detinent infitiationibus] 
+          <seg type="rubric">Cist tytres est que li fils aient la tierce
+            part ou la moitié de l’eritage lor pere, et des filz et des neveuz naturex, et des
+            aministracions, et des letres, et des choses qui sont departies. Ce est li seziesmes
+            establissemenz.</seg></head>
+        <p><label>[18.pr.]</label> <cb n="36a"/> <hi rend="b">L</hi>i empereres Justinians dit à Jehan le prevost :
+          Pluseurs choses ont<note>ont] [ser]ont O</note> ja esté ordenees des testamenz au grant
+          empire de Rome que Diex establi, et livre sont fet de tiex choses qui sont tuit plain de
+          lois ; et non pas tent seulement li encian sage home escristrent cez choses et li premier
+          empereeur, més nos meismes en avons escrit aucune chose qui n’est pas mendre que ce que
+          cil qui furent devant nos en escristrent. Més nos regardons tozjorz à Damedieu et que nos
+          li puissions plere et fere aucune chose qui soit digne ; nos nos efforçons de trover
+          aucune chose qui s’acort à nature et qui puisse amander les premieres choses. Nos nos
+          merveillons donc sovant et autres foiz nos somes nos merveillié comment li encian
+          establirent que li pere ne lessassent par force que la carte part de leur heritage à leur
+          filz que il ont de leal mariage, et que il aiment tant que il dient que quanque il leur
+          lessent est dete et li remenanz en la volenté au peres ; et li parent ou li estrange ou li
+          serf qui sont franchi prannent tout le seurplus. Et ja soit ce que il i a pluseurs feilz
+          et que il n’ont rien meffet au pere, neporquant il n’ont que la carte part à departir
+          entreus, et issi sont li filz povre ja soit ce que li pere soient riche.</p>
+        <p><label>[18.1]</label> Cez choses nos murent donc à amander la loi et à determiner la cause en tel
+          maniere que se li peres ou la mere 
+          <choice>
+            <sic source="#O">au fill</sic>
+            <corr resp="#editor">ont .i. fils</corr>
+          </choice><note>ont .i.
+            fils] au fill O<hi rend="i">, cf. le texte latin « si quidem unius est filii pater aut
+              mater ».</hi></note> (ou .ii. ou trois ou quatre), la quarte partie ne leur soit pas
+          lessiee tant seulement, més li tierz del chatel au pere et à la mere. Et ceste mesure soit
+          gardee quant il n’i a plus de .iiii. filz, més se il en i a plus de quatre, la moitié de
+          tout le chatel leur soit lessiee et soit departie oelment entre elx, si que il n’i ait
+          nu<cb n="36b"/>le circustance des choses par qoi li .i. aient les meilleurs choses et li autre les
+          poieurs, més ce qui aferra à chascun soit oel as autres en toutes choses et en qualité et
+          en quantité, comment que il leur soit lessié, ou par maniere d’eritage ou par maniere de
+          lés. Et il lira au pere et à la mere que il departent les autres deus parz ou la moitié
+          sicomme il vodront, ou à leur enfanz meismes ou à aucun estrange, et quant li enfent
+          seront premierement procuré et avenantment, il commancent lors à donner as estranges. Et
+          ce soit gardé en toutes les personnes à qui la qarte partie estoit jugiee
+          enciannement.</p>
+        <p><label>[18.2]</label> Més de ce soit escexptee la loi que nos avons fete novelement des curiaus, qui
+          veut que les trois parties soient donnees en toutes manieres as filz ou as filles au
+          curiax qui se marient et li pere departent l’autre carte part à leur volenté, et toutes
+          les autres lois qui sont fetes des testamenz qui ne sont pas à droit fet. Et meesmement
+          les noz soient gardees en leur vertu des enfanz qui ne sont pas vers leur peres ce que il
+          doivent et des naturiex, fors sanz plus la qantité que nos i avons acreue selonc toz les
+          devant diz jugemenz.</p>
+        <p><label>[18.3]</label> Més nos defendons une chose qui est grieve et a aucune achoison de loi et chiet en
+          grant cruelté et en grant amertume, car nos avons oï que aucun testament ont esté fet en
+          qoi cil qui moroient n’establirent pas leur oirs à maniere de peres ne sicomme li mari
+          doivent fere de leur fames leur oirs, més trop molement et trop foiblement, et lessoient à
+          leur fames tout l’usuaire de leur choses et à leur enfanz la proprieté toute nue. Et por
+          ce croi <cb n="36c"/> je que l’intencion est en tiex testamenz que la fame ait la proprieté et li
+          fils muirent de fain, porce que rien ne leur est lessié de qoi il soient governé et aient
+          leur vivre tant que li usuaires reviegne à la proprieté. Il ne lira donc pas de ci en
+          avant à nul qui ait enfant que il face ce, més il lest en toutes manieres à ses enfanz
+          l’usuaire et la proprieté de la leal partie que nos leur avons jugiee par ceste loi, se il
+          veut estre apelez peres à ses filz, et que il ne muirent pas maintenant de fain, ainz
+          puissent vivre. Et nos disons toutes cez choses non pas tent seulement el pere, més en la
+          mere et en l’aiel et el besaiel et en l’aiole et en la besaiole, ou de par pere ou de par
+          mere.</p>
+        <p><label>[18.4.0]</label> Et ce ne soit pas gardé es neveuz et es enfanz as neveuz qui ne sont pas en
+          baill que il aient mains que la tierce partie que il covenist que li aiel ou li besaiel
+          lessassent aus peres<note>peres] [f]peres O</note> as enfanz se il vesquissent. Car nos
+          n’esceptons pas de ci en avant les neveuz que li aiel ont de leur filz, si que il aient la
+          partie toute entiere que leur peres eust se il vesquist, et li neveu que il ont de leur
+          filles aient mains que la tierce partie de l’eritage leur aiel ou de cel à leur
+            aiele<note>aiele] [pere] aiele O</note> de par leur mere, més nos metons toz en ordre as
+          neveuz et as enfanz as neveuz et ne soffrons pas que la fame i ait mains que li males. 
+          <choice>
+            <sic source="#O">om.</sic>
+            <corr resp="#editor">Et porce que li males</corr>
+          </choice><note>Et porce que li m.] om. O Quar li
+            masle F<hi rend="i">, cf. le texte latin « neque enim masculus ipse in se neque femina
+              solum ad nativitatis propagationem sufficiens est ».</hi></note> n’est pas soffisanz
+          par soi ne la fame par soi à engendrer enfanz, gardons nos à l’un et à l’autre une meisme
+          oelté.</p>
+        <p><label>[18.4.1]</label> Més nos n’establissons pas loi jusq'à ce, car nos disons ce d’icex filz qui sont
+          né de leaux mariages, ja soit ce que doaire n’i aient pas esté donné, més l’amor qui est
+          entre <cb n="36d"/> l’ome et la fame qui est aperte et dont nus ne doute fet les filz leaus, car
+          li mariages fet le doere et li doeres ne font pas les mariages, més li consentemenz de
+          l’ome et de la fame. Et ce meisme soit tenable en ceus qui sont fet leal par noz
+          establissemenz et par l’assentement qui a esté entre le pere et la mere puis que il furent
+          né. Et cil establissemenz vaille à la leal ligniee.</p>
+        <p><label>[18.5]</label> Regardons donc aucune chose qui apartiegne à seule nature, car pluseur fils sont
+          qui nos offrent sovant proieres et pleurs et nos leur respondons tozjorz aucune chose à
+          leur requestes, més nos avons honte parce que nos ne leur responnons pas par lois. Et por
+          ce fesons nos une loi en cele cause par qui nos otons les dotes et donnons à toz remede
+          par la loi. Et porce que nos avons otroié au peres qui ont filz naturiex que il facent
+          testament quant il ont enfanz de leal mariage il doignent as filz naturiex la doziesme
+          partie de leur sustence, et se il n’ont enfanz de leal mariage il puissent donner as
+          naturiex jusqu’à la moitié de tout leur chatel, nos otroions au peres que il facent ce,
+          non pas tent seulement en testament més en autres dons que il donnent en leur vie. Et
+          ceste presente loi parole de ceux qui muerent sanz fere testament et amainne aucune novele
+          chose. Se aucuns muert donc qui n’oit point de ligniee de leal mariage (ce est des filz ou
+          des neveuz), ne il n’a point de fame et il muert sanz ordener son chatel (ce est sanz fere
+          testament), et puis vient ses lignages ou cil par avanture qu’il a franchi et demande la
+          possession de ses biens ou nostre tresors meismes, à qui nos <cb n="37a"/> n’espargnons pas quant
+          à ce, se il ot en sa meson tent comme il vivoit .i. franche fame en habit de meschine et
+          ele a enfanz de lui. Car por ceus sanz plus establissons nos ce<note>nos ce] [ce] nos ce
+            O</note> qui sont de la meschine que il tenoit en sa meson et de qoi l’en ne doute pas
+          que il ne soient suen et que il a noriz, nos leur otroions que se li pere muerent sanz
+          fere testament, cil fils naturel aient la siste part de leur chatel, et les meres partent
+          o ex combien que il i ait de filz, si que la mere en ait autretent comme un des filz. Et
+          nos disons ce se il habite o une meschine et il a enfanz de li ou la meschine s’est par
+          aventure partie de lui ou par mort ou par autre maniere et li enfant li sont remés, car
+          lors leur donnons nos les deus parz de l’eritage sanz testament. Et se li oirs est de si
+          malvese atinence 
+          <choice>
+            <sic source="#O">ce que</sic>
+            <corr resp="#editor">que</corr>
+          </choice>  il amainne
+          autres meschines seur la premiere et il a plenté de meschines et il a enfanz de chascune
+          et il muert et les lesse toutes enssemble, cil qui est tiex fet molt à haïr, et il soit en
+          toutes manieres mis hors de ceste loi. Car autresi comme cil qui est joinz à une fame par
+          leal mariage ne puet pas prandre autres 
+          <choice>
+            <sic source="#O">senli</sic>
+            <corr resp="#editor">seur li</corr>
+          </choice>  tant come li mariages dure ne avoir o eus desleax filz, autresi se il a
+          premierement eu une mechine sicomme nos avons dit et ele a enfanz de li, se il a aprés
+          autres meschines de qui il a enfanz, il ne soient pas apelé à son heritage se il muert
+          sanz fere testament. Car se nos establissions ce, l’en ne savroit pas deviser laqel fame
+          seroit la plus amee et laqele mains, et des filz autres, et nos ne donnons pas loi à 
+          <choice>
+            <sic source="#O">luxirieux</sic>
+            <corr resp="#editor">luxurieus</corr>
+          </choice>  més à cex qui
+          vivent chastement. Ne nos ne destintons pas des enfanz se il sont malle ou fume<cb n="37b"/>les,
+          car autresi comme nature ne rent nule resons de cez choses ne metons nos pas selonc ce une
+          nature es malles et autres 
+          <choice>
+            <sic source="#O">et</sic>
+            <corr resp="#editor">es</corr>
+          </choice>  fumeles.
+          Ceste loi vaudra donc es cas qui sont à venir porce que ele a amandé et esplané pluseurs
+          des choses qui devant ce n’estoient pas tenables par droit, et ce qui est trespassé ne
+          puet pas estre sozmis as riulles de la loi qui n’estoit pas encor fete. Et nos avons ce
+          establi des devanz diz heritages.</p>
+        <p><label>[18.6]</label> Et nos creons que il est bien que nos compregnons par ceste loi ce que les
+          premeriennes lois voloient que se li pere moroient sanz fere testament, quanque li enfant
+          avroient fust raporté à partie. Et se il fesoient testament et il ne disoient rien de ce,
+          les choses ne fussent pas aportees à partie, més 
+          <choice>
+            <sic source="#O">chas</sic>
+            <corr resp="#editor">chascuns</corr>
+          </choice>  des enfanz eust les choses qui li furent
+          donnees en doere ou par autre maniere et defendist les choses qui li furent lessiees. Et
+          nos establissons que ceste oppinion ne soit pas tenable. Més se aucuns muert sanz fere
+          testament porce que il puet<note>il puet] il [a obli] puet O</note> bien estre que il a
+          oblié ce que il donna et que il ne l’en sovient por l’engoisse de la mort, ce que chacuns
+          des enfanz a eu soit raporté à partie si que li uns en ait autretent comme li autres,
+          selonc ce qui a pieça esté ordené, se li peres ne dit expressement que il ne voloit pas
+          que ce que il avoient fust raporté en partie, més chascuns ait par la droiture del
+          testament ce qui li a esté donné. Et toutes les choses que nos avons establies devant ce
+          d’aporter les dons à partie soient en leur vertu.</p>
+        <p><label>[18.7]</label> Et nos creons que il est necessaire chose que nos metons en une partie de ceste
+          loi ce qu’il nos plot sovent en jugement, car il avient sovent<note>sovent] sovent [en
+            jugement] O</note> que aucun pere <cb n="37c"/> qui ont pluseurs filz quident que il departent
+          maintenant leur sustence, si les lessent en grant estrif et les amainnent à gregneurs
+          contenz et plus cruex, car se il vossissent ce, il convenist que il leur partissent
+          apertement toutes lor choses en leur testamenz ou fere leur parties se il morussent sanz
+          testament et fere en chascune partie propre subcripcion et fere issi à leur filz partie
+          dont nus ne dote. Més il ne font pas ce, ainz escrivent aucune partie par eux, ne il ne
+          l’escrivent pas continuelment d’une main, més uns autres i escrit et cil escriz n’est mis
+          en nule digne garde, et la subcripcion n’est pas fete par leur main més par aucun qui est
+          corronpuz par aventure par la grace ou par la mor d’aucun. Et de ce viennent sovent
+          achoison de plez, savoir mon se ce est par la volenté au pere ou par aucun bareteur qui
+          ait fete la subcripcion por la grace d’aucune des parties. Nos ne volons pas que cez
+          choses tormantent de ci en avant noz sozmis, et establissons que se aucuns veut deviser
+          ses choses à ses filz ou il en veut lessier aucunes propres à aucuns, se 
+          <choice>
+            <sic source="#O">ile</sic>
+            <corr resp="#editor">il le</corr>
+          </choice> puet fere 
+          <choice>
+            <sic source="#O">ile</sic>
+            <corr resp="#editor">il le</corr>
+          </choice>  die en son testament et doint à
+          ses filz cest profit sanz nule doute. Et se il ne fet ce pas por aucuns besoinz qui
+          aviennent sovent as homes, il li lise à fere la descripcion des choses que il voudra
+          partir et la subcripcion à toutes, ou il meisme ou cil entre qui il devise les choses
+          facent les supcripcions, et doint par ce foi à la cause dont nus ne doute. Et ce qui est
+          fet en ceste maniere soit ferm et n’ait pas besoig d’autre caution. Et se aucuns ne fet
+          pas ce, ainz fet tel supcripcion sanz testemoine, sache que il ne dorra par ce à ses filz
+          point de profit, més li enfant departiront la sustence <cb n="37d"/> autresi comme se rien n’en
+          fust fet et ne sivront pas les volentez qui ne sont pas certainnes et sont sanz
+          testemoine. Ne cil qui sont juge de partir les heritages ne seront pas contraint de sivre
+          les, car il convient porveoir soutilment à la seurté as enfanz et que l’en ne garnisse pas
+          l’une chose et lest l’autre en erreur, car ce donroit sovant achoison de grief causes qui
+          ne porroient pas estre sousses et amanroient avant crimes. Nos avons donc tretié jusque ci
+          des heritages et des choses qui doivent estre aportees à partie et des autres choses qui
+          sont avant dites.</p>
+        <p><label>[18.8]</label> Et l’estuide de male volenté qui est fete par aucuns fet tent que il est
+          necessaire chose que nos loons derechief la forme de la loi au pueple que il fist par .i.
+          de ses connestables qui avoit non Aquilius, et de lui fu nommee cele loi selonc que cil
+          qui neoient ce que il devoient estoient sozmis à painne de paier le à doubles, et unes
+          autres actions il sont acomparagiees à cele meisme ordre, més la quitence de cele paie qui
+          est venue avant petit et petit norrist la male volenté as desleaus. Et por ce nos semble
+          il necessaire chose que nos banissions que cil qui renient ce que il doivent soient sozmis
+          à la devant dit painne. Et se aucuns aporte avant une escriture et cil contre qui il
+          l’aporte la renie, ja soit ce que sa subcripcion 
+          <choice>
+            <sic source="#O">il</sic>
+            <corr resp="#editor">i</corr>
+          </choice>
+            soit, si que il conviegne à demandeeur amener avant autres prueves, et se li
+          defenderres receit l’escriture més il dit que ce 
+          <choice>
+            <sic source="#O">qui est qui est</sic>
+            <corr resp="#editor">qui est</corr>
+          </choice>  contenu ne li fu pas paié et li
+          demanderres prueve lealment que si fu, nos establissons que li defenderres soit condampnez
+          à doubles en l’un et en l’autre cas, non pas porce que nos nos delitons en fere gregneurs
+          lois, més porce que nos volons apeticier <cb n="38a"/> 
+          <choice>
+            <sic source="#O">les les</sic>
+            <corr resp="#editor">les</corr>
+          </choice>  plez, si que il requenoissent plus tost ce que il doivent par peor de
+          painne. Nos volons donc que li condampnemenz soit fez en toz tiex cas en ceste maniere et
+          que li juges sache que se il trespasse la loi, il meismes sera tenuz à cez painnes. Et nos
+          disons ce se li demanderres ne lesse toutes prueves por metre soi seur le serement al
+          defendeeur qui a renoié la dete et il la requenoist aprés, car se aucune tel chose avient
+          et li demanderres 
+          <choice>
+            <sic source="#O">se met se met</sic>
+            <corr resp="#editor">se met</corr>
+          </choice> 
+          seur le serement au defendeeur tentost comme il avra noiee la dete et il la requenoist
+          maintenant ce que il avoit avant noié, il sera sanz perill quant au double. Més se li plez
+          a duré longuement et li demanderres se met lors seur le serement au defendeeur et il
+          requenoist ce que l’en li demande, nos le delivrons de paier le à dobles et commandons que
+          cil qui noia au commencement la dete et puis la requenut pait au demandeeur toutes les
+          despensses qui furent fetes el plet jusqu’à lors quant li demanderres les avra provees par
+          son serement. Et se aucuns renie que li denier que l’en li demande ne li furent pas
+          baillié et il ne dit pas que il les a randuz, nos establissons que ce que il rendi
+          veraiement ne li vaille rien, ainz commandons que toute la dete li soit demandee, et ce
+          soit la painne de ce que il renvoia ce qui li avoit esté baillié. Et uns des empereeurs
+          qui furent devant nos estbali ce, et nus des juges ne soit flechiz en ce, més chascuns
+          gart l’enterigneté de la loi. Et se li defenderres aporte avant les letres au
+            demandeeur<note>demandeeur] de[fen]mandeeur O</note> et li demanderres les nie, et li
+          defenderres prueve que eles sont veraies et leaus, li demanderres ne soit pas quites por
+          perdre ce que il demandoit que il neoit qu’i ne l’avoit pas paié, ainz <cb n="38b"/> pait
+          autretant par non de painne. Et autresi soit il se li defenderres se met seur le serement
+          au demandeeur qui neoit que les letres n’estoient pas seues.</p>
+        <p><label>[18.9]</label> Et se li plez est menez par procurateurs, les painnes del reniement qui est fez en
+          leur letres ne soient pas enjointes contre cex à qui il sont procurateur. Et se aucuns
+          autres acroissemenz de condampnement, ou el double ou es trois doubles ou es quatre
+          doubles, a esté establiz par les encianes lois ou par les establissemenz au princes, il
+          soit selonc la propre forme sicomme nos avons establi en noz <hi rend="i">Istitutes</hi>
+          et en noz <hi rend="i">Digestes</hi> et en nostre <hi rend="i">Code</hi>, et cil
+          condampnemenz soit acroissemenz des autres.</p>
+        <p><label>[18.10]</label> Il nos semble que il est covenable chose es jugemenz que nos determinons et
+          establissons une chose mielz que tuit cil qui furent devant nos. Car se aucuns est trez en
+          cause que il ait les choses à un autre et il dit que les choses ne sont pas à celui qui
+          les demande ne à celui en qui non il demande et cil qui muet le plet est contrainz de
+          mostrer, par tesmoinz ou par autres prueves, que eles sont à celui, et cil qui tozjorz
+          avoit noié que eles n’estoient pas à celui en qui non eles estoient demandees veut user de
+          sa droiture et dire que il est plus pres d’avoir les, ou por guage ou por autres causes,
+          que cil qui muet le plet les autres sentences qui plorent à cex qui furent devant nos
+          remaignent, et une maainne painne et covenable à la cause soit enjointe à celui qui renoia
+          la verité. Et la possession des choses de qoi li plez est soit bailliez au demandeeur tent
+          que li plez soit finez por le renoiement et por le travaill au demandeeur, et cil qui les
+          rendra ait congié de proposer aucune <cb n="38c"/> droiture se il li a por la personne qui les
+          choses estoient et que droiz li soit fez selonc la loi, si que il n’en ait de painne fors
+          tent sanz plus que il en perde la possession. Nos avons trové et establi cez choses por
+          les heritages et por les choses qui sont raportees à partie et por la seurté à ceus qui
+          pledent que la multitude des plez soit amenuisiee. Et eles seront tenables de ci en avant
+          si que tuit sachent comment l’en doit avoir les heritages et raporter à partie ce que
+          chascuns des enfanz a eu en la vie son pere, et ne refusent pas les parties ne ne renient
+          pas les letres que il ont fetes ne ce qui leur a esté baillié ne les choses qui tiennent
+          d’aucune persones, més il soient mahain et soef es causes et usent de maiain jugement.</p>
+        <p><label>[18.11]</label> Et nos joingnons à ceste presente loi une doute que aucun avoient maliciexsement,
+          qui a esté meue en aucun establissemenz et avient sovant es jugemenz, car il est droiz que
+          ele ne dure pas longuement. Car nos avons establi que se aucuns regarde une fame et il
+          compangne à lui charnelment sanz mariage et il a enfanz de li et il la prant aprés à fame
+          et fet intrumenz de doere et en a puis autres enfanz, cil qui sont né aprés le mariage ne
+          soient pas leal tent seulement. Et por la male voidie au decevanz et à ceus qui esponnent
+          malement la chose escrisimes nos .i. autre establissement en qoi nos volons que ce soit
+          tenable, ja soit ce que anfant ne soient pas né aprés le mariage ou que cil qui il furent
+          né muirent, més aucun troverent une autre dote qui distrent que ce n’est pas tenable en
+          ceus qui sont joint à celes qui ont esté franchies, et porce que ce a <cb n="38d"/> esté establi
+          por ceus qui esponnent par droit nostre entencion et il n’est pas devee à aucun que il ne
+          praigne à fame cele que il a franchie, il est certainne chose que nos volons que ce soit
+          tenable en eus. Més porce que l’en a doute de ce, nos establissons que se aucuns est qui
+          n’ait point de fame ne nul enfant de leal mariage et il compangne charnelment o sa serve
+          et il a enfanz de li tent comme ele sera el servage et il la franchist aprés et li et ses
+          enfanz et il porchace que il aient la droiture de porter aniax d’or et il les amainne
+          selonc les leaus manieres entre cex qui sont lealment franc et il conferme le mariage et
+          escrit aprés les intrumenz del doere et 
+          <choice>
+            <sic source="#O">il aprés</sic>
+            <corr resp="#editor">il a aprés</corr>
+          </choice>  enfanz de li ou il n’an a nus<note>n’an a nus] nan[ul] a nus
+            O</note> (li cas de nostre establissement compraingne les uns et les autres, ce est
+          asavoir cex qui furent né el servage et ceus qui furent ne aprés), et ele soit sa leal
+          fame et li enfant soient en sa poosté et soient propre oir à leur pere se il muert sanz
+          fere testament, nos disons de cex qui sont né devant le mariage et nos leur donnons voie
+          par qoi il viegnent à naturel franchise selonc ce qui a esté 
+          <choice>
+            <sic source="#O">vant</sic>
+            <corr resp="#editor">devant</corr>
+          </choice>  dit par les instrumenz del doere qui ont puis
+          esté fet, et leur donnons droiture de leaus enfanz.</p>
+        <p><label>[18.ep.]</label> Ta hautece face donc savoir par tes propres commandemenz à toz ceus qui sont
+          sozmis à toi les choses que nos avons trovees bien et saintement por le repos à noz
+          sozmis, que il sachent que nule grant cure n’est qui ne soit en nos por leur
+          porveance.</p>
+      </div>
+      <div>
+        <head>[19. De filiis ante dotalia instrumenta natis]
+          <seg type="rubric">Cist tytres est des enfanz
+            qui sont né devant le mariage. Ce est li disetiesme<note>disetiesme] disesetiesme
+            O</note>establissement.</seg></head>
+        <p><label>[19.pr.]</label> <cb n="39a"/> <hi rend="b">L</hi>i empereres Justinians dit à Jehan le prevost : Il est
+          venu à nos que une vainne dote est chaete en aucuns de ce que nos avons establi des enfanz
+          qui sont né devant le mariage qui sont fet leal aprés le mariage, savoir mon se li
+          establissemenz est raportez as cas del tens trespassé, de qoi les questions ne sont pas
+          terminees par sentence ou par transaction. Més il nos sovient que quant nos feismes les
+          lois par parties, nos deismes expressement el premier establissement qui ce juja que se li
+          pere vivent ou il sont mort, neporquant li plet ne sont pas encor finé par sentences ou
+          par transactions, la chose soit jugiee del tout sicomme nostre loi le dit. Et por acomplir
+          la, feismes nos .i. autre loi et jujasmes que cele vaille et se enfant ne nessent pas
+          aprés le mariage ou il nessent et il muerent maintenant, por ce ne remaingne pas que cil
+          qui furent né devant le mariage ne soient leal. Et nos avons autresi ajosté à cest segont
+          establissement que il convient que la force de ceste loi soit raportee as tens qui sont
+          passez es cas qui ne sont pas terminé par sentence ou par transaction. Més porce que
+          aucuns furent qui oserent aprés cez deus lois espondre malement nostre intencion, nos
+          fumes contraint de fere le tierz establissemenz, par qoi nos avons commandé que se aucuns
+          est qui ait fame par leal mariage et il a de li enfanz et ele muert aprés ou li mariages
+          est departiz et il a enfanz d’aucun autre que il peust bien prandre à fame, et con cil
+          enfanz sont né il la prant à fame et fet les instrumenz del doere, cil enfent soient leal.
+          Més nos ne deismes pas apertement en cest establissement <cb n="39b"/> que ce vausist en ceus à
+          qui li pere vivent encore ou qu’il sont mort, ne li contenz n’est terminez ne par sentence
+          ne par concorde, et aucun ont jugié que nos ne volions pas que ce qui est contenu 
+          <choice>
+            <sic source="#O">est</sic>
+            <corr resp="#editor">es</corr>
+          </choice>  devant dites lois vausist en ceus qui
+          furent né ainz que ceste loi fust fete, por ce meesmement que en l’ordenement de nostre
+            <hi rend="i">Code</hi>, nos ostasmes ceste partie el premier establissement et el
+          segont. Més il ont en ce<note>ce] ce[st] O</note> malvese oppinion, car nos sostresimes
+          par droit au premier establissement ce et au segont et n’i ajostasmes 
+          <choice>
+            <sic source="#O">parz</sic>
+            <corr resp="#editor">pas</corr>
+          </choice>  le tierz, car il estoit necessaire
+          chose 
+          <choice>
+            <sic source="#O">el</sic>
+            <corr resp="#editor">es</corr>
+          </choice>  lois particulers que ce fust
+          raporté au tens trespassé, més nos proposasmes par droit en l’assemblee des lois de nostre
+            <hi rend="i">Code</hi> à rretaillier en tiex choses, si que superflue multitude ne fust
+          pas escrite el <hi rend="i">Code.</hi> Ne nos ne meismes el tierz establissement nule
+          chose del tens, car il est aperte chose à toz que il convient que les choses qui sont
+          ajointes par exposicion vaillent partout là où les choses valent de qoi li exposicion est
+          fete.</p>
+        <p><label>[19.1]</label> Et porce que aucun vindrent avant qui distrent que il dotoient de si apertes
+          choses, nos i ajostasmes cest loi, ja soit ce que nos savons bien que la forme de loi que
+          nos feismes es trois devant diz establissemenz vaut es choses que nos escrisimes en la loi
+          que nos feismes premierement, ce est que se li pere a tiex enfanz vivent ou il sont mort
+          et la besoigne n’a  pas pas encore esté finee par sentence ou par transaction, tiex causes
+          soient menees as lois que nos avons fetes, escexptees les causes que nos avons fetes qui
+          furent terminees par jugement et par concorde ainz que nos feissions cez lois.</p>
+        <p><label>[19.ep.]</label> Ta hautece s’entremete donc de fere savoir <cb n="39c"/> à toz les choses que nos avons
+          jugiees et escleriees par ceste sainte loi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
