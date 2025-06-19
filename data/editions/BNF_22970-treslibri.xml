@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BNF_22970-treslibri">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <date>2025</date>
+            <idno/>
+            <publisher>École nationale des chartes – PSL</publisher>
+            <address>
+               <addrLine>65, rue de Richelieu</addrLine>
+               <addrLine>75002 Paris</addrLine>
+               <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
+               <addrLine>https://www.chartes.psl.eu/</addrLine>
+            </address>
+            <availability status="restricted">
+               <p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/></p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Éditions en ligne de l'École des Chartes</title>
+            <idno type="URI"/>
+            <idno type="vol"/>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
