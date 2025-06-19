@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre13">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160;Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L'édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu'elle apparaît dans l'édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-09" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI TREIZIESMES LIVRES<note>Ici commence le <hi rend="i">Digestum novum,</hi> dont
+                    le 1<hi rend="sup">er</hi> livre est le 39<hi rend="sup">e</hi> du Digeste
+                    complet. Il n'en est pas fait mention ici, parce que le 1<hi rend="sup">er</hi>
+                    titre de ce 39<hi rend="sup">e</hi> livre ayant été omis, la rubrique du livre
+                    placée en avant de ce titre n'aura pas été transcrite.</note></head>
+        </front>
+        <group>
+            <head>LI TREIZIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="259"/>
+                <front>
+                    <head type="gp">I. [118vA] De doner caucion de domage qui n’est fez <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 39, tit. 2&#160;: <hi rend="i">de Damno
+                                    infecto et de suggrundiis et protectionibus&#160;;</hi> et du
+                                titre 3&#160;: <hi rend="i">de Aqua et aquœ pluviœ
+                                arcendœ</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {39.2.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: quant il est besoinz que aucuns doint seurté que
+                                domage ne vendra pas par devers lui et li deloimenz est perillos, se
+                                li prevoz ne velt par ceste cause retenir la juridiction, il la puet
+                                baillier à mestres des garnisons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.2}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: quant l’en velt estre asseurez que domages ne sera
+                                pas fez, l’en entent de domage qui n’est pas encore fez mes don l’en
+                                se dote.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit : domages est nomez de sotreement ou d’amenuissement de
+                                patremoine. [118vB]</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.4}</head>
+                        <div type="gp">
+                            <p>Ulpianus&#160;: se li termes qui est establiz à doner seurté de
+                                domages ne sera pas fez passe‹r›, li offices au prevost sera à
+                                renouveler le terme por droite cause ou aloigner le. Et se il est
+                                besoing que enqueste en soit fete en aucun leu, il porra anvoier les
+                                choses as metres des<note>des] <emph>des des</emph> dans le
+                                    ms.</note> garnisons. ¶ {1} Se caucion n’est donee dedanz le jor
+                                que li prevoz<note>prevoz] <emph>preoz</emph> dans le ms.</note>
+                                asserra, cil à que ele doit estre donnee doit estre mis en
+                                possession de la chose don il crient que domages li viegne, ou de
+                                toste ou de partie. {2} Et se cil à qui l’en demande la caucion ne
+                                la vest doner, l’en dote se li metre l’en doivent contraindre par
+                                prandre ses gages. Et ge croi que nenil ; mes aucion puet
+                                estre donee contre lui por son fet. Et se cil qui est envoiez de par
+                                le prevost n’est pas receuz, l’en doit de cele meismes aucion. {3}
+                                Li prevoz enjoient<note>enjoient] <emph>enjoiemt</emph> dans le
+                                    ms.&#160;; TL <emph>enjoindre</emph> «&#160;imposer&#160;», cf.
+                                    lat. <emph>Duas ergo res magistratibus municipalibus praetor vel
+                                        praeses iniunxit</emph></note> deus choses as metres des
+                                garnisons, ce sont aucions et possessions, et retient les autres
+                                choses à sa juiridiction. ¶ {5} Li prevoz dit : je commanderoi avant
+                                que il soient nonciez à l’ostel à celui qui ne sera pas presenz. ¶
+                                Il apert que cil n’est pas presenz qui n’est pas en la cort, si
+                                comme Ponponius prove. Ce que li prevoz doit commander, que cil qui
+                                doit doner la caucion ne soit pas trez hors de so ostel mes il i
+                                soit denonciez en sa meson, doit issi estre entendu&#160;: que se
+                                aucuns habite en autrui meson, il soit illoc denoncié&#160;; et s’il
+                                n’a point d’abitacion, li denoncemenz devra estre fez à la
+                                possession don l’en dote que li domages vienge ou à celui qui en est
+                                procureres ou à cotiveors. {6} L’en doit entendre que li prevoz doit
+                                denoncier la chose quant il i a à qui ele puet estre
+                                denonciee&#160;; mes s’il n’i a à qui ele puisse estre denonciee, si
+                                comme se c’est une meson don heritage qui n’est pas encore receuz ou
+                                s’il n’i a nul heir ne nus n’abite dedanz, ceste partie de
+                                banissement cesse. Et li plus seurs est que l’en mete un libelle en
+                                la meson, quar il porra avenir que par ce vendra avant qui la
+                                deffendra. ¶ {7} Se aucuns ne s’entremet de fere les choses qui ont
+                                esté dites devant, juigement est donez contre lui de tant comme la
+                                chose vaut de coi caucion n’est pas donee que domages ne vandra pas
+                                de cele part&#160;; et ce n’est pas reporté à la quantité de la
+                                chose mes à deparz&#160;; et ce apartient à profit et non mie à
+                                poine. ¶ {8} Cis juigemanz a certaine condicion, c’est à savoir se
+                                la caucion est demandee ; car cil qui ne la demandera pas n’en porra
+                                pas pledier. Nos [119rA] entendons que ele doit estre demandee en
+                                cort et ne mie aillors. ¶ {9} Se la garnison est si pres de la cité
+                                que, se li metres ne s’en puet entremetre, cil qui doit estre mis en
+                                possession puet legerement aler au prevost, l’en puet dire que cete
+                                aucion cesse contre le mestre, por ce que il n’i a nul domage ; car
+                                il puet legierement requerre le prevost que il le mete en
+                                possession&#160;; {10} por ce que cete aucion contient chalongement
+                                à l’oier et contre l’oier.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.5}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li offices de prevost est que cil qui est mis en
+                                possesion de la cho‹se› en puisse gaagner la seignorie par longue
+                                teneure. ¶ {1} Se plusors sont qui doivent doner caucion et li uns
+                                ne la veust doner, sera mis en possession de sa partie. Et se aucuns
+                                sont qui volent que caucion soit doné, et li uns est plus riches de
+                                mesons et li autres plus povres, ou il ont mesons senblanbles
+                                plusors parties qui ne sont pas oeles, il seront mis en possession
+                                non pas selonc lor parties mes yveement. {2} Et se li uns de
+                                proprieté, et cil qui a l’usere<note>l’usere ] <emph>le vere</emph>
+                                    dans le ms., cf. lat. <emph>Si et dominus proprietatis et
+                                        fructuarius desideret sibi caveri damni
+                                    infecti</emph></note>, il volent que caucion lor soit donee que
+                                domages ne sera pas fez à lor choses, li uns et li autres doit estre
+                                oïz&#160;; ne cil qui la doit doner n’en sera pas grevuez, car il ne
+                                donra pas à chescun caucion fors de tant comme il en apartient à
+                                lui. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.6}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: il avient aucunne foiz quant domages a esté fez que
+                                nule aucion n’en apartient por ce que caucion ne fust pas donee
+                                avant&#160;; si comme se les mesons mon voisin chient sor les
+                                moies&#160;; ne il ne puet pas estre contrainz de fere nueves ne
+                                d’oster ce qui est cheeté sus les moies s’il le me veus lessier.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.7}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: li prevoz dit&#160;: je commanderai que aucuns
+                                promeste en son non que domages ne vindra pas par desus lui, et
+                                doint caucion en autrui non à celui qui jurra que il ne le demande
+                                pas par malice, ou que cil en qui non il demande la demandast, au
+                                terme que je establirai que i avroi coneu la cause. Et se plez est,
+                                savoir mon se cil qui done caucion est sires de la chose ou non, je
+                                commaderai que caucion soit donee jusque .x. anz de l’uevre qui est
+                                fete en commun flueve ou en rive&#160;; et que cil à qui caucion ne
+                                sera eissi donee soit mis en possession de la chose por quoi la
+                                caucion sera donee, et que cil la porsee que il me senblera qui avra
+                                droiturel cau[119rB]se. ¶ Je donroi jugement contre celi qui ne
+                                donra pas caucion, ne ne soffrera pas que sis aversoires soit en
+                                possession de la chose por quoi il demandoit la caucion&#160;; si
+                                que il poist autremant comme il convenist poier se caucion fust
+                                donee en non de la chose de quoi ele deust estre donee par mon
+                                juigement ou par celui à celi de qui juiridicion ele est. ¶ Cil qui
+                                est mis en possession d’une chose que domages ne li viegne de cele
+                                partie ne done caucion à un’autre s’il la demande en non de cele
+                                chose, je commaderoi que il soit en possession o lui. ¶ {1} Le
+                                prevoz&#160;: est par ce bannissement en domage qui n’est pas encor
+                                fez, car les autres aucions apartienent à restoré les domages qui
+                                sont ja avenuz, si comme la loi que Aquilius fit et les autres. Ne
+                                ce bannissement ne parle point de domage qui a ja esté fez&#160;;
+                                car autresi comme les bestes qui ont mesfet, ne nos solent pas plus
+                                chergier fors que nos les abandonons à cez à qui eles ont mesfet,
+                                par moult plus fort reson les choses qui sont sanz esme ne nos
+                                doivent pas plus chergier&#160;; moismement, quant les choses qui
+                                ont esme qui ont fet le domage durent encores&#160;; et les mesons
+                                qui ont fet le domage, par ce que eles sont cheestes, sont faillies
+                                et ne durent. {2} Mes por ce demade l’en, se mesons cheent ainz que
+                                caucion soit donee, que domages ne vendra pas par devers els et li
+                                sires ne les veust pas refere, ainz lesse ce que en est cheet,
+                                savoir mon se aucunne aucion puet estre meüe contre lui par ce
+                                domage. Et Juliens, à qui l’en demanda consoil de tel chose,
+                                respondi que se li sires des mesons qui sont cheetes vest oster le
+                                marrien et les autres choses, l’en ne li doit pas ostroier s’il
+                                n’oste totes les choses – ce sont cex qui valent et celes qui ne
+                                valent rien – et s’il ne done caucion, non pas tant solement dou
+                                domage do tens avenir mes de celui qui est ja avenuz&#160;; et se li
+                                sires de la meson qui est cheeste ne fet riens de celi, entrediz
+                                doit estre renduz à celi sor qui ele est choeste, por quoi sis
+                                vessins sera contrainz ou d’oster tot ou de lessier tot.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.8}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: ce sera lors dit par droit, quant il ne lessa pas
+                                par negligence mes par aucun ampeechement à porvoir soz quel caucion
+                                li fut donnee. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.9}</head>
+                        <div type="gp">
+                            <p>{5} Il moismes dit que cil qui a l’usere<note>l’usere] <emph>le
+                                        fuere</emph> dans le ms., cf. lat.
+                                    <emph>fructuarius</emph></note> de la meson ne la refet, cil qui
+                                est [119vA] sires de la proprieté li puet deffendre que il n’en use
+                                pas s’il n’a doné caucion à son voisin que domages ne li vendra pas
+                                de cele part. Et se li sires est contrainz de doner la, il li doit
+                                deffendre que il n’en use.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.10}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: ja soit ce que li useres<note>useres]
+                                        <emph>usures</emph> dans le ms., cf. lat. <emph>Quamvis
+                                        alienus usus fructus sit</emph></note> soit à un et la
+                                proprieté à un autre, nonporquant Celsus dit que il convient que li
+                                sires de la proprieté promete à son voisins que il n’avra pas domage
+                                par devers lui&#160;; et s’il ne le promet, ou cil qui n’avra
+                                l’useire ne done caucion, il convient que li voisins en soit mis en
+                                possession. Mes se cil qui en a la proprieté li promet, et se cil
+                                qui en a l’usure ne done pas caucion, Juliens escrit que l’en li
+                                doit veer l’usaire. Et se cil qui a l’userie done caucion tot por
+                                ‹…›, il convient que la proprieté li soit baillie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.11}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: or diron nos de creancier qui a pris gage, doit
+                                il promestre tant solement por ce que il deffent sa droiture&#160;?
+                                Ou il doit doner caucion por ce que il n’est pas sires de la
+                                chose&#160;? Et encontre ce est fete question es livres Marcellus,
+                                savoir mon se caucion doit estre donee au creancier qui tient une
+                                chose en gages. Autresi puet l’en dire de celi qui n’en est pas
+                                sires, car convenance n’est pas fete en sa persone&#160;;
+                                neporquant, je croi que il est droiz que l’en porvoie au creancier
+                                par convenance.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.12}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil à qui caucion n’est pas donee que il n’avra
+                                point de domage par devers une chose est plus pres d’avoir la que
+                                cil à qui ele est engagie, car il la puet porsoier et gaagner par
+                                longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.13}</head>
+                        <div type="gp">
+                            <p>{10} Marcians dit&#160;: se aucuns denonce novele uevre, Julianus
+                                demande s’il doit demander caucion que domages ne li sera pas fez de
+                                cele part&#160;; et il dit que il convient que ele soit donnee à
+                                celui, car caucion doit estre donnee à celi qui dit qui ses
+                                averseres n’a pas poer de fere son edefiemant plus haut. ¶ {11} Se
+                                aucuns est mis en possession de mesons por ce que caucion ne li fu
+                                pas donee, et cil qui les mesons furent a autres mesons par delez
+                                por quoi il veust que caucion li soit donee que domages ne li sera
+                                pas fez par devers les mesons don cil est mis en possession, veons
+                                s’il doit estre oïz. Et Juliens escrit que, dusque il lessa les
+                                mauvés mesons et reçut les bones, il ne doit pas demander caucion ou
+                                non des mesons de quoi il ne la vost doner&#160;; et ceste sentence
+                                est veroie. [119vB] ¶ {12} Se cil qui voloit demander caucion jura
+                                que il ne le fesoit pas por malice et il ne la demanda pas lors, mes
+                                il la veust demander aprés ce, veon s’il doit jurer de
+                                rechief&#160;; et je croi que il doit jurer, car il puet avenir que
+                                il i ot malice ou à l’une foiz ou à l’autre. ¶ {15} En ceste
+                                convenance doit termes estre mis. Et se aucuns domages avient dedanz
+                                ce terme, la caucion a leu ; car cil qui la done ne doit pas estre
+                                obligiez à toz jorz. Li prevoz aserra donc le terme quant il avra
+                                regardé la cause et la qualité do domage dont l’en a poer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.16}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li fez à celui qui n’a pas doné caucion ne n’a pas
+                                receu celui qui est mis en possession est sanz poine tant que
+                                domaiges ait esté fez, que il doint la caucion ou que il reçoive
+                                celui qui est mis en possession ainz que li domages soit avenuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.17}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se<note>ce] <emph>que ce</emph> dans le ms., la
+                                    phrase se comprend mieux sans <emph>que</emph></note> aucuns qui
+                                soit en autrui poeté ne reçoit pas celui qui est en possession de sa
+                                chose, plusors cuident que aucion apartiegne contre celui en qui
+                                poeté il est por abandoner le à sofrir la poine de son mesfet. {1}
+                                Et se li procurators ne le veust recevoir, contre qui la donron
+                                nos&#160;? Contre lui ou contre son seignor&#160;? Il est meuz que
+                                ele soit donee contre lui meismes. {2} Et ce moismes doit estre dit
+                                es metres des garnisons, en ceux qui ont cure d’autres. ¶ {3} Ceste
+                                aucion qui est por le fet sera donee pardurablement à l’oier et as
+                                autres persones. ¶ {4} Li juiges qui conoist entre les persones le
+                                domage qui n’a pas esté fez seust esmer tot le domage qui est
+                                avenuz, ja soit ce que cil o qui l’en a pledié a estrangee la
+                                cause.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.20}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit<note>dit] <emph>me dit</emph> dans le
+                                ms.</note>&#160;: caucion de domage qui puet avenir avra leu entre
+                                celui qui a l’useire d’une chose et cil qui en a la proprieté, se
+                                cil qui a l’usaire veust que caucion li soit donee do vice de la
+                                terre et li sires de la proprieté veust que elle li soit donnee dou
+                                vice de l’uevre : se cil qui en a l’usaire i fet aucunne chose que
+                                li uns ne puet demander à l’autre caucion de domage qui avendroit se
+                                la meson cheet – car cil qui a l’useire ne la puet demander por ce
+                                que il est tenuz à referre la –, ne cil qui en a la proprieté por ce
+                                que tel convence est usee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.22}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se cil qui avoit la proprieté d’une meson
+                                promist que domages ne vendroit pas par chose qui apartenist celui
+                                ou [120rA] il en dona caucion, ou cil qui en a l’usaire en dona
+                                caucion por la soe partie, il ne seroit pas droiz que li uns eust
+                                tote la meson sanz partir au domage. Et se cil qui en a la proprieté
+                                i mest aucunne chose, l’en ne doit pas ostroier à celui qui en a
+                                l’useire que il en use s’il i met autresi&#160;; et por ce, doit
+                                l’en otroier à celui qui est l’usaire que cil qui en a la proprieté
+                                soit contrainz de mestre i son avenant. Se les mesons cheent, donc
+                                cil qui en<note>en] <emph>est</emph> dans le ms., cf. lat.
+                                        <emph>ergo et solum retinebit fructuarius, si aedes
+                                        ceciderint, donec praestetur ei damnum, ut, quod haberet
+                                        vicinus missus in possessionem, id fructuarius habeat, qui
+                                        damnum vicino sarciit</emph></note> a l’usaire ait autretant
+                                comme ses voisins eust, qui fust mis en possession.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.26}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Proculus dit que quant aucuns fet por droit
+                                aucunne uevre en sa terre, ja soit ce que il ait doné caucion à son
+                                vosin que domages n’en vendra pas par devers lui, nonporquant il
+                                n’est pas tenuz à cele convenance ; si comme se tu as meson lez la
+                                moie et tu la veuz aucier par ta droiture, ou tu amoines l’eve dou
+                                champ ton voisin ou tien. Car ja soit ce que tu amoines en ta terre
+                                l’eve qui venoit en la moie ou que tu nuisses à ma lumere,
+                                neporquant aucion ne m’apartient pas por cele convenance&#160;; car
+                                il n’apartient pas que cil face domage qui use de son droit&#160;;
+                                et il me senble que la sentence que Proculus dit soit veroie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.27}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant plusors sont seignors d’une moisme meson
+                                chascun doit demander caucion que domages ne vendra pas de cele part
+                                sanz fere mencion de sa partie&#160;; car chescun ne demande caucion
+                                fors que de son domage. Et encontre ce, se pluisors sont seignor de
+                                mauveses mesons, chescuns doit doner caucion par sa partie&#160;; ne
+                                il ne sont pas obligié chescun por tot.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.35}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant murs chiet qui estoit communs à .ii., il
+                                convient enquerre s’il estoit asez convenables à porter les fuisiaus
+                                ou non.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.36}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: plusors dient que li murs communs est
+                                convenables s’il puet porter les fuisiaus de l’une et de l’autre
+                                meson.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.37}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: car s’il n’estoit convenables, il deust avoir
+                                esté abatuz. Et se aucuns domages en avient, cil qui l’a depecié n’i
+                                doit pas estre tenuz se li murs que il a refet n’est mauvés. Et se
+                                li murs qui est depeciez est convenables, cil qui depeça est tenuz à
+                                restorer le domage qui en est avenuz ; car s’il n’avoit mester
+                                d’estre depeciez, il le doit refere à son propre despens. Et se
+                                aucunne rente est perdue por ce que il est depeciez, Sabins veust
+                                que cil qui le depeça le rende&#160;; si comme [120rB] se li oste
+                                s’en partirent por ce que il n’i poent habiter.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.2.42}</head>
+                        <div type="gp">
+                            <p>Julianus dit&#160;: se li sers qui est communs à .ii. seignors a pris
+                                caucion que domages ne sera fez à ses seignors, autretant vaut comme
+                                s’il moismes l’ussent prise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.1}</head>
+                        <div type="gp">
+                            <p>Julianus dit&#160;: s’eve de pluie a fet domage à aucun, il en puet
+                                pledier por aucion de retenir l’eve de pluie. Nos apelon «&#160;eve
+                                de pluie&#160;» cele qui chiet do ciel et qui croit par cretine ;
+                                comment que il soit, ou se cele eve qui chiet do ciel nuist par lui,
+                                si comme Labeo dit, ou s’elle est meslee à autre. {1} Ceste aucion a
+                                leu ou domage qui n’est pas encor fez, mes l’uevre est fete, de coi
+                                li domages puet venir. Cele a leu totes les foiz que cele eve puet
+                                nuire par uevre qui est fete à la main ; c’est quant aucuns a fet
+                                que l’eve core autrement que ele ne set pas sa nature, si comme s’i
+                                l’a atrené ou il l’a fete plus inele, ou s’il l’a retenue por fere
+                                la soronder. Mes se l’eve nuist par sa nature, ele n’est pas
+                                contenue en cele aucion. ¶ {2} Neraces escrit que, se aucuns<note>se
+                                    aucuns] <emph>se aucunne</emph> dans le ms.</note> torne de son
+                                cors l’eve qui s’eust core par son champ, et fere palu, se cele palu
+                                est creue par eve de pluie et ele torne de son champ et nuist à son
+                                vosin, il sera contrainz d’oster la par aucion d’eve de pluie. ¶ {3}
+                                Quintus Mutius dit que ceste aucion n’apartient pas à l’uevre qui
+                                est fete à la charrue por coitiver les chans&#160;; et Trebacius
+                                n’en acete pas ce qui est fet por coitiver les chans, mes por
+                                aquerre froment. ¶ {4} Se une fosse est fete por sechier les chans,
+                                Noncius dit que c’est fet por coitiver le champ&#160;; neporquant,
+                                il ne le convient pas fere si que autres i ait domage, car chescuns
+                                doit si amender son champ que il n’enpire celi à son voisin. {5} Et
+                                se aucuns puet arer et semer sanz fere roies por quoi l’eve s’en
+                                core et il les i fet, il est tenuz par ceste aucion, ja set ce que
+                                il ait fet por coitiver les chans&#160;; et s’il n’i puet autrement
+                                semer que il ne le feist, il n’est pas tenuz. ¶ Offilius dit que
+                                chescuns a poer por coitiver ses chans de fere rois por quoi l’eve
+                                s’en core por tant que ele core tot à une part. ¶ {6} Servius dit
+                                que se aucuns plante et il fet que l’eve lest sa terre et s’en cort
+                                autre part, l’en puet pledier à lui par ceste aucion [120vA] se cele
+                                eve nuist à son voisin. {7} Et issi escrit Labeo, que totes les
+                                choses qui sont fetes por avoir blez et fruiz sont dehors ceste
+                                cause&#160;; ne il ne puet cheloir por quex blez ne por quex fruiz
+                                cele uvre est fete. ¶ {8} Sabinus et Cassius dient que l’uevre qui
+                                est fete à la main vient en ceste aucion, fors ce qui est fet por
+                                cause de coitiver les chans. {9} Neporquant, se aucuns fet en son
+                                champ roies por quoi l’eve s’en core, il est tenuz par l’aucion de
+                                retenir l’eve de pluie. ¶ {10} Il moismes dit que, se l’eve cort
+                                naturemant, ceste aucion cesse&#160;; mes se uevre est fete por quoi
+                                l’eve soit botee ou plus haut ou plus bas, ceste aucion i a leu. ¶
+                                {11} Il moismes dit que chascuns a poeté de retenir en sa terre
+                                l’eve de pluie et deffendre soi de cele qui vient d’autrui chier au
+                                sien, por quoi il ne face en autrui terre uvre&#160;; car il n’est
+                                desvee à nului que il ne face son preu si que il ne face à autrui
+                                domage&#160;; ne nus n’est por ce tenuz à nule aucion. {12} M.
+                                Marcex dit que l’en ne puet pas pledier contre celi qui fuet en sa
+                                terre et retorne la fontoine son voisin fors par aucion de
+                                tricherie&#160;; et sanz dote, il n’i est pas tenuz dusque il ne le
+                                fist por corage de nuire<note>de nuire] <emph>dimure</emph> dans le
+                                    ms., cf. lat. <emph>si non animo vicino nocendi</emph></note> à
+                                son voisin mes d’amender son champ. {13} L’en doit savoir que ceste
+                                aucion apartient à celui qui est plus hauz<note>hauz]
+                                        <emph>bauz</emph> dans le ms., cf. lat. <emph>Item sciendum
+                                        est hanc actionem vel superiori adversus inferiorem
+                                        competere</emph></note> contre celui qui est plus bas quant
+                                ovre por quoi il contrete à l’eve que ele ne core si comme ele seust
+                                parmi son champ&#160;; et celui qui est plus bas contre celui qui
+                                est plus haut, que il ne li envoit l’eve autrement que ele seust
+                                core. ¶ {14} À ce doit l’en ajoindre que ceste aucion n’apartient
+                                nule foiz quant la nature dou leu nuist<note>leu nuist] <emph>leue
+                                        quist</emph> dans le ms., cf. lat. <emph>cum ipsius loci
+                                        natura nocet</emph></note>, car – qui vodroit voir dire –
+                                sovant avient que l’eve ne nuist pas mes la nature. ¶ {15} Je croi
+                                tot à une some que aucion de retenir eve de pluie a lieu quant eve
+                                de pluie, ou cele qui croit par pluie, ne nuist pas de sa nature,
+                                mes por ovre qui est en fete por autre chose que por coitiver chans.
+                                ¶ {16} Nos dison que eve croit por pluie qui mue sa color et
+                                soronde. ¶ {17} L’en doit savoir que ceste aucion n’a pas leu se
+                                l’eve de pluie ne nuist à aucun champ&#160;; car s’ele nuist à
+                                edefiement ou à chestel, ceste aucion cesse. Mes l’en poet bien
+                                pledier que aucuns n’a pas droiture de mestre ses gotieres la où
+                                eles sont&#160;; et issi le dient Labeo et Cassius. ¶ Aucion de
+                                retenir pluie est especiau [120vB] ; et cele de flueves et des
+                                gotieres est generau et il en loit à pledier par tot. L’eve qui
+                                nuist es chans sera refrenee por l’aucion de retenir l’eve de pluie.
+                                {18} Ne nos n’enquerron pas dont ele nest. ¶ {19} Cassius escrit que
+                                se eve nuit à edifiement de cité ou de ville, l’en en doit pledier
+                                par aucion de flueves et de gotieres. ¶ {20} Je trovois escrit es
+                                livres Labeo que, se l’eve qui cort de mon champ nuist à leu qui est
+                                dedanz aucuns edefiemanz, je n’en puis pas estre enplediez par
+                                aucion de retenir eve de pluie. Et s’ele decort des mesons en mon
+                                champ et ele i nuist, aucion de retenir eve de pluie i a leu. ¶ {21}
+                                Autresi comme l’euevre qui est fete que l’eve de pluie me nuisse
+                                vient en ceste aucion, demande l’en se l’en puet pledier por aucion
+                                de retenir eve de pluie se mis voisins fet une ovre que l’eve qui
+                                puet valoir en mon champ ne li vaille. Offilius et Labeo
+                                cuident que je ne puisse pas pledier por ceste aucion, ja soit ce
+                                que ce fust mes preuz que ele ne revenist jusqu’à mon champ&#160;;
+                                car ceste aucion a leu quant l’eve de la pluie nuist et ne mie quant
+                                ele ne profite pas. ¶ {22} Se mis voisins oste l’ovre que il avoit
+                                fete et l’eve vient par sa nature en mon champ, qui est plus bas, et
+                                ele li nuist, Labeo dit que je n’en puis pas pledier par aucion de
+                                retenir eve de pluie&#160;; car c’est toz jorz le servise as chans
+                                qui sont bas que il reçoivent l’eve qui acort de cez qui sont plus
+                                haut. Neporquant, se l’eve vient plus forment et ele se derive por
+                                cele ovre qui est ostee, Labeo dit que l’en en puet pledier par
+                                aucion de retenir eve de pluie. {23} Il dit aprés que unes loies ont
+                                esté dites de la condicion des chans&#160;; si comme s’il i vient
+                                trop eve en mon champ, il me loise à fere fosses o tien par retenir
+                                la. ¶ Et se certoine loi n’a esté donee à chans, il convient que la
+                                nature en soit donee, que li plus bas serve au plus haut et ait
+                                naturement ce grief por ce que il en a autre preu&#160;; quant
+                                autresint comme tote la cresse acort dou plus haut champ ou plus
+                                bas, convient il que l’eve i acore, qui i fet grant domage, se l’en
+                                ne trove que il ait ou champ vielle costume qui vaille loi. ¶ Nos
+                                dison autresi de servises que, la où l’en ne trove pas que certains
+                                servises soit establiz, longue costume qui n’a pas estee amenee
+                                avant por force, ne en repuet, ne par priest, soit en leu de
+                                servise. ¶ Nos ne contraindron donques pas nostre voisin de fere
+                                ruisel parmi sa terre, mes nos moismes le ferons&#160;; et ce
+                                [121rA] sera autresi comme servises, et nos avons sus cele chose
+                                profitable aucion ou entredit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: trois choses sont<note>Trois choses] <emph>trins
+                                        chans</emph> (?) leçon douteuse dans le ms., cf. lat.
+                                        <emph>In summa tria sunt, per quae inferior locus superiori
+                                        servit</emph></note> par quoi li plus bas leu sert au plus
+                                haut ; ce sont loi et la nature dou leu et longue costume qui est
+                                tenue par loi. ¶ {1} L’en trove es livres Labeo que une fosse estoit
+                                en un champ por sechier les chans qui estoient environ, et nus
+                                n’estoit à qui il sovenist quant ele fut fete ; cil en qui champ ele
+                                estoit ne la cura pas, et de ce avint que l’eve soronda et fist mal
+                                en mon champ, Labeo dit donc que je puis pledier o lui par aucion de
+                                retenir eve de pluie, ou que il cure la fosse, ou que il soffre que
+                                je moinge en l’ancien estat. {2} Et se la fosse est en la devise de
+                                .ii. chans et tes voisins ne s’offre pas que tu en cures la partie
+                                qui est par devers toi, Lobeo dit que tu en puez pledier o lui par
+                                aucion de retenir eve de pluie. ¶ {3} Celsus dit que se aucunes
+                                ovres sont fetes par commune autorité por fere corre aval l’eve de
+                                la pluie, eles ne vienent pas en ceste aucion. En cele moisme cause
+                                sont les choses qui sont si vielles que il n’en sovient à nului. ¶
+                                {4} Alphenus dit que, s’il a en un champ une fosse qui est si plaine
+                                que l’eve encort as chans qui sont plus bas, cil en qui champ ele
+                                est doit estre contrainz de curer la, de quel tens que ele
+                                soit&#160;; et je croi que c’est voirs. {5} Varus dit&#160;: la
+                                force de l’eve abati un travail qui estoit ou champ mon voisin, por
+                                ce avint il que l’eve de la pluie me nuist. Il dit donc que, se li
+                                travau estoit naturex, je ne puis pas por ce pledier à mon voisin
+                                por aucion de retenir eve de pluie que il le meste arrieres ou
+                                soffre que il i soit mis. Et ce moismes dit il se li travauz fut fez
+                                à la main, ne nus n’est qui en soviegne&#160;; mes s’il en sovient à
+                                aucun, li sires do champ est tenuz par ceste aucion à mestre la
+                                arrieres. Et Labeo dit que, se il fut fez à la moin, ja sé ce que
+                                nus n’est à qui il en soviegne, nonporquant l’en en puet pledier par
+                                ceste aucion. ¶ Por ceste aucion ne puet nus estre contrainz de fere
+                                le preu à son voisin, mes que il ne li nuise pas, ne ne le destorbe
+                                de fere ce que il puet fere par droit. Et ja soit ce que aucion de
+                                retenir eve de pluie faille, neporquant je croi que preferable
+                                aucion au antredit m’apartiegne contre mon voisin, se voil restablir
+                                le travail en son champ&#160;; car loiauté ostroie que je i face ce
+                                que me puet valoir et qui ne li puet riens nuire, ja [121rB] soit ce
+                                que il ne soit pas ostroié par estroit droit. {6} Namusa dit&#160;:
+                                se eve corant estope son conduit d’ordure et ele regorge arriés, si
+                                que ele fet mal au champ qui est desus, l’en puet pledier o celui
+                                qui est sires do champ de soz que il lest curer le conduit. Et Labeo
+                                prove contre lui que ceste aucion est bone non pas tant solement des
+                                ovres qui sont fetes contre volenté. ¶ La nature do champ puet estre
+                                muee par lui moismes&#160;; et por ce, quant ele se mue par lui,
+                                chascuns le doit soffrir en pez, comment que il soit, ou se la
+                                condicion do champ amende, ou s’ele enpire. Et por ce, se la cause
+                                de la terre est muee por terremote ou par force de tempeste, nus ne
+                                puet estre contrains de soffrir que ele soit ramenee en sa premiere
+                                condicion&#160;; mes nos retenons loiauté en ce cas. ¶ {7} Labeo
+                                dit&#160;: se granz cors d’eve est venuz en ton champ qui achieve le
+                                leu, tu n’en puez pas pledier o tes voisins par aucion de retenir
+                                eve de pluie. Mes s’il avoint ou champ ton voisin une fosse qui
+                                soloit recevoir l’eve de quoi il ne sovint a nul quant ele fut fete,
+                                et ele est estopee, tu puez pledier o lui que il te lest curer. ¶
+                                {8} Labeo dit que quant il est requiert se il sovient à aucun de
+                                l’ovre qui fut fete, l’en n’en puet pas demander ostroiment le jor
+                                et le tens, ainz doit sofire se aucuns set que ele fut fete ; ne il
+                                ne convient pas que cil vivent<note>vivent] <emph>iurent</emph> dans
+                                    le ms., cf. lat. <emph>nec utique necesse esse superesse qui
+                                        meminerint, verum etiam si qui audierint eos, qui memoria
+                                        tenuerint</emph></note> – qui la virent fere – desque cil
+                                vivent qui lor oirent dire, que il lor en sovenoit bien. ¶ {9} Labeo
+                                dit que, se aucuns trestorne un flueve que l’eve ne viegne en son
+                                champ, et il nuist par ce à son voisin, il n’en puet pas pledier o
+                                lui por aucion de retenir eve de pluie. ¶ Retenir eve est garder que
+                                ele no core&#160;; et ceste sentence est veroie s’il ne le fist par
+                                corage de nuire toi, mes por garder que ele ne li neust.¶ {10} Je
+                                croi que c’est voirs que Offilus escrit, que se ton champ sert à ton
+                                voisin et il reçoit l’eve que decort do sien champ, aucion de
+                                retenir eve de pluie cesse se ele ne li nuist à desmesure. À ce
+                                s’ensit ce que Labeo dit, que se aucuns ostroie à son voisin que il
+                                puisse amener eve parmi son champ, il ne puet pas pledier o lui par
+                                aucion de retenir eve de pluie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.3}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Trebaces reconte que cil en qui champ une
+                                fontoine sordoit fist delez la fontoine fossé à folons de quoi il
+                                envoiet evoec eve chaude [121vA] ou champ à son voisin. Il dist donc
+                                que il n’est pas tenuz por aucion de retenir eve de plue&#160;; et
+                                s’il fet l’eve chaude corre par son ruissel ou il i met ordure, il
+                                plet à plusors que il en soit enpechiez. {1} Cil moismes Trebaces
+                                cuide que cil à qui<note>à qui] <emph>amai</emph> dans le ms.</note>
+                                les eves chaudes coranz nuisent puisse pledier à son voisin por
+                                aucion de retenir eve de pluie&#160;; mes ce n’est pas voirs que eve
+                                chaude n’est pas eve de pluie. ¶ {2} Se aucuns qui soloit aroser son
+                                cortil en un tens de l’an i a fet pre, ou l’eve vient toz jorz par
+                                quoi il nuist à son voisin, Offilius dit que il n’en est pas tenuz
+                                par aucion de domage ne de retenir eve de pluie s’il n’a fet chose
+                                por quoi l’eve viengne plus roidement ou champ son voisin. ¶ {3} Il
+                                a esté receuz que nus n’est tenuz por aucion de retenir eve de pluie
+                                fors cil qui fet ovre ou suen&#160;; et de ce droit uson nos. Et por
+                                ce, se aucuns fet ovre en commun leu, ceste aucion cesse. Et cil qui
+                                ne se porvist de demander caucion que domages ne li vendroit pas par
+                                cele ovre n’en doit blasmer se lui non&#160;; neporquant, s’il fet
+                                ovre en son propre leu, et il i asenble dou commun, Labeo dit que
+                                l’en puet pledier à lui por tote l’uevre por aucion de retenir eve
+                                de pluie. ¶ {4} Cil qui a l’usaire dou champ ne puet pas pledier par
+                                aucion de retenir eve de pluie, ne l’en ne puet pas pledier o lui.
+                                ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.4}</head>
+                        <div type="gp">
+                            <p>Il moismes dit&#160;: ja soit ce que aucion de retenir eve de pluie
+                                est loie contre le seignor de l’ovre tant solement, neporquant Labeo
+                                escrit que se aucuns edefice un sepucre de quoi l’eve nuise, ja sé
+                                ce que il lesse à estre sires de l’ovre por ce que li leus est fez
+                                religios, l’en puet dire que il est tenuz por ceste aucion, quar il
+                                fu sires de l’uevre quant il la fist. Et s’il est contrainz por le
+                                commandemant au juige de restablir l’ovre, aucion de sepulcre brisee
+                                n’a pas leu contre lui. ¶ {1} Juliens escrit que se aucuns estrange
+                                son champ aprés ce que il a receu le juigement de retenir eve de
+                                pluie, li juiges doit juigier do domage qui a esté fez et de
+                                restablir l’ovre, ce moismes que il enjujast<note>enjujast]
+                                        <emph>enuiast</emph> dans le ms., cf. lat. <emph>de
+                                        praeterito damno et de opere restituendo id statuere iudicem
+                                        debere, quod iudicaret, si nulla alienatio facta
+                                        esset</emph></note> se nus estrangemanz n’en fust fez&#160;;
+                                car por ce, se li chanz est estrangiez, ne faut pas li juigemanz ;
+                                et se doit l’en prendre garde au doma[121vB]ge qui est avenuz por
+                                cel estrangement. ¶ {2} Cil moismes Julien dit que aucion de retenir
+                                eve de pluie n’a leu fors contre le seignor de l’uevre. Et por ce,
+                                se li coitiverres fet aucunne ovre sanz le seu au seignor do champ,
+                                li sires n’en est à rien tenuz, fors que il soffre que ele soit
+                                depecee&#160;; et li coitiverres doit este por l’entredit de ce qui
+                                est fez por force ou en repost de poier les despens que il convient
+                                à fere por depecier l’ovre et le domage qui en est avenuz. ¶ Et se
+                                li sires veust que cil à qui l’uevre nuit li doint caucion que il ne
+                                fera chose don domages li aviegne, il est droiz que il li doint. ¶
+                                {3} Se mis procurators a fet sanz moi tel ovre por quoi l’eve de la
+                                pluie nuise à mon voisin, l’aucion en sera contre moi, ausi comme
+                                contre le coitiveor&#160;; et li procurators en porra estre trez en
+                                cause par l’entredit de ce qui est fet por force ou en repost, selon
+                                la sentence Julien, neïs puis que la sentence sera depecie. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.5}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se le coitiviers fet sanz le seu son seignor un
+                                uevre por quoi eve nuise à son voisin, Labeo dit que li coitiverres
+                                est tenuz par l’entredit de ce qui est fet por force ou en
+                                repost&#160;; et li sires est tenuz par l’aucion de retenir eve de
+                                pluie, car il seus puet depecier l’ovre. Mes il doit soffrir tant
+                                solement que ele soit depecie se l’en li done caucion que ele ne li
+                                face pas domage&#160;; et s’il fet aucuns despens por depecier la,
+                                il le recovrera sus le coitiveor par aucion de loage, se l’en ne dit
+                                le contre por ce que il n’estoit pas besoing au seignor de depecier
+                                la. Mes se l’ovre fut fete por le commandemant au seignor, il est
+                                tenuz par l’entredit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.6}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se mes tierz voisins a fete une ovre dont eve
+                                core par le champ à mon prochein voisin jusqu’au mien, si que ele me
+                                nuisse, Sabins dit que je puis pledier o le plus prochein voisin ou
+                                lessier le en pez et pledier o l’autre qui a fet l’ovre&#160;; et
+                                ceste sentence est veroie. ¶ {1} Se l’eve qui decort dou champ à
+                                plusors me nuist, ou s’eve nuist au champ qui est à plusors, il plet
+                                as metres que nos uson de cest droit que, se li chans est à plusors,
+                                chascuns en puisse pledier et li condempnemenz soit fez selon les
+                                parties&#160;; et se l’en en plede à plusors, chescuns en soit
+                                enplediez por sa partie, et li condempnemenz soit fez par parties. ¶
+                                {2} L’en demande, se l’eve qui vient de ton propre champ nuist au
+                                champ qui est communs à moi et as autres, savoir mon se l’en en puet
+                                pledier por aucion de retenir eve de pluie. Et je croi [122rA]
+                                que oïl, en tel maniere neporquant que la partie do domage soit
+                                restoree. {3} Et encontre ce, se chans est communs, qui nuist au
+                                mien propre, l’en puet pledier por aucion de retenir eve de pluie,
+                                si que chescuns poit sa partie do domage. ¶ {4} Se aucuns mest hors
+                                de sa main la seignorie de son champ ainz que il plede por aucion de
+                                retenir eve de pluie, l’aucion lesse à apartenir lui et vient à
+                                celui à qui li chans est&#160;; car por ce que ele contient leu
+                                domage qui est à venir, ele commoincera à apartenir à celui qui sera
+                                sires dou champ, ja sé ce que uns autres en estoit sires quant li
+                                voisins fist l’ovre. ¶ {5} L’en doit savoir que aucion de retenir
+                                eve de pluie n’est pas sor la chose mes sor la persone. ¶ {6} Li
+                                offices au juige est que se li voisins a fet tele ovre, il convient
+                                que il la depiest, et restore le domage qui en est avenuz aprés ce
+                                que li plez fut entamez. Mes se li domages avint ainz que li plez
+                                fut entamez, il devra depecier l’ovre tant solement, et ne restorera
+                                pas le domage. ¶ {7} Celsus dit que, se j’é fet aucunne chose por
+                                quoi l’eve de la pluie te nuisse, je doi estre contrainz de depecier
+                                la à mes despens&#160;; et se aucuns autres la fist, qui n’apartient
+                                de rien ou moi, c’est assez que je soffre que ele soit depecie. Mes
+                                se mis sers la fist, ou cil qui je suis heirs, je doi abandoner le
+                                serf à sofrir poine&#160;; et ce que cil fist, à qui je sui heirs,
+                                est autresi comme se je moismes le use fet. {8} Et li juiges doit
+                                proisier veroiment le domage qui a esté fez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.7}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil à qui l’en plede par aucion de retenir eve de
+                                pluie por l’ovre que il a fete est contrainz de recevoir juigement,
+                                ja sé ce que il est apareilliez de lessier le leu ; car il est
+                                    trez<note>trez] <emph>creuz</emph> dans le ms.</note> en cause
+                                en son non por depecier l’ovre. {1} Mes il est autrement en celui
+                                qui achate por bone foi, car il n’est tenuz fors à sofrir que l’ovre
+                                soit depecie&#160;; s’il veust donc quiter le champ, il doit estre
+                                oïz, car il fet plus que il ne doit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant li chans où l’eve sort est venduz por
+                                condicion, il convient enquerre la volenté au vendeor et cele à
+                                l’acheteor, si que s’il remoint à l’acheteor ou s’il ne li remoint
+                                pas, il soit certoine chose que la droiture de l’eve a esté ostroie
+                                par la volenté au seignor. {1} Por ce, demande l’en la volenté au
+                                seignor que torz ne li soit fez senz son sen&#160;; et il n’apert
+                                pas que torz li soit fez desque il le veust. {2} La volenté à celi à
+                                qui la droiture de l’eve apartient n’est pas demandé tant solement,
+                                mes cele au seignor dou leu&#160;; que, ja soit ce [122rB] que il ne
+                                puisse pas user de l’eve, neporquant ele ne se pert pas de sa
+                                terre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.10}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se plusor sont segur dou leu don l’eve est menee,
+                                l’en ne dote pas que il ne conviegne pas sivre la volunté à toz ;
+                                car il ne sera pas droiz que la volenté à l’un, qui n’est sires que
+                                d’une partie, fet tort à ses compoingnos. ¶ {1} Or veons se la
+                                volenté i puet venir aprés&#160;; et il nos plet que l’en ne face
+                                pas force s’ele i vient avant ou aprés, car li prevoz doit garentir
+                                la derreine volenté. ¶ {2} Se fluves est tex que il port navie,
+                                Labeo dit que li prevoz ne doit pas ostroier que l’eve en soit menee
+                                hors tant que il ne puisse porter navie&#160;; et autresi est il se
+                                uns autres fluves croit par ce tant que il porte navie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.11}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: l’en ne fet pas por droit sus autrui voie arche por
+                                mener eve, ne cil à qui voie et charriere est deue, mes il i fera
+                                par droit un pont par quoi il porra aler et mener ce que il vodra. ¶
+                                {1} Cassius dit que se domages vient à plusors par l’eve ou par le
+                                champ qui est à plusors seignors, li uns de celx qui ont eu le
+                                domage puet pledier à un de celx par quoi li domages est venuz, ou
+                                uns puet pledier à toz, ou tuit puent pledier à un, ou tuit puent
+                                pledier à toz. ¶ Se li uns en plede et l’ovre est depecie et li
+                                domages restorez, l’aucion as autres faut. ¶ Et se l’en plede à l’un
+                                et il rent le domage, li autre sont delivré ; et il puet recovrer
+                                sus ses compoignons par juigement de partir choses communes ce que
+                                il avra mis por aux. Ne l’en ne doit pas pledier à celui qui fist
+                                l’ovre que cil qui la fist fere doit restorer le domage. ¶ {2}
+                                Proculus dit que se l’en plede à un des seignors, qui ne fit pas
+                                l’ovre, il doit depecier l’ovre à son despens, car il a contre ses
+                                compoignons aucion de partir choses communes. Mes il dit que il li
+                                plet meuz que il ne face fors sofrir que l’ovre soit depecie&#160;;
+                                et cil en doit estre blasmz, qui ne plede pas à celui qui fist
+                                l’ovre, car il seroit torz que l’en la feist depecier à celui qui ne
+                                la fist pas por ce que il n’en puet pas pledier por aucion de partir
+                                choses communes ; car il porroit avenir que ses compoingz n’avroit
+                                de coi poier. ¶ {3} Juliens dit que il dote queli offices au juige
+                                qui est receuz entre dos doit estre se li chans [122vA] à qui l’eve
+                                nuit est à un ; et ‹se› cil en quoi l’ovre est fete est à plusors et
+                                l’en en plede à l’un d’aus, savoir mon se li condempnemenz doit
+                                estre fez dou domage qui est avenuz puis que li plez fu entammz et
+                                de depecier l’ovre&#160;; autresi comme quant l’en plede por
+                                sepulcre, ou por serf commun por abandoner le à soffrir poine. Cil o
+                                qui l’en plede por sepulcre ou por serf commun est condempnez por
+                                tot, por ce que il puet recovrier sus ses compoignons ce que il i
+                                met ; ou se cil o qui l’en plede doit estre condempnz à restorer sa
+                                partie do domage que il i a esté fez et à depecier sa part de
+                                l’ovre&#160;; autresi comme l’en fet en aucion de demander caucion
+                                do domage qui puet avenir quant plusors sont seignors dou champ don
+                                l’en crient que li domages viegne et en plede à un d’aus, ja soit ce
+                                que l’ovre de quoi li domages puet venir ne puet estre departie, et
+                                les mesons et la terre où eles sont ne puent pas fere domage en
+                                partie. Por ce ne remoint pas o qui l’en plede ne puisse estre
+                                condempnz por sa partie ; doit l’en garder en aucion de retenir eve
+                                de pluie, car ‹n’› est aucion de domage qui est avenuz mes de celui
+                                qui est à venir. {4} Et se li chans à qui l’eve nuist est à plusors,
+                                chascuns en peut, mes il n’avra fors sa part do domage qui avendra
+                                puis que li plez sera entammz.¶ Et se l’ovre doit estre depecee, cil
+                                qui la fist ne doit estre condempnz à chascun fors quan tant comme
+                                il eust de preu se l’ovre fust depecie. {5} Se eve est envoie dou
+                                champ qui est en propres à aucun en un champ commun, Offilius dit
+                                que uns des compoingnons puet pledier à celui qui le champ est don
+                                l’eve vient. {6} Et se ce vient par ovre qui ait esté fete à la
+                                main, cil à qui l’en plede la doit depecier&#160;; mes, se ce avient
+                                por force d’eve ou por ce que la fosse où l’eve coroit est enplie de
+                                limon, il doit estre quites por soffrir que l’ovre<note>ovre]
+                                        <emph>eue</emph> dans le ms.</note> soit depecie. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.12}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui achete une chose et cil qui en sont
+                                heir doivent depecier l’ovre qui nuist à lor voisins ou soffrir que
+                                il la depiecent ; car il est aperte chose que la demore nuit à celui
+                                qui a le domage. En cele moisme cause est li compoignz à celui qui
+                                fist l’ovre, s’il en la fist par lui&#160;; autresi est il ou champ
+                                qui est donz ou lessiez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.13}</head>
+                        <div type="gp">
+                            <p>Maius dit&#160;: [122vB] mes li venderres ou li donierres sera tenuz
+                                por l’entredit de ce qui est fet par force ou en repost à restorer
+                                le domage et les despens qui ont esté fetes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.14}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: Ateus dit que se cil qui a fete l’ovre a vendu le
+                                champ à plus poissent de lui por lessier à estre en sires, l’en
+                                pledera à lui por l’entredit de ce qui a esté fet par force ou en
+                                repost&#160;; et se li anz passé, juigemenz de tricherie doit estre
+                                donz contre lui. ¶ {1} Quant l’en plede par aucion de retenir eve de
+                                pluie l’en enquiert do fet qui nuist&#160;; et se une partie de la
+                                terre soit abessie por le vice dou leu, ja soit ce que par ce nuise
+                                l’eve de pluie au champ qui est plus bas, neporquant nule aucion n’i
+                                apartient&#160;; ce moismes dit l’en se aucunne chose qui est fete à
+                                la main s’abesse. ¶ {2} En cest juigement vient li domages dou tens
+                                qui est à venir, - autresit comme en celui de demander caucion de
+                                domage don l’en a peor - ja soit ce que prés que tuit li autre
+                                juigement sont des domages qui sont avenuz. {3} Et do domage qui fu
+                                avant fez puet l’en pledier par l’entredit de ce qui est fet à force
+                                ou en repost. Et de qui puet avenir<note>avenir] <emph>aucun</emph>
+                                    dans le ms.</note> aprés la sentence au juige, doit l’en doner
+                                caucion ; ou l’ovre doit estre issi depecie que nus domages n’en
+                                puisse puis venir. {4} Et de l’ovre qui est fete aprés ce que li
+                                plez est entammz doit l’en pledier de novel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.15}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: aucunne foiz avindra que l’ovre qui sera fete
+                                aprés l’entannement dou plet sera depecie, se cele qui fu avant fete
+                                ne puet estre ostee sanz cele.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.16}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se li chans de quoi l’en plede par aucion de
+                                retenir eve de pluie a esté venduz, et l’en li a nié aprés la vente,
+                                li venderres porra recovrer por cele moisme aucion le domage qui li
+                                a esté fez, non pas por ce que il a esté fez au vendeor mes à la
+                                chose, et que li venderres le doit restorer à l’acheteor. Mes se cil
+                                à qui l’en a pledié le vent ainz que il li nuise, l’en devra pledier
+                                à l’acheteor ou o le vendeor dedanz l’an s’il le vendi por eschever
+                                le juigement.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.17}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: s’il me fu ostroié premerement que ge eusse servise
+                                d’eve por nuit et il me fu puis ostroié que je l’eusse por jor, et
+                                j’avais lonc tens usé dou servise de nuit tant solement, je pert le
+                                servise dou jor ; car en ce quas sont ces divers servises qui me
+                                sont donz por diverses causes. {1} Il plot à cex qui furent
+                                ça arrieres que eve ne puisse pas estre menee [123rA] par conduit de
+                                pierre, s’il ne fu issi devisié quant li servises fut
+                                establiz&#160;; car ce n’est pas costume que cil à qui servises
+                                d’eve est deuz l’amoint par conduit de pierre. ¶ Les choses qui
+                                solent estre à autre, si comme an costume que eve soit menee par
+                                tuiaus, ja soit ce que il n’ait pas esté devisé à establir le
+                                servise, puent estre fetes si que nus domages n’en soit fez au
+                                seignor de la terre. ¶ {2} Nos plet que servises de puisier eve
+                                puisse estre establiz par commune voie&#160;; et c’est voirs. Ce
+                                n’est pas tant solement por commune voie, mes par commun flueue. ¶
+                                Servises de voie ne de charriere ne puet pas estre establiz en
+                                commun flueue. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.18}</head>
+                        <div type="gp">
+                            <p>Jabolenus dit&#160;: se ovre est fete en leu commun que l’eve de la
+                                pluie nuise à aucun, il n’en puet pas pledier&#160;; et la reson de
+                                ce est que nus n’est tenuz por ceste aucion fors cil en qui terre
+                                l’ovre est fete. {1} Eve ne puet estre menee par commune voie sanz
+                                l’otroi au prince.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.19}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: Labeo dit que se ge faz por l’asentement mon
+                                voisin ovre par quoi eve de pluie li nuise, je ne sui pas tenuz à
+                                lui par aucion de retenir eve de pluie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.20}</head>
+                        <div type="gp">
+                            <p>Il moismes dit&#160;: s’il n’est pas deceuz por error mes par faute
+                                de sen, car en error ne puet avoir point de volenté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.21}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se eve sort en mon champ et les voines en sont
+                                ou tien, se tu copes les voines, et l’eve lesse por ce à venir à
+                                moi, il n’apert pas que tu n’oies fet force se tu ne me donoies
+                                aucun servise de ce&#160;; ne tu n’i es pas tenuz à moi por
+                                l’entredit qui est fez par force ou en repost.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.22}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se li usaires do champ est lessiez à aucun,
+                                l’aucion de tenir eve de pluie apartient à l’oier et contre l’oir
+                                por ce que la proprieté dou champ est seue. Et se cil qui en a
+                                l’usaire a aucun domage por ovre qui est fete, il porra pledier por
+                                l’entredit de ce qui est fet por force ou en repost. Et se li
+                                antredit ne li apartient, l’en puet demander se aucion de retenir
+                                eve de pluie li doit estre donee comme au seignor, ou s’il doit
+                                pledier por avoir la droiture d’user en&#160;; mes il est mieuz que
+                                aucion de retenir eve de pluie li soit donnee. ¶ {1} Il n’apert pas
+                                que cil qui fist l’ovre l’aist depecie s’il n’areste l’eve. {2} Et
+                                se cil qui a l’usaire do champ i fet ovre par quoi l’eve de la pluie
+                                nuise à autrui, aucion en porra estre meüe contre le seignor de la
+                                proprieté. L’en demande se cele aucion puet estre donee à celui qui
+                                a l’usaire do champ. [123rB] Et il me senble que il est bien
+                                que ele li soit donee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.23}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: l’uevre qui fut fete par le commandemant au prince
+                                ou au senat ou par cex que premerement establirent les chans, ne
+                                vient pas en ce juigement. ¶ {1} Ceste aucion a leu à chans qui sont
+                                tenu à ferme. ¶ {2} Le monciau de terre que aucun fet an son propre
+                                leu lez .i. flueve viennent en juigement de retenir eve de pluie
+                                s’il sovient à aucun que il i furent fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.24}</head>
+                        <div type="gp">
+                            <p>Alphenus dit&#160;: uns hons aroit son champ, qui estoit plus hauz
+                                que le son voisin, que l’eve ne venoit par les roies et par les
+                                orneres ou champ de soz&#160;; l’en demade s’il puet estre contrainz
+                                par le juigement de retenir eve de pluie d’arer son champ en tel
+                                maniere que les roes ne s’esgotent pas à cex de soz. Et la
+                                response est que l’en ne li puet pas veer que il n’are son champ si
+                                comme il vodra. {1} Mes s’il fesoit de travers aucunnes roies par
+                                quoi l’eve corrust au champ de soz, ce li porroit l’en bien
+                                deffendre par le juigement de retenir eve de pluie. {2} Et s’il
+                                fesoit fosse par quoi l’eve de pluie poist nuire, il porroit estre
+                                contrainz d’enplir les fosses. Et s’il ne les enploit, il devroit
+                                estre condemnz de tant comme ses averseres eust de preu se l’eve ne
+                                fust onques alee por les fosses. ¶ {3} Eve de lac ne croit nule foiz
+                                ne ne descroit, ne il ne loist pas à voisins à mestre .i. n’a oster
+                                an.¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.25}</head>
+                        <div type="gp">
+                            <p>Cil, qui a un champ à qui voie est deue, puet pledier ou non de ce
+                                champ por aucion de retenir eve de pluie si la voie est enpiree et
+                                l’en nuist à son champ.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.3.26}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: cil qui ont juridicion solement doivent garentir
+                                les voies<note>voies] <emph>doiz</emph> dans le ms., cf. lat.
+                                        <emph>tueri ductus aquae</emph></note> d’eve, à qui
+                                l’ancieneté done autorité, ja soit ce que la droiture ne soit pas
+                                provee.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. De dons <note>D'après le numéro placé au haut de la page,
+                            dans le corps du manuscrit, le 14<hi rend="sup">e</hi> livre devrait
+                            commencer ici. Nous l'avons réuni, ainsi que le suivant, au 13<hi
+                                rend="sup">e</hi> livre, qui n'aurait sans cela qu'un seul titre,
+                            parce que ces deux titres font aussi partie du 39<hi rend="sup">e</hi>
+                            livre du Digeste. Dans la table des rubriques, ce titre manque, et le
+                            suivant se trouve confondu avec le 1<hi rend="sup">er</hi> du livre
+                                14<hi rend="sup">e</hi>.</note>
+                        <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 39, tit. 5&#160;: <hi rend="i">de
+                                    Donationibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {39.5.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: plusors manieres de dons sont. Aucuns done par
+                                tel corage que il veust<note>veust] <emph>neust</emph> dans le ms.,
+                                    cf. lat. <emph>ut statim velit accipientis fieri</emph></note>
+                                que ce que il done soit maintenant à celui qui le reçoit, ne il ne
+                                le fet por nule cause fors por sa largece&#160;; ce apele l’en
+                                propremant don. ¶ Aucuns done en tel maniere que ce que il done soit
+                                à celui qui le reçoit quant aucunne chose sera avenue&#160;; et ce
+                                n’est pas apelé proprement dons, ainz dons soz condicion. ¶ Et se
+                                aucuns done par tel corage que ce que il done soit maintenant à celi
+                                qui le reçoit, neporquant il vieust que il retort à lui se aucunne
+                                chose avient ou s’ele n’avient pas, ce [123vA] n’est pas proprement
+                                dons, mes dons qui puet estre depeciez par condicion&#160;; et tex
+                                est dons qui est fez par cause de mort. ¶ {1} Quant nos dison donc
+                                que don vaut entre esposé et esposee, nos uson de propre non de don
+                                et mostrons la volenté et le fet qui de celui vient, qui done
+                                aucunne chose par sa largecie et si que ele soit maintenant à celui
+                                qui la reçoit et ne reviegne à lui en nul cas. Et quant li espossez
+                                done à l’esposee par tel corage que il ait arrieres ce que il li
+                                done se lor mariages n’est assenblez, nos dison que c’est dons qui
+                                puet estre depeciez soz condicion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.3}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: l’en doit generaument distinter en cex dons, que
+                                il a moult grant difference s’il i ot cause de doner ou
+                                condicion&#160;; car s’il ot cause de doner, ce qui fu doné ne puet
+                                estre demandé arrieres&#160;; et s’il i ot condicion, il puet estre
+                                demandé.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.4}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: dons puet estre perfez par moine persone.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.5}</head>
+                        <div type="gp">
+                            <p>Ulpianus&#160;: dons qui sont fez por amor ne sont pas deffenduz,
+                                quex que il soient ou honeste si comme cil qui sont fez à foles
+                                femes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.9}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: quant l’en otroie à aucun que il abit por noiant
+                                en autrui mesons, ce senble dons qui est fez à celui qui abite sanz
+                                doner en loier. Et dons qui est fez de tens puet valoir, si comme se
+                                i ostroie à mon detor que je ne li demanderoi rien devant un certein
+                                terme. ¶ {1} Li fruit qui sont receu des choses donnees ne sont pas
+                                contees ou don. Mes se ge ne te donoie pas mon champ, mes poer de
+                                coillir en les fruiz, li fruit seroent conté ou don. {2} Ce qui li
+                                fiz qui est en bail a doné por le commandemant son pere ou por sa
+                                volonté vaut autretant comme se li peres moismes l’eust doné. Et se
+                                tu dones en ton non ma chose par ma volenté, li dons ne vaut rien ;
+                                car la chose ne puet estre donee s’ele n’est à celui qui la
+                                done.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.10}</head>
+                        <div type="gp">
+                            <p>Paulus&#160;: l’en puet bien doner à celui qui n’est pas presanz, ou
+                                par envoier li, ou par ostroier li que ce que il a ja soit sien. Mes
+                                s’il ne siet pas que la chose que il i a li soit donnee, ou il ne
+                                reçoit pas cele qui li est envoie, il n’en est pas sires, ja soit ce
+                                que ele li est esté envoié por son serf moismes s’ele fust tote
+                                soe.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.11}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: quant l’en enquiert de don il n’apert pas que li
+                                fruiz ne les pen[123vB]sions ne li loage soient doné. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.12}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil qui est obligiez à doner aucune chose est
+                                trez en cause, si comme li enpereres Pius dit, por tant comme il
+                                puet fere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.13}</head>
+                        <div type="gp">
+                            <p>Cil moimes dit&#160;: cil qui me voloit doner une chose la bailla au
+                                serf qui estoit communs à moi et à Tice. Et li sers le reçust por
+                                aquerre la ‹à› Tice et à moi ensenble. L’en demande que l’en en doit
+                                fere. Et il nos plest que, ja soit ce que li sers la reçut por
+                                carage d’aquerre la à moi compoignon sol, ou à moi et à lui
+                                ensenble, neporquant ele est aquise à moi sol&#160;; car, se tu
+                                bailles à mon procurator une chose por corage d’aquerre la à moi, et
+                                il la reçoit por corage d’aquerre la à lui, il ne fet rien à lui
+                                ainz l’aquiert à moi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.14}</head>
+                        <div type="gp">
+                            <p>Julianus dit&#160;: qui coitive autrui champ par cause de don n’en
+                                peut riens retenir por les despens ; car la chose que il i met est
+                                maintenant au seignor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.15}</head>
+                        <div type="gp">
+                            <p>Marcianus dit&#160;: dons que aucuns fet puis que il a fet capital
+                                crime vaut selonc l’establissement as enpereors Sevoir et Antonius
+                                s’il n’a esté condempnez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.16}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se li peres fet cele escriture&#160;: « je donne
+                                à celui et à cel autre qui je franchi totes les robes et tot le vin
+                                que je avroi à moi quant je morroi », li heir sachent que totes les
+                                devant dites choses apartienent par beragne exposicion à cex qui
+                                furent franchiz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.17}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se chose juigee est amenee an convenance por
+                                cause de renovelement, et la convenance est aprés quitee por cause
+                                de don, l’en dit que de ce vient delivrance.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.22}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: il est droiz que cil qui a promis por cause de
+                                don deniers ou aucunne autre chose ne poit pas avoir usures por la
+                                demore de la poie ; por ce moismement que dons n’est pas contenz es
+                                marchiez de bone foi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.5.23}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li creanciers puet quiter et amenuiser por
+                                convenant les usures dou tens qui est à venir&#160;; ne nus vices ne
+                                vient en ce don por la some de la quantité. {1} Cil moismes dit que
+                                cil qui est forsenez ne puet rien doner.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head type="gp">III. Dons qui sunt fez par cause de mort <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 39, tit. 6&#160;: <hi rend="i">de Damno
+                                    infecto et de suggrundiis et protectionibus&#160;;</hi> et du
+                                titre 3&#160;: <hi rend="i">de mortis causa Donationibus et
+                                    capionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {39.6.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: dons por cause de mort est quant cil qui dona la
+                                chose l’eime mieuz à lui tant comme il vivra que à celi à qui il la
+                                dona. ¶ Et veust meuz que cil à qui il la done l’ait, aprés s’il
+                                mort, que ses heirs.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Juliens dit que il est .iii. manieres de dons
+                                por cause de mort. L’une est quant aucun done sanz peor de peril qui
+                                soit presenz, [124rA] mes por ce sanz plus que il pense à la mort. ¶
+                                L’autre est quant aucuns est apontez par present peril et il donne
+                                si que il veust que la chose que il done soit maintenant à celui qui
+                                la reçoit. ¶ La tierce est quant il a peor de mort et il done si que
+                                la chose ne soit pas maintenant à celui qui la reçoit mes quant sera
+                                morz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il loit à doner par cause de mort non pas tant
+                                solement por la maladie, mes por peor de mort prochene, ou par peor
+                                d’anemis, ou de larrons, ou de poissanz homes, ou par haine, ou
+                                quant l’en doit aler par mer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.4}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: quant l’en doit aler par leus perillos.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.5}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: ou par vuillece.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.6}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: car totes ces choses demostrent apert peril.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.7}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit que se aucuns done aucunne chose par cause de mort et il
+                                soffre aprés poine capital, li dons faut comme cil qui n’est pas
+                                perfez ; ja soit ce que li autre don, qui sont fet sanz sopeçon de
+                                poine, vaillent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il est ostroié à cex qui puent recevoir lés que il
+                                recevent don par cause de mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.10}</head>
+                        <div type="gp">
+                            <p>Ulpianus&#160;: il est certaine chose que l’en puet establir que
+                                aucuns ait la chose aprés celi à qui ele fu donnee por cause de
+                                mort ; si que cil qui la done ostroit que uns autres l’oit, se cil à
+                                qui i l’a doné ne la puet avoir, ou soz autre condicion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.11}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li peres puet par droit doner por la cause de
+                                la mort son fiz, ja soit ce que li fiz ait feme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.15}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il est establi que li don qui sont donné por cause
+                                de mort puent estre rapelé à la maniere de lés. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.16}</head>
+                        <div type="gp">
+                            <p>Don qui est fez por cause de mort puet estre rapelez, tant comme il
+                                est en dote, se li donnerres guerra ou non.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.17}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: ja sé ce que li detors n’ait pas corage de
+                                barater ses creanciers, neporquant la chose que il a donee por cause
+                                de mort doit estre rapelee. Car, autresi comme li lés ne valent rien
+                                que cil qui n’a dont aquiter ses detes font en son testamant, apert
+                                il que le don que il fet por cause de mort doivent estre depeciez,
+                                car il ont senblance de lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.21}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: plusors sages homes escritrent, et Priscus s’i
+                                acorde, que cil qui reçut deners, que il ne demandast heritage, les
+                                reçut por cause de mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.23}</head>
+                        <div type="gp">
+                            <p>Affricanus dit&#160;: es dons qui sont fet por cause de mort l’en ne
+                                doit pas regarder au tens dou don, mes au tens de la mort à ce que
+                                aucuns les puisse avoir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.26}</head>
+                        <div type="gp">
+                            <p>Cil moismes&#160;: se cil qui donnent li uns à l’autre por cause de
+                                mort [124rB] muerent ense‹n›ble, li heir à l’un ne à l’autre ne
+                                demandent pas arriere les dons ; car li uns ne sorvoin pas
+                                    l’autre<note>pas] <emph>que</emph>(?) <emph>pas</emph> dans le
+                                    ms., cf. lat. <emph>quia neuter alteri supervixit</emph></note>.
+                                Cil moismes&#160;: droit est se li mariz et la feme donent l’uns à
+                                l’autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.27}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: quant l’en done par cause de mort si que li
+                                dons ne puisse estre rapelez en nul cas, c’est meuz dons perfez que
+                                dons por cause de mort&#160;; et por ce doit l’en dire que cil dons
+                                est autresi comme cil qui est fez entre les vis. Et la loi qui fet
+                                retaillier les lés n’i a pas leu, autresi comme au don qui est fez
+                                por cause de mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.30}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui dona une chose por cause de mort la
+                                puet demander arriere, ou avoir aucion sus la chose s’il se
+                                repent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.34}</head>
+                        <div type="gp">
+                            <p>Marcellus dit&#160;: dons por cause de mort puet issi estre establiz
+                                que une certoine quantité soit rendue chescun an<note>an]
+                                        <emph>qui</emph> dans le ms., cf. lat. <emph>Mortis causa
+                                        donatio etiam sic constitui potest, ut quid stipuletur in
+                                        annos singulos quoad viveret</emph></note> à aucun tant
+                                comme il vivra&#160;; mes il n’en puet rien demander tant comme li
+                                doneres vive.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.39}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se cil à qui uns sers fu donz por cause de mort le
+                                franchi, le pris do serf li doit estre demandz se li donerrers
+                                garist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {39.6.41}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: ce que cil qui à franchise a esté
+                                    lessié<note>lessié] <emph>lessiee</emph> dans le ms.,
+                                    l’antecedent est <emph>cil</emph> («&#160;qui doit etre
+                                    affranchi par testament&#160;»), cf. lat. <emph>Quod statuliber
+                                        uni ex heredibus de peculio dedit</emph></note> done de son
+                                chetel à un des heirs doit estre conté à celui qui le reçoit en sa
+                                partie de l’eritage. Il senble que il doint de son chetel quant il
+                                done ce que il i a esté doné ; et ce que uns autres done en son non,
+                                quant il est presanz, est autresi comme s’il moismes le donast.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

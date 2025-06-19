@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre14">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160;Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-09" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI QUATORZIESMES LIVRES</head>
+        </front>
+        <group>
+            <head>LI QUATORZIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="260"/>
+                <front>
+                    <head type="gp">I. Ci commence li livres de Digeste Nove. Cis titres est de
+                        franchissemenz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 1&#160;: <hi rend="i">de
+                                    Manumissionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.1.1}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: il plot au sages homes que cil qui fu nez le
+                                premer jor de genver et acompli .xx. anz, si que il n’en faut fors
+                                la nuit qui est devant le premer jor de genver, puisse franchir ses
+                                sers. Et il n’est pas ostroié à home qui a moins de .xx. anz que il
+                                franchise&#160;; et cil qui ja est au derrener jor de .xx. n’a pas
+                                moins de .xx. anz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.8}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: il est certoine chose que cil qui est fet serf à
+                                poine ne puet pas franchir son serf ; car il moismes est serf. {1}
+                                Ne cil qui sont acusé de crimes capitaus ne puent pas franchir lor
+                                sers, si comme li senat juja<note>juja] <emph>mia</emph> dans le
+                                    ms., cf. lat. <emph>ut et senatus censuit</emph></note>. {2} Et
+                                li enpereres Pius dit à Calfirin que les franchises que cil qui est
+                                dampnz por aucun crime, ou cil qui siet bien que il sera dampnez,
+                                donent à lor<note>lor] <emph>loir</emph> dans le ms.</note> sers
+                                [124vA], ne valent riens. {3} Et li enpereres Adrians escrit que cil
+                                ne vienent pas en droite franchise qui sont franchi por estre
+                                sostrez à crime.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.11}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li sers qui est venduz par tel convenant que il ne
+                                soit franchiz, ou de qui il a esté deffenduz en testamant ou par le
+                                prevost que il ne soit pas franchiz por aucun mesfet que il a
+                                mesfer, ne puet estre amenez à franchise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.13}</head>
+                        <div type="gp">
+                            <p>Pomponius dit&#160;: li sers au forsené ne pot estre franchiz por
+                                celui qui est procurators ; car franchissement n’est pas en
+                                aministracion de patremoine. Mes se li peres au forsené est joint à
+                                aucun en son testamant que il franchissist le serf, li procurerres
+                                li doit baillier por franchir le.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.19}</head>
+                        <div type="gp">
+                            <p>Papinianus dit&#160;: se aucuns reçoit deners d’autre por franchir
+                                son serf, il peut estre franchiz maugré sien, ja sé ce que li denier
+                                au serf moismes i ait esté poié<note>i ait esté poié] <emph>i
+                                        aimt</emph>(?) <emph>esté poié</emph> dans le ms., cf. lat.
+                                        <emph>licet plerumque pecunia eius numerata
+                                    sit</emph></note> ; et moismement, se li freres au serf ou ses
+                                peres naturés les poie&#160;; et il sera senblables à celui qui est
+                                achetez de ses deniers propres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.21}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li mariz qui a assez de quoi paier puet bien
+                                franchir le serf dou doere sa feme tant comme lor mariages dure. Et
+                                s’il n’a de quoi paier, ja soit ce que il ne doit rien, la franchise
+                                au serf sera empechiee ; car l’en entant que il doit à sa feme son
+                                doere tant comme li mariages dure.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.23}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se je achete une serve par tel condicion que
+                                ele sera franchie dedanz .i. an, et dedanz l’an il fu prononcié que
+                                il estoit sers, je demans se la serve doit avoir franchise aprés
+                                l’an selon la loi de la vente. Et Paulus respont que la serve
+                                qui est achetee fu aquise au seignor à celui qui l’acheta o tel
+                                condicion comme ele fu vendue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.1.26}</head>
+                        <div type="gp">
+                            <p>Jabolenus dit&#160;: Labeo croit que sers forsenz, qui est franchiz,
+                                puet bien avoir franchise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.1}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: il est certaine chose que cil qui est dedanz
+                                aage puet franchir son serf por devant le prevost qui l’a en garde
+                                desque il en done congié.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. De cez qui sunt franchi por garredon <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 2&#160;: <hi rend="i">de
+                                    Manumissis vendicta&#160;;</hi> tit. 3&#160;: <hi rend="i">de
+                                    Manumissionibus quœ servis ad universitatem pertinentibus
+                                    imponuntur&#160;;</hi> et tit. 4&#160;: <hi rend="i">de
+                                    Manumissis testamento</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.2.3}</head>
+                        <div type="gp">
+                            <p>Papians dit&#160;: se li heirs franchist le serf qui est lessiez à
+                                aucuns et cil à quil est lessiez le refuse, franchise li apartient.
+                                Et autresi, uns sers est lessiez porement à .ii. et li uns le
+                                franchist et li autres le refuse, franchise li apartient.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.4}</head>
+                        <div type="gp">
+                            <p>Julien dit&#160;: se li peres ostroie à son fiz que il franchisse son
+                                serf et li peres muert dedanz ce sanz fere testamant, et li [124vB]
+                                fiz n’en savoit pas que ses peres fust morz, ainz franchi le serf,
+                                franchise li apartient, desque l’en ne siet que la volenté au pere
+                                fust muee. Et se li peres deffendi au fiz par un mesage que il ne le
+                                franchist pas, et il le franchi ainz que il seust la deffense, il
+                                n’est pas frans ; car à ce que li sers viegne à franchise par
+                                franchissement au fiz, il convient que la volenté au pere durt. Et
+                                s’el est muee, il ne sera pas voir que li fiz l’eist franchi por la
+                                volenté son pere<note>pere] <emph>peree</emph> dans le ms.</note>.
+                                {1} Totes les foiz que li sires franchist son serf, ja sé ce que il
+                                cuide que il soit à un autre, neporquant il ne remoint pas por ce
+                                que li sers ne soit franchiz par la volenté au seignor, et por ce
+                                sera il frans. Et encontre ce, se li sers ne quidoit pas estre à
+                                celui qui le franchissoit, por ce ne remoint pas que il n’eist
+                                franchisse ; car plus vaut ce qui est en verité que ce qui est en
+                                quidence ; et en l’un et en l’autre cas il est noviaus, car il est
+                                franchiz por la volenté au seignor. Et ce moismes seroit droiz se li
+                                sires et li sers sont en une moisme error, si que li sires ne quit
+                                pas que li sers soit siens, et li sers ne quit pas que il soit ses
+                                sires. ¶ {2} Li sires qui a moins de .xxv. anz ne franchist pas par
+                                droit sanz consoil le serf qui est communs à lui et à un autre. ¶
+                                Paulus dit que, se cil qui a moins de .xxv. anz soffre que li sers
+                                que il a engagés soit franchiz, il est franchiz par droit ; quar
+                                l’en n’entant pas que il ait franchi, mes s’il n’a pas empechié que
+                                il soit franchiz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.10}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li fiz au sort et au mu puet franchir son serf
+                                par le commandemant son pere&#160;; mes le fiz au forsené ne le puet
+                                franchir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.23}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: franchissement puet orendroit estre dit par
+                                procurator, si que li sires ne die mot&#160;; et ja soit ce que les
+                                paroles sollennes ne soient pas dites, autretant comme se l’en les
+                                deist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.24}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li orfelins qui a passé .xiiii. anz puet bien
+                                franchir son serf par devant le prevost, s’il est à l’autorité à
+                                celui qui l’a en garde ; en tel maniere, neporquant, que li chetex
+                                li remoigne.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.2.25}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: se uns orfelins franchist son serf por ce que il
+                                veust estre en sa garde, Fusius dit que il doit prover la cause. Mes
+                                Offilius dit le contraire&#160;; et il dit voir, car il seroit male
+                                chose que li juigemenz à l’orfelin, qui n’est fers en nule
+                                    chose<note>chose] <emph>chose fust</emph> dans le ms., cf. lat.
+                                        <emph>namque perabsurdum est in eligendo tutore firmum
+                                        videri esse iudicium pupilli, cuius in omnibus rebus ut
+                                        infirmum iudicium tutore auctore regitur</emph></note> sanz
+                                gouverneor, fust fers en eslire deffendeor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.3.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li enpereres Marques dona à totes les assenblees
+                                poer de franchir lor sers.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.5}</head>
+                        <div type="gp">
+                            <p>Cil moismens dit&#160;: l’en doit garder es franchises à [125rA] la
+                                plus legiere escriture quant il en i a plusors. Mes à franchisses
+                                qui sont lessies à terme doit l’en garder à la desraine
+                                escriture.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.8}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: s’il est issi escri&#160;: « Sticus, franc se
+                                l’en voit que il ait à droit tretié mes besoignes » ; l’en doit
+                                garder grant diligence s’il a servi son seignor par bone foi et
+                                rendu bien les arrerages.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.16}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se il est issi escrit en testamant :
+                                «&#160;quant Tices avra .xxx. anz, Ticius soit frans et mes orés li
+                                doint un champ&#160;», et Tices muert ainz que il viengne au
+                                trentisme an, franchise apartient au serf, mes li lés ne li est pas
+                                deuz&#160;; car il a esté ostroié por la grace de franchise que,
+                                puis que Tices est morz, l’en gart le tens aprés que li sers doit
+                                avoir franchise&#160;; mes il apert que la condicion est faillie par
+                                devers les lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.23}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: sers qui est franchiz en testamant est frans se
+                                li testamant vaut et li heirs en reçoit l’eritage, ou s’il
+                                entrelesse la cause do testamant et porsiet l’eritage sanz
+                                testamant. ¶ {1} Franchise qui est porement donee en testamant
+                                apartient à celui à qui ele est donnee desque li uns des heirs
+                                reçoit l’eritage&#160;; et s’ele est donnee à terme ou soz
+                                condicion, ele apartient desques li termes vient ou la condicion est
+                                acomplie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.33}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: franchise ne puet pas estre donee jusqu’à certein
+                                terme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.31}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: quant plusors sers sont apelé par un moismes non,
+                                et lor sires commande en lor testamant que li uns d’aus soit frans,
+                                et il n’apert pas do quel il vieust dire, il n’en i a nul franc.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.32}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: l’en doit savoir que, ja soit ce que li heirs
+                                necesseres se tiegne de l’eritage, neporquant les franchises
+                                apartient à cels à qui eles furent donnees contre la loie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.4.51}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: uns hons deffendi en son testamant que si sers
+                                ne fussent vendu et requist que il fusseint franchi selonc ce que
+                                chescuns deserviroit. Je respondi que les franchisses furent à droit
+                                donees ; car se nus d’aus ne mesfet, il puent tuit venir à
+                                franchise&#160;; et se li uns la perdent par lor mesfet, li autre
+                                seront franchi. ¶ {1} Quant il fu issit escrit en un testamant :
+                                «&#160;li sers qui seront sanz mesfet soient franc&#160;», il senble
+                                que il i ot escrite condicion qui doit estre issit entendue, que cil
+                                qui fist le testamant ne pensa pas de doner franchise à cex qui
+                                mesferoient, ainz les osta de l’annor d’aministrer ses
+                                besoignes.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head type="gp">III. De franchise que li hoir doit doner par le commendement au
+                        mort <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 5&#160;: <hi rend="i">de
+                                    Fideicommissariis libertatibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.5.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se l’un de cex à qui il est enjoint que il
+                                doivent [125rB] franchise à un serf sont presant, et li autre sont
+                                hors do païs por droite cause, cil à qui la franchisse fu lessie
+                                sera frans, autresi comme cil qui sont present&#160;; et cil qui
+                                sont hors par droite cause li deussent doner franchisse, sanz cex
+                                qui se defuient.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se aucuns qui muert sanz fere testamant dona
+                                franchise en ses lés et ses heritages n’est pas receuz sanz
+                                testamant, la grace de l’establissement au seint enpereor Marc doit
+                                avoir ‹lieu› en cest cas, qui commande que franchise apartiegne au
+                                serf, et que les biens de l’eritage li soient bailliez s’il done à
+                                creancier bone caucion de poer lor totes lor detes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: profitables aucions apartienent plusors foiz as
+                                creanciers contre lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.5}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant il a esté enjoint que sers soit franchiz, se
+                                li heirs n’est pas presanz et li prevoz juige que franchise soit
+                                deue au serf, il est frans&#160;; et si est redevables au mort de sa
+                                franchise s’il estoit ses sers, ou à l’oir s’il estoit ses sers. Et
+                                se li heirs muert sanz lessier aucun qui doie avoir son heritage, li
+                                senaz juiga, ou tens au seint enpereor Adrian, que la franchise doit
+                                estre gardee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.8}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se cil à qui mi denier furent lessié fu priez de
+                                franchir un serf, il est certoine chose que il ne doit pas estre
+                                contrainz de franchir le s’il n’a ce que li fu lessiez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.14}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Tices fist son testamant et escrit que sa feme
+                                et Tice lor fille fussent si heir et que l’une eust autretant de
+                                l’eritage comme l’autre&#160;; et puis dit issi&#160;: ¶ «&#160;je
+                                voil que Sticius mis sers soit frans, s’il pleist à ma feme&#160;».
+                                Por ce que la feme s’atint donc de l’eritage et sa partie vint à la
+                                fille, je demant se franchise apartient au serf por les paroles qui
+                                furent escrites avant. ¶ Modestinus respont, por ce que la
+                                feme s’atint de l’eritage, ne nuit point à serf. ¶ Encor demant ge,
+                                se la feme qui s’atint se l’eritage puet par droit contredire au
+                                serf qui demande franchise. Et Modestinus respont que li
+                                contrediz à la feme n’est pas de nule valor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.15}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui doit franchir un serf por ce que il li
+                                a esté enjoint ne puet en nule maniere enpoirier sa condicion. Et
+                                por ce, ne le puet il vendre à autre qui le franchise&#160;; et s’il
+                                le vant, il est contrainz de racheter le et de franchir, car il a
+                                aucunne foiz greignor preu au serf que il soit franchiz par vieil
+                                home que por gene [125vA].</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.20}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: il est issi escrit à livres Julien&#160;: « se
+                                il est enjoint à l’oir que il franchise un serf et il rent l’eritage
+                                por le conseil au senat, il devra estre contrainz de franchir le
+                                serf. Et s’il se defuit ou est hors do païs por droite cause, quant
+                                li prevoz avra coneu la cause, il devra prononcier selon le consoil
+                                au senat qui apartient à ce. Et se cil à qui l’eritages est renduz
+                                reçoit le serf, il convient que il le franchisse et il convendra
+                                garder en sa persone les choses moismes qui solent estre gardees as
+                                acheteors ». Di moi se tu cuides que ce soit voirs&#160;? Car j’é
+                                grant covoitise d’aprendre, et c’est tote la reson por quoi il m’est
+                                bel que j’é vescu .lxxviii. anz&#160;; car il me sovient de la
+                                sentence à celui qui dit&#160;: se je avoie .i. pié en la fosse, si
+                                vodroie je encore aprendre. Aristo, Octavenus cuident que cil sers
+                                de qui l’en demande ne soit pas de l’eritage qui est renduz ; car
+                                quant cil qui fist le testamant pria son heir que il le
+                                franchissist, il n’apert pas que il entendist que il le
+                                rendist&#160;; neporquant, s’il le rent par error, l’en doit dire ce
+                                moismes que Juliens escrit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.29}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se aucuns est estrangiez puis que il a commoincié à
+                                estre en cele chose que il i doit estre franchiz par lés, cil qui
+                                l’a en sa main sera contrainz de franchir le. Ne l’en ne detinte pas
+                                ci se cil qui le doit franchir qui est hors do païs por droite cause
+                                ou non ; car la droiture dou patronage li est gardee en totes
+                                menieres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.39}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Paulus escrit que se cil qui fet le testamant
+                                veust que un de ses heirs franchisse autrui serf comme le sien, cil
+                                qui en fu prouez doit estre contrainz d’achetier le et de franchir ;
+                                car la cause de franchise et de lés de chetel n’est pas
+                                senblable.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.53}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: se aucuns est proiez de franchir serve et il
+                                deloie, et ele enfante dedanz ce, il a esté establi que li enfens
+                                qui nest de lui soit frans. Et il i a aucuns establissemanz en coi
+                                il est contenuz que, desque franchise commoince à estre deue, li
+                                enfes qui nest de lui est naturement frans&#160;; et c’est voirs, et
+                                doit estre tenuz sanz nule dote, car franchise n’est pas chose
+                                privee mes commune, et cil qui la doit doner la doit offrir de son
+                                gré. {1} Et se la serve enfante ainz que la franchise qui li fut
+                                lessie li soit donee, et il est avenu por le porchaz as heirs, que
+                                ele ne li est pas encore deue, si comme s’il reçoivent plus [125vB]
+                                tart l’eritage que li enfant qui nessent de la serve soient lor
+                                serf, il nos plet que li enfant soient franchi&#160;; mes il doivent
+                                estre baillié à lor mere por franchir, si que nus ne soit lor
+                                patrons fors lor mere&#160;; car desque li heirs n’est pas dignes
+                                que il soient serf, il ne doit pas estre lor patrons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.5.54}</head>
+                        <div type="gp">
+                            <p>Et quant la mere a receu son fiz, se ele ou cil qui est en son leu ne
+                                le veust franchir, ele en doit estre contrainte. Et s’ele ne veust
+                                que ses fiz li soit bailliez, ou ele est morte, l’en puet dire que
+                                li hoirs doit doner franchise as enfanz que sont issi nez.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">VI. De cez qui sont en estat de franchise <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 7&#160;: <hi rend="i">de
+                                    Statu-liberis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.7.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil est en estat de franchise à qui franchise est
+                                establie à un certein terme ou soz condicion. {1} Li serf sont en
+                                estat de franchise ou par condicion expresse ou par condicion qui
+                                n’est pas expresse. Et c’est aperte chose quant il sont franchi por
+                                tolir as creanciers lor droiture ; quant il est en dote savoir mon
+                                se li creanciers use de son droit, li serf sont dedanz ce en estat
+                                de franchise, car barat est pris o essient.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.2}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil qui est en estat de franchise est en tel
+                                condicion que s’il est mis en autre main il est estrangiez, sauve
+                                l’esperance de franchise. Et s’il est porsis longement, il est
+                                porsis o sa cause&#160;; et s’il est franchiz, il ne pert pas
+                                l’esperance d’estre frans sanz estre redevables à nul fors au mort.
+                                Mes sers ne gaigne estat de franchise devant que uns des heirs ou
+                                plusors ont receu l’eritage&#160;; et s’il est devant ce mis en
+                                autre main ou engagiez par longue sesine ou franchiz, il pert
+                                l’esperance de la franchise qui li est establie. {1} Et s’il est
+                                escrit es tables dou testamant à celui qui a moins de .xiiii. anz
+                                que uns de ses serf soit frans&#160;? Cassius dit que il n’est pas
+                                en estat de franchise en la vie à l’orfelin aprés ce que il
+                                    a<note>a] <emph>la</emph> dans le ms.</note> receu l’eritage son
+                                pere&#160;; mes Juliens dit le contraire, et la sentence me senble
+                                plus veroie. {2} Encore dit plus Juliens que, se uns sers est
+                                lessiez et li heirs commande que il soit frans, li dons de la
+                                franchise vaut, qui est fez es tables à l’orfelin. ¶ {3} Se uns sers
+                                est fez heir as premeres tables de la moitié de l’eritage son
+                                seignor soz<note>soz] <emph>sa</emph> dans le ms., cf. lat. <emph>Si
+                                        primis tabulis sub condicione servus cum libertate ex parte
+                                        dimidia heres sit institutus</emph></note> condiction, et
+                                l'an franchise li est lessie, je demant s’il est en estat de
+                                franchise, si que quant li autres heirs reçoit l’eritage, il le
+                                prant en l’estat où il est et prant tot l’eritage. Il ne puet pas
+                                lors senbler que li sers soit en estat de fran[126rA]chise. Mes se
+                                la condicion de l’eritage faut, franchise li est deue selonc
+                                Julien&#160;; et lors doit l’en dire que il est en estat de
+                                franchise por ce que il ne reçoit pas franchise de lui moismes mes
+                                de son compoignon. ¶ {4} En queques degrié sers soit establiz heirs
+                                aprés l’orfelin et a estre frans, il est en estat de
+                                franchise&#160;; et ceste cause est receue por cause de profit et
+                                nos la loons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.4}</head>
+                        <div type="gp">
+                            <p>{8} Cassius dist que s’il est commandé à un serf que il serve .i. an,
+                                li tens en quoi il s’est desfoiz ou an coi il a pledié por avoir
+                                franchise ne li doit pas estre contez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.10}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se li heirs vant le serf à qui fu commandé que il
+                                donast .x. livres et que il fust frans, et il le livre et dit à
+                                celui qui l’achate que il doit poier .xx. livres s’il velt estre
+                                frans, li achetierres puet pledier o le vendeor par aucion d’achat.
+                                Et s’il fu mis en convenant que, se li venderres ne garentissoit tel
+                                marchié comme il fesoit, il rendroit le pris à dobles, li
+                                achetierres puet demander le doble.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.23}</head>
+                        <div type="gp">
+                            <p>Celsus dit&#160;: se l’en dit issi : «&#160;se Ticius done .c. livres
+                                dedanz .v. anz, il soit frans&#160;» ; il ne la porra doner puis que
+                                li .v. anz seront passé ne à celui à qui il la devoit donner, ne à
+                                son heir, ne à celui qui l’a acheté. {1} Il fu commandé que uns sers
+                                fust frans s’il rendoit conte des besoignes son seignor, li heirs ne
+                                sofre pas que il vende les choses de son chetel ne que il rende les
+                                arrerages. Il est frans autresi comme s’il eust obei à la
+                                condicion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.32}</head>
+                        <div type="gp">
+                            <p>Ticius dit&#160;: se .ii. sont establi à estre heir d’un heritage, et
+                                ilz commande que uns sers soit frans s’il done .x. livres as heirs,
+                                et li uns des heirs le vent et le livre à celui qui l’achate, se il
+                                done à l’autre heir qui ne l’a pas vendu sa partie des .x. livres,
+                                il sera frans.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.33}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: les droitures à cex qui sont en estat de
+                                franchise ne puent pas estre enpirees par l’oir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.36}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: quant il est commandé en testamant que uns
+                                sers soit heirs aprés celui qui est fez premierement heirs et que il
+                                eist franchise, li sage home le garnirent de la droiture à cex qui
+                                sont en estat de franchise. Et c’est receu por profit que li sers
+                                soit estrangiez o sa cause que li fiz ne depiece le testamant son
+                                pere. Et ceste autorité de droit s’estent au segont ou au tierz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.7.37}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: se il est issi escrit : «&#160;je doin à Tice mon
+                                serf por convenant que il le franchisse&#160;; [126rB] et s’il ne le
+                                franchist, il soit frans&#160;», li ser est mointenant frans.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. Li quel vienent a franchise sanz estre franchi <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 8&#160;: <hi rend="i">Qui sine
+                                    manumissione ad libertatem perveniunt</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.8.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se uns sers venduz por tel convent que il soit
+                                franchiz dedanz un certein terme, ja sé ce que li venderres et li
+                                acheterres muerent sanz heirs, neporquant franchise apartient au
+                                serf quant li termes est venuz&#160;; issit escrit Marcus. Et si li
+                                venderres a muee sa volenté, por ce ne remoint pas que franchise
+                                n’apartiegne au serf.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.8.2}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: franchise apartient au serf qui ses sires a
+                                guerpi por ce que il estoit griefmant malades.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.8.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se aucuns sers est venduz par tel convenant que il
+                                soit franchiz dedanz certain tens, se li jorz que la franchise li
+                                doit estre donee est venuz, et cil qui l’en vendi vit encore et se
+                                tient en cele moisme volenté, li enpereres Marcus escrit que il doit
+                                estre autresi comme se cil qui le dut franchir l’eust<note>l’eust]
+                                        <emph>et l’eust</emph> dans le ms., la phrase se comprend
+                                    mieux sans <emph>et</emph></note> franchi. Et se cil qui le
+                                vendi est morz, l’en ne doit pas demander la volenté son heir.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. Li quel ne puent franchir et li quel ne puent estre franchi
+                            <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 9&#160;: <hi rend="i">Qui et a
+                                    quibus manumissi liberi non fiunt, et ad legem Æliam
+                                    Sentiam</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.9.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Celsus dit por cause de profit que sorz et muz
+                                qui est issi nez ne puet franchir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.4}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: nos ne poons pas franchir le serf que nos avons
+                                obligié par non de gage<note>par non de gage] <emph>p. nos de g.
+                                    </emph>dans le ms., cf. lat. <emph>Servum pignori datum
+                                        manumittere non possumus</emph></note>.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.8}</head>
+                        <div type="gp">
+                            <p>Affricanus dit&#160;: quant cil qui doit franchise au serf soz
+                                condicion le franchist por ce que il li a esté enjoint, la<note>la]
+                                        <emph>et la</emph> dans le ms., la phrase se comprend mieux
+                                    sans <emph>et</emph></note> loi de franchise qui est deue par
+                                condicion a leu. ¶ {1} Se uns chevaliers fet son testamant par
+                                droiture de chevaliers, et il done franchise a ses sers por griver
+                                ses creanciers et il n’a de quoi aquiter soi quant il muert, les
+                                franchises sont e‹n›pechies.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.10}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: il apert que cil franchist ses sers por griver ses
+                                creanciers quil les franchist au tens que il n’a de quoi poier, ou
+                                quant il est en tel estat que il n’avra par tens de quoi
+                                poier&#160;; car il avient sovant que aucuns quide que il ait en son
+                                chetel plus que il n’i a. Et ce avient assez en cex qui par lor
+                                sergant et par cex que il ont franchiz moinent marchendies otremer
+                                et en estrange païs aillors que la où il sont&#160;; car il perdent
+                                sovent en cex marcheandises, si que il n’en sevent rien&#160;; et
+                                s’il franchissent lors leur sers sanz consoil de barat, il lor
+                                donent franchise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.20}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit, se franchise est donnee à autrui serf sanz
+                                l’asentement ou<note>l’asentement ou] <emph>l’asentement ou
+                                        au</emph> dans le ms., redondance de l’article contracté
+                                    déjà écrit au recto</note> [126vA] seignor, ele ne puet valoir
+                                par l’autorité de droit, ja sé ce que cil qui le franchi est aprés
+                                heirs au seignor. Car ja sé ce que il soit par droiture de lignage,
+                                neporquant li dons de la franchise n’est pas confirmz por ce que li
+                                heritages est receuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.23}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui set bien que il n’a de quoi paier ses
+                                detes ne puet franchir ses sers que ce ne soit en grevance des
+                                creancier, ja sé ce que li serf l’aient bien deservi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.28}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li heirs qui franchist son propre serf, que cil à
+                                qui il est heirs avoit lessié à un autre, ne fet rien&#160;; et il
+                                nos deplet que l’en ne face pas force s’il le sot ou s’il ne le
+                                sot.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.9.29}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: li sers qui est bailliez en gages est sanz nule dete
+                                au detor par pleine droiture&#160;; et il puet recevoir de lui
+                                droite franchise, s’il a asez d’autre part de quoi paier sa dete, si
+                                que il n’apere pas que li creanciers en soit grevez. ¶ {1} Sers qui
+                                est lessiez soz condicion est à l’oir<note>l’oir] <emph>loier</emph>
+                                    dans le ms., cf. lat. <emph>servus legatus pendente condicione
+                                        pleno iure heredis est</emph></note> par ploine droiture,
+                                ainz que la condicion soit acomplie. Mes il ne puet recevoir par lui
+                                nule franchise que torz ne soit fez à celui à qui il est
+                                lessiez.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <pb n="261"/>
+                <front>
+                    <head type="gp">VII. A qui il ne loit pas chalongier franchise <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 13&#160;: <hi rend="i">Quibus ad
+                                    libertatem proclamare non licet</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.13.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil qui ont plus de .xx. anz ne puent pas
+                                chalengier franchise se cil<note>se cil] <emph>se cil se cil</emph>
+                                    dans le ms.</note> qui est venduz en tel aage a receu le pris ;
+                                mes por autres causes, ja sé ce que cil qui a plus de .xx. anz a
+                                soffert que il soit venduz, il li loit à chalongier franchise. {1}
+                                Et chelongement de franchise ne doit pas estre veez à celui qui a
+                                moins de .xx. anz, neïs por la devan dite cause s’il ne fu en
+                                servage puis que il ot passé .xx. anz&#160;; car lors, s’il parti au
+                                pris, l’en puet dire que il li puet estre vee que il ne chalonge
+                                franchise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.13.2}</head>
+                        <div type="gp">
+                            <p>Marcellus dit&#160;: uns hons prist por force un serf de Tice et
+                                commanda en son testamant que il fust frans&#160;; ja soit ce que il
+                                eust assez de quoi poier ses detes quant il morut, neporquant li
+                                sers ne sera pas frans ; car autrement seroit Tices grevez, qui ne
+                                puet pas pledier à l’oir de cele franchise. Et se li sers chalonge
+                                franchise, Tices n’avra pas nule aucion contre l’oir ; car li heirs
+                                n’a eu nul preu de la tricherie au mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.13.3}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: congiez de chalongier franchise est
+                                    veez<note>veez] <emph>veuz</emph> dans le ms., la cohérence du
+                                    texte exige l’idée de «&#160;interdire, réfuser&#160;» (TL
+                                        <emph>vëer</emph>), cf. lat. <emph>Eis, qui se passi sint
+                                        venire, ad libertatem proclamandi licentiam
+                                    denegari</emph></note> à cex qui ont sofert que il ont esté
+                                vendu. Et je demant se conseauz au senat apartient à cex qui sont
+                                nez de femes qui ont forfet à estre vendues. Et se l’e‹n› ne
+                                [126vB] puet pas doter que poiers de chalongier franchise ne doie
+                                estre veez à cele qui avoit plus de .xx. anz, qui soffri que ele fu
+                                vendue, ne il ne poet pas estre donz à cex qui n’aquitent de lui en
+                                tens de son servage.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <front>
+                    <head type="gp">VIII. Se l’en dit que cil qui a esté franchiz est naturelment
+                        franc <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 40, tit. 14&#160;: <hi rend="i">Si
+                                    ingenuus esse dicatur</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {40.14.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se uns hons plede à celui que uns autres a
+                                franchi, et il eist prononcié que il est naturelement frans, ses
+                                patrons puet pledier à lui par sa droiture sanz nule excepcion de
+                                tens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.14.2}</head>
+                        <div type="gp">
+                            <p>Saturninus dit&#160;: li enpereres Adrians establi que cil qui avoit
+                                plus de .xx. anz, quil soffri que il fust venduz por avoir le pris,
+                                ne puet pas puis chalongier franchise ; mes il ostroia que il en
+                                peust aucunne foiz pledier se il rendi le pris. ¶ {1} Cil qui ont
+                                esté franchi et dient que il sont naturement franc ne seront pas oï
+                                puis .v. anz aprés ce que il ont esté franchi. ¶ {2} Cil qui dient
+                                que il ont trové .v. anz aprés les estrumanz par quoi il puent
+                                prover que il sont naturement franc devent requerre l’enpereor
+                                meismes qui conoistra de cele chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.14.3}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: l’en doit entendre que quant li senaz dit ceste
+                                parole «&#160;quant il avront reconeu la nativité&#160;», il n’est
+                                rendi fors de cex qui sont naturement frans. ¶ {1} Et por ceste
+                                parole «&#160;ce que il ont lessié&#160;» doit l’en entendre que
+                                totes les choses que il ont aquises do chetel à cex qui
+                                l’afranchirent soient rendues. Mes il convient veoir comment ce doit
+                                estre entendu&#160;; savoir mon s’il convient rendre<note>rendre]
+                                        <emph>vendre</emph> dans le ms., cf. lat. <emph>item quod ex
+                                        his adquisitum, reddere debeant</emph></note> les choses que
+                                il en porterent sanz le seu au seignors, et de cez que il ont
+                                aquises par le chetel as seignors, ou les choses que cil qui les
+                                franchirent lor ont donees ; et ceste parole est la meillor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.14.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: la loi qui deffant que cil qui a esté franchiz par
+                                devant les contes ou par devant les prevoz ne puissent pas
+                                chalongier naturel franchise puis .v. anz aprés ce que il est
+                                franchiz, n’ecete nule cause ne nule persone.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.14.5}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: je respondi que quant sentence est donnee
+                                aprés .v. anz por naturel franchise sanz le seu au patron, il ne
+                                doit estre mis arrieres por nule excepcion de tens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {40.14.6}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: totes les foiz que l’en plede savoir mon se
+                                aucuns a esté franchiz, ou servises li est demandez ou jornees, ou
+                                aucion est meüe qui donne mauvese renomee, ou cil qui dit que il est
+                                patrons entrenz en cause, ou aucuns plez est meüz entr’aus,
+                                juigement en doit estre renduz. Et quant aucuns reconoist que Tices
+                                le franchi, et il nie que Sey qui pledie à lui [127rA] ne le franchi
+                                pas, juigemenz en doit estre renduz. Il est renduz quant li quex que
+                                soit le requiert&#160;; mes cil qui se tient por patron est en leu
+                                de demandeor et doit prover que il l’a franchi&#160;; et s’il ne le
+                                prove, il est franchiz.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

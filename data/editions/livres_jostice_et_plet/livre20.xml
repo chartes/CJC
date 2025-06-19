@@ -1,0 +1,2308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre20">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: « Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu'elle apparaît dans l'édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-07" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI VINGTIESMES LIVRES</head>
+        </front>
+        <group>
+            <head>LI VINGTIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="324"/>
+                <front>
+                    <head type="gp">I. [190rA] Ci commence li livres de Digeste nove. Ci titres est
+                        de communs juigemenz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 1&#160;: <hi rend="i">de
+                                    Publicis judiciis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.1.1}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: tuit li juigement devant qui l’en plede de crimes
+                                ne sont pas commun, mes cil tant solement qui vienent des lois des
+                                communs juigemenz ; si comme la loi que Julians fist de ce qui est
+                                fet contre la majesté l’enpereor, et cele que il fet des avotires,
+                                et cele que Cornelius fist des meslis et des envenimeors, et cele
+                                que Pompeius fist de cez [190rB] qui ocient leur peres et leur
+                                enfanz, et cele que Cornelius fist des testamanz, et cele que
+                                Julians fist de force privee, et cele que il fist de force commune,
+                                et de covoitier ennors, et de demander arriere ce que li baillif ont
+                                pris en leur baillies, et des annones.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. Cis titres est d’acusemenz et de inscripcions <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 2&#160;: <hi rend="i">de
+                                    Accusationibus et inscriptionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.2.1}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: il ne loist pas à feme à acuser home de commun
+                                crime se ele ne porsuit la mort à son pere ou à sa mere ou à ses
+                                enfanz, ou à son patron ou à sa patrone, ou à leur neveu ou<note>ou]
+                                        <emph>ou ou</emph> dans le ms.</note> à lor nices ou à lor
+                                paranz.¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.2}</head>
+                        <div type="gp">
+                            <p>Communs acusemenz est otroié<note>otroié] <emph>trovz</emph> (?) dans
+                                    le ms., cf. lat. <emph>Certis ex causis concessa est mulieribus
+                                        publica accusatio</emph></note> à feme por certaine cause,
+                                si comme s’ele porsuit la mort de cez et de celes à quoi eles sont
+                                tenues par la loi. Et ce meismes establi en loi que Cornelius fist
+                                do testamanz à celui que ses peres et sa mere franchi. ¶ {1} Il est
+                                otroié à l’orfelin à porsuivre la mort son pere par le consoil à
+                                celui qui l’a en garde&#160;; et si en otroie à l’orfeline que ele
+                                porsive la mort de son ael par la loi des testamanz. Car li
+                                enpereres Vaspasians otroia à son orfelins que il pledassent des
+                                testamanz leur peres, mes il en puet pledier par l’entredit de
+                                porter avant les tables dou testamant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: l’inscripcion des libelles doit estre tele par
+                                devant le prevost ou par devant le viconte. ¶ Tices dit que il acuse
+                                d’avotire Meue, por ce que il dit que ele fist avotire o Sey en cele
+                                cité, en la meson à celui, en ce mois et quant cil estoient
+                                conseillier. Car sanz dote li leus doit estre senefiez, en coi l’en
+                                dit que li avotyres fut fez, et la persone o qui il fut fez, et li
+                                mois&#160;; car issi est il establi en la loi que Julius fist des
+                                avotires. Et issi est il commandé generaumant à toz cex qui acusent
+                                aucun de commun crime ; mes nus n’est contrainz de comprendre i
+                                malgré sien le jor ne l’ore. ¶ {1} Et se li libelles n’est ordrenez
+                                selonc la loi, li nons à celui qui est acusez en est effaciez, et
+                                puis le puet l’en acuser de rechief. {2} Cil qui balle libelle doit
+                                fere subscripcion ou autres por lui se il ne set letres. {3} Et se
+                                il oppose à son aversere autres crimes, si comme se il tint bordel
+                                [190vA] en sa meson, ou que il lessa aler celui qui estoit repris en
+                                avotire, ou que il prist loer por celer avotire, tot ce doit estre
+                                compris ou libelle. ¶ {4} Se li acuserres muert ou il est enpechiez
+                                por autre cause si que il ne puet acuser, li nons à l’acusé est
+                                esfacez do libelle se il le requiert. Et ce est establi en la loi
+                                que Julius fist de force et ou consoil ou senat, si que il lise à un
+                                autre à acuser le tot de rechief&#160;; mes il convient voer dedanz
+                                quel terme, et sanz dote .xxx. jor i doivent estre gardé.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.8}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: se nos savons li quel ne puet pas acuser, nos poons
+                                bien entendre li quel puet acuser. Il est deffandu as uns que il
+                                ‹puet acuser› por leur nature ou por leur aage, si comme as femes et
+                                as orfelins&#160;; et as autres por lor office, si comme cez qui
+                                sont en garnison&#160;; et as autres por leur poesté, si comme as
+                                baillis&#160;; et as autres par leur propre mesfet, si comme à cez
+                                qui sont mal renomé&#160;; et as autres par vilain gaign, si comme à
+                                cez qui ont commoncié à pledier contre deus par .ii. crimes&#160;;
+                                et à cez qui ont pris loer por acuser ou por lessier à acuser&#160;;
+                                et as autres par lor condicion, si comme à cez qui ont esté franchiz
+                                contre leur patrons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit : et se autres por sopeçon de faus acusement, si comme à
+                                cez qui dient faus testemoine si comme il leur fu enseignié.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.10}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: et aucuns por povreté, si comme à cez qui ont
+                                moins de .l. deners d’or.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.11}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: neporquant, se tuit cil porsivent leur tort fet ou
+                                il volent vengier la mort à leur procheins paranz, il ne sont pas
+                                osté de l’acusement. ¶ {1} Il ne doit pas estre devee as enfanz et à
+                                cez qui ont esté franchi que il ne se plaingnent do fet à leur peres
+                                ou à leur patrons por deffendre leur choses, si comme se il dient
+                                que il ont esté mis hors de possession, et il ne le dient pas por
+                                acuser les de crime mes por recovrer leur possession. Ne il n’est
+                                pas deffendu au fill à plaindre soi dou fet sa mere se il dit que
+                                ele ait pris autrui enfant et dit que il estoit suens por partir à
+                                son heritage&#160;; mes il ne li est mie otroié à acuser le comme de
+                                crime. ¶ {2} Uns ne puet acu[190vB]ser celui que uns autres a
+                                acusé&#160;; mes se il est assous, ou li acuserres ne porsuit pas la
+                                cause, il n’est pas devee que uns autres ne l’acuse.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.12}</head>
+                        <div type="gp">
+                            <p>Renulcius dit&#160;: il ne loit pas à acuser le legat l’enpereor – ce
+                                est le prevost d’aucunne contree – do crime qui i fut ainz que il
+                                alat en la legacion, ne li balli do pople de Rome, ne celui qui est
+                                hors do païs par la cause de la chose commune desque il n’en est
+                                hors por aler contre les lois. {1} Et cil qui sont receu encontre
+                                aus puent user de ces benefice, et cil à qui leur mesfez a esté
+                                quitez. ¶ {2} Il est contenu en la loi que Julianus fist de commun
+                                juigemenz que nus n’acuse deus homes de crime en un meisme tens, se
+                                ce n’est por le tort qui li a esté fez. ¶ {3} Se uns sers est acusez
+                                de crime, l’en doit garder ce meismes que l’en garderoit se uns
+                                frans hons en estoit acusez. ¶ {4} Li serf puent estre acusez de toz
+                                crimes fors de force privee ; car cil qui sont dampné de crime sont
+                                puni par le poupliement de la tierce partie de leur biens. Mes ceste
+                                paine ne puet estre enjointe à serf. Autresi est il des autres
+                                crimes par coi l’en paie poine des deners ou paine capital, si comme
+                                est essill qui ne puet estre enjoinz à serf. ¶ Ne la loi que
+                                Ponpeius fist de cez qui ocient leur peres n’a pas leu contre le
+                                serf en tant comme il en apartient as paroles&#160;; mes por ce que
+                                nature est commune, il convient prendre vengence d’els autresi comme
+                                d’autres. Sers ne doit pas estre tenuz par la loi que Cornelius fist
+                                de torz fez mes plus cruel poine li doit estre enjointe hors
+                                d’ordre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.13}</head>
+                        <div type="gp">
+                            <p>Marceans dit&#160;: li enpereres Sevoirs et Antonius escritrent par
+                                les communes annones que la feme qui acuse aucun de crime par devant
+                                le prevost de annones doit estre oïe. Et cil meismes qui sont mal
+                                renomé doivent estre oï en cet cas. Et li chevalier qui ne puent
+                                deffendre autrui causes, qui voillent por la pez, il doivent estre
+                                receu ; et li serf oï en cest cas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.14}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li senaz juiga que nus ne soit acusez par diverses
+                                lois par un meisme crime.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.16}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se plusors sont qui voulent acuser un home en
+                                commun juigement, li juiges doit eslire li quelx l’acusera quant il
+                                avra queneu la cause et regardees les persones as acuseors selonc la
+                                digneté, ou selonc ce que il en apartient à chescun, ou selonc
+                                l’aa[191rA]ge, ou selonc les mors, ou selonc autres causes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.17}</head>
+                        <div type="gp">
+                            <p>Modestius dit&#160;: si li mestres<note>mestres] <emph>sers</emph>
+                                    dans le ms., cf. lat. <emph>Si servum dominus in crimine
+                                        capitali defendat</emph></note> deffent son serf de crime
+                                capital, il doit doner caucion d’amener le avent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.18}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: quant Tyce menacoit à acuser de fauseté le
+                                testamant Sey son frere, ele n’acompli pas la solempnité de
+                                l’acusement dedanz le tens qui est establiz. Et aprés li prevoz de
+                                la contree prononça que ele ne puet pas puis acuser le testamant de
+                                fausseté&#160;; ne ele n’apela pas contre cele sentence, ainz vost puis
+                                pledier que li testamanz ne vaustist rien. Je demande se Tyce qui
+                                n’apela pas contre la sentece au prevost puet puis retorner à acuser
+                                le testamant de fausseté. ¶ Et la response est que nule chose
+                                n’est proposee par coi ele doie estre oïe contre l’autorité de la
+                                sentence.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.2.19}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: li saint frere escritrent que li oir as
+                                acuseors ne doivent pas estre contrainz de porsuivre les plez que li
+                                morz commoincerent. {1} Et li enpereres Adrians escrit que il ne
+                                convient pas que li acuserres soit contrainz d’acuser pluseurs.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head type="gp">III. De garder cex qui sont pris et d’amener les avant <hi
+                            rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 3&#160;: <hi rend="i">de
+                                    Custodia et exhibitione reorum</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.3.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li juige solent juigier savoir mon se cil qui sont
+                                acusé doivent estre mis en chartre, ou baillier as chevaliers à
+                                garder, ou receu par plege ou par leur seule parole ; et ce suelent
+                                il fere ou por la qualité dou crime dont<note>dont]
+                                        <emph>dome</emph> dans le ms.</note> il sont acusé, ou por
+                                l’enor de la persone, ou por sa richece, ou por ses muers, ou por sa
+                                digneté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.3.3}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li enpereres Pius escrit que cil ne doit pas estre
+                                mis en liens qui est apareillz de doner plege&#160;; se il n’a fet
+                                si grant mesfet, que il ne doie estre bailliez ne à plege ne à
+                                chevalers, ainz doie estre tenuz en chartre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.3.9}</head>
+                        <div type="gp">
+                            <p>Renulcius dit&#160;: l’en garde essi des chevalers que, se il mesfont
+                                aucunne chose, il soient envoié à celui soz qui il estoient. Et cil
+                                qui a pris un ost à conduire a poer de chatier les chevalers qui
+                                mesferont.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.3.8}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se aucuns jeoliers est corrumpuz par loier et il
+                                sueffre que cez que il doit garder soient deslié, ou que l’en leur
+                                aport ferremenz ou venin, il doit estre puniz par l’office au juige
+                                ; et se il ne le sot pas, il do[191rB]it estre ostez de son office
+                                por sa negligence.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.3.10}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: il est contenu es commandemanz que nus ne lest
+                                sanz cause ce que il a pris en garde. Cil meismes dit&#160;: « se tu
+                                voiz que li mestre aient deslié vistement et sanz acheson aucuns de
+                                cez qui estoient lié es citez, tu commanderas que il soient lié
+                                arriere, et anjoindras paine à cez qui les deslierent&#160;; car, se
+                                il estoient quite, il la feroient autre foiz ».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.3.13}</head>
+                        <div type="gp">
+                            <p>Cil meisme dit&#160;: se cil qui sont mis ensenble en chartre
+                                preinent consoil de ropre leur liens et briser la chartre por
+                                eschaper s’en, il doivent estre plus puni que la cause por coi il
+                                furent pris ne requiert. ¶ Et se il n’avoient rien mesfet avant, si
+                                doivent il estre puni por ce fet ; et cil qui decovrent lor consoil
+                                doivent estre sozlegié de leur paine.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">IV. De crime qui est fez contre la majesté l’enpereor <hi
+                            rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 4&#160;: <hi rend="i">Ad legem
+                                    Juliam majestatis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.4.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li crimes qui est fez contre la maesté l’enpereor
+                                est procheins à sacrilige. {1} Ce est li crimes qui est fez contre
+                                le pueple de Rome et contre la seurté de l’enpire. Et de cest crime
+                                est corpables cil par qui porchaz et par qui tricherie consoil est
+                                pris que ostages soient rendu sanz le commandemant au prince ou
+                                occis, ou que home armé soient en la cité o glaives et o pierres, ou
+                                que il s’asenblent contre la chose commune, ou que li commun leu
+                                soient porpris ou li temple, ou que home soient esmeu à traïson ou à
+                                dissension ; et par qui porchaz et par qui consoil est pris que
+                                aucuns des metres dou pueple de Rome qui a commandemant et poesté
+                                sus les autres soit ocis, ou que aucuns port armes contre la chose
+                                commune, ou qui envoie as anemis au peuple de Rome mesage ou letres
+                                ou leur fet signe, ou il fet par tricherie que li ennemi au pueple
+                                de Rome soient aidié par son consoil contre la chose commune, ou qui
+                                escommuet les chevaliers par qui dissession ‹ou› noise est fete
+                                contre la chose commune. ¶ Dissession si est quant l’en se descorde
+                                et noisse en sort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: ou cil qui ne se pert pas de la contree que il
+                                a guovernee quant uns autres a esté envoiez en son leu, ou cil qui a
+                                lessié [191vA] l’ost que il devoit garder, ou li bas hom qui s’en
+                                est alez as enemis au pueple de Rome, ou cil qui à son esciant
+                                escrit fause ovre cité es communes tables, car cist est ou premer
+                                chief de la loi que Julius fist do crime qui est contre la majesté
+                                l’enpereor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.3}</head>
+                        <div type="gp">
+                            <p>Macer dit : la loi des .xii. tables commande que cil qui escommuet
+                                les anemis contre le pueple de Rome ou qui leur aide d’aucunne
+                                chose, soit puniz par poine capital. Et la loi que Julius fist do
+                                crime qui est fez contre la maesté l’enpereor commanda que cil qui
+                                mesfet à la commune majesté soit puniz&#160;; itel sont cil qui
+                                s’enfuient de bataille, ou qui tienent forterece contre l’enpereor,
+                                ou traïssent leur ost. Par ceste meisme loi est tenuz cil qui fet
+                                bataille sanz le commadement l’enpereor, ou a esleu ost en la
+                                contree que il a guovernee et ne le baille pas à celui qui a esté
+                                envoiez en son leu, ou qui guerpist l’enpire ou l’ost ou pueple de
+                                Rome, ou li bas hom qui à son esciant a fet aucunne chose par
+                                tricherie por le mestre, ou cil qui a porchacié que aucunne des
+                                choses qui sont escrites devant soit fete.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.4}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: cist est tenuz par ceste loi par tricherie et par
+                                qui seremant aucunne chose est amenee qui soit contre la chose
+                                commune&#160;; et cil par qui tricherie et par qui seremanz li oz ou
+                                pueple de Rome a esté meuz en aguiez et livrez à ses ennemis&#160;;
+                                et cil par qui tricherie i remaint que li enemi ne veignent en la
+                                poesté au pueple de Rome&#160;; et cil par qui porchaz et par qui
+                                tricherie li ennemi au pueple de Rome sont garni d’armes et de darz
+                                et de chevaux et de deniers ou d’aucunne autre chose&#160;; et cil
+                                par qui porchaz et par qui tricherie il remaint que li rois ou une
+                                estrange nacion n’obeist pas au pueple de Rome&#160;; et cil par qui
+                                porchaz et par qui tricherie estraige sont donné as anemis au pueple
+                                de Rome&#160;; et cil qui met hors celui qui a reconeu son crime et
+                                est por ce mis en liens. {1} De cest crime est delivrez par le senat
+                                cil qui font les ymages l’enpereur qui sont depecees.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.7}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: cil qui sont mal re[191vB]nomé, qui n’ont pas
+                                poer d’acuser, sont receu sanz nule dote à acuser de crime qui est
+                                fez contre la maesté l’enpereor. {1} Et li chevalier qui ne puent
+                                pas deffendre autrui causes&#160;; car cil qui veillent por la pez
+                                doivent estre receu à cest acusement. {2} Et li serf qui en acusent
+                                sont oï, neïs contre leur seigneurs, et cil qui ont esté franchi
+                                contre leur patrons. {3} Neporquant, par la reverence de la majesté
+                                l’enpereor, li juige ne doivent pas tenir cest acusement à gap mes à
+                                verité. Car il doivent regarder à la persone qui est acusee, savoir
+                                mon se ele le pot fere et à ce qui a esté fet, et savoir mon se il
+                                estoit de saine pensee&#160;; ne aucuns ne doit pas legierement
+                                estre trez à paine par l’error d’une parole. Et ja soit ce que li
+                                fol soient digne de poine, neportquant l’en doit esparnier à cez qui
+                                ne sunt pas de seine pensee se li mesfez n’est de cez qui sunt
+                                escrit en la loi, ou tiels que il doie estre vengiez en l’essample
+                                de la loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.10}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: cil par qui consoill ou par qui tricherie une
+                                cité ou une contree est traïe ou livree à ses ennemis puet estre
+                                acusez de crime contre la majesté l’enpereor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.4.11}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: cil qui muert en aucun crime muert en entier
+                                estat&#160;; car li crimes est estainz par sa mort se il n’est
+                                corpables de crime contre la majesté l’enpereor. Car se si oir ne
+                                purgent icele crime, li heritages sera à la borse l’enpereor&#160;;
+                                neporquant, tuit cil qui sont corpable de crime contre la majesté
+                                l’enpereor ne sont pas en cele condicion, mes qui par desloial
+                                corage s’est en hardiz de fere aucunne chose contre la chose commune
+                                ou contre le prince. Se aucuns est corpables por autre cause, li
+                                crimes est estainz par sa mort.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. De crime d’avotire <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 5&#160;: <hi rend="i">Ad legem
+                                    Juliam de adulteriis coercendis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.5.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li enpereres Augustus dona ceste loi {*48.5.2} par
+                                coi il convient pledier avant à l’ome qui a fet l’avotire que à la
+                                feme devant que li hom en ait esté [192rA] conveincuz et condempnz.
+                                ¶ {1} Se li mariz acuse sa feme par droiture de mari, excepcion li
+                                peut estre opposee se il brisa premerement la loi do mariage. ¶ {2}
+                                Li crimes de olerie tost à mari à acuser sa fame d’avoutire&#160;;
+                                car autresi est paine establie contre lui comme contre la feme,
+                                autresi puet nuire excepcion à celui qui l’a retenue, puis que ele
+                                fust reprise d’avotire. ¶ {3} Cil qui sofre que sa feme mesface
+                                despit an son mariage n’est<note>n’est] <emph>et est</emph> dans le
+                                    ms., cf. lat. <emph>Ceterum qui patitur uxorem suam delinquere
+                                        matrimoniumque suum contemnit quique contaminationi non
+                                        indignatur, poena adulterum non infligitur</emph></note>
+                                tenuz à soffrir paine d’avotire. {4} Se fame dit que ele ait fet
+                                avoutire pour ce que ses mariz est holiers, ele velt alegier son
+                                mesfet, mes tex aquiz n’est pas receuz. Et por ce, se cil qui est
+                                acusez d’avoutire velt acuser le mari à la fame que il est holiers,
+                                il ne sera pas oïz por ce que il fut avant acusez. ¶ {5} Se li mariz
+                                acuse sa feme d’avotire en commun juigement, l’en demande se
+                                alleguemenz de holerie metra arriere le mari de l’acusement.
+                                Et je croi que nenil. La holerie charge donc le mari, mes ele
+                                    n’excuse<note>excuse] <hi rend="i">acuse</hi> dans le ms.,
+                                    confusion du scribe, cf. lat. <emph>non mulierem
+                                    excusat</emph></note> pas la feme. {6} Et por ce, puet l’en
+                                demander se cil qui conoist l’avotire puet enjoindre au mari paine
+                                por la holerie. Et je croi que oïl, car quant Claudius – uns
+                                nobles hom – acusoit sa feme, il fu descoverz que il l’avoit retenue
+                                puis que ele avoit esté reprise en avotire, et li enpereres Savoirs
+                                la condempna sanz nul acuseor. ¶ {7} Se uns estranges est acusez
+                                d’avotire et il oppose à celui qui l’acuse de crime de holerie, il
+                                ne s’aliege point, ne il ne sozmet pas le mari à paine. ¶ {8} Se li
+                                mariz et li peres à la feme vienent ensenble à acuser d’avotire,
+                                l’en demande li quelx doit estre mis par devant. Et il est
+                                melz que li mariz i soit mis, car l’en doit croire que il porsuivra
+                                l’acusement plus aprement et par graigneur anguoissé ; si que se li
+                                peres vient premerement et il balle son libelle, et li mariz n’est
+                                pas negligenz ne ne tarde pas, ainz se porchace d’acuser la et de
+                                querre ses proves par coi il puisse prover l’avotire, li mariz sera
+                                oïz par devant le pere. {9} Mes quant autres qui puet acuser aprés
+                                [192rB] le pere et aprés le mari vienent avant, il est conté en la
+                                loi que cil qui conoist de la cause doit establir li quelx est plus
+                                droiz acusserres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.5}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: il n’est pas dote que je ne puisse acuser cele que
+                                je doi prendre à feme de l’avotire que ele fist en son premer
+                                mariage ; car il est contenu apertement en la loi que Julius fist
+                                des avoutires que se cele qui l’en velt acuser d’avoutire est veve,
+                                li acuserres puet premerement acuser le quel que il vodra, ou lui ou
+                                celui o qui ele fist l’avotire&#160;; mes se ele est mariee, il doit
+                                premerement acuser l’avotre et puis la feme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.9}</head>
+                        <div type="gp">
+                            <p>Papinians dit&#160;: cil qui abandone sa meson por fere avotire ou
+                                pechié de char o autrui feme ou à valet, ou prant gaagn de
+                                l’avoutire sa feme de quel condicion que il soit, il est puniz comme
+                                avotres. {1} Nos entendons par non de meson tote maniere d’abitacion
+                                ¶.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.11}</head>
+                        <div type="gp">
+                            <p>{13} J’é pris une feme qui estoit acusee d’avoutire et quant ele en
+                                fut condempnee je la refusai&#160;; je demant se il senble que ele ait
+                                doné la cause do departement. Et la responsse est que, por ce
+                                que il est deffendu par la loi que Julius fist à retenir tel feme,
+                                il est aperte chose que je n’ai pas doné cause do departement, mes
+                                il est fez as corpes à la feme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.34}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: se aucuns dit que ses sers ait fet avotire en sa
+                                feme, li enpereres Pius escrit que il est melz que il acuse sa feme
+                                que il n’est que il tormant son serf por fere li reconoistre. ¶ {1}
+                                Se aucuns n’a pas lessié aler l’avotre ainz l’a retenu, si comme il
+                                    avient<note>il avient] <emph>il avient par avotre q.</emph> dans
+                                    le ms.</note> que li filz fet avotire en sa marastre ou ses
+                                sers, ou cil que il a franchi en sa feme, il est tenuz par la
+                                sentence de la loi, ja soit ce que il n’est pas tenuz par les
+                                paroles de la loi. Neporquant, l’en doit dire que il est tenuz par
+                                la sentence que bane soit fez. ¶ {2} Se la feme prant loer de
+                                l’avotire son mari, ele doit estre punie comme avotre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.35}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: cil fet pechié de char qui tient franche fame
+                                por cause de lecherie et ne mie de mariage, exceptee sa moichine. ¶
+                                {1} Avotires est fez en feme mariee&#160;; et pechié [192vA] de char
+                                en veve, ou en virge, ou en valet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.5.37}</head>
+                        <div type="gp">
+                            <p>Vap. dit&#160;: se cil qui a moins de .xxv. anz a fet avotire, il est
+                                tenuz par la loi que Julius fist, car tels crime commoince enprés
+                                l’aage de .xiiii. anz.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. De force commune <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 6&#160;: <hi rend="i">Ad legem
+                                    Juliam de vi publica</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.6.1}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: cil est tenuz par la loi que Julius fist de force
+                                commune qui a en sa meson ou en son champ armes ou darz, fors celes
+                                que il doit avoir quant il va chacier, ou quant il erre, ou quant il
+                                va par mer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.2}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: les armes en sont exceptees que aucuns a quant il
+                                se remuee ou quant el i sont acheetes par heritage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.3}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: en cele meisme cause sont cil qui ont pris
+                                consoil de fere dissession et ont sers ou franc homes armez. ¶ {1}
+                                Par cele meisme loi est cil tenuz qui est en commun leu o armes. {2}
+                                En ceste meisme cause sont cil qui ont assenblé gent por assaillir
+                                villes et ont pris par force d’armes les choses qui i estoient. {3}
+                                Et cil i est tenuz qui de feu ravist aucunne chose, fors ce de quoi
+                                la meson estoit fete. {4} Et cil qui prant par force enfant ou feme
+                                sera puniz par la poine de ceste loi. ¶ {5} Cil qui vient au feu o
+                                glaives o ou armes por ravir aucunne chose, ou por deffandre au
+                                seigneur de la meson que il ne sauve sa chose, est tenuz par la
+                                poine de ceste loi. {6} Par ceste meisme loi est tenuz cil qui o
+                                homes armez met aucun hors de la possession de sa meson ou de son
+                                champ.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.4}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: ou qui preste ses homes à ce fere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.5}</head>
+                        <div type="gp">
+                            <p>Marceans dit&#160;: cil qui met le feu en une meson par dissession,
+                                ou qui i enclot un home per tricherie, ou qui fet que uns morz ne
+                                soit pas enfoiz et que sepulture ne li soit fete, ou qui oblige à
+                                soi aucun home par force, est tenuz par la poine de ceste loi. ¶ {1}
+                                Se l’en plede de force qui a esté fete et de la possession et de la
+                                seignorie de la chose où ele a esté fete, li enpereres Pius escrit
+                                que l’en doit avant enquerre de la force ou de la proprieté de la
+                                chose ; mes il n’i a que l’en enquere avant de la force que de la
+                                droiture de la seignorie ou de la possession. ¶ {2} Cil qui a pris
+                                par force feme ma[192vB]riee ou desmariee est puniz par trop grief
+                                torment ; et se li peres à la feme est tant priez que il quite ce
+                                qui li apartient, uns estranges le porra acuser sanz doter excepcion
+                                de .v. anz&#160;; ¶ car li crimes de prandre feme à force passe
+                                celui d’avotire.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.6}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: li enpereres Pius escrit en cez paroles que
+                                cil qui doit estre puniz qui ravist enfant qui est naturelment
+                                frans&#160;: «&#160;je sui meüz par la conplaince qui estoit
+                                contenue ou libelle que Selvains me bailla, par coi il sennefia que
+                                ses filz qui estoit naturelment franc avoit esté raviz et enclos et
+                                batuz à desmesure. Et por ce, Germain biaus tres chiers amis, je
+                                voill que tu l’oïes ; et se tu aperçoiz que il soit issi, tu en
+                                preignes grief vengence&#160;».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.7}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: cil est tenuz par la loi que Julius fist de
+                                commune force qui estoit en aucunne baillie ou aucunne poesté et
+                                ocist ou bati un des citaiens de Rome, ou commenda que aucunne tel
+                                chose li fust fete, ou que il fust liez ou tormentez. Ce meisme
+                                apartient as legaz et as avocaz et as contes se aucuns d’aus est
+                                repris que il les ait botez ou fet leur tort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.8}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: il est contenu en loi que Julius fist de force
+                                commune que nus ne lit ne n’enpeeche celui qui est acusez que il ne
+                                puisse aler à Rome dedanz un certain tens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: nos apelons armz non pas tant solement cez qui
+                                o‹nt› glaives mes cez qui on‹t› autres choses de coi l’en puet mal
+                                fere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.10}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: cil est tenuz par la paine de ceste loi, qui fet
+                                par force et par tricherie que juigement ne sont pas fet seurement
+                                ou que li juige ne juigent si comme il doivent, et cil qui font par
+                                force que aucuns leur promet deners ou communement ou priveement, et
+                                cil qui par tricherie est armz la où l’en fet juigement. Cil en est
+                                exceptez qui por chacier a assenblié homes armz qui se conbatent as
+                                betes, car ce li est bien otroié. ¶ {1} Cil est tenuz par ceste loi
+                                qui a assenblé homes par batre aucun par force&#160;; et ja soit ce
+                                que cil qui est batuz ne soit pas ocis. {2} Neporquant, l’en deffant
+                                à celui qui est dampnz de force commune la commune de feu [193rA] et
+                                d’eve.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.11}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui usent mesons ou viles sont puni par force
+                                capital se il le font o homes armz. ¶ {1} Par non d’armes sont
+                                apelees totes les choses par coi aucuns puet mal fere. ¶ {2} Il ne
+                                senble pas que cil qui porte armes por soi deffendre les port por
+                                homes ocerre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.6.12}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui demandent noviaus paages sont tenu par
+                                la loi que Julius fist de force commune.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head type="gp">VII. De force privee <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 7&#160;: <hi rend="i">Ad legem
+                                    Juliam de vi privata</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.7.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: la tierce partie des biens à celi qui est condempnz
+                                de force privee est puepliee&#160;; et il est establi que il ne
+                                puisse estre senateurs, ne apelz à nule honor ne à nule ordre, ne
+                                que il ne soit juiges, si que il soit sanz totes ennors par le
+                                consoil au senat. {1} Autresi comme mal renomez par ceste paine sont
+                                sont tenu cil qui sont ramené à la poine de la loi que Julius fist
+                                de force privee, ¶ et cil qui par tricherie ravist aucunne chose de
+                                peril de mer. {2} Mes cil qui ravissent aucunne chose de peril de
+                                mer sont puni hors d’ordre par les establissement au princes. Car li
+                                enpereres Pius escrit que nule force ne doit estre fete as mariniers
+                                ; et se aucuns le fet, il soit puniz tres cruelment.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.2}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: par ceste loi est tenuz cil qui assenble homes et
+                                fet par force par coi aucuns soit batuz sanz ocirre le.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.3}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: il n’a point de difference se aucuns a assenblé à
+                                fere force frans homes ou sers, ou suens ou autrui ; {1} car tuit
+                                cil qui i sont assenblié sont autresi tenu à la paine comme il est.
+                                {2} Et s’il n’i a nul home assenblé, ne il n’en a nul batu, mes il
+                                en aporte par force aucunne chose de l’autrui, il est tenuz par
+                                ceste loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li crimes de ceste loi est fez quant aucuns a
+                                assenblé gent et fet par force que uns hons n’a pas esté amenez à
+                                juigement. {1} Et se aucuns a fet enqueste d’avotire par sers, et
+                                por ce dit Labeo que l’en doit user plus atrenpeement do banissement
+                                au prevost de tort fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.5}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: se aucuns a chacié un home de son champ par homes
+                                que il ‹a› assenblez ou par ses armes, il puet estre acusez de force
+                                privee [193rB].</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.6}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: il est contenu au consoill au senat qui est
+                                apelz Volusians que cil qui s’asenblent à autrui plet por departir
+                                entre els quant que li acuserres avra do condempnement sont à la loi
+                                que Julius fist de force.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.7}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: se li deteur pledent contre leur creanciers,
+                                il doivent demander par devant le juige ce que il cuident que lor
+                                soit deu ; car se li creancier se metent en possession des choses à
+                                leur deteurs sanz nul commandemant, li enpereres Marc juiga que il
+                                n’eussent pas droiture de creance. Les paroles dou juigement sont
+                                celes&#160;: «&#160;il est bone chose, se tu cuides que tu puisses
+                                riens demander, que tu en pledes par droites aucions&#160;; et tes
+                                averseres doit dedanz ce estre en possession, et tu doiz estre
+                                demanderes. Car totes les foiz que aucuns prant sanz le commandemant
+                                au juige ce est force, ne il n’apartient pas à vergoigne ne à
+                                digneté ne à pitié que nus face riens se par droit non. Se il est
+                                donc prové que aucuns porsie la chose à son deteur, qui ne li est
+                                baillie par lui ne par le juige, ainz l’a prise par soi meismes, il
+                                n’i avra pas droiture de creance&#160;».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.7.8}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: se li creanciers prant les choses à son deteur
+                                sanz l’autorité au juige, il est tenuz par ceste loi et est puniz de
+                                la tierce partie de toz ses biens, et est mal renomez.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <pb n="325"/>
+                <front>
+                    <head type="gp">VIII. De homecides et des envenimeors <hi rend="i"
+                        >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 8&#160;: <hi rend="i">Ad legem
+                                    Corneliam de sicariis et veneficis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.8.1}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: cil est tenuz par la loi que Cornelius fist des
+                                homecides et des envenimeors qui ocit home, ou cil par qui tricherie
+                                meson est arse, et cil qui va armz por home ocirre ou por enbler, et
+                                cil qui estoit baillif ou juiges qui a fet faus juigement por
+                                condampner celui qui n’avoit rien mesfet. ¶ {1} Encor est cil tenuz
+                                par ceste paine qui confit venin por home ocirre et qui li done, et
+                                cil qui par tricherie dit faus tesmoing par coi aucuns soit
+                                condempnz en commun juigement à paine capital, et li baillif et li
+                                juiges qui prenent deners que enqueste ne soit fete de crime
+                                capital. ¶¶ {2} Cil qui ocist home est puniz sanz nule difference de
+                                quel condicion cil est que il ocist. {3} Et li enpereres [193vA]
+                                Adrians escrit que cil qui ocit home, et n’avoit pas corage
+                                d’ocerre, puet estre assous. Et cil qui ne l’ocit pas, mes il le
+                                navra por ce que il le voloit ocerre, doit estre condempnz comme
+                                homecides. Et par le fet puet l’en voer comment il est&#160;; car se
+                                il tret le glaive et l’en feri au plus que il pot, il est certaine
+                                chose que il le voloit ocerre ; mes se il le feri petit, et en tel
+                                leu où il ne le cuida pas ferir à mort, ja soit ce que il feri
+                                d’arme esmolue, mes il n’ot pas corage d’ocerre le, sa poine doit
+                                estre alegiee. ¶ Se dui home tençoient et li uns feri l’autre d’arme
+                                esmolue, se il ne le fist par corage d’ocerre le, sa poine doit
+                                estre allegie&#160;; car il fist homecide plus par avainture que par
+                                sa volenté. {4} Li enpereres Adrians escrit que cil qui ocit celui
+                                qui par force voloit compoignier contre nature o lui ou o aucun des
+                                suens doit estre quitez. {5} Et li enpereres Pius escrit que plus
+                                legier poine doit estre enjointe à celui qui ocist sa feme que il
+                                reprist en avotire ; et commanda que se il estoit bas home, il fust
+                                envoiez en pardurable essil ; et se il estoit en aucunne digneté, il
+                                i fut envoiez à tens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.2}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li peres ne puet pas ocirre son fill, mes il le
+                                doit acuser par devant le prevost de la cité ou de la contree.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.3}</head>
+                        <div type="gp">
+                            <p>Marceans dit&#160;: en un chapitre de la loi que Cornelius fist des
+                                homecides et des envenimeurs est puniz cil qui a confit, ou vendu,
+                                ou gardé venin pour home ocirre. ¶ {1} A cele meisme paine est
+                                sozmis cil qui vent en commun mauveses medecines, ou qui les garde
+                                par cause d’ocirre homes. {2} Ce que l’en dit « mauvés venin »
+                                mostre que aucun venin sont qui ne sunt pas mauvés. Li nons est donc
+                                communs à celui qui est bons et à celi qui est mauvés, mes ceste loi
+                                ne parole fors de celui qui est mauvés que aucuns a por home ocirre.
+                                Et il est commandé par le consoil au senat que cele soit envoié en
+                                essil qui par nul mauvés corage dona à une feme une medecine par
+                                concevoir de coi cele qui la reçut fut morte. {3} Il est commandé en
+                                un autre consoil au senat que li especier qui vendent [193vB]
+                                mauveses espices par bones soient tenu par la paine de ceste loi.
+                                {4} Et cil qui suefre et set que sa mesnie prent armes por conquerre
+                                ou por recovrer la possession d’aucunne chose, et cil qui par
+                                dissession est meüe, et cil qui a pris aucunne chose do perill de
+                                mer, et cil qui a fet faus juigement ou qui a porchacié que il soit
+                                fez par coi cil qui n’a riens mesfet soit condempnz. ¶ Qui chatre
+                                home par cause de lecherie ou de vendre le, il est puniz selonc le
+                                consoil au senat par la loi que Cornelius fist des homecides et des
+                                envenimeors. {5} La poine de ceste loi est essill et soztraemanz de
+                                toz les bies. Mes il solent orendroit estre puni de paine capital se
+                                il ne sont mis en plus honeste leu por soffrir la paine de la loi ;
+                                et li plus bas solent estre baillié as bestes à devorer, et li plus
+                                haut envoié en essil. {6} Mes en quelque leu que il soient trové, il
+                                loist à ocerre les comme ennemis.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.4}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: cil est tenuz par la paine de ceste loi qui
+                                porchaça, quant il estoit en une baillie, la mort à un home en
+                                maniere que n’est pas ostroié par les lois. {2} Li enpereres Adrians
+                                escrit : « il est establi que home ne soient chatré. Cil qui sont
+                                donc repris de ce crime doivent estre dampné par la loi que
+                                Cornelius fist des homecides et des envenimeors et leur biens
+                                doivent estre mis en ma borse. Et se serf font tel chose, il doivent
+                                estre sozmis à tres grief torment&#160;; et se il ne sunt el païs,
+                                l’en doit prononcier contre aucuns que il sont tenu à la paine de
+                                ceste loi. Et se cil à qui cil torz a esté fez s’an plaignent, li
+                                prevoz les doit oïr&#160;; car nus ne doit chatrer ne franc home ne
+                                serf, ne nus ne se doit abandoner de son gré à estre chastrez. Et se
+                                aucuns fet contre mon banissement, ce sera crimes capitals au mire
+                                qui le chatrera et à celui qui soffrera à estre chastrez de son
+                                gré ».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.6}</head>
+                        <div type="gp">
+                            <p>Renulcius dit&#160;: cil qui baille son serf à chastrer sera puniz de
+                                la moitié de ses biens par le consoil au senat qui fut fez quant
+                                Neraces et Antoines estoient conseillier.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.7}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: l’en prent tricherie par fet en la loi que
+                                Cornelius fist des homecides. Et [194rA] por ce, se aucuns se lesse
+                                cheer de haut et il chiet sus un home et il l’ocit, et cil qui cope
+                                un arbre giete jus une branche sanz mot dire et il ocist un home qui
+                                passoit par la voie, il n’apartient pas au chastiement de ceste
+                                loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.8}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: se l’en set que fame ait fet chose par coi ele ait
+                                ocis l’enfant de son ventre, li prevoz de la contree l’envoera en
+                                essil.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.9}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se aucuns ocit un larron qui enble par nuit,
+                                il en sera sanz paine se il estoit issi que il ne se peust garder
+                                sanz peril d’ocerre le.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.10}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se aucuns aars meson à son esciant, il sera
+                                puniz par paine capital comme arderres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.11}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: il est otroié as jüies tant solement à
+                                circoncire leur filz ; mes se uns autres qui ne soit pas de leur loi
+                                le fet, il sera puniz par la paine à cez qui chastrent leur sers. ¶
+                                {1} Se uns sers est venduz par conbatre soi as bestes sanz le
+                                commandemant au juige, cil qui le vendi et cil qui l’acheta sont
+                                tenu à soffrir paine. {2} Li seigneur n’ont pas poer de baillier à
+                                leur volenté leur sers à conbatre soi as betes&#160;; mes se li sers
+                                est amené devant le juige, et la plainte au seigneur est
+                                droituriere, il sera sozmis à paine.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.12}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se uns enfes ou un forsenz ocit un home, il
+                                n’est pas tenuz à la paine de ceste loi&#160;; car l’enfance acuse
+                                l’un et la maladie acuse l’autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.13}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: nus est commandé par le consoil au senat que
+                                cil qui fet mauvés sacrefices soit puniz par la paine de ceste
+                                loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.14}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: li enpereres Adrians escrit eissi&#160;:
+                                «&#160;l’en regarde es mesfet à la volenté et ne mie à
+                                l’aveinture&#160;».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.15}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: il n’a point de difference se aucuns ocit ou done
+                                cause de mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.16}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: se cil qui ont fet homecide, ou de leur grié ou
+                                par tricherie, sont en aucunne digneté, il solent estre envoié en
+                                essil. Se il sont el segont degré, il sont puni par paine
+                                capital&#160;; mes il doivent prandre plus legiere vengance
+                                descuriaus, se il puet avenir. Et l’en en doit demander consoil au
+                                prince et fere par son commandemant, se issi n’est que la noisse ne
+                                puisse [194rB] estre abatue en autre maniere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.8.17}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se uns hom a esté feruz en meslee et il muert, il
+                                convient regarder les cous que chescuns li dona de cez qui i furent
+                                assenblez.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_09">
+                <front>
+                    <head type="gp">IX. De cez qui ocient leur femes et leur enfanz <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 9&#160;: <hi rend="i">De lege
+                                    Pompeia de paricidiis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.9.1}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: il est contenu en la loi que Ponpeius fist de cez
+                                qui ocient leur peres que, se aucuns ocist son pere, ou sa mere, ou
+                                son aiel, ou s’aiele, ou son frere, ou sa seror, ou son cosin
+                                germain, ou son oncle de par<note>par] <emph>par ar</emph> dans le
+                                    ms., signe d’abreviation excédant</note> son pere ou de par sa
+                                mere, ou sa tante, ou sa feme, ou sa bruz, ou son gendre, ou son
+                                socre, ou sa suegresse, ou son fillastre, ou sa fillastre, ou son
+                                patron, ou sa patrone, ou se ce est fet par tricherie, il sunt tenu
+                                par la paine que Cornelius fist des homecides. ¶ Et se<note>se]
+                                        <emph>sa</emph> dans le ms.</note> la mere ocist son fil ou
+                                sa fille, ele est tenue par ceste loi ; et li aieles qui ocist son
+                                neveu et cil qui achate venin por doner a son pere, ja soit ce que
+                                il ne li puet pas doner.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.2}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: li autres filz qui sot<note>sot] <emph>sor</emph>
+                                    dans le ms., cf. lat. <emph>Frater autem eius, qui cognoverat
+                                        tantum nec patri indicaverat</emph></note> la chose et ne la
+                                fist pas savoir à son pere doit estre envoiez en essil&#160;; et cil
+                                qui vendi le venin doit estre sozmis à torment.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.3}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: l’en doit savoir que il a compris en la loi des
+                                paranz sa feme ; neporquant, une meisme paine n’est pas enjointe por
+                                les lointains et por les procheins. La persone à la maratre et cele
+                                à l’esposee ne sont pas comprises en la loi, neporquant eles sont
+                                contenues en la sentence.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.4}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li peres et la mere à l’esposee et à l’espos
+                                sont contenu el non de suecre et de suegresse, et li esposse sont
+                                contenu el non de gendres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.5}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: quant uns homs aloit chacier, il ocist el bois
+                                son fill qui fesoit avotire o sa marastre&#160;; li enpereres
+                                Adrians l’envoia en essil por ce que i l’ocist melz comme lierres
+                                que comme peres&#160;; car la poesté au pere doit estre en pitié et
+                                ne mie en cruauté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.6}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: l’en puet demander se cil qui ocistrent lor
+                                peres sont tenuz par la poine de ceste loi ou cil qui en furent
+                                consachant. Et Mecians dit que tuit cil qui en furent
+                                compoingon doivent estre puni d’une meisme paine ; et por celes
+                                doivent soffrir li estrange meisme [194vA].</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.7}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se deners sunt presté à fere aucunne
+                                desloiauté par le seu à celui qui les preste, si comme por acheter
+                                venin ou por doner as larrons por ocirre le pere, celui<note>celui]
+                                        <emph>a celui</emph> dans le ms.</note> qui les enprunte et
+                                cil qui les pretent sont tenu par la paine de ceste loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.8}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se cil qui est acusez de la mort à unes des
+                                persones, qui sont nomees en la loi que Ponpeius fist, muert ainz
+                                que li plez soit finz, se il se tue, la borse l’enpereor sera ses
+                                heirs. Et se il muert autrement, se il fist testamant, cil de qui il
+                                fist son hoir avra son heritage&#160;; et se il ne dist testamant,
+                                cil l’avra que les lois i apelent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.9.9}</head>
+                        <div type="gp">
+                            <p>Modestius dit&#160;: la paine à celui qui ocist son pere est tele
+                                establie par les anciens, que cil qui a ocis son pere soit batuz de
+                                verges et puis soit cosuz en un sac ou un chien et o un coc et o une
+                                serpent et ou un singe, et puis soit li sac getez en la mer bien en
+                                parfont se la mer est pres ; et se ele est loing, il soit bailliez
+                                as bestes à devorer selonc l’establissement l’enpereor Adrian. {1}
+                                Et cil qui ocist autres persones que son pere ou sa mere ou son aiel
+                                ou s’aole, por coi li encien establirent la devant dite paine, il
+                                soit puniz par paine capital. {2} Neporquant, se aucuns ocist son
+                                pere par forsenerie, il ne sera pas puniz si comme li saint pere
+                                escritrent ; car ce est assz que il est puniz par forsenerie meisme,
+                                mes il doit estre gardz diligement et mis en liens.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_10">
+                <front>
+                    <head type="gp">X. De faussoniers <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 10&#160;: <hi rend="i">De lege
+                                    Cornelia de falsis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.10.1}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: la poine de la loi que Cornelius fist des fausons
+                                est enjointe à celui qui a porchacié par tricherie que fausses
+                                atestacions soient fetes. {1} Et qui recevra deners, ou fera
+                                convenence, ou assenblera compoignie por establir fausse avocacion
+                                por obligier cez qui n’ont rien mesfet, il sera chatiez par le
+                                consoil au senat. ¶ {2} Se aucuns prent deners por refuser
+                                testemoine, ou por dire le, ou que il ne le die pas, il est tenuz à
+                                la poine de la loi que Cornelius fist des fausoniers ; autresi est
+                                cil qui corrump le juige, ou qui porchace que il soit corrumpuz. {3}
+                                Et se li juiges despit les esta[194vB]blissemenz as princes, il est
+                                puniz. {4} Cil qui en contes ou en tables ou en aucun instrumant
+                                escrivent fausseté, ou en ostent aucunne chose, sont puni par ces
+                                causes comme faussenier. Et issi dampna li enpereres Savoirs par la
+                                loi que Cornelius fist des faussoniers le prevost d’Egite, por ce
+                                que il fist fausseté en ses instrumanz quant il estoit par desus la
+                                contree. ¶ {5} Cil qui remue le testamant à celui qui est encor vis,
+                                est tenuz par la poine de ceste loi. ¶ {6} Cil qui dit que cil à qui
+                                il balla ses instrumenz à garder les a bailliez à son aversere, le
+                                puet acuser de faussonerie. ¶ {7} Li consoil ou senat apartient as
+                                testamanz as chevalers, en coi il est commandé que cil soit tenuz à
+                                la poine as fausoniers qui escrit en testamant que il en ait aucunne
+                                chose. ¶ {8} Il a tel difference entre le fil et le serf et
+                                l’estrange qui escrivent testamant, que il covient en l’eritage que
+                                especial subscripcion i soit fete, et lors cesse la paine. Et cil
+                                qui escrit le testamant puet avoir son lés, mes en fil ou en serf
+                                soffist la general subscripcion et à eschever la paine et à avoir le
+                                lés. ¶ {9} Li deffendeur et li procureor qui ont fine lor office et
+                                n’ont pas rendu conte ne puent pas fere marchié à la borse
+                                l’enpereor ; et se aucuns fet encontre ce, il soit puniz autresi
+                                comme se il eust fet fausonerie. {10} Mes ce n’apartient pas as
+                                autres qui firent ce ainz que il receussent la garde&#160;; car il
+                                n’ont pas perdu leur excusacions, ainz ont mis arriere tot barat.
+                                {11} Et li enpereres Savoirs et Antonius escritrent que cil qui n’a
+                                pas encor rendu conte de la garde que il a amenistree, ne puet pas
+                                fere marchié o la borse l’enpereor, se cil est vis que i l’ot en
+                                garde ; car se il est morz, il puet fere marchié, ja soit ce que il
+                                n’a pas encor rendu conte à son hoir. {12} Mes se li deffenderres ou
+                                li procureres est hoirs à aucun qui avoit fet marchié à la borse
+                                l’enpereor ainz que il ait rendu conte de la garde, je ne croi pas
+                                que la poine i ait leu, ja soit ce que cil que il ot en garde vive
+                                encore. {13} Paine de forsenerie est essill et puepliemenz de toz
+                                les biens. Et se sers fet faussonerie, il sera sozmis à tres grief
+                                torment.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: qui oste testamant ou le ceile ou le ravist ou
+                                l’efface ou des[195rA]saelle, et qui escrit faus testamant ou seele
+                                ou recite ou porchace par sa tricherie que ce soit fet, il est
+                                dampnz par la poine de la loi que Cornelius fist des
+                                faussoniers.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.3}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: cil qui ne set pas que testamanz soit faus, le
+                                puet bien reciter.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.4}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se aucuns avoit porchacié faussement que l’en
+                                escrisit faus testamant que uns lés li estoit lessiez, et il est
+                                morz, la paine puet estre quitee à son hoir. ¶ {1} Quant uns hons a
+                                esté fez hoirs son pere et il ot depeciez les escriz de ses lés, il
+                                fu morz ; Marcus dit que la borse l’enpereor doit chalengier tant de
+                                l’eritage comme li peres en peut avoir departi par lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.5}</head>
+                        <div type="gp">
+                            <p>Julians dit&#160;: li senat quita paine à celui qui avoit escri de sa
+                                main en escroes le lés que ses peres avoit escrit en son testamanz
+                                et puis l’esfaça&#160;; et por ce que il le fist par le commandemant
+                                son pere et il avoit passe .xxv. anz, il li fu ostroié que il eust
+                                l’eritage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.6}</head>
+                        <div type="gp">
+                            <p>Affricans dit&#160;: se aucuns escrit ou un testamant que uns lés li
+                                soit paiez, il est tenuz par la paine de la loi que Cornelius fist
+                                des fausoners, ja soit ce que li lés ne vaille rien&#160;; car il
+                                est certaine chose que cil est tenuz qui escrit que li lés li est
+                                lessiez en testamant qui puis est roz ou qui ne vaut des le
+                                commaincement. Neporquant, ce est voir quant li testamanz est
+                                parfez&#160;; car se il n’est pas saelz, il est melz que li consoil
+                                au senat n’i ait pas leu ; autresi comme li entrediz d’aporter avant
+                                les tables do testamant n’i a pas leu. Car à ce que li conselz au
+                                senat ait leu, il convient avant que il ait aucun testamant ou que
+                                il ne soit pas fez à droit&#160;; car lors dit l’en par droit que li
+                                testemanz est faus. Et se il n’i eust point de testamant, l’en ne
+                                deist pas que il ne fust pas à droit fez se totes les choses i
+                                fussent fetes si comme eles deussent. ¶ {1} Se cil qui est fez oirs
+                                escrit ou testamant que li filz est deseritez par droit ou autres
+                                persones, il est tenuz par le consoil au senat. {2} Et autresi cil
+                                qui escrit de sa main que franchise li soit donee est tenuz par le
+                                consoil au senat. {3} Se uns patrons escrit que uns lés li soit
+                                lessiez el testamant à celui que il franchi, et il a enpetré pardon,
+                                et l’en li a commandé que il [195rB] s’atiegne del lés, l’en demande
+                                se il puet avoir la possession des biens contre les tables. Et
+                                il nos plet que il ne la puisse pas avoir. Mes de ce ne s’ensuit pas
+                                que se une fame escrit el testamant son mari que ses doeres li soit
+                                renduz, ou li creanciers el testamant son deteur que ce que il li
+                                doit à terme li soit rendu, et il enpetre pardon de ce que l’en li
+                                commant que il s’atiegne del lés&#160;; car l’en ne puet pas tolir à
+                                la feme son doere, ne au creancier s’aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.7}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: li serf ne puent en nule maniere pledier à leur
+                                seigneurs, fors lors sanz plus, si comme li enpereor Marcus et
+                                Commodus dient, que le serf se plaint que les tables dou testamant
+                                en coi franchise li fu donee sunt repostes&#160;; car lors doit li
+                                sers estre receuz à acuser l’oir son seignor dou testamant que il
+                                cele.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.8}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: tuit cil qui ont res en partie les deners d’or et
+                                tainz en partie, se il sont franc home, il soient baillié as bestes
+                                à devorer ; et se il sont serf, il soient sozmis à tres grief
+                                tormanz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.9}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: il est establi en la loi que Cornelius fist
+                                des fausoniers que qui fera aucunne fausseté en or, ou qui fera faus
+                                deners d’argent, il soit tenuz par crime de faussonerie. {1} Par
+                                cele meisme paine est cil tenuz qui pot deffendre tel chose et ne la
+                                deffendi pas. {2} Et si est commandé en cele meisme loi que nus
+                                n’achat ne ne vende à esciant deners d’estaing ne de plon. {3} La
+                                poine de ceste loi est promise à celui qui à esciant et par
+                                tricherie seele autre chose que ce qui fu commandé el testamant ; et
+                                cil qui ont assenblé compoignie por dire faus testemoigne, li uns
+                                por l’autre. ¶ {4} Cil qui a mis por lui un acuseor en cause qui est
+                                meüe por deners est tenuz par cele meisme poine par coi cil sont
+                                tenu qui recoivent deners por movoir autrui plet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.10}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: li conselz au senat ne parole point de celui qui
+                                escrit en un testamant que cil en qui poesté il est, ou uns autres
+                                qui est en la poesté à celui meismes, [195vA] ait un lés. Mes en
+                                cest cas, il mesfet contre la loi&#160;; car li preuz de cele chose
+                                n’apartient pas au pere ne au seigneur à qui il apartenist se li
+                                filz ou li sers eust escrit que li lés fut à lui meisme. ¶ {1} Il
+                                est certaine chose que se aucuns escrit que uns estranges ait un
+                                lés, et il vient puis en sa poesté en la vie à celui qui fist le
+                                testamant, li conselz au senat n’i a pas leu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.11}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: se li peres à un chevaler escrit el testamant à un
+                                autre chevaler que ses filz ait un lés, por ce que cil lés n’est pas
+                                aquis au pere, il est hors de paine. {1} Et se li filz escrit que sa
+                                mere ait un lés, se il le fet par le commadement à celi qui fet le
+                                testamant, il est sanz poine et la mere puet avoir le lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.12}</head>
+                        <div type="gp">
+                            <p>Papinians dit&#160;: quant cil qui est corpables de fausonerie muert
+                                ainz que il ne soit acusez ou que sentence en soit donee, il est
+                                quités de la paine ; mes ce que il conquist par fausseté ne remaint
+                                pas à l’oir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.13}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: assennemanz de faus non est par paine de
+                                faussonerie. {1} Li avocaz qui par .x. anz a esté hors d’ordre des
+                                curials por ce que il avoit recité par devant le prevost un faus
+                                instrumant puet recevoir sa digneté aprés les .x. anz&#160;; car il
+                                n’en chai pas en la loi por fere fausseté mes por reciter la. Et por
+                                cele meisme reson li bas hom qui fu envoiez en essil temporel par
+                                cele meisme cause porra estre fez curials quant il sera revenuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.14}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant li filz qui estoit hors do bail escrivoit le
+                                testamant son pere, il l’escrit par le commandemant au pere que uns
+                                lés fust donz à un serf qui estoit communs à lui et à un
+                                autre&#160;; je demant comment il en ira. Et la response est
+                                que plusors demandes sont jointes ensenble&#160;; et sanz dote, il
+                                nos est deffendu par le consoill au senat que nos ne servons pas que
+                                aucunne chose soit donee à celz que nos avons en nostre poesté. Li
+                                filz qui est hors de baill sera donc tenuz par ceste meisme paine,
+                                ja soit ce que il l’escrit par le commandemant à son pere. ¶ Il
+                                senble que cil soit escusez qui [195vB] ‹est› en autrui poesté, si
+                                comme li sers se il pert par la subsc‹r›ipcion que il ait fet par le
+                                commandemant. {1} L’autre question est, por ce qui est fet ou escrit
+                                contre droit ne vaut rien plus que se il ne fust pas escrit ou fet,
+                                savoir mon se ce que aucuns escrit, qui soiit doné au serf qui est
+                                communs à lui et à un autre, doit estre rapelé en partie et valoir
+                                en partie, ou se toz li lés est deuz à son compoignon. Et à ce
+                                respondi Marciaus à Julian&#160;; car quant Julians ot escrit en un
+                                testamant que une chose fust donee à lui et à Tyce, ou à un serf qui
+                                estoit communs à els deus, por ce que cele escriture ne vaut rien,
+                                ne plus que se ele ne fust pas escrite, l’en puet legierement veer
+                                combien chescuns en doit avoir. Et puis dit Marciaus, comment en
+                                sera rien deu à son compoignon se li nons au serf en est sostrez
+                                comme faus. Autresi doit l’en garder en cestre presente demande. ¶
+                                {2} Li mariz franchi un des sers do doere sa feme et puis escrit en
+                                son testamant que il eust un lés&#160;; l’en demande que la feme i puet
+                                conquerre. Et la responsse est que li patrons est encheez en
+                                la paine dou banissement à l’enpereor Claudi‹us›&#160;; et ja soit
+                                ce que li filz qui est hors dou baill puisse estre trespassz el
+                                testamant, neporquant il puet demander la possession des biens. ¶ Se
+                                li patrons n’a donc rien des biens à celui que il franchi, il ne
+                                sera de rien tenuz à la feme&#160;; mes l’en demande se il puet estre
+                                tenuz por ce que la loi dit, ou se il a fet par tricherie que la
+                                chose ne veigne pas à lui. Et sanz dote il n’i fist rien por
+                                grever la feme, car il ne penssa pas ce contre lui. Et se aucuns
+                                escrit par le commandemant à celui qui fist le testamant que il
+                                feist un lés et il i ajoint que il li estoit commandé que il rendist
+                                cel lés à un autre, por ce ne remaint pas que il ne se doie atenir
+                                del lés, et que li hoirs ne le doie avoir et estre tenuz à rendre le
+                                la où li morz commanda.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.15}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: li enpereres Claudi‹us› commanda que l’en
+                                ajoinsist à la loi que Cornelius fit des [196rA] faussoniers que,
+                                quant aucuns escrit testamant ou lés, se il l’escrit que il en ait
+                                aucunne chose, il soit tenuz autresi comme se il eust fet
+                                faussonerie ; ne pardons ne soit pas donz à cez qui dient que il ne
+                                savoient pas la force de loi. Il senble que il escrit que il ait
+                                aucunne chose non pas tant solement quant il le escrit de sa main,
+                                mes quant ses sers ou ses filz que il a en sa poesté l’escrit, si
+                                comme cil li dit qui fet le testamant. {1} Il est contenu es
+                                establissemenz as princes que se cil qui fet le testamant esclere
+                                especiaument en sa subscripcion que il commanda à un serf que il
+                                escrisist en son testamant que ses heirs paiast un lés à son
+                                seignor, ce vaut&#160;; car la general subscripcion vaut contre
+                                l’autorité dou consoil au senat à eschever la poine de la loi. Et
+                                por ce, est il autresi comme se li lés ne fust pas escriz, et
+                                pardons doit estre donz à celui qui l’escrit. Et je croi que li
+                                pardons doit estre demandez à l’enpereor à qui l’en se doit atenir
+                                de lés. ¶ {2} Encor juiga li senaz, que se uns sers escrit el
+                                testamant son seigneur par son commandemant que il ait franchise, il
+                                ne soit pas frans por ce sanz plus que il l’escrit de sa maisme ;
+                                franchise li soit donee autresi comme se ele li fust lessie à terme.
+                                {4} Il plot à sages homes que pardons soit donez à la mere se ses
+                                sers escrit el testamant son fil par le commandemant au fil que ele
+                                en ait aucunne chose. {5} Ce meisme juiga li senaz de la fille qui,
+                                par le commandemant sa mere et par ignorance de droit, escrit es
+                                testamant sa mere que ele en eust aucunne chose. ¶ {6} Se aucuns
+                                fist de .ii. homes ses hoirs, et il commanda en son testamant que se
+                                li uns moroit sanz hoirs toz li heritages fust à l’autre qui avroit
+                                hoirs, ou se li uns et li autres moroit sanz hoirs, li heritages
+                                fust renduz à celui qui escrivoit le testamant, il nos plest que la
+                                poine de la loi que Cornelius fist des faussoners soit quitee à
+                                celui qui escrit le testamant ; et il est plus benigne chose que les
+                                choses qui sunt escrites soient gardees.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.16}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li crimes d’istrumanz enblez n’est pas des communs
+                                juigemenz se li testamanz à aucun n’a esté enblez. ¶ {1} Paulus dit
+                                que tuit cil sont tenu par la paine [196rB] de la loi que Cornelius
+                                fist des faussoniers qui seelent faus instrumanz autres que
+                                testamanz. {2} Et il n’est pas dote que tuit cil qui ont fet
+                                fausseté en tables ou en letres communes, ou en seelement ou en
+                                autre aucunne chose, ou qui ont celé ou sotret ou effacié ou
+                                dessaelé verai instrumant por senbler que il soit faus, ne doient
+                                estre tenu par cele meisme paine.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.17}</head>
+                        <div type="gp">
+                            <p>Cil meisme dit&#160;: quant uns hom ot escrit o sa main que uns sers
+                                li estoit lessiez et que il li estoit commandé que il le
+                                franchissist, li senaz juiga que tuit li hoir le doivent
+                                franchir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.18}</head>
+                        <div type="gp">
+                            <p>{1} Cil meismes dit&#160;: se aucuns escrit en un testamant que il
+                                eust en garde le fill à celui qui fesoit le testamant qui avoit
+                                moins de .xiiii. anz, ja soit ce que il est sopeceneus por ce que il
+                                senble que il covoita la garde de son gré, neporquant, se il prove
+                                que il soit convenables, il doit avoir la garde non pas par le
+                                testamant mes par juigement ; ne il ne sera pas acusez por ce que il
+                                senble que il s’asenti à la volenté au mort. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.19}</head>
+                        <div type="gp">
+                            <p>Se cez qui ont fet fause monoie la volent reformer et amender, il
+                                sont assous par l’aide de droite repentance. ¶ {1} Li acusemenz
+                                d’enfant que fame tient comme suen, qui n’est pas suens, ne perist
+                                pas par longue estance ; et autresi en puet l’en bien user aprés la
+                                mort à la feme comme en sa vie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.20}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: cil sunt puni par paine de faussonerie qui ont
+                                pris deners por introduire faus tesmoinz, ou qui en ont fet
+                                obligement, ou convenance, ou que en ont assenblé compoignie, ou qui
+                                ont porchacié que aucunne de cez choses soit fete.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.21}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui par divers marchiez a vendu à deus une
+                                meisme chose est puniz par paine de faussonerie ; et issi l’establi
+                                l’enpereres Adrians. A cez est ajoinz cil qui a corrumpu
+                                juige&#160;; mes il solent estre puni un pou moins aprement, car il
+                                sont envoié en essil à tens, ne leur biens ne lor sont pas tolu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.22}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: l’en ne doit pas dire que cil qui a moins de
+                                .xiiii. anz enchie el crime de faussonerie&#160;; car à paine puet
+                                estre corpables de [196vA] fausseté cil qui ne set que tricherie
+                                est. ¶ {1} Se li peres escrit en un testamant que uns lés en fust
+                                donz à son fill qui estoit en la main à ses ennemis, l’en doit dire
+                                que, se li filz revient, li peres est encheez en la paine au senat ;
+                                mes se il muert illeuc, li peres est quités. ¶ {2} Mes se il escrit
+                                que ses filz qui est hors do baill en ait aucunne chose, il le fet
+                                par droit. {3} Et se il escrit que aucunne chose en soit à son fill
+                                adoptif, ou au serf à qui il deust ja avoir doné franchise selonc ce
+                                que il i fut enjoint, l’en doit dire que il est hors de la sentence
+                                del consoill au senat&#160;; car tot ce qui est aquis par tel serf
+                                li doit estre renduz quant il est franchiz. {4} Et se il escrit que
+                                aucunne chose en soit donee au serf qui n’est pas suens, ainz le
+                                sert par bone foi, il mesfet quant à son penssé&#160;; car il cuide
+                                que il soit siens. Mes por ce que il ne puet aquerre par lui ne lés
+                                ne heritage, nos disons que il doit estre quités de la paine. ¶ {5}
+                                Se li sires a escrit en un testamant que ses sers ait un lés quant
+                                il sera franchiz, nos disons que il est excusez dou consoil au
+                                senat, car il n’i garda pas à son preu. ¶ Ce meisme puet l’en dire
+                                do fil qui puis est mis hors do baill. ¶ {6} Cil qui conferme les
+                                escriz qui furent fez ainz que li testamanz, par coi une chose li
+                                est lessie, enchiet en la paine del consoill au senat. ¶ {9} Li sers
+                                qui escrit en autrui testamant que cil qui le fesoit enjoigneist à
+                                son seigneur que il li donast franchise, n’est pas tenuz par les
+                                paroles dou conseil au senat. Mes de ce puet l’en doter, car si
+                                comme nos avons dit avant, li senaz quita en ce cas la paine. ¶ Se
+                                li sires fet subscripcion el testamant, le doit dire que il fet
+                                contre le consoil au senat, car franchise apertendroit à lui et si
+                                lés porroit estre aquis à son seigneur. ¶ {10} Se cil qui escrit le
+                                testamant escrit que il li est enjoint que il doint franchise à son
+                                serf, voions se il est hors de paine por ce que il n’i a nul preu à
+                                lui, se il ne l’a escrit por [196vB] ce que li sers se rachat par
+                                grant pris et que il le franchise. ¶ {11} Cil qui escrit de sa main,
+                                quant uns chans fu lessiez à Tyce, que ce estoit soz tel condicion
+                                « se il donoit deners à celui qui escrivoit le testamant », il est
+                                en chaez en la paine au consoill dou senat. ¶ {12} Cil qui escrit
+                                par la volenté son pere que il soit desheritez, ou que il n’ait
+                                point de lés, n’est tenuz ne par les paroles ne par le consoil au
+                                senat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.23}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: l’en demande que est fausseté. Et il me
+                                senble que ce est fausseté se aucuns chainge autrui cyrografe, ou se
+                                il despiece ou efface libelle ou contes&#160;; mes cil n’est pas
+                                faussoniers qui me‹n›t en conte ou en rendre reson.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.24}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: uns hons qui fist son testamant commanda que sa
+                                fille fust hoirs de la dozieme part de son heritage, et si enjoint à
+                                cez qui estoient hoirs de .xi. parties que il franchissent un serf.
+                                Cil sers dit à la fille à celui qui fist le testamant que il porroit
+                                bien prover que li testamant estoit faus ; et quant la fille ot fet
+                                subscripcion el libelle de l’acusement, li prevoz pronunça que li
+                                testamanz n’estoit pas faus. L’en demande se la franchise et li lés
+                                sunt deu au serf aprés cest fet. Et la reponsse si est que
+                                nenil, selonc les choses qui sont proposees.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.25}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: cil qui a rendu fausses letres el non au prevost,
+                                ou qui a proposé faus banissement, est tenuz par aucion seur le fet
+                                por sofrir paine, ja soit ce que il soit corpables de la loi que
+                                Cornelius fist des faussoniers.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.26}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: se aucuns effaça le testamant son pere et se tint
+                                por oir, autresi comme se ses peres fust morz sanz fere testamant et
+                                fu issi morz, toz son heritage sera toluz par droit à l’oir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.27}</head>
+                        <div type="gp">
+                            <p>Modestius dit&#160;: uns sages hom de droit pronunça que cil qui
+                                distrent divers testemoines doivent estre tenu à la paine de ceste
+                                loi, autresi comme se il eussent fet faussonerie. {1} Et cil qui
+                                contre son seel aporte faus testemoine est tenuz par paine de
+                                faussonerie. Et cil qui a dit deus divers testemoines d’une meisme
+                                chose, si que l’en ne set le quel l’en doit croire, est tenuz par
+                                paine de faussonerie. ¶ {2} L’en ne doit pas doter que cil qui se
+                                tient [197rA] por chavalier, et aporte enseignes que il ne deust pa
+                                porter, ne doie estre griefmant puniz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.28}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se li deteurs en ment del jor en coi il engaja
+                                son gage, ce est fausseté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.29}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se aucuns fet menconge entendant au prevost de
+                                la contree ou par instrumant ou par libelle, ce que il fet ne vaut
+                                rien&#160;; et se il en est acusez, il soffrera la poine que cil
+                                soffrent qui acusent fausseremenz, et sera puniz autresi comme se
+                                cil eust fet faussonerie. Et plusors escriz ont esté fez de ce, mes
+                                nos ne recorderons fors que un de coi les paroles sunt teles&#160;:
+                                «&#160;se tes aversaires bailla son libelle et il ne dit pas verité
+                                en ses prieres, il ne puet pas user de subscripcion&#160;; mes se il
+                                en est acusez, il en doit soffrir paine&#160;».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.30}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: cil qui fet faus seel ou fausse subscripcion
+                                est à la paine de la loi que Cornelius fist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.31}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: li enpereres Pius escrit à Claudi‹us› que
+                                selonc la mesure de chascun mesfet doit l’en establir contre cez qui
+                                par devant les juiges ont aporté instrumanz qui ne puent estre
+                                prové. Et se l’en voit que il aient plus deservi que il ne puent
+                                soffrir, l’en face la chose savoir à l’enpereor, qui juigera comment
+                                il doivent estre puni. Mes li enpereres Marc et ses freres
+                                atrenperent ceste chose par leur humanité, si que tel instrumant
+                                sunt aporté avant par erreur si, comme il avient sovent, l’en le
+                                pardoint à celui qui l’aporta.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.32}</head>
+                        <div type="gp">
+                            <p>Modestius dit : cil qui corrumpent par tricherie les banissemenz qui
+                                sont proposz sunt puni par paine de faissonerie. ¶ {1} Se li
+                                venderres ou li acheterres corrump les mesures de froment et de vin,
+                                ou d’aucunes autres choses qui sont provees communement, ou il fet
+                                aucunne tricherie, il soit condempnz au doble de tant comme la chose
+                                vaut. Et li enpereres Adrians commanda que cil qui fausseroient les
+                                pois ou les mesures fussent ennvoié en essil.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.10.33}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se aucuns use de faus establissement, ou de ce
+                                que l’en ne set qui fist, la commune de feu et de eve, li est
+                                deffendue par la loi que Cornelius fist.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_11">
+                <front>
+                    <head>XI. De forfez de jeu de dez<note>La prohibition des jeux a été l'objet de
+                            fréquentes dispositions législatives dans les premiers temps de la
+                            monarchie française. Ainsi, l'ordonnance rendue à Paris, en décembre
+                            1254, <emph>pour la réformation des mœurs dans le Languedoc et le
+                                Languedoil</emph>, s'exprime de la sorte par son article 35&#160;: «
+                                &#160;<emph>Preterea prohibemus districtè ut nullu homo ludat ad
+                                tanillos, sive aleis aut scaccis&#160;; scholas autem deciorum
+                                prohibemus et prohiberi volumus omnino, et tenentes eas districtiùs
+                                puniantur. Fabrica etiam deciorum prohibetur.</emph>&#160;» Notre
+                            manuscrit (fol. 2 v°, c. 2) présente une traduction de cette
+                            défense&#160;: «&#160;Après nos défandon que nus jeue ès dis en nule
+                            manière, se n'est ès tables ou as eschaz&#160;; et défendons les escoles
+                            des diz, et volons que eles soent deffendues en totes manières&#160;; et
+                            cil qui les tendront soent puni duremant. Forge de diz soet défendue par
+                            tout.&#160;» L'ordonnance rendue à Paris, en 1256, <emph>pour l'utilité
+                                du royaume</emph>, répète les mêmes prohibitions et détermine la
+                            peine réservée aux infracteurs&#160;: «&#160;Item,&#160;» dit l'article
+                            10 de cette ordonnance, «&#160;que la forge des dez soit deffendue et
+                            devée par tout nostre royaume, et tout homme qui sera trouvé jouant aux
+                            dez communément, ou par commune renommée, fréquentant taverne ou bordel,
+                            soit réputé pour infâme, et débouté de tout témoignage de visite.&#160;»
+                            — Au reste, ce n'est pas dans la législation dont nous venons de
+                            rapporter quelques documents, que l'auteur de notre manuscrit a pris la
+                            matière du titre 11, auquel se réfère cette note&#160;; le titre 11,
+                            ci-dessus, est évidemment composé d'un extrait et d'une imitation du
+                            Digeste, <emph>de aleatoribus.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Li rois dit que se aucuns bati celui à qui il joet as diz, por acheson
+                            del jeu, il n'an fera jà droit, mès l'en doit prandre garde par quel
+                            chose ce a esté&#160;; et se ce a esté por chose qui vaille, l'en en
+                            doit bien fere droit, se li joeor s'entretolent aucune chose qui soit
+                            del jeu, li <pb n="326"/>rois aura auction de la chose tolue&#160;; mès
+                            il n'an auront point, car il n'en sunt pas digne<note>Dig., lib. 11,
+                                tit. 5, frag. 1, § 1.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Et nos devon entendre la meson, et por lieu et por habiter<note>Voy.
+                                ibid., § 2, <emph>in fine.</emph></note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Ce que l'en joe por metre maintenant en mangier est bien
+                                soffrable<note>Ibid., frag. 4, <emph>in
+                            principio.</emph></note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Se menor qui n'est pas bien encor en son poer, ainz est el poer à celi
+                            qui l'a en garde, joet as diz&#160;: et por ce, cil qui l'a en garde
+                            puet redemender. Ausint puet l'en del serf qui est en la garde son
+                                seignor<note>Ibid., frag. 4, § 1.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>Car matire de jeu vient de covoitisse, ne bons de haage ne puet apeler
+                            autre de qui (<emph>de ce qu'il</emph>) ait à lui joié, par ce qu'il
+                            pert sa digneté de demender en ce qu'il joe à lui.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>Li tutors pot demender por le menor, et prover par garanz, car en tel
+                            chose n'a point de bataille.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_12">
+                <front>
+                    <head type="gp">XII. [197rB] De demander arriere les deners que li baillif
+                        prenent à tort <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 48, tit. 11&#160;: <hi rend="i">De lege
+                                    Julia repetundarum</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {48.11.1}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: la loi que Julius fist de demander arriere deners
+                                que li bailli ont pris à tort apartient as deners que aucuns a pris
+                                quant il estoit en metrisse, ou en poesté, ou en procuracion, ou en
+                                legacion, ou aucun autre commun office, ou quant il estoit en la
+                                compoignie à aucun baillif. ¶ {1} La loi en excepte cez que il puent
+                                prendre, ce est de coisins et del lignage leur femes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.2}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: aucion est donee par ceste loi contre les oirs à
+                                celui qui estoit acusez dedanz un an aprés ce que il est morz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.3}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: cil sont tenu par ceste loi qui sont en aucunne
+                                poesté et prennent deners por juigier ou por lessier à juigier.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.4}</head>
+                        <div type="gp">
+                            <p>Senulcius dit&#160;: ou por fere plus ou mains que il ne doivent fere
+                                par lor office.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.5}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: juigemenz est donz contre conte par ceste loi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.7}</head>
+                        <div type="gp">
+                            <p>Macer dit&#160;: la loi que Julius fist de demander arriere ce que li
+                                ballif prenent à tort deffent que nus ne preigne loer por doner
+                                juige ou arbitre, ne por envoier le, ne por [197vA] commander li que
+                                il face droit, ne por lessier à fere aucunne de cez choses, ne por
+                                metre home en communs lieus, ne por commander que il soit liez, ne
+                                pot lessier le aler, ne por deslier le, ne por condempner home, ne
+                                por assoudre le, ne por proisier plet, ne por fere juigement capital
+                                ou por chetel. ¶ {1} Il apert que la loi octroie que l’en preigne
+                                aucunne chose de cez qui ne sont pas nonbré en ceste loi&#160;; mes
+                                de cez qui i sunt nonbrez n’est il pas otroié que l’en preigne
+                                aucunne chose. {2} Mes l’en puet bien prandre à fere les communes
+                                ovres et assenbler les communs fromenz et à fere les autres chose
+                                qui sont necessoires au commun. ¶¶ {3} Cil qui mesfont en ceste loi
+                                sunt puni hors d’ordre&#160;; et sunt aucunne foiz envoié en essil,
+                                ou puni plus cruelment selonc ce que il ont mesfet ; car se il
+                                prenent deners d’or por ocerre un home, ou se il ne les ont, si leur
+                                sunt il promis, ou por condampner celui qui n’a rien mesfet, il
+                                doivent estre puni par paine capital, et estre envoié en essil
+                                pardurable, si comme plusor ont esté puni.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.8}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: ce qui est doné au visconte ou au prevost contre la
+                                loi que Julius fist ne puet pas estre gaagnié par longue tenue. {1}
+                                Cele meisme loi despiece les ventes et les loages qui leur sont
+                                fetes por moins que à autres, et enpesche que la chose ne puisse
+                                estre gaagnie par longue tenue devant que ele soit revenue en la
+                                poesté à celui dont ele eissi ou à son hoir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {48.11.9}</head>
+                        <div type="gp">
+                            <p>Papinians dit&#160;: cil qui ont<note>ont] <emph>a</emph> dans le
+                                    ms., cf. lat. <emph>Qui munus publice mandatum accepta pecunia
+                                        ruperunt, crimine repetundarum postulantur</emph></note>
+                                pris le loier por quiter le servise qui estoint enjoinz communement
+                                sont puni par la paine que Julius fist de ce que li ballif prenent à
+                                tort.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_13">
+                <front>
+                    <head>XIII. Des previléges as mariez et des religios<note><hi rend="sc"
+                                >DECRETALIUM</hi> D. <hi rend="sc">GREGORII PAPÆ</hi> IX, lib. 3,
+                            tit. 3, De clericis conjugatis.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>L'en dit ci, que se clerc dedanz<note>Infrà.</note> l'ordre de soz-diacre
+                            se marie, que l'en li doit tolir son bénéfice, et doit remanoir o sa
+                            feme. Et s'il est soz-diacre, li mariage doit estre
+                                départiz<note>Decret. Greg. IX, lib. 3, tit. 3, cap. 1.</note></p>
+                        <p>Enten que clerz qui n'est soz-diacre, et se marie, doit remanoir o sa
+                            feme, et perdre le bénéfice de s'iglyse&#160;; et clerc soz-diacre qui
+                            se marie doit sa feme lessier.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Nul clerz mariez ne doit estre pris à governer yglise, s'il ne voe
+                            continence, et cel qui n'a eu que une fame et pucele<note><emph>Nisi
+                                    forte castitatem voveret perpetuant, et qui unicam et virginem
+                                    habuisset uxorem</emph>&#160;; ibid., cap. 2.</note>.</p>
+                        <p><pb n="327"/>Enten que nus mariez ne doit estre prestres, s'il n'a eu que
+                            une feme et pucele.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Se acolitre se marient, et ont bénéfice d'yglise, il ne le puent tenir,
+                            car il ne puent estre environ auter (<emph>autel</emph>) por
+                            l'ordure&#160;; et s'ont riens doné à iglyse, il le doivent avoir, porce
+                            qu'il sont hors d'iglyse<note>Decret. Greg. IX, lib. 3, tit. 3, cap.
+                                3.</note>.</p>
+                        <p>Enten ausit com l'en dit ordure, est de henté (<emph>hanter</emph>) à sa
+                            feme.</p>
+                        <p>Mès enten que quant à servise d'yglise, et qui bénéfice pert, pert
+                            l'ofice.</p>
+                        <p>Et cil qui se part d'iglyse, ce que il dona il doit avoir, et c'est
+                            voirs, quant il se part par l'autorité au juige, non pas por sa
+                            colpe.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Cum uns clerz fust mariez, ses évesques le forçoit porter corone&#160;;
+                            par quoi il se plaint le roi, qui dit&#160;: Comme clerc mariez ne se
+                            puisse joïr de previliége de clerc, et il li conviegne fere totes les
+                            choses par quoi il plese à sa feme, et convient qu'il soit ententis ès
+                            choses del monde, il ne doit pas estre forciez de porter corone, por
+                            plere à sa feme&#160;; car lede chose a en la tonsure et en la
+                                roigneure<note>Ibid., cap. 7.</note>.</p>
+                        <p>Enten que clerc mariez ne puet avoir priviliége de clerc, ne l'en ne le
+                            puet forcer de porter corone.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>Uns clerz estoient en une terre, qui ne portoient pas corone, qui se
+                            marioient, et que l'en ne lor deffendist<note>Pour qu'on n'exigeât point
+                                d'eux,...</note> lor servise qu'il devoient, il prenoient corone
+                            arrière, issint conchioient lor seigneur de ce qu'il devoient.</p>
+                        <p>Et uns autres estoient qui se marioient, et portoient corone por tolir à
+                            lor seigneur lor droitures et lor seignories.</p>
+                        <p>Li rois dit que il viaut que tex genz soient josticié, et qu'il soient
+                            mis en ort lieu, et en mauvès, s'il ne se volent chastier<note>Décret.
+                                Greg. IX, lib. 3, tit. 3, cap. 9.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>Enprès l'en dit que évesques ne puet lessier sa citié, ne aler aillors
+                            por i remanoir. Et s'il le fet, li rois puet fere prendre toz ses biens
+                            tenporex, jusque il soit venuz à amendement.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>Li rois dit aissint que à cex soient donées les provandes et les iglyses,
+                            qui servir les puissent. Et qui issi ne le fera, l'en prendra les biens
+                            tenporels en sa main.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p><pb n="328"/>Enprès il commende que clerc qui laisse à servir sanz droite
+                            cause, que l'en praingne totes ses choses tenporelx<note>Decret. Greg.
+                                IX, lib. 3, tit. 4&#160;: <emph>De Clericis non residentibus in
+                                    ecclesia vel prœbenda</emph>, cap. 1, 4, 6.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>Clerc ne doit mie avoir chose d'iglyse, s'il ne désiert&#160;; et por ce
+                            furent-eles donées. Et priviliége donez contre ce ne doit tenir, fors en
+                            cas, c'est à savoir se aucuns est enpeechiez par droite cause, por quoi
+                            il ne le puisse fere<note>Ibid., cap. 10.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§. 10.</head>
+                        <p>Enten qui chastie les félons et les mauvés, il ne fet pas contre loi.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_14">
+                <front>
+                    <head>XIV. D'osures et de fere rendre les osures as héritiers per loiaus
+                        proves.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>L'en establist ci que nus ne soit usurier. Et se aucuns prant d'aucun
+                            aucune teneure, praigne les fruiz, et soient contez en aquit. Et
+                            quicunques ce fera, soit mis en poine<note>Ibid., lib. 5, tit. 19, cap.
+                                1.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Enprès demende l'en, se l'en puet prester à osure por réambre
+                            chétis&#160;? L'en dit que non, que l'en ne doit fere grâce en crime
+                            d'osure, et l'en ne doit pas fere mal por senblance de fere
+                                bien<note>Ibid., cap. 4.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Li setiers vaut cinq sols&#160;; je le vaing six à rendre à Pâques. L'en
+                            demende se l'en le doit fere&#160;? Et l'en dit que non, et deffant l'en
+                            que l'en ne face plus ce<note>Ibid., cap. 6.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Uns hons se plaint d'un autre, qui tenoit sa terre en gages, et qui avoit
+                            eu des fruiz outre le chetel. Li rois commende que s'il est issint,
+                            qu'il ait sa terre arrière<note>Ibid., cap. 8.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>Li filz aus osuriers, qui sont hoirs leur père, sont tenu à rendre les
+                            usures que lor pères ont eues, quant li pères sunt mors<note>Ibid., cap.
+                                9.</note></p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>L'en demende ci deus choses&#160;: se cil est usuriers qui baille les
+                            deners sanz nule convenance, et nus n'en baillast, s'il ne cuidast avoir
+                            guarredons.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>Enprès demende l'en se cil est usures qui vent sa chose por<note>Ibid.,
+                                cap. 10.</note><pb n="329"/>plus qu'ele ne vaut, à terme&#160;? Et
+                            l'en dit qu'il font mal, car pure volenté fet l'usure<note>Decret. Greg.
+                                IX, lib. 5, tit. 19, cap. 6.</note></p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>Li usurier font jurer à lor créanciers<note>Il faut lire
+                                    <emph>débiteurs</emph>.</note> qu'il ne redemenderont lor
+                            usures, et qu'il les rendront. L'en commende ci que bien les puent
+                            demender, et que li osurier soient forcié au poier&#160;; car nus ne
+                            doit gaagner profit por mal fere<note>Ibid., cap. 8.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>Uns hons se plaint d'un autre, et dit qu'il a eu cent sols de lui de
+                            usure, et dit comment, et l'offre à prover par soi et par garanz. Et li
+                            corpables fet encontre tel ni et tel deffansse comme il doit. L'en
+                            demende qu'an dit droit&#160;? et l'en dit que il n'i a que
+                            serement&#160;; et li chois est au copable. Mès deux garanz
+                            vausisoient.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_15">
+                <front>
+                    <head>XV. De us et de privilège, et de chartre dessessie, et de interrupcion par
+                        léal us apert et par tenue qui soffist en cort de baronie.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>L'en dit ci&#160;: qui a privilége, et n'en use dedanz dix anz, que li
+                            priviliéges ne li doit rien valoir<note>Sous la rubrique <emph>de
+                                    privilegiis et excessibus privilegiatorum</emph>, Decret. Greg.
+                                IX, lib. 5, tit. 33, cap. 6 et 15, on voit les priviléges dont la
+                                prescription est soumise aux termes de trente et quarante
+                                années.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Uns si avoit un usage en un bois, par privilége, à ardoir et à
+                            herbergier&#160;; et vandi son usage, quant il s'en devait herbargier.
+                            L'en demende qu'en dit droiz&#160;? Et l'en respont qu'il pert
+                            l'usage&#160;; car il requenoist malvésement le bien que l'en li a
+                                fet<note>Ibid., cap. 11.</note>.</p>
+                        <p>Enten que qui use de son privilége par tricherie il le pert.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>L'en demende comment l'en puet quasser priviliége, don l'en dit que l'en
+                            a usé tricherressement&#160;? Et l'en dit par présant, ou par
+                            conoissance. Et se li présanz est niez, enqueste corra, et rendra ce que
+                            sera trové en l'enqueste. Et se l'en met sus sanz présant, que l'en ait
+                            mesfet, en tel chose n'a que sormise, ce n'est que preuve&#160;; car
+                            moult seroit grief chose, se (<emph>de</emph>) ton don que je aurai fet,
+                            me venait maus, c'est à entendre qu'il m'en convenist fere bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p><pb n="330"/>Uns d'une religion orent un priviliége del roi, que toz cez
+                            qui se rendoient en lor ordre seroient franc de costume. Icil religios
+                            recevoient genz, et lor metoient seignaus ès piz, et voloient qu'il
+                            fussent frans de costumes. L'en demende qu'en dit droiz&#160;? Et l'en
+                            respont que tel chose ne fet mie à sofrir<note>Decret. Greg. IX, lib. 5,
+                                tit. 33, cap. 11.</note>. Car tel chose est plus fete por tolir la
+                            droiture au seignor que por autre chose, ne il ne me doit pas venir
+                                (<emph>mal</emph>) de là don li bien me doit venir.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>L'en demende se préviliége qui est fez en péchié est tenables, et qui fet
+                            plus contanz que pez&#160;? L'en dit que tex priviliéges n'est pas
+                            tenables&#160;; car torz ne doit pas issir de là don droiz doit
+                            nestre.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>Por ce que Templiers et Hôpiteliers fessoient moult de maus por lor
+                            préviliéges, li rois establi ci qu'il ne recètent nus qui s'en fuie por
+                            son fet&#160;; et s'il recètent aucun frère, qui encore ce qu'il ont
+                            remaignant ou siècle, tex ne sont pas hors del poer le roi, ainz soient
+                            josticé comme li autre.</p>
+                        <p>Cist establissemenz soit gardez&#160;; et qui fera encontre, l'en praigne
+                            totes ses choses temporelx, et soit hors de la garde le roi. Car l'en ne
+                            doit pas celui garder qui autrui droiture viaut dépécier. Et cil qui ne
+                            sont convers ne doivent pas avoir préviliége de convers<note>Ibid., cap.
+                                3.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>Li borgois de une ville avoient un priviliége dou roi, et enprès le
+                            perdirent, et requitrent le roi, com il eussent lor privilége perdu,
+                            qu'il lor en feist un autel, por garder la ville de domage. Et cil qui
+                            estoit tenuz au fere, et com cez qui estoient prez de prover la tenor de
+                            lor prévilége, et disoient, par plusors fez estoit li préviléges veuz en
+                            l'ostel le roi par devant le roi. Et li rois sot tot ce, et demende
+                            qu'en dit droiz&#160;? et l'en respont que lor préviliéges doit estre
+                            refermez, car nus ne doit avoir domage sanz colpe<note>Ibid., cap.
+                                12.</note>.</p>
+                        <p>Rois doit porvoer son pueple par reson, et aus garder de péril et de
+                            domage.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>Li borgois avoient un préviliége, qu'il ne devoient point d'ost en
+                            réaume, et se voloient deffendre par cest prévilége, qu'il avoient del
+                            roi. L'en demende qu'en dit droiz&#160;? Et l'en respont que tex
+                            priviléges <pb n="331"/>ne vaut riens&#160;; car cil qui le dona, ne's
+                            pot fere frans plus que soi&#160;; et préviléges qui est fez contre
+                            commun profit ne vaut riens, car tel préviliége amoine péril de
+                            perdurable salut.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>Il avoit clerz en un lieu, et lessoient habit de clerc, et fessoient mout
+                            de ribauderies&#160;; enprès prenoient habit de clerc por deffandre lor
+                            folies. Li rois commende que se tex bacheliers sunt pris, qu'il soient
+                            mis en une longuaigne, cum l'en ne doie pas soffrir ribauderies, mes
+                            lancier-les en mauvés leu<note>Décret. Greg. IX, lib. 5, tit. 33, cap.
+                                37.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p>Por ce que en France, et an moult de leus, n'use l'en pas des lois de
+                            Rome, et poi trove la cause que par droiz de costume et de décrez ne
+                            puisse estre déterminée, por ce deffant li papes Honoires et li rois de
+                            France que celes lois ne soient leues à Paris, ne iqui anviron&#160;; et
+                            qui encontre ce fera, ne soit pas oïz en cause, et soit
+                                escommeniez<note>Ibid., cap. 28. Il s'agit ici de la célèbre
+                                    decrétale<emph>super specula</emph>, par laquelle Honorius III,
+                                en 1220, a défendu l'étude et l'usage du droit romain à Paris et
+                                dans les lieux environnants. Il est curieux de voir rapporter par
+                                l'auteur de ce manuscrit une défense dont l'infraction constitue à
+                                peu près le tiers de l'ouvrage qu'il a composé.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p>Aucuns reçoit la franchise de l'Opitau ou del Temple, et d'aillors, et
+                            prenoient sainz, et les metoient en lor robes, et voloient avoir tel
+                            priviliége com cil qui estoient en la religion. Li rois commende que tex
+                            vilains soient de tel jostice comme li autre vilain del païs, et que ce
+                            ne lor vaille riens.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_16">
+                <front>
+                    <head>XVI. D'apiaus, de supplicacion et de faus juigemenz.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Qui apele de malvés juigemenz n'a pas aucion contre les juiges, ne contre
+                            les juigeors, an els riens demander&#160;; mès les demendes et les
+                            deffansses apartienent as parties averses. Et ce fu juigié de l'abie de
+                            Corbie et la commune, et de monseignor Johan de Saint-Cler et dou conte
+                            de Bloys, et do prior de Saint-Sanson d'Orliens, et des homes
+                            d'Aratvile, et de monseignor Guillaume de Nulli, et de une habaesse
+                            noère d'anviron celui leu&#160;: si comme l'en l'use en l'ostel le
+                            roi.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Segont la costume de France, l'en ne doit pas apeler, car ce n'a <pb
+                                n="332"/>pas esté usé. Mès se aucuns est grevez de juigement, il
+                            doit dire tex paroles&#160;: «&#160;Je me tiens à grevez de la sentence
+                            que vos avez donée contre moi, qui n'est pas bone, ne tele comme ele
+                            doit estre selonc les us de la terre, ainz est malvèse, et ne me tiens
+                            pas [à] apaieiz, car li juigemenz est faus&#160;; si en requier
+                            l'amendement dou soverain.&#160;»</p>
+                        <p>Et quant il vient devant le soverain, si doit dire tex paroles&#160;: «
+                            &#160;Sire, je soploi à vos, comme à soverain, que li quens de Blois a
+                            donée sentence contre moi en la cause d'une meson, qui ere entre moi et
+                            Gaubert, asise en tel leu et en tel censive&#160;; et à tel jor fut
+                            donée, et de tex genz&#160;; laquele est fause et mauvèse, et non
+                            droiturière, selonc les us do païs&#160;: por laquel chose, sire, je vos
+                            requier amendement dou juigement.</p>
+                        <p>Lor si doit dire la cause resonable por quoi li juigement est mauvès.</p>
+                    </div>
+                    <div>
+                        <head>§ 3<note>Ce qui suit jusqu'à la fin du § 3, est ajouté en marge du
+                                manuscrit avec un renvoi.</note>.</head>
+                        <p>Et li clein, et li répons, et li errement tuit [de] ce plet, doivent
+                            estre raporté en la cort dou souverain, et segont les erremenz et la
+                            suite dou plet, l'en fera tenir ou dépécier le juigement&#160;; et que
+                            cil qui sera trovez en tort, l'amendera par la costume de la terre, et
+                            segont ce que li rois a establit desus en ses Establissemenz, ou titre
+                                d'<emph>apeler son seignor de défaut de droit,</emph> et <emph>de
+                                fauser juigement en cort de roi</emph><note>Ces titres font partie
+                                du livre préliminaire&#160;; on les trouvera ci-après à l'Appendice,
+                                p. 348.</note>. Et issint est-il usé en l'ostel le roi.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>L'en doit somer son seignor lige par quinzenes [et] par quarantenes, tant
+                            que li anz et li jorz soit passez, et lors, se il ne velt ce que il a
+                            meffet amender, o fet rendre à son home sa chose, lors se puet plaindre
+                            de lui. Mès se il est issint, entre deus, que sis hons perde le sien, et
+                            il l'aist requis resonablement antre deus, et il pert le sien, tantost
+                            il se puet plaindre de lui sanz dilacion.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_17">
+                <front>
+                    <head>XVII. D'esoinemenz de jor.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Se aucuns est semons devant son seignor lige, ou devant son seignor de
+                            mains, ou censier devant son seignor, et il se deffant par trois simples
+                            semonses, et la quarte soit fete par ses homes, et par juigemanz, <pb
+                                n="333"/>et défauz juigiez&#160;: se il vient enprès requerre le
+                            sien, il ne l'aura pas, ainz plédera le sien devant
+                                <emph>(tenant)</emph>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Derechief, se li bons ou li censiers sueffre issint, et trois foiz est
+                            semons par les liges homes au seignor, et juigiez an défauz&#160;; et
+                            après toz ces erremenz est semons de quaranteine, à venir voir le
+                            juigement de la sesine, ou à dire encontre&#160;: se il ne vient por
+                            fere ce que il doit de toz erremanz, l'en ajuigera à l'aversere la
+                            sesine, ou au seignor, se li sires demende, sauve le droit de la
+                            propriété, selonc les us do païs, et la costume de la terre aprovée an
+                            cort de barons<note>La table des rubriques ajoute trois titres que le
+                                corps du manuscrit ne contient pas&#160;: <emph>De l'usage
+                                    d'Orlenays&#160;; De prendre malfeteurs&#160;; Des borgois
+                                    d'Orliens.</emph></note>.</p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

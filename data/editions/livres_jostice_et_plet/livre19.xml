@@ -1,0 +1,2250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre19">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: « Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu'elle apparaît dans l'édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-07" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI DIX-NEUVIESMES LIVRES</head>
+        </front>
+        <group>
+            <head>LI DIX-NEUVIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="287"/>
+                <front>
+                    <head>I. Comment l'en doit apeler home de larrecin.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns hons dit que un autre li a enblé un cheval, et l'en a veu sési, qui
+                            bien valoit cent sols, et l'anmena&#160;; et s'il viaut dire que ce ne
+                            soit voirs, il est prez de mostrer et de l'avérer que ce est voirs, si
+                            comme la cort agardera que il fere le doie. A ce l'on li respont&#160;:
+                            comme il ne die pas qu'il sache ce de voir ne de savoir, l'en ne li
+                            viaut respondre à tel demende, se droit n'est. Et droiz dit qu'il i doit
+                            respondre, com, se la chose fust prise apertement, ce ne fut pas
+                            larrecin, mès manière de larrecin, ansint comme ravissement.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Autre qui apèle autre de larrecin, n'i doit pas metre le voir ne le
+                            savoir. Car qui apèle autre de larrecin, assez i mest que de son cors.
+                            Et quiconques apèlera autre de larrecin, et dira de quoi, et est sa
+                            persone nécessere&#160;: ou cil conoistra le larrecin, ou il s'en
+                            deffendra vers l'autre par gage de bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Uns si apela un autre, et dist que il estoit lierres, et estoit prez de
+                            mostrer, s'il le voloit nier. Cil fist encontre tel ni comme il dut. Et
+                            l'an dit que an tel chose n'a point de gage, comme l'en n'i voie pas
+                            chose de quoi.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head>II. D'omecide, et comment l'en en doit apeler.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns si dist issint&#160;: Gautier féri mon frère d'un baston, dun il
+                            prist mort, et ce je vi&#160;; et s'il viaut dire que il ne soit issi,
+                            je sui prez dou montrer et de l'avérer. Li autres respont que de ce ne
+                            fist-il riens, <pb n="288"/>et fet tel ni com il doit. Et l'en dit, que
+                            selonc la parole et selon la responsse, qu'il i a bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Et se aucuns apèle aucun de la mort d'un home, qui ne soit pas trovez,
+                            l'en demende qu'en dit droiz&#160;? Et l'en respont que ce n'est pas
+                            demende, cum nus n'est pas veuz morz, s'il n'est veuz morz, ou s'il
+                            n'est veuz morir.</p>
+                        <p>Cil est bien veuz morir qui est getez en Loire, et n'est pas trovez.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Totes les foiz que hons est morz, et a cos et a colées, dom il a pris
+                            mort, cil qui ont ce fet sont homecide. Et l'en puet apeler de larrecin,
+                            de murtre, sanz i metre ne voir ne savoir&#160;; de t raïson,
+                            ausit&#160;; d'omecide, non.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p><ref target="http://josticeetplet.huma-num.fr/items/show/3">Johen de
+                                Beaumont</ref> dit que chanpions loiez, prové de tel chose, ne puet
+                            home apelier à gage de bataille an nul quas, si n'est por chanpion loeiz
+                            por sa deffansse&#160;; car la poine de sa mauvese vie le doit bien en
+                            ce punir.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head>III. Comment l'en doit apeler home d'omecide.</head>
+                </front>
+                <body>
+                    <div>
+                        <p>Cist titres dit issit comment l'en doit apeler d'omicide.</p>
+                    </div>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns si dit issi&#160;: Cel home ocist Robert, son frère, et dona cos et
+                            colées, don il prist mort&#160;; et an tel tens, n'a pas quatre
+                            mois&#160;; et ce je vi&#160;; s'il le conoist, biau m'en est&#160;;
+                            s'il le nie, je sui prez dou mostrer et de l'avérer en chanp et par
+                            bataille, si comme je devrai, et cil qui vit ce.</p>
+                        <p>Et li autres respont&#160;: Je faz encontre tel ni et tel deffanse comme
+                            je doi. Droit dit que li copables est loisanz de prendre la prueve de
+                            lui, et de quenoistre que c'est voirs, ou d'escondire par gage de
+                            bataille. Et fera se li corpables, si comme juigement le aporte, comm
+                            home qui a son essoine.</p>
+                        <p>Or dit li demenderres qu'il ne veaut pas qu'il se change, por ce qu'il ne
+                            mist au commoincement l'esoine, tote soit-ele paranz. Et li copables dit
+                            que tot ne le meist-il au commoincement, et il le mist en l'ore que
+                            juigemenz la aporte, que ce fust assez. L'en demende qu'en dit
+                            droiz&#160;? Et l'en dit que bien puet mestre s'esoine avant et
+                            enprès&#160;; et s'il est paranz, il se puet changier.</p>
+                        <p><pb n="289"/>Enten que nus ne se puet changier d'essoine, se ele n'est
+                            paranz, des quas don li cors sont dampnable, c'est à savoir de murtre,
+                            d'omecide, de traïson, de larrecin, de rat. Et nus ne puet autre apeler
+                            d'omecide, s'il n'i met le voier&#160;; ne nus n'en est oïz, s'il ne
+                            taint au mort de lignage, ou s'ele n'est sa fame esposée.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head>IV. Comment l'en doit apeler home de traïson et d'omecide.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns dit issint&#160;: Pierres assailli mon frère, et nuitantre, si comme
+                            il aloit sa voie comme prodom en sa besoigne, à tel jor, et l'ocist en
+                            traïson&#160;; et s'il viaut dire que ce ne soit voirs, je sui prez dou
+                            mostrer et de l'avérer contre son cors, qu'il est issi&#160;; et je le
+                            di comme hom qui a son essoine. Li autres respont&#160;: Et je sui prez
+                            de fere encontre tel ni et tel deffansse comme je doi, comme home qui a
+                            son essoine. Droiz dit qu'il se conbatront ensenble, s'il ne puent
+                            mostrer asoine parant. Et s'il puent mostrer essoine parant, chescuns se
+                            changera, et aura avoé.</p>
+                        <p>Antant que en apiau de murtre n'a point de consoil. Et qui apèle de
+                            murtre, si doit dire la parole par quoi li murtre i soit. Et murtre si
+                            est, quant home est ocis nuitantrée, por quoi il ne viegne apenséement à
+                            la meslée, ou en trives, ou an agait de chemin, ou eu menière que il ne
+                            voie le cop venir, ou quant il est si sorpris que il n'a poer de soi
+                            deffendre. Et si sofist que l'on n'i meste le voer ne le savoir.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Or demende l'en se l'en puet apeler autre de murtre, s'il n'est paranz
+                            au mort&#160;? Et l'en dit que nenil, hom (<emph>ou</emph>) s'il n'a sa
+                            feme esposée.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head>V. De traïson, et comment l'en en doit apeler.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns hons apèle un autre de traïson, et dit issit&#160;: P. m'a féru et
+                            batu, et dedanz trives que je avoie à lui, dont je di qu'il est
+                            traïtres&#160;; et s'il veaut dire que ce ne soit voirs, je sui prez de
+                            mostrer et de l'avérier, si comme je devroi. Li autres fet encontre tel
+                            ni et tel deffansse comme il doit. Et droit dit que en ceste chose a
+                            gage de bataille, s'il i a sanc ou chable.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="290"/>Or demende l'en se l'en apèle de traïson, et l'an ne monstre
+                            cause de forfet, se l'an i doit respondre&#160;? Et l'an dit que
+                            non.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Nuitantre fere forfet est traïson, trive anfrete est traïson&#160;;
+                            férir, et l'en ne voie pas le venir&#160;; férir, sanz deffier, et de si
+                            près que l'en ne se puisse destorner.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head>VI. Comment l'en doit apeler de murtre.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns hons si dit que uns autres a ocis un sien coisin an murtre, issint
+                            qu'il le féri par derière dou costel, si que ne vit pas le venir&#160;;
+                            et de ce cop il mori&#160;: don il l'apèle murtrier, et l'offre à prover
+                            et à avérer. Li autres fet encontre ce qu'il doit. Et l'en dit que en
+                            tex paroles a bataille de murtre&#160;: car home qui est féruz de cop
+                            que il ne voit venir, tel cop i met traïson, s'il n'est en
+                            deffiance&#160;; et traïson et homecide mellé ensenble fet murtre.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns apèle un autre de murtre, et dit qu'il ocist, et li dona le cop don
+                            il prist mort. Li autres dit encontre qu'à ce ne viaut-il pas respondre,
+                            comme, par la conoissance de la parole meismes, n'i a point de murtre.
+                            L'en demende qu'en dit droit&#160;? Et l'en respont qu'il ne respondra
+                            pas comme à murtre, mès il respondra comme à homecide.</p>
+                        <p>(<emph>Homicide</emph>) fet nuitantre fet murtre. Et totes traïsons
+                            mellées à homecide fet le murtre. Ne murtre n'est pas s'il n'est
+                            fez.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head>VII. Comment l'en doit apeler de rat.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De rat. — Rat est gésir à feme à force&#160;; ne nus ne puet apeler
+                            home, se la feme, (<emph>de</emph>) son cors, ne l'an apèle.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Une feme dit issi&#160;: Renaut a géu à moi à force, à tel jor, en tel
+                            leu&#160;; et s'il viaut dire que ce ne soit voirs, je sui prez de
+                            monstrer et de l'avérer comme feme. Et cil fet encontre tel ni et tel
+                            deffansse comme il doit, que il ne le fist pas. Et l'en dit que en tex
+                            paroles a bataille, et que la feme puet doner s'avoerie à aucun, qui ce
+                            prove par lui porquoi il ne soit loiz.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Et totes les foiz que l'en voint le poer de la feme par le sien poer, et
+                            en cele foibleté gist l'en à li, c'est force. Et de tex choses nessent
+                            batailles, se cil qui fet le fet ne le viaut conoistre.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <pb n="291"/>
+                <front>
+                    <head>VIII. Comment l'en doit apeler home de rat</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Comment l'en doit apeler home de rat. — Marie dit issi devant le
+                            juige&#160;: Je me plain de G..., qui vint à moi en une meson où je
+                            estoie, et just à force à moi charnelment, et fist tel force que sis
+                            poers venqui le mien, à tel jor. Et s'il viaut dire que ne m'oit ce fet,
+                            et à force, je sui prez do mostrer et de l'avérer comme je doi. Et cil
+                            fet encontre tel ni et tel deffansse comme il doit. Et droiz dit qu'il
+                            est loisanz de prendre la prove à la feme, et dire que c'est voirs, ou
+                            d'escondire par gage de bataille. Cil l'esconduit, si comme juigement le
+                            aporte, comme home qui a essoine.</p>
+                        <p>Or dit l'en que la feme se puet changier, et mestre avoié por soi&#160;:
+                            car costume est que fame ne se doit pas conbatre. Et cil se puet
+                            changier, s'il mostre essoine parant.</p>
+                        <p>Antant que nus ne puet apeler autre de rat, se n'est li cors de la feme à
+                            qui le mesfet aura esté fet. Et qu'il (<emph>ne</emph>) mostre s'essoine
+                            an leu ou en tens, il ne se puet changier, tot l'ait-il.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Qui apèle de rat doit metre en sa demende le leu et le tens, ou il n'i a
+                            pas gage.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Cil qui apèle de mahing, si doit metre le jor et le leu que il fut
+                            fez.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_09">
+                <front>
+                    <head>IX. Comment l'en doit apeler de membre tolu</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De membre tolu. — Un home dit issint&#160;: Johen m'a copé le poing
+                            d'une espée, don je sui mahignez à tort&#160;; s'il le me conoist, biau
+                            m'en est&#160;; s'il le nie, prez sui do mostrer et de l'avérer&#160;;
+                            et vez-ci li mahaing apertement. Johan respont, et dit qu'il no fist
+                            pas, et en offre à fere tel ni et tel deffansse comme il doit. Et droiz
+                            dit qu'il a bataille. Or demende l'en, por ce qu'il n'a pas dit, si com
+                            il doit&#160;; et juigement est fez, s'il se puet changier&#160;? Et
+                            l'en dit que non, segont les moz. Et s'il eust mis «&#160;si com je
+                            doz&#160;» il se puet changier.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Mahing si est poing copé, doi copé, pié copé, manbre brisié qui ne pot
+                            renoier, ouil crievé, oreille copée, nés copé.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p><pb n="292"/>Et totes bleceures dont l'en pert la force de son cors et de
+                            ses membres, et de totes ces choses devant dites, donc sanc ist, et
+                            mahen, nessent batailles, parquoi cil voille qui demande, se cil à qui
+                            l'en demende ne conoist le fet, ou s'il ne se deffant. Et de ces choses
+                            puet l'en apeler sanz garanz&#160;: car li forfez, qui apert, est
+                            garanz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_10">
+                <front>
+                    <head>X. Comment l'en doit apeler de roberie</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De roberie. — Roberie si est quant aucuns agarde por tolir les choses à
+                            aucun marcheant, ou antrer en aucune meson de nuiz, à force et sanz
+                            force, por porter en les choses de l'ostel.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns dit issit&#160;: Je aloie mon chemin&#160;; Phelipes m'asailli en mi
+                            le chemin, et me toli mes deniers que je portoie, à tel jor, comme
+                            roberres. S'il le conoist, biau m'en est&#160;; s'il le nie, prez sui de
+                            mostrer et de l'avérer contre son cors. Phelippes nie&#160;; et fet
+                            encontre tel ni et tel deffansse comme il doit. L'en demende qu'en dit
+                            droit&#160;? Et l'en dit que tex moz font bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Or demende l'en se il disoit que il eust assailli, sanz plus, et ne eust
+                            riens dou sien, et autre chose ne li eust fet, se de tex moz nestroit
+                            bataille, tot n'i eit il roberie&#160;? Et l'en dit que non&#160;: car
+                            il n'i a pas chose porquoi il i eust bataille.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_11">
+                <front>
+                    <head>XI. Comment l'en doit apeler de roberie</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en doit apeler home de roberie. — Roberie si est quant l'en
+                            antre en la meson à un prodome par sostif engin, de nuiz ou de jorz, et
+                            l'en enporte le sien ostre son grié, et l'en cèle ce que l'en enporte.
+                            Aguet de chemin est roberie, soit aperte, soit repote.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns dit issit&#160;: Gautier vint en ma meson, à tel jor, et l'ovri par
+                            sotif engin, et enporta la moie chose, une chape, en roberie, et à
+                            force, et de nuiz. Et s'il viust dire que ce ne soit voirs, je le sui
+                            prez de mostrer et d'avérer contre son cors, si com je doi, comme cil
+                            qui le vit. Li copables fet encontre tel ni et tel deffense com il doit.
+                            L'en demende qu'en dit droiz. Et l'en respont que li copables est
+                            laisanz <pb n="293"/>de prandre la prove, et de conoistre que c'est
+                            voirs, ou d'escondire par gage de bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Uns autres bons si dit issit&#160;: Cil hom vint am ma meson, et prist
+                            la moie chose, sanz mon seu, tel chose, et o roberie, à tort. Et s'il
+                            nie que ce ne soit voirs, je sui prez de mostrer et de l'avérer. Et li
+                            copables respont&#160;: Com cil ne die mie de savoir ne de voer, et la
+                            demende atoche à dampnement de cors, ne ne die mie qu'il m'ait veu sési
+                            de la chose qu'il me met sus que j'é robée, par quoi je ne li voil
+                            respondre, se droiz n'est&#160;; partant, m'en voil passer&#160;; et se
+                            partant ne m'en past, plus en dirai, tant que tort ne m'en prendra. L'en
+                            demende qu'an dit droiz&#160;? Et l'en dit que il n'est pas tenuz à
+                            respondre à sa demende, comme cele qui ne fet mie qu'il soit certains en
+                            nule chose de la demende qu'il fet.</p>
+                        <p>Enten que deux manières de roberie sont&#160;: aperte et repote. Qui velt
+                            prover, si doit dire le voir et le savoir. De la reposte ne conviant pas
+                            dire le voir ne le savoir, fors en une menière, que il est veu sési de
+                            la roberie&#160;: de tant est assez.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_12">
+                <front>
+                    <head>XII. Comment l'en doit apeler de sanc et de chable</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De sanc et de chable puet home apeler sanz garanz.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Tierri, uns hons, si dit&#160;: Gaubert m'a fet lédure, et m'a fet
+                            sanc&#160;; et s'il velt nier que ce ne soit voirs, prez sui de mostrer
+                            et de l'avérer vers lui, que c'est voirs, et à tel jor. Et li autres fet
+                            encontre tel ni comme il doit et tel deffansse. Et l'en dit que li
+                            juigeor doivent regarder le sanc, et dun il est&#160;: car s'il est de
+                            plaie don cuer soit crevez, et sanc issuz, l'en puet juigier
+                            bataille&#160;; et s'il est de boche ou de nés, il n'i a point de
+                            bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Tot ausi doit l'en user de chable. Et chable n'est pas s'il ne part. Et
+                            de tel quas nul ne doit juigier, fors à la vue de l'oil. Chables si est
+                            cop blef qui part, don cuir n'est pas crevez&#160;; boce de cop que l'an
+                            donne.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_13">
+                <pb n="294"/>
+                <front>
+                    <head>XIII. Comment l'en puet home apeler de servage.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>De serf, et comment l'en puet home apeler de servage. — Comment cil qui
+                            sont home à aucun, à rendre serf servise, et qui les cors sont et
+                            lavoirs, sanz fere au cors désavenant. — Uns hons apèle un autre de
+                            servage, et dit aissint&#160;: Gaubert est mis sers, par la reson de son
+                            père et de sa mère, qui fut ma serve et mis sers, et m'ont rendu li serf
+                            servise&#160;; et s'il velt dire que ce ne soit voirs, je sui près del
+                            prover et de l'avérer par moi et par home del lignage, qui le mostrera
+                            si comme il devra. Gaubert fet encontre tel ni et tel deffensse comme il
+                            doit. L'en demende qu'an dit droit&#160;? Et droiz dit que Gaubert est
+                            loisanz de prandre la prove de lui et de son guarant, et de mostrer que
+                            c'est voirs ou d'escondire par gage de bataille. Car nus ne puet apeler
+                            home de servage, s'i ne l'apèle par son cors, ou par home del lignage.
+                            Car servage est si granz crimes, que quant hons est sers, il pert le
+                            poer de soi et de ses choses, et est donez à autrui.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_14">
+                <front>
+                    <head>XIV. Comment l'en puet apeler de larrecin.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en puet apeler home de larrecin — Premièrement, l'en doit
+                            apeler home de larrecin sanz voier et sanz savoir, que c'est une chose
+                            que l'en fet plus en celé que à veu de genz&#160;; et por ce ne remoint
+                            pas que l'en ne sueffre forfet vengier&#160;; et l'en ne puet vengier se
+                            ce n'est fet en ceste forme.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons si dit issi&#160;: Gaubert m'a enblié un mien cheval an
+                            larrecin, et l'enmena sanz mon seu et sanz mon veu, à tel jor&#160;; et
+                            l'an vit sési, et ert ce cheval pomelez. Et s'il velt dire que ce ne
+                            soit voirs, prez sui de mostrer et de l'avérer comme je devrai. Et li
+                            autres fet encontre tel ni et tel deffensse comme il doit. Et droiz si
+                            dit qu'il est en chois au copable de prandre la prove, ou d'escondire
+                            par gage de bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Li demenderres l'offre à prover, si comme juigement l'aporte, comme home
+                            qui a son essoine&#160;; et li corpables l'offre à deffandre, si comme
+                            juigement l'aporte.</p>
+                        <p><pb n="295"/>L'en demende qu'en dit droiz&#160;? Et l'en respont que c'il
+                            se puet changier, qui mist son essoine avant, s'il a essoine parant, tot
+                            die li corpables qui ne se puet changier, por ce qu'il ne mist son
+                            essoine ou commoincement. Car li copables poist user de cesti droit
+                            moismes, s'il eust nomé son essoine, est-il droiz que sis averseres en
+                            use contre lui.</p>
+                        <p>Entant que l'en puet apeler home de larrecin par garant. Et dou larrecin
+                            apert puet l'en ausit apeler home&#160;: si comme aucuns m'enbloit ma
+                            chose, et je le veisse, si tel larrecins est larrecins apert.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Or demende l'en se je demende à aucun ma chose qui m'aura esté
+                            enblée&#160;? Et l'en dit que je l'aurai, par prove de bons tesmoinz que
+                            la chose fust moie, se cil ne dit qui tient la chose de par moi par
+                            droite cause, et ce offre à prover contre moi, et die issit&#160;: Ceste
+                            chose je tieng de vos, et par vostre grié, par tel reson&#160;; et ni
+                            moult bien le larrecin, et sui prez de mostrer que c'est voirs, ou
+                            deffandre de larrecin. Et droiz dit que an tel chose si a gage, ausit
+                            comme de larrecin&#160;: car quant aucuns dit que la chose est enblée,
+                            et cil dit qui la tient de lui par droite cause, an tel chose a gage de
+                            larrecin.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_15">
+                <front>
+                    <head>XV. De la division de sanc et de chable, et comment l'en en puet
+                        apeler.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Sanc si est quant cuers est crevez, et sanc en ist. Sanc n'est pas dit
+                            de boche ne de nés, se il n'i a dant brisé ou nez brisié.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Un home dit issint&#160;: Tel home m'a fet tel lédissement, com vos
+                            poiez voir, don cuers est crevez et sanc issu. Et s'il viaut dire que ce
+                            ne soit voirs, je sui prez de mostrer et de l'avérer si comme je
+                            devré&#160;; et à tel jor. Cil fet encontre tel ni et tel deffansse
+                            comme il doit. L'en demende qu'an dit droit&#160;? Et l'en respont que
+                            li copables est loisanz de prandre la prove de celui qui demende, ou
+                            d'escondire par gage de bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> L'en puet apeler home de sanc, sanz garanz&#160;: car li sans est garanz
+                            à celui à cui l'en le fet. De ce est tele manière que l'en puet apeler
+                            de sanc, en tele manière puet l'en apeler de chable.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Chables est cos qui part antre cuir et char, quant cos est abletiz, don
+                            sanc n'est pas issuz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_16">
+                <pb n="296"/>
+                <front>
+                    <head>XVI. De la division de férir sanz fere sanc, et comment l'en en puet
+                        apeler.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Coment l'en puet home apeler de férir sanz sanc et sanz chaable. — Férir
+                            si est une manière de chose où il n'a sanc ne dépéceure&#160;: comme
+                            férir de paume, de poing, de pié, d'aucun des mambres.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hom apèle un autre, qu'il l'a féru, et l'offre à prover par soi et
+                            par garanz. Et li copables fet encontre tel ni et tel deffanse comme il
+                            doit. L'en demende qu'en dit droiz&#160;? Et l'en respont que ce doit
+                            aler à prove, que en tel chose n'a point de gage&#160;; et li chois de
+                            la prove est à celui à qui l'en demande de fere la ou de prandre la
+                            celui qui l'en demende. Car si poi de forfet ne convient pas que
+                            bataille nesse.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Comment l'en doit ataindre home de coicier<note>Voy. tit. 21
+                                ci-dessous.</note>.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_17">
+                <front>
+                    <head>XVII. De espandre ordure.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Vilaine ordure si est mesfez, quant l'en l'espant outre reson. Vileine
+                            ordure si est chose si puant par coi li airs est corronpuz&#160;; et qui
+                            autrement ne le puet fere, se l'en le doit oster d'ui à demain.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Qui giète ordure sor home, s'il le doit amender.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> L'en demende se l'en a gitié ordure sor un home, s'il i a point de gage
+                            &#160;? Et l'en respont&#160;: se un pou d'ordure est getée, et ne face
+                            sanc, ne plaie, ne mahing, ne domage que de cinq sols, ci n'a point de
+                            gage&#160;; ains est li chois de la prove à celui à qui l'en demende.
+                            Mès se ordure est gitée grant, qui face domage grant, ou plaie, ou boce,
+                            qui face domage grant, en tel chose a gage.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> L'en a aucion contre celui qui estoit en la meson, et ne puet l'en
+                            ausint apeler home.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Pierre a gitié sor moi tele ordure, don il m'a fet tel lédissement, et
+                            tel domage de dix sols&#160;; et ce vi. Et s'il viot dire que ce ne soit
+                            voirs, je sui prez de motrer et de l'avérer com [<emph>je devrai. Et
+                                Pierre</emph>] fet encontre tel ni et tel deffansse comme il doit.
+                            Et l'en dit que Pierre est <pb n="297"/>loisanz de prendre la prove de
+                            lui, et de quenoistre que c'est voirs, ou d'escondire par bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> De domage l'en ne puet apeler sanz garanz, et par garanz, si.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_18">
+                <front>
+                    <head>XVIII. Comment l'en apèle de larrecin et de traïson.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Larrecin et traïson puent estre apelé ensenble, si comme serjant enble
+                            les choses son seignor, qu'il doit garder. Et an queconz manière aucun
+                            s'otroit les choses qu'il doit garder, ce est larrecin et traïson.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons si dit&#160;: J'evoie mis berbiz que Robert devoit garder, et
+                            les vendi à tel jor&#160;: si requier qu'il me rende la value de mes
+                            choses, ou mes choses. Robert dit qu'il ne's a pas vendues, ainz sont
+                            perdues sanz sa colpe. A ce lui demendierre dit&#160;: Comme il set
+                            qu'il a ce fet, et il le cèle, il est lerres et traïtres&#160;: lierres
+                            de sa chose qu'il li sostret&#160;; traïtres de ce qu'il li devoit
+                            garder. Et ce il offre à prover et à motrer contre son cors, ou par
+                            garant, comme de voer et de savoir&#160;; et vit la vente fere, et les
+                            deniers recevoir. Et li autres fet encontre tel ni et tel deffanse comme
+                            il doit. Et l'en respont que (<emph>de</emph>) tex moz (<emph>ne</emph>)
+                            nest pas bataille de larrecin et de traïson&#160;; contre lou savoir, ou
+                            contre son garant, s'il ne se velt tenir à lor prove.....</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> A totes les foiz que aucuns qui garde la chose, et la sotret, et anprès
+                            la cèle, c'est larrecin et traïson.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_19">
+                <front>
+                    <head>XIX. Comment l'en apèle home de traïson purement.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en puet et doit apeler home de traïson. — Traïson si est quant
+                            l'en asaut home dedanz trive, et li cos pert&#160;; quant l'en fiert
+                            home, et l'en ne voit mie le cop venir. Traïson si est nuit entrée.
+                            Traïson si est quant l'en sorprant home, et l'en le fiert, si qu'il ne
+                            se puet deffendre.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons dit issi&#160;: Cil homes m'a féru à tort do costel, en
+                            traïson, et m'a fet tiel plaie&#160;; et ne vi pas le cop venir&#160;;
+                            et sui prez de mostrer et de l'avérer contre son cors, si comme je doi.
+                            Cil fet encontre tel ni et tel deffense comme il doit. Et droit dit que
+                            ci a bataille, qu'il ne velt croire le demendeor par son serement.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p><pb n="298"/>En totes les manières que l'en apèle home de traïson, si
+                            doit l'en dire comment la traïson i est&#160;: car por dire traïson,
+                            s'il ne dit comment elle i est, tel demende ne vaut riens. Et se uns
+                            apèle autre qu'il ait féru en traïson, et il dient qu'il puet bien férir
+                            au cop qui n'a point de traïson.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Traïson n'est pas, s'ele n'est si sotive que ce soit que l'en ne se
+                            puisse garder dou cop, ne ne puet.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_20">
+                <front>
+                    <head>XX. Comment l'en apèle home de maïng.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en puet home apeler de mailing. — Mahing si est quant home a
+                            perdu pié, poing, oil, nés, auroilles, ou aucun de ses membres dou pié
+                            ou de la main. Et de ce puet autre apeler sanz garanz, et dire
+                            issit&#160;: Pierre m'a copié le poing d'une espié, et sui prez de
+                            l'ataindre si comme je doi, comme home maheignié.</p>
+                        <p>Li autres dit encontre tel ni et tel deffensse comme il doit. Et droiz
+                            dit que li copables est loisanz de prandre la prove, de reconoistre, ou
+                            d'escondire par gage de bataille.</p>
+                        <p>Enten que maheng n'est pas, s'il ne pert. Car qui apèle de mahing, et il
+                            ne mostre le mahing, ses apiaus ne vaut rien.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_21">
+                <front>
+                    <head>XXI. De la division de coicier, et comment le en puet apeler<note>Voy. le
+                            titre XVI ci-dessus, § 2.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Coicier si est dit de boche et de parole. Quant aucuns cuice un autre,
+                            et dit tex paroles hors jostice&#160;: Tu es ribauz et larron, ou
+                            tricherres &#160;; ou que une feme est putain&#160;; et l'en s'en
+                            plaint, et l'offre l'en à prover si com l'en doit, et par soi ou par
+                            garanz. Et li copables fet encontre tel ni et tel deffansse comme il
+                            doit, droit dit que la prove au copable vet avant&#160;; car en tel
+                            chose, qui n'a parit, ne où n'a chetel, n'a que sormise&#160;: si est li
+                            copables loisanz de prandre la prove au demandeor et do garant, et de
+                            quenoistre que c'est voirs, ou d'escondire par la soe.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_22">
+                <pb n="299"/>
+                <front>
+                    <head>XXII. D'apeler home de péceure.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en doit apeler de dépéceure. — Péceure n'est pas, s'ele ne
+                            pert. Péceure est désirer robe, brisier uis, brisier paroiz, brisier
+                            autres choses an hostel. Et de ce puet apeler autres à gage, se li
+                            domages est si granz que gages en doie issir. Mès l'en ne puet home
+                            apeler sanz garanz, par la reson de ce que li ostés remaint à celui à
+                            qui l'en a fete la péceure.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons dit issi&#160;: Tex hons vint à ma meson, et brisa ma porte, et
+                            antra léanz, où je eu de domage en la péceure jusque à vingt sols. Et
+                            s'il veut dire que ce ne soit voirs, je sui prez de mostrer et de
+                            l'avérer par moi et par garanz&#160;; et par moi qui soi ce de voir et
+                            de savoir.</p>
+                        <p>Li autres requiert que la péceure, qu'il dit que l'en li a fete, soit
+                            veue. Et quant ele est veue, cil fet encontre tel ni et tel deffansse
+                            com il doit. Et droit dit, que se li domages de la péceure est tex que
+                            gages en doie nestre, qu'il i ait bataille&#160;: issit que li copables
+                            est loisanz de prandre la prove dou demendeor ou de son garant, ou de
+                            conoistre que c'est voirs, ou d'escondire par gage de bataille. Et se la
+                            querele est si petite que gages n'en doie mie nestre, ce n'est que
+                            seurmise.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Uns dit au prévost&#160;: Tel home m'a batu et féru, et desciré ma robe,
+                            et vez-là ci aparessant, don mes domages i gist jusqu'à dix sols. Et
+                            s'il viaut dire que ce ne soit voirs, je sui prez de mostrer et de
+                            l'avérer. Et li autres fet encontre tel ni et tel deffansse comme il
+                            doit. Et l'en dit que de tex moz nessent batailles.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> A totes les foiz que aucun lédit autre, tot n'i ait-il sanc ne chaable,
+                            et il i ait domage de plus de cinq sols, l'en i puet gugier gage. Et an
+                            tex choses ne convient pas garanz traire, fors mostrer l'enpirement.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_23">
+                <front>
+                    <head>XXIII. De demender mobles, et de la division.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'en a aucion de demander mobles en pluseurs manières.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Nos apelons totes choses movables, fors serf&#160;; car serf est
+                            héritages.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p><pb n="300"/>L'en puet demender moble par la reson d'eschoete, et par
+                            autretel manière com l'en puet demander héritage. Et en cele manière le
+                            puet le (<emph>l'en</emph>) mostrer à avérer, et deffandre, com l'en
+                            puet d'éritage.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Se deners sont queneu deu par devant jostice, et gages sont baillié,
+                            l'en les puet tantost vendre&#160;; mès cil qui les gages sont, les ara
+                            por tant comme il seront vendu. Et s'il ne velt, la vente tendra, et ara
+                            les nuiz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_24">
+                <front>
+                    <head>XXIV. Comment l'en apèle home de force</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Comment l'en puet apeler home de force<note>Le § 1, à partir des
+                                mots&#160;: <emph>force si est</emph>... et le § 2, avec les
+                                variantes ci-dessous indiquées, sont répétés plus bas sous cette
+                                rubrique&#160;: <emph>De la division de force, et comment l'en en
+                                    puet apeler.</emph> Voy. le titre <hi rend="sc">xxvii</hi>
+                                suivant, vers la fin.</note>. — Force si est quant aucuns prant
+                            aucune chose d'aucun par force, sanz la volenté à celui qui ele est, et
+                            si que li poiers<note>Poers.</note> à celui qui prant la chose
+                                voinque<note>Vainque.</note> le poer à celui qui la chose est<note>A
+                                celi qui est la chose.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons si dit issit<note>Issint.</note>&#160;:
+                                Gaubert<note>Ajoutez&#160;: si.</note> a pris un mien sorcot en ma
+                            meson, et l'en a porté à force<note>Ajoutez&#160;: et ce je sé.</note>.
+                            Et s'il viaut dire que ce ne soit voirs, je sui prez de
+                                mostrer<note>Prover.</note> et de l'avérier<note>L'avérer.</note>
+                            contre son cors, si comme je devrai<note>Com je devré.</note>, comme
+                                home<note>Com hom.</note> qui a son essoine.</p>
+                        <p>Li autres fet encontre tel ni et tel deffensse<note>Deffanse.</note>
+                            comme il doit. L'en demende qu'an dit droit<note>Droiz.</note>&#160;? Et
+                            l'en dit que cil est loissanz de prandre la prove, et dire que c'est
+                            voirs, ou d'escondire par gage de bataille. Car en prover force reposte
+                            ne conviant pas garant<note>Convient point de garant.</note>, fors qu'il
+                            i ait chetel par quoi li gages i<note>I manque.</note> doie estre. Car
+                            force reposte ne seroit jamès provée, s'il i<note>Si.</note> convenoit
+                                traire<note>Trere garanz.</note> garant, dès qu'il die qu'il ait veu
+                            et seu<note>Les mots&#160;: <emph>dès qu'il</emph> et suivants,
+                                manquent.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p><pb n="301"/>De force fere. — A (<emph>to</emph>) tes les foiz que l'en
+                            tost à home la soe chose, sanz son grié et sanz sa volenté, c'est
+                            force.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Hou dit issi&#160;: Gefroi vint en ma meson, et enporta ma chose, un
+                            sorcot qui estoit miens&#160;; je li vos recorre, il le me toli. S'il le
+                            me quenoist, biau m'en est&#160;; et s'il le nie, je sui prez de mostrer
+                            et de l'avérer qu'il enporta le mien, et me fist tele force comme je
+                            dit.</p>
+                        <p>Gefroi fet encontre tel ni et tel deffansse comme il doit. Et l'en
+                            demende qu'en dit droit&#160;? Et l'en dit que de tex moz nessent
+                            batailles, tot ne trove (<emph>traie</emph>)-il garant avant. Car totes
+                            les foiz que aucuns tost à autre sa chose, ou en chemin,
+                                ou(<emph>en</emph>) adéfice, de tel chose nest bataille, tot n'en
+                            trée l'en pas garant avant.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Force n'est pas, se le poer à celui qui ravist ne sormonte le poer à
+                            celui qui la chose est.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> De petit lédissement. — Se aucuns lédist aucun apertement, et il ne li
+                            face sanc ne chaable, ne péceure, fors de férir, et de boter, et de
+                            coicier&#160;: en tex choses n'a point de gage, et tel chose n'est que
+                            sormise. Et quant il aviant prove an sormise, la prove est au chois à
+                            celui à qui l'en demende.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_25">
+                <front>
+                    <head>XXV. De demende qui est fete devant la mort à la feme, et enprès.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns hons si a feme&#160;; et au vivant cele feme, si li demende l'en
+                            cent sols, et dit l'en de quoi, et que termes est passez&#160;; et li
+                            hons le nie. Ou demènement dou plet, sa feme se mort. Enprès la mort sa
+                            feme, il quenoist cele dete. Or demende l'en se les choses sa feme i
+                            sont tenues, ou si héritier, par la reson des choses&#160;? Et l'en dit
+                            que oïl, s'il ne provent le contraire. Mès il jurra seur sainz, de sa
+                            main nue, as héritiers, que il ne le fet pas por malice, ne il ne le fet
+                            por soi légier, ne por apeticier lor droit.</p>
+                        <p>Et se li plez n'est pas commoinciez, enprès la mort à l'un, demande l'en
+                            cele chose, et soit queneu et prové qu'ele soit deue&#160;: les choses
+                            au mort i sont-eles tenues&#160;? Oïl, s'el fu fete en son tens&#160;;
+                            ou se ce non, non.</p>
+                        <p>En aura l'en serement de celui qui remaint&#160;? Nenil, se la chose est
+                                <pb n="302"/>provée, selonc la forme de droit. Et se est queneu sanz
+                            recevoir prove, l'en aura le serement, ausint comme en la cause devant
+                            dite. Et se li héritiers est non aagé ou desvé, en recevra les proves.
+                            Ne deffant jusque il soit d'aage ou jusque il soit revenuz en son
+                            seu&#160;? L'en dit que oïl, mès l'en li baillera tutor ou curator.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Enprès l'en dit, quant li hons muert, ou la feme, et il ont fet dete en
+                            lor mariage, cil qui se font heirs chescuns est tenuz par la dete,
+                            chascuns por la moitié&#160;; et s'il n'i a nul hoirs, les choses au
+                            mort i sont tenues.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Or véons se aucuns se muert, et il n'a pas de quoi il puisse paier sa
+                            part de la dete, se cil qui remaint est tenuz à la sodre&#160;? L'en dit
+                            que oïl&#160;; por ce que la dete fut fete commune, chascun i est tenuz
+                            por le tot. Et se li uns ne li autres n'a nule chose, cil qui remaint
+                            vis est toz jorz tenuz, ne ne puet riens aquerre ne gaagnier, que lui et
+                            ses choses ne soient tenuz.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Et se la feme que je prendrai doit, et n'a riens, et je aie assez,
+                            sui-je tenuz à sa dete, ou ele en ceste forme&#160;? Oïl, car je la
+                            praing atot son fès. et ele moi atot le mien.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Et se li enfes qui est del premier mariage, a ses biens aconpaigniez
+                            aveques les noz, sera-il tenuz de la dete ausi comme nos de nos&#160;?
+                            Oïl, tant com li moble porront soffire&#160;; et l'éritage non, se l'en
+                            ne voit que la chose qui a esté enpruntée soit mise el profit de son
+                            héritage&#160;; car l'en doit toz jorz aidier as menors.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_26">
+                <front>
+                    <head>XXVI. De rendre et de recréance.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Quant home est en prison, ou quant aucune chose est retenue, comment
+                            l'en la doit rendre ou recroire. — Cist bans si est fez por estranper la
+                            cruauté as seignors et les félonies à cez qui prenent autrui choses.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Premièrement l'en dit que sires puet prandre les choses à celui qui sera
+                            de sa juridiction, et ne les doit pas prandre s'il n'i a reson, tot le
+                            face-il autrement. Et se je ne sui de sa juridiction, fors de la
+                            propriété del foiz, de la chose puet-il prandre por le fet de mon
+                            cors&#160;? Nenil.</p>
+                        <p><pb n="303"/>Et se mis sires prant les moies choses, del fet don ge ne
+                            soie estainz ne dépenz, quel qui soit, et je soie apareilliez de fere
+                            droit par devant lui de ce que je devré&#160;: rendra-il, ou il les
+                            recroira &#160;? Il les me recraira, avant que je respoigne devant
+                            lui.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> A totes les foiz que sires prant les choses à celui qui est de sa
+                            juridiction, sanz défaut qu'il ait fet, il les doit rendre, avant qu'il
+                            respoingne de nule chose par devant lui.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Et s'il s'avoie à autre jostice, et il prange son cors ou les soes
+                            choses, rendra-les-il, ou recroira&#160;? Il ne rendra pas, mès
+                            recroira, jusque la chose soit déterminée par droit. Alongera toz jorz
+                            la (<emph>re</emph>)créance tant comme il sera ou demainnement de
+                            plet.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Et se la jostice me met sus que je aie esté au fet fere, don li cors
+                            doie prandre mort, et nus ne me demande riens fors lui&#160;: par droit
+                            il ne doit pas prandre les moies choses, mès mon cors&#160;; mès il le
+                            recroira, cors por cors, à fere droit.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Mès si me's prant por chose don mes cors doie estre dampnez, afert-il
+                            iqui rendre ou recroire, tot se plange aucun de moi&#160;? Il n'i afert
+                            point de recréance ne de randre.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Et se sires, par défaut de sa rente qui ne li a mie esté rendue, et ge
+                            sui à respondre apareilliez et de fere droit.....</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> Li rois puet prandre, por sa dete, cors et avoir, et por son
+                            forfet&#160;; mès plus beau seroit qu'il prist les choses à celui. Mès
+                            l'en doit entendre que l'en le fet por sa volenté acomplir. Autre sires
+                            ne le puet pas fere, fors del forfet queneu don l'en deist perdre le
+                            cors, ou se l'en li viaut atendre apertement.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p> Or demende l'en, se deus sont pris por tel forfet, dont li uns aprange
+                            l'autre, s'il i afert rendre ou recréance&#160;? L'en dit que ce est en
+                            la volenté au juige.</p>
+                        <p>Or demende l'en s'il puet l'un recroire, et l'autre retenir&#160;? Et
+                            l'en dit que non&#160;; ne ne puet l'en fere avantages à l'un plus qu'à
+                            l'autre, n'alégier l'un plus que l'autre.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p> Après l'en demande se hons qui n'a point de juridiction puet prandre
+                            nules choses qui soes ne sont, de s'autorité&#160;? Et l'en dit que non,
+                            fors en quas de son plége il puet prandre&#160;; et tel chose porte
+                            recréance.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p><pb n="304"/>Larron, murtrier, homecide, home qui a forcé feme, traïtor,
+                            home qui a tolu membre, présant robeor, forbani, et en tel cas
+                                sem-(<emph>bla</emph>)bles...... et tantost cil le doit mener à la
+                            justice, ou mender à la justice que l'en iroit querre G.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p> Nus ne doit estre pris de cinq fez don li cors est dampnables por cause
+                            de sopeçon, se la cause dou sopeçon n'est aperte ou resonable. Et se
+                            aucuns est pris por cause de sopeçon, l'en le puet tenir quarante jorz.
+                            Et se dedanz quarante jorz nus ne vient avant por lui acusier, l'en le
+                            doit recroire à plége, cors por cors. Et cele recréance durra trois
+                            quarantoines. Se nus ne vient por lui acusier, si plége seront délivré,
+                            jà soit ce que se aucuns vient avant por lui acusier dedanz l'an et
+                            dedanz le jor, il sera oïz&#160;; et enprès l'an, non.</p>
+                    </div>
+                    <div>
+                        <head>§ 13.</head>
+                        <p> Li sires d'Ambeze apela le conte de Blois de défaut, sus la demende d'un
+                            bois, en l'ôtel le Roi, en l'an mil deux cent cinquante-neuf, à
+                            Pantecoste. Et dit que li hus do païs où li bois siet est tex, qui se
+                            défaut anprès montrée&#160;; par quel règle il voloit avoir l'us do
+                            païs. Et droiz l'ordonna.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_27">
+                <front>
+                    <head>XXVII. Comment l'en puet gaagner par défaut, et perdre.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'en dit, qui se défaut enprès mostrée, qu'il pert sa querele, quant as
+                            héritages&#160;; et quant as mobles, anprès la demende.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons dit que un autre tient une soe meson de lui, et dit cause por
+                            quoi ele est soe. Et jor a eu de consoil, et jor de mostré. Au jor de la
+                            responsse ne viant pas. Nos disons qu'il est défaillanz, et qu'il a sa
+                            querele perdue, s'il n'a essoine.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Or demendon-nos se aucuns puet estre deffaillanz, qu'il mete avant barre
+                            nécessere, et viaut oïr juigement, se par tant se puet passer, et sis
+                            averseres le viaut&#160;? Et nos dison que non, tot pant li jorz en cest
+                            point. Mès cil est despisanz et défaillanz, qui en porte le droit de la
+                            cort, sanz respondre.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Aucune foiz aviant, quant l'en a mis sa barre avant, que ses averseres
+                            lest le jor passer, par ce qu'il ne viaut oïr droit sor la barre, et fet
+                            semondre son aversere selon ce qui alé est, et fet issit sa
+                            demende&#160;: Com je fuisse plaintis d'Estiene, qui un mien prié tient,
+                            qu'il <pb n="305"/>a siet, et en cele censive&#160;: jor de consoil ot,
+                            jor de mostrée, jor de respondre&#160;; à celui jor, je li fis ma
+                            demende&#160;; il ne vost respondre&#160;; don je voil avoir ma querele
+                            gaagnie, ou ce que j'en devroi avoir. Et s'il viaut dire qu'il ne soit
+                            défaillanz de cele jornée, je sui prez de mostrer et de l'avérer par moi
+                            et par garanz, qui sevent ces erremenz, et viaut (<emph>virent</emph>)
+                            le jor metre, et le défaut fere.</p>
+                        <p>A ce respont Estine&#160;: Comme je traississe avant barre nécessere à
+                            moi délivrer de sa demende, il ne la vost oïr&#160;; et requis
+                            juigement, à savoir, se par tant m'an devoie passer, segont ce qu'il
+                            disoit, et segont ce que je disoie&#160;; ne le vost fere. Et sui prez
+                            d'atandre le regart de la cort, et le recort, savoir se issit fut.</p>
+                        <p>Cil respont que au recort ne se velt-il pas mestre, mès au défaut
+                            respoigne. L'en demende qu'en dit droiz&#160;? Et droiz dit qu'il doit
+                            respondre au défaut. Et de tel parole n'est bataille&#160;; ne nus ne
+                            puet apeler de défaut sanz garant, et sanz nomer le jor.</p>
+                        <p>Antant que qui apèle de défaut par soi et par garanz doit estre oïz, ne
+                            barre que l'en mete encontre ne doit valoir. Et miauz est droiz que cil
+                            prove qui demende, que cil à qui l'en demende&#160;: car l'en ne doit
+                            pas négative prover, se l'en afirmative amplée<note>Le manuscrit
+                                présente ici une rubrique&#160;: <emph>De la division de force et
+                                    comment l'en en puet apeler</emph>. Cette rubrique se compose de
+                                la répétition des § 1-2 du titre <hi rend="sc">xxiv</hi>, avec de
+                                légères variantes déjà indiquées ci-dessus&#160;; nous avons cru
+                                devoir l'omettre. A la fin de ce titre se trouvent quelques mots qui
+                                paraissent se rapporter au présent titre <hi rend="sc"
+                                >xxvii</hi>&#160;; nous les avons conservés ici pour les ajouter à
+                                la matière qu'ils concernent dans le § 5.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Tot requer-ge aucun droit, s'il a mauvese barre, et sis aversères non
+                            viant prandre, et let le jor passer&#160;: cil qui met la barre se
+                            défaut.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_28">
+                <front>
+                    <head>XXVIII. De ardeors.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'en dit que qui art meson, qu'il doit estre livrez à mort&#160;; car li
+                            cas d'ardoir est si griés que nus n'en doit estre esparniez, ne an vile
+                            ne hors vile.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> An ville nus ne doit ardoir por nule guerre, se la guerre n'est tele que
+                            droiz la doie soffrir&#160;; ne hors ville ausit.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Or demende l'en, se aucuns dit que l'en li aist arse sa meson, <pb
+                                n="306"/>comment l'en ataindra celui qui l'en enpêchera&#160;? Et
+                            l'en dit qu'il ne l'en puet ataindre fors par gage de bataille. Et l'en
+                            puet aprover par soi sol, sanz garanz&#160;; ou autrement non, se li
+                            deffenderres ne se consant an autres choses.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_29">
+                <front>
+                    <head>XXIX. Dedanz quel tens l'en doit respondre de forfet où a péril de
+                        cors.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Uns hom se plaint et dit issint&#160;: Gaubert féri mon cosin dou costel
+                            parmi le cors, dont il prist mort&#160;; et s'il viaut dire que ce ne
+                            soit voirs si comme je di, je sui prez de mostrer et de l'avérer, si
+                            comme je devrai, comme cil qui le sot de voir et de savoir. Gaubert
+                            demende en quel tens ce fet fu fet. Et il dit qu'il a deus anz et plus.
+                            Et Gaubert respont&#160;: Comme il soit teuz tant longuement de ceste
+                            demende qu'il me fet, et demender puet, plus apert qu'il soit copables
+                            de la mort celui que autres&#160;; par quoi je ne li en voil respondre,
+                            se droiz n'est.</p>
+                        <p>L'en demende qu'en dit droiz&#160;? Et l'en dit que l'en ne l'en
+                            respondra pas, quant li anz et li jors est passez et l'en ne li a
+                            demendé riens. Enprès tel tens, l'en ne li doit pas respondre&#160;;
+                            quar il apert qu'il se consente plus au fet qui fu fez que cil à qui
+                            l'en demende.</p>
+                        <p>Enten que se aucuns demende à autre de murtre, de rat, de larrecin, de
+                            traïson, d'omecide, de membre tolu, et li anz et li jorz passe avant
+                            qu'il face sa demende, l'en ne doit pas estre oïz. Mès dedanz l'an et
+                            dedanz le jor, l'en li en doit respondre.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_30">
+                <front>
+                    <head>XXX. De tens passé enprès petiz forfez<note><hi rend="sc">xxx</hi> Dans le
+                            manuscrit, la première partie du titre <hi rend="sc">xxx</hi> forme le
+                            dernier § du titre précédent. La rubrique <emph>de tens passé</emph>.
+                            ... se trouve intercalée entre cette première partie et les mots
+                                <emph>d'autres petiz forfez</emph>.... Les lignes qui suivent
+                            présentent aussi une certaine confusion de la rubrique dans le texte.
+                            Nous avons rétabli, dans les titres <hi rend="sc">xxx</hi> et <hi
+                                rend="sc">XXXI</hi>, la disposition que semblait réclamer la nature
+                            des matières.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De sanc, de chable, l'en ne respont pas puis que la plaie est guarie, et
+                            de mahing, et de ceste loi qui est apelée bataille. D'autres petiz
+                            forfez, puis que li anz passe.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_31">
+                <pb n="307"/>
+                <front>
+                    <head>XXXI. De voer mesfere sanz plus fere.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Et se aucun voit aucun ocirre, et cil qui le voit ne liève le cri, et ne
+                            fet son poer de prandre, ou murtrir, ou enblier, ou traïr aucun, ou fere
+                            rat, ou membre tolir&#160;: qu'en sera&#160;? Et l'on dit qu'il sera en
+                            la merci le roi. Car il apert, quant il ne fet son poer de prandre, ou
+                            lever le cri, qu'il se consente ou ce que li fez soit fez.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Or demende l'en en autres forfez, se je sui tenuz dou prandre, ou de
+                            lever le cri&#160;? Et l'en dit que oïl, an roberie de chemin, ou
+                            péçoiement de meson, et en tex quas pesanz, au quas don l'en puet perdre
+                            vie ou membre. En autres quas l'en n'i est mie tenuz, fors en
+                            lédissement dou roi ou de ses serjanz&#160;; car à cex je doi aidier en
+                            bone foi.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_32">
+                <front>
+                    <head>XXXII. De quel cause l'en puet apeler home sanz voer et san savoir, fors
+                        de dire, par bones proves&#160;; et à quex causes, non.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De quel cause l'en puet apeler home sanz voer et sanz savoir, fors d'oïr
+                            dire, par bones proves&#160;; et en quex causes, non&#160;? En totes les
+                            causes que l'en apelera home, autres que jostice, cil qui apèle doit
+                            metre le voir et le savoir, fors an quas que nos an ostons, c'est à
+                            savoir, murtres, traïson. L'en doit savoir larrecin trover sési&#160;;
+                            et en autre cas non, fors aucun qui demende mobles ou héritages par la
+                            reson d'eschaete&#160;: cil puet demender sanz voer&#160;; et s'il tret
+                            garanz, la guarentie ne vaut riens, s'il n'i met le voir et le
+                            savoir.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A totes les foiz que aucun puet demender por la reson d'autrui, il n'i
+                            metra mie voir ne savoir.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_33">
+                <front>
+                    <head>XXXIII. Quel serement l'en doit fere de bataille, ainz que l'en
+                        fière.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'en doit fere en bataille trois seremenz, quant li garanz se
+                            conbat&#160;; et quant li sires principaux se conbat, l'en n'en doit
+                            fere que deus, ou quant sergant sont pris à gré.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="308"/>Le serement de trois s'il est tex, qu'il doit prandre son
+                            conpoignon par la main senestre, et tendre la destre vers les sainz, et
+                            dire issint&#160;: Ce oïz-tu, home que je par la main tieng, de ceste
+                            querele, et de ceste loi que je ai vers toi, et tu vers moi, que je n'en
+                            ai loier ne promesse, ne n'ataing à avoir, ne autre por moi, à mon
+                            esciant, se Deux m'aïst et ses sainz.</p>
+                        <p>Et li autres doit jurer en ceste forme meismes. C'est li premiers
+                            seremenz que jurent cil qui ne sont pas par grié des parties.</p>
+                        <p>Et cil qui se conbatent proprement por lor fet ne jurent pas cest premier
+                            serement, mès il jurent les autre deus.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Enprès, li segonz seremenz si est devisez en tel manière&#160;: Oïz-tu,
+                            hom que je par la main tieng, de ceste querele, et de ceste loi que j'oi
+                            vers toi, et tu vers moi, que je ne fet charoi ne sorcerie, ne autre por
+                            moi, à mon esciant, que à toi nuise, ne à moi puisse aidier, se Dex
+                            m'aïst et cil saint.</p>
+                        <p>Et li autres doit jurer en ceste forme meismes.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Li derreniers seremenz si est en autre forme, qui n'i a point de
+                            non-savoir, ne de non-esciant. En toz les seremenz, cil qui demende doit
+                            jurer avant, et en ceste forme deviser&#160;: Oïz-tu, hom que je par la
+                            main tieng, de ceste querele que je ai vers toi, et tu vers moi, que je
+                            droit ai, et tu as or tort, si m'aïst Dex et cil saint.</p>
+                        <p>Et li deffenderres si doit dire&#160;: Ce oïz-tu, home que je par la main
+                            tieng, de ce serement que tu as ci juré, que tu parjures en ies, se Dex
+                            m'aïst et cist saint.</p>
+                        <p>Enten que cil qui est garanz ou avoez doit bien jurer qu'il riens n'a à
+                            que l'en porte faus tesmoing por loier. Et si doit l'en miauz jurer
+                            certains que non certains. Et dès iqui en avant, nus ne lor doit amender
+                            ne enpirier lor armes, ne ansignemenz fere, ne parler à aus, fors de la
+                            pez&#160;; ne ne doit l'en pas parler à aus, s'il n'i a bones genz, et
+                            plusors.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_34">
+                <front>
+                    <head>XXXIV. De pez qui ne pot estre fete sanz jostice.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De fere pez de chose don plainte a esté à jostice, ou n'a esté jostice,
+                            et ou a esté. — De murtre, de rat, de larrecin, d'omecide, de <pb
+                                n="309"/>traïson, de membre tolu, nus n'en puet fere pez, puis que
+                            la plainte a esté fete à jostice, se n'est par la volenté à la jostice,
+                            qu'il ne remaigne en la merci le roi, et li demenderres et li
+                            deffenderres.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Et se aucuns, de ces six cas, fet amendes, ou petit ou grant, à celui
+                            qui l'en a anpêchié, et il n'en fut plainte à jostice, puet-il amende
+                            recevoir sanz la jostice&#160;? L'en dit que non. Car il ne convient pas
+                            que si grant forfet soit celéement amendez.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> En d'autres menuz forfez, comme de sanc, ou de chaable, ou de bufe, ou
+                            de domages, se plainte en est fet, puisse (<emph>puis-je</emph>) prandre
+                            l'amende sanz jotice&#160;? L'an dit que non. Et se plainte n'en est
+                            fete, je puis prandre l'amende&#160;? L'en dit que oïl. Mès por ce ne
+                            remaindra pas que la jotice ne l'en punisse.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> A totes les foiz que plainte est fete à jotice, l'en ne puet recevoir
+                            satiffacion fors par la jostice, que par la satiffacion est coneu la
+                            poine&#160;; ne nus ne puet fere amende de lédissement d'ome, comme de
+                            combatre et de férir, de tote, de ravine, tot soi-il amendé sanz
+                            jostice, que la jostice n'i ait s'amende.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_35">
+                <front>
+                    <head>XXXV. De chose que l'en entrace por emblée.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Se aucuns baille aucune chose en gages, et ele soit emblée&#160;; et cil
+                            qui la chose est l'antierce por emblée, et meste quatre deners
+                            d'entierz&#160;: il (<emph>l'</emph>) aura à proves de prodes homes, que
+                            la chose fust soe.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Et se li autres dit que la chose li fust vendue, et que cil qui
+                            l'antierce por emblée la li vendist, qu'an sera&#160;? En tex choses a
+                            gage de larrecin.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Et se aucuns engage choses que l'en li ait prestées, li gages vaut. Et
+                            s'il engage choses qu'il a toloistes, et ce soit seu, li gages ne vaut
+                            riens.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> A totes les foiz que chose est emblée ou toloiste, et ele est engagée,
+                            li gages ne vaut riens.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> A totes les foiz que chose est baillie en gages, qui est donée, ou
+                            prestée, ou achetée, et la baille en gages&#160;: li gages tient.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Cil qui prant la chose qui est emblée en gages, perdra le gage, et jurra
+                            sur sainz qu'il l'avoit prise en gages de léal home à son esciant. <pb
+                                n="310"/>Et de tex choses puet nestre bataille, par celui qui
+                            demende, et par garant&#160;; et autrement, non.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Se université, qui n'a chief, vet forfere, chescuns l'amendera par
+                            soi&#160;; car de ce il ne puent trere avoié ne garant. Mès s'il ont
+                            chief, comme seignor, ou baillif, ou prévost, qui les conduist et
+                            moine&#160;: il les guarentira toz, se il ne passent mesure de
+                            commandement.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_36">
+                <front>
+                    <head>XXXVI. De traire avoié, et de garanz.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Un home dit issit&#160;: Par moi et par garanz, vez-le-ci&#160;; et s'il
+                            ne dit issit&#160;: Et se jor n'i a de cestui, par autre qui fere le
+                            porra et devra &#160;; et il trée son garant, et il li soit refusez,
+                            porra-il recovrer à amener garanz&#160;? L'en dit que oïl. Et toz jorz
+                            die cest most, toz jorz porra recouvoir à amener garanz, jà tant ne li
+                            en refusera l'en.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> L'en doit avoir garanz tantost comme l'en l'offre. Mès d'Orliens, non,
+                            par la chartre le Roi, qui dit que, se aucuns n'a son garant au premer
+                            jor qu'il li sera nomez, por ce ne perde pas sa cause.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> En cause don home doit estre dampnez, li moz ne vaut riens&#160;:
+                            «&#160;si jor n'i a de cestui,&#160;» ne ne doit avoir jor dou traire,
+                            ançois l'en doit traire tantost et sanz jor. Et s'il est refusez par
+                            droite cause, il pert sa querele.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> L'en ne puet bataille tenir ou tens que l'en ne fet noces (et cist tens
+                            est apelez <emph>les lois</emph>), se n'est de murtre, de rat, de
+                            larrecin, de traïsson, d'omecide&#160;; et de toz ces cinq cas puet l'en
+                            tenir bataille en toz tens.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_37">
+                <front>
+                    <head>XXXVII. De forbannissemenz, et comment l'en doit forbannir<note>Voy. plus
+                            haut, liv. III, tit.<hi rend="sc">vi</hi>, le même texte avec quelques
+                            variantes.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Ceste cause est pour bien establie, et pour punir cex qui meffont&#160;;
+                            car se aucuns a meffet, et il s'enfuie, por ce ne le doit l'en pas
+                            lessier en pez&#160;; car qui lerroit en pez icestes genz, les autres
+                            genz auroient matire de forfere. Si doit l'en regarder segont reson,
+                            comment <pb n="311"/>l'en en doit ovrer de cex qui s'enfuient por le
+                            forfet. Or doit l'en regarder por quel cas l'en doit home forbenir.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Se aucuns doit, et il ne puet paier, ou ait assez et ne viaut paier, et
+                            s'anfuit, l'en demande se l'en le doit forbenir&#160;? Et l'en dit que
+                            non, segont droit. Et segont la costume d'Orliens, s'il n'a riens et
+                            s'il ne puet paier, il aura terme jusque quarante jorz de soi
+                            poier&#160;; et au terme, s'il ne se puet poier, il forjurra la ville
+                            jusqu'il se puisse poier. Et s'il a héritages, il aura licence de
+                            quarante jorz de vendre&#160;; et s'il n'a vendu dedanz ce, et ne se
+                            soit poiez, la jostice vendra ou ele contraindra à vendre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> La costume de l'Ostel le Roi n'est pas tele, ainçois est itele que qui
+                            n'a riens, riens ne li chiet&#160;; eisint que cil qui ne se puet paier,
+                            jurra sur seinz que au plus tost que il porra et aura poer de soi
+                            aquitier, qu'il s'aquitera.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> L'en demende, por férir home, ou por lédir de paroles, ou fere sanc ou
+                            chaable, sanz mort et sanz mehaing, et il s'enfuit, se l'en doit
+                            forbenir&#160;? Et l'en dit que non.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Anprès demande l'en, se l'en li met sus murtre, ou larrecin, ou rat, ou
+                            homecide, ou membre tolu, ou roberie, ou s'il a pris de l'autrui à
+                            force, ou s'il ne vient avant por doner trives, et il s'enfuit, savoir
+                            se l'en le doit forbenir&#160;? Et l'en dit que oïl&#160;; car tel chose
+                            apartient à dampnement de cors, et péril de perdurable salu.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Or demande l'en, se aucuns fet guerre que droit ne puisse sofrir, et ne
+                            viaut venir avant por fere droit, se l'en le doit forbenir&#160;? Et
+                            l'en dit que oïl, por le péril de la guerre, por le gastement des biens
+                            desus terre, et por l'ocision des genz.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Nus ne doit estre forbeniz par son don, ne guerpir son païs.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> Or est à savoir comment l'en doit forbennir, et en quel tens, et combien
+                            de tens l'en se doit soffrir enprès plainte, et enprès ce que l'en
+                            l'aura sopecenos dou fet.</p>
+                        <p>Prumièrement, l'en le doit fere semondre en son ostel, et s'il n'a ostel,
+                            là où l'en cuidera qu'il repère plus&#160;; et s'il ne viant, l'en doit
+                            prandre le sien, et doit estre en la main au juige. Et se aucuns
+                            l'aqueut de resonable essoine, recroira l'en la soe chose&#160;? Et l'en
+                            dit que oïl, à son ami, por qu'il praigne en main qu'il ne mesfce, et
+                            qu'il <pb n="312"/>vendra à jor por soffrir droit&#160;; autrement non.
+                            Et si li copables vient por droit soffrir, est ce que l'en a pris dou
+                            sien quite sanz recréance&#160;? L'en dit que oïl, ançois qu'il
+                            repoingne.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p> Ce dit l'en, que avant que homme soit forbeniz, que l'en le doit fere
+                            semondre par trois jorz, chascuns de huit jorz&#160;; et s'il ne vient
+                            dedanz, l'en doit mander de ses amis procheins, et dire lor qui ait à un
+                            jor. Et se l'en l'aqueut cortoisement d'asoine, l'en le doit oïr&#160;;
+                            se non, l'en doit lessier passer, qu'avant qu'après le tens de quarante
+                            jorz, et dedanz ce, s'il ne vient, l'en doit forbenir. Et s'il est pris
+                            enprès, en la fuite dou forbenissement, il est dampnez dou fet.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p> Ce dit l'en que se aucuns est forbeniz, enprès quarante jorz est
+                            forbeniz&#160;; et il vient avant dedanz les trois procheines asises, et
+                            fet de ses essoines ce qu'il doit, et voille soffrir droit&#160;: l'en
+                            le recevra. Et s'il ne vient dedanz les trois assisses, il sera dampnez
+                            dou fet que l'en li mestra sus.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p> Et se aucuns fet apertement fet devant le pueple, et se destorne, et par
+                            malice ne viaut venir avant, aura-il le terme de quarante jorz, ne de
+                            trois assisses&#160;? L'en dit qu'il n'aura pas terme qu'il ne soit
+                            forbenniz &#160;; mès il aura le terme de la dampnacion, c'est assavoir
+                            de trois assisses, que l'en doit molt soffrir et atandre, avant que home
+                            soit livrez à mort&#160;; car molt a grant chose à desfere ce que Dex a
+                            fet, et à fere ce qu'il ne velt fere.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p>
+                            <ref target="http://josticeetplet.huma-num.fr/items/show/6">Gefroi de la
+                                Chapele</ref> (<emph>dist</emph>) que li baillis de Orliens fist un
+                            home forbannir por cri et por renomée, que il disoit que il avoit ocis
+                            un home. Et fut semons en sa meson de par le commandement le roi, par
+                            l'espace de quarante jorz&#160;; ne vint, ne n'envoia, ne ne
+                            contremanda, et por ce fust forbenniz, et soffri le forbennissement,
+                            sanz venir avant cinquante anz, ne sanz ce que jostice l'en requist.
+                            Enprès il vient à l'évesque d'Orliens, et dit qu'il estoit de sa
+                            jostice, et cochanz et levanz en sa terre, et voirs ere. Li évesques
+                            fist son poer de rapeler le forbannissement. Et dona droiz qu'il ne sera
+                            pas rapelez por ceu que il n'estoit pas venuz avant por allégier son
+                            priviliége, ne jostice ne l'avoit pas requis&#160;; et fut renduz à
+                            l'évesque ou point où il ere. Li évesques le fist juigier&#160;; et dona
+                            droit qu'il fust panduz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_38">
+                <pb n="313"/>
+                <front>
+                    <head>XXXVIII. Comment l'en puet home apeler de plévine.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Plévine si est quant aucuns dit tex paroles&#160;: Je doi à P. vingt
+                            livres, à paier à tel jor&#160;; si vos pri, G., que vos me plévissiez.
+                            P. dit&#160;: G., plévissiez-vos ceste home de vingt livres qu'il me
+                            doit&#160;? Et G. dit&#160;: Oïl, s'il m'i met. — Et je vos i met. — Et
+                            ge i antre. — Et ge reçoif.</p>
+                        <p>Enprès, l'en dit&#160;: quant li termes est passez, P. doit vanter
+                                (<emph>nanter</emph>) son plége et prandre dou suen. Et se l'en
+                            demande le suen à recroire, l'en le doit avoir jusqu'à ès nuiz, et as
+                            nuiz l'en doit fere valoir le gage la dete. Et celui gage il doit
+                            garder, s'il velt&#160;; et s'il ne le rant, il le puet vendre et offrir
+                            à celui qui il est, por tant comme il en puet avoir. Et s'il ne le velt
+                            prandre, la vente est ferme.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hons dit issi&#160;: G. est mis pléges por vingt livres de parisis
+                            que Estiennre me devoit de deus dras verz. Je li ai requis qu'il me
+                            ballast ses nanz, car termes est passez&#160;; ne le vost fere&#160;; si
+                            m'en plaing&#160;: car s'il viout dire que ce ne soit voirs, je sui prez
+                            de mostrer et de l'avérer par moi et par garanz, qui en fera ce qu'il
+                            devra.</p>
+                        <p>Li guaranz vet avant, et tant son gage. G. fet encontre tel ni et tel
+                            deffansse comme il doit, et met ce en ni.</p>
+                        <p>L'en demande qu'en dit droiz&#160;? Et l'en respont que G. est loisanz de
+                            prendre la prove de lui et de son garant, et de quenoistre que c'est
+                            voir, ou d'escondire par gage de bataille.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> En plévine a bataille quant a passé cinq sols&#160;; ne l'en ne puet
+                            apeler sanz garanz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_39">
+                <front>
+                    <head>XXXIX. De lédissemenz fez à sergenz et de forfez de celui qui est atornez
+                        au sergent le roi.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'en dit ci, que se aucuns équeut à sergant le roi, savoir comment il en
+                            sera provez, et il preigne par prise de sergenterie&#160;?</p>
+                        <p>Et l'en respont qu'il en fera enquerre de la chose, et sera amendé par
+                            l'enqueste. Et s'il prant por soi, il ne puet fere, s'il n'a propre
+                            juridiction de seignorie. Et s'il n'a poer ne de semonses ne de prises,
+                            il ne puet prendre fors en la chose où costume le sueffre, comme en son
+                            plége, et an aucunes autres choses.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="314"/>Et se l'en le fiert et bat, comme en prison, por acheson dou
+                            servise, ce ira par enqueste. Et se l'en li fet désavenant sanz acheson
+                            dou servise, ce doit aler par la loi de la terre&#160;; fors en cex,
+                            c'est à savoir murtre, larrecin, traïson, homecide, membre tolu,
+                            rat.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Et en toz les quas où home pert vie et membre, en tel quas n'a point
+                            d'enqueste, fors la loi dou païs.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_40">
+                <front>
+                    <head>XL. Quex choses sont essoines, et comment l'en se doit essoiner.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> D'essoines, et quex choses sont essoines. — L'en demande&#160;: se
+                            aucuns vient à son jor, et an ce li ponz rompe, et il ne puet trover
+                            navie, savoir se c'est esoines&#160;? Et l'en dit que oïl.</p>
+                        <p>Et se li ponz rompi ainçois que il poist trover passaige aillors, l'en
+                            demende se c'est essoines&#160;? Et l'en dit que non.</p>
+                        <p>Et se tempeste le prant antre voies, qui le tormente si qu'il ne puisse
+                            aler à son jor&#160;: c'est essoines.</p>
+                        <p>Et se sa fame est morte, et de son fiz, et de sa fille, et de son
+                            frère&#160;; et se fex art sa meson&#160;: c'est essoines&#160;; se li
+                            forfez dure ou tens de l'alie&#160;; car il doit sa meson escorre.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> S'il est pris de guerre, s'il est de contanz hors de trives, et il n'i
+                            ose aler por le péril de ses ennemis&#160;: cex choses sont essoines
+                            d'aler en commune besoigne por le commun profit prise de seignor.</p>
+                        <p>Unes autres essoines sunt por quoi hom ne se doit pas combatre, mès il
+                            doit metre deffendeor por soi&#160;: comme se aucuns n'a que un pié et
+                            une main, ou ait aucun membre perdu, par quoi hons ait perdu de sa
+                            vertu&#160;: maladie aparissant et non aparissant&#160;; et cele qui
+                            n'est pas aparissant doit estre provée par trois tesmoinz, et par
+                            serement, de voir et de savoir. Et totes ces choses sunt essoines en
+                            aucuns quas&#160;; et en aucuns cas nule essoine n'est receue, s'ele
+                            n'est aparissant.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_41">
+                <front>
+                    <head>XLI. D'apeler home de fet que autrui conoist qu'il a fet.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Pierres apèle Johen de la mort son frère. Au demoinement dou plet, uns
+                            est pris et conoist qu'il a mort son frère, et en est penduz. <pb
+                                n="315"/>L'en demande se Johanz est délivres de la demande que
+                            Pierres li fet&#160;? Et l'en dit que oïl.</p>
+                        <p>Et s'il eust issit dit, qu'il eust esté en la force et en l'aide, que ses
+                            frères prist mort, et li autres eust queneu le fet, en fust-il délivres
+                            &#160;? Et l'en dit que non.</p>
+                        <p>Et eust-il en tel chose bataille&#160;? L'en dit que non&#160;; et
+                            encontre totes proves, et contre toz garanz, n'i eust que le serement
+                            Johen.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A totes les foiz que hons conoist chose don ses cors soit livrez à mort,
+                            il délivre totes autres genz de celui fet, fors en ce&#160;: qui en sera
+                            sopeceneus, bien se doit escuser de tel fet que il n'en soit
+                            copables.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> A totes les foiz que home conoist qu'il a fet fet don ses cors soit
+                            dampnez, et l'en demande à autre celui fet, il est délivres. Mès se l'en
+                            li mest sus qu'il fust en force et an l'aide consentierres, il n'en est
+                            pas délivres, ainz s'en doit espurgier.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Et se ge di que aucuns tiegne la moe chose, et aucuns viegne avant qui
+                            conoisse qui la tiegne, et il n'ait le vaillant de la chose, sera-il
+                            délivres par tel garant&#160;? L'en dit que non. Et s'il a le vaillant
+                            et plus, l'en dit que oïl, par coi il conoisse qu'il la prist en la
+                            forme que je la demant à celui.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Et se celui qui connoît qui tient ma chose, est de la jostice à autre
+                            que de cele à cui je demanderé celui, por ce n'est-il pas qu'il ne soit
+                            de la jostice à celui en quel cort il conoistra le fet.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Et se aucuns est sesiz de la moie chose, et je li demant comme à celui
+                            qui la prist, et il amoine garanz qu'il prist cele chose, et qu'il la li
+                            bailla&#160;: cil qui amoine le garant est délivres, se li garanz est
+                            soffissanz.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Et se aucuns m'a vendu aucune chose, et aucuns la m'empeeche, tréré-je
+                            garanz celui qui la m'a vendue, ou se je me deffendré&#160;? L'en dit
+                            que je puis fere lequel que je vodrai.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_42">
+                <front>
+                    <head>XLII. De contremander son jor.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> L'an dit que home puet contremander son jor por essoine, issint qu'il le
+                            doit fere, à savoir avant le jor à la jostice, et le doit fere savoir
+                            avant le jor à son aversaire, si que li juiges et li averseres ne <pb
+                                n="316"/>perdent lor besoignes à fere. Et cest contremant doit fere
+                            à un jor, qu'il nommera, segont ce qu'il aura essoine. À celui jor, il
+                            jure sor sainz qu'il avoit essoine droite et loiaus, por quoi il ne puet
+                            aler à ce jor, ne à autre, et nonmera quel essoine. Et se sis essoines
+                            dure plus qu'à celui jor qu'il aura mandé, il puet contremander trois
+                            foiz. Et se s'essoines dure plus que ses trois contremanz montent, il
+                            contremandera son jor, et durera cil contremanz quarante jorz.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Et dedanz les quarante jorz, s'il ne viant ou n'anvoie por fere ce qu'il
+                            devra, l'en metra son aversere en sesine, non mie en vroie, mès por la
+                            chose garder. Et s'il ne vient dedanz les trois assisses et dedanz le
+                            quarenteine jor, il sera en veroie sesine. Et dedanz ce, s'il repère por
+                            fere ce qu'il devra, il jurra le serement que nos avons devant
+                            dit&#160;; et enprès les trois essoines, s'il poet mostrer léal essoine
+                            qu'il n'i poet venir, ne envoier, ce l'acuseroit
+                                (<emph>l'excuseroit</emph>).</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_43">
+                <front>
+                    <head>XLIII. Quant sires demande à son sogiet qu'il n'est pas venuz à son
+                        jor.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Quant sires demande à son home, qui a esté semons, de venir à jor devant
+                            lui, et il li a nié qu'il ne fu pas semons&#160;: ci n'a que enqueste,
+                            prove, isint qu'il jurra sor sainz, qu'il n'i fust pas semons, non pas
+                            qu'il ne sot pas la semonse&#160;; et par tant s'en passera.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Se ban est criée, ci n'a que serement, qu'il ne le sot, ne ne li fut
+                            dit.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Se li sires met sus que l'en s'en soit alé sanz congié, ci n'a que
+                            serement.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> En ban d'ost a plus que serement.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Se sires met sus à home, qu'il ait fet en l'éritage sur son
+                            défans&#160;: ci n'a que serement. Et se l'en met sus à aucun, qu'il ait
+                            fet sus deffensse, et trois foiz le jurt, en sera-il à l'autre foiz
+                            quites à son serement&#160;? L'en dit que non, ançois ira par enqueste,
+                            car issint ne seroit jamès deffensse gardée.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> A totes les foiz que jostice met sus mise à home de tex quas et d'autres
+                            cas senblables, il s'en passe trois foiz par son serement, et la quarte
+                            non, ainz ira par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p><pb n="317"/>A totes les foiz que sires metra sus à son sogiet, li sogiez
+                            doit offrir ou deffandre qu'il ne l'a pas fet, ou amender.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_44">
+                <front>
+                    <head>XLIV. De quex choses l'en se doit metre en enqueste, et quele cort a
+                        recors.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> De quex choses l'en se doit mestre en anqueste, et quel cort a recors. —
+                                <ref target="http://josticeetplet.huma-num.fr/items/show/3">Johanz
+                                de Beaumont</ref> dit&#160;: Chamberiers de France si esgarda que
+                            l'en doit molt eschiver batailles, et que l'en doit mestre fin ès
+                            plez&#160;; si esgarda un droit qui est communs à toz.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Se li rois demande riens à aucun, muebles ne héritages, que l'en ait
+                            pris sor lui, ou que l'en li doie, il gaagne par enqueste ou pert.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Se aucuns bat ou fiert sergent le roi, par acheson dou servise, ce n'est
+                            pas par (<emph>ce vet par&#160;?</emph>) l'enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Nus ne se doit metre en enqueste de ses membres.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Esqeuse de sergant vet par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Se aucuns se plaint que l'en l'ait désesi, ou demande la sesine son
+                            père, et li tens que tenue vaut ne soit passez, ce rest
+                                (<emph>vet</emph>) par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Se aucuns estranges prent un prison le roi, qu'il aura pris, avoques
+                            autres choses qui sunt le roi, et l'en la li tost&#160;: s'est seu par
+                            enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> Se l'en fet injure à une poure persone, qui ne puet son droit
+                            porchacier, ne par soi, ne par son avoir, ne par ses amis&#160;: tel
+                            chose doit aler par enqueste&#160;; car l'en ne sueffre pas que les
+                            choses à tel périssent qui n'a poer. Et s'il demande forfet don cors
+                            doie périr, ci n'a point d'enqueste, fors issit que li rois doit mestre
+                            an poinne de pénitence et d'avoir, à sa volenté.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p> De totes les choses qui sunt déterminées par juigement, et li juigemenz
+                            est niez, ce vet par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p> Se mise est fete, et partie en soit niée, ce vet par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p> Qui fet chevauchées par armes, et prant, et péçae, ce vet par
+                            enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p> Li rois puet fere par inquisicion de mauvese renomée, issint de cex qui
+                            tiennent les bordeaus, de robeors, de péceors. de mellis, <pb n="318"
+                            />et de cex qui sunt costumiers de fere autres injures&#160;; et de
+                            mestre en poines à sa volenté, sanz dampnement de cors&#160;; car bone
+                            foi ne suefre pas&#160;: se aucuns est cremuz par sa cruauté ou par son
+                            ostrage, por ce ne doit pas remanoir que l'en ne preigne vengance&#160;;
+                            par deus resons doit l'en ce fere...</p>
+                    </div>
+                    <div>
+                        <head>§ 13.</head>
+                        <p> Cil doit fere enqueste qui la siet fere&#160;; et doit l'en demander sor
+                            toz les articles de la querele, et ne puet l'en riens dire contre les
+                            tesmoinz là présens.</p>
+                    </div>
+                    <div>
+                        <head>§ 14.</head>
+                        <p> Genz qui sont pris à présan forfet, et amené présantement à jotice, vet
+                            par enqueste, s'il le nie... Por ce que malice ne croisse, et por ce que
+                            l'en doit vengier les torfez que l'en fet à esciant<note>Les mots
+                                    <emph>Por ce que..... à esciant</emph>, semblent devoir être
+                                rapportés à la fin du § 12 ci-dessus.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 15.</head>
+                        <p> Or demande l'en, se de tel chose puet nestre bataille&#160;? Et l'en dit
+                            que non&#160;; car quant li principaus vet par anqueste, ce qui en sit
+                            et qui est joint, doit aler par enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 16.</head>
+                        <p> L'an dit ci&#160;: Bone cort doit avoir recort. Recort si est à savoir
+                            les paroles qui sunt dites devant le juige, quant eles sunt niées.
+                            Recort n'est mie solemant sur la jostice, mès sor cex qui sunt au
+                            juigement, en l'ore où la parole est dite don est li contenz. Et recort
+                            doit estre en bones gens, tex qui soient créables de la querele.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_45">
+                <front>
+                    <head>XLV. Des forfez que li rois met sus ses sogiez.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Li rois met sus à un home que il a ocis un autre&#160;; si vuelt qu'il
+                            soit puniz. A ce il respont&#160;: Comme nus riens ne me demande, fors
+                            vos qui estes jostice, je ne vos en respondré, se droiz n'est, comme
+                            l'en ne doie pas respondre à tel fet, quant nus ne s'en plaint fors
+                            vos.</p>
+                        <p>L'en demande qu'en dit droiz&#160;? Et l'en respont&#160;: Comme tex hom
+                            com li morz ait enfanz, ou nevoz ou paranz prucheins, et aient poer de
+                            vengier leur ami, la demande est leur, non pas au seigneur&#160;; mès se
+                            li hons, ou la feme qui ocise sera, n'a paranz ne ami qui l'en puisse
+                            vengier, li rois puet demander et metre en poine, c'est, segont ce qu'il
+                            aprandra, son dampnement dou cors.</p>
+                        <p><pb n="319"/>Enten que nus n'est dampnez par enqueste, se il ne s'i met.
+                            Et li rois doit fere amender toz les torzfez de sa terre, por ce que
+                            l'en n'ait matière de fere torzfez.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Li rois demande à Pierre qui a batu G., s'il viaut qu'il li
+                            amende&#160;; ou qui li a tolu le sien, ou décirié sa robe, ou fet
+                            domage de ses biens, ou batu dedanz jor, ou batu en la voie de la cort.
+                            L'en demande se l'en li respondra, quant cil ne se plaint&#160;? L'en
+                            dit que non, puisque cil est en vie, à qui l'en dit que li forfez fu
+                            fez.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Li rois met sus à un home que il ne fu pas à son jor&#160;; si velt
+                            qu'il l'ament&#160;; ou qui ne fu pas au larron pandre où il devoit
+                            aler&#160;; ou qu'il ne fut mie au guet où il fut semons&#160;: et l'en
+                            respont que li rois aura sa prove, qu'il ne fu pas semons&#160;; ou il
+                            sera défaillanz.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Li rois met sus à un home que il ne ala pas en l'ost où il devoit
+                            aler&#160;; il dit que il fut&#160;; (<emph>ou</emph>) qui s'en vint
+                            sanz congié. Et l'en dit que tex chose doit aler en enqueste.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Li rois dit à un home qu'il emporte le droit de sa cort. Et tel chose
+                            doit aler par le recort de sa cort.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Quant sires praut de son sogiet par aucun cas, et il i afiert recréance,
+                            li sires doit recroire, et li sogiez doit paier les despans, se despans
+                            i a por la prise, juque la querele soit déterminée. Et se li sires a
+                            tort, il doit paier les despans et les domages.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_46">
+                <front>
+                    <head>XLVI. Quex choses portent recréance, et quex non.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Quex choses portent recréance et quel non. — Recréance si fut por molt
+                            grant bien establie, por ce que cil qui prennent les choses as genz sanz
+                            jotice, n'an fusent en sesine, jusque l'en seust la vérité de la
+                            chose.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns hom me doit deniers&#160;; je praing dou sien, porce que li termes
+                            est passés&#160;; il requiert au prévost que il li face sa chose rendre
+                            ou recroire&#160;: et l'en dit que tel chose porte rendre, non
+                            recroire.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Je praing de mon pleige&#160;; il requiert estre establiz en sa
+                            chose&#160;: l'en dit que l'en li doit recroire.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Qui prant an son forfet, tel chose porte recréance.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p><pb n="320"/>A totes les foiz que aucuns prendra sanz ce qu'il soit
+                            coneuz de la chose, et qu'ele soit déterminée........</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Ausit est del juige, s'il prant la moie chose, fors en la chose
+                            juigée.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Issint, se aucune chose est ajuigie moie, tel chose ne porte pas
+                            recréance.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_47">
+                <front>
+                    <head>XLVII. Quex choses l'en puet prandre sans jostice, et quel non.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Quel chose l'en puet prandre sanz jostice, et quel non. — Je puis
+                            prandre de mon plége sanz jotice, segont le droit que l'en use en mainz
+                            poïs.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Se beste à quatre piez me domage, ou oisel privé, et je le trueve
+                            présentement, je puis prandre la beste et l'oissel por mon domage.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> La chose que li ons aura sor soi, puis-je prandre por mon domage, ou
+                            l'ome prandre ou amener à la jostice. Et s'il n'en sont pris en présant,
+                            non.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Et se aucuns te doit deniers, puez-tu prandre le sien&#160;? Non, tot
+                            soit li termes passez.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Et se aucuns a acheté de mes danrées, et eles soient mesurées en la
+                            place, comme vin, uille ou tel marcheandie que l'en ne puet reprandre
+                            arrières sanz grant empirement, puis-je prandre le sien, s'il ne viaut
+                            paier&#160;? L'en dit que oïl, et celes choses qui sont iqui présentes
+                            por acheson de la marcheandisse&#160;; autrement non.</p>
+                        <p>Et se la marcheandisse s'en est alée sanz mon congié, et il ne me voille
+                            poïer, puis-je la siure et prandre&#160;? L'en dit que non sanz
+                            jostice.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Ne l'en ne puet cors d'ome prandre por forfet, tant com sa chose vaut le
+                            forfet.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Je puis prandre larron, omecide, murtrier, robeor, raviseor de fames,
+                            péceor de chemins, forbenniz&#160;; mès quant les aurai pris, je les doi
+                            mener à lor jostice.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_48">
+                <pb n="321"/>
+                <front>
+                    <head>XLVIII. Se home ou beste a quatre piez fet domage.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Se home ou beste à quatre piez fet domage, premièrement l'en doit savoir
+                            la manière comment l'en fet domage&#160;; se l'en le fet à esciant, ou
+                            sanz esciant.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Uns fet sa meson lez la moie, et fet un célier, et ne me semont pas que
+                            j'apoie ma meson, et par le croiz, ma meson font&#160;: amendera-il ma
+                            meson &#160;? Et l'en dit qu'il a devision en tel chose&#160;; car se il
+                            fist sa meson si comme il la dut fere, et li autres le sot, et il ne
+                            vost apoier sa meson &#160;: s'il i ot domage, siens set, et se issit
+                            foloie, que sis voisins riens n'en sot, et fist ce celéement&#160;: il
+                            est aparissant qu'il vost le domage, et il est tenuz, quant il garder
+                            l'an pot por fere li savoir.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Et se il a sa pile en sa meson à batre tan, et mis vins en torne, et mis
+                            murs en dépièce, et mes autres choses en périssent&#160;: amendera-le
+                            m'il&#160;? Se ta chose qui ne puet estre remuée en périst, comme meson
+                            et adefice, il amendera. Et la chose qui puet estre remuée, comme vin et
+                            blé, et oille, en tel chose il n'est pas tenuz.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Et s'il prant mon vin à mener, et mis vins s'en vet,
+                            amendera-le-il&#160;? Se la cherrete versse, ou se li fonz do tonel
+                            s'envole par trop aler d'aïr, il le m'amendera&#160;; mès s'il vet si
+                            comme prodome doit alier, et fet ce que prodome doit fere, il n'i est
+                            mie tenuz.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> Et se aucuns se fet mestres d'afetier ma chose, et no (<emph>sache
+                                &#160;?</emph>) sa chose fere, et je i aie domage, il m'amendera le
+                            domage que je i auré.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> Et se aucuns me fet domage non à esciant, il le m'amendera en la forme
+                            davant dite&#160;; car tel chose pas por oster acheson que l'en ne face
+                            domage.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> Et se tu fés une fosse en ta place, qui n'est pas close, et ma beste i
+                            chiée, i es-tu tenuz&#160;? Et l'en respont&#160;: Se la place est huée
+                            à aler, tu i es tenuz&#160;; et se non, non&#160;; jà soit ce que l'en
+                            demende que l'en doit clorre tel chose.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> Et se ma cherrete est à une part de la voie, et tu la brises à ta <pb
+                                n="322"/>cherrete, cil i est tenuz, se il le puet achever
+                                (<emph>esquiver</emph>)&#160;; car tot ai-ge enpétrée la voie, tu
+                            n'en dois pas prendre vengance.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p> Et se mis chevaus vet la voie, et je sui desus, et nos aillem si com
+                            l'en doit aler, et li chevaus tut ou mehaingt un home, i sui-je
+                            tenuz&#160;? non, mès li chevaus&#160;; mès se tu aloies désordenéement,
+                            et an ce fust fet, tu seroies tenuz&#160;; car il seroit aparissant
+                            qu'il seroit fet par ton ostrage.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p> Et se ton cheval ou ta beste, ton buef, ta vaiche, tes truies, me font
+                            domage, i es-tu tenuz&#160;? Nenil, s'a ne l'a fet par ma négligence ou
+                            par mauvèse garde&#160;; mès la beste i est tenue&#160;; car l'en doit
+                            bien garder tex bestes, qui sont truies, et metre i grant diligence.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p> A totes les foiz que beste en quatre piez fet dommage, ou oissel privé,
+                            an issant hors, de ce, qu'an doit fere sanz la cope son seignor&#160;?
+                            La beste ou li oisiaus privez i sont tenuz&#160;; et se la colpe au
+                            seignor passe le quas, li sires i est tenuz.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p> Et se ge me plaing de mon domage, et il me soit niez, et veue en soit,
+                            et je l'ofre à prover par moi et par garanz, en seré-je oïz&#160;? Et
+                            l'en dit que oïl, en tex choses jà, et en tex, non&#160;: non à forfez
+                            que ne sont pas movables, comme adefices, et quant l'en fet rafos par
+                            quoi ele chiée &#160;; et en tel chose n'a que la prove à l'oil&#160;;
+                            an autres choses, comme à prandre et ravir choses, en tex choses puet
+                            avoir batailles, quant tel mot i sont mis par quoi bataille i soit.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_49">
+                <front>
+                    <head>XLIX. De maus renomez<note>Voy. Dig. lib. 3, tit. 2, § 1, frag. 1&#160;;
+                                <emph>De his qui notantur infamia.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Les paroles <ref target="http://josticeetplet.huma-num.fr/items/show/3"
+                                >Johan de Beaumont</ref> sont teles&#160;:</p>
+                        <p>Cil est mal renomez, qui pour aucune mauvesté s'en vint de l'ost le roi
+                            &#160;;</p>
+                        <p>Et li bordelier, et li larron, et li toleor, et li tricheor&#160;;</p>
+                        <p>Et cil qui ovrent de boisdie&#160;;</p>
+                        <p>Et cex qui ovrent mauvèsement de bail&#160;;</p>
+                        <p>Et feme qui prant home que ses sires het de mort, segont droit&#160;;</p>
+                        <p><pb n="323"/>Baillif qui fet tot (<emph>tort</emph>) apenséement, et qui
+                            prant loer por droit fere, et baillif qui est hors de baillie par son
+                            forfet&#160;;</p>
+                        <p>Cil qui ovre de son privilége fausement&#160;;</p>
+                        <p>Chevaliers qui est désordrenz&#160;;</p>
+                        <p>Avotres et avotresse&#160;;</p>
+                        <p>Truanz, travailleors de genz à cort&#160;;</p>
+                        <p>Cil qui traïst celui à cui il doit aidier&#160;;</p>
+                        <p>Omecide, traïtor, murtrier, aforceors de femes&#160;;</p>
+                        <p>Qui tost membre, qui fet sanc et chaable&#160;;</p>
+                        <p>Procurator, curator, tutor, avoquat, s'il ne font en la chose ce que il
+                            doivent.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Sont mau renommé&#160;:</p>
+                        <p>Cil qui demende chose que l'en ne li doit mie, parjur,
+                            foi-mentie&#160;;</p>
+                        <p>Et cil qui prant feme mariée par tricherie&#160;;</p>
+                        <p>Fille ou filz qui est ou poer son père, et se marie sanz son
+                            congié&#160;;</p>
+                        <p>Cil qui prant la feme à autre&#160;;</p>
+                        <p>Arbitre qui prant loer&#160;;</p>
+                        <p>Cele est mau renomée qui fet son mari de celui qui ne l'est
+                            pas&#160;;</p>
+                        <p>Qui decet l'éguiée en (est) maux renomez&#160;;</p>
+                        <p>Faus témoinz maux renomez.</p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

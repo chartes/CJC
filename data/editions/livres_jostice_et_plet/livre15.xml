@@ -1,0 +1,2385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre15">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160;Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-09" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI QUINZIESMES LIVRES</head>
+        </front>
+        <group>
+            <head>LI QUINZIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="262"/>
+                <front>
+                    <head type="gp">I. Ci commence li .iii. livres de Digeste nove. Cis titres est
+                        d’aquerre seignorie de choses <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 1&#160;: <hi rend="i">de
+                                    Adquirendo rerum dominio</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.1.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: la seignorie d’unes choses est aquise par le droit
+                                as genz, qui est gardee iveement entre toz homes por reson
+                                naturel&#160;; et la seignorie des autres est aquise par le droit
+                                citein, c’est par le droit qui est propres à noz citez. Et por ce
+                                que li droiz à genz vint avant desque li humains lignages fu fez, il
+                                convient que nos en dien premierement. ¶ {1} Totes les betes qui
+                                sont donc prises en terre et en mer et en ciel, ce sont les bestes
+                                et li poisson et li oissel, sont à cex qui les prenent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.2}</head>
+                        <div type="gp">
+                            <p>Florencius dit&#160;: celes qui nessent, venir encor nos.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.3}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: ce qui n’est à nul est ostroié par reson naturel à
+                                celui qui le prant. {1} Ne il n’a point de difference se aucuns
+                                prant bestes sauvages ou oisiaus en sa terre, ou en l’autrui champ
+                                por chacier, ou por oiselier&#160;; se li sires dou champ le vost,
+                                il puent deffendre que il n’i entre. ¶ {2} L’en entant que, quanque
+                                nos prenon de cex choses, est nostre tant comme il est nostre
+                                garde&#160;; et desque il est eschapez de nostre garde, est venuz en
+                                sa naturel franchise, il lesse à estre nostres et est à celi qui
+                                aprés la prent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.4}</head>
+                        <div type="gp">
+                            <p>Florentinus dit&#160;: se ce ne sont choses adomachies, qui aint a
+                                costume à aller et à venir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.5}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: l’en entant que la chose est revenue à sa naturel
+                                franchise quant ele est alee<note>est alee] <emph>est alee est
+                                        alee</emph> dans le ms.</note> en tel leu que nos ne la
+                                poons mes voir ; ou se nos la poons voer, si ne la poons nos pas
+                                prendre legierement. {1} L’en demande donc se une beste sauvage qui
+                                est si navree que ele est legiere à prendre est mointenant
+                                nostre&#160;? Et il plest à Trebace que ele soit nostre tant comme
+                                nos la sivons ; et se nos la lessons à sivre, ele lesse à estre
+                                nostre et est à celui qui la puet prandre. Se un autre la prent des
+                                le tens que nos la sivon, et le fet par corage que ele soit seue, il
+                                apert que il face larrecin, et plusors quident que ele ne soit pas
+                                nostre se nos ne la prenons&#160;; car plusors choses puent avenir
+                                qui n’ostodront à prendre la, et c’est voirs. {2} La nature des
+                                moches qui font le miel [127rB] est sauvage. Et por ce, celes qui
+                                s’assient en nostre arbre ne sont pas noz devant que nos les aiens
+                                coillies en un veisel, puis que li oissel sont nostre qui font lor
+                                nit en nostre arbre&#160;; et se uns les enclot, il en est sires.
+                                {3} Et s’il i ont fet rees, li sires les puet porsoer sanz larrecin.
+                                Mes, si comme nos avons dit devant, se aucuns entre en un champ por
+                                prandre les, se li sires do champ le siet, il puet prandre que il
+                                n’i entre. ¶ {4} Li gitons qui s’en est volez de nostre vessel est
+                                nostres tant comme nos le poons voier et prandre legierement. Et
+                                s’il est autrement, il est à celui qui le puet prandre. ¶ {5}
+                                    La<note>La] <emph>a</emph> dans le ms.</note> nature au pesons
+                                et à colons est sauvage&#160;; ne il ne remoint pas ce que il ont en
+                                costume à voler et à ravoler, quar autresi font les moches, de quoi
+                                il est certaine chose que lor nature est sauvage. ¶ Aucuns ont cers
+                                si domesches qui vont au bois et revienent, et si ne n’i a nus que
+                                lor nature ne soit sauvage. Et en cez menieres de bestes qui par
+                                costume solent aler et revenir est tele regle donee que l’en entende
+                                que eles soient nostres tant comme eles ont corage de revenir. Et
+                                s’eles lessent à avoir en corage, eles lessent à estre noz et sont à
+                                celes qui les prenent. L’en entant que eles lessent à avoir corage
+                                de revenir quant eles ne revienent, si comme eles ont à costume. ¶
+                                {6} La nature as gelines et as oies n’est pas sauvage ; et si est il
+                                aperte chose que il i a gelines sauvages et oies sauvages. Se mes
+                                gelines ou mes oies sont donc espoentees en aucunne maniere et eles
+                                s’en volent si loing que nos ne savon où eles vont, por ce ne
+                                remoint pas que eles ne soient en nostre seignorie. Et por ce, se
+                                aucuns les prent por avoir les de gaign, il sera tenuz à nos par
+                                aucion de larrecin. {7} Les choses que li anemi prenent sont por le
+                                droit à genz à cex qui les prenent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.6}</head>
+                        <div type="gp">
+                            <p>Florencius dit&#160;: les choses qui nessent de celes qui sont
+                                sormises à nostre seignorie sont noz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.7}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li franc home qui sont pris de guerre sont mené en
+                                servage, mes s’il eschapent de la main à lor enemis, il reçoivent
+                                lor enciene franchise. ¶ {1} Ce que uns fluves a aporté en nostre
+                                champ par cretine est aquis à nos por le droit as genz. Il senble
+                                que ce i est aporté par cretine, qui i eist aporté si petit à petit
+                                que nus ne poons pas entendre conbien il est ja aporté en chescun
+                                moment. {2} Mes se la force do [127vA] flueve prent une partie dou
+                                champ et ele la porte au mien, il est aperte chose que ele est deue.
+                                Mes se tu la lesses longuement en mon champ et li arbres que ele
+                                aporta o li fichant lor racines en mon champ, il apert que il soient
+                                mien de ce tens. ¶ {3} L’ile qui nest en la mer – qui n’avient pas
+                                sovent – est à celui qui la porprant. Et cele qui nest en fluve –
+                                qui sovent avient – n’est à nul. Et s’ele nest au mileu do flueve et
+                                ele en tient la moitié, ele est commune à cex qui d’une part et
+                                d’autre porsient les chans prés de la rive, segont ce que chascuns
+                                chans est lez pres de la rive. Et s’ele est plus pres de l’une rive
+                                que de l’autre, ele est à cex tant solemement qui porseent les chans
+                                qui sont joingnant à cele rive, qui ont la grant jotice. {4} Et se
+                                li flueves se desrive d’une part et il commoince à corre par un
+                                moisme ruisel et il aclot un champ, et puis il revient à son premer
+                                cors, cil chans qui est enclos en maniere d’ile est à celui que il
+                                fu avant. ¶ {5} Et se li flueves lesse tot son naturel conduit, il
+                                commoince à corre par autre leu, li premers conduiz est à celui qui
+                                porsiet le champ lez la rive, selon ce que chescuns est lez&#160;;
+                                et li noviaus conduiz commoince à estre de la commune droiture,
+                                autresi comme li fluves. Et s’il revient aprés le tens à son premer
+                                conduit, li noviaus commoince à estre à cex qui porsient les chans
+                                de lez la rive. Mes se li noviaus conduiz porprant tot le champ à
+                                aucun, ja sé ce que li fluives s’en reviengne au premer chenel,
+                                neporquant cil à qui il avoit tolu tot son champ n'i puet puis riens
+                                avoir por estroite reson, car cil chans a lessié à estre ce que il
+                                estoit et a perdu sa propre forme&#160;; et por ce que cil à qui il
+                                fu n’a point de champ por delz, il ne puet demander nule partie par
+                                reson de voisine. {6} Mes il est à poine ostroié que ce soit tenu se
+                                toz li chans à aucuns est coverz por serondement ; car li
+                                sorondemenz ne mue pas la meniere do champ. Et por ce, quant l’eve
+                                se retrera, il est aperte chose que le chans sera à celui à qui il
+                                fu. ¶ {7} Quant aucuns fet aucunne chose d’autrui matire en son non,
+                                Nerva et Proculus cuident que cil qui la fet en soit sires ; car ce
+                                qui est fet n’est avant à nul. Mes Sabinus et Cassius cuident que
+                                reson naturel face que cil qui fu sires de la matire soit sires de
+                                ce que en est fet, car l’en [127vB] ne puet rien fere san la
+                                matire&#160;; si comme se je faz aucun vessel de ton or ou de ton
+                                argent ou de ton erein, ou je faz de tes tables une nef ou une
+                                aumoire, ou se ge faz un drap de loine, ou se ge faz un buvrage de
+                                ton miel et de ton vin, ou un enplastre de tes espices, ou vin de
+                                tes grapes ou oil de tes olives. Cil qui se tienent entre ces .ii.
+                                opinions ont la meillor sentece, qui dient que, se l’ovre puet estre
+                                depecie sanz enpirier la matire, c’est voirs que Sabinus et Cassius
+                                distrent&#160;; mes s’ele ne puet estre depecie sauf la matire, ce
+                                que Nerva et Proculus dient est voirs. Si comme uns veissiaus d’or
+                                et d’argent puet estre ramenez à sa premere matire, mes vins ne
+                                oilles ne fromanz ne puent revenir as grapes, ne as olives as espis,
+                                ne li enplastres as espices. Neporquant, il me senble par droit que
+                                l’en doit pas doter que li fromanz qui est trez des espis ne doie
+                                estre à celui à qui li espic furent&#160;; car li grain qui sont
+                                dedanz les espis ont lor forme tote perfete, et cil qui depart le
+                                grain de l’espic ne li done pas novele forme, ainz descuevre cele
+                                que il a. ¶ {8} La volenté à .ii. seignors qui assenblent lor
+                                mestives fet que l’ovre qui en est fete soit commune comment que il
+                                soit&#160;; ou se les matires sont d’une meniere, si comme s’il
+                                assenblent lor grapes ou il fundent ensenble lor argent ou diverses,
+                                si comme li uns done le vin, et li autres done le miel à fere un
+                                bevrage, ou li uns done l’or et li autres l’argent à fere un vessel.
+                                {9} Mes se les matires à .ii. sont assenblies par avainture sanz la
+                                volenté as seignors, cist moismes droiz sera gardez. ¶ {10} Quant
+                                aucuns edefice en sa terre d’autrui matire, l’en entant que il est
+                                sires de l’edefiement, car tot ce qui est edifié est à celui à qui
+                                la terre est. Neporquant, cil qui fu sires de la matire ne lesse pas
+                                por ce à estre en sires, fors en tant que il ne la puet pas
+                                chalongier ne pledier que ele soit aprestee avant par la loi de
+                                .xii. tables, en coi il est contenu que nus ne soit contrainz
+                                d’oster autrui chevron qui soit mis en sa meson, ainz en rende le
+                                pris à dobles. Par non de «&#160;chevron&#160;» sont senefiees totes
+                                les matires de quoi li edifiement sont fet. Se li edefiemanz est
+                                donc depeciez par aucunne maniere, cil qui fu sires de la matire la
+                                porra chalengier et pledier en por fere la aporter avant. {11} Et
+                                l’en demande par droit se cil qui fist le edefiement le [128rA] vant
+                                et li acheteres le porsiet par lonc tens et il est aprés depeciez,
+                                savoir mon se cil qui fu sires de la matire les puet
+                                chalongier&#160;? Et la cause de la dote est por ce que li
+                                edefiemenz toz entiers a tant esté porsis que il est gaignz par
+                                longue tenue, savoir mon se les matires don il fu fez i sont autresi
+                                gaignies. Et ce ne nos plet pas. ¶ {12} Encontre ce, se aucuns
+                                edefice de sa matire en autrui terre, li edefiemenz soit à celui à
+                                qui la terre est&#160;; et s’il savoit que la terre fust autrui,
+                                l’en entant que il a perdue sa matire de son gré. Quant li
+                                edefiement sera donc depeciez, il ne porra pas demander sa matire.
+                                Mes se li sires de la terre demande l’ovre, et il ne poie pas le
+                                pris de la matire ne le loier as ovriers, il porra estre mis ariere
+                                por excepcion de tricherie&#160;; mes se cil qui fist l’edefiement
+                                ne savoit pas que la terre fust autrui, il idefia par bone foi comme
+                                en la soe. Et s’il savoit que la terre fust autrui, la cope en puet
+                                estre sus lui, car il edefia folement en la terre que il savoit bien
+                                qui estoit à autrui. ¶ {13} Se je met autrui plante en ma terre, ele
+                                sera moie. Et encontre ce, se je met ma plante en autrui terre, ele
+                                sera au seignor de la terre s’ele se racine en l’un cas et en
+                                l’autre ; que, ainz que ele soit racinee, ele est à celui qui ele fu
+                                devant. Il est convenable chose que se li arbres à mon voisin
+                                apresse si ma terre que il i giete ses racines, il sera miens&#160;;
+                                car reson n’ostroie pas que li arbres soit à autre que à celui en
+                                qui terre est racinez. Et por ce, li arbres qui est mis en devises
+                                est communs, ja sé ce que il soit racinz en .i. des chans.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.8}</head>
+                        <div type="gp">
+                            <p>Marcianus dit&#160;: selonc ce que il siet en chescun champ. {1} Mes
+                                se une pierre nest en marche et li champ sont commun, si que il ne
+                                sont pas parti, la pierra sera commune sanz partir se ele a esté
+                                trete de terre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.9}</head>
+                        <div type="gp">
+                            <p>Hemiloins dit&#160;: por cele moisme reson que les plantes qui sont
+                                mises en autrui terre sont à celui qui la terre est, entent l’en que
+                                cil froment qui sont semé en autrui terre sont à celui qui la terre
+                                est. Et tot autresi comme cil qui edefice en autrui terre puet estre
+                                deffenduz par excepcion de tricherie se li sires de la terre demande
+                                l’edefiement, puet estre deffenduz par l’eide de cele moisme
+                                excepcion cil qui a semé en autrui terre à ses despens. {1} Ja soit
+                                ce que letres soient fetes d’or, neporquant eles sont à celui qui li
+                                parchemins est, autresi comme les choses qui sont edefiees ou semé
+                                es solent estre à celui qui la terre est. Et por ce, se j’escri en
+                                ton parchemin un dictié ou une hystoire, je [128rB] ne sui pas sires
+                                de cel escrit, mes tu. Mes se tu me demandes et ne me velz poier le
+                                pris de l’escriture, je me porroi deffendre por excepcion de
+                                tricherie, se je en sui entrez en possession par bone foi. {2} Il
+                                n’est pas ausi des pointures qui sont fetes as tables comme de
+                                l’escriture qui est fete au parchemin. Mes il nos plest que les
+                                tables soient à celui qui i fet les pointures. Neporquant il est
+                                convenable chose que profitable aucion soit donee à celui qui la
+                                table estoit contre celui qui la point&#160;; por quoi il porra
+                                pledier à celui s’il poie le pris de la pointure, car autrement li
+                                nuiroit excepcion de tricherie. Se cil qui point la table la porsoit
+                                par bone foi, nos dison que droiz chalongemenz est donz à celui qui
+                                point contre le chalongement des tables se il i poie le chalongement
+                                des tables, car autrement li nuiroit excepcion de tricherie. ¶ {3}
+                                Les choses qui deviennent noz quant eles nos sont livrees sont
+                                aquises à nos par le droit as genz ; car rien ne s’acorde à naturel
+                                droiture comme la volenté au seignor qui vieust que la chose soit à
+                                un autre soit gardee. {4} Mes il n’i a point de difference se li
+                                sires moismes baille sa chose à un autre, ou se uns autres la baille
+                                par sa volenté&#160;; et por ceste reson, se cil qui n’est hors do
+                                poïs baille à aucun l’aministracion de totes ses besoignes, et cil
+                                vent une de ses choses et il la livre, ele est à celui qui la
+                                reçoit. {5} Aucunne foiz avient que la sole volenté au seignor
+                                sofist à doner la seignorie de la chose sanz livrer la&#160;; si
+                                comme se je te vant la chose que je te prestoi ou que je te loie, ou
+                                que je te bailloi à garder ; car ja soit ce que je la t’oie baillie
+                                por vente, neporquant je te soffre que tu la tienz por cause
+                                d’achat, ele est toee. {6} Et se aucuns soffre les marchandises qui
+                                sont en son celier, et il baille à l’acheteor les cles dou celier,
+                                la proprieté des marcheandises vienent mointenant à l’acheteor. ¶
+                                {7} Aucunne foiz avient que la volenté au seignor done la seignorie
+                                de sa chose à persone qui n’est pas certaine, si comme quant aucuns
+                                gite gleves en une grant torbe de gent et il ne set le quel chascuns
+                                prandra, et s’il veust que cil que chascuns<note>chascuns]
+                                        <emph>clascuns</emph> dans le ms.</note> prandra soit siens.
+                                ¶ {8} Il est autrement des choses qui en tempeste de mer sont getees
+                                hors de la nef por aligier la, car eles sont à lor seignors, car il
+                                ne les gitent pas hors par corage que il voillent que autres les
+                                aint, mes por sauver le peril de aus et les nés [128vA]. Et por ce,
+                                se aucuns les prent par corage d’avoir les de gaign ou en la mer
+                                moismes, ou quant l’eve les a getees hors, il fet larrecin.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.10}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: seignorie nos est aquisse non pas tant
+                                solement por nos moismes, mes por cels que nos avons en nostre
+                                poeté, et por les sers en quoi nous avons usaire, et por les frans
+                                homes, et por les autrui sers que nos porseon par bone foi. {1} Si
+                                nos convient voir plus diligement de chasque chose qui est donc
+                                livré à noz sers et ce que lor est convenente ; et ce qu’i aquierent
+                                par aucunne autre chose est aquis à nos, car li sers qui est en
+                                autrui poeté ne puet rien avoir qui sien soit. Et por ce, se nostre
+                                sers est fet heirs, il ne puet pas recevoir l’eritage sanz nostre
+                                commandemant. Li heritages est aquis à nos, autresi comme si nos
+                                moismes fuseint fet heir, et autresi nos est aquis par els. ¶ {2}
+                                Nos ne querons pas por cex qui sont en nostre poeté la proprieté de
+                                la chose tant solement mes la possession, car de quel chose que il
+                                aquierent la possession, il apert que nos la porseons, et por ce nos
+                                est aquise seignorie par longue possession. ¶ {3} Il nos plest de
+                                sers en qui nos n’avons fors l’usaire quoi que il aquierent de
+                                nostre chose et de lor poine soit aquis à nos&#160;; et s’il
+                                aquierent autre chose à autre part, eles apartient à cex qui ont la
+                                proprieté d’aus. Se cil sers est fez donc heirs, ou aucun lés li
+                                eist lessié, il n’est pas aquis à nos mes au seignor de la
+                                proprieté. {4} Autresi nos plest il de celui qui nos porseons par
+                                bone foi que que il soit, ou frans ou autrui sers ; car ce qui est
+                                establi de celui qui a l’usaire est gardé de celui qui porsiet par
+                                bone foi. Ce que il aquiert donc, autrement que par ces .ii. causes,
+                                apartient à lui s’il est frans, ou au seignor s’il est sers. {5} Se
+                                cil qui porsiet autrui serf par bone foi l’a tant porsis que il
+                                l’ert gaagnié par longue teneure, por ce que il en est fez sires en
+                                cele maniere, il puet aquerre par lui de totes causes. Cil qui a
+                                l’usaire do serf ne le puet gaagnier par longue tenue&#160;;
+                                premerement por ce que il ne le porsiet pas, ainz a poer d’user en,
+                                et aprés por ce que il siet bien que il est autrui sers.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.11}</head>
+                        <div type="gp">
+                            <p>Marcianus dit&#160;: cil qui est dedanz aage n’a pas besoing de
+                                l’autorité à son deffendeor quant en aquerre, mes il ne puet
+                                estrangier nule chose se ses deffenderres n’est presanz et s’il ne
+                                l’en done autorité, ne la possession qui est naturel, si comme
+                                Sabinus et Cassius dient&#160;; et ceste sentence est voire.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.12}</head>
+                        <div type="gp">
+                            <p>Palistratus dit&#160;: ja sé ce que li lac et li estanc croissent
+                                [128vB] aucunne foiz, et sechent aucunne foiz, neporquant il ne
+                                retienent lor bones&#160;; et por ce, droiture de crestine n’i a pas
+                                leu, que il soit lor ce où il s’espandi. {1} Que se uns vessiaus est
+                                fez de mon herain et de ton argent, il ne sera pas communs à moi et
+                                à toi&#160;; car por ce que arains et argenz ont diverses matires,
+                                il puent bien estre desevré et ramené en lor ancienne matire.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.13}</head>
+                        <div type="gp">
+                            <p>Neraces dit&#160;: se mis procurators achete une chose par mon
+                                commandemant et ele li est livree en mon non, la proprieté et la
+                                seignorie en est aquise à moi, ja sé ce que je n’en sache rien. {1}
+                                Et autresi se li deffenderres à l’orfelin ou à l’orfeline achete une
+                                chose et ele li est livree en lor non, et la proprieté et la
+                                seignorie lor est aquise, ja sé ce que il n’en sache rien.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.15}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: cil qui edefice en la rive dou flueve n’est
+                                pas sires de l’edefiement.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.16}</head>
+                        <div type="gp">
+                            <p>Florencius dit&#160;: droiture de creitine n’a pas leu en chans qui
+                                ont esté pris en guerre, qui sont devisié à bonnes entre ceux qui
+                                les ont conquis&#160;; et issi l’establi li enpereres Pius. Mes
+                                Trebaces dit que li chans que li enemi qui sont voincu ont doné par
+                                tel condicion que il soit au commun de la cité, a droiture de
+                                cretine, ne ne doit pas estre partiz. Mes li chans qui est pris à la
+                                main doit estre partiz, que l’en sache combien chescun en a et
+                                combien il en demore au commun.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.17}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se dui seignor à un serf baillent aucunne chose
+                                ce que li uns l’en baille sera aquis à l’autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.18}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li heirs ne puet pas aquerre par le serf de
+                                l’eritage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.19}</head>
+                        <div type="gp">
+                            <p>Pomponius dit&#160;: Aristo dit que ce que un franc home qui me siert
+                                par bone foi aquiert ou par son labor ou par mon chetel, apartient à
+                                moi ; ce<note>ce] <emph>a ce</emph> dans le ms.</note> que aucuns li
+                                done, ou que il aquiert en autre maniere, apartient à lui. Et
+                                heritages ou lés n’est aquis à moi par lui, car ce ne vient de mon
+                                chetel ni de sa poine, quar ce n’est pas por sa poine que il aquiert
+                                quant il le reçoit. Neïs se cil qui fist le testamant voloit que il
+                                apartenist à moi, mes ja sé ce que il ne l’aquiere pas à moi, en ce
+                                cas neporquant se la volenté à celui qui fist le testamant est
+                                aporté, li heritages me doit estre reduz. Se uns frans hom qui
+                                servoit por bone foi eust receu heritage par le commadement à celui
+                                à qui il servoit, il fu heirs&#160;; et Labeo dit que il ne puet
+                                chaloir quele entencion li morz eust.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.20}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil à qui la chose est livree n’i gaigne fors
+                                tant comme cil i avoit qui li livra. Se aucuns avoit donc la
+                                seignore d’un champ, se il le livre à un autre, il en baille la
+                                seignorie&#160;; et se il ne l’avoit, cil qui la reçoit n’i gaigne
+                                rien. {1} Toste les foiz que aucuns baille la seignorie de sa chose,
+                                il la baille cele comme [129rA] il i a. Et se li chans de frans est
+                                frans et se servises estoient deu au champ qui est bailliez, autresi
+                                li sont il deuz. Se aucuns dit donc quant il bailla le champ qui
+                                devoit servises que il estoit frans, il ne sostret rien des sevises,
+                                neporquant cil qui le baille oblige à fere le, tel comme il dit que
+                                il estoit. ¶ {2} Se je et Tices achetons une chose et ele est
+                                baillie à Tice comme à mon procurator, je croi que la seignorie en
+                                est aquise à moi, car i nos plest que la possession de totes choses
+                                puisse estre aquise par franche persone, et par la possession la
+                                seignorie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.21}</head>
+                        <div type="gp">
+                            <p>Pomponius dit&#160;: se mes sers achera une chose tant comme il te
+                                servoit par bone foi, et ele li fu livree, Proculus dit que ele
+                                n’est pas moie por ce que je n’avoie pas la possession dou
+                                serf&#160;; ne ele n’est pas teue s’ele ne fu achetee de ton
+                                chetel&#160;; mes se li frans home qui servoit par bone foi
+                                l’acheta, ele sera soee. ¶ {1} Se tu porsiez ma chose et je voil que
+                                ele soit toe, ele sera toe ja sé ce que je n’en ai pas la
+                                possession.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.22}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil qui porsiet serf por force ne en repost ne
+                                par loage ne peut rien aquerre par lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.23}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: quique serve à aucun par bone foi au frans hom
+                                ou autrui sers, quanque il aquiert do chetel à celui que il siert
+                                par bone foi, est aquis à celui que il sert. Et ce que il aquiert
+                                par son labor est autresi aquis à lui, car li labors est en une
+                                maniere do chetel à celui que il sert ; car il doit par droit
+                                laborer à celui que il siert par bone foi. {1} Il aquiert à lui
+                                tandis comme il le serve par bone foi. Et s’il commoince à savoir
+                                que il est frans hom ou autrui sers, veons se il aquiert à lui ; et
+                                la question est en ce, savoir mon se nos gardon au commoincement de
+                                la possession ou à totes les autres&#160;; et meuz est que nos
+                                gardons à totes les ovres. ¶ {2} L’en doit dire generaument que cil
+                                qui sert par bone foi n’aquiert rien par son chetel à celui que il
+                                siert&#160;; mes que il n’aquiert pas par son chetel n’est pas sien
+                                mes à celui que il siert par bone foi. {3} Se aucuns sers à dos
+                                aquiert par bone foi à quel aquerra il&#160;? Il aquerra à chescun
+                                ce que il aquerra par son chetel. Et s’il aquiert que la chose à
+                                l’un, veons s’il aquiert tot à celui, ou la moitié à celui et la
+                                moitié à son seignor se il est sers, ou à lui moismes s’il est
+                                frans. Et Scevola moismes fet cete question, et dit issi&#160;: se
+                                autrui sers sert à .ii. homes par bone foi, et il aquiert aucunne
+                                chose par le chetel à un d’els, reson fet que il l’aquiere tote à
+                                celui par quoi chetel il l’aquiert. S’il nome le non de celui de
+                                quel chetel il mar[129rB]cheande, ne l’en ne doit pas doter que il
+                                n’aquiere à celui sol de qui chetel il ovre. Et puis si dit aprés
+                                que, ja sé ce que il ne nomme pas, ne ne le face pas par son
+                                commandemant ; neporquant, desque il ovre de mon chetel, il aquiert
+                                à moi sol, ja sé ce que il serve à plusors par bone foi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.24}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: en totes les choses qui puent retorner à une moisme
+                                chose doit l’en dire que se la matire remoint et la forme est muee,
+                                si comme se cil fet de mon arein une ymage ou de mon argent un enap,
+                                la seignorie en est moie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.25}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: se ce n’a esté fet en non d’autre par la
+                                volenté au seignor, car por l’asentement au seignor sera tote la
+                                chose à celui en qui non ele fut fete.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.26}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se tu fes une nef de mes tables, la nef est
+                                toe&#160;; autresi comme li dras est tiens que tu as fet de ma
+                                laine. ¶ Proculus dit que nos usons de droit que<note>que]
+                                        <emph>due</emph> dans le ms., cf. lat. <emph>Proculus
+                                        indicat hoc iure nos uti, quod servio et Labeoni
+                                        placuisset</emph></note> Servius et Labeo establissent, que
+                                des choses en coi la propre qualité remoint se aucunne chose est
+                                ajointe à autre, la partie est à celui à qui li toz estoit&#160;; si
+                                comme s’ele met en une ymage .i. pié ou une main, ou en un henap une
+                                hanse, ou en une nef une table, ou en un mur une pierre ; car la
+                                chose tote parfete est à celui qui la fet. ¶ {1} Li arbres qui est
+                                arachiez et mis en autrui terre est à son premer seignor tant que il
+                                soit racinz en terre&#160;; mes puis que il est racinez, il est à
+                                celui qui la terre est. Se il est puis arachiez, il ne remoint pas
+                                au premer seignor ; car l’en doit croire que il est mien por la
+                                novele norreture de la terre. ¶ {2} Se tu tainz ma laine en porpre,
+                                Labeo dit que por ce ne remoint pas que ele ne soit mie ; car il n’a
+                                point de difference entre la loine qui est tointe et la loine qui
+                                est cheete en la boe et a por ce perdu sa premere color.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.27}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se uns vessiaus d’argent est toz fez, et tu i
+                                mez puis ton argent, l’en doit dire que il n’est pas por ce tiens.
+                                Mes se tu plomes ton henap d’autrui plon, l’en ne dote pas que li
+                                hennas ne soit tiens, et que tu ne le puisses chalongier par droit.
+                                ¶ {1} Quant plusors espices sont triblees ensenbles por fere aucunne
+                                medecine, li sires as espices ne puet pas chalengier la
+                                medecine&#160;; et por ce, croi je que ele soit à celui en quel non
+                                ele fut fete. ¶ {2} Quant les parties à .ii. seignors sont jointes o
+                                fer, l’en demande au quel eles doivent estre&#160;? Et Cassius
+                                respont que l’en doit prendre garde à la valor à chescunne des
+                                [129vA] parties ; et s’eles sont més, porveu est que eles doivent
+                                estre à l’un et à l’autre, autresi comme la masse qui est fondue
+                                ensenble est à celui en qui non eles furent assenblees ; mes
+                                Proculus et Pagasus dient que ele doit estre à anbedos.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.28}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se tis voisins edefie sor ton mur, Labeo et
+                                Sabins dient que li edefiemenz est siens propres. Mes Proculus dit
+                                que il est tiens, autresi comme li edefiemanz seroit tiens que uns
+                                autres feroit en ta terre&#160;; et ceste sentece est veroie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.29}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant .ii. home ont lor chans lez la rive dou
+                                flueve et une islle i nest par la force dou flueve, ele n’est pas
+                                commune à eus sanz partir, ainz la doivent partir si que cheschun en
+                                oit tant comme il en a en droit sa terre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.30}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se l’ille qui est nee apartient donc à moi por
+                                ce que ele est endroit mon champ, et se je vent de mon champ la
+                                partie qui n’est pas par devers le flueve, cil qui l’achete n’avra
+                                rien en l’ille ; car se ce que il a acheté fu sien jusque l’ille
+                                commoinça a nestre, si n’i eust il rien. ¶ {1} Se .i. arbre nest en
+                                la rive do fluve qui est selonc mon champ, Celsus dit que il est
+                                mien ; car la rive qui est selonc mon champ est moie propre et li
+                                usages en est communs. Et por ce, quant li chans est sechiez, il est
+                                à cex qui ont les chans de lez, car li pueples n’en use. {2} Mes
+                                    ille<note>ille] <hi rend="i">il</hi> dans le ms., cf. lat.
+                                        <emph>Tribus modis insula in flumine fit</emph>.</note> est
+                                fet en flueve par .iii. manieres&#160;: la premere est quant l’eve
+                                enclot une partie do champ ‹...› sec et comoince à corre por les
+                                chans ; la tierce est quant la terre s’asenble petit à petit ou
+                                flueve, tant que l’en l’avoit par desus l’eve. Et des deus
+                                derrenieres menieres est l’isle à celui à qui li champ sont qui sont
+                                joignant à la rive ; car la nature do flueve est tele que quant il
+                                change son cors il mue la cause do chenel. Mes en la premere n’est
+                                pas muee la cause de la proprieté. ¶ {3} Li descroissement de l’eve
+                                rent le champ que la crestine avoit tolu. Se li chans qui estoit
+                                entre le flueve et la voie commune est donc porpris par le
+                                sorondement dou flueve, ou petit et petit ou tot ensenble, se li
+                                flueves se retret, li chans apartient à son premer seignor ; car
+                                autresi comme il est communs tant comme li flueves i est, apartient
+                                il, quant li flueves en est hors, à celui à qui il apartenoit avant.
+                                ¶ {4} Se je met piliers en la mer et je faz une meson desus, la
+                                meson est moie ; et se je faz une isle en la mer, ele est moie, car
+                                ce qui n’est à nulz est à celui qui le porprant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.31}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: suele livree ne [129vB] remue pas la seignorie de
+                                la chose, s’il n’i a vente ou autre droite cause par quoi doie estre
+                                livree. ¶ {1} Tresors est anciene mourie de deniers de quoi il ne
+                                sovient mes à nul si que nus n’en a la seignorie. Et il est à celui
+                                qui la trove si que nus autres n’i a riens&#160;; quar se aucuns
+                                repont ses deniers en terre, por poor ou por garder les, ce n’est
+                                pas tresors, et cil qui les prent fet larrecin.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.32}</head>
+                        <div type="gp">
+                            <p>Paulus dit : nostre sers aquierent à nos pris que en totes choses, ja
+                                sé ce que nos no volon pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.33}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit : l’en demande, de ce qui est lessié au serf, qui a esté
+                                conquis par chevalerie ainz que li heritages au chevalier qui le
+                                conquist et estoit en la poesté son pere soit receuz, ou de ce qui
+                                li est convenancié, savoir mon por qui persone li lés ou la
+                                convenance a force. Et je croi que ce que Scevola dit est voirs,
+                                que se li heritages est receuz tot est autresi comme au serf de
+                                l’eritage&#160;; et se li heritages est receuz, l’en doit dire
+                                autresi de cetui comme de propre serf au pere. Et se mis usaires est
+                                lessiez à tel serf, l’en doit dire selonc cele distinction qui est,
+                                ou au pere ou à l’oir ; ne il ne vient pas d’une persone à autre.
+                                {1} Ceste moisme distinction vaudra se aucunne chose est enblee ;
+                                car se cil qui l’enble reçoit l’eritage au chevalier qui est au bail
+                                son pere par son testamant, aucion de larrecin cessera. Car li heirs
+                                ne fet pas larecin quant il prant des choses de son heritage ; et
+                                s’il ne le reçoit, aucion de larrecin apartient au pere contre lui.
+                                ¶ {3} Totes les foiz que sers d’eritage fet aucunne convenance ou
+                                reçoit chose qui li est baillie, ce que il fet reçoit force par la
+                                persone au mort, si comme il plest à Julien. Et itel sentence est la
+                                meillor, qui dit que il convient regarder à la persone à celui qui
+                                fet son testamant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.34}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: heritages ne sostient pas la persone à l’oir,
+                                mes cele au mort, si comme il est provez en plusors argumenz de
+                                droit citain.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.35}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: de mes procurators ou cil qui à un orfelin en
+                                garde baillie à un autre sa chose autresi comme moie ou comme à
+                                l’orfelin, il n’en pert pas la seignorie&#160;; et li estrangemenz
+                                n’est mis, car nus ne pert sa chose par error.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.36}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se nos nos consentons en livrer une chose, mes
+                                nos nos consentons pas en la cause de livrer la, je ne voi pas por
+                                quoi la livree ne vaille. Si comme je croi que je soi obligiez à toi
+                                par testamant à baillier toi mon champ et tu [130rA] cuides que il
+                                te soit donez par aucunne convenance ; et se ge te baille deniers
+                                par cause de don et tu les reçoiz comme dete, il est certaine chose
+                                que la proprieté en vient à toi&#160;; ne ce ne le toust pas que nos
+                                ne nos asanton pas en la cause de doner les et de recevoir les.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.37}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: possesion n’est pas aquise au creancier por le
+                                serf qui li a esté baillié en gage, ne par convenance, ne par
+                                livrer, ne par aucunne autre meniere, ja soit ce que il ait la
+                                possession do serf. ¶ {1} Se uns des seignors done deners au serf
+                                commun, il convient garder par quel pensee il i donne ; car s’il
+                                done sanz plus par departir les de son autre chetel et por ce que il
+                                n’i eust qui soient o chetel au serf, la proprieté l’en remoint. Mes
+                                s’il done les deners autresi comme nos solons doner à autrui sers,
+                                il seront commun à toz les compoignons selonc la partie que chescun
+                                a ou serf. {2} Mes que une autre question eit leu. Posons que uns
+                                des compoignons doint deners au serf commun par corage que la
+                                proprieté l’en temoigne&#160;; se li sers achete un champ de ces
+                                deners, li chans sera commus à compoignons, selonc les parties que
+                                chescun i a&#160;; car se li sers communs achatoit chans de deners
+                                que il eust enblez, li champ seroient commun as compoignons selonc
+                                les parties que il ont au serf. Car li serf de quoi aucuns a usaire
+                                n’aquiert pas à celui qui en a la proprieté aucunne chose par le
+                                chetel à celui qui en à l’usaire. Et autresi, se li sers communs
+                                aquiert aucunne chose à un de ses seignors par le chetel à l’autre,
+                                et tot autresi comme a choses qui sont aquises d’autres part, la
+                                condicion à celui de qui aucuns a l’usaire n’aquiert pas à celui qui
+                                a de lui l’usaire, et li sers communs aquiert autresi à ses
+                                seignors. Ce qui est aquis do chetel à celui qui a l’usaire do serf
+                                apartendra à lui sol&#160;; mes ce que li sers communs aquerra do
+                                chetel à un de ses seignors apartendra à l’un et à l’autre. ¶ {3}
+                                Autresi comme sers communs aquiert à .i. de ses seignors, ce que
+                                l’en li convenance en son non aquiert il à lui sol ce qui li est
+                                baillié en son non. ¶ {4} Quant une chose est baillie à un serf et
+                                il la reçoit ou non son seignor et ou non Tice, il en aquiest à son
+                                seignor une partie, mes il ne fet rien par l’autre partie. ¶ {5} Se
+                                li sers de cui aucun a l’usaire dit que il reçoit ou non à celui qui
+                                a la proprieté de<note>de] <emph>a de</emph> dans le ms., la phrase
+                                    se comprend mieux sans <emph>a</emph></note> lui la [130rB]
+                                chose qui li est baillie por le chatel à celui qui en a l’usaire, il
+                                aquiert tot à son seignor&#160;; car s’il fesoit un marchié do
+                                chetel à celui qui en a l’usaire, si aquerroit il son seignor. ¶ {6}
+                                Se je te voloie donner une chose et, je te commandoie que tu la
+                                baillasses au serf qui estoit communs à moi et a Tice, et li sers a
+                                receu la chose par corage que ele soit soe, ce ne li vaut riens. Et
+                                se li sers communs reçoit la chose par tel corage que ele soit à ses
+                                .ii. seignors, il ne fet rien por celui qui li commanda que ele li
+                                fust baillie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.38}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Marcus avoit un champ selonc la voie commune, et
+                                de l’autre part de la voie avoit .i. flueve&#160;; et Tices avoit un
+                                champ encontre la voie et le flueve. Li flueves manja le champ petit
+                                à petit, le champ qui estoit encontre lui et la voie&#160;; aprés
+                                ce, li flueves descrut petit à petit et revint en son encien chenel.
+                                ¶ Je respondi que, por ce que li flueves toli le champ et la voie
+                                commune, li chans qui remest est à celui qui l’avoit. Et quant li
+                                flueves fu retrez petit à petit chescuns ot son champ, autresi comme
+                                il avoit devant&#160;; et ce qui fu commun n’est à nul. Et la voie
+                                qui est o champ ne tost pas que la voie qui est d’elz ne soit Marc ;
+                                car la voie est dou champ moismes et l’anciene voie remoint en
+                                l’ancien estat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.39}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: sers qui a esté emblez aquiert à celui qui
+                                l’achete par bone foi ce que il marcheande de son chetel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.40}</head>
+                        <div type="gp">
+                            <p>Affricanus dit&#160;: l’en demande se cil à qui uns frans hom sert
+                                par bone foi muert et cil est sis heirs qui siet bien que cil est
+                                frans, savoir mon s’il aquiert par lui aucunne choses. Qar
+                                l’en ne puet pas dire que il le porsie par bone foi, desque il sot
+                                que il estoit frans quant il le commoinça à porseer&#160;; car se
+                                aucuns lesse son champ, li hers qui set bien que il est obligiez
+                                n’en puet pas fere les fruiz siens&#160;; et moimement, s’il estoit
+                                autresi et cil qui fist le testamant le porsiet por ce que il avoit
+                                acheté par bone foi. Cele moisme reson doit estre tenue des servises
+                                as sers, si que l’en le cuide que il soient serf et il sont franc,
+                                ou s’il sont autrui serf ou il sont lessié ou franchi en testamant,
+                                li heir qui le sevent bien ne puissent rien aquerre par els ; car
+                                autresi comme cil qui porsiet les chans par bone foi n’est pas
+                                [130vA] tenuz<note>tenuz] <emph>n’est pas tenuz</emph> dans le ms.,
+                                    reprise des derniers mots du recto</note> à rendre en les fruiz
+                                qui sont deffenduz, n’en est pas tenuz cil que porsiet sers par bone
+                                foi à rendre ce que il i oint aquis par lor labor et par son
+                                chetel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.41}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Trebaces et Pegasus dient que les ymages qui sont
+                                aquises en la cité ne sont pas as citeins. Neporquant, il convient
+                                que li prevoz mete entente que celes qui sont mises en commun leu
+                                par tel corage que il ne lise à nul bas home à hoster les, ne n’en
+                                soient pas ostees par celui moismes qui les i mist. Se aucuns les
+                                demande donc, li citein devront estre garenti par excepcion&#160;;
+                                et se aucuns les porsiet, il avront aucion de demander les.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.43}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: sers qui est porsis par bone foi n’aquiert pas à
+                                celui qui les porsiet ce qui est deu d’autrui chetel. {1} Il est
+                                aperte chose que choses qui ne sont pas corpores ne puent estre
+                                livrees ne gaignies par longue sesine. ¶ {2} Quant .i. serf en quoi
+                                aucuns a l’usaire achete un serf et il li est livrez ainz que il li
+                                aist paié pris, il est en dote en qui il a aquise la proprieté. Et
+                                s’il poie le pris do chetel qui apartient à celui qui à l’usaire de
+                                lui, l’en entant que li sers est à celui. Et s’il le poie do chetel
+                                qui apartient à celi qui en a la proprieté, il est à celi qui est
+                                sires de la proprieté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.44}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: Ponponius fet une demande&#160;: se li leu tolent
+                                à mon pastor mes porciaus, et uns hons d’une autre vile qui a bons
+                                chiens et forz, que il tient por garder les bestes, s'il<note>s’il]
+                                        <emph>sit</emph> dans le ms.</note> les ecot et il lor tost
+                                mest porciaus, ou li chien lor tolent, et quant mes pators demande
+                                mes porciaus, l’en demande savoir mon se il sont à celui qui les
+                                toli as leus ou mien. Car il les escot ausi comme par une
+                                maniere de vener. Et cil qui font ceste demande se porpensent que,
+                                autresi comme les choses qui sont prises en la terre et en la mer
+                                lessent à estre à cex qui les pristrent desque eles revienent en lor
+                                naturel franchise, lessent les choses que les betes de la mer et de
+                                la terre ont pris do nostre à estre noz quant les betes sont si
+                                aloignies que nos ne les sivon mes. Car qui diroit que ce est nostre
+                                que uns osiaux volanz prent devant nos, ou que uns escofle nos
+                                tost&#160;? Se la chose lesse donc à estre nostre et aucuns la tost
+                                puis à la beste, ele sera à celui qui la delivre ; autresi si comme
+                                .i. poissons ou .i. sangliers ou aucunne autre chose eschape de
+                                nostre poeté. Se uns autres [130vB] la prent, ele est soie&#160;;
+                                mes ge croi miaus que ele soit nostre tant comme ele est en tel
+                                point que nos ne la poons recovrer, ja sé ce que c’est voir qui est
+                                dit des oisiaux et des poissons et des betes sauvages. Cil moismes
+                                dit que se aucunne chose est perdue par peril de mer, ele ne lesse
+                                pas mointenant à estre nostre&#160;; mes cil qui la ravist est tenuz
+                                à rendre la à .iiii. dobles. Il est donc mieuz que l’en die que ce
+                                qui est tolu à leus est nostre tant comme il est en tel point que
+                                nos le poons ravoir. S’il est donc nostre, je croi que aucion de
+                                larrecin apartient contre celui qui le nos veust tolir&#160;; et se
+                                    li<note>li ne] <emph>li ons ne</emph> dans le ms.</note> ne le
+                                toli pas au leu par corage de retenir le, neporquant s’il ne les nos
+                                rent quant nos les demandons, il apert que il les voille celer et
+                                tolir&#160;; et por ce, est il tenuz por aucion de larrecin ou de
+                                porter avant la chose, si que le li soit chalengee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.45}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se sers qui est communs aquiert aucunne chose par
+                                le chetel à un des seignors, por ce ne remoint pas que ele ne soit
+                                commune. Mes cil par quoi chetel ele fu aquise puet demander cele
+                                chose par juigement de partir choses communes ; car il s’acorde en
+                                bone foi que chascuns est suen que ce que li serf qui ert par son
+                                chetel. Mes se li sers communs aquiert d’autre part aucunne chose,
+                                ele sera aquise à toz les seignors selonc les parties qui l’ont ou
+                                serf.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.46}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: ce n’est pas novele chose que cil qui n’a pas la
+                                seignorie d’une chose la donne à un autre&#160;; car quant uns
+                                creancers vent .i. gage, il en baille la seignorie que il n’avoit
+                                pas avant que il le vendist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.47}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: heritages ne puet pas estre aquis par le serf à
+                                celui qui en à l’usaire, quar il ne puet avoir l’eritage ou
+                                serf.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.48}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se cil qui achete aucunne chose par bone foi
+                                en reçoit les fruiz, il sont sien&#160;; et non pas tant solement ce
+                                que il en reçoit par sa diligence et par sa poine, mes tuit li
+                                autre, car il est en droit de seignor en tant comme il apartient as
+                                fruiz. Et ainz que il les reçoive, desque il sont departi de la
+                                terre, il sont à celui qui acheta la chose par bone foi&#160;; ne il
+                                n’a point de difference se la chose que il acheta puet estre gaignie
+                                par longue tenue ou non. ¶ {1} Encontre ce, demande l’en se je
+                                cuidoie ou tens que une chose me fu livree que ele fu à celui qui la
+                                me vendoit et je soi aprés que ele estoit à autre, savoir mon se je
+                                la puis gaagner por longue tenue ou se je faz que li fruit soient
+                                mien. Et je croi [131rA] que l’en doit doter que je ne porsee
+                                pas par bone foi&#160;; et por ce ne la puis je pas gaigner par
+                                longue tenue, mes li fruit puent estre mien. ¶ {2} Li fehon as
+                                bestes sont conté as fruiz et por ce apartienent il à celui qui
+                                acheta la chose par bone foi. Et autresi est il se femes grosses
+                                ‹s›ont vendues, ou bestes qui ont let ; et autresi est il de la
+                                loine.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.49}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se cil qui a l’usaire dou serf li done aucunne
+                                chose do sien, ele est soe&#160;; mes s’il li dona par corage que
+                                ele apartenist à celui qui a la proprieté dou serf, l’en doit dire
+                                que ele est aquise à lui. Et se uns estranges li done sanz nule
+                                distinction, ele est à celui qui a la proprieté dou serf. Ce moismes
+                                diron nos ou franc home qui me siert par bone foi, que se je li
+                                doing aucunne chose, ele soit moie. Et por ce dit Ponponius, que ja
+                                sé ce que je li aie doné son servise, neporquant quanque il aquerra
+                                par son servise sera mien.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.50}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: ja soit ce que ce que nos fesons est en la rive
+                                de la mer ou en autre leu commun soit nostre, neporquant li prevoz
+                                doit deffendre par parole et par force que nos n’i facons nule chose
+                                en coi autre aient domage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.51}</head>
+                        <div type="gp">
+                            <p>Celsus dit&#160;: nos recevons celx qui s’enfuient par bataille. {1}
+                                Et les choses à noz enemis qui sont entre nos, n’est pas communes,
+                                mes à cex qui les prenent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.52}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: l’en entant que les choses sont en noz biens
+                                que nos poons garentir par excepcion ou demander par aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.53}</head>
+                        <div type="gp">
+                            <p>Cil moismens dit&#160;: nos aquerons par cex qui sont en nostre poeté
+                                les choses qui sont aquises citai‹ne›ment, si comme par convenance,
+                                et les choses qui sont aquises naturement, si comme possession,
+                                aquirons nos par qui que nos volons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.54}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: frans hons ne nos puet pas aquerre heritage.
+                                Mes cil qui nos siert par bone foi aquiert à nos heritage ; s’il
+                                savoit sa condicion et il reçut de son gré, il l’aquist à lui. Car
+                                s’il reçut par nostre commandemant, il ne l’aquist ne à lui ne à
+                                nos, s’il n’ot corage de querre le à lui&#160;; et s’il ot tel
+                                corage, il l’aquist à lui. ¶ {1} Se cil qui est franc hom, qui nos
+                                sert en bone foi, nos promet aucunne chose, ou il l’achete en nostre
+                                non, ou il la baille à loage, ou il la prent, il porra par droit
+                                estre obligiez à nos. {2} Et s’il nos fet domage, il sera tenuz à
+                                nos par aucion de domage, s’il est fez en ses copes&#160;; mes nos
+                                ne le devons pas acuser por si legiere corpe comme un estrange. {3}
+                                Mes s’il s’entromet de noz choses par nostre commandemant, ou il fet
+                                aucunne chose sanz nos comme procurators quant nos ne somes pas
+                                presant, aucion doit estre [131rB] donnee contre lui non pas tant
+                                solement se nos l’avons<note>l’avons] <emph>la volons </emph>(?)
+                                    dans le ms.</note> acheté, mes s’il nos a esté donnz, ou s’il a
+                                comoincié à apartenir à nos par non de doere, ou par lés ou par
+                                heritage&#160;; ou non pas tant solement se nos quidons que il soit
+                                toz nostres, mes se nos quidons que il soit communs à nos ou à
+                                autre, ou se nos avons l’usaire. {4} Ne il ne quaist pas ce que il
+                                aquiert, se ce ne fu quanque frans hom ou autrui serf qui nos siert
+                                par bone foi aquiert, que il n’apartient pas à nos ; aquiert il à
+                                lui s’il est frans, ou à son seignor se il est autrui serf. Mes
+                                frans hom qui sert par bone foi ne puet rien gaigner par longue
+                                sesine ; car l’en n’entant pas que cil porsie qui est porsis il
+                                moismes. Et par autrui serf que nos porseon par bone foi ne puet pas
+                                ses sires gaigner par longue sesine, ne plus que par le serf fuitif
+                                que il ne porsiet pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.55}</head>
+                        <div type="gp">
+                            <p>Proculus dit&#160;: uns sangliers chei ou laz que tu avoies
+                                tenduz&#160;; je le trovoi, si l’enportoi o tot les laz. Il apert
+                                que je toli ton sanglier&#160;; mes se je cuidoi que il fust tiens
+                                et je le deslia et lessé aler ou bois, l’en demande<note>l’en
+                                    demande] <emph>l’en demande l’en demande</emph> dans le
+                                    ms.</note> se il lessa por ce estre tiens ou s’il est encore
+                                tiens. Et par quele aucion tu en puez pledier à moi&#160;? Et
+                                la response est que il convient veoir en quel leu li laz fu tenduz,
+                                ou en commun ou en privé. Et s’il fu tenduz en privé leu, savoir mon
+                                se ce fu ou tiens ou en l’autrui&#160;; et se ce fu en l’autrui,
+                                savoir mon se ce fu par l’otroi à celui à qui li lieus estoit, et
+                                savoir mon se li sanglier i estoit si enlaciez que il ne se poist
+                                delivrier, ou s’il estoit si que il peust eschaper, s’il i estet
+                                longuement. Et je croi que ce estoit la soveroine sentence que s’il
+                                vint en ta poeté il fu tiens. Et puis que il fu tiens, se je le
+                                lessoi aler en sa naturel franchise, et il lessa par ce fet à estre
+                                tiens, il convient que aucion te soit donnee sor le fet&#160;; si
+                                comme il fu escrit quant uns hom ot gité d’une nef la chose à .i.
+                                autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.57}</head>
+                        <div type="gp">
+                            <p>Juliains dit&#160;: nule chose ne puet estre aquise à feme par le
+                                serf que sis mariz li a doné, neïs par le chetel à la feme ; car
+                                c’est otroié en la persone à cex qui servent par bone foi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.58}</head>
+                        <div type="gp">
+                            <p>Jabolenus dit&#160;: chose qui soit trete de la mer n’est pas à celui
+                                qui l’entret devant que ses sires l’et lessie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.59}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: chose qui soit achetee en mon non ne sera moie
+                                devant que cil qui l’acheta la m’oit livree.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.60}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: Tices fit ou champ Sey un grenier de [131vA]
+                                tables à metre blié que l’en poet mener la où l’en voloit. L’en
+                                demande se il en est sires. Et la response est que, selonc les
+                                choses qui sont proposees, li greniers n’est pas Sey.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.61}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: heritages est en plusors parties de droit en
+                                leu de seignor. Et por ce, ce que li sers de l’eritage aquiert est
+                                en l’eritage. Mes es choses en quoi l’en demande le fet à la persone
+                                ou la meniere de servise, ne puet rien estre aquis à l’eritage par
+                                le serf. Et por ce, ja soit ce que li sers de l’eritage puisse estre
+                                fez à aucuns, ne pour quant, por ce que sers ne puet recevoir
+                                heritage sanz le commandemant son seignor, il convient
+                                    atendre<note>atendre] <emph>arendre</emph> dans le ms., cf. lat.
+                                        <emph>heres exspectandus est</emph></note> que li heirs eist
+                                receu l’eritage à qui il est sers. ¶ {1} Usaires qui ne puet estre
+                                establiz sanz persone n’est pas aquis par serf d’eritage qui ne est
+                                pas encore receuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.62}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: unes choses sont qui ne puent pas estre estrangies
+                                seules, ne vienent à l’oir o tot l’eritage, si comme chans de doere
+                                et choses de quoi marchiez ne puet estre fez&#160;; car ja sé ce que
+                                ele ne puisse estre lessie, neporquant li hoirrs en est fez
+                                sires.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.63}</head>
+                        <div type="gp">
+                            <p>Trophinus dit&#160;: se cil qui est en autrui poere trove .i.
+                                tresor&#160;; l’en demande s’il est aquis à sa persone. Et
+                                l’en dit, s’il le trove en autrui champ, une partie en est au
+                                seignor&#160;; et s’il le trove en leu que il soit à son pere ou à
+                                son seignor, il soit toz leur&#160;; et s’il le trove en autre, il
+                                n’en eit que une partie. ¶ {1} Se .i. communs sers trove tresor en
+                                autri terre, je demant savoir mon s’il a‹n› aquiere à ses seignors
+                                selonc la partie que il ont à lui yvement. Et ce est senblable
+                                à ce qui est doné ou serf ou par heritage ou par lés ; car li
+                                tresors ou li dons d’aventure est au seignor, si que la partie qui
+                                doit estre à celui qui trove le tresor soit à ses seignors par tel
+                                partie comme chescuns a au serf. ¶ {2} Se uns sers communs trove .i.
+                                tresor ou champ à .i. de ses seignors, il n’est pas dote que la
+                                partie qui est toz jorz au seignors dou champ, que ele ne soit tote
+                                soie. Mes il convient voir s’il avra rien de l’autre partie, et
+                                savoir mon s’il est autresi comme quant li sers fet aucun convenant
+                                par le commandemant à .i. de ses seignors, ou quant aucunne chose li
+                                est baillie en son non. Et ce puet l’en miauz dire. {3} Et se li
+                                sers en qui aucuns à l’usaire trove le tresor ou leu à celui qui en
+                                a la proprieté, veons s’il est [131vB] toz à celui qui en a la
+                                proprieté ou une partie, et l’autre à celui qui a l’usaire dou serf.
+                                A ceste demande sodre, il convient regarder au labor que li sers
+                                fesoit, si comme s’il foet terre quant il trova le tresor ; car en
+                                ce quas sera il à celui qui a en lui proprieté. Et je croi que il
+                                n’en apartient rien à celui qui à l’usaire dou serf ; car nus ne fet
+                                    ovrer<note>ovrer] <emph>ovres</emph> dans le ms., cf. lat.
+                                        <emph>nemo enim servorum opera Thensaurum
+                                    quaerit</emph></note> ses sers por querre tresor. Ne por ce ne
+                                foist il pas lors la terre, ainz entendoit à autre chose, et fortune
+                                li fist trover autre chose que il ne queroit. S’il le trova dont ou
+                                champ à celi qui a l’usaire de lui, je croi que il n’en doit avoir
+                                fors la partie qui apartient au champ et l’autre apartient à celui
+                                qui est sires de la proprieté. ¶ {4} Et se uns creanciers trove
+                                tresor ou champ à son detor que il a en gage, il avra une partie, et
+                                li detors une autre. Il convindra donc que li princes mete une terme
+                                dedanz quoi li detors poiast au creancier ce que il li doit et puis
+                                ait sa partie dou tresor, et li creanciers en reteigne la partie qui
+                                est deue ou troveor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.64}</head>
+                        <div type="gp">
+                            <p>Quintus Nencius dit&#160;: les autrui choses que chascuns asamble en
+                                son chetel ne sont pas por ce soies.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.65}</head>
+                        <div type="gp">
+                            <p>Jabolenus dit&#160;: se ge t’envoi une epistre, ele ne sera pas toe
+                                devant que ele te soit rendue. Mes Paulus dit le contraire ; car se
+                                tu m’envoies ton notoire qui me die aucunne chose de par toi, et je
+                                li baille mes letres por respondre toi, desque je li ai baillie mes
+                                letres, eles seront toes. Autresi avient il des letres que je
+                                t’envoi par toi tant solement, si comme se tu m’as requis que je te
+                                commant à aucun et je t’envoie les letres par quoi je t’i commant. ¶
+                                {1} Se aucunne isle qui soit en fluve est toe propre, il n’i a rien
+                                qui soit en la commune droiture. Et Paulus dit encontre&#160;; ainz
+                                en autretel point comme sont les rives des flueves et de la mer qui
+                                sont communes, cil moismes droiz est ou champ qui est joignanz. ¶
+                                {2} Se .i. isle est en commun flueve et ele est plus pres de ton
+                                champ que d’autre, el e toe. ¶ Paulus dit&#160;: donc veons se c’est
+                                faus de l’isle qui est joignanz ou chenel, ainz est sostenue ou
+                                flueve par arbres ou par aucunne autre menere, si que ele ne toiche
+                                pas à terre et ele est movable. Et sanz dote tel meniere d’isle est
+                                commune, autresi comme li flueves. {3} Paulus dit&#160;: se une isle
+                                qui nest en .i. flueve est toe, et puis nest .i. autre isle entre
+                                cele et la rive qui est [132rA] de l’autre par, se l’en velt savoir
+                                à qui cele novele isle doit estre, donc doit l’en mesurer de l’autre
+                                isle et ne mie de ton champ, quar il ne puet chaloir quel meniere de
+                                champ ce soit de quoi ele est plus pres. ¶ {4} Se ce qui est né ou
+                                edeficé en commun flueve est commun, l’isle qui est nee ne doit pas
+                                estre commune.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.1.66}</head>
+                        <div type="gp">
+                            <p>Senulius dit&#160;: quant feme grosse est lessee à aucun, ou aucuns
+                                l’a tant porsise que i l’a gaagnie par longue tenue, ou ele est
+                                estrangee en aucunne maniere, et ele enfante, l’enfes sera à celui à
+                                qui ele estoit quant li enfes fu nez et ne mie quant il fu
+                                conceuz.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. D’aquerre possession et de perdre la <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 2&#160;: <hi rend="i">de
+                                    Adquirenda vel amittenda possessione</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.2.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: possession est nommee, si comme Labeo dit, dou
+                                siege des piez ; car cil est naturelment en possession qui est sus
+                                la chose. {1} Et la seignorie en est aquise par naturel
+                                possession&#160;; c’est es choses qui sont en la terre et ou ciel et
+                                en la mer ; car ces choses sont à cex qui en ont premerement la
+                                possession. Et les choses qui sont prises par bataille, et l’isle
+                                qui est nee en mer, et les perres precioses qui sont trovees en la
+                                rive de la mer, sont à celui qui en a premerement la possession. {2}
+                                Nos recevon possession par nos moismes. {3} Li forsenz ou cil qui
+                                est dedanz aage ne puet pas commoincier à porsoer sanz l’autorité à
+                                celui qui l’a en garde ; car il ne puet pas avoir corage de tenir la
+                                chose, ja soit ce que il soient desus, autresi comme l’en met
+                                aucunne chose en la main à celui qui se dort. Mes Orfilius et Nerva
+                                dient que cil qui est dedanz aage puet bien commoincier à porsoer
+                                sanz l’autorité à celui qui l’a en garde ; car ce est chose qui
+                                apartient plus à fet que à droit. Et cete sentence puet estre receue
+                                se li enfes est de tel aage que il ait entendement. ¶ {4} Se uns
+                                hons lesse à sa feme possession por cause de don, plusors cuident
+                                que ele doie porsoer la chose ; car chose de fet ne puet pas estre
+                                quassee par droit citein&#160;; mes desque li mariz vodra avoir la
+                                possession, la feme perdra. ¶ {5} Nos aquiron possession par nostre
+                                serf ou par nostre fiz qui est en nostre poeté des choses que il
+                                tienent par non de lor chetel, si comme il plet à Sabin et à
+                                Quassi ; car l’en entent que il porsient par nostre volenté desque
+                                nos lor avons ostroié lor chetel. Cil qui ne puet encor parler et li
+                                forsenz aquierent donc possession par cause de lor chetel as choses
+                                que il gaignent par longue tenue. ¶ {6} Nos aqueron possession par
+                                celui que nos porseon par bone foi, ja sé ce que il soit frans hom
+                                ou autrui sers [132rB]. Et se nos le porseon par bone foi, je ne
+                                croi pas que nos porseons possession par lui&#160;; et cil que
+                                autres porsiet ne querra ne à seignor ne à lui. ¶ {7} Nos aquerons
+                                par serf commun autresi comme par celui qui est nostres porpres, si
+                                que nus des compoignons puet avoir tote la possession que li sers
+                                aquiert se li sires la reçoit ou non à celui. ¶ {8} Nos poons
+                                aquerre possession por celi en qui nos avons usaire, autresi comme
+                                il seust aquerre à nos par son labor&#160;; ne ce ne le tost pas que
+                                nos ne le porseons pas. {9} Cil par qui nos volons porseer doit
+                                estre cex que il ait entendement de porseer. {10} Et por ce, se tu
+                                envoies .i. serf forsené por recevoir possession, il n’apert pas que
+                                tu la reçoives. {11} Mes se tu envoies à celui qui a moins de
+                                .xiiii. anz por recevoir possession, tu commoinceras à porsoer
+                                autresi comme il aquiert possession à lui moismes par l’autorité à
+                                celui qui l’a en garde. {12} Et l’en ne dote pas que tu ne puisses
+                                aquerre possession par ta serve. ¶ {13} Cil qui est dedanz aage
+                                aquiert possession par son serf, de quel aage que il soit, s’il
+                                commande par l’autorité à celui que il a en garde que il auge en la
+                                possession. ¶ {14} Nerva dit que nos ne poons rien porseer por le
+                                serf qui est furtis, ja sé ce que l’en die que nos le porseons, tant
+                                comme autres ne le porsiet pas&#160;; et por ce, poons gaigner par
+                                lui par longue tenue. Mes il a esté receuz por cause de profit que
+                                la longue tenue soit acomplie tant comme nus n’a la possession de
+                                lui. Et la sentence Cassi et Julien en est que possession nos est
+                                aquise par eux, autresi comme par cex que nos avon en aucunne
+                                contree. ¶ {15} Juliens dit que nos n’aquerons pas possession par
+                                serf que nos est bailliez en gages corporement. Neporquant, il apert
+                                que li detors le porsiee a .i. sole cause, ce est à gaigner par
+                                longue tenue&#160;; ne il n’aquiert pas au creancier ; car il ne
+                                puet aquerre par lui ne par convenance ne par aucunne autre maniere,
+                                ja sé ce que il le porsie. ¶ {16} Li encien quident que nos ne poons
+                                pas aquerre par serf d’eritage chose qui soit d’eritage. ¶ L’en
+                                demande donc se cete regle doit estre entendue plus loing. Si
+                                comme se plusors serf me sont lessié, savoir mon se je puis aquerre
+                                par l’un la possession des autres. Autresi puet l’en demander se
+                                plusors sont acheté ensenble ou donné ou lessié. Et il est
+                                mieuz que je puisse aquerre par l’un la possession as autres. ¶ {17}
+                                Se uns sers est lessiez à celui qui est fez heirs d’une partie de
+                                [132vA] l’eritage il aquerra la possession dou champ de l’eritage
+                                por la partie que il a por la partie do lés. {18} Ce moismes doit
+                                l’en dire se je commans au serf qui est communs à moi et autres ;
+                                car je aquier l’eritage por tel partie comme j’ai ou serf. ¶ {19}
+                                Les choses que nos avont dites des sers sont voires s’il volent
+                                aquerre à nos la possession&#160;; car se tu commandes à ton serf
+                                que il entre en possession, et il n’a pas corage de querre la à toi,
+                                mes à Tice<note>mes à Tice] <emph>mes ance</emph> dans le ms., cf.
+                                    lat. <emph>ut nolit tibi, sed potius Titio
+                                    adquirere</emph></note>, la possession n’est pas aquise à toi. ¶
+                                {20} Possession nos est aquise par nostre deffendeor, ou par nostre
+                                predicator. Et quant il r‹e›çoivent possession en lor non, il ne la
+                                puent pas aquerre à nos. Et se nos disions que possession ne nos est
+                                pas aquisse par cex qui la reçoivent en lor, il avendroit que cil à
+                                qui ele est livree ne l’avroit pas, car il n’a pas corage de
+                                porsoer ; ne cil qui la livre, por ce que il la baille à autre. ¶
+                                {21} Se je commanz que cil qui m’a vendu une chose, qui est presant,
+                                la baut à mon procurator, Priscus dit que il apert que la possession
+                                m’en est baillie. Autresi est il se je comment à mon detor que il
+                                baut à .i. autre les deners que il me doit ; car il ne convient pas
+                                à force prendre possession par cors, mes par fet, et par
+                                    euz<note>par euz] <emph>parenz</emph> dans le ms., cf. lat.
+                                        <emph>sed etiam oculis et affectu argumento esse eas
+                                        res</emph></note>, et par volenté. Et ce puet l’en prover
+                                par les choses qui sont de si grant pois que eles ne puent estre
+                                meües, si comme li pilier ; car ce vaut autretant comme s’eles
+                                estoient baillies, desque les choses sont presentes en quoi les
+                                parties se ‹con›santent. Et autresi comme il apert que li vin sont
+                                livré quant les cles do celier sont baillies à l’acheteor. ¶ {22}
+                                Cil qui sont en garnison ne puent rien aquerre ne porsoer, car il ne
+                                se puent pas asantir tuit ensenble&#160;; ne il ne porsient pas
+                                marchié ne yglises ne les autres choses senblables, ainz en usent
+                                communement. Et Nerva dit que il puent aquerre par sers, mes aucuns
+                                quident le contraire, car il ne porsient pas les sers moismes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.2}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: mes nos usons de ce droit, que cil qui sont es
+                                garnisons puent porsoer et gaigner par longue tenue ce que lor est
+                                aquis par serf et par franche persone.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.3}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: les choses qui sont corporex puent estre porsisses.
+                                {1} Et nos aquerons possession par cors et par corage, et ne mie par
+                                sol cors ne par sol corage. Ce que nos dison, que possession doit
+                                estre aquisse par cors et par corage, ne doit pas issi estre
+                                entendu, que cil qui veust porsoer un champ a il sa part
+                                partout ; nenil, ainz li sofise que il entre en une [132vB] partie
+                                do champ par tant que ce soit sa pensee que il voille porsoir tot le
+                                champ. ¶ {2} Nus ne puet porseir partie qui n’est pas certaine, si
+                                comme se tu es en tel pensee que tu voilles porsoir quanque Tices
+                                porsiet. ¶ {3} Neraces et Proculus dient que nos ne poons pas
+                                aquierre possession par sol corage s’il n’i avient naturel
+                                possession. Et por ce, se j’é en mon champ un tresor, je le porsei
+                                mointenant desque j’é volenté de porseer le ; car la volenté
+                                acomplist ce qui faut à la naturel possesion. Mes Brutus et Manilius
+                                cuident que cil qui a gaignié champ par longue tenue ait autresi
+                                gaignié le tresor qui i est, ‹...› ja soit ce que il porsiet le
+                                champ. Et s’il li siet, si ne le gaignera il pas par longue
+                                possession, car il siet bien que il est autrui. Aucuns<note>Aucuns]
+                                        <emph>ainz</emph> dans le ms., cf. lat. <emph>Quidam
+                                        putant</emph></note> cuident que la sentence Sabin soit plus
+                                veroi, et cil qui siet que tresors est ou champ ne le porsiet pas
+                                s’il n’est meuz dou leu, car il n’est pas sor sa garde&#160;; et à
+                                cez m’asant je. ¶ {4} Nos poons porsoer une moisme chose por plusors
+                                causes, si comme aucui cuident ; car cil qui a longuement porsise la
+                                chose que il a achetee, la puet porsoir et por l’achest et por la
+                                longue tenue. Et autresi, se cil qui achete une chose est heirs à
+                                celui de qui il l’a achetee, il la porsiet comme acheterres et comme
+                                heirs. Mes ce n’est pas voirs, autresi comme nos ne poons avoir la
+                                seignorie fors par une chose, ne poons nos porsoeir fors por une
+                                cause. ¶ {5} Encontre ce, plusors ne puent porsoier tote une moisme
+                                chose&#160;; car ce est contre nature quant je tient une moisme
+                                chose que tu la tiegnes autresi. Sabinus dit que cil qui a baillie
+                                une chose par prest, li porsiet, et cil à qui il l’a baillie. Et
+                                Trebaces dit que uns hons doit tenir une chose par droit et uns
+                                autres à tort&#160;; mes li dui ne la puent pas tenir à droit, ne li
+                                dui à tort. Mes Labeo le reprent, quar en la some de possession il
+                                n’a pas moult grant difference se aucuns porsiet à droit ou à tort.
+                                Et ce est voirs, car dui ne puent pas plus avoir une moisme
+                                possession que tu ne puez ester en leu moismes où je m’estois, ou
+                                soier la où je me sies. {6} En<note>en] <emph>et</emph> dans le ms.,
+                                    cf. lat. <emph>In amittenda quoque possessione
+                                    affectio</emph></note> recevoir possession doit l’en regarder la
+                                volenté à celui qui porsiet. Et por ce, se tu es en .i. champ, et tu
+                                ne le viuz porsoier, tu en perz mointenant la possession. Ele puet
+                                donc estre perdue par sole volenté, ja sé ce que ele n’i puet donc
+                                estre aquise. {7} Et se tu porsiez par tel corage, ja sé ce que uns
+                                autres est ou champ, neporquant tu porsiez oncore. [133rA] ¶ {8} Se
+                                aucuns anonce que larron ont porprise une meson, et li sires a peor
+                                si que il n’i ose aler, il nos plest que il ait perdu la possession.
+                                Mes se li sers ou li coitiverres par qui il porset corporement s’en
+                                sont parti, oncore retient il la possession por corage. {9} Et se
+                                autres baillent la possession, je la pert&#160;; quar il est
+                                certeine chose que nos porseons la chose tant que nos la lessons par
+                                nostre volenté, ou que nos en sons mis hors par force. {10} Se li
+                                sers que je porsoie se tient por franc, si comme fist Spartalius, et
+                                il est apereilliez de recevoir en juigement, il n’apert pas que il
+                                le porsee desque il s’apareille à estre ses averseres. Et c’est
+                                voirs s’il a esté longement en franchise&#160;; mes s’il est en
+                                servage et il demande franchise, por ce ne pert pas li sires la
+                                possession, ainz la porsiet tant que il soit prononciez à franc.
+                                {11} Nos porseons par corage les landes où l’en ne puet habiter fors
+                                en iver, et celes où l’en ne puet habiter fors en esté ; ja sé ce
+                                que il les convient lessier par certein tens. ¶ {12} Nos porseons
+                                aucunne foiz par nostre corage par autrui cors, si comme nos avons
+                                dit dou coitiveor et do serf. Ne ce ne nos doit pas movoir que nos
+                                porseons aucunnes choses sanz nostre seu, si comme celes que nostre
+                                serf ont achetees de lor chetel ; car il apert que nos les porseon
+                                par lor coraige et par lor cors. ¶ {13} Nerva dit que totes choses
+                                movables fors home sont en nostre possession tant comme eles sont en
+                                nostre garde&#160;; ce est tant comme nos en poon avoir naturel
+                                possession se nos volons. Car desque une beste est agaree et
+                                eschapee, se que nos ne la poons trover, ele lesse mointenat à estre
+                                nostre, ja sé ce que nus ne la porsive. Mes il est autrement se ele
+                                est soz ma garde et neporquant ele n’est pas trovee por ce que ele
+                                n’est pas quise diligement. {14} Les betes sauvages que nos avons
+                                encloses en parc et li poisson que nos avons mis en servoers sont en
+                                nostre possession. Mes nos ne porseons pas les poissons que sont en
+                                nostre estanc, ne les bestes sauvages qui sont es forez, car eles
+                                sont lessies en lor naturel franchise. Car s’il estoit autrement, se
+                                aucuns achetoit .i. bois, il senbleroit que il porsoist totes les
+                                betes sauvages qui sont dedanz. ¶ {15} Nos porsions les oisiaus que
+                                nos avons enclos et cex que nos avons adomachiez qui sont en nostre
+                                garde. {16} Aucun quident par droit que nos porseons les colons qui
+                                ont à costume à voler de noz mesons et à ravoler. {17} Labeo et
+                                Nerva dient que je les à proisier le leu que flueves ou mer a
+                                porpris. [133rB] ¶ {18} Se je te baille .i. chose à garder et tu i
+                                thoiches por fere larrecin, je les<note>les] <emph>les les</emph>
+                                    dans le ms.</note> à porsoer la. Mes se tu la muez dou leu, ja
+                                soit ce que tu ais corage de fere i larrecin, plusors des anciens et
+                                Sabinus et Cassius escritrent par droit que encore la porsie
+                                je&#160;; car larrecins ne puet pas estre fez par corage sanz
+                                atocher à la chose. ¶ {19} Li ancien commandent que nus ne muast
+                                moismes cause de possession. {20} Et se cil qui me presta sa chose,
+                                ou qui li bailla à garder la, me vent ou donne, il n’apert pas que
+                                je mue la cause de la possession que je ne la porsee pas avant. ¶
+                                {21} Il est autretant meneres de possession comme causes d’aquerre
+                                ce qui n’est pas nostre&#160;; si comme achaz, dons, lés, heritages,
+                                si comme es choses qui sont en la terre et en la mer, ou celes que
+                                nos prenons sus nos ennemis, ou celes que nos avons fetes estre en
+                                la nature des choses. Mes au droit aler, possession est li
+                                    genres<note>genres] <emph>gennes</emph> dans le ms., distraction
+                                    dans l’usage des abréviations</note>, si a plusors espices sor
+                                lui. {22} Ou l’en puet deviser possession en .ii. especes&#160;: en
+                                celes qui est par bonne foi et cele qui est par male foi. {23} Mes
+                                ce que Quintus Nencius dit, que ce est une maniere de possession
+                                quant nos porseons aucunne chose par commandemant de jotice por
+                                garder la chose, ou por ce que caucion ne nos est pas donee que
+                                domages ne nos vendra pas de cele part&#160;; car la jostice ne nos
+                                ostroia pas la possession mes la garde. Et por ce, quant nos somes
+                                mis en possession de la chose nostre voisin por ce que il ne nos
+                                done pas caucion, se nos i somes longuement, li prevoz ostroie quant
+                                il a coneu la cause que nos estien en la possession.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.4}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se li fiz reçoit une chose par non chetel, ses
+                                peres le porsiet maintenant, ja sé ce que il ne sache pas que li fiz
+                                soit en sa poeté&#160;; et se uns autres porsiet le fiz en leu de
+                                serf, ce moismes sera dit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.9}</head>
+                        <div type="gp">
+                            <p>Gaius dit : quiconques soit en possession en nostre non, si comme
+                                nostre procurators ou nostre oste ou nostre amis, il apert que nos
+                                porseons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.11}</head>
+                        <div type="gp">
+                            <p>Pa‹u›lus dit&#160;: cil porsiet par droit qui porsiet par l’autorité
+                                au prevost.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.12}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: il apert que cil qui a l’usaire de la chose la
+                                porsiet naturelment. {1} La proprieté n’a nule communauté o la
+                                possession. Et por ce, li entrediz de possession n’est pas deneez à
+                                celui qui a commoincié à chalongier la, car il n’apert pas que cil
+                                quite la possession qui a chalongié aucunne chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.19}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: se uns achete autrui champ par bone foi et il le
+                                prant aprés à loage de celui qui li vandi, je demande s’il lesse à
+                                porsoer ou non. Et la response est que il est bien aperte
+                                chose qu’i l’a lessié à porsoer. ¶ {1} Ce que [133vA] li encien
+                                escritrent, que nus ne puet müer la cause de la possession, doit
+                                estre entenduz de celui qui porsiet par cuer et par cors, qui
+                                    meust<note>qui meust] <emph>qui meust por oir</emph> dans le
+                                    ms., cf. lat. <emph>qui et corpore et animo possessioni
+                                        incumbens hoc solum statuit, ut alia ex causa id
+                                        possideret</emph></note> por autre cause que il ne fesoit
+                                avant, et ne mie de celui qui lesse la possession que il a, et puis
+                                veust porsoier cele moismes chose por autre cause.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.22}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: il n’apert pas que cil ait gaignié la
+                                possession qui la reçoive si que il ne la puet recevoir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.31}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se uns coitiverres ist d’un champ et ce n’est
+                                pas por cause de lessier en la possession et il i revient puis, il
+                                le porsiet encore.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.39}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: il convient regarder por quel pensee les
+                                choses sont baillies en sauvegarde&#160;; car se ce est par cause de
+                                perdre la possession et c’est prové apertement, la possession est à
+                                l’autre partie. Mes s’il n’i furent mis fors por garder tant
+                                solement, la possession vaut au voinqueor à longue tenue se il
+                                l’a.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.41}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui entre ou champ son ami par amors ne le
+                                porsiet pas, car il n’i entre pas par corage<note>par corage]
+                                        <emph>par corage par corage</emph> dans le ms.</note> de
+                                porsoer le, ja soit ce que il soit ou chemp corporement.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.42}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se uns des seignors porsiet le serf commun ou non
+                                as autres, l’en entent que tuit li autre le porsient. ¶ {1} Se uns
+                                procurators achete une chose par le commandemant au seignors, il li
+                                aquiert mointenant la possesion. Et s’il achete de son gré, li sires
+                                n’avra pas la possession s’il n’ostroie l’achat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.49}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: possession est aquise à moi par le serf de
+                                quoi j’é l’usaire, ou par mon chetel, ou par son labor ; car je le
+                                puis tenir naturelement par lui. ¶ {1} Cil qui sont en autrui poeté
+                                puent tenir les choses qui sont de lor chetel, mes il ne les pue‹n›t
+                                pas avoir et porsoer ; car possession n’est pas de cors tant
+                                solement mes de droiture. ¶ {2} Se possession est par procurator à
+                                celi qui rien n’en siet, et longue sesine li apartient quant il set,
+                                neporquant aucion d’eschange n’est pas donnee au seignor contre le
+                                vendeor maugré au procurator&#160;; ainz est contrainz de lessier la
+                                par aucion de commandemant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.50}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: possession ne seignorie ne nule autre chose
+                                n’est aquise à moi par celui que je quidoie qui fust mis fiz et en
+                                ma poesté qui ne l’estoit pas. ¶ {1} Possession est aquise à nos par
+                                nostre serf fuitif que autres ne porsiet pas, ne qui ne quide pas
+                                estre frans. [133vB]</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.51}</head>
+                        <div type="gp">
+                            <p>Jabolenus dit&#160;: Labeo escrit que nos poons aquerre par corage
+                                les possessions d’unes choses&#160;; si comme se je achat un mont de
+                                buches et li venderres commant que je l’oste, desque je i avré mis
+                                garde, il senblera que la possession m’en eist esté baillié. Cist
+                                moismes droiz est ou vin qui est venduz, qui est toz par toniaus.
+                                Mes or veons, fet il, se ce est corporel livree, car il n’a point de
+                                difference se la garde est baillie à moi ou à toi par mon
+                                commandemant. Et je croi que la demande est en ce, se les buches ou
+                                li tonel ne sont pas prisés par cors, savoir mon s’il remoint por ce
+                                que la possession n’en soit baillie. Et je ne voi que il i ait
+                                point de difference se je gart les choses ou autres par mon
+                                commandemant, car en l’un et en l’autre qas doit l’en dire que il i
+                                a possession par corage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.2.52}</head>
+                        <div type="gp">
+                            <p>Senulius dit&#160;: il ne convient pas entremesler les causes de
+                                possession et d’usaire ; autresi comme possesion de proprieté ne
+                                doivent pas estre entremeslies. Ne la possession n’est pas enpechie
+                                por ce se uns autres a l’usaire ; ne li usaires n’est pas enpechiez
+                                por ce se .i. autre a la possession. ¶ {1} Il est aperte chose que
+                                cil à qui il est deffendu que il ne face edefiement en mon leu n’en
+                                puet pas avoir la possession. ¶ {2} Une meniere de metre en
+                                possesion aucunne chose est deffendre que force ne soit fete à celui
+                                qui i antre&#160;; car cil qui ce fet mointenant que li averseres
+                                lest la possession vuide, et c’est assez plus que rendre
+                                possession.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head type="gp">III. De longue tenue et d’entrerumpre la <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 3&#160;: <hi rend="i">de
+                                    Usurpationibus et usucapionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.3.1}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: longue tenue fu establie por commun bien, car les
+                                seignoriers d’aucunes choses fussent toz jorz en dote&#160;; et
+                                l’espace dou tens qui est establiz soffist bien as seignors à
+                                aquerre lor choses.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: usages est entrerupcion de longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.3}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: longue tenue est conquez de seignorie par la
+                                costumance dou tens qui est establiz es lois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il convient que nos dison de longue tenue. Et il
+                                convient aler par ceste ordre que nos veons qui puet gaigner par
+                                longue tenue, et quex choses, et en conbien de tens. ¶ {1} Li peres
+                                qui a ses enfanz en la poeté puet gaigner par longue tenue, et li
+                                fiz qui est en bail, et moismement li chevaler qui est en la poeté
+                                son pere gaigne par longue tenue ce que il aquiert par chevalerie. ¶
+                                {2} Se cil [134rA] qui dedanz aage commoince à porsoir par
+                                l’autorité à celui qui l’a en garde, il puet gaigner par longue
+                                tenue&#160;; et s’il porsiet sanz l’autorité à celui qui l’a en
+                                garde et il a corage dou porsoier, si dirons nos que il puet porsoer
+                                par longue tenue. ¶ {3} Li forsenz gaignera par longue tenue ce que
+                                il reçut devant la forsenerie. ¶ Mes cete persone puet gaigner par
+                                longue tenue se il porsiet por la cause de quoi la longue tenue
+                                vient. ¶ {4} Sers ne puet pas porseir por l’eir. {5} Li fruit, et li
+                                enfant as sers, et li feon as bestes ne puent pas estre gaignié par
+                                longue tenue s’il ne sont ‹au› mort. ¶ {6} Ce que la loi dit, que
+                                chose enblee n’est pas estre gaignie par longue tenue se ele ne
+                                revient à celui à qui ele fu enblee, est issi entendue que il
+                                convient que la chose reviegne à son seignor et ne mie à celui à qui
+                                ele fu enblee. La chose qui est donc enblee au creancier ou à celui
+                                à qui ele fu prestee doit revenir en la poeté son seignor. ¶ {7}
+                                Labeo dit que se la chose do chetel mon serf li est anblee sanz mon
+                                seu et il en reçoit puis la possession, il apert que ele soit
+                                revenue en ma poeté. Encore dit l’en melz que se je le soi<note>le
+                                    soi] <emph>lessoi</emph> dans le ms., cf. lat. <emph>si
+                                        sciero</emph></note>, ele revient en ma poeté&#160;; car ce
+                                ne soffist pas que uns sers reçoive la chose que je perdi sanz mon
+                                seu se je ne voil que ele ne fust pas en son chetel. Car se je le
+                                voil, lors convient il que je en aie la possession. {8} Et por ce,
+                                se mis sers m’enble aucunne chose et il la remest en son leu, ele
+                                porra estre gaignie par longue tenue por ce que ele est revenue en
+                                ma poeté se je ne sai que ele me soit enblee. Car se je le soi, il
+                                convient que je sache que ele est revenue en ma poeté. {9} Et se mis
+                                sers tient en non de chetel la chose que il m’enbla, Ponponius dit
+                                que il n’apert pas que ele soit revenue en ma poeté ; se nos ne
+                                commoincons à avoir la, autresi comme nos l’eusmes ainz que ele nos
+                                fust enblee ; ou se nos<note>nos] <emph>nos ne</emph> dans le ms.,
+                                    cf. lat. <emph>cum rescissemus</emph></note> seumes la chose et
+                                lor ostroiames que il la tenist en son chetel. ¶ {10} Labeo dit que
+                                se tu vanz por gaigner la chose que je te baille en garde, et tu te
+                                repanz aprés et la rachetes et la tiens en l’estat où ele estoit
+                                avant, comment que ce ait esté fet, ou à mon seu ou sanz mon seu, il
+                                apert que ele soit revenue en ma poeté selon la sentence que
+                                Proculus dit qui est veroie. ¶ {11} Se la chose à un orfelin à esté
+                                enblee, l’en doit dire que c’est assez se cil qui l’a en garde siet
+                                que ele soit revenue en la poss[134rB]ession à l’orfelin ; autresi
+                                est il se la chose est au forsené, a esté enblee, et ses procurators
+                                set que ele soit revenue en sa poeté. ¶ {12} L’en doit dire que la
+                                chose est revenüe en la poeté son seignor quant il en a la
+                                possession autresi comme de sa chose. Car se je ne savoie pas que ma
+                                chose me fust enblee et je l’achat, il n’apert pas que ele soit
+                                revenue en ma poeté. {13} Mes se je la chalonge, la chose qui m’a
+                                esté enblee, et j’en reçois le pris, ja sé ce que je n’en aie pas
+                                receu corporel possession, ele sera gaignie par longue tenue. {14}
+                                Ce moismes doit l’en dire s’ele est baillie à l’autre par ma
+                                volenté. ¶ {15} Se une serve a esté enblee et ele conçoit et enfante
+                                en la meson à l’oir à celui qui l’enbla, il ne la gaignera pas par
+                                longue tenue, je sé ce que il ne set pas que ele fust enblee. ¶ {16}
+                                Se mis sers a enblee une serve et il la me done por franchir la,
+                                l’en demande se je puis gaigner par longue tenue l’enfant que ele a
+                                eu en ma meson. Fabius et Cassius dient que il ne le quident
+                                pas, car la possession que li sers a eu mauvesement nuit au
+                                seignor&#160;; et ce est voirs. {17} Mes se .i. autres me dona .i.
+                                serve que il avoit enblee por franchir mon serf et ele a conceu et
+                                anfanté en ma meson, je ne la puis pas gaigner par longue tenue.
+                                Autresi est il se aucuns echange cele serve par peor, ou il la
+                                baille en santé, et se cil qui l’embla la vant. {18} Et se cil qui
+                                l’achate siet, ainz que ele ait enfant, que ele est autrui, nos
+                                disons que il ne la puet gaigner par longue tenue&#160;; et s’il ne
+                                le savoit pas, il i puet gaigner. Et s’il sot que ele estoit autrui
+                                puis que i l’ot gaignié par longue tenue, il convient regarder au
+                                commoincement de la tenue, autresi comme as choses achetees.¶ {19}
+                                Se la loine des berbiz qui furent enblees est tondue en la meson à
+                                celui qui les enbla, il ne la puet pas gaigner par longue
+                                tenue&#160;; et se aucuns la achetee par bone foi, il ne la puet pas
+                                gaigner par longue tenue. Et autresi devons nos dire des aigniaus se
+                                il ne sont gasté. ¶ {20} Se tu fes .i. drap de laine qui ait esté
+                                enblee, il convient regarder à la sustance<note>sustance]
+                                        <emph>sentence</emph> dans le ms., confusion dans la
+                                    résolution des abréviations, cf. lat. <emph>ut substantiam
+                                        spectemus</emph></note>&#160;; et por ce est li dras enblez.
+                                ¶ {21} Se li detors anble la chose que il baille en gages et la
+                                vant, Cassius escrit que ele puet estre gaignie par longue tenue,
+                                car il apert que ele soit revenue en la poeté son seignor qui li
+                                bailla en gages, ja sé ce que l’en puet pledier à lui par aucion de
+                                larrecin&#160;; et je croi que ce soit par droit dit. ¶ {22} Se tu
+                                me mez par force hors de la possession do champ et tu ne [134vA] le
+                                porsiez pas, mes Tices la prent, li chans puet estre gaignez par
+                                longue tenue, ja sé ce que li entrediz de force i a lieu&#160;; car
+                                il est voirs que je en ai esté mis hors à force, neporquant il ne
+                                est pas voirs que li chans ait esté porsis par force. {23} Et se tu
+                                me mez à force hors do champ que je porsiee par male foi et tu le
+                                vanz, il ne puet pas estre gaigniez par longue tenue&#160;; car il
+                                est voirs que il a esté porsis à force, ja sé ce que li sires ne
+                                l’oit pas porsis. ¶ {24} L’en doit dire ce moismes de celui qui mist
+                                hors par force celui qui porsiet comme heirs. ¶ {25} Se aucuns met
+                                hors à son escient celui qui porsiet autrui champ par bone foi, il
+                                ne le puet pas gaigner par longue tenue, car il le porsiet par
+                                force. ¶ {26} Se li sires dou champ en met hors celui par force qui
+                                le porsiet, Cassius dit que il n’apert pas que li chans soit revenuz
+                                en sa poeté ; car il convient que il en rende la possession par
+                                l’entredit de force. ¶ {27} Se j’é ma voie par ton champ, et tu m’en
+                                mez hors par force se je en lés à usier par lonc tens<note>Passage
+                                    qui pose problème.</note>, ge perdi la voie&#160;; car l’en
+                                n’entant pas que droiture qui n’est pas corporel soit porsise, ne
+                                nus n’est dessessit de voie par pur droit. ¶ {28} Se tu porprenz une
+                                vuide possession et li sires vient et tu li deffanz que il n’i
+                                antre, il n’apert pas que tu porsies par force.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.12}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: se tu achetes une chose de celi à qui li prevoz
+                                deffendi que il ne la vendist, et tu le siez, tu ne la puez gaigner
+                                par longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.13}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: nos ne gaignon pas par longue tenue chose que
+                                nos avon prise en gages ; car nos la tenons comme autrui et ne mie
+                                comme nostre. ¶ {1} Il a esté respondu que cil qui achete de forsené
+                                par bone foi puet gaigner par longue tenue&#160;; {2} ja sé ce que
+                                il apert que tu ne le porsiez pas comme tien, ne il ne remoint pas
+                                por ce que tu es tenuz à moi par aucion de commandemant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.20}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: la possession à celui qui fist le testamant
+                                est contee à l’oir, se nus ne porsit la chose dedanz ce.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.22}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: ja sé ce que heirs et heritages aient divers
+                                nons, neporquant il sont conté par une persone.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.24}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: la où la loi deffent que choses ne soient
+                                gaignies par longue tenue, bone foi ne vaut rien à celui qui les
+                                porsiet. ¶ {1} Longue tenue vaut aucunne foiz à l’oir, ja sé
+                                    ce<note>ja sé ce] <emph>ja sé ce ja sé ce</emph> dans le
+                                    ms.</note> que li morz ne le commoince pas&#160;; si comme se li
+                                vices qui estoit non pas par devers la persone mes par devers la
+                                chose est porgiez ; si comme la chose lesse à estre à la borse
+                                l’enpereor ou porsise par force.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.25}</head>
+                        <div type="gp">
+                            <p>Rufins dit&#160;: longue tenue ne puet estre sanz possession.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.26}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: ce qui tient à la terre ne puet estre gaignié par
+                                longue tenue sanz la terre. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.32}</head>
+                        <div type="gp">
+                            <p>{2} Nus ne puet porsoer partie qui n’est pas certaine. Et por ce, se
+                                plu[134vB]sor sont en un champ qui ne sevent combien chescun en
+                                porsiet, Labeo escrit par pure soutillece que nus d’ex ne le
+                                porsiet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.39}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: se la terre ne puet estre gaignie par longue
+                                tenue, ne ce qui est par desus, la terre ne puet estre gaignie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.40}</head>
+                        <div type="gp">
+                            <p>Neraces dit&#160;: il a esté establi que longue tenue&#160; que li
+                                morz a commoincié puet estre acomplie, ainz que ses heritages soit
+                                receuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.41}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se uns procurators prent une chose qui m’a
+                                esté enblee, ja sé ce que la possession nos puisse estre aquise par
+                                noz procurators, por ce n’est ele pas revenue en ma poeté, ne ne
+                                puet estre gaignie par longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.43}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li heirs à celui qui acheta une chose par bone
+                                foi ne la gaignera pas par longue tenue s’il set que ele estoit
+                                autrui. ¶ {1} Il est certeine chose que li peres ne gaignera pas par
+                                longue tenue la chose que ses fiz acheta se il et li fiz set que ele
+                                est autrui.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">IV. De gaagnier par longue tenue chose qui est ballie en sote
+                            <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 3, frag. 46, 48 et 49&#160;: <hi
+                                    rend="i">de Usurpationibus et usucapionibus</hi>&#160;; et du
+                                tit. 4&#160;: <hi rend="i">Pro emptore</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.3.46}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: cil prant en sote qui reçoit une chose por
+                                cause de dete. Et non pas tant solement ce qui est deu mes ce qui
+                                est poié por aucunne dete puet estre gaignié par longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.48}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se je quidoie que je te deusse aucunne chose et je
+                                la te bailloi, tu la gaigneras par longue tenue se tu quides autresi
+                                que je la te deusse. Mes il est autrement se je cuit estre tenuz à
+                                toi par cause de vente et je le te baille por ce&#160;; et en ce
+                                quas puet estre la chose gaignie par longue tenue se l’en ne plede
+                                par aucion d’achat. La cause de diversité est en ce que il convient
+                                as autres causes regarder ou tens de poiement&#160;; et ce me
+                                soffist assez, quant tu me poias, que je cuit que ce que tu me poias
+                                soit dou tien ; mes en achet, regarde l’en au tens que li marchiez
+                                fu fez e en quoi l’an poie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.3.49}</head>
+                        <div type="gp">
+                            <p>Labeo dit&#160;: se aucunne chose est anblee, ele ne puet pas estre
+                                gaignie par longue tenue devant que ele reviegne en la poeté à son
+                                seignor. Mes Paulus dit encontre que se tu m’enbles ce que tu me
+                                baillas en gages, la chose est enblee&#160;; mes desque ele revendra
+                                en ma poeté, il porra estre gaigniez par longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.4.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui porsiet une chose, et en vest poier le
+                                pris, commence à porsoer la comme acheterres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.4.3}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: cil qui rent la valor de la chose que l’en li
+                                demande resenble à celui qui l’achete.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.4.13}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: uns hom acheta par bone foi une place qui estoit à
+                                un autre que à celi qui la vendi&#160;; et ainz que il eust gaignié
+                                par longue tenue, il commoinça à edifier&#160;; et li sires li
+                                denonça mointenant que il n'i edifiat pas, mes [135rA] il ne le vost
+                                pas lessier por lui. Je demans se la possession est
+                                entrerompue. Et la response est que, selonc les choses qui
+                                sont proposees, ele n’est pas entrerompue.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. De gaagnier par longue tenue chose que l’en tient comme hers
+                            <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 5&#160;: <hi rend="i">Pro herede
+                                    vel pro possessore</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.5.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: Nus ne puet gaignier par longue tenue comme heirs
+                                nul des biens à celui qui est encore vis, neïs se cil qui les tient
+                                quide que il soit morz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.5.2}</head>
+                        <div type="gp">
+                            <p>Juliens dit&#160;: cil qui est mis en possession por cause de garder
+                                les lés n’e‹n›treront pas la possession à celui qui tient comme
+                                heirs, car il tient la chose por garder la&#160;; ne<note>ne]
+                                        <hi>nele</hi> dans le ms.</note> ne se doit partir devant
+                                que li lés li soit poiez, ou que satisfacion l’en soit fete. ¶ {1}
+                                Ce que nos dit communaument que nus ne puet müer la cause de la
+                                possession doit estre issi entendu, que l’en n’entende pas tant
+                                solement de possession citeene, mes de naturel. Et por ce a il esté
+                                respondu que li coitiverres, ne cil à qui la chose est baillie en
+                                garde ou prestee, ne la puet pas gaigner comme hoirs<note>hoirs]
+                                        <emph>hons</emph> dans le ms., cf. lat. <emph>ucri faciendi
+                                        causa pro herede usucapere posse</emph></note> por gaigner
+                                la. ¶ {2} Servius dit que li fiz ne puet pas tenir comme heirs la
+                                chose que ses peres li dona ; car il entent que li fiz en ait
+                                naturel possession ele viant au pere. Et de ce s’ensit il que li fiz
+                                de quoi li peres fet savoir ou autres n’en puet pas tenir les choses
+                                que ses peres li dona en sa vie que li autre hoir n’en aient lor
+                                partie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.5.3}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: plusors quident que se je sui heirs et je cuit
+                                que une chose soit de l’eritage qui n’en est pas, je la puis gaigner
+                                par longue tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.5.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il est certoine chose que cil qui<note>cil qui]
+                                        <emph>cil qui cil qui</emph> dans le ms.</note> a poer de
+                                fere testamant puet porsoir comme heirs.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. De longue tenue de chose donee <hi rend="i"
+                        >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 6&#160;: <hi rend="i">Pro
+                                    donato</hi>&#160;; et tit. 7&#160;: <hi rend="i">Pro
+                                    derelicto</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.6.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il ne sofist pas que l’en quit que une chose soit
+                                donee à gaigner par longue tenue, ainz convient que ele soit donee
+                                en verité. ¶ {1} Se li peres donne à son fiz que il a en sa poeté
+                                une chose, il muert aprés, li fiz ne tandra pas cele chose comme don
+                                quar li dons ne fu nul<note>nul] <emph>mis</emph> dans le ms., cf.
+                                    lat. <emph>quoniam nulla donatio fuit</emph></note>. ¶ {2} Se
+                                dons est fez entre home et sa feme, il ne puet estre gaigniez par
+                                longue tenue. ¶ Se li mariz done une chose à sa feme, ou la feme à
+                                son mari, et li mariages est depeciez, Cassius respont que longue
+                                tenue n’i a nul leu, car nus ne puet müer la cause de sa possession.
+                                Mes se li mariz li ostroie aprés le departement, la longue tenue
+                                vaudra autresi comme s’il li donast lors à primes. Et Juliens quide
+                                que feme puisse porsoer la chose que sis mariz li done.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.6.3}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se li mariz donne à sa feme ou la feme [135rB] à
+                                son mari, c’est voirs que Trebaces cuide que se cil qui dona la
+                                chose non est plus povres, la longue tenue puet valoir à celui qui
+                                la reçut.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.6.4}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se li peres donna une chose à sa fille qui
+                                estoit en son baill et il la deserita aprés ; se li eirs ostroia ce
+                                qui fu fez, la longue tenue vaudra à la fille por cele cause, et
+                                doit estre contre le jor que li hers ostroia ce qui fu fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.6.5}</head>
+                        <div type="gp">
+                            <p>Sevola dit&#160;: se cil qui a commoincié à porsoer .i. serf por
+                                cause de franchir, ainz qui l’ait, acompli la longue tenue, ne fet
+                                rien, car il n’en a pas encore gaignié la seignorie. L’en demande
+                                donc s’il entreront la possession. Et la response est que il
+                                apert que il ait entrelessié la possession, et por ce est la longue
+                                tenue entrerompue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.6.6}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: quant verité est dite por cause de don, la
+                                chose n’est pas porsise por cause mes por don.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se chose est guerpie, ele lesse maintenant à
+                                estre à celui qui la guerpist et est à celui qui la prant ; car les
+                                choses lessent à estre noz par celes moismes menieres par quoi eles
+                                sont aquises.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se nos savons que une chose soit guerpie dou tot,
+                                nos la poons aquerre. {1} Mes Proculus dit que la chose ne lesse pas
+                                à estre à son seignor devant que autres la porsie. Et Julians dit
+                                que ele lesse à estre soe, mes ele n’est pas à autre devant que il
+                                la porsie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.3}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: l’en puet demander se une chose puet estre
+                                guerpie en partie. Et sanz dote, se une chose est commune et uns des
+                                compoignons en guerpist sa partie, ele lesse à estre soe. Mes cil
+                                qui est sires de tote la chose ne puet pas fere que il en retiegne
+                                une partie et guerpisse l’autre partie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: nos poons gaigner par longue tenue ce qui est
+                                guerpi que nos avons, ja soit ce que nos ne savons quil l’a
+                                guerpi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.5}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se tu porsiez une chose qui a esté guerpie et je
+                                l’achate à toi à mon escient, il est certeine chose que je la puis
+                                gaigner par longue tenue&#160;; ne ce ne me nuist pas que ele
+                                n’estoit pas en tes biens. ¶ Il est autresi se je achete à mon
+                                escient de toi une chose que ta femme te donna. ¶ {1} Desque aucuns
+                                guerpist sa chose ou il la gete, l’en entent « que il la gete » que
+                                ele soit à autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.6}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: nus ne puet gaigner par longue tenue la chose que
+                                il quide qui soit guerpie quant ele ne l’est pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.7}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se aucuns trove marchandies qui ont esté
+                                getees d’une nef, il ne puet<note>ne puet] <hi rend="i"
+                                        >n'epert(?)</hi> dans le ms., cf. lat. <emph>ideo usucapere
+                                        non possit</emph></note> pas gaigner les par longue tenue,
+                                por ce que il n’apere que eles soent guerpies [135vA]&#160;; mes il
+                                est mieuz que il ne les puisse pas tenir comme guerpies.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.7.8}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: Semprones pledoit à Thetis por son estat et disoit
+                                que ele estoit fille de sa serve. Mes quant Procule, la norrice
+                                Thetis, demanda à Saprone le loier de norrir la, il li respondi que
+                                il n’avoit de quoi poier li, et que ele le demandast à Tice son
+                                pere, et li rendist sa fille&#160;; et ele si fist. Et quant Tices
+                                li ot baillié le loier de norrir la, il la franchi. Je demant se la
+                                franchise Thetis puet estre apelee. Et Paulus respont que, por
+                                ce que li sires à la serve de quoi Thetis fu nee le guerpi, il apert
+                                que Tices la puet bien franchir.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <pb n="263"/>
+                <front>
+                    <head type="gp">VII. De longue tenue de chose guerpie<note>Cette rubrique est
+                            transposée&#160;; elle se rapporte au titre&#160;: <hi rend="i">Pro
+                                derelicto.</hi></note>
+                        <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 8&#160;: <hi rend="i">Pro
+                                    legato</hi>&#160;; et tit. 9&#160;: <hi rend="i">Pro
+                                dote</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.8.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: il apert que cil porsie par non de lés à qui la
+                                chose est lessie&#160;; car possession par non de lés n’apartient
+                                pas à nul autre que à celui à qui il est lessiez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se je porsie aucunne chose, je quidoie que me fust
+                                lessie et ele ne l’estoit pas, je ne l’atandré pas comme lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.3}</head>
+                        <div type="gp">
+                            <p>Papinianus dit&#160;: plus queroie qui doie avoir acheté une chose et
+                                je ne l’avoie pas achetee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se une chose est à un home, et il ne set pas que
+                                ele li soit sotrete, cil à qui il la lesse la puet tenir comme
+                                lés&#160;; autresi est il s’il a dote ou non, si comme se une chose
+                                est lessie à Tice et il i a .ii. Tices, et chescuns quide que ele
+                                soit lessie à lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.5}</head>
+                        <div type="gp">
+                            <p>Labeo dit&#160;: la chose qui a esté baillie por non de lés puet
+                                estre porsise comme lés, ja sé ce que cil qui la lessa vive.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.6}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se cil à qui ele est baillie quide que il soit
+                                vis.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.7}</head>
+                        <div type="gp">
+                            <p>Labeo dit&#160;: nus ne puet tenir par non de lés fors cil en qui
+                                l’en puet donner en testamant&#160;; car cele possession vient de
+                                droiture de testamant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.8}</head>
+                        <div type="gp">
+                            <p>Papinianus dit&#160;: se cil à qui une chose est lessie est
+                                    entré<note>est entré] <emph>en entrer</emph> dans le ms.,
+                                    confusion du scribe dans le dévéloppement des abréviations, cf.
+                                    lat. <emph>Si non traditam possessionem ingrediatur sine vitio
+                                        legatarius</emph></note> en possession sanz vice, la longue
+                                tenue li puet valoir.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.8.9}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: cil à qui uns lés est lessiez par droit le puet
+                                tenir par non de lés. Mes s’il ne li est lessiez par droit ou li lés
+                                li est sostrez, il a esté ostroié aprés plusors diverses sentences
+                                que il porsie comme lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.9.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: il i a un titre de longue tenue que est apelz por
+                                doere, que cil qui prant une chose en doere la puisse gaigner par
+                                longue tenue quant li tens sera passez, qui est establiz à gaigner
+                                par longue tenue ce que l’en achete. {1} Ne il n’a point de
+                                difference se chascunne des choses est donee par soi en doere ou se
+                                eles i sont donees totes ensenble. {2} Mes or veon premierement dou
+                                tens quant l’en doit commoincer à conter la longue tenue, ou quant
+                                li mariages est [135vB] assenblez, ou quant les esposailles sont
+                                fetes. Et Juliens dit que se l’espossee donna sa chose à l’espose
+                                par corage que ele ne fust pas soe devant que li mariages fust
+                                asenblez, li tens qui fu devant le mariage ne sera pas contez en la
+                                longue tenue. Et se l’en ne siet quel corage ele ot, l’en doit
+                                croire que ele vost que la chose fuit à l’ome deque ele li bailla ;
+                                et s’ele fu seue, il ne la tint pas comme doere mes comme soe. {3}
+                                Et se li mariages n’est assenblez, il ne la puet tenir comme doere,
+                                car li doeres n’est nus. ¶ {4} Il moismes escrit que, se li mariz
+                                quida que il i eust droit mariage, et il n’en i avoit point, il ne
+                                puet pas tenir par non de doere, car li doeres n’est nus ; et cete
+                                sentence est resnable.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.9.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se une chose proisiee est baillie au mari par non
+                                de doere ainz que li mariages soit assenblez, il ne la tendra pas
+                                devant le mariage ne comme seue ne comme par achat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.9.3}</head>
+                        <div type="gp">
+                            <p>Scevola dit&#160;: deus filles furent hers à lor pere qui fu morz
+                                sanz fere testamant et chescunne dona en doere à son mari sers qui
+                                estoient communs à aus .ii. ; et aprés, ne soi quanz anz aprés la
+                                mort au pere, eles partirent lor heritages. Et por ce que luer mariz
+                                recuerent lor sers en doere par bone foi, l’en demande s’il les ont
+                                gaignez par longue tenue. Et la response est que il quiderent
+                                que les choses que il reçurent fussent à celes qui lor
+                                donnerent&#160;; nule chose n’est pas proposee por quoi il ne les
+                                aient gaignies par longue tenue.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <front>
+                    <head type="gp">VIII. De gaagner par longue tenue ce que aucun tient par soe <hi
+                            rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 41, tit. 10&#160;: <hi rend="i">Pro
+                                    suo</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {41.10.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: quant aucuns quide que la seignorie li soit
+                                aquise et il la porsiet par cele cause, il la tient comme soe. Et se
+                                aucuns porsiet une chose que il a achetee, il la porsiet comme soe
+                                et par son achat. Et se une chose est donee ou lessie à aucun, il la
+                                porsiet comme soe ou comme chose lessie. Et se une chose m’est
+                                baillie par droite cause, si comme por achat, je commoinz à porsoer
+                                la comme la moie chose, ainz que je l’aie gaignie por longue
+                                tenue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.10.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il i a une maniere de possession quant aucuns
+                                porsiert comme la soe chose&#160;; en<note>en] <emph>et</emph> dans
+                                    le ms.</note> ceste maniere porseons nos totes les choses que
+                                nos prenons ou ciel, ou en la terre, ou en la mer, ou celes qui
+                                demenent noz par sorondemanz de flueves, et celes que nos porseons
+                                qui sont nees des choses qui sont porsises en autrui non, si comme
+                                li serf qui sont né de la serve d’un heritage, et li fruiz de la
+                                chose qui est achetee ou trovee en l’eritage [136rA].</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.10.3}</head>
+                        <div type="gp">
+                            <p>Ponponius&#160;: tu me bailles .i. serf que tu quidoies devoir moi,
+                                ja sé ce que tu ne m’an devoies point. Se je savoie bien que tu ne
+                                me devoies rien, je ne le gaigneré pas par longue tenue&#160;; mes
+                                se je n’en le savoie rien, je le puis porsoer comme le mien.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.10.4}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se tu achetas par bone foi une serve qui avoit
+                                esté enblee et tu porsies l’enfant que ele conçut et enfanta en ta
+                                meson, si que dedanz le terme qui est establiz à avoir longue tenue
+                                tu seus que sa mere avoit esté enblee, Trebaces quide que ce que a
+                                issi esté porsis soit gaigniez par longue tenue. Et je croi que l’en
+                                doit distinter que se tu ne<note>ne] <emph>me</emph> dans le
+                                    ms.</note> seus dedanz le tens qui est establiz cui li sers
+                                estoit, ou se tu le seus et tu ne li peus fere savoir<note>fere
+                                    savoir] <emph>fere avoir</emph> dans le ms., cf. <emph>aut si
+                                        scieris neque potueris certiorem dominum facere, aut si
+                                        potueris quoque et feceris certiorem,
+                                    usucaperes</emph></note>, ou se tu li feis savoir, tu la
+                                gaigneras par longue tenue. Et se tu le seus et tu li peus fere
+                                savoir et tu ne li feist pas, il est autrement&#160;; car il apert
+                                que tu aies porsis en repost, et nus ne puet porsoer une moisme
+                                chose comme seu en repost. ¶ {1} Se li peres a parti à ses enfanz
+                                ses biens que il avoit, et il les tienent issi aprés la mort lor
+                                pere, et il se tienent apoié de cele partie, [et] chescuns tient
+                                comme le sien ce que il a en sa partie. ¶ {2} Se une chose n’est pas
+                                lessie, et li heirs la baille à aucun à qui il quide que ele soit
+                                lessie, il nos plet que il la gaint par longue tenue, car il la
+                                porsiet comme la soe.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {41.10.5}</head>
+                        <div type="gp">
+                            <p>Neraces dit&#160;: il a esté establi por foïr les plez que nos
+                                gaignon par longue tenue les choses que nos quidons qui soient noz.
+                                {1} Et aucuns gaigne par longue tenue ce que il quide qui soit sien,
+                                ja sé ce que il n’est pas suen. Et ce doit estre issi entendu que
+                                cil qui porsiet ait provable cause por coi il cuit que la chose soit
+                                soe. Si comme se je porsie aucunne chose por ce que je cuit que mis
+                                sers ou cil à qui je fui heirs l’ait achetee, ja soit ce que ce
+                                n’est pas voirs ; car ignorance d’autrui fet puet estre
+                                sofferte.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

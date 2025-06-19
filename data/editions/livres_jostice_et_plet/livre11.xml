@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160;Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-09" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI ONZIESME LIVRES</head>
+        </front>
+        <group>
+            <head>LI ONZIESME LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="223"/>
+                <front>
+                    <head type="gp">I. [105rB] Ci titres est d’aucions de choses par feme à mari
+                        ostees <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 25, tit. 2&#160;: <hi rend="i">de Actione
+                                    rerum amotarum</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {25.2.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li juigemenz des choses ostees a esté<note>esté]
+                                        <emph>estez</emph> dans le ms., corrigé d’après BR</note>
+                                trovez contre cele qui fut feme à aucun, car il ne plest pas au
+                                mestres de droit que l’en ne puisse pledier à lui par aucion de
+                                larrecin. Et li un cuident que ele ne puet pas fere larrecin o son
+                                mari, si comme Nerva et Cassius dient, car la compoignie de feme la
+                                fet dame en une maniere ; et li autre, si comme Sabinus et Proculus,
+                                dient que ele pot bien fere larrecin, autresi comme la fille le fet
+                                à son pere, mes aucion de larrecin n’i a pas lieu de droit qui est
+                                establiz&#160;; et à ceste sentence s’acorde Juliens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.2}</head>
+                        <div type="gp">
+                            <p>Paulus dist&#160;: car en l’enor de mariage est l’aucion julienne nee
+                                contre la feme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.3}</head>
+                        <div type="gp">
+                            <p>Paulus&#160;: et por ce, s’ele toche à cez choses moismes, aprés le
+                                departement do mariage, ele est tenue de aucion de larrecin. {1} ‹Et
+                                se ses sers fet larrecin›<note>Et se... larrecin] saut du même au
+                                    même, integré d’après RB, cf. lat. <emph>Item si servus eius
+                                        furtum fecerit</emph></note>, nos poons pledier o lui par
+                                aucion de larrecin. {2} Il puet avenir que aucun puet pledier à sa
+                                feme par aucion de larrecin se ele fist larrecin à celi à qui ele
+                                estoit hers, ou à lui meisme, ainz que il la prist à feme ;
+                                neporquant, por la reverence des persones, nos dison que il ne pot
+                                fere en l’un et l’autre cas, fors demander [105vA] ariere la chose
+                                qui fut enblee. {3} Ce que Offilius dist est voirs, que les choses
+                                que la feme a despendues ou vendues ou donees ou gastees par aucunne
+                                maniere au tens do departement sont contenues par non de choses
+                                gastees ou ostees. {4} Se la fille qui est en baill oste aucunnes
+                                choses, Mela et Fulcius dient que aucion en doit estre donee por son
+                                chastel ; car il ne lor plet pas que ele soit obligee par aucion de
+                                larrecin, ou que aucions des choses ostees soit donee contre lui. ¶
+                                Se li peres et sa fille pledent à son mari por son doere, aucion ne
+                                pot pas estre donee au pere se la fille ne le fet procurator par
+                                bone caucion en juigemant des choses ostees. ‹Mes Proculus dit que
+                                quant la fille est morte il ne convient pas que action de choses
+                                    ostees›<note>Mes Proculus...ostees] saut du même au même,
+                                    intégré d’après BR, cf. lat. <emph>Sed mortua filia in patrem
+                                        rerum amotarum actionem dari non oportere Proculus
+                                        ait</emph></note> ne soit donee contre le pere fors en tant
+                                com il en est plus riches.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.4}</head>
+                        <div type="gp">
+                            <p>Ponponius dit que en tant com il a fet par tricherie qu’i n’est pas
+                                venue à lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.7}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: feme a contre son mari aucion de choses
+                                ostees&#160;; par quoi l’aucion<note>par quoi l’a.] <emph>par quel
+                                        aucion</emph> dans le ms., corrigé d’après RB, cf. lat.
+                                        <emph>et compensare potest mulier cum actione, qua maritus
+                                        agere vult ob res amotas</emph></note> que il a contre lui,
+                                por cele meisme cause pot estre quitee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.8}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se l’en ne dit pas quant li doeres fut renduz à
+                                la feme que l’en voloit pledier à lui par auction de choses ostees,
+                                por ce ne remaint pas que l’en n’i puisse pledier&#160;; car quant
+                                il n’i a point de doere, si est ceste aucion donee. {1} Sabinus dist
+                                que se la feme ne rent les choses que ele osta, eles doivent estre
+                                prisees par le seremant à l’ome.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: car il n’est pas droiz que il vende ses choses
+                                maugré suen por le pris que eles valent.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.10}</head>
+                        <div type="gp">
+                            <p>Et por ce ne doit il pas asseurer que eles ne seront pas chalengees,
+                                et c’est por la constumence à la feme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.11}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: Marcianus escrist que se li hom met sa feme hors
+                                de sa meson ou la feme son mari, il sont tenuz por aucion de chosees
+                                ostees. ¶ {1} Se cil qui met avant aucion<note>aucion] <emph>a
+                                        aucion</emph> dans le ms.</note> des choses ostees se velt
+                                mestre sor le seremant à son aversere, li aversaires est contrainz à
+                                jurer que il n’a rien osté, por quoi cil jurt avant que il ne le
+                                charge pas dou seremant par malice<note>malice et la f.] répétition
+                                    d’un passage avec quelque moindre changement&#160;; en suivant
+                                    la leçon de BR, nous supprimons, après
+                                    <emph>malice</emph>&#160;: <emph>et la feme est ausi bien
+                                        contrainte comme li mariz mes li peres à celui qui osta la
+                                        chose n’est pas contrainz de jurer que il n’a rien osté por
+                                        quoi cil jurt avant que il ne le charge pas do seremant par
+                                        malice</emph>&#160;; ce défaut de copie est signalé par un
+                                    signe d’attention dans la marge</note>. {2} Et la fe[105vB]me
+                                est autresi bien contrainte comme li mariz&#160;; mes li peres à
+                                celui qui oste les choses n’est pas contrainz de jurer, car il n’est
+                                pas droiz que li uns jurt do fet à l’autre. Cil est donc contrainz
+                                de jurer que l’en dit qui a osté les choses&#160;; et por ce son
+                                heir ne sera pas contrainz de jurer. {3} Se li seremanz est mis sor
+                                aucun et il le velt mestre arriere sor son aversere, il ne senble
+                                pas que li prevoz l’ostroit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.12}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: ne plus que se aucuns se met sor le seremant à celi
+                                qui plede à lui par aucion de larrecin, savoir mon se cil est
+                                lerres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.15}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: il n’i a point de force se li hom et la feme ont
+                                habité ensenble à ce que aucions de choses ostees aparteignent à un
+                                d’aus&#160;; car ele pot apartenir contre cele qui a osté aucunne
+                                chose de la meson en quoi ele n’abitoit pas o son mari. ¶ {1} La
+                                feme et la bruz poent fere larrecin au mari ou au socre&#160;; mes
+                                eles ne sont pas tenues par aucion de larrecin se le fiz n’est hors
+                                de bau&#160;; car lors pot la bruz fere larrecin à son socre et est
+                                tenue à lui par aucion de larrecin.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.16}</head>
+                        <div type="gp">
+                            <p>Hermogenes dist&#160;: se li bien au mari sont eschoet à la borse
+                                l’enpereor, la feme rendra ce que ele en a osté sanz plus, ja soit
+                                ce que li autre soient condempné à rendre en quatre dobles ce que il
+                                en ont osté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.17}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: se la meschine à aucun a osté de ses choses, nos
+                                usons de tel droit que ele soit tenue par aucion de larrecin. Et nos
+                                disons que par tout la où mariages faut, si comme en cele qui s’est
+                                mariee à celui qui l’avoit en garde, ou contre les commandemanz, ou
+                                en quel maniere que mariage cesse, aucion de choses ostees cesse ;
+                                car ele apartient por cause de departement. {1} Nos apelons
+                                «&#160;choses ostees&#160;» non pas solement celes que la feme osta
+                                quant ele prist consoil de departir le mariage, mes celes que ele
+                                osta avant se ele les cela ou tens do departement. {2} Juliens dit
+                                que ou tens des choses ostees vienent non pas tant solement les
+                                choses qui encor durent mes celes qui sont faillies ; et ausi poent
+                                eles estre demandees ariere. ¶ {3} Cele qui a osté les choses qui
+                                estoient engagies à son mari est tenue<note>tenue]
+                                        <emph>tenuz</emph> dans le ms., corrigé d’après BR</note>
+                                par aucion des choses ostees. [106rA]</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.18}</head>
+                        <div type="gp">
+                            <p>Paulus dist&#160;: et cil qui les avoit engagies les puet demander
+                                arriere&#160;; et l’en doit otroier à l’un et à l’autre à pledier
+                                an.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.19}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: se la feme amena larrons en la meson son mari ou
+                                tens do departement et ele lor fist oster les choses, si que ele n’i
+                                tocha onques, ele sera tenue par aucion des choses ostees. C’est
+                                donc voirs que Labeo dit que la feme puet estre tenue par aucion des
+                                choses ostees, ja soit ce que les choses ne sont pas venues à
+                                lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.29}</head>
+                        <div type="gp">
+                            <p>Triphonius dist&#160;: li pris des choses ostees doit estre reportez
+                                ou tens ou quel eles furent ostees, car c’est larrecin, ja soit ce
+                                que la feme en soit chastiee plus legierement que uns autres. Et por
+                                ce, cil qui porsiet en bone foi les choses qui sont issi ostees ne
+                                les pot pas gaigner par longue tenue&#160;; mes s’eles sont enpleies
+                                et eles ne sont pas rendues, li pris croist, ausi comme quant l’en
+                                demande arriere chose qui a esté enblee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.2.30}</head>
+                        <div type="gp">
+                            <p>Papinianus dist&#160;: quant aucion de choses ostees est mise avant
+                                contre feme aprés ce que li mariages est departiz, se li mariages
+                                est assenblez arriere, l’aucion faut.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. Ci titres est de reconoistre les enfanz et de norrir les, ou
+                        les peres ou les patrons ou<note>ou] <emph>a</emph> dans le ms., corrigé
+                            d’après BR, cf. lat. <emph>vel parentibus vel patronis vel
+                                libertis</emph></note> cez qui ont esté franchi <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 25, tit. 3&#160;: <hi rend="i">de
+                                    Agnoscendis et alendis liberis, vel parentibus, vel patronis,
+                                    vel libertis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {25.3.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: le consoil au senat qui fut fez de reconoistre
+                                les enfanz contient .ii. especes&#160;: l’une est de cez qui les
+                                reconoissent et l’autre de celes qui tiennent autrui enfanz por
+                                loer. {1} Il est donc ostroié à la feme, ou à son pere en qui poesté
+                                elle est, ou à celi à qui il le commandent, se il cuident que la
+                                feme soit grosse, que il le denoncent à son mari dedanz .xxx. jorz
+                                aprés le departement do mariage&#160;; ou à son pere en qui poesté
+                                il est&#160;; ou en sa meson se il ne<note>ne] <emph>il</emph> dans
+                                    le ms., corrigé d’aprés R</note> trovent ne li ne son pere. {2}
+                                Nos apelon «&#160;sa meson&#160;» son ostel se il maint en
+                                cité&#160;; et se il n’est pas en cité mes en vile, sa meson est la
+                                où il converse. {3} L’en doit donc denoncier au mari que sa feme est
+                                grosse de lui&#160;; mes ce n’est pas que il envoit gardes, et c’est
+                                assez à la feme que ele li face savoir que ele est grosse. Et il
+                                apartient au mari ou que il i envoit gardes ou que il li renonce que
+                                ele n’est pas grosse de lui&#160;; et il est ostroié au mari que il
+                                le face, ou autres por lui. {4} La poine au mari est tele que s’il
+                                [106rB] n’i envoie gardes, ou s’il ne li renunce que ele n’est pas
+                                grosse de lui, il est contrainz de reconoitre l’enfant&#160;; et
+                                s’il ne le reconoist, il doit estre chaciez hors d’ordre. Il doit
+                                donc respondre que ele n’est pas grosse de lui, ou il doit estre
+                                respondu en non de lui&#160;; et s’il le fet issi, il n’avra pas
+                                besoing de reconoistre l’enfant se il n’est verement son fiz. {5}
+                                L’en doit savoir que le denoncemens ne commence pas do mari, mes de
+                                la feme. {6} Mes se li mariz offre garde de son gré et ele ne le
+                                reçoit pas par le juigement au juige, li mariz ou sis peres a
+                                franche poesté que il ne conoisse pas l’enfant. {7} Se la feme ne
+                                denonça pas à son mari dedanz .xxx. jors que ele estoit grosse,
+                                s’ele li denonce aprés, ele devra estre oïe quant la cause sera
+                                coneue. {8} Et s’ele lesse à denoncier de tot, Juliens dit que ce ne
+                                doit pas nuire à l’enfant qui nest. {9} Nos devons conter les .xxx.
+                                jors continués dés le jor do departement. ¶ {10} Julien demande, se
+                                la feme ne denonça pas à son mari dedanz les .xxx. jors, savoir mon
+                                se li consoill au senat i a leu. Et Plancius dist que le
+                                consoill au senat cesse, car il ne senble pas que il entende de
+                                l’enfant qui nest dedanz les .xxx. jors&#160;; et le senat dona
+                                .xxx. jors à denoncier le&#160;; mes ge croi que ceste chose ne
+                                grieve de rien l’enfant. {11} Autresi comme, se la feme denoncie, et
+                                li mariz i eust envoié gardes, ‹nus grief ne li venist de ce. Il li
+                                loira donc avoier que li enfes n’est pas de lui&#160;; ne ce ne li
+                                nuira riens que il i a envoié gardes›<note>nus grief... gardes] saut
+                                    du même au même, intégré d’après RB</note>. Et issi l’escrit
+                                Marcianus, et dit que se aucun renie sa feme ou que ele n’est pas
+                                grosse de lui, il li puet envoier gardes sanz nul gref&#160;;
+                                mesmement, se il li dist avant que il les i envoiast. ¶ {12} Juliens
+                                dist que ce qui est compris ou consoil au senat, que se la feme
+                                denonce à son mari que ele est grosse de lui, et il n’envoie pas
+                                gardes à garder la, ne il ne pot pas dire que de lui n’est ele pas
+                                grosse, il li convient par force reconoistre l’enfant qui est nez.
+                                N’apartient pas à ce que, se aucun dist que il reconoist l’enfant,
+                                il soit son heir, ja soit ce que il soit conceuz d’autre&#160;; car,
+                                si comme il dit, quanz l’en comenst<note>comenst]
+                                        <emph>commamt</emph> dans le ms., corrigé d’après BR, cf.
+                                    lat. <emph>coepio</emph></note> à pledier la confession au pere
+                                aporte grant grevance à l’enfant. {13} Cil meisme dit encontre que
+                                quant li mariages est departiz, se la feme ne fet les choses qui
+                                sont commandees ou conseill ou senat [106vA], il loisse au pere que
+                                il ne reconoisse pas l’enfant, ce n’apartient pas à ce, que il ne
+                                puisse dire que li enfes fut son, mes à ce sanz plus que li peres
+                                soit contrainz de norrir le, se il est certaine chose que il soit
+                                son fiz. ¶ {14} Cil meismes Juliens dit que se la feme denonce que
+                                ele est grosse, et li mariz ne li nie pas, li enfes n’est pas son à
+                                force, neporquant il doit estre contrainz de norrir le&#160;; car se
+                                il est autremant, ce seroit tort. Se aucun a esté longuement hors do
+                                païs et il revient et trove sa feme grosse, et il la mest hors por
+                                cele cause, se il entrelesse aucunnes des choses qui sont contenues
+                                ou conseil au senat {15}, il apert par ce que li enfes qui nestra
+                                sera son heir&#160;; et se la feme entrelesse aucunnes des choses
+                                que ele deust garder segont le conseill au senat, ce ne nuist rien
+                                au fiz, ne en droiture ne en norriture, si comme li enpereres Pius
+                                l’escrit. Et se li peres despit à fere ce que il devoit fere par le
+                                conseil au senat, il sera contrainz de norrir l’enfant&#160;; mes se
+                                il ne le despit pas, il porra refuser l’enfant. {16} Et quant la
+                                feme li denonça que ele estoit grosse, s’il noia que ce n’estoit pas
+                                de lui, ne il n’i envoia pas gardes, il ne eschivera pas que l’en
+                                n’en quiere se la feme estoit grosse de lui. Et se cele cause est
+                                menee par devant le juige et ‹il› prononce par ce que il a oï que
+                                ele fu grosse de lui, il convient que il reconoisse l’enfant comment
+                                que il soit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.2}</head>
+                        <div type="gp">
+                            <p>Julianus dist&#160;: en totes causes, il sera freres as autres
+                                enfanz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.4}</head>
+                        <div type="gp">
+                            <p>Paulus&#160;: Il senble que cil renie l’enfant non pas tant solement
+                                quil dit que il n’est pas son, mes quil le gite, ou quil le nie
+                                norreture, ou qui le met en communs lieus que la gent en aient
+                                pitié. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.5}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se li peres velt que si enfaint le
+                                sostiengnent, ou li enfaint volent que lor pere les norrisse, li
+                                juiges quenoistra de la cause. {1} Mes il convient voer se aucuns
+                                est contrainz de norrir ces enfanz tant solement qui sont en sa
+                                poeté, ou cez qui sont hors de son baill par aucunne maniere. Et ge
+                                croi que se li pere deivent norrir lor enfanz, ja soit ce que il ne
+                                soient pas en lor poesté&#160;; et autresi, li enfant devent norrir
+                                lor pere. {2} Mes il convient voer se li enfant sont contraint tant
+                                solement de norrir lor pere et lor eol et lor beseol par devers le
+                                pere ou la mere, et cez qui sont par devers lui. Et il [106vB] est
+                                mielz que li juiges s’en entremete d’une part et d’autre et sequorre
+                                la où il verra que mestier en sera, ou par besoing ou par maladie.
+                                Et por ce que ceste chose descent de lëaute et d’amor de sanc, il
+                                convient que li juiges regart au desirrer à chescun. {3} Ce maisme
+                                doit l’en dire as enfanz que li pere doivent norrir. {4} Nos
+                                contreignon donc la mere de norrir ses enfanz, et meismement cez qui
+                                sont de porchaz, et les enfanz de norrir lor meres. ¶ {5} Li
+                                enpereres dist que li aiaus de par la mere doit estre contrainz de
+                                norrir lor nevoz. ¶ {6} Cil meismes escrit que li peres norrisse sa
+                                fille se il est certaine chose par devant le juige que ele aist esté
+                                engendree lëaument. {7} Et se li fiz se pot maintenir, il convient
+                                que li juige regardent se il devent commander au pere que il le
+                                norrisse. Et li enperes Pius rescrit issi&#160;: «&#160;Je te donroi
+                                avenanz juiges, et il commanderont que ton pere te norrisse selonc
+                                la maniere de son chetiel desque tu diz que es si malades que tu ne
+                                puez pas fere ton mestier&#160;». {8} Se li peres renie le filz, et
+                                il dit por ce que il ne le doit pas norrir, ou se li fiz renie le
+                                pere, il convient que li juiges conoissent sor ceste chose. Et quant
+                                il seront certain que il est son fiz ou son pere, lors comoinderunt
+                                il que il le norrisse&#160;; et s’il n’est son pere ou son filz, il
+                                juigeront que il ne le doit pas norrir. ¶ {9} Il convient que s’il
+                                juige que il le doit norrir, ci juigemanz ne grieve de rien la
+                                verité, car il ne juige pas que il fut si fiz ou sis peres, mes que
+                                il le devoit norrir&#160;; et issi l’escrit li sainz enpereres Marc.
+                                ¶ {10} Se aucun refuise à norrir celi de qui il est juigé que il le
+                                norrisse, norreture li sera establie selonc la quantité do
+                                chetel&#160;; et s’il ne les paie, si gage seront pris et vendu tant
+                                que satisfacion soit fete à la sentence. {11} Cil moismes juiges
+                                doit regarder se li peres a aucunne droiturere cause por quoi il ne
+                                velt pas norrir l’enfant que il acuse. ¶ {12} Il est contenuz es
+                                escriz au princes que li peres doit doner norreture as enfanz, non
+                                pas tant solement norreture, mes totes les choses dont il ont
+                                mestier. ¶ {13} Se li fiz qui a meins de .xiiii. anz est hors do
+                                baill, il sera<note>il sera] <emph>et sera</emph> dans le ms.,
+                                    corrigé d’après BR</note> contrainz de sostenir son pere se il
+                                est povres&#160;; car ce seroit deslëauté que li peres fust
+                                besoignos et li fiz fust riches. ¶ {14} Se la mere demande au pere
+                                les despenses [107rA] que ele a fetes por norrir le fiz, li
+                                enpereres Marc dit que ele doit estre oïe en cez paroles&#160;:
+                                «&#160;li juige priseront combien ton mari doit rendre por les
+                                necesseres despenses que tu as fetes por norrir ta fille&#160;; ne
+                                tu ne poz pas demander les choses que tu li feisses par la reson do
+                                mariage se sis peres les norrissent ». {15} Reson de<note>de]
+                                        <emph>dist</emph> dans le ms., corrigé d’après BR</note>
+                                pitié dist que li heirs qui est riches doit sostenir le pere et sa
+                                mere se il en ont besoing. {16} Ja soit ce que li fiz doit sostenir
+                                sa mere par le droit naturel, ne por tant il ne doit pas estre
+                                contrainz de paier ses detes. {17} Il a esté escrit que li heir au
+                                fiz devent estre contrainz de fere ce que li fiz fesoit por l’ofice
+                                de pitié quant il vivoit&#160;; mes ce ne doit pas estre fet fors
+                                quant li peres est amenez à trop grant povreté. ¶ {18} Li juige
+                                solent conoistre entre les patrons ‹et› cez que il ont franchi se
+                                l’en plede que li un norrissent les autres. ¶ Se il vient donc que
+                                cil ne<note>ne] <emph>non</emph> dans le ms. corrigé d’après
+                                    BR</note> les ont pas franchiz, li juige en doivent conoistre
+                                premierement&#160;; et s’il sievent certainement que il aient esté
+                                franchi, il doivent juigier que il norrissent les patrons&#160;; et
+                                li juigemanz ne todra pas à celui qui fut franchi poer de pledier se
+                                il nie que il ne fut pas franchi. ¶ {19} Norreture doit estre donee
+                                à besoignos selonc la quantité do chetel&#160;; et s’il ont de quoi
+                                il se puissent vivre, li juiges ne lor feront pas doner autre
+                                norreture. ¶ {20} L’en pot doter se cil qui ont esté franchi doivent
+                                norrir lor patrons tant solement ou les enfanz aus patrons. Et ge
+                                cuit que se li juige voent droite cause, il doivent juigier que li
+                                enfant au patrons soent nourri<note>nourri] <emph>norrri</emph> dans
+                                    le ms.</note>&#160;; mes il ne le doivent pas juigier si
+                                legierement des enfanz come des patrons, car servises doit estre fez
+                                non pas solement as patrons mes à lor enfanz. {21} Et cil qui la
+                                mere franchi est contrainz de norrir les enfanz. {22} Se aucuns velt
+                                que cil qui est franchiz por celi qu’i franchi le norrisse, ou cil
+                                que il franchi por ce que il li fut enjoint en .i. testamant, ou cil
+                                que il a achaté des deners que il meismes li bailla, il ne doit pas
+                                estre oïz, si comme Marciaux escrit. Et il oelme ce patron à celui
+                                qui pert la droiture do patronage por ce que il demande loier de cez
+                                que il a franchi. {23} Et il dit que li fiz au patron qui acusa de
+                                crime capital celui que sis peres franchi ne li doit pas demander
+                                norreture. {24} Cele qui a esté franchie est contrainte de norrir
+                                son patron. ¶ {25} Arbitres seult<note>seult] <emph>solent</emph>
+                                    dans le ms., corrigé d’après BR</note> estre donez à
+                                ju[107rB]igier la norreture qui doit estre donee au patron, qui doit
+                                regarder combien cil qui a esté franchi a en son chetel, si que il
+                                atenpre selonc ce la norreture. Et cele norreture sera donee tant
+                                comme li patrons en i avra besoing, et cil qui fut franchiz le porra
+                                fere. {26} Se cil qui ont esté franchiz sont riche, il sont
+                                contraint de norrir le pere et la mere à lor patron quant li patrons
+                                et son fiz sont mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.7}</head>
+                        <div type="gp">
+                            <p>Cil meismes dit&#160;: se aucun nie que il n’est pas mariz à une feme
+                                et que li mariages qui fez entre aus n’est nus por ce que il est
+                                apareilliez de prover que ele est serve, ‹il doit estre contrainz de
+                                norrir les enfanz dedenz ce. Et se il est prové que ele est
+                                    serve›<note>il doit... serve] saut du même au même, integré
+                                    d’après BR, cf. lat. <emph>de alimenta quidem liberis praestare
+                                        interim compellendum</emph></note>, nus griés ne soit
+                                engendriez por ce à celui qui a norri les enfanz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.8}</head>
+                        <div type="gp">
+                            <p>Marcianus dit&#160;: li enfant à noz enfanz malles apartienent à
+                                nostre cost&#160;; mes il n’est pas autresi as enfanz à noz filles,
+                                car il est aperte chose que li enfes à la fille n’apartient pas au
+                                cost à son ael mes à son pere, se li peres n’est morz ou
+                                besoignos.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.3.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: li patrons ou li enfant au patron n’ont nule
+                                droiture as biens à cez qui ont esté franchi tant comme il vivent,
+                                s’il ne mostrent<note>mostrent] <emph>mostre</emph> dans le ms.,
+                                    corrigé d’après BR, cf. lat. <emph>probaverint</emph></note>,
+                                por devant les prevoz, que il sont si malade ou si povre que cil que
+                                il ont franchi lor doivent por droit aidier à vivre de<note>de]
+                                        <emph>ce de</emph> dans le ms., corrigé d’après BR, le texte
+                                    se lit mieux sans <emph>ce</emph></note> mois en mois. Et issi
+                                est il escleré as establissemanz à plusors princes.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head type="gp">III. Ci titres est de garder la vente à la feme <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 25, tit. 4&#160;: <hi rend="i">de
+                                    Inspiciendo ventre custodiendoque partu</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {25.4.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: il avient au tens au sainz freres que uns homs
+                                disoit que sa feme estoit grosse, et ele li nioit. Et quant consoill
+                                lor en fut demandez, il ascritrent à Prisicien le prevost de la cité
+                                en tex paroles&#160;: «&#160;il senble que Sevoirs<note>Sevoirs]
+                                        <emph>set voiers</emph> dans le ms., corrigé d’après R, cf.
+                                    lat. <emph>Novam rem desiderare Rutilius Severus
+                                    videtur</emph></note> requerre novele chose, que il mete garde à
+                                sa feme qui est departie de lui qui nie que ele n’est pas
+                                grosse&#160;; et por ce, ne se doit nus merveillier se nos meton
+                                novel consoil. Se il se tient donc en cele requeste, il est bien que
+                                l’en eslisse la meson à une prode feme en que la feme viegne&#160;;
+                                illoc ait trois ventreres esprovees et sages et lëaux qui la
+                                regarderont par ton commandemant. Et se totes les trois, ou les
+                                dues, dient que il lor senble que ele soit grosse, il convendra
+                                amonester la feme que ele reçoeve la garde ; autresi comme se ele
+                                meismes l’eust requis. Et s’ele n’a enfant, li mariz sache que ce
+                                apartient à sa male renomee ; car il senble que il l’a fet por aucun
+                                tort à la feme. Ou se les trois femes, ou les dues, dient que ele
+                                n’est pas grosse, il n’i a nule cause [107vA] en garder la&#160;».
+                                {1} Et por cez trois voit l’en apertement que le consoil au senat de
+                                reconoistre les enfanz n’i a pas lieu se la feme ne velt fere
+                                senblant que ele soit grosse, ou ‹e›le nie que ele ne l’est pas. Ne
+                                ce n’est pas torz, car ainz que li enfes soit nez, c’est une partie
+                                des entrailles à la feme&#160;; mes quant li enfes est nez, li peres
+                                le pot demander comme sien, ou requerre que il soit aportez avant.
+                                Li princes secort donc en cause necesaire. {2} Et selonc ces letres,
+                                la feme puet estre apelee par devant le prevost et li puet l’en
+                                demander s’ele quide estre grosse&#160;; et ele doit estre
+                                contrainte de respondre. {3} S’ele respont donc pas, ou ele ne vient
+                                pas par devant le prevost, li enjoindron nos la poine do consoill au
+                                senat, c’est à savoir que il loise au mari à tenir l’enfant&#160;?
+                                Mes il pot avenir que li mariz ne se tiegne pas apaié de tant, car
+                                il a greignor desirrer d’estre peres que d’estre sanz enfanz. ¶ Il
+                                conveindra donc que ele soit contrainte par la force au prevost de
+                                venir à cort et de respondre&#160;; et s’ele n’i velt venir, ou ele
+                                i vient et ele ne velt respondre, il convendra que si gage soent
+                                pris et que ele soit contrainte par poine de chetel. {4} S’ele
+                                respont donc que ele est grosse, il convindra garder l’ordre qui est
+                                dite ou consoil ou senat&#160;; et s’ele nie, lors doit li prevoz
+                                apeler les ventrieres, selonc ce que nos avon dit avant. {5} Et l’en
+                                doit savoir que il n’est pas otroié au mari o à la feme à apeler
+                                aucunne ventriere, mes li prevoz les i doit totes metre. {6} Et si
+                                doit eslire la meson à la prode feme, où ele doit venir por estre
+                                veüe. {7} Et s’ele ne velt pas estre veüe, ou ele ne vet pas à la
+                                meson à la prode feme, li prevoz la doit contraindre par s’autorité.
+                                {8} Et se totes les ventrieres, ou les .ii., dient que ele n’est pas
+                                grosse, l’en demande s’ele pot por ceste cause pledier à son mari
+                                par aucion de tort fet. Et ge croi que oïl bien, se issi est
+                                que li mariz la feist voer por cause de fere li tort. Mes s’il ne li
+                                fist pas par tel corage, mes por ce que il cuidoit que ele fut
+                                grosse por aucunne droite cause ou por le grant deserrer que il
+                                avoit d’avoir enfanz, et por ce que ele li avoit fet acroire tant
+                                comme li mariages duroit, il est droiz que l’en pardoint au mari.
+                                {9} Il convient savoir que certain tens n’est pas establiz es letres
+                                que nos avon dit avant, ja soit ce que termes soit establiz à la
+                                feme ou conseil au senat, qui fut de reconoistre les enfanz. Comment
+                                sera il donc, diron nos que loira toz [107vB] jorz au mari à apeler
+                                sa feme par devant le prevost, ou nos li establiron terme de .xxx.
+                                jorz&#160;? Et je cuit que, quant li prevoz avra coneu la cause, il
+                                devra oïr le mari aprés .xxx. jorz. ¶ {10} Li prevoz dit ici de
+                                regarder le ventre à la feme et de garder l’enfant : « se feme dit,
+                                puis que sis mariz est morz, que ele est grosse, et ele denonce .ii.
+                                foiz ou mois à cez à qui la chose apartient ou à lor procurator que
+                                il envoient, se il volent, por voer son ventre, franches femes i
+                                soient envoies, qui la gardent totes ensenble, si que nule d’aus ne
+                                toche à son ventre malgré suen. ¶ Et la feme est enfant en la meson
+                                à une autre prode feme que je li establiroi .xxx. jorz ainz que la
+                                feme cuide avoir enfanz&#160;; ele face à savoir à cez à qui la
+                                chose apartient ou à lor procurator que il i envoient, se il volent,
+                                qui gardent son ventre. En la chambre en quoi ele devra enfanter
+                                n’oit que une antree&#160;; et devent cele entree a trois homes et
+                                trois franches femes qui la gardent lëaument&#160;; totes les foiz
+                                que cele feme entre en la chambre, ou que ele se vet boignier, les
+                                gardes i regardent avant, s’eles volent, et metent hors cez qui sont
+                                entré. Et quant la feme commencera à travallier, ele face savoir à
+                                cez à qui la chose apartient ou à lor procurator que il i envoient
+                                qui soit la où ele avra enfant&#160;; et il i envoient franches
+                                femes .v. sanz plus, si que por desus les .ii. ventrieres que il
+                                n’oit en la chambra où ele enfantera que .x. franches femes, et .vi.
+                                serves, et totes les autres en soient mises hors. Et en la chambre
+                                où ele devra enfanter n’oit pas mois de .iii. lumieres ; car
+                                tenebres sont convenables à lui ballier autrui enfant et à faindre
+                                que ele a enfanté. Li enfes qui sera nez soit mostrez à cez à qui la
+                                chose apartient ou à lor procurator, s’il le volent voer&#160;; et
+                                soit balliez à norrir la où li peres commandera. Et se cil ne le
+                                velt recevoir quant la cause sera coneue, je establiroi où il devra
+                                estre norriz&#160;; et cil qui le prendra à norrir le mostrera .ii.
+                                foiz au mois tant que il avra .iii. mois&#160;; et aprés ce, ‹une
+                                fois ou mois, tant que il ait .vi. mois&#160;; et aprés ce›<note>une
+                                    fois... après ce] saut du même au même, intégré d’après B, cf.
+                                    lat. <emph>ex eo tempore quoad sex mensum sit, semel in
+                                        mense</emph></note>, en .ii. ‹mois›<note>mois] intégré
+                                    d’après BR, cf. lat. <emph>alternis mensibus</emph></note> une
+                                foiz tant que il ait un an&#160;; et quant il avra .i. an, il
+                                mostrera en .vi. mois une foiz jusque tant que il puisse parler. ¶
+                                S’i ne plet à aucunne que son ventre soit gardez<note>gardez]
+                                        <emph>garder</emph> dans le ms., corrigé d’après BR</note>
+                                ou veuz ou que l’en soit à son enfantement ou se aucunne chose est
+                                fete por quoi il ne soit pas fez issi comme nos avons dit avant, je
+                                ne donroi pas à l’enfant qui nestra la possession, ou se li enfes
+                                qui est nez n’est mostrez si comme [108rA] nos avon dit. Et je
+                                promest que je donrai ces aucions à cez à qui la possessions des
+                                biens est donee par mon bannissement&#160;; mes je ne la donrai pas
+                                à cez se il me senble que il n’i ait droite cause&#160;». ¶ {11} Ja
+                                soit ce que li bannissement au prevost est bien aperz, neporquant
+                                l’en ne doit pas despire l’exposition. {12} Il convient donc que la
+                                feme face savoir que ele soit grosse à cez qui eussent preu s’ele
+                                n’eust pas enfanz por ce que il eussent tot l’eritage ou une partie,
+                                ou par testamant ou sanz testamant. {13} Et se uns sers avoit esté
+                                fez hers, se la feme au mort n’eust enfanz, Aristo escrit que, ja
+                                soit ce que totes les choses qui sont dites au banissement au
+                                prevost ne doevent pas estre gardees envers lui, neporquant il
+                                convient garder celes qui sont dites de
+                                    l’enfantement<note>enfantement] <emph>enfant</emph> dans le ms.,
+                                    corrigé d’après BR, cf. lat. <emph>circa partum
+                                        custodiendum</emph></note>. Et je croi que cele sentence est
+                                veroie, car c’est li communs preuz que feme ne tiengne pas autrui
+                                enfanz por suen, que la digneté des ordres et des mestiers soit
+                                gardee. Et por ce donc que li sers est en esperance de l’eritage,
+                                quex que il soit, il doit estre oïz, car il fet la commune besoinge
+                                et la soe propre. {14} Et il convient denoncier à cez qui sont en
+                                esperance de l’eritage aprés le serf, si comme à celui qui est
+                                establiz à estre heirs au premier degré, ou à celui qui est plus
+                                procheins d’avoir l’eritage sanz testamant. Se li peres mort sanz
+                                testamant fere, et si<note>si] <emph>li</emph> dans le ms., corrigé
+                                    d’après BR, cf. lat. <emph>si vero plures sint simul
+                                        successuri</emph></note> plusor le deussent avoir ensenble,
+                                l’en le doit fere savoir à toz. {15} Ce<note>Ce] <emph>cez</emph>
+                                    dans le ms., corrigé d’après BR, cf. lat. <emph>Quod autem
+                                        praetor ait causa cognita…</emph></note> que li prevoz dist,
+                                que quant la cause sera coneue il ne donra pas possession, ou il
+                                verra aucion, apartient<note>apartient] <emph>apartenant</emph> dans
+                                    le ms., corrigé d’après BR, cf. lat. <emph>eo
+                                    pertinet</emph></note> à ce que se aucunne chose est entrelessie
+                                par rudece ou par ignorance des choses que li prevoz vost que il
+                                gardast, ce ne nuise rien à l’enfant. Que se aucunnes des choses que
+                                li prevoz commanda legierement qui fussent gardees est entrelessie,
+                                la possession des biens ne doit pas por ce estre vee à l’enfant, mes
+                                la costume de la region<note>region] <emph>religion</emph> dans le
+                                    ms., corrigé d’après BR, cf. lat. <emph>mos
+                                    regionis</emph></note> doit estre regardee. Et selonc ce,
+                                convient il garder le ventre et l’enfant quant il nest et puis que
+                                il est nez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.4.2}</head>
+                        <div type="gp">
+                            <p>Julianus dist&#160;: li banissemanz de garder l’enfant abat celui qui
+                                est fez à la meniere do consoil au senat qui est apelez Carbonians.
+                                {1} Mes li prevoz doit aucunne foiz quitier cestui quant il avient
+                                par la simplece à la feme et sanz malice que li ventres n’est pas
+                                veuz ne li enfes gardez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.4.3}</head>
+                        <div type="gp">
+                            <p>Paulus dist&#160;: se cil qui est establiz à estre heirs aprés
+                                l’enfant qui est encore à nestre, ou cil qui est fez heirs
+                                simplement, velt garder le ventre, il doit estre oïz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {25.4.4}</head>
+                        <div type="gp">
+                            <p>Scevola [108rB] dist&#160;: cil à qui il fut commandé que, se il
+                                morust sanz enfanz, il lessoit à sa seror tot ce qui estoit avenu à
+                                lui des biens au mort, morut et fist son heir de sa fille qui estoit
+                                encore à nestre, et establi que autre fussent son heir enprés lui.
+                                Et por ce que la feme au mort disoit que ele estoit morte, l’en
+                                demande se l’en doit otroier à la seror ou à son procurator à garder
+                                le ventre selonc la forme do banissement. Et la responsse est
+                                que, en ce cas, il senble que il convient regarder à la cure à celui
+                                à qui il fut commandé que li heritages fut rendu&#160;; et selonc
+                                ce, doit l’en establir quant la cause est queneue.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">IV. Ci titres est se feme est à tort en possession ou non de son
+                        doere <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 25, tit. 6&#160;: <hi rend="i">Si mulier
+                                    ventris nomiue in possessione calumnia cansa osse
+                                dicetur</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {25.6.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dist&#160;: se l’en plede de possession ou non de l’enfant
+                                qui est encore ou ventre sa mere, et li heirs se met sus le seremant
+                                à la feme et ele juire que ele est grosse, l’en doit garder le
+                                seremant&#160;; ne la feme ne sera pas tenue autresi comme s’ele fut
+                                mise à tort hors de possession&#160;; ne force ne li doit pas estre
+                                fete aprés le seremant&#160;; neporquant, s’ele enfante, la verité
+                                en sera requisse, savoir mon s’ele fut grosse de celui qui fut son
+                                mariz. Et li seremanz qui est fez entre les uns ne nuist ne ne vaut
+                                aus autres&#160;; il ne nuira pas à l’enfant. ¶ {1} Cist banissement
+                                vient de cele meisme cause de quoi cil devant vient&#160;; car ausi
+                                comme li prevoz est legiers à doner la possession des biens ou non
+                                de l’enfant qui est encore ou ventre, ne doit il pas lessier le
+                                mesfet à la feme que il ne soit puniz. ¶ {2} Il senble que cele est
+                                à tort en possession qui set bien que ele n’est pas grosse et s’est
+                                mise en possession. ¶ {3} Li prevoz promet ceste aucion dedanz .i.
+                                an profitable&#160;; et ne mie outre, por ce que ele est meüe por
+                                fere soffrir poine. {4} Et autresi li prevoz promet aucion por tant
+                                comme li demanderres eust de preu se la feme ne se fust mise en
+                                possession. {5} Li prevoz promest ceste aucion contre le pere se la
+                                fille est venue en possession par lui à tort. ¶ {6} Ceste aucion
+                                apartient à celui qui i eust preu se la feme ne fust mise en
+                                possession, si comme à celui qui devoit estre compoinz de l’eritage,
+                                ou à celui qui fut establiz à estre heirs [108vA] aprés, ou à celui
+                                qui eust l’eritage sanz testamant s’il n’i eust point d’enfant. ¶
+                                {7} Il senble que il a difference es despens qui sont por le ventre,
+                                car il ne sunt pas demandez arriere se la feme ne vint à tort en la
+                                possession&#160;; et s’ele n’i vint pas à tort, ele ne paera rien.
+                                {8} Por le droit do ventre serunt aucunne foiz li depart creuz. Se
+                                la feme dote savoir mon se ele est grosse, ele est mise hors de
+                                l’eritage&#160;; car Juliens dit que ceste aucion doit estre donee à
+                                l’ohir à celui qui en est mis hors, se ce fu son preu que la feme ne
+                                fut pas misse en possession&#160;; car se ce n’eust esté, et cil qui
+                                fut fez hers eust receu l’eritage, il le lessast plus riche à son
+                                heir. Mes ce sera conté à la feme que plusors des choses de
+                                l’eritage sont amenuisees dusque li heritages ne li remaint pas por
+                                le droit de son ventre. {9} Cil meismes dit&#160;: se cil qui fut
+                                establiz à estre hers aprés le premier muert tant comme la feme est
+                                en possession, si heirs demandera à la feme par cele meisme reson le
+                                pris de l’eritage. {10} Mes il convient voer se li lés et li autres
+                                fessel de l’eritage fallent. Et il me senble que l’en puet dire que
+                                cil à qui le lés sont lessié puent user de ceste aucion contre la
+                                feme, car ce fut lor preu que li heritages fut receuz. {11} Et l’en
+                                doit secorre à franchise contre celui qui à pledié par ceste aucion
+                                de l’eritage, si que cil qui à conquis le pris de l’eritage soit
+                                contrainz de doner les franchises qui furent lessies à terme. Et ge
+                                croi que il convient que li prevoz secore à celes qui furent donees
+                                maintenant, si que il les garentisse por s’autorité. {12} Se la
+                                fille qui est en bau i fet tricherie et sis peres en est parçoniers,
+                                il sera tenuz en son non. ¶</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

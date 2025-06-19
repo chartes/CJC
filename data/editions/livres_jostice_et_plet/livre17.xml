@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre17">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160;Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu'elle apparaît dans l'édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-10" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI DIX-SEPTIESMES LIVRES</head>
+        </front>
+        <group>
+            <head>LI DIX-SEPTIESMES LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="270"/>
+                <front>
+                    <head type="gp">I. Ci commoince li sistes livres de Di[154vB]geste nove. Cis
+                        titres est de excepcions et de prelacions <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 1&#160;: <hi rend="i">de
+                                    Exceptionibus, et prescriptionibus, et
+                                prejudiciis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.1.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: il senble que cil demant qui use de excepcion ;
+                                car li deffenderres est autresi comme li demanderres quant il
+                                propose excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: excepcion est une barre qui est mise contre
+                                l’aucion à aucun por boter arriere s’entencion. ¶ {1} Replicacion
+                                n’est nule autre chose que excepcion que vient par devers le
+                                demandeor. Et replicacions sont necesseres por mestre arriere les
+                                excepcions&#160;; ne eles ne sont mises avant par nule autre cause.
+                                ¶ {2} L’en doit savoir que excepcions et replicacions ne sont fors
+                                barres, car l’excepcion bote arriere l’entencion au demandeor. {3}
+                                Mes contre replicacion selt estre opposee triplicacion, et contre
+                                triplicacion quadruplicacion, et issi en montepleant tant comme li
+                                uns et li autres en velt proposer. ¶ {4} Nos solons dire que les
+                                unes excepcions sont dilatoires et les autres peremptoires.
+                                Excepcion dilatoire est qui deloie le plet, si comme excepcion qui
+                                est proposee contre le procurator&#160;; car cil qui dit que il ne
+                                loit pas pledier par procurateur n’estaint pas le plet mes il le
+                                desloie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.3}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: excepcions sont ou pardurables ou peremptoires, ou
+                                temporels ou dilatoires. Les pardurables ou peremptoires sont celes
+                                qui ont toz jorz leu ne ne puent estre achevees ; si comme sont
+                                excepcion de tricherie et de chose juigee, et de ce qui est fet
+                                contre les lois ou contre les consauz au senat, et cele de
+                                pardurable convenant si comme se il a esté mis en convenant que cele
+                                dete ne sera jamés demandee. ¶ Les temporeles et dilatoires sont
+                                celes qui n’ont pas toz jorz leu, ainz puent estre eschevees&#160;;
+                                si comme cel de convenant temporel si comme se il fut mis en
+                                convenant que cele dete ne seroit demandee devant .v. anz. ¶ Les
+                                excepcions de procurators sont dilatoires qui puent estre eschevees
+                                aucunne foiz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.4}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui dit que il a fet seremant puet user des
+                                autres excepcions o cele de seremant ou d’autres seules&#160;; car
+                                il est ostroié à user de plusors deffensses.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.6}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se cil à qui une chose fut lessie la demande,
+                                l’en puet user contre lui d’excepcion de la tricherie au [155rA]
+                                mort&#160;; car autresi comme cil qui est heirs de toz ses biens est
+                                mis arriere par excepcion, i puet estre mis cil à qui uns lés est
+                                lessiez qui n’est hoirs que d’une chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.7}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: les excepcions qui apartienent à la persone à
+                                aucun ne vienent pas à autres, si comme excepcion de compoignie.
+                                L’excepcion de ce que li peres ou parrons ne puet paier n’apartient
+                                pas à son pleige. Li plege que li mariz dona est condempnz à rendre
+                                tot le doere quant li mariages est departiz. {1} Les excepcions qui
+                                vienent de la chose apartient as plege&#160;; si comme excepcion de
+                                chose juigee, ou de tricherie, ou de seremant, ou de ce qui est fet
+                                par cause de poor. Et se li detors a fet un convenant de la chose,
+                                l’excepcion dou convenant vaut au plege. ¶ Excepcion de quitence et
+                                de ce qui est demandé por chargier franchise apartient au plege. Et
+                                se aucuns est plege por le fiz qui est en bail contre le consoil au
+                                senat, ou par celui qui a meins de .xxv. anz qui est deceuz, il se
+                                puet deffendre par excepcion&#160;; mes se il n’est pas deceuz, il
+                                n’a pas droit enterine restitucion, ne ses plege n’a pas
+                                excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.8}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: il n’est deffendu à nul à user de pluseurs
+                                excepcions, ja soit ce que eles soient diverses.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.9}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: il ne senble pas que cil reconoisse l’intencion à
+                                son averseire qui use d’excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.10}</head>
+                        <div type="gp">
+                            <p>Modestinus dit&#160;: chose qui est jugee entre les uns ne nuit pas
+                                as autres. Et se cil contre qui l’en n’a rien juigié et il plede por
+                                l’eritage, l’excepcion de cele sentence ne li puet nuire, qui fut
+                                donee contre lui ainz que il fut heirs.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.11}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: uns hons fut trez en cause por une dete et
+                                quant instrumant furent aporté avant, il paia par le commandemant au
+                                juige, autressi comme se il fussent verité. Se il set aprés la
+                                verité et il voit que li istrumant soient faus, et il velt prover
+                                que li instrumant soient faus par quoi il fut trez en cause et ou il
+                                fist subscripcion par le commandemant au juige, se demant se
+                                excepcion de chose juigie li puet estre opposee, par ce que il est
+                                apertement contenu es establissemenz as princes quex sentence qui
+                                est donnee par faus instrumant, et l’en trove aprés que il soient
+                                faus, excepcion de chose juigee ne soit pas opposee. Et
+                                Modestinus respont que, por ce que li paemenz est fez par error, ou
+                                l’en a demandé caucion de paier par cez instrumanz que l’en dit ore
+                                qui sont faus, n’a pas l’excepcion de chose juigie leu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.12}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: il est en leu de demandeor qui mest avant [155rB]
+                                s’intencion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.13}</head>
+                        <div type="gp">
+                            <p>Julians dit&#160;: se li plez d’un heritage est entamz et l’en
+                                demande aprés chascunne des choses par soi, il nos plet que
+                                excepcion de plet qui est commoinciez ne nuise pas&#160;; car tex
+                                excepcions nessent do juigement qui a esté fez et ne mie de celui
+                                qui est a fere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.14}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: li filz qui estoit en bail vendi un de ses sers et
+                                mist en convenant que li pris li seroit renduz et paietz&#160;; cil
+                                sers fut retrez et puis morut, et li peres demandoit à l’acheteor
+                                les deners qui furent convenenciez à son fil. Il nos plet que il se
+                                peust deffendre par excepcion de ce que li denier furent promis por
+                                le serf qui fu retrez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.15}</head>
+                        <div type="gp">
+                            <p>Julians dit&#160;: replicacion de tricherie ne doit pas estre donee
+                                contre excepcion de seremant ; car li prevoz doit fere que l’en
+                                n’enquiere pas do seremant à aucun.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.16}</head>
+                        <div type="gp">
+                            <p>Affricans dit&#160;: tu porsiez le champ Tyce de quoi il a plet entre
+                                moi et toi par la proprieté&#160;; et par desus ce, je demant voie à
+                                aler i parmi le champ Semprone, que l’en set bien qui est tuens. Se
+                                je demant la voie, tele excepcion c’est bone que l’en ne puisse pas
+                                prover que la voie me soit deue devant que je aie prové que le chans
+                                Tyce est miens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.17}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: mes se je demant avant la voie et puis le champ,
+                                por ce que ce sont diverses choses et les causes de la restitucion
+                                sont diverses, l’excepcion ne me nuira pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.18}</head>
+                        <div type="gp">
+                            <p>Affricans dit&#160;: je te demans une partie do champ que tu diz qui
+                                est tiens propre et si vuel que il soit partiz par devant cel meisme
+                                juige. Et de l’autre part, se tu porsiez ce meisme champ et je di
+                                que il soit miens propres et je t’en vuell demander les fruiz, l’en
+                                demande se l’excepcion qui grieve soit fete au champ, ou à une
+                                partie, te doit nuire ou non. Et je croi, en l’un cas et en
+                                l’autre, que li prevoz s’en doit entremetre, ne ne doit pas ostroier
+                                au demandeor à pledier por les fruiz ou par avoir partie dou champ
+                                devant que l’en sache que la proprieté en soit soue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.19}</head>
+                        <div type="gp">
+                            <p>Marcus dit&#160;: totes les excepcions qui apartienent au detor
+                                apartiennent au plege malgré au detor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.20}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: excepcions sont proposees ou por ce que ce est fet
+                                que il convint fere, ou por ce que ce n’est pas fet que il convint
+                                fere. Excepcion est donnee por ce que ce est fet que il convint
+                                fere, si comme excepcion de chose vendue et de chose juigee. Ele est
+                                donnee por ce que ce est fet que il ne convint pas fere, si comme
+                                quant la possession de la chose qui [155vA] est vendue n’est pas
+                                baillie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.22}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: excepcion est contredissemenz qui aucunne foiz
+                                garde celui qui est acusez d’estre condempnez, et aucunne foiz
+                                amenuisse le condempnement. ¶ {1} Replicacion est
+                                    contraire<note>contraire] <emph>constroie</emph> (?) dans le
+                                    ms., cf. lat. <emph>Replicatio est contraria
+                                    exceptio</emph></note> à excepcion, et autresi comme excepcion
+                                contre excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.23}</head>
+                        <div type="gp">
+                            <p>Pains dit&#160;: Paulus dit que se aucuns met une ymage en un commun
+                                leu par corage que ele soit en commun et il la velt puis demander,
+                                il sera mis arriere par excepcion seur le fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.1.24}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: li filz qui est en bail aquiert à son pere
+                                excepcion de seremant se il jure que il ne doit rien.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. De excepcion de chose jugie <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 2&#160;: <hi rend="i">de
+                                    Exceptione rei judicatœ</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.2.1}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: por ce que les chose qui sont juigees entre les
+                                uns ne grievent point as autres, l’en puet pledier par le testamant
+                                en coi franchise ou lés a esté lessiez, ja soit ce que li testamanz
+                                ait esté toz ou vains ou tenuz por desleal. Et se cil à qui li lés
+                                fut lessiez et seurmontez, por ce ne pert pas li autres la franchise
+                                qui li fut lessie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.3}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Julians dit que excepcion de chose juigee
+                                nuist totes les foiz que uns moismes plez est recommoinciez entre
+                                unes meismes persones. Et por ce, se aucuns a demandé chescunne des
+                                choses par soi et il demande aprés tot l’eritage, il sera mis
+                                arriere par excepcion de chose juigie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.5}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: aucuns puet pledier de la chose dont il a
+                                pledié, ja soit ce que il n’en plede pas par l’aucion par quoi il en
+                                pleda premierement ; si comme se aucuns a pledié par aucion de
+                                mandemant et il plede aprés par cele meisme chose par aucion de
+                                besoignes fetes. L’en dit donc par droit que cil ne plede pas par
+                                cele meisme chose qui ne chalonge pas cele meisme chose. Mes se il
+                                mue l’aucion, et il plede par autre, et demande cele moisme chose,
+                                il senble que il plede de la chose meisme dont il avoit avant
+                                pledié, mes par autre aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.6}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: il nos plest par bone reson que une aucion et une
+                                sentence soffisse à chescunne cause que li plet ne soient
+                                monteplié&#160;; et moismement, se l’en donoit diverses sentences,
+                                il convient donc obeir à excepcion de chose juigee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.7}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se aucuns avoit demandé tote une chose et
+                                sentence en fust donee contre lui et il en demande ore [155vB] une
+                                partie, excepcion de chose juigee li nuist, car la partie est
+                                contenue en tot. Et ce est une meisme chose se il demande une partie
+                                de ce que il demanda tot&#160;; et por ce, se aucuns a demandé un
+                                champ et il en demande une partie, excepcion li nuist. Autresi puet
+                                l’en dire se aucuns demandoit premierement .ii. choses, et il en fut
+                                convoincuz, il n’en demande or que une ; car excepcion li nuira.
+                                Autresi est il se aucuns demanda un champ et il demande ore un arbre
+                                qui est copez&#160;; ou se il demanda une meson et il demande ore la
+                                place, ou le merrien, ou les pierres&#160;; ou se il demanda une nef
+                                et il en demande ore les tables. Se ge demant une serve grosse, et
+                                je sui conveincuz, et je demant aprés l’enfant que ele a puis eu, il
+                                a grant dote savoir mon se je demant cele meisme chose ou autre. Et
+                                l’en puet dire que une meisme chose est demandee totes les foiz que
+                                l’en demande par devant le derrener juige ce que l’en demanda par
+                                devant le premer. {1} Excepcion nuist donc en totes ces choses. Mes
+                                il est autrement el pierres, e ou marrein ; car se cil qui demanda
+                                le marrien demanda les pierres ou les chevrons ou aucunne autre
+                                chose, il senble que il demande autre chose que il ne demanda
+                                avant&#160;; car il avient sovant que les choses de quoi la meson
+                                est fete ne sont pas à celui de qui la meson est. Quant la meson est
+                                donc depecee, cil à qui les choses sont les puent donc chalengier.
+                                {2} Ceste meisme question est des fruiz qui est de l’enfant ; car
+                                ces choses n’estoient encor pas quant l’en pleda, mes eles sont de
+                                la chose qui est demandee. Il est donc melz que ceste excepcion ne
+                                nuisse pas à celui qui les demande. ¶ {3} Julians dit generaument
+                                que excepcion de chose juigee nuist totes les foiz que uns moismes
+                                plez est renovelez entre unes meismes persones. Et por ce, se aucuns
+                                a demandé un heritage et il en demande ores aucunnes choses, ou il a
+                                demandé les choses et il demande hore l’eritage, il sera mis arriere
+                                par excepcion. ¶ {4} Ce meisme porra l’en dire se aucuns a demandé
+                                la dete à un des deteurs de l’eritage et il a esté convaincuz et il
+                                demande aprés l’eritage, ou se il demanda avant l’eritage et puis
+                                demande la dete, car en ce cas li nuira excepcion&#160;; car quant
+                                je demant heritage les choses et les aucions qui apartienent à
+                                l’eritage sont en ma [156rA] demande.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.8}</head>
+                        <div type="gp">
+                            <p>Julians dit&#160;: se aucuns a demandé une partie d’un champ et il
+                                plede aprés par aucion de partir heritage ou de partir choses
+                                communes, il sera mis arriere par excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.9}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: ge te demant un heritage quant tu ne porsoes rien,
+                                et tu as puis commoincié à porsoer aucunne chose, et ge te demant de
+                                rechief l’eritage, l’en demande se ceste excepcion me nuist.
+                                Et ge croi que se il fust juigié que li heritages estoit miens, ou
+                                se tu fus asous por ce que tu ne porsoies rien, ceste excepcion ne
+                                me nuist rien. {1} Se aucuns deffendi le champ que il cuidoit que il
+                                porsoit et il acheta aprés, et sentence fut donee por celui qui li
+                                demandoit, je demant se il est tenuz do rendre li le champ. Et
+                                Neraces dit que se excepcion de chose juigie est opposee contre
+                                celui qui le demande segonde foiz, il porra user de replicacion que
+                                sentence a esté donee par lui. ¶ {2} Julians escrit que excepcion de
+                                chose juigie vient de vendeor à l’acheteor mes ele doit retorner
+                                arriere de l’acheteor au vendeor. Et por ce, se tu as vendu une
+                                chose de ton heritage, et je la demant à celui qui l’a acheté et je
+                                le vaint, je ne opposeroi pas contre toi ceste excepcion se tu me
+                                demandes cele chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.12}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant l’en demande se ceste excepcion doit nuire ou
+                                non, il convient garder se l’en plede de la chose meisme dont l’en a
+                                pledié autre foiz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.13}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: et se ele est de cele meisme quantité.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.14}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: et se il a une meisme cause de demander et se la
+                                condicion des persone est une meisme et se totes ces choses ne
+                                s’asenblent, la chose est autre. L’en entant en ceste excepcion que
+                                la chose est une meisme, ja soit ce que la premiere qualité ou la
+                                premere quantité n’est pas gardee, car l’en prent la chose plus
+                                largemont par le commun profit. ¶ {1} Cil qui avoit une partie d’un
+                                usaire le demanda tot&#160;; se l’autre partie li eschiet puis, et
+                                il la demande, il ne sera pas mis arriere par ceste excepcion, car
+                                ceste partie n’eschiet pas à l’autre mes à lui. {2} Les aucions
+                                personels se devisent en ce .ii. aucions qui sont menés seur la
+                                chose, que quant uns hons me doit une chose je puis mestre toz jorz
+                                toz les obligemenz et totes es causes por quoi il la me doit. Et
+                                l’une ne prist pas por l’autre, mes quant je plede sus la chose, et
+                                je ne di pas la cause [156rB] par quoi ele est moie, totes les
+                                causes sont comprises en une demandee&#160;; car la chose ne puet
+                                pas estre moie plus d’une foiz, ja soit ce que ele me puet estre
+                                deue.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.15}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: se plez est meüz entre moi et toi d’un heritage et
+                                tu en porsiez unes choses et je autres, rien ne deffant que tu ne me
+                                puisses demander l’eritage et je à toi. Et se tu commoinces à
+                                pledier o moi puis que sentence sera donee, il convient regarder se
+                                il fut prononcié que li heritages fust miens ou tuens. Et se il fut
+                                juigié que il fut miens, excepcion de chose juigie te nuira, car il
+                                a esté prononcié que il est miens et que il n’est pas tuens. Et se
+                                il est prononcié que il n’est pas miens, l’en n’entant pas por ce
+                                que il soit tuens ; car il puet avenir que il n’est ne miens ne
+                                tuens.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.16}</head>
+                        <div type="gp">
+                            <p>Julians dit&#160;: il est aperte chose et leal que excepcion de chose
+                                juigie ne puet rien valoir à celui contre qui sentence est
+                                donee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.19}</head>
+                        <div type="gp">
+                            <p>Marciaus dit&#160;: uns hons bailla une meisme chose en gage à deus
+                                en duis tens&#160;; li derreners pleda au premier par aucion de gage
+                                et le vainqui, cil commença maintenant à pledier par autretel
+                                aucion, l’en demande se excepcion de chose juigee li doit
+                                nuire. Se il propose que la chose li fut premierement engagie
+                                et il n’i ajoint nule novele chose, l’excepcion li nuira ; car il
+                                rapele en juigement la chose qui est terminee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.23}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se l’en a pledié en un juigement et l’en ne
+                                demande fors usures, excepcion de chose juigie ne tost pas à
+                                demander le chetel. Autresi sera il se aucuns ne velt chalengier
+                                fors usures en juigement de bone foi, car por ce ne remoint pas que
+                                usures ne corent ou tens qui est à venir&#160;; car tant comme li
+                                marchiez de bone foi dure, corent les usures.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.24}</head>
+                        <div type="gp">
+                            <p>Ulpians dit&#160;: se aucuns achete une chose de celui qui n’est pas
+                                sires, et li sires la demande et il est assous de sa demande, et il
+                                en pert aprés la possession et il la demande au seignor, replicacion
+                                li vaudra contre l’excepcion au seignor se sentence n’a avant esté
+                                donee.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.2.31}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se aucuns a pledié sus une chose et il ne l’a pas
+                                conquise, se il la demande depuis, auction de chose juigie ne li
+                                nuist pas.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head>III. De fere teneure en pez laborer.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Uns hons demende un héritage par la reson de ce que il est droiz heirs.
+                            Cil qui tient cel héritage dit, pardevant la justice, que il ne li en
+                            viaut respondre, por ce que il a fete en pez, en tens convenable&#160;;
+                            si la veaut desbléer, ençois que il ait responsse de lui. Et li autres
+                            dit que il li quite la desblée por ses façons, et que il respoigne au
+                            fonz de l’éritage&#160;: car quant li débaz n’et que por les façons, et
+                            l’en les li quite, bien doit respondre à l’éritage. Li autres n'i viaut
+                            respondre, et se metent en juigemenz&#160;: et droit dit que responsse
+                            ne doit pas remanoir por ce.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Uns hons gaagna une terre sans le congié à celui qui ele estoit&#160;; et
+                            vint un terme de cuillir les fruis, et les volt cuillir&#160;; et cil
+                            qui la terre estoit i mist contanz. Li gaignerres oit
+                            (<emph>dit</emph>), comme il ait gaignie cele chose sanz contenz, que il
+                            viaut avoir les fruiz, et estre en la sésine de la chose. A ce respont
+                            li hériters&#160;: Comme vos (<emph>n'</emph>) avez esté en sésine de
+                            ceste chose un an et un jor sanz interrupcion, nos volons que riens <pb
+                                n="271"/>que vos aiez fet vos vaille rien&#160;; ainz volons qu'el
+                            vos nuisse, com cil qui a mise sa faucille en autrui blé. Et li
+                            gaagnerres respont&#160;: Tot ne le ai-ge tenu an et jor sanz contanz,
+                            je le gaigne sanz contenz. L'en demende qu'en dit droiz. Et l'en
+                            respont que li gaagnerres n'aura pas le gaaing&#160;; mès il aura
+                            avenament ce qu'il aura au preu au seignor, com nus ne doie estre riches
+                            de l'autrui&#160;; car nus ne doit avoir profit en sa malice&#160;; com
+                            nus ne doie estre en sésine de chose, se la sésine n'est veraie&#160;;
+                            ne sésine n'est pas veraie, s'el n'est tenue an et jor sanz contenz.</p>
+                        <p>Se aucuns fet ma chose, toi li lessé-je fere sanz contanz, l'en ne doit
+                            mie entendre que ge m'i consente, fors por mon preu. Et se li anz et li
+                            jorz passe sanz fere interrupcion encontre, li gaagnierres est en veraie
+                            sésine, et quaudra la dablie.</p>
+                        <p>Et se ge achète vignes, ou terres, ou choses que conviant coitiver, comme
+                            vignes fere de sarpe, et de marre, et de terre gaagnier&#160;; et la
+                            costume del païs soit tele que l'en ne puisse chalengier dedanz l'an et
+                            dedanz le jor, à la pécune païant qu'ele aura coûté&#160;: aurai-ge les
+                            fruiz&#160;? L'en dit que oïl, por la façon, s'el n'est chalongie dedanz
+                            les trois droites façons (<emph>sesons&#160;?</emph>). Et del pré
+                            aurai-ge le fain, que niens n'aura coûté à coitiver&#160;? L'en dit que
+                            non, se la chose n'est chalongée avant que li foins soit en seson. Et le
+                            loer de la meson auré-ge&#160;? Nenil, fors les mises que l'en i aura
+                            mises&#160;; et tex recetes sont mises en poiement. Et se ge faz les
+                            choses à l'orfelin don le bail sera miens, et dedanz le termes de la
+                            cuillete sera aagé avant&#160;: et la naturel reson de gaagner fut.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Uns hons si dit aissint&#160;: Je aurai gaanies les terres, et si avoie
+                            fetes les vignes en droite seson, sanz contenz. Gaubert m'en a
+                            désési&#160;; si requier à estre en sésine des fruiz, com cil qui a
+                            fetes les choses sanz contanz. Et s'il viaut dire que ce ne soit voirs,
+                            ge sui prez de mostrer et de l'avérer par moi et par garanz, que c'est
+                            voirs. A ce respont Gaubert&#160;: Com cele chose soit moie, et il ne
+                            fut onques en veroie sésine, ne voill que riens qu'il i ait fet li
+                            vaille, com cil qui n'a pas tenue la chose an et jor sanz contanz. L'en
+                            demende que dit droiz&#160;? Et l'en respont que ci n'a pas
+                            bataille&#160;; mès l'en enquerra se li gaagnierres est en veraie
+                            sésine&#160;; et s'il est en veraie sésine, il aura les fruiz, avant que
+                            autre plez corge&#160;; et si n'est en veroie sésine, li sires de la
+                            propriété aura les fruiz, à rendant les choses qui li auront costé.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <pb n="272"/>
+                <front>
+                    <head type="gp">IV. [156vB] De excepcion de tricherie <hi rend="i"
+                        >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 4&#160;: <hi rend="i">de Doli
+                                    mali et metus exceptione</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.4.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: que ceste excepcion puisse estre entendue plus
+                                clerement, voions avant de la cause par quoi ele est proposee et
+                                comment l’en fet par tricherie. Et por ce entendrons nos comment
+                                l’excepcion de tricherie nuira, et aprés voions contre quex persones
+                                ele a leu ; et au derrenier, se eles apartienent en toz tens. {1} Li
+                                prevoz propose ceste excepcion que tricherie ne vaille à nul contre
+                                naturel droit par acheson de droit citeain. Et l’en entent bien par
+                                le fait moismes quant aucunne chose est fete par tricherie, ou en
+                                marchié, ou en testamant, ou en lois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.2}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: il est aperte chose que ceste excepcion est
+                                proposee por la cause moisme par quoi aucion de tricherie est
+                                proposee. {1} Il convient que nos voions en quex causes ceste
+                                excepcion a leu et contre quex persones ele doit estre proposee. Et
+                                l’en doit savoir que il convient dire especiaument de quele
+                                tricherie aucuns se plaint. Et cil qui oppose contre excepcion doit
+                                prover que ses averseres a fet tricherie en la cause. Ne ce n’est
+                                pas assz se il dit que tricherie i a esté fete se li demanderres ne
+                                l’a fete&#160;; il doit nomer la persone por savoir se ele est tele
+                                que sa tricherie doie nuire au demandeur. {2} Ne l’en ne demande pas
+                                contre qui la tricherie fut fete, mes sanz plus se ele fut fete en
+                                la chose par devers le demandeor. ¶ {3} En la premiere espece par
+                                quoi cest excepcion puet avoir leu puet l’en enquerre ces choses. ¶
+                                Se aucuns a fet que deners li soient convenenciez sanz cause et puis
+                                plede par cele convenance, excepcion de tricherie li nuira ; car ja
+                                soit ce que il n’i fist point de tricherie ou tens que la convenance
+                                fut fete, neporquant desque il en [157rA] commoince plet, l’en doit
+                                dire que il i fit tricherie. Et se il ot droite cause de fere la
+                                convenance et il n’en a or point, il senble que il i fet tricherie,
+                                si comme se aucuns devoit doner à prest deners. Et il fist
+                                convenance que il seroient renduz, et il ne les presta pas ; l’en
+                                doit dire que ceste excepcion li nuist. {4} Se aucuns fet purement
+                                convenant que certoine quantité li soit rendue por aucunne certaine
+                                cause et il convenance anprés que cele quantité ne li sera demandee
+                                devant certain terme, l’en demande se excepcion de tricherie li doit
+                                nuire se il la demande devant le terme. Et sanz dote l’en ne
+                                doit pas doter que excepcion de convenant ne li valle. Et se aucuns
+                                velt user de ceste excepcion, il le puet bien fere ; car l’en ne
+                                puet pas noier que cil qui demande contre convenant ne face
+                                tricherie. ¶ {5} L’en doit savoir generalment que excepcion de
+                                tricherie nest de totes les auctions seur le fet ; car cil fet
+                                tricherie qui demande ce don l’en se puet deffendre par aucunne
+                                excepcion. Car, s’il n’i ot au commoincement point de tricherie, s’i
+                                demande ore, il a par tricherie, se il n’i a tele ignorance qui soit
+                                sanz tricherie. ¶ {6} Se uns creanciers a pris usures do tens qui
+                                est à venir et il demande sa dete ainz que cil tens soit venuz,
+                                excepcion de tricherie li nuist par droit ; car desque il prist les
+                                usures il senble que il fist que il ne porroit demander la dete
+                                devant le terme. ¶ {7} Se aucuns achete un serf à qui franchisse
+                                estoit lessie se il devoit .x. livres, et cil qui l’achate n’en siet
+                                rien, et il met en convenant que se li sers ne li est garentiz li
+                                pris li soit renduz à dobles, et li sers li poie les .x. livres et
+                                il vient à franchise, li acheterres puet pledier por avoir à dobles
+                                les pris que il li dona. Mes se il ne conte les .x. livres que il
+                                reçut par acomplir la condicion, il sera mis arriere par excepcion
+                                de tricherie&#160;; et issint escrit Julians. Neporquant, se cil
+                                dener furent do chestel qui apartient à l’acheteor, ceste excepcion
+                                ne li nuira pas ; car il n’i fit rien par tricherie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.4}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Celsus demande&#160;: se li creanciers d’un
+                                heritage commanderent à Tyce que il receut l’eritage, et li uns ne
+                                li commanda pas por decevoir le, et, se por ce ne fust, i l’eust
+                                commandé, et il plede aprés à lui, savoir mon se il doit estre mis
+                                arriere par excepcion de tricherie&#160;; et Celsus dit que
+                                excepcion de tricherie li doit nuire. ¶ {2} Se nos<note>nos]
+                                        <emph>nos nos</emph> dans le ms.</note> meismes est mise, et
+                                je ne la poi pas tenir por maladie et l’en me demande la poine, l’en
+                                demande se ge me puis deffendre par excepcion de tricherie. Et
+                                [157rB] Pomponius dit que oïl bien. ¶ {3} Se tu fais mise o celui
+                                qui te devoit .vi.c livres, li offices à l’arbitre fut que il
+                                commandat que il te rendist ce que il te devoit en verité. Et se il
+                                comanda que il te rendist moins, tu puez demander le suerplus. Et se
+                                l’en te tret en cause par la poine, tu te porras deffendre par
+                                excepcion de tricherie. ¶ {4} Se aucuns a poié à un orfelin ce que
+                                il devoit sanz l’autorité à son deffendeor et li orfelins en est fez
+                                plus riches, l’en dira par droit que excepcion de tricherie nuira à
+                                cez qui li demanderunt la dete. Autresi doit l’en dire as autres à
+                                qui l’en ne paie pas par droit ; car se il en sont plus riches
+                                l’excepcion avra leu. ¶ {20} Se mes deteurs te deçut, et il t’atorna
+                                à moi à paier sa dete et tu la me convenenças et je la te demant,
+                                l’en demande se excepcion de tricherie me puet nuire. Et il
+                                est melz que il ne te soit pas otroié à user contre moi d’excepcion
+                                de la tricherie ne à mon deteur ; car ge ne te deçui pas, mes tu en
+                                porras pledier contre mon deteur. ¶ {27} Excepcion ne sera pas
+                                opposee à l’acheteur de la tricherie au vendeur ; car il use de ce
+                                que li acheterres li otroia. {29} Se aucuns chalonge une chose por
+                                cause de lés ou por ce que ele li a esté donee, l’en demande se
+                                excepcion li puet estre opposee de la tricherie à celui qui li donna
+                                ou lessa la chose. Et Pomponius dit que oïll. Et ge croi que
+                                cil doivent estre mis arriere par excepcion de tricherie qui a la
+                                chose par la cause de gaagner&#160;; mes il est autrement de choses
+                                achetees. {31} La tricherie au vendeur ne sera pas opposee à
+                                l’acheteur, si comme nos avons dit&#160;; et nos garderons ce en
+                                celui tant solement qui a la chose par achat, et en celui qui l’a
+                                par eschange ou prise en sorte, et es autres qui sont autresi comme
+                                acheteor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.6}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: se il est avenu par le porchaz as creanciers que ses
+                                deteurs ait perdu les deners que il a paié et il les demande puis,
+                                il sera mis arriere par excepcion de tricherie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.7}</head>
+                        <div type="gp">
+                            <p>Julianus dit&#160;: se je cudoie que je te deusse deners, et je
+                                l’a‹i› premis par ton commandemant à celui à cui tu les voloies
+                                doner, je me puis deffendre par excepcion de tricherie&#160;; et par
+                                desus ce, je puis pledier à lui que il me quit. {1} Se tu cuidoies
+                                que uns hom fust tes creanciers et je li promis par ton commandemant
+                                les deners que je te cuidoie devoir, se il les me demande il doit
+                                estre mis arriere par excepcion de tricherie. Et par desus ce, je
+                                puis pledier à lui que il me quit. Et ceste sentence est plaine
+                                d’umanité que je me deffande par excepcion, et soie delivrez de ce à
+                                qui je fui obligiez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.9}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se uns procurators a pris deners por sofrir [157vA]
+                                que il soit condempnz et l’en plede à son seignor par aucion de
+                                chose juigee, il se deffendra par excepcion de tricherie. Et ce que
+                                li procurators a receu ne li puet pas estre tolu ; car dener qui
+                                sont receu por vileine cause doivent melz estre à celui qui est
+                                deceuz que à celui qui deçoit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.10}</head>
+                        <div type="gp">
+                            <p>Marcians dit&#160;: quant uns hom edefie aucunne chose en la place
+                                que sa feme li a donee, pluseur dient que il puet garentir la chose
+                                par excepcion de tricherie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.12}</head>
+                        <div type="gp">
+                            <p>Panponius dit&#160;: cil qui puet brisier l’aucion à son averseire
+                                par leal deffensse est seurs par excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.13}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: quant enfant son deserité ou testamant leur pere et
+                                li testamanz est roz<note>roz] <emph>toz</emph> dans le ms., cf.
+                                    lat. <emph>rupto testamento ius suum conservandum
+                                    est</emph></note>, leur droiture lor doit estre gardee tote
+                                entere, ne excepcion de tricherie ne lor sera pas opposee. Et ce
+                                doit estre gardié non pas tant solement en la persone as enfanz mes
+                                en leur heirs.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.4.16}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: se uns forsenez atorne son deteur à paier à son
+                                creancier ce que il li doit, et li detors cuide que il soit bien en
+                                son sans et il le paie, il se deffendra par excepcion de tricherie
+                                se l’en li demande autre foiz la dete ; car ele est alee el besoing
+                                à son deteur.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. De quex choses aucion n’est pas donee <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 5&#160;: <hi rend="i">Quarum
+                                    rerum actio non datur</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.5.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: seremanz a force de chose juigee et par droit
+                                desque aucuns fet son averseire juige de sa cause par ce que il se
+                                met seur son seremant. {1} Se uns orfelins se met seur le seremant à
+                                son averseire sanz l’autorité à celui qui l’a en garde, nos dirons
+                                que ceste excepcion ne li nuira pas. ¶ {2} Se cil qui demandoit un
+                                champ otroia à son averseire que ce que il en atreioit à garant
+                                juroit que il li eust baillié, il lerroit le plet ; ceste excepcion
+                                vaudra à cestui qui porsiet le champ. ¶ {3} Se aucuns se met sus le
+                                seremant à son pleige et li plege juire que il n’est pas obligiez,
+                                cele excepcion ne vaudra rien au deteur. Mes se il jure que la dete
+                                n’est pas deue, l’excepcion en sera donee au detor. {4} Se je
+                                franchis le serf qui a amenistré mes besoignes, et je li met en
+                                convenant tant comme il est en servage que me rendra quant il sera
+                                frans quanque il me doit de l’aministracion, se je en plede par la
+                                convenance, ge ne serai pas mis arriere par excepcion&#160;; car cil
+                                qui est franchiz ne se puet pas pleindre que il en soit chargiez se
+                                il n’a de gaign ce que il osta de la chose à son patron. {5} Mes je
+                                ne li peusse pas demander ce que je eusse mis en convenant por
+                                char[157vB]gier la franchise. L’en dit queles choses sont establies
+                                por chergier la franchise, qui sont establies, que se cil qui est
+                                franchiz corroce son patron, eles li soient demandees&#160;; et por
+                                paor de ce, est il toz jorz sozmis au patron et fet quant que il li
+                                commande. {6} Et tot à une some, se aucunne chose est enjointe à
+                                celui qui doit estre franchiz de quoi sa franchise fut chargee se il
+                                la fesoit, l’en doit dire que excepcion i a leu&#160;; mes se ele li
+                                est enjointe aprés ce que il est franchiz, il i a dote, car nus ne
+                                le contraignoit de otroir la. Et l’en doit dire que excepcion i a
+                                leu se il est aperte chose que cil qui fut franchiz ot tel paor et
+                                tel reverence de son patron que il s’est sozmis à cele convenance. ¶
+                                {7} Se li patrons asenbla compoignie avoc celui que il franchi et il
+                                le fist por chergier la franchise et il plede o lui par aucion de
+                                compoingnie, l’en demande se excepcion puet valoir à celui qui fut
+                                franchiz. Et ge croi que il est seurs par droit contre la
+                                demande au patron. ¶ {8} Les excepcions de chargier franchise
+                                doivent valoir as plege autresi comme les autres, et à cez qui se
+                                sont obligié par la requeste à celui qui a esté franchiz et à celui
+                                meismes qui est franchiz, doit ele valoir se il est fez procurator à
+                                deffendre celui à qui l’en demande ou se il est ses heirs. Car
+                                desque li proposement au prevost fust que il secorust en tex
+                                obligemenz au deffendeur, il n’acompliroit pas son proposement se il
+                                ne deffendoit contre le patron le plege à celui qui a esté franchiz
+                                et celui qui s’est obligiez par sa requeste ; car il a pou de
+                                difference se il est contrainz de doner à son patron aucunne chose
+                                par lui meisme ou par la persone à son plege ou à celui qui s’est
+                                obligiez por lui. {10} Et se aucunne chose est promise au patron
+                                meisme ou à autre par sa volenté, il senble que ce soit fet por
+                                chargier la franchise, et por ce avra ceste excepcion leu. Et se li
+                                patrons atorne à son creancier celui que il afranchi, voions se il
+                                puet user de ceste excepcion contre le creancier à celui à cui il
+                                est atornz por cause de chargier la franchise. Et Cassius dit que li
+                                creanciers ne puet pas estre mis arriere par excepcion, car il
+                                reçoit le suen&#160;; mes cil qui a esté franchiz le puet demander
+                                arriere à son patron se il ne le fist par cause de transaction. {11}
+                                Et se cil qui fut franchiz atorne son deteur à son patron, li
+                                patrons ne doit estre mis arriere par nule excepcion&#160;; mes cil
+                                qui fut franchiz li puet demander arriere [158rA] ce que il a receu.
+                                ¶ {12} Ceste excepcion doit estre donnee non pas tant solement à
+                                celui qui a esté franchiz, mes à ses heirs&#160;; autresi doit l’en
+                                savoir que li heirs au patron doit estre mis arriere par ceste
+                                excepcion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.5.2}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: se l’en met sus le seremant au fil qui est en baill
+                                et il juire que ses peres ne doit rien, l’excepcion de cest seremant
+                                doit estre donee au pere. ¶ {1} Se je vant ma chose au geu des dez,
+                                ou ge le pert et ele est chalongee, et cil qui l’acheta ou gaagna
+                                m’en tret en cause, il sera mis arriere par excepcion. ¶ {2} Se uns
+                                sers promet à son seignor deners por franchir le, qui ne le
+                                franchist pas autrement, et il li promet encore puis que il est
+                                franchiz, l’en dit que excepcion ne nuist pas au patron se il
+                                demande les deners&#160;; car cil denier ne furent pas promis por
+                                chargier la franchise, et ce seroit male chose que li sires n’eust
+                                eu son serf ou le pris. Et il senble que deners soient promis por
+                                chargier franchise totes les foiz que li sires franchist son serf
+                                sanz loier&#160;; et il velt que il promete deners, non<note>non]
+                                        <emph>nonn</emph> dans le ms., signe d’abréviation excédent
+                                    sur le dernier –<emph>n</emph></note> pas par non de pris mes
+                                que cil qui est franchiz le croime toz jorz et obeisse à lui.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. De chose qui est en contenz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 6&#160;: <hi rend="i">de
+                                    Litigiosis</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.6.1}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: se noncemenz qui est por empechier vente ne fet
+                                pas que la chose soit coureceuse se uns plez est commoinciez entre
+                                deus homes par une chose. {1} Et ge achate cele chose do tierz à cui
+                                l’en n’en plede pas, veions se excepcion me doit valoir. Et ge croi
+                                que oïl, car cil qui me vandi la chose n’en estoit pledoiez. Et il
+                                puet avenir que dui movent entre aus plet por grever celui à cui il
+                                ne puent pledier&#160;; neporquant, se l’en plede au procurateur, ou
+                                au deffendeur à aucun, l’excepcion a leu autresi comme se l’en
+                                pledast à lui meisme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.6.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: se uns sers acheta une chose et il savoit que
+                                ele estoit en contenz et ses sires ne le savoit pas, ou li sires le
+                                sot et li sers ne le savoit pas, voions à la quele conscience l’en
+                                doit melz regarder. Et il est melz que l’en regart à la conscience à
+                                celui qui acheta la chose et ne mie à celui à qui ele est aquise. Et
+                                par ce, i aparteint la paine qui est establie à cez qui achestent
+                                les choses qui sont en contenz se il acheta sanz le commandemant son
+                                seignor. Car se il acheta par le commandemant son seignor et il
+                                savoit bien que ele estoit en contenz, et li sires n’en savoit rien,
+                                sa conscience ne nuist pas au seignor&#160;; et issint [158rB]
+                                escrit Julians.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head type="gp">VII. D’aucions et d’obligemanz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 44, tit. 7&#160;: <hi rend="i">de
+                                    Obligationibus et actionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {44.7.1}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: obligemenz nessent ou de marchiez, ou de mesfez, ou
+                                d’un propre droiture ; ce est de diverses manieres de causes. {1}
+                                Obligemenz qui nessent de marchié sont fez ou par choses, ou par
+                                paroles, ou par consentement. {2} Obligemenz est fez par chose, si
+                                comme en chose presente. L’en prete les choses qui sont baillies à
+                                pois, à conte, ou à mesure, si comme vin, deniés, oile que nos
+                                baillons ; si que eles soient à celui qui les reçoit et que il nos
+                                rende autretrant d’autretel maniere et d’autretel qualité. {3} Cil à
+                                qui nos prestons une chose à user en est obligiez à nos por
+                                chose&#160;; mes ce est à rendre nos ce meisme que nos li prestons.
+                                {4} Et cil à qui nos prestons la chose si que ele soit soe est
+                                obligiez à rendre une autre d’autretel qualité et d’autretel
+                                quantité. Et se il la pert par aucunne aventure, por ce ne remoint
+                                pas que il ne soit obligiez à rendre la. Et se cil à qui nos
+                                prestons la chose por user en la pert por aventure à qui il ne
+                                puisse contrester, si comme par feu ou par peril d’eve, il est toz
+                                seurs. Et ce li soffist bien que il ait mis autretel diligence en
+                                garder la, comme en sa chose meisme. Mes se ele est perdue par sa
+                                colpe, il i est tenuz&#160;; si comme se il devoit apeler ses amis à
+                                mangier et il enprunta por ce vaissiaus d’argent et il l’aporta o
+                                lui hors dou païs et la perdi par perill d’eve ou par assaut de
+                                larrons. {5} Cil à qui nos baillons une chose à garder est obligiez
+                                à nos por chose et est tenuz à rendre la nos. Mes se il la pert par
+                                negligence, il ne la nos rendra pas ; car il ne la prist pas par son
+                                besoing mes por le besoig à celui qui li bailla, et por ce n’est il
+                                pas tenuz à rendre la se ele n’est perdue par sa tricherie. Car cil
+                                qui baille sa chose à garder à home negligent ne se doit plaindre se
+                                de soi moismes non. ¶ Neporquant, il nos plet que tres granz
+                                negligence chie el crime de tricherie. {6} Li creanciers qui a pris
+                                nostre gage est obligiez à nos par chose et il est tenuz à rendre la
+                                chose meismes. ¶ {7} Obligemenz est fez par paroles, si comme par
+                                demande et par response. {8} Et quant aucunne chose est convenencie
+                                aucuns est obligiez ou en son non ou en autrui. Cil qui est obligiez
+                                en autrui non est apelez plege ; car quant aucuns est obligiez à nos
+                                en son propre non, nos prenons sovant autres qui [158vA] s’obligent
+                                por lui à cele meisme chose quant nos volons estre seur plus que ele
+                                nos soit rendue. ¶ {9} Se la chose qui est convenencee est tele que
+                                ele ne puet estre rendue, il est aperte chose par droit naturel que
+                                li obligemenz ne vaut rien&#160;; si comme se convenance est fete de
+                                franc home, ou de celui qui est morz, ou de ma meson arse entre cez
+                                qui ne sevent pas que li hons soit franc, ou que il soit morz, ou
+                                que la meson soit arse. Autresi est il se aucuns mest en convenant
+                                que uns leus sainz ou religios li soit donz, {10} ou la chose qui
+                                est soe que il ne set pas qu’i soit soe. {11} Il est certeine chose
+                                que la convenance ne vaut rien qui est fete soz condicion qui ne
+                                puet avenir. ¶ {12} Il est aperte chose que se li forsenez
+                                convenance ou promet aucunne chose, ce qui est fet ne vaut rien.
+                                {13} Autresi est il de celui qui est de tel aage que il n’entant pas
+                                ce que il fet&#160;; mes l’en fet plus benignement que l’en croit
+                                que cil qui puet parler puet par droit convencier et promestre. ¶
+                                {14} Il est aperte chose que chose prestee n’apartient de rien à
+                                obligemenz de paroles. {15} Et l’en dira ce moismes de sort que l’en
+                                dit do forsené&#160;; car ja soit ce que il puet parler, neporquant
+                                il ne puet pas oïr les paroles à celui qui li convenance aucunne
+                                chose. Et por ce, apert il que nos ne parlons pas de celui qui o‹ï›t
+                                à poine mes de celui qui n’o‹ï›t point.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.2}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: obligemenz sont fez par consentemenz, si comme
+                                en achat, ou en ventes et en loages, et en compoignies, et en
+                                    conducions<note>conducions] <emph>condicions</emph> dans le ms.,
+                                    cf. lat. <emph>locationibus conductionibus</emph></note>, et en
+                                commandemanz. {1} Nos disons que obligemenz est fez par consentement
+                                en cez manieres ; car l’en n’i demande nule proprieté d’escriture ne
+                                de paroles, ainz est assz se cil qui font besoingnes s’i consentent.
+                                {2} Et por ce sont tex besoignes fetes entre cez qui ne sont pas
+                                present, si comme par letres ou par mesages. {3} En tel marchié est
+                                obligiez li uns à l’autre en ce que il li doit doner por bien et por
+                                loiauté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.3}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: la sustance d’obligement n’est pas en ce que
+                                ele nos doigne aucunne chose ou aucun servise, mes que aucuns soit
+                                tenuz à nos à doner nos ou à fere aucunne chose. {1} Ce n’est pas
+                                assez à engendre obligemenz que aucuns baille ses deners à un autre,
+                                ainz convient que ce soit fet par corage d’establir obligemenz. Se
+                                aucuns me done donc de ses deners, ja soit ce que il furent suen et
+                                que il sont or mien, neporquant je ne sui pas obligiez à lui, car ce
+                                ne fut pas mis en convenant&#160;; car obligemenz est de [158vB]
+                                paroles quant cil qui font aucun marchié ont corage d’establir
+                                le.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.4}</head>
+                        <div type="gp">
+                            <p>Gaius dit&#160;: obligemenz nessent de mesfet, si comme de larrecin,
+                                de domage, de ravine, de tort fet ; et totes cez choses sont d’une
+                                maniere, car cist obligemenz sont par chose tant solement ; et cil
+                                qui nessent de marchié sont par choses et par paroles et par
+                                consentement. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.5}</head>
+                        <div type="gp">
+                            <p>Se aucuns a fet les besoingnes à celui qui est hors do païs, se il
+                                les a fetes par son commandemant, il est aperte chose que aucions de
+                                commandemant nessent entre aus, par quoi il puent pledier entre aus
+                                que li uns rende à l’autre ce que il li doit rendre par bone foi. Et
+                                se il le fit sanz son commandemant, il nos plet que li uns soit
+                                obligiez à l’autre. Et en ce quas sont aucions establies que nos
+                                apelons de besoignes fetes, par quoi il puent pledier ensenble de ce
+                                que il doivent rendre li uns à l’autre par bone foi. Mes obligemenz
+                                ne nessant en aus ne por marchié ne por mefet ; car cil qui fit les
+                                besoingnes à celui qui estoit hors do païs ne fit pas marchié à
+                                lui&#160;; ne ce ne fut nus mesfez se il amenistra autrui besoingnes
+                                sanz commandemant. ¶ Et l’en puet melz entendre que cil à qui les
+                                besoingnes sont fetes ait fet marchié ou que il ait mesfet&#160;;
+                                mes il a esté receu par cause de profit que li uns soit obligiez à
+                                l’autre. Et ce est por ce que plusors vont hors do païs qui cuident
+                                maintenant revenir, et por ce ne commandent il à fere à nul lor
+                                besoignes, et puis leur avient tel chose que il les convient
+                                longuement demorer ; et ce seroit mals que lor besoignes fussent
+                                perdues, et perdues les convendroit il estre, se issi estoit que cil
+                                qui les amenistreroit n’eust nule aucion contre lui de ce que il
+                                avroit despendu do suen, ou se cil qui les besoignes seroient ne
+                                poet avoir nule aucion de ce qui seroit malement fet. ¶ {1} Cil qui
+                                sont tenu par aucion de garde ne sont pas proprement obligié par
+                                marchié, car il n’ot nul marchié entre l’orfelin et son deffendeur.
+                                Mes por ce que il ne sont pas obligié par mesfet, il senble que il
+                                soient obligié autresint comme par marchié&#160;; et en ce cas a il
+                                .ii. aucions, car li orfelins a aucion contre le deffendeur et li
+                                deffenderres contre l’orfelin se il a mis do suen en la besoigne à
+                                l’orfelin, ou il est obligiez par lui, ou il a obligié sa chose à
+                                son creancier. ¶ {2} Li heirs qui doit lés n’est obligiez ne par
+                                marchié ne par mesfet ; car cil à cui li lés fut lessiez ne fit
+                                mar[159rA]chié ne o le mort ne o l’oir. Et il est aperte chose que
+                                il n’a en cele chose point de mesfet. ¶ {3} Cil qui reçoit por error
+                                chose que ne li est pas deue est obligiez à cez qui li paient
+                                autresi comme par prest, et est tenuz par cele meisme auction par
+                                quoi li deteur sont tenuz as creanciers. Mes l’en ne puet pas
+                                entendre que il soit obligiez par cele cause autresi comme par
+                                marchié ; car cil qui paie par error le fet plus par depecier
+                                obligement que por fere le. ¶ {4} Se uns juiges fet le plet, il
+                                n’est pas proprement obligiez autresi comme par mesfet, mes por ce
+                                que il n’est pas obligiez par marchié ; et l’en entant que il a
+                                mefet aucunne chose par peor des suens ; il senble que il soit
+                                obligiez autresi comme par mesfet. ¶ {5} Cil de qui meson aucunne
+                                chose est getee ou espandue, si que ele fet mal à aucun, est
+                                obligiez autresi comme par mesfet comment que il soit, ou se la
+                                meson est soue propre, ou se il la tient à loage, ou se ele li est
+                                prestee&#160;; ne l’en entant pas que il soit proprement obligiez
+                                par mefet, car ce est aucunne foiz en autrui colpe, si comme à un
+                                serf ou à un franc home. Autresi est il de celui qui a mis ou pendu
+                                aucunne chose sus la voie quant el fet mal à aucun. Et por ce, se li
+                                fiz qui est ou baill habite aillors que o son pere, et aucunne chose
+                                est getee ou espandue de sa meson, ou aucunne chose i est mise ou
+                                pendue qui face mal à aucun se ele chiet, il plet à Julian que
+                                aucion ne soit pas donee contre son pere mes l’en en puisse pledier
+                                o lui meisme. ¶ {6} Li metres d’une nef, ou d’une taverne, ou d’une
+                                ostelerie est tenuz autresi comme par mesfet por le domage qui est
+                                fez en la nef, ou en la taverne, ou en l’ostel, se issint est que li
+                                domages n’aviegne pas par son mesfet mes par aucun des serganz de la
+                                nef, ou de la taverne, ou de l’ostel. Car desque aucion ne puet
+                                valoir contre lui por nul mesfet, et il est corpables en aucunne
+                                chose por ce que il a serganz mauvés, il est tenuz autresi comme par
+                                mesfet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.7}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: le fiz ne puet avoir aucion contre son pere tant
+                                comme il est en sa poesté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.8}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: nus obligemenz n’en est de convenance qui est
+                                fete soz condicion tele «&#160;se je vuoill&#160;» ; car cil qui fet
+                                tel convenance ne puet estre contrainz de doner nule chose se il ne
+                                viaut. Ne li heirs à celui qui fit la convenance, et ne volt rien
+                                doner, n’i est pas tenuz ; car la condicion ne fut onques
+                                aconplie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.10}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: l’en tient les obligemanz [159rB] à naturex non
+                                pas tant solement quant aucunne aucion en apartient, mes quant li
+                                denier qui en sont paié ne puent estre demandé arriere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.14}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li serf sont obligié por lor mesfet ; et se il
+                                sont franchi, il remaignent obligié&#160;; mes il ne sont pas
+                                obligié citeinement por lor mesfet ne por marchié, mes il sont
+                                obligié naturelment, et cil à cui il ont fet marchié. Se je paie à
+                                un serf puis que il est franchiz les deners que il m’avoit prestez,
+                                je en sui quites.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.21}</head>
+                        <div type="gp">
+                            <p>Julianus dit&#160;: l’an antant que chascuns ait fet marchié el leu
+                                en coi il est obligiez à paier.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.22}</head>
+                        <div type="gp">
+                            <p>Affricans dit&#160;: quant aucuns a mis en convenant que une chose li
+                                soit paié et il en a pris plege, l’en la doit proisier à tant comme
+                                ele valoit quant il la prist en plege.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.23}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: quant deners orent esté presté por
+                                marcheandier par tel convenant que se cil qui les reçut ne les
+                                rendoit au terme qui fut mis, il paieroit une certaine paine. ¶
+                                Quant li termes fut venuz, cil qui avoit baillié les deners les
+                                demanda, mes il ne demanda lors la poine, et aprés il<note>il]
+                                        <emph>il</emph> a dans le ms.</note> la commença à demander.
+                                Et quant l’en m’an demanda consoil, je respondi que la paine poit
+                                bien estre demandee, ne il ne poet avenir que ele ne soit demandee
+                                se issi n’est que il est remés par le deteur que li dener ne furent
+                                paié au terme&#160;; car se il ne remet pas en lui, mes por ce que
+                                cil qui les devoit demander estoit malades, il n’est pas tenuz à la
+                                paine. Et se cil qui devoit les deners ne les paia pas au terme mes
+                                il les paia ainz que plez en fust commoinciez, l’en demande se il
+                                est tenuz à la paine. Et ge croi que oïl, par droit&#160;; car
+                                se uns arbitres conmanda que dener fussent paié à un certein jor, ne
+                                il ne remaint par celui qui les dut paier, il n’est pas tenuz à la
+                                paine. Et Servius dit que se li arbitres n’establi pas le jor dedanz
+                                coi li dener doivent estre paié, il senble que il vossit doner peuc
+                                terme. Autresi doit l’en dire quant une chose est vendue par tel
+                                convenant que la vente ne valle rien se li pris n’est paiéz à un
+                                certain terme.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.25}</head>
+                        <div type="gp">
+                            <p>Ulpianus dit&#160;: deus manieres d’aucions sont&#160;: l’une est
+                                seur la chose qui est apelee chalongemenz et l’autre est seur la
+                                persone. Auction seur la chose est par coi nos demandons nostre
+                                chose que uns autres porsiet&#160;; et cele auction est toz jorz
+                                contre celui qui porsiet nostre chose. Auction seur la persone est
+                                par [159vA] quoi nos pledons contre celui qui est obligiez à nos à
+                                fere nos, ou à doner aucunne chose&#160;; et cele aucion a toz jorz
+                                leu contre celui. ¶ {1} Les unes aucions nessent de marchié, les
+                                autres de fez, les autres de sur le fet. Auction qui nest de marchié
+                                est totes les foiz que aucuns fet marchié ou autre por gaagnier, si
+                                comme quant il vent ou achate, ou prent à loage, ou fet aucunne tel
+                                chose. Auction qui nest de fet est quant aucuns est tenuz par ce que
+                                il a fet, si comme quant il a fet larrecin, ou tort fet, ou domage.
+                                Auction seur le fet est si comme cele qui est doneee au patron
+                                contre celui que il a franchi qui le tret en cause contre le
+                                banissement au prevost. {2} Totes aucions sont ou citaennes, ou eles
+                                sont donnees par l’autorité au juige.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.28}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: aucion est donnee contre la persone, et
+                                chalengemenz seur la chose est porsivemenz seur la chose, ou seur
+                                la persone por avoir sa chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.31}</head>
+                        <div type="gp">
+                            <p>Neraces dit&#160;: les<note>les] <emph>ce</emph> dans le ms.</note>
+                                convenances qui sont fetes soz condicion qui ne puet avenir ne sont
+                                pas tant solement sanz valor, mes li autre marchié, si comme achaz
+                                et loages, où condicion est mise qui ne puet avenir&#160;; car en la
+                                chose qui est fete par assentement à deus ou à plusors est regarder
+                                la volenté à toz. Et l’en doit savoir que ce qui est fet ne vaut
+                                rien quant tel condicion est mise que l’en siet bien que n’avendra
+                                ja.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.32}</head>
+                        <div type="gp">
+                            <p>Hermogenes dit&#160;: quant plusors aucions nessent d’un mesfet, si
+                                comme il aviant quant arbre sont copé en larrecin, il fut ostroié
+                                aprés plusors detes que l’en en puet pledier par totes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.34}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil qui bat à tort autrui serf enchiet par un
+                                meisme fet en la loi qui fet restorer les domages et en aucion de
+                                torz fez. Car li torz fez vient de corage et li domages vient de sa
+                                colpe&#160;; et por ce puent anbedeus les aucions apartenir contre
+                                lui. Mes desque il en choisist l’une, l’autre li faut&#160;; car se
+                                il plede par la loi qui fet restorer les dommages, l’aucion de
+                                torfet faudra par ce que il n’est pas droiz que cil soit condempnz
+                                par le tort fet qui a restoré le domage&#160;; mes se l’en pleda
+                                avant par aucion de tort fet, l’en puet aprés pledier par la loi qui
+                                fet restorer les dommages. Mes sentence doit estre deffendue par le
+                                prevost se l’en ne plede por ce que [159vB] l’en puet avoir par la
+                                loi qui fet restorer les domages plus que par l’auction de tort fet.
+                                ¶ Il est donc plus tenable chose que cele sentence soit receue que
+                                il li loise à pledier avant par la quele aucion que il vodra, et
+                                puis demande par l’autre ce que il puet plus avoir que par cele.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.35}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: Cassius dit que l’en doit issi establir es
+                                aucions que li prevoz donent, que o il a chalongement des choses
+                                puissent estre donnees aprés l’an, et les autres dedanz l’an. Et
+                                celes qui ne sont pas donnees aprés l’an ne doivent pas estre donees
+                                contre l’oir por tant que il n’en ait gaing&#160;; si comme l’en fet
+                                en aucion de tricherie et en l’entredit de force, et cez qui sont
+                                senblable à cez. Celes contiennent chalongement de choses par quoi
+                                nos chalongons les choses qui nos faillent de nostre patremoine, si
+                                comme quant nos pledons à celui qui porsiet les biens à nostre
+                                deteur, ou par aucion de dessesine qui est donnee en maniere de
+                                chalongemant. Mes quant la chose est rendue et la longue tenue est
+                                rompue, l’auction est finee en un an por ce que ele est donnee
+                                contre le droit citaien. {1} Auction est donnee aprés un an contre
+                                la chose commune por le marchié as metres de l’université.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.43}</head>
+                        <div type="gp">
+                            <p>Paulus dit&#160;: cil puet estre obligiez qui est hors de bail et est
+                                de saine penssee et a passé .xiiii. anz. Li orfelins n’est pas
+                                obligiez par le droit citaian sanz l’autorité à celui qui l’a en
+                                garde. Sers n’est obligz por nul marchié.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.46}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: li forsenz et li orfelins sont obligz sanz
+                                l’autorité à cez qui les ont en garde quant l’auction n’est
+                                d’aucunne chose&#160;; si comme se je ai un champ commun à aus et je
+                                i despans aucunne chose, ou il m’i font domage, car il seront
+                                obligié à moi par le juigement de partir choses communes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.48}</head>
+                        <div type="gp">
+                            <p>Affricans dit&#160;: il n’est pas besoinz de paroles en toz marchiez,
+                                ainz i soffist bien consentement ; et por ce les puet li sorz fere
+                                desque il puet entendre, si comme en loage et en achat et en autres
+                                senblables.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.50}</head>
+                        <div type="gp">
+                            <p>Ponponius dit&#160;: se aucuns promet ou il est condempnz à paier
+                                aucunne chose en cest an, il la puet paier en quel jor de l’an que
+                                il vodra.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.51}</head>
+                        <div type="gp">
+                            <p>Celsus dit&#160;: aucion n’est nule autre chose que chalonger en
+                                juigement ce que l’en doit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.52}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: nos somes obligié ou par chose, ou par
+                                paroles, ou par enbedues [160rA] ensenble, ou par consentement, ou
+                                par loi, ou par le commandemant au juiges, ou par besoing, ou par
+                                fet. {1} Nos somes obligié par chose quant aucunne chose est baillie
+                                et receue. {2} Nos somes obligiez par paroles quant demande est fete
+                                et puis avenant responsse. {3} Nos somes obligiez par chose et par
+                                paroles ensenble quant la chose est baillie et aucunne chose en est
+                                convenancee. {4} Il senble que nos seons obligiez en aucunne chose
+                                par consentement, par besoing, et par nostre volenté. {5} Nos somes
+                                obligié par loi quant nos fesons aucunne chose par le commandemant
+                                de la loi. {6} Nos somes obligiez par le commandemant as juiges
+                                quant nos fesons ce qui est commandé, ou lessons ce qui est deveé
+                                par pardurable bannissement, ou par le commandemant à aucun juige.
+                                {7} Cil sont obligié par besoing à qui il ne loit à fere aucunne
+                                autre chose que ce qui lor est commandé, si comme cil qui est fez
+                                heirs par force. {8} Nos somes obligié par fet quant tote la some de
+                                l’aucion est en fet. {9} Nuz consentement soffist à fere obligement,
+                                ja soit ce que il puisse estre exprés par paroles. {10} Et par
+                                signes est aucunne foiz obligemenz fez.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.53}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: plusors mesfez en une meisme chose engendrent
+                                plusors aucions, mes il est prové que l’en ne puet pas pledier par
+                                totes ; car se pluseurs aucions nessent en un obligement, l’en doit
+                                user d’une sole et ne mie de totes. {1} Quant nos disons generaument
+                                celui à qui la chose apartient, nos i comprenons noz fiz
+                                adoptis.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.54}</head>
+                        <div type="gp">
+                            <p>Cil moismes dit&#160;: marchié faint n’ont pas lian de droit, desque
+                                il n’i a verité.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {44.7.59}</head>
+                        <div type="gp">
+                            <p>Calistratus dit&#160;: l’en doit savoir que tuit li plet qui sont
+                                entammé vienent as hoirs.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre10">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: « Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-07" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI DIXIESME LIVRES<note>Ce livre correspond aux livres 23 et 24 du
+                Digeste.</note></head>
+        </front>
+        <group>
+            <head>LI DIXIESME LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="178"/>
+                <front>
+                    <head>I. De esposailles et de mariage.<note>Ce titre est tiré du liv. 4, tit. 1,
+                            des Décrét, de Grég. IX, <emph>de Sponsalibus et
+                            matrimoniis.</emph></note></head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p><emph>De Francia</emph><note>Decret, lib. 4, tit. 1&#160;: <emph>Ex
+                                    concilio Triburiensi</emph>, cap. 1&#160;: <emph>de
+                                    Francia</emph>.</note>. Un bacheler françois qui cuidoit que la
+                            costume de France fust de sustance de mariage, une feme qu'il avoit
+                            prise segont la costume où il estoit, lessa, et prist une autre. Et l'en
+                            commende qu'il lesse la segonde et prenge la premère, et face sa
+                            pénitence de ce que il a fet contre le commendement de l'Évangile.</p>
+                        <p>Note que loi ou costume do païs ne nuist pas en mariage fere, s'ele n'est
+                            gardée&#160;; et sollempnité n'est pas de la sustance do mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">nno</hi>. E<hi rend="sc">xon. episcopo.</hi>
+                            <emph>Preterea.</emph><note>Innocentais III, Exonen. episcopo, cap.
+                                2&#160;: <emph>Prœterea,</emph> ibid.</note>. Aucun se maria à
+                            aucune par paroles de chose qui estoit à venir&#160;: l'en commende
+                            qu'il gardent lor fiances&#160;; et s'il ne volent, l'un pot quiter
+                            l'autre.</p>
+                        <p>Note que qui se marie par parole qui est à venir, pœnt quiter l'un
+                            l'autre, à la guisse des bones genz qui lor compaignie ne plet, et quite
+                            l'un l'autre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>E<hi rend="sc">ugenics papa.</hi>
+                            <emph>Juvenis</emph><note>Eugenius papa, cap. 3&#160;:
+                                    <emph>Juvenis</emph>, ibid.</note>. Uns vallet esposa une feme
+                            qui n'avoit pas sept anz&#160;; il la volt f...., mes il ne pot&#160;;
+                            donc l'en demende s'il <pb n="179"/>porra avoir sa cosine à femme&#160;?
+                            Et l'en dit que non&#160;; car ce seroit contre honesté.</p>
+                        <p>Note que nos devon tenir certaine chose, et lessier ce que l'en dote.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>A<hi rend="sc">lexander</hi> III, <hi rend="sc">papa electo.</hi>
+                            <emph>Ad audientiam</emph><note>Alexander III, Papien. episcopo, cap.
+                                4&#160;: <emph>Ad audientiam</emph>, Decret., lib. 4, tit.
+                            1.</note>. Un avoit une fille&#160;; un autre avoit deux fiz de deux
+                            femes&#160;; il firent espossalles issi que cil qui avoit la fille jura
+                            que, se l'un des fiz, par aucune aventure, ne la poet avoir, li autre
+                            fiz l'auroit. Et quant à l'iglyse, por estre bénéiz, cil qui estoient
+                            jurèrent qu'il avoit parenté entre aus. Le père la voloit doner à
+                            l'autre fiz&#160;: et l'en dit qu'il ne la pot avoir.</p>
+                        <p>Note que frère ne pot avoir la femme au frère&#160;; et qui mau jure se
+                            parjure&#160;; et l'en pot aucun forcer à fere penitence, mes il
+                            convient qu'il soit avant amonesté.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem parno. ar.</hi>
+                            <emph>De illis</emph><note>Idem Panormitano archiepiscopo, cap. 5&#160;:
+                                    <emph>de Illis</emph>, ibid.</note>. Aucun dona foi à autre
+                            qu'il la prendrait à femme, et puis s'en a la hors do païs, ne ne volt
+                            torner à sa femme. L'en demende se ele se pot à autre marier&#160;? La
+                            pape dit&#160;: S'il n'i a plus fet, cele se pot marier.</p>
+                        <p>Note que tu as ci un cas où esposalles de futur sont dépécies&#160;;
+                            quant l'un s'en vet hors do païs, cil qui remaint, se par lui ne faut,
+                            se pot marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">D</hi>. P<hi rend="sc">aden. episcopo.</hi>
+                            <emph>De muliere</emph><note>Idem Panormitano archiepiscopo, cap.
+                                6&#160;: <emph>de Muliere</emph> ibid.</note>. Aucune femme est
+                            donée à aucun à force &#160;; la pape ne set quele force il i a&#160;;
+                            car il i a différence entre force et force&#160;; et qui opose
+                                (<emph>propose</emph>) obscurément ne doit l'en pas respondre.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> I<hi rend="sc">dem.</hi>
+                            <emph>Ex literis</emph><note>Idem Cantuarien. archiepiscopo, cap.
+                                7&#160;: <emph>Ex literis</emph>, ibid.</note>. L'en demende ci
+                            quant li un se marie o un autre, et l'un n'entent l'autre, que l'en en
+                            doit fere&#160;? Et l'en dit que, se l'un et l'autre est convenable à
+                            marier d'aage et de science, le mariage tient&#160;; et l'en doit
+                            raporter les paroles au commun entendement.</p>
+                        <p>Note&#160;: quant il a dotance en paroles, l'en doit recorre au commun
+                            entendement de paroles&#160;; et l'en doit garder aage en cez qui se
+                            marient.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p><pb n="180"/>I<hi rend="sc">I</hi>. V<hi rend="sc">igil. episcopo.</hi>
+                            <emph>Sponsam</emph><note>Idem Vigilien. episcopo, cap. 8&#160;:
+                                    <emph>Sponsam</emph>, Decret., lib. 4, tit. 1.</note>. Note que
+                            coisin ne pot avoir l'espose au cosin&#160;; et c'est voir de cele qui a
+                            sept anz.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>I<hi rend="sc">d</hi>. S<hi rend="sc">ancti</hi> C<hi rend="sc">adiundi
+                                et</hi> D<hi rend="sc">em. abbatibus.</hi>
+                            <emph>Ex parte</emph><note>Idem abbatibus sane ti Eadmundi et Denier,
+                                cap. 9&#160;: <emph>Ex parte</emph>, ibid.</note>. Un fiença en la
+                            main au prestre que il prendra une femme&#160;; et ele jura que ele
+                            l'aura à mari&#160;; il demorent ensemble longuement&#160;; cil la lesse
+                            et prent une autre. La pape commende que il retort à la première, et que
+                            il en soit forciez par escommuniement.</p>
+                        <p>Tu as ci un argument générau que nuz ne pot sa feme lessier, si n'est por
+                            fornicacion&#160;; et tant comme ele vive, cil ne se pot marier&#160;;
+                            et convendra que il voe contenence ou qu'il face pez à sa feme. Et se
+                            aucun lesse sa feme et prent autre, l'en le doit forcier de prendre la
+                            première&#160;; mès tu doiz ce entendre, quant la première le
+                            demande.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p>I<hi rend="sc">d</hi>. P<hi rend="sc">ict. episcopo.</hi>
+                            <emph>Ex literis</emph><note>Idem Pictavien. episcopo, cap. 10&#160;:
+                                    <emph>Ex literis</emph>, ibid.</note>. Dui baron jurèrent por
+                            pez à doner lor enfant l'un à l'autre en mariage, et li enfant le
+                            jurèrent&#160;; li uns des pères et sis fiz se voloent retrere&#160;: le
+                            pape mande que cil soit forciez de tenir ce que il jura.</p>
+                        <p>Note que espossalles poent estre par généraus paroles&#160;; et qui se
+                            marie par présent pot estre forcez de achever le mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p>I<hi rend="sc">dem, archiepiscopis et episcopis per</hi> A<hi rend="sc"
+                                >ngliam cons.</hi>
+                            <emph>Non est</emph><note>Idem archiepiscopis, episcopis et aliis
+                                prælatis per Angliam constitutis, cap. 11&#160;: <emph>Non
+                                    est</emph>, ibid.</note>. Li fiz le roi de Angleterre demendent
+                            lor femmes à lor père, que il tenoit en prison. La pape mende que il
+                            soit forciez à rendre les&#160;; et s'il ne le velt fere, que l'en
+                            entredie la province où eles sont, fors que de baptesme et de pénetence
+                            de moranz.</p>
+                        <p>Note que en chascun entredit cez deus sacremanz sont mis hors&#160;; et
+                            note que por le péchié d'un sont li autre puni.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p> E. S<hi rend="sc">ancte agates.</hi>
+                            <emph>Preterea</emph><note>Idem episcopo sanctæ Agathæ, cap. 12&#160;:
+                                    <emph>Prœterea</emph>, ibid.</note>. Un jura que il esposeroit
+                            une femme&#160;; et avant que il l'eust béneesté, son cosin requenut au
+                            prevoire que il l'avoit f....., et il ne l'osa pas dire en haut por le
+                            poer à la femme. L'en demande se le mariage doit por ce remoindre&#160;?
+                            La pape dit que non.</p>
+                    </div>
+                    <div>
+                        <head>§ 13.</head>
+                        <p><pb n="181"/>I<hi rend="sc">dem</hi>. C<hi rend="sc">an.</hi> S<hi
+                                rend="sc">enonensis.</hi>
+                            <emph>Veniens</emph><note>Idem procuratori et canonicis soran., cap.
+                                13&#160;: <emph>Veniens</emph>, Décret., lib. 4 tit. 1.</note>. Une
+                            pucele ama un valet tant que ele promist par sa foi que ele le prendroit
+                            à mari. Li parent à la meschine, qui ne le voloient mie, distrent qu’il
+                            avoit entre aus parenté, et issi les firent départir&#160;; enprès il la
+                            donèrent contre sa volenté à un autre. Cele, à plus tôt que ele pot,
+                            s’en départi et se maria au tierz. Quant le segont fut morz, le père à
+                            cestui la velt désevrer, por ce que ele se estoit mariée à li au vivent
+                            de son mari. La pape dit que, se il est issi que ele fut donée contre sa
+                            volenté, et que au plus tost que ele pot ele se maria au tierz, ele doit
+                            remaindre au tiers&#160;; et qui ira encontre, il soit escommeniez.</p>
+                        <p>Note que le mariage fet n’empeeche pas celi qui est à fere&#160;; et là
+                            où est force n’est pas mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 14.</head>
+                        <p>I<hi rend="sc">dem</hi>. P<hi rend="sc">apin. episcop.</hi>
+                            <emph>Cum locum</emph><note>Idem Papiensi episcopo, cap. 14&#160;:
+                                    <emph>Cum locum</emph>, ibid.</note>. Note que consentir fet
+                            mariage. Et aucun dit aucune foiz qu’il li plet ce que li desplet. Et
+                            juige doit assigner à parties ségur leu.</p>
+                    </div>
+                    <div>
+                        <head>§ 15.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Veniens</emph><note>Idem, cap. 15&#160;: <emph>Veniens</emph>,
+                                ibid.</note>. Un esposa par future une soe meschine&#160;; et
+                            entretant, si comme il veneit d’une vile à sa meson, il se héberga chiés
+                            un sien vesin, et se jut o sa fille. Le père, au matin, le force à
+                            prendre sa fille par présent. L'en demende laquele il doit avoir&#160;?
+                            Et l’en dit que la première, se la f.... enprès que il la fiença&#160;;
+                            si que non, o la segonde, s’il no fit par poor qui doit estre en hardi
+                            hom.</p>
+                    </div>
+                    <div>
+                        <head>§ 16.</head>
+                        <p>E<hi rend="sc">xon. episcopos.</hi>
+                            <emph>Commissum</emph><note>Idem Exoniensi episcopo, cap. 16&#160;:
+                                    <emph>Commissum</emph>, ibid.</note>. Un chevaler dona sa foi à
+                            une femme qu’il la prendroit à femme&#160;; après ele voloit entrer en
+                            religion&#160;; l’en demende se ele le pot fere, tot i soit la
+                            foi&#160;? L’en dit que plus ségure chose est marier soi au premer, et
+                            puis entrer en religion, se cil ne l’a f..... enprès la fience.</p>
+                        <p>Note que, espos tot ne le vuelle, la femme pot entrer en religion. Et
+                            melz vaut garder son serement que autrement mener sa vie en
+                            religion.</p>
+                    </div>
+                    <div>
+                        <head>§ 17.</head>
+                        <p>L<hi rend="sc">ucius</hi> III, P<hi rend="sc">ullen. episcopo.</hi>
+                            <emph>Requisivit.</emph><note>Lucius III Rapalen. episcopo, cap.
+                                17&#160;: <emph>Requisivit.</emph>, ibid.</note>. L’en demende se
+                                <pb n="182"/>femme qui a doné sa foi por soi marier, pot estre
+                            forcée de eschever le mariage&#160;? Et l’en dit que non.</p>
+                        <p>Note se cil ou cele qui a juré par futur que il prendra aucune à femme,
+                            et puis le refuise, l’en ne le pot forcier d’achever le mariage&#160;;
+                            mès l’en le pot amonester.</p>
+                    </div>
+                    <div>
+                        <head>§ 18.</head>
+                        <p>U<hi rend="sc">rbanus</hi> III. <emph>Cum in
+                                apostolica</emph><note>Urbanus III, cap. 18 &#160;: <emph>Cum in
+                                    apostolica</emph>, Decret., lib. 4, tit. 1.</note>. Un voloit
+                            départir devant juiges délégaz&#160;; il reçurent tesmoinz sor le
+                            mariage&#160;; cil s’en vint à sa meson, et dit que il est départi de sa
+                            feme &#160;; il se marie à autre, et enprès retorne à juiges délégaz, et
+                            sentence est donée entre lui et sa première femme. L’en demende se il
+                            pot remanoir à la segonde&#160;? L’en dit que se il en a pénitence, tant
+                            comme ele durra, il ne f..... sa feme.</p>
+                        <p>Note que se aucun se marie, tant comme plest est sor le premier mariage,
+                            le segont mariage tient, se l’en dépièce le premier enprès ce.</p>
+                    </div>
+                    <div>
+                        <head>§ 19.</head>
+                        <p>C<hi rend="sc">elsus</hi> III. <emph>In presencia</emph><note>Clemens
+                                III, Cæsar-augustiensi episcopo, cap. 19&#160;: <emph>In
+                                    presencia</emph>, ibid.</note>. L’en demende se feme doit
+                            atendre son mari qui sera pris ou pélerins sept anz, s’ele se pot enprès
+                            marier&#160;? L’en dit que non.</p>
+                        <p>Note que il ne cort point de prescripcion en mariage, tot séent toz droiz
+                            ostez par prescripcion&#160;; et c’est contre la loi qui dit que l’en
+                            doit solement atendre le mari cinq anz et non plus.</p>
+                    </div>
+                    <div>
+                        <head>§ 20.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Inter</emph><note>Idem, cap. 20&#160;: <emph>Inter</emph>,
+                                ibid.</note>. L’en establit que toz cez qui treront puteins de
+                            bordel por prendre à femme, et qui les prendront, que ce soit en
+                            rémission de lor péchiez.</p>
+                        <p>Note que c’est ovre de charité de apeler à voie de vérité celui qui
+                            foloie.</p>
+                    </div>
+                    <div>
+                        <head>§ 21.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Ad id</emph><note>Idem, cap. 21&#160;: <emph>Ad id</emph>,
+                                ibid.</note>. Un vilain balla une soe fillastre à un tés, et èle
+                            n'avoit que onze anz, à feme contre sa volenté&#160;; et quant ele ot
+                            esté o lui an et demi, ele s’en départi&#160;; et li un et li autre se
+                            marièrent à autre. Et l’en dit que l’en la doit forcier à retorner à
+                            estre ensemble&#160;; car l’en doit cuider qu'ele s’i soit acordée, por
+                            ce qu’ele a esté o lui si lonc tens&#160;; se il ne voloient endui
+                            entrer en religion.</p>
+                        <p>Note que assez otroie qui mot ne sone.</p>
+                    </div>
+                    <div>
+                        <head>§ 22.</head>
+                        <p><pb n="183"/>I<hi rend="sc">nn</hi>. III, F<hi rend="sc">eg.
+                                episcopo</hi>, <emph>Sicut</emph><note>Innocentius III, Fernatin,
+                                episcopo, cap. 22&#160;: <emph>Sicut</emph>, Decret., lib. 4, tit.
+                                1.</note>. Cum un eust juré que il esposeroit une, et il fallit en
+                            la femme, il se maria à une autre&#160;; la premère s’en plainsit. La
+                            pape mande que, se il se maria o la premère par futur et o la segonde
+                            par présent, que il remainge o la segonde, s’il n’i a autre reson&#160;;
+                            et que cil ait sa pénitence de la foi mentie, s’il n’ot nus terme à
+                            célébrer le mariage, et il ne failli pas en lui que en la feme. Et s’il
+                            se maria o l’une et o l’autre par futur, l’en le aforcera à retorner à
+                            la première.</p>
+                        <p>Note que quant aucun promet autrui fet, il se lie, et c’est contre moult
+                            droitz. Et note deus relles&#160;: greignor lien sorvenent dépièce le
+                            menor&#160;; là où les liens sont paroiz, le premier tient, et le segont
+                            ne lie mie.</p>
+                    </div>
+                    <div>
+                        <head>§ 23.</head>
+                        <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">urel. episcopo.</hi>
+                            <emph>Cum apud</emph><note>Idem Arelatensi episcopo, cap. 23&#160;:
+                                    <emph>Cum apud</emph>, ibid.</note>. L’en demende se sort et mu
+                            se poent marier&#160;? Et l’en dit que cum lien de soi marier ne soit
+                            pas deffendable, c’est à savoir que chascun se pot marier à cui droit ne
+                            le deffent&#160;: se tés poent consentir, il le poeent&#160;; car se li
+                            muz ne pot parler, il pot bien fere signe.</p>
+                        <p>Note que consentir fet mariage, et sort et mu se poent marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 24.</head>
+                        <p>I<hi rend="sc">dem</hi>. V<hi rend="sc">ecerlensis episcopo.</hi>
+                            <emph>Dilectus</emph><note>Idem Vercel. episcopo, cap. 24&#160;:
+                                    <emph>Dilectus</emph>, ibid.</note>. Un dona sa fille à feme à
+                            un desvé, et riens n’en savoit&#160;; donc il ne la pot avoir, car il ne
+                            s’i pot consentir&#160;: por quoi li père requiert que le fet fust nul.
+                            La pape mende que, si fut issi, qu’il séent départiz.</p>
+                        <p>Note que desvé ne se pot marier, car il ne se pot consentir.</p>
+                    </div>
+                    <div>
+                        <head>§ 25.</head>
+                        <p>I<hi rend="sc">dem, episc</hi>. B<hi rend="sc">risien.</hi>
+                            <emph>Que</emph><note>Idem Brixien. episcopo, cap. 25&#160;:
+                                    <emph>Tuœ</emph>, ibid.</note>. L’en demende se par soles
+                            paroles, et par quex, est fet mariage&#160;? Et l’en dit que, tot soit
+                            fet mariage par consentir, paroles sont nécessères por acertener seinte
+                            yglise&#160;; et ce mostre par mut et par enfant, que, tot ne puisse-il
+                            consentir par parole de présent, se pot-il marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 26.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Tua</emph><note>Idem, cap. 26&#160;: <emph>Tua</emph>,
+                                ibid.</note>. Cum un n’eust pas volenté de soi marier, ne ne quéroit
+                            que f....., et dist issi à une femme&#160;: Johen te espose, et il n’a
+                                <pb n="184"/>voit pas nom Johan&#160;; et quant il ot ce fet, il la
+                            f....&#160;; don l’en demende ci s’il i a entr’aus mariage&#160;? L’en
+                            dit que non, com il ait lessié la forme do mariage, et ce qu’il ne se
+                            consenti pas, sanz quoi il ne se pot consentir.</p>
+                        <p>Note que fort chose est mouer consentement, puis le contraire vet
+                            avant&#160;; et aucune foiz ne faut pas droiz, mès prove faut&#160;; et
+                            il a dui choses en mariage&#160;: forme de paroles et consentir&#160;;
+                            et ci a un cas espéciau où trecherie vaut.</p>
+                    </div>
+                    <div>
+                        <head>§ 27.</head>
+                        <p>I<hi rend="sc">dem. episc</hi>. B<hi rend="sc">elvacen.</hi>
+                            <emph>Cum in tua.</emph><note>Idem episcopo Belvacen., cap. 27&#160;:
+                                    <emph>Cum in tua,</emph> Decret., lib. 4, tit. 1.</note> Martin
+                            et Berte s’entrevoléent prendre&#160;; furent banni en yglise&#160;; nul
+                            n’i mist contredist&#160;; mès renommée disoit en privé qu’il i avoit
+                            parenté&#160;; et Martin et Berte offroient à jurer par les plus
+                            vaillanz del parenté qu’il n’i avoit point de parenté. L’en demende que
+                            en dit droit&#160;? Et l'en dit que se persone créable dist qu'il i est
+                            parenté, et renomée le dit, ou l'on le sache de plain, l'en ne doit pas
+                            recevoir les seremanz as parenz&#160;; ne le mariage ne doit pas estre
+                            achevé, se le juige ne reçoit les seremanz as paranz, par sa volenté,
+                            contre la renomée.</p>
+                        <p>Note que por le dit de haute persone est empêchié mariage&#160;; et l'en
+                            pot prover renomée&#160;; et l'en ne doit pas por le dit d'une vil
+                            persone destorber mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 28.</head>
+                        <p>H<hi rend="sc">on.</hi> III, <hi rend="sc">sp</hi>. B<hi rend="sc"
+                                >esgun.</hi>
+                            <emph>Consultationi</emph><note>Honorius III, episcopo Berguen., cap.
+                                28&#160;: <emph>Consultationi</emph>, ibid.</note>. Il avient aucune
+                            foiz que aucunes femes, quant il sont devant la porte de l'iglyse por
+                            recevoir bénéiçon, il dient que unques ne se consentirent en cez qui
+                            prendre le voloient&#160;; donc l'en demende se l'en les en doit
+                            croire&#160;? Et l'en dit que non. Enprès dit l'en que se cez femes
+                            s'enfuient enprès ce que il auront esté bénéetes, emprès ce qu'eles
+                            auront esté f......, mès dient que par force lor fut fet, nunques ne s’i
+                            consentirent, et que par peor le firent&#160;: s’il voloient prover la
+                            peor tele qui doie esmovoir ségur home, bien en devent estre oïes.</p>
+                    </div>
+                    <div>
+                        <head>§ 29.</head>
+                        <p>G<hi rend="sc">regorius nonus.</hi>
+                            <emph>Femina</emph><note>Gregor. IX, cap. 29&#160;: <emph>Gemma</emph>,
+                                ibid.</note>. Une feme promist soz poine que ele donroit sa fille
+                            qui n'avoit pas sept anz au fiz d'un vilain qui n'avoit <pb n="185"/>que
+                            sept&#160;; et quant la pucele vint à âge, ele se maria à un autre. Le
+                            père au vallet demende la peine&#160;: et l'en dit qu'il n'en doit pas
+                            estre oïz.</p>
+                    </div>
+                    <div>
+                        <head>§ 30.</head>
+                        <p>I<hi rend="sc">dem. episc</hi>. C<hi rend="sc">en.</hi>
+                            <emph>Is qui fidem</emph><note>Idem episcopo Cenomanen., cap. 30&#160;:
+                                    <emph>Is qui fidem</emph>, Decret. Greg. IX, lib. 4, tit
+                                1.</note>. Ticius fiença que il prendroit une feme&#160;; emprès il
+                            la f.... Enprès Ticius prist une et la f....&#160;: l'en demende laquele
+                            il doit avoir&#160;? Et l'en dit que la première&#160;; et est la
+                            reson&#160;: car le premier mariage fut vrai, ne ne pot l'en amener
+                            prove encontre, par quoi le second mariage est nul.</p>
+                    </div>
+                    <div>
+                        <head>§ 31.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Si inter virum</emph><note>Idem, cap. 31&#160;: <emph>Si inter
+                                    virum</emph>, ibid.</note>. L'en dit en ceste décrétalles que se
+                            léau consentement de mariage vient entre home et femme, par parole de
+                            présent, et li home dit issi&#160;: Je te prens à feme&#160;; et la feme
+                            dit&#160;: Je te prenc à seignor&#160;; ou s'il dient autres paroles que
+                            vallent consentement de présent, li un ne se pot marier aillors. Et se
+                            l'un d'aus le fet, et se marie à une autre feme, et la f...., tot ne
+                            vaut rien, ainz sera le premier mariage refet. S'il i a consentement de
+                            futur, qui dient issi&#160;: Je te prendroi à feme&#160;; et je toi à
+                            seignor, et jurent que issi le feront&#160;; s'il se marient aillors par
+                            paroles de présent, le segont mariage ne sera pas départiz&#160;; mès il
+                            prendront lor pénitence do serement trespassé.</p>
+                    </div>
+                    <div>
+                        <head>§ 32.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Adolescens</emph><note>Idem, cap. 32&#160;:
+                                    <emph>Adolescens</emph>, ibid.</note>. Un jeune vallet esposa
+                            une feme par futur, et se aforça de f.... la&#160;; mès il ne pot&#160;;
+                            emprès il se maria à un autre par présent. L'en demende s'il doit
+                            retorner à la premère&#160;? L'en dit que non, com le premier mariage ne
+                            avet pas esté verai&#160;; car li efforz de f.... la premère ne fut pas
+                            mené à fin.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head>II. De juenes esposailles<note>Decret. Greg. IX, lib. 4, tit. 2&#160;:
+                                <emph>De desponsatione impuberum.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> H<hi rend="sc">onorius</hi> III. <emph>Tua</emph><note>Honorius III,
+                                Eusebio episcopo, cap. 1. ibid.</note>. Un vilain voloit un son fiz
+                            marier qui n'estoit pas d'aage, sanz ce que cil le vossit&#160;: l'en
+                            demende s'il le pot fere&#160;? La pape dit que non&#160;; mès il le pot
+                            esposser, et cil fiz doit achever le mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="186"/> F<hi rend="sc">elix papa.</hi>
+                            <emph>Ubi.</emph><note>Nicolaus papa, cap. 2&#160;: <emph>Ubi</emph>,
+                                Decret., lib. 4, tit. 2</note>. L'en deffant ci que l'en ne face
+                            exposalles avant sept anz, se n'est por pez.</p>
+                        <p>Note que l'en ne doit pas fere jointure d'aucun, se il n'est de droit
+                            aage&#160;; et âge de esposalles est de sept anz&#160;; et mariage de
+                            pucele est de douze anz, et en vallet de quatorze.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">sidorus.</hi>
+                            <emph>Puberes</emph>.<note>Isidorus, cap. 3&#160;: <emph>Puberes</emph>,
+                                ibid.</note>. L'en dit ci que, tot cuident aucun que jenure ce soit
+                            danz, l'en pot dire celi d'aage qui pot f...., et l'en pot apeler celes
+                            femes qui poent porter enfanz.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> A<hi rend="sc">lex.</hi> III, H<hi rend="sc">erefordenen</hi>. E<hi
+                                rend="sc">piscopo.</hi>
+                            <emph>Litteras</emph><note>Alexander III Herford. episcopo, cap.
+                                4&#160;: <emph>Litteras</emph>, ibid.</note>. Uns se maria à un
+                            autre par esposalles, et enprès f.... sa mère, et la prist à feme. L'en
+                            demende se ce mariage tient&#160;? Et l'en dit que, s'il esposa sa fille
+                            emprès sept anz, il n'aura ne l'une ne l'autre, et si d’avant sept anz,
+                            il porra remaner à la mère.</p>
+                        <p>Note que l'en ne pot fere esposalles o qui n'est de sept anz&#160;; et à
+                            ce que avient sovant amoine l'en les droiz.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem</hi>. E<hi rend="sc">broacens</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Accessit</emph><note>Idem Eboracen. archiepiscopo, cap. 5&#160;:
+                                    <emph>Accessit</emph>, ibid.</note>. Un esposa la fille qui
+                            n'estoit pas aagé&#160;; emprès il furent départi&#160;; li hom prist la
+                            mère à la fille. La pape dit que, se la fille ne estoit bone à marier
+                            quant ele fut esposée, ne ne s'acorda pas puis que ele fut bone à
+                            marier, le mariage ne tient pas&#160;; et se ele avoit acompli sept anz,
+                            cum ele se soit consentie en lui, li bon ne doit pas remanoir à la
+                            mère.</p>
+                        <p>Note que département est là où il n'a nul mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">dem</hi>. N<hi rend="sc">orvicen.</hi>
+                            <emph>Continebatur</emph><note>Idem Norvicensi episcopo, cap. 6&#160;:
+                                    <emph>Continebatur</emph>, ibid.</note>. Un esposa un
+                            autre&#160;; cele qui se voloit départir, disoit que ele li avoit esté
+                            esposée dedanz sept anz, ne ne s'i estoit pas consentue&#160;; li hom
+                            disoit que il l'avoit f.... &#160;; la feme le niet. L'en dit que l'en
+                            en doit croire l'ome o son seremant. Enprès dit que se aucuns esposse
+                            aucune, il ne pot marier soi o autre do lignage à cele.</p>
+                        <p>Note&#160;: Se le home dit que il eit f.... aucune, et ele li nie, le en
+                            doit croire l'ome, se il jure, se la feme ne mostre son c..., et prove
+                            qu'ele <pb n="187"/>soit pucele. Et en ce cas doit l'en croire le
+                            seremant d'un&#160;; et des onze anz en avant, et feme a mari&#160;; et
+                            hom ne se pot marier o la cosine sa feme.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem</hi>. B<hi rend="sc">aton</hi>. E<hi rend="sc"
+                                >piscop.</hi>
+                            <emph>De illis</emph><note>Idem Bathoniensi episcopo, cap. 7&#160;:
+                                    <emph>De illis</emph>, Decret., Greg. IX, lib. 4, tit.
+                            2.</note>. L'en dit ci que se aucun se entr'ament entr'éposent, qui ne
+                            sont d'aage, et avant que il séent d'aage se volent descorder, l'en ne
+                            les doit pas oïr, ainz devent entendre dusque à droit aage&#160;; et se
+                            lors l'un ne se volt acorder, il devent estre par juigement d'yglise
+                            départiz. Enprès dit l'en que, se femme d'aage se marie ou un autre qui
+                            n'est pas d'aage, et avant que il séent d'aage se voloient dessentir, il
+                            ne pot dusque il soit en aage.</p>
+                        <p>Note que se genz de sept anz ou de plus s'entr'éposent, ne l'un ne
+                            l'autre ne poent aler encontre&#160;; et se li un est plus tost d'aage
+                            que l'autre, cil qui se descorde ne doit pas estre oïz dusque il soit
+                            aagé&#160;; mès s'il viennent endui à âge, il se poent bien descorder,
+                            s'il volent, et ce par juigement d'yglise.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Nobis</emph><note>Idem eidem, cap. 8&#160;: <emph>A nobis</emph>,
+                                ibid.</note>. Aucun dedanz aage se marient&#160;: l'en demende si se
+                            poent départir avant aage&#160;? L'en dit que non, ainz devent atendre
+                            aage&#160;; et lors, si se volent départir, si se départent, se l'un n'a
+                            f.... l'autre.</p>
+                        <p>Note que nus ne pot consentir en mariage dusque il soit d'aage&#160;; et
+                            f..... fete en non aage fet enprès le mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>I<hi rend="sc">dem</hi>. J<hi rend="sc">an</hi>. E<hi rend="sc"
+                                >piscop.</hi>
+                            <emph>De illis</emph><note>Idem Genuensi archiepiscopo, cap. 9&#160;:
+                                    <emph>De illis</emph>, ibid.</note>. Se aucun se consent en
+                            aucune dedans aage, ce n'est pas mariage&#160;; lors, s'il pot f......,
+                            c'est mariage, ne ne pot descorder s'il n'i a porquoi.</p>
+                        <p>Note que force excusse toztens.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p> U<hi rend="sc">rb</hi>. C<hi rend="sc">eno</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Atestaciones</emph><note>Urbanus III Cenomanensi episcopo, cap.
+                                10&#160;: <emph>Atestaciones</emph>, ibid.</note>. Un de douze anz
+                            se maria o une, et se poigna s'il la puet f......, et ne pot&#160;;
+                            enprès, avent aage, il se parti de lui&#160;; ele le demendoit. L'en dit
+                            ci que, se la feme ne provet que il se consentist en lui en aage, qu'il
+                            soit essoés de la demende à la feme, en tel manière qu'il le jurt.</p>
+                        <p>Note que efforz qui n'est pas profitable ne fet mie tort&#160;; et emprès
+                            ce <pb n="188"/>que li garanz sont overz, pot l’en tesmoinz
+                            recevoir&#160;; et tot ne prove le demendeor, cil à qui l'en demende
+                            doit jurer, tot soit-il délivré quant li autre ne prove.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p>I<hi rend="sc">dem</hi>. P<hi rend="sc">ysa</hi>. A<hi rend="sc">r.</hi>
+                            <emph>EX litteris</emph><note>Idem Pisano archiepiscopo, cap. 11&#160;:
+                                    <emph>EX litteris</emph>, Decret., Greg. IX, lib. 4, tit.
+                                2.</note>. Un de douze anz se maria o une qui n'estoit pas
+                            aagé&#160;; enprès li parent la li baillent contre sa volenté, et fut o
+                            lui un an&#160;; et au plus tost qu'il pot, cil retorna à la meson son
+                            père, ne ne vels retorner, ne estre à celi, ainz velt estre o une autre.
+                            La pape dit que ele doit atendre cel enfant dusque il soit d'aage&#160;;
+                            et s'ele ne velt, qu'ele se marit.</p>
+                        <p>Note que hintement d'un an ne sofist pas à consentement de mariage, c'est
+                            voir là où aucune se consent.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Duo pueri</emph><note>Clemens III,
+                                cap. 12&#160;: <emph>Duo pueri</emph> , ibid.</note>. Un vallet de
+                            six anz et une pucele de sept de futur se marièrent, et furent ensemble
+                            trois anz&#160;; enprès le père à la pucele la li osta et la bailla à un
+                            autre&#160;; et quant li enfes vint à âge, quant il ot congié de soi
+                            marier, il se maria à la cosine à l'esposée. Et por ce que cil à cui li
+                            pères avoit la fille ballie l'avoit lessée, l'en força l'enfant de
+                            reprandre la, et de l'autre lessier. L'en demende qu'en dit droiz&#160;?
+                            Et l'en dit que por la faute de l'aage ne fut nul mariage entre aus, mès
+                            solement esposalles&#160;; et tot eust eu li enfes congié de soi marier
+                            o autre, ne se dut-il pas marier o la cosine s'esposée&#160;: la
+                            première n'auroit-il pas, car ele ot léau mari, ne il la secone
+                                (<emph>seconde</emph>). Se l'un n'a f.... l'autre, il se porront
+                            aillors marier&#160;; et que le père à la meschine eit sa pénitence de
+                            ce qu'il la départi sanz le juigement de sainte yglise.</p>
+                        <p>Note que mariage ne pot estre fet de sept anz.</p>
+                    </div>
+                    <div>
+                        <head>§ 13.</head>
+                        <p>I<hi rend="sc">nno.</hi> III. <emph>Ad
+                                desolvendum</emph><note>Innocentius III, C. et P. Quondam filiis
+                                Malebrancæ, cap. 13&#160;: <emph>Ad desolvendum</emph>,
+                            ibid.</note>. Dui frères disent que ce qui avoit esté fet d'un mariage
+                            d'un bacheler et d'une meschine ne valoit riens, car ele n'avoit pas
+                            sept anz&#160;; et tot fut-ele en aage, ne le pot-ele avoir, car ele
+                            estoit sa coisine. Quant la pape ot ce oï, il cassa ce fet, et dist que
+                            l'en n'en poet acuser ce qui n'estoit mie&#160;; mès l'en poet bien
+                            dénuncier que le mariage ne fût fet. La pape mist terme au dénuncement,
+                            et deffent que entretant ne facent riens, dusque le dénuncement soit
+                            prové&#160;; et s'il font encontre, que tot soet néant.</p>
+                        <p><pb n="189"/>Note que dénuncement est fet aucune foiz de crime qui n'est
+                            pas encor fet, ainz est à fere.</p>
+                    </div>
+                    <div>
+                        <head>§ 14.</head>
+                        <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">lbanen</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Tue</emph><note>Idem episcopo Abbatensi, cap. 14&#160;:
+                                    <emph>Tuœ</emph>, Decret., lib. 4, tit. 2.</note>. Un esposa la
+                            fille à un, qui n'avoit pas douze anz&#160;; quant le père à cele pucele
+                            fut mort, sis uncles la dona à un autre&#160;: l'en demende s'il pot à
+                            l'autre remanoir&#160;? Et le pape dit que, se la pucele, quant ele fut
+                            esposée, estoit bone à marier, ou que ele ne l'estoit pas, esposailles
+                            furent entre aus solement&#160;; et le segont mariage, se aucune chose
+                            vaist encontre, est tenable.</p>
+                        <p>Note que malice fet aage, tot die l'en que sen le fet. Note bou
+                            enseignement&#160;: quant l'en dote d'aucuns de lor mariages, l'en doit
+                            regarder lor aage, et lors pot l'en juiger segont ce.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head>III. De esposailles repoz<note>Decret. Greg. IX, lib. 4, tit. 3&#160;:
+                                <emph>De clandestina desponsatione.</emph></note></head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> E<hi rend="sc">x cons. abe.</hi>
+                            <emph>Si quis</emph><note>Ex concilio arelatensi, cap. 1&#160;: <emph>Si
+                                    quis</emph>, ibid.</note>. Note que quant deffense est de
+                            mariage, la prove chiet sor l'ome.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A<hi rend="sc">lex.</hi> III. E<hi rend="sc">p</hi>. B<hi rend="sc"
+                                >elvacensis.</hi>
+                            <emph>Quod nobis</emph><note>Alexander III, Belvacensi episcopo, cap.
+                                2&#160;: <emph>Quod nobis</emph>, ibid.</note>. Li évesques de
+                            Beauvez demenda la pape, s'il porroit fere grâce en mariage qui est fet
+                            en repost&#160;? La pape tint la demende à fole, et dit que itex que
+                            issi se marient, ou il requenoissent le mariage ou il ne
+                            requenoissent&#160;: s'il le reconoissent, grâce n'i a mestier&#160;; se
+                            l'en ne pot forcer, l'en ne le pot forcer.</p>
+                        <p>Note que qui en repost se marie ne pot estre forciez de estre
+                            assemblez&#160;; et l'en croit home et feme do mariage&#160;; et iglise
+                            conferme tel mariage, et lor enfanz sont molete.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">con. gen.</hi>
+                            <emph>Cum inhibicio</emph><note>Innocentius III, in Concilio generali,
+                                cap. 4 &#160;: <emph>Cum inhibicio</emph>, ibid.</note>. L'en dit ci
+                            cinq choses&#160;: au premer, deffant l'en mariage fet en repot. Enprès
+                            commende l'en que se l'en velt fere mariage, l'en le doit bennir en
+                            l'iglyse, que qui saura empechement qu'il le die. Enprès dit l'en que li
+                            enfanz nez en <pb n="190"/>tel mariage repost seront bastart&#160;; et
+                            aussi sera se le père et la mère i sorent empeeschement, et puis prist
+                            l'un l'autre. Enprès dit l’en que se aucun prestre ne deffant ce, et
+                            s'il i est au fere, trois anz soit sospenduz. Et qui défendra noces à
+                            fere par malice, qu'il soit puniz.</p>
+                        <p>Note que ce qui est grosse en un est légié en autre&#160;; et qui pot
+                            savoir et ne set, est tenuz ausi cum s'il seust.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head>IV. De esposalles de deus<note>Decret. Greg. IX, lib. 4, tit. 4&#160;:
+                                <emph>De sponsa duorum.</emph></note></head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">ugustinus de fide pactionis et consensus.</hi>
+                            <emph>Duobus</emph><note>Augustinus de fide pactionis et consensus, cap.
+                                1&#160;: <emph>Duobus</emph>, ibid.</note>. Augustin dit que en deu
+                            manières est foi, c'est à savoir, de mariage et de espossailles. Et se
+                            aucun done foi de espossailles à une, et puis se marie o autre par
+                            présent, il remoindra à la segonde. Et s'il dona foi de mariage à la
+                            première, et ausi à la segonde, il remoindra à la première.</p>
+                        <p>Note que se, enprès espossalles, aucun se marie par présent, il doit
+                            remanoir à la segonde, et fere sa pénitence de sa foi qu'il a mentie. Et
+                            se aucun, quant il se marie, dit issi&#160;: Je te pren à feme, se tu me
+                            lesses f...., tel convenant ne vaut rien.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> E<hi rend="sc">X</hi> B<hi rend="sc">roc. lib. xix.</hi>
+                            <emph>Accepisti</emph><note>Ex Brochardo libro xxx, cap. 2&#160;:
+                                    <emph>Accepisti</emph>, ibid.</note>. Un par présent se maria à
+                            une&#160;; enprès une autre la prist. L'en dit cil qui doit retorner au
+                            premier, et cil qui enprès la prist en face sa pénitence.</p>
+                        <p>Note que ce qui ne vaut à commeincement enprès ne vaut riens.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> A<hi rend="sc">lex.</hi>III. S<hi rend="sc">alent, ar.</hi>
+                            <emph>Licet</emph><note>Alexander III Salernitano archiepiscopo, cap.
+                                3&#160;: <emph>Licet</emph>, ibid.</note>. L'en dit ci que se aucun
+                            se marie o aucune par présent, ne ne la f.... mie, et à une autre ausi
+                            par présent se marie, et la f....&#160;: ele retorna au premier, tot
+                            soit-il autrement en aucunes yglises.</p>
+                        <p>Note que esposalles de présent font mariage, donc ne les pot l'en
+                            dépécier.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem</hi>. J<hi rend="sc">anen. archi.</hi>
+                            <emph>Tua</emph><note>Idem Genuensi archiepiscopo, cap. 4
+                                    <emph>Tua</emph>, ibid.</note>. Aucun marié sont travallé de
+                            parenté <pb n="191"/>que l'en dit qui est entre aus&#160;; il apelent,
+                            et endementières il se marient à autres. L'en dit que tel mariage doit
+                            estre cassé comme cil qui est fet contre la deffense de sainte
+                            yglise&#160;; car l'en lor doit deffendre qu'il ne se marient.</p>
+                        <p>Note que quant aucune cause pent par apel, l'en ne doit rien fere&#160;;
+                            et mariage qui est fet contre la deffense sainte ynglise ne vaut
+                            rien.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">nno.</hi> III, M<hi rend="sc">utin</hi>. E<hi rend="sc"
+                                >piscop</hi>
+                            <emph>Tuas</emph><note>Innocentius III Mutinensi episcopo, cap. 5&#160;:
+                                    <emph>Tuas</emph>, Decret. Greg. IX, lib. 4, tit. 4.</note>. Tel
+                            costume estoit en la cité de Mute, que se aucun se mariast o aucune par
+                            parole de présent, et ele se maria o autre avant que cil l'eust f....,
+                            et cil segont la f.... enprès, ele estoit soe. La pape dist que tele
+                            costume est lède, et contre l'iglise de Rome&#160;; et le premier
+                            mariage doit tenir.</p>
+                        <p>Note que f.... ne fet pas mariage, mès acordement et consentement.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head>V. De condicions mises en mariage<note>Decret. Greg. IX, lib. 4, tit.
+                            5&#160;: <emph>De conditionibus appositis in desponsatione vel in aliis
+                                contractibus</emph>.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> E<hi rend="sc">x conc</hi>. A<hi rend="sc">fri.</hi>
+                            <emph>Quicumque</emph><note>Ex concilio Africano, cap. 1&#160;:
+                                    <emph>Quicumque</emph>, ibid.</note>. Se mariage est fet soz
+                            convenance mauvese, le mariage doit estre, et la convenance doit
+                            remanoir.</p>
+                        <p>Note que mariage fet soz vil convenance tient, tot soit la convenance
+                            quassée.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> G<hi rend="sc">regorius</hi> E<hi rend="sc">p</hi>. S<hi rend="sc"
+                                >poliacen.</hi>
+                            <emph>Cum sit</emph><note>Gregorius episcopo Spoletano, cap. 2&#160;:
+                                    <emph>Cum sit</emph>, ibid.</note>. Un franchi deus sers en tel
+                            convenance qu'il seroient moines&#160;; li un issi de l'aboïe&#160;: le
+                            pape mende à un évesque qu'il le force de retorner.</p>
+                        <p>Note que franchise pot estre donée soz condicion.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>De illis</emph><note>Alexander III
+                                Panormitano archiepiscopo, cap. 3&#160;: <emph>De illis</emph>,
+                                ibid.</note>. Note que ci a léal convenance&#160;: Se tu me dones
+                            cent sous, je te prendrai.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Verum.</emph><note>Idem, cap. 4&#160;: <emph>Verum</emph>,
+                                ibid.</note>Se aucun done aucun fié à yglise par tel convent qui est
+                            entre aus, il ne porra pas rapeler le don, se la condicion n'est seguë.
+                            Et ce que l'en done, se la condicion n'est tenue, puet estre rapelé.</p>
+                        <p><pb n="192"/>Note que, en ban de chose donée, pot cil qui done metre tel
+                            convenance comme il velt.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> U<hi rend="sc">rb.</hi> III. <emph>Super eo</emph><note>Urbanus III,
+                                cap. 5&#160;: <emph>Super eo</emph>, Decret. Greg. IX, lib. 4, tit.
+                                5.</note>. Un se maria o une issi&#160;: Je te prens, se mis pères
+                            le velt. L'en dit que ce n'est rien, se li pères ne velt.</p>
+                        <p>Note que ci a bone convenance&#160;: se mis pères le velt, je te
+                            prandroi&#160;; et tel fet est mis en autrui volenté.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">nno.</hi> III. E<hi rend="sc">p</hi>. M<hi rend="sc"
+                                >arsiten</hi>. <emph>Per tuas</emph><note>Innocentius III Masican.
+                                episcopo, cap. 6&#160;: <emph>Per tuas,</emph> ibid.</note>. Une
+                            feme demendoit un bachelier, et disoit que il l'avoit esposée et
+                            f....&#160;; li hom no niet pas, mès il disoit qu'il fût fet, s'il
+                            plésoit à son père et à son oncle&#160;; et il ne le voloient pas&#160;;
+                            et ce voloit prover. La feme disoit que tot i fût la convenance, com cil
+                            n'alassent pas encontre, et cil l'eust puis f....., ce qu'il disoit ne
+                            li devoit pas nuire&#160;; et tot i eust convenance au commoincement,
+                            enprès ele fut lessée et ostée. Tesmoinz furent trez de çà et de là, et
+                            overz. Et com l'en dotast de ce, l'en enquist consoil le pape, qui dist
+                            que, comme il aparesse clèrement, par la confession à la feme et à
+                            l'ome, qu'il la f.... enprès les esposalles, le mariage est entre
+                            aus&#160;; que tot fust-il prové que li père et li oncles i eussent mis
+                            contredit, il la f.... puis&#160;; il ne fut pas prové, que puis qu'il
+                            la f...., qu'il le contredissent.</p>
+                        <p>Note que en mariage fet pot l'en mestre honeste convenance&#160;; et plet
+                            n'est pas déterminé par la confession de parties fetes en
+                            juigement&#160;; et l'en lesse la première convenance, se autre
+                            contraire marchié vient enprès.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Si condictiones</emph><note>Greg. IX,
+                                cap. 7&#160;: <emph>Si conditionis</emph>, ibid.</note>. L'en dit ci
+                            que se convenance qui est contre la sustance do mariage i est mise, il
+                            ne vaut rien&#160;; aussi comme l'en dit&#160;: Je te prendrai dusqu'à
+                            trois anz, ou se tu fez chose por quoi tu soes beraigne, ou se tu
+                            embles&#160;; la convenance est nule, et le mariage tient.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <pb n="193"/>
+                <front>
+                    <head>VI. Quex clerz puent fere mariage<note>Decret. Greg. IX, lib. 4, tit.
+                            6&#160;: <emph>Qui clerici vel voventes matrimonium contrahere
+                                possunt.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>De diacono</emph><note>Alexander III
+                                Remensi archiepiscopo, cap. 1&#160;: <emph>De diacono</emph>,
+                                ibid.</note>. Un diacre se maria o une feme, et fist plere à un
+                            diacre. Le pape dit que, s'il retorne à s'iglise ou humilité, l'en li
+                            porra fere grâce, et fere son office, et porra estre ordené&#160;; et li
+                            soz-diacre ne se pot marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">dem</hi>. C<hi rend="sc">enomen</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>EX litterarum</emph><note>Idem Cenoman. episcopo, cap. 2&#160;:
+                                    <emph>Ex literarum</emph>, ibid.</note>. Un soz-diacre se
+                            maria&#160;; le évesque le efforça forjurer sa feme&#160;: l'en dist que
+                            il fist bien&#160;; et s'il no volt otroier, et il viot entrer en
+                            religion, il ne porra fere son office, ne avoir autres ordres.</p>
+                        <p>Note que cil qui se marient contre droit devent forjurer l'un
+                            l'autre&#160;; et souz-diacre qui se marie ne doit d'iqui en avant
+                            amenistrer en ordre de soz-diacre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem</hi>. W<hi rend="sc">g</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Neminimus</emph><note>Idem Vigoriensi episcopo, cap. 3&#160;:
+                                    <emph>Meminimus,</emph> ibid.</note>. Un fit profession en la
+                            main d'un abé ou d'un évesque&#160;: l'en dit que s'il se marie, l'en le
+                            doit forcer de retorner à religion, se le vou est sollempné&#160;; s'il
+                            est simple, non.</p>
+                        <p>Note que habit fet moine&#160;; et qui est profès ne se pot marier&#160;;
+                            et simple vou ne tost pas mariage, mès il tost à marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">uc. episcopo.</hi>
+                            <emph>Consuluit</emph><note>Idem Lucensi episcopo, cap. 4&#160;:
+                                    <emph>Consuluit</emph>, ibid.</note>. Une dame prist robe de
+                            religion, ne n'i entra pas, ne ne fist profession&#160;; et puis geta
+                            l'abit, et se maria. L'en dit ci qu'ele remaingne à son mari&#160;; car
+                            habit sans profession empêche mariage, mès ele no dépièce pas.</p>
+                        <p>Note que l'en puet bien recevoir veil de main de prestre.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Veniens</emph><note>Idem, cap. 5&#160;: <emph>Veniens,</emph>
+                                ibid.</note>. Une feme esposa un home par futur&#160;; ele oït dire
+                            que il estoit trop cruel, et par devant un hermite fist vou. Cil se
+                            maria o une autre&#160;; quant ele l'oï, ele se maria. Le pape dit que
+                            bien le pot fere.</p>
+                        <p>Note que l'en puet fere esposailles entre cez qui ne sont pas
+                            présenz&#160;; <pb n="194"/>et se aucun fet vou par peor il n'est pas
+                            tenuz&#160;; et simple vou ne lie pas.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">dem</hi>, <emph>Rursus</emph><note>Cælestinus III, cap.
+                                6&#160;: <emph>Rursus</emph>, Decret., lib. 4, tit. 6.</note>. Un
+                            voa chastée par simples paroles, et jura enprès que il l'aposeroit une
+                            feme&#160;: l'en demende qu'en dit droiz&#160;? Que il gart son vou, et
+                            qu'il face sa pénitence do serement&#160;; et s'il se marie, le mariage
+                            tient&#160;; car simple vou empeeche mariage à fere, mès il ne la
+                            dépièce pas.</p>
+                        <p>Note deus relles&#160;: que simple vou et sollempnié lie maeme quant à
+                            Deu&#160;; et simple vou empêche à marier, mès il ne tost pas ce qui est
+                            fet&#160;; et note que vou, de la nature de soi, ne dépièce pas mariage,
+                            mès c'est de constitucion d'yglise.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">nno.</hi>III, V<hi rend="sc">isconen. ET</hi> C<hi
+                                rend="sc">ol. episcopo.</hi>
+                            <emph>Insinuente</emph><note>Innocentius III Libonensi et Colimbriensi
+                                episcopis, cap. 7&#160;: <emph>Insinuente</emph>, ibid.</note>. Une
+                            feme disoit que, cum son mari fust mort, ele cremoit que l'en ne la
+                            forçât marier à un de la cort le roi, et fist vou de chastée, et prist
+                            habit de religion, et remest en sa meson o ce que ele avoit. Li rois oï
+                            ce, et deffendi que l'en ne li feist rien. Enprès un de la cort le roi
+                            aporta unes letres por la avoir à feme&#160;; cele ne le volt fere, et
+                            s'en défoï, et se maria à un autre, et en ot enfanz. Or demende l'en
+                            s'ele pot o cetui remanoir&#160;? Le pape dist que en fere ce n'ot point
+                            de force&#160;; et s'ele i fut, tote fut oblié par si lonc tens, et doit
+                            tenir son vou&#160;; et commende, que s'il est issi, que ele soit forcée
+                            à prandre l'abit et à garder son vou.</p>
+                        <p>Note que aucun pot prendre habit en sa meson et estre religios&#160;; et
+                            salu de l'âme doit estre mis avant totes choses terrienes.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head>VII. De celi qui prist en mariage cele o qui il avoit fet
+                            avotire<note>Decret. Greg. IX, lib. 4, tit. 7&#160;: <emph>De eo qui
+                                duxit in matrimonium quam polluit per
+                        adulterium.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex.</hi> III. <hi rend="sc">abb</hi>. S<hi rend="sc"
+                                >ancti</hi> A<hi rend="sc">lbini.</hi>
+                            <emph>Propositum</emph><note>Alexander III abbati sancti Albani, cap.
+                                1&#160;: <emph>Propositum</emph>, ibid.</note>. Un avoit feme, et
+                            prist un autre que ne savoit pas qu'il eust feme&#160;; quant la
+                            première fut morte, il la volt lessier, et disoit que il l'avoit prise
+                            au vivant à sa première feme. L'en dit que se la feme volt, l'en le pot
+                            forcier à remanoir o lui&#160;; se que non, se ele volt, bien le pot
+                            lessier.</p>
+                        <p><pb n="195"/>Note que qui allège sa honte ne doit pas estre oïz. Et note
+                            deus cas où l'en puet prendre cele o qui l'en a fet avotire, si comme la
+                            letre de la décrétale le chante&#160;; et nus ne doit avoir fruit de sa
+                            malice&#160;; et mariage tient d'une part et ne tient pas d'autre.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">dem. abb. de</hi> F<hi rend="sc">ontibus.</hi>
+                            <emph>Significavit</emph><note>Idem Abbati de Fontibus, cap. 2&#160;:
+                                    <emph>Significavit,</emph> Decret., lib. 4, tit. 7.</note>. Un
+                            jura forciez que il esposeroit une feme&#160;; enprès, quant il eschapa,
+                            il se maria à un autre&#160;; la première s'en plaint&#160;: l'en li
+                            deffent que il ne toche à la segonde&#160;; endomentre la première mori.
+                            Le pape dit&#160;: Se li home forjura la première, et enprès ne la f....
+                            pas, que il soit à la segonde&#160;; et si n'i a point de vérité, que il
+                            ne remoigne pas o la segonde, mès se marit aillors.</p>
+                        <p>Note que mariage fet à force ne vaut rien&#160;; car mariages devent
+                            estre fez de commendement (<emph>consentement</emph>)&#160;; et tot i
+                            eit-il eu force, et enprès la f...., le mariage est fet.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem, barenen. episcop.</hi>
+                            <emph>Super eo</emph><note>Idem Baranensi episcopo, cap. 3&#160;:
+                                    <emph>Super hoc,</emph> ibid.</note>. Un, au vivant sa feme, se
+                            maria o un autre&#160;: l'en demende savoir s'il la porroit avoir enprès
+                            la mort&#160;? L'en dit que non, se ele a porchecié la mort à la feme,
+                            ou se li hom la fiença par convent que il la prist enprès la mort sa
+                            femme.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Ex litterarum</emph><note>Clemens
+                                III, cap. 4&#160;: <emph>Ex litterarum,</emph> ibid.</note>. Un
+                            lessa sa feme por avotire &#160;; cele entra en religion&#160;; et il
+                            prist un autre o qui il avoit fet son péchié douze anz au vivent cele
+                            feme&#160;: l'en demende se avotre pot avotresse prendre&#160;? L'en dit
+                            que non&#160;; mès autre pot prendre, quant il aura fet sa pénitence, et
+                            sa feme sera morte.</p>
+                        <p>Note que hom pot lessier sa feme, se il la prent en avotire&#160;; et
+                            note un merveillos cas que, se feme entre en religion, ele ne fet pas
+                            tort à son mari, quant à continence de vivre chatement&#160;; ne le vou
+                            de l'ome por l'entrée à la feme n'est pas gardé.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Cum huberet</emph><note>Idem, cap. 5&#160;: <emph>Cum
+                                    haberet</emph>, ibid.</note>Il pose primes un fet qui avint, et
+                            forme deus demendes&#160;: Un avoit sa prode feme, et fist avotire à un
+                            autre, et il en fut tret en plet, et la forjura&#160;; et au vivant sa
+                            feme, enprès se maria o cele. L'en demende se li hom pot avoir à feme
+                            cele o qui il se maria au vivent sa feme, et en ot moult enfanz, ou s'il
+                            se poent allors marier&#160;?</p>
+                        <p><pb n="196"/>Enprès dit l'en que mariage ne pot estre entre avotires, ne
+                            il ne se poent allors marier&#160;; mès l'en lor doit enjoindre que il
+                            vivent chatement. Enprès dit l'en que endui, segont ce que il porront,
+                            porvoent à lor enfanz.</p>
+                        <p>Note que nul ne pot avoir à feme cele que il a cochié en avotire&#160;;
+                            et amor de enfanz ne fet pas fere grâce contre la loi&#160;; et li père
+                            devent norrir lor enfanz nez en avotire.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">episcopo</hi> S<hi rend="sc"
+                                >poleten.</hi>
+                            <emph>Significasti</emph><note>Innocentius III episcopo Spoletano, cap.
+                                6&#160;: <emph>Significasti,</emph> Decret, lib 4, tit. 7.</note>.
+                            Un prist une putain et lessa sa feme&#160;; il en fut ecomenié&#160;;
+                            quant sa feme fut morte, il la prist. L'en demende s'il poent remanoir
+                            ensemble&#160;? Et l'en dit que, s'il n'ont porchacié la mort la feme,
+                            ou s'il ne fiança la putain au vivant de sa feme, et li hom soit asos,
+                            s'il le requiert.</p>
+                        <p>Note que Chapitre pot escommenier&#160;; et escommenié se pot marier, tot
+                            li nie l'en les autres sacremanz.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem</hi>. M<hi rend="sc">esenen. episcopo.</hi>
+                            <emph>Veniens</emph><note>Idem Messanensi capitulo, cap. 7&#160;:
+                                    <emph>Veniens,</emph> ibid.</note>. Cum un se fut marié o une
+                            feme, il la lessa, et se maria en une autre cité o une autre, qui rien
+                            n'en savoit que cil eust feme&#160;; et comme il retornast à la première
+                            par pénitence, et morte la trovast, il retorna à la segonde, et
+                            requiroit remaindre o lui en mariage. La pape dit que il pot bien
+                            remanoir à la segonde, s'ele requiert, fors que en deus cas&#160;: s'a
+                                (<emph>si elle</emph>) ne savoit qu'il eust feme, ou se ne empeecha
+                            sa mort&#160;; et s'il li plet, la pape deffent que nul ne l'en
+                            travalle.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> G<hi rend="sc">regorius</hi> IX, <hi rend="sc">fr.</hi>R. <emph>Si
+                                quis.</emph><note>Gregorius IX fratri R., cap. 8&#160;: <emph>Si
+                                    quis,</emph> ibid.</note>. Qui, à vivent sa feme, fiance aucune
+                            feme que il la prendra, se sa feme mort, et il pregne cele, l'en ne doit
+                            pas dépécier le mariage, s'il ne la f.... au vivent sa feme.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <front>
+                    <head>VIII. Do mariage au meseaus<note>Decret. Greg. IX, lib. 4, tit. 8&#160;:
+                                <emph>De conjugio leprosorum.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>
+                            <emph>Pervenit</emph><note>Alexander III Cantuarensi archiepiscopo, cap.
+                                1&#160;: <emph>Pervenit,</emph> ibid.</note>. Unes femes ne voloient
+                            sigre lor mariz meseaus&#160;: l'en dit qu'eles séent amonestées qu'eles
+                            seguent&#160;; et s'il ne volent, eles devent estre forciés à estre
+                            chastes.</p>
+                        <p><pb n="197"/>Note que li meseau devent vivre par soi&#160;; et hom est
+                            tenu segre sa feme mesele, et la feme l'ome&#160;; et s'il ne volent
+                            segre l'un l'autre, l'en les doit forcier à estre chastes.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">dem. bayonen. episcopo.</hi>
+                            <emph>Quoniam.</emph><note>Alexander III Bajonensi episcopo, cap.
+                                2&#160;: <emph>Quoniam,</emph> Decret., lib. 4, tit. 8</note>. L'en
+                            dit ci que por lèpre ne doit l'en pas feme départir de son mari. Et l'en
+                            dit ci que se le mesel (<emph>ne</emph>) se volt tenir chatement, ele se
+                            pot marier, s'ele trove à qui. Et se le mesel requiert à f.... sa feme,
+                            ele ne li pot nier.</p>
+                        <p>Note que home ne pot sa feme lessier que por fornicacion, et por lèpre,
+                            non&#160;; et mesel se poent marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> U<hi rend="sc">rb.</hi>III, <hi rend="sc">ep</hi>. F<hi rend="sc"
+                                >loriacen.</hi>
+                            <emph>Litteras</emph><note>Urbanus III, episcopo Florentino, cap.
+                                3&#160;: <emph>Literas,</emph> ibid.</note>. L'en dit ci que cele
+                            est forçable à eschever le mariage, se si mariz devent mesel entretant
+                            qu'il fut fiancé.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_09">
+                <front>
+                    <head>IX. Dou mariage as sers<note>Decret. Greg. IX, lib. 4, tit. 9&#160;:
+                                <emph>De conjugio servorum.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">drianus papa</hi> S<hi rend="sc">ancte</hi> B<hi
+                                rend="sc">ur.</hi>
+                            <emph>Dignum</emph><note>Hadrianus Sancteburgensi archiepiscopo, cap.
+                                1&#160;: <emph>Dignum</emph>, ibid.</note>. L'en demandoit se sers
+                            se poent marier contre la volenté lor seignor&#160;? L'en dit que oïl,
+                            ne ne doit l'en pas dépécier tex mariages, ne li seignor ne perdent pas
+                            por ce lor servises acostumez.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A<hi rend="sc">lex</hi>. III, <hi rend="sc">preposito et priori
+                                mortar.</hi>
+                            <emph>Proposuit.</emph><note>Alexander III præposito et priori
+                                Mortariensi, cap. 2&#160;: <emph>Proposuit</emph>, ibid.</note>. G.
+                            se marie o P., et enprès li met sus qu'il est cuvert&#160;: le pape dit
+                            que, s'il la f.... puis qu'ele set qu'ele est serve, il doit estre
+                            son&#160;; si que non, se l'en célèbre entr'aus département, il rendra à
+                            la feme ce qu'ele i aporta.</p>
+                        <p>Note&#160;: qui se marie o serve et no set, le mariage est nul&#160;; et
+                            se le mariage est départiz, li un et li autre r'auront arrière lor
+                            choses comme devant&#160;; et s'il la f.... puis qu'il le set, le
+                            mariage tient.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem</hi>. <emph>Licet</emph><note>Urbanus III Ariminensi
+                                episcopo, cap. 3 &#160;: <emph>Licet</emph>, ibid. </note>. Un se
+                            maria o une&#160;; cil estoit serf d'une abéïe, et por ce la feme en
+                            voloit estre départie, si comme cele qui rien n'en savoit&#160;; li hom
+                            allégoit encontre, et disoit que, quant son père mori, que <pb n="198"
+                            />il estoit franc, e i a diz anz que le père mori. L'en dit ci que l'en
+                            doit juigier por l'ome, por la franchise.</p>
+                        <p>Note&#160;: segont la loi de la province, le fiz doit sigre la condicion
+                            au père&#160;; et qui a esté franc dix anz doit estre juigiez franc.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">nno.</hi> III. R. <emph>Ad nostram</emph><note>Innocentius
+                                III H. episcopo, cap. 4&#160;: <emph>Ad. nostram,</emph> Decret.,
+                                lib. 4, tit 9.</note>. Un cardineau désevra un d'une cuverte, dont
+                            il ne savoit rien, quant il la prist. Le pape dit que si l'om, puis que
+                            il le sot, ne consenti en lui, ne de fet, ne de parole, qu'il se marit o
+                            autre, s'il velt.</p>
+                        <p>Note que foléance d'estat d'ome ou de feme empeeche mariage, et
+                            despièce.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_10">
+                <front>
+                    <head>X. De cex qui sont nez de franc ventre<note>Decret. Greg. IX, lib. 4, tit.
+                            10&#160;: <emph>De natis ex libero ventre.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Indecens.</emph><note>Gregorius, cap.
+                                unic&#160;: <emph>Indecens,</emph>ibid.</note> Une serve se maria o
+                            un serf d'une iglise&#160;; enprès li sires à la serve la franchi, et le
+                            mari remest cuvert. Il orent enfant&#160;: or vodrent li clerc à qui le
+                            père estoit serf, que li enfes fust serf, por ce que le père l'estoit.
+                            Le fiz à soi deffendre mostra la chartre de franchise de sa mère. Le
+                            pape dit que se li clerc ne dient rien contre la chartre, que il ne
+                            demendent rien à l'enfant, cum il déent plus deffendre que
+                            travailler.</p>
+                        <p>Note que qui est nez de franche mère ne doit pas estre mis en
+                            cuvertage.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_11">
+                <front>
+                    <head>XI. De cosinage espéritel<note>Decret. Greg. IX, lib. 4, tit. 11&#160;:
+                                <emph>De cognatione spirituali</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex</hi>. III. <emph>Utrum</emph><note>Alexander III
+                                Salernitano archiepiscopo, cap. 1&#160;: <emph>Utrum,</emph>
+                                ibid.</note>. Ticius tient sor fonz la fille Berte&#160;: ceste
+                            fille ne se pot marier o nul des filz. Ces autres fiz et cez autres
+                            filles Berte et Ticius se poent marier, se aucune costume d'aucune
+                            iglise n'est encontre ce.</p>
+                        <p>Note que la derrenière costitucion fet tort à la première, tot n'en
+                            face-ele nule mencion&#160;; et costume fet léaus ou desléaus aucuns à
+                            soi marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="199"/>I<hi rend="sc">dem eidem.</hi>
+                            <emph>Si vir</emph><note>Alexander III Salernitano archiepiscopo, cap.
+                                2&#160;: <emph>Si vir</emph>, Decret., lib. 4, tit. 11.</note>. L'en
+                            dit ci que se hom ou feme lèvent enfanz de fonz, qui sont lor propres,
+                            l'en ne la doit pas départir por ce, mès l'en doit amener à pénitence de
+                            continence &#160;; tot dient autres autrement, que s'il le font par
+                            ignorance, il sont excusez&#160;; se escient, il ne devent rien
+                            gaagnier.</p>
+                        <p>Note que ce qu'est establi généraument, si cum compérage, n'empeeche pas
+                            mariage à fere solement, mès il dépièce le fet&#160;; et folie et
+                            ignorance excuse.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem</hi>. V<hi rend="sc">igilien</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Super eo</emph><note>Idem Vigiliensi episcopo, cap. 3&#160;:
+                                    <emph>Super eo</emph>, ibid.</note>. L'en dit ci que de commun
+                            droit fiz ou filles de compères se poent marier, for cil par qui le
+                            compérage est fez. Mès cele ou nule des autres ne se doit marier, se ele
+                            le fet, ele doit estre départie, se costume d'yglise non donne que fiz
+                            de compères ne s'entrepregnent par mariages. Et si tel costume n'est
+                            gardée, li prélat porra lesser assemble en manière d'oblience.</p>
+                        <p>Note que costume est gardée en joindre mariage et en dépécier. Note que
+                            l'en doit recorre à la costume des veisines iglises, non pas de l'iglyse
+                            de Rome&#160;; et qui se test, ne n'otroie ne ne désotroie.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> C<hi rend="sc">lemens</hi> III. <emph>Martinus</emph><note>Clemens III,
+                                cap. 4&#160;: <emph>Martinus</emph>, ibid.</note>. Martin avoit
+                            Berte à feme, et Lohier, Teberge&#160;; Lohier tint le fiz Berte et
+                            Martin&#160;; quant Lohier et Berte furent mort, Martin prist Teberge à
+                            feme&#160;: l'en demende se tel mariage tient&#160;? L'en dit que non,
+                            car ele estoit sa commère par la reson dou mari.</p>
+                        <p>Note que par un des mariz est aquis compérage&#160;; et home et feme sont
+                            une char par mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Contracto</emph><note>Idem, cap. 5&#160;: <emph>Contracto</emph>,
+                                ibid.</note>. P. se maria o A.&#160;; et quant il orent esté
+                            ensemble deus anz, li cosin à la feme distrent que ele, avent que ele se
+                            mariast, estoit commère P., et le fiz son mari, que il avoit eu de
+                            mechie avoit cele A. doné le sel bénoit&#160;: et por ce li évesque lor
+                            défendit que l'un ne f.... l'autre. L'en dit ci que li hom retort à sa
+                            feme, car tel empêchement ne nuist pas à marier&#160;; s'il est fet, il
+                            ne pot départir.</p>
+                        <p><pb n="200"/>Note que por ce qui est avant batesme fet, n'enpêche pas, ne
+                            n'est pas fet compérage&#160;; et la niceté au juige ne nuist pas as
+                            parties.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">nno.</hi>III, <hi rend="sc">episcopo et ar. linconen.</hi>
+                            <emph>Veniens</emph><note>Innocentius III episcopo et archidiacono, cap.
+                                6&#160;: <emph>Veniens</emph>, Decret., lib. 4, tit. 11.</note>. Cum
+                            un eust f.... une ribaude, que ce fet ne fut seuz, la feme prist le fiz
+                            son ami qu'il avoit eu d'une autre, et le tint sor fonz. Cil hom emprès
+                            cele feme esposa&#160;; et quant il n'en pot avoir nul enfant, il prist
+                            une autre, et la lessa. Le pape dist que, se la première feme, avant
+                            qu'ele se mariast o lui, tint son fiz, qu'il séent départiz.</p>
+                        <p>Note que compérage despièce mariage et destorbe.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem</hi>. M<hi rend="sc">agist. s. ca. herefodenen.</hi>
+                            <emph>Tua</emph><note>Idem magistro S. Canonico Herforden., cap.
+                                7&#160;: <emph>Tua</emph>, ibid.</note>. L'en demende se cil qui est
+                            nez devant compérage se pot marier o la fille son compère ou de la
+                            commère&#160;; ou s'il sunt commerz, s'il devent estre désevrez&#160;;
+                            et savoir se cil qui tel mariage sevent, le devent acuser
+                            apertement&#160;? Et l'en dit qu'il devent estre départiz&#160;; et cil
+                            qui rien en sevent le devent dire à l'iglyse.</p>
+                        <p>Note que l'en ne doit pas solement dénoncier le péchié de mariage, mès
+                            l'empeechement&#160;; et chascun est tenuz au dire.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> G<hi rend="sc">regorius</hi> IX. <emph>Ex litteris</emph><note>Gregorius
+                                IX, cap. 8&#160;: <emph>Ex literis</emph>, ibid.</note>. Com une
+                            feme demendast un home à mari, et deist que il l'avoit fiencée, et
+                            enprès l'avoit f...., le plet entamé, li tesmoing receu et overt, li hom
+                            dist qu'il ne la poet avoir à feme, por ce que le père à la feme, qui
+                            avoit esté prestre, l'avoit banie. Le juige ne reçust pas ceste barre,
+                            et ala ostre en la cause. Li hom por ce apela. Le pape mende, que s'il
+                            est issi, que quantque a esté fet soit dépecié.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_12">
+                <front>
+                    <head>XII. De cosinage léal<note>Decret. Greg. IX, lib. 4, tit. 12&#160;:
+                                <emph>De cognatione legali.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> N<hi rend="sc">icol. ad consult</hi>. B<hi rend="sc">asart</hi>.
+                                <emph>Si qua.</emph><note>Nicolaus ad consulta Bulgarorum, cap.
+                                1&#160;: <emph>Si qua</emph>, ibid.</note> Mis pères avoe aucune à
+                            fille&#160;; l'en demende savoir, se tant comme dure cest avoement, se
+                            la puit prandre à feme&#160;? L'en dit que non.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_13">
+                <pb n="201"/>
+                <front>
+                    <head>XIII. De celi qui conuit la cosine sa feme<note>Decret. Greg. IX, lib. 4,
+                            tit. 13&#160;: <emph>De eo qui cognovit consanguineam uxoris suœ vel
+                                sponsœ</emph>. — Dans le manuscrit, cette rubrique se trouve entre
+                            les chap. 1 et 2 de ce titre&#160;; nous l'avons rétablie à sa véritable
+                            place.</note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> E<hi rend="sc">x con. ap. mels.</hi>
+                            <emph>Si quis</emph><note>Ex concilio apud Metiam, cap. 1&#160;:
+                                    <emph>Si quis,</emph> ibid.</note>. Aucun f.... sa
+                            fillastre&#160;: l'en dit que il n'aura, d'equi en avant, ne l'une ne
+                            l'autre&#160;; ne l'un ne l'autre, d'iqui en avant, ne se porra
+                            marier.</p>
+                        <p>Note que qui fet tel péchié ne se pot marier, tot muire sa feme, car il
+                            pèche contre mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A<hi rend="sc">lex.</hi>III. P<hi rend="sc">ict</hi>. E<hi rend="sc"
+                                >piscopo.</hi>
+                            <emph>Veniens</emph><note>Alexander III Pictaviensi episcopo, cap.
+                                2&#160;: <emph>Veniens</emph>, ibid.</note>. Aucun f.... la mère à
+                            cele qu'il avoit esposée. La pape dit que, s'il ne f.... la fille, quant
+                            il ara fete sa pénitence, par grâce se porra marier o autre&#160;; et
+                            s'il la f.... avant qu'il f..... la mère, ou puis, il ne se porra d'iqui
+                            en avant marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>
+                            <emph>De Illo</emph>. Le cas est plain. Note que l'en doit savoir se
+                            péchié est apert ou non.I<hi rend="sc">dem</hi><note>Idem, cap. 3&#160;:
+                                    <emph>De illo,</emph> ibid.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> C<hi rend="sc">elsus.</hi>
+                            <emph>Trasmisse</emph><note>Cælestinus III, cap. 4&#160;:
+                                    <emph>Transmissœ,</emph> ibid.</note> Un, quant sa feme fut
+                            morte, f.... sa fillastre&#160;; et cum il eust pris avant une autre
+                            feme, il tint cele fillastre apertemant. L'en demende qu'en dit
+                            droit&#160;? Et l'en dit qu'il f.... sa feme o dolor et o lermes, et
+                            qu'il ne l'en requière pas&#160;; et por le péchié et por le avotire
+                            face la pénitence&#160;; et se sa feme muert, que plus ne se marist.</p>
+                        <p>Note que qui f... sa parente ou coisine ho a parentié, que por ce il
+                            n'enpeeche pas mariage <emph>(fait)</emph>&#160;; mes il l'empeeche s'il
+                            est à<emph>(faire)</emph>&#160;; et ice est entredit de mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Super eo</emph><note>Idem, cap. 5&#160;: <emph>Super eo,</emph>
+                                ibid.</note>. Un se maria ou aucune, et enprès disoit qu'il avoit
+                            f..... la cosine sa feme, avant qu'il la prist&#160;; et la feme disoit
+                            ce meisme, et li veisin. L'en demende se le mariage doit estre départi
+                            por ce&#160;? Et l'en dit que non par lor reconoissance solement, car il
+                                <pb n="202"/>porroit estre fet en conchiemant dou mariage, ne por
+                            les voisins, ne por la reconoissance.</p>
+                        <p>Note que l'en ne croit pas à qui reconoist, en droit, en tort à l'autre
+                            partie&#160;; et là où il n'a nul mariage, est aucun forcez à rendre à
+                            sa feme ce qu'il doit, c'est f.....</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">nno</hi>. P<hi rend="sc">reposito</hi> M<hi rend="sc"
+                                >agdon.</hi>
+                            <emph>Discrecionem</emph><note>Innocentius III præposito Magdeburgensi,
+                                cap. 6 &#160;: <emph>Discretionem,</emph> Decret., lib. 4, tit.
+                                13.</note>. Un, une qu'il avoit esposée et f....., balla à son
+                            cosin, à sa volenté et à (<emph>contre</emph>) la volenté à la feme, à
+                            f......, et l'esposa&#160;; et au plus tost qu'ele pot, ele s'enfoï, et
+                            requist son mari&#160;; le mari dist qu'ele ne poet avoir por l'avotire.
+                            Le pape dit qu'ele doit estre amonestée, qu'ele ne soit à l'un ne à
+                            l'autre&#160;; mès soit en chastée dusque son mari muire&#160;; et s'ele
+                            n'i pot estre ramenée, le premier mari soit forciez à retorner à li, com
+                            il ne le puisse metre avant avotire dont il a esté acheson. Car com hom
+                            ne puisse sa feme giter ne lessier que por fornicacion, ou por aucun
+                            avotire, l'en pot dire contre l'ome, s'il i a que dire, si com si a esté
+                            parçoner de la folie, ou s'il en fut acheson, ou en autre manière&#160;;
+                            tot dient li autre autrement.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem</hi> B<hi rend="sc">issinen. ar.</hi>
+                            <emph>Fraternitati</emph><note>Idem Besuntinensi archiepiscopo, cap.
+                                7&#160;: <emph>Fraternitati</emph>, ibid.</note>. Un se maria o une
+                            de sept anz par espossalles, et la cochia. Enprès se maria o sa suer. Et
+                            fut départi par l'évesque, et le pape le conferma.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>I<hi rend="sc">dem</hi> E<hi rend="sc">piscopo</hi> G<hi rend="sc"
+                                >usmeden.</hi>
+                            <emph>EX literis</emph><note>Le Coutumier répète ici les premiers mots
+                                du § précédent&#160;: <emph>Un se maria o une de sept anz par
+                                    esposalles</emph>. Vient ensuite l'indication des sources du §
+                                8, dont les termes véritables sont&#160;: Idem E<hi rend="sc"
+                                    >piscopo</hi> G<hi rend="sc">erundensi</hi>, cap. 8 &#160;:
+                                    <emph>Ex literis,</emph> ibid.</note>. Unes esposalles furent
+                            entre un bachelier et une pucele qui n'avoit pas quatorze anz&#160;; li
+                            espos f.... la mère à l'espose, et enprès la fille qui estoit d'aage.
+                            L'en dist que l'esposse ne se pot à autre marier, se ele, puis qu'el sot
+                            le péchié, sofri la folie&#160;; li hom et la feme à toz jorz se
+                            teingnent de marier, por le péchié, se l'en cuide que se puisse tenir de
+                            fere folie.</p>
+                        <p>Note que affineté nuit en espossalles&#160;; et qui f... la mère ne se
+                            pot marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">rch</hi>. M<hi rend="sc"
+                                >ald.</hi>
+                            <emph>Veniens</emph><note>Idem archiepiscopo Magdeburgensi, cap.
+                                9&#160;: <emph>Veniens,</emph> ibid.</note>. Un jura qu'il prandroit
+                            une à <pb n="203"/>feme qui n'avoit pas douze anz. Et cum le père à
+                            l'espose l'eust mise en sa meson, il fist tant qu'il f.... la seror à
+                            l'espose. Et quant tens fut qu'il poet jà bien f..... l'espose, li ami
+                            li prièrent qu'il se mariast o l'espose. Il lor dit ce qu'il avoit
+                            fet&#160;; il ne l'en vodrent croire&#160;: il prist l'espose&#160;; et
+                            quant il poet, il f..... et l'une et l'autre. Et comme il fust sor ce
+                            acusez, ne no vosist reconoistre, il s'en fist confès. Le pape dit qu'il
+                            en ait sa pénitence, et qu'il soit amonesté qu'il ne f.... plus ne l'une
+                            ne l'autre.</p>
+                        <p>Note que assemblement de mariage pot estre afermé par plévine.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p>I<hi rend="sc">dem</hi>. S<hi rend="sc">t</hi>. G<hi rend="sc">en.
+                                ar.</hi>
+                            <emph>Tue</emph><note>Idem archiepiscopo Strigonensi, cap. 10&#160;:
+                                    <emph>Tuœ,</emph> Decret., lib. 4, tit. 13.</note>. Aucun f....
+                            la soror sa feme&#160;; donc l'en demende s'il pot requerre sa feme que
+                            ele le lest f......, ou se ele le requiert, s'il la f.....&#160;? Et
+                            l'en dit que l'en doit amonester la feme qu'ele se contiegne&#160;; et
+                            s'ele ne pot bien, la f.... son mari, com ele ne soit pas parçonière do
+                            péchié.</p>
+                        <p>Note que le fet d'un ne doit pas nuire à autre&#160;; et nul ne doit
+                            perdre sa droiture sanz colpe.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Jordane</emph><note>Gregorius IX episcopo Pictaviensi, cap.
+                                11&#160;: <emph>Jordanœ,</emph> ibid.</note>. Un esposa une qui
+                            n'avoit pas quatorze anz&#160;; et ayant qu'ele les eust, il la
+                            f....&#160;; et enprès il la lessa, et se maria à sa mère, et la f....
+                            L'en dit que il se devent contenir, et s'il ne poent estre amené, li hom
+                            preigne la fille, qu'il f.... avant, et en face sa pénitence.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_14">
+                <front>
+                    <head>XIV. De cosinage et d'afinité<note>Decret. Greg. IX, lib. 4, tit.
+                            14&#160;: de <emph>Consanguinitate et affinitate.</emph></note></head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex</hi>. III C<hi rend="sc">assin. abbati.</hi>
+                            <emph>EX litteris</emph><note>Alexander III Cassiensi abbati, cap.
+                                1&#160;: <emph>Ex literis</emph>, ibid.</note>. Un home enherra une
+                            veve, et la f..... Et quant il la volt prandre, dui vindrent et distrent
+                            que le premer mari à cele feme estoit cosin à cel home ou quatre genoil,
+                            et issi ne la poet avoir, et ce jura l'un et l'autre. Por ce l'ome la
+                            lessa. Enprès ce il l'esposa et furent ensemble. Enprès viendront dui
+                            autres, et jurèrent que le premier mari à la feme estoient cosin en
+                            quatre genoul à l'ome. Le pape mande à un abié, et li enseigne <pb
+                                n="204"/>comment il doit les guaranz examiner, et li dit que à sages
+                            homes doit l'en bailler causes de mariage.</p>
+                        <p>Note que abé pot conoistre de cause de mariage&#160;; et aussi se doit
+                            home atenir des coisines sa feme si comme des soes&#160;; et doit l'en
+                            savoir et conter les degrez&#160;; et doit l'en bailler à sages cause de
+                            mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> U<hi rend="sc">rb.</hi> III V<hi rend="sc">ind. ar.</hi>
+                            <emph>Super eo</emph><note>Urbanus III Burdegalensi archiepiscopo, cap.
+                                2&#160;: <emph>Super eo,</emph> Decret., lib. 4, tit. 14.</note>. Un
+                            esposa une pucele, et quant ele fut d'aage, ele requeroist que la
+                            prist&#160;: et il disoit que puis que il l'esposa, qu'il avoit sa
+                            cosine f..... L'en dit ci, que se ce est apert, et li vesin le dient,
+                            que la feme n'en soit pas oïe.</p>
+                        <p>Note que plus vaut renomée que li tesmoing d'un.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Quod
+                                dilectio</emph><note>Cælestinus III, cap. 3&#160;: <emph>Quod
+                                    dilectio,</emph> ibid.</note>. Poson que un soit loign do commun
+                            père ou cinq ou sept genou, et li autre ou trois ou en deux&#160;: l'en
+                            demende s'il se poent marier&#160;? Et l'en dit que oïl. Li un et li
+                            autre devent estre en sept genou&#160;; si que non, il devent estre
+                            départi.</p>
+                        <p>Note que en dépècement de mariage por parenté, l'en doit conter le genouz
+                            de çà et de là. Légat pot fere indulgence.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">ar. et ca</hi>. T<hi
+                                rend="sc">uron.</hi>
+                            <emph>De infidelïbus</emph><note>Innocentius III archiepiscopo et
+                                capitulo Tiren., cap. 4&#160;: <emph>de Infidelibus,</emph>
+                                ibid.</note>. L'en demende ci se hom et feme sont mescréant, s'il se
+                            convertissent à la foi, et séent joint en degré de parenté qui est
+                            deffendu, s'il devent estre départi&#160;? Et l'en dit que non&#160;;
+                            car verai mariage est entr'aus.</p>
+                        <p>Note que mariage est entre totes genz.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem</hi> B<hi rend="sc">iasemen. ar.</hi>
+                            <emph>Quod super</emph><note>Idem Rosani, archiepiscopo, cap. 5&#160;:
+                                    <emph>Quod super,</emph> ibid.</note>. Li père et li fiz, li dui
+                            cosin les deux cosines prenent à femes les deux cousines&#160;; li autre
+                            se marient dedanz lignage. Au premier respont la pape, que tot soent li
+                            cosin à l'ome afins, et non pas à la feme, por ce n'est pas parenté
+                            entr'aus, et se poent itex marier&#160;; et qui se marie dedanz degré de
+                            parenté doit estre puni.</p>
+                        <p>Note que nule affinité n'est entre les coisins à l'ome et à la
+                            feme&#160;; et ci est folle l'opinion d'aucun qui diseent que les dui
+                            serors ne se poent marier&#160;; et costume ne s'escuse pas en péchiez,
+                            ne ne vaut rien en mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p><pb n="205"/>I<hi rend="sc">dem.</hi>
+                            <emph>Quia</emph><note>Idem, cap. 6&#160;: <emph>Quia,</emph> Decret.,
+                                lib. 4, tit. 14.</note>. Cum un chevalier se fust mariez ou une que
+                            li teignoit ou cinq genou, il empétra indulgence de remanoir o lui, et
+                            fist entendant que il avoit enfanz, cum il n'en eust eu que une fille
+                            qui estoit morte. Donc li évesque do leu demenda que l'en en fera&#160;?
+                            Et l'en li dist que bien le pot lessier ensemble.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Tua nos</emph><note>Idem, cap. 7&#160;: <emph>Tua nos,</emph>
+                                ibid.</note>. L'en demende que garanz sofisent à mariage dépécier,
+                            hoù il acontent les degrez d'oncle et de nevou, c'est de fiz de frère ou
+                            de la seror, cum il ne sachent rien de frères, o de serors, ne de plus
+                            haut&#160;? Et l'en dit que l'en requiert que l'en conte les degrez des
+                            pères ou des cosins par lor propres nons, ou par le vallent de dire les
+                            persones&#160;; et por ce que l'en receist en mariage garentie, doit
+                            dire il n'est pas moult (<emph>moins</emph>) fort.</p>
+                        <p>Note&#160;: qui velt conter les degrez, il doit commoincier de
+                            l'estepe&#160;; et note que l'en doit les degrez deviser segont lor
+                            ordre.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>I<hi rend="sc">dem</hi>. T<hi rend="sc">ercius con. ge.</hi>
+                            <emph>Non debet</emph><note>Idem in Concilio generali, cap. 8&#160;:
+                                    <emph>Non debet</emph>, ibid.</note>. L'en dit deus choses en ce
+                            chapitre&#160;: l'en dit que la deffense de mariage (<emph>qui</emph>)
+                            est en trois et an deus degrez d'afinité, et des enfanz receuz de segont
+                            mariage joindre à coisins au premer seignor, est hui rapelée. Enprès dit
+                            l'en que la deffense de colpe (<emph>copule</emph>) de mariage ne passe
+                            pas le quart degré &#160;; et se aucun se marie ou quart degré, il ne
+                            soit deffendu de la loigneté des paranz.</p>
+                        <p>Note que l'en ne doit pas juiger ne reprendre se l'en diverse segont la
+                            diversité des tens&#160;; et lignage et affinité s'estendent dusqu'à
+                            quart degré.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p> G<hi rend="sc">regorius</hi> IX, <hi rend="sc">ex</hi> B<hi rend="sc"
+                                >rocardi.</hi>
+                            <emph>Vir qui</emph><note>Gregorius IX, cap. 9&#160;: <emph>Vir,
+                                    qui,</emph> ibid.</note>. L'en dit ci que se li hom est loing do
+                            chief de parenté ou quart genou, d'une part, et la feme ou cinq,
+                            d'autre, il se poent bien marier.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_15">
+                <pb n="206"/>
+                <front>
+                    <head>XV. Des fruiz qui ne puent assembler<note>Decret. Greg. IX, lib. 4, tit.
+                            15, <emph>de Frigidis et maleficiatis et impotentia
+                            coeundi.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>
+                            <emph>Accepisti</emph><note>Ex Brocardico, cap. 1&#160;:
+                                    <emph>Accepisti,</emph> ibid.</note>. Se hom et feme, puis qu'il
+                            sont ensemble esté troiz anz (<emph>mois</emph>) et un enprès (<emph>an
+                                près</emph>), et il dient que li hom ne la pot f...., se l'en pot ce
+                            prover léaument, il devent estre départiz. Et se li hom prent autre
+                            feme, qu'il soit juigé à parjure, et en face sa pénitence, et retort à
+                            la première. Et se enprès an et demi, die la feme que li hom ne la conut
+                            mie, et li hom die encontre, l'en en doit croire l'ome&#160;; car il est
+                            chief à la feme, et por ce qu'ele se tut si longuement&#160;; car en
+                            petit de tens pot savoir s'il la f.... ou non. Et s'ele dit enprès deus
+                            mois&#160;: Je voil estre veue, et l'en pot prover léaument que li hom
+                            ne la pot f......, il devent estre départi&#160;; et cele se marit là où
+                            ele vodra.</p>
+                        <p>Note que l'en ne croit mie à home et à feme s'il dient contre le mariage,
+                            mès il convint provance&#160;; et do premer fet est-il parjure&#160;; et
+                            qui est départi por ce qu'il est froiz, doit retorner à la
+                            première&#160;; et l'en doit croire l'ome qui fet por le mariage&#160;;
+                            et la feme pot bien savoir si li hom la pot f.....</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A<hi rend="sc">lex.</hi> III, A<hi rend="sc">nbianem. episcop.</hi>
+                            <emph>Quod sedem</emph><note>Alexander III Ambianensi episcopo, cap.
+                                2&#160;: <emph>Quod sedem,</emph> ibid.</note>. Un esposa une feme,
+                            qui par rumpeure avoit perdu la c....., n'onques ne la f..... Cele,
+                            porce que cil est meseaus, se velt à autre marier. Et l'en dit qu'ele se
+                            marit&#160;: car le premer ne valut rien à marier, ne plus que un
+                            enfant, quant il ne pot f.....</p>
+                        <p>Note que non poer de f..... fet empeechement en mariage, cum en
+                            enfant.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>
+                            <emph>Ex literis</emph><note>Idem, cap. 3&#160;: <emph>Ex
+                                    literis,</emph> ibid.</note>. Un se maria o une, et quant il la
+                            volt f......, il ne pot&#160;; et la feme en fut si malade que trop.
+                            L'en dit que s'ele a tel vice de nature, ne n'en pot aver aide par
+                            médicine, se marit cil o la segonde.</p>
+                        <p>Note que cil qui ne pot f..... ne se pot marier.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p><pb n="207"/>I<hi rend="sc">dem.</hi>
+                            <emph>Consultacioni</emph><note>Lucius III, cap. 4&#160;:
+                                    <emph>Consultationi,</emph>, Décret., lib. 4, tit. 15.</note>.
+                            L'en demende se l'en se pot marier o c.. estret, o se l'en le doit
+                            départir s'il est conjont&#160;? Et le pape ne respont pas à ceste
+                            demende&#160;; mès il dit que si ne poent estre eues come femes, qu'il
+                            séent comme serors.</p>
+                        <p>Note que l'en ne se pot marier à c.. étret.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Laudabilem</emph><note>Cælestinus
+                                III, cap. 5&#160;: <emph>Laudabilem,</emph> ibid.</note>. L'en
+                            demende se feme se marie à home de froide complexion, combien l'en doit
+                            atendre cele froidure&#160;? Et l'en dit que tot séent divers li tens
+                            segont les lois et les canons, segont la loi devent estre ensemble trois
+                            anz. Et se lors ne le pot l'en savoir, et cil ne l'a f..... entretant,
+                            ele pregne un autre&#160;; et s'il se marie ou autre, si soit départiz.
+                            Et si dient endui que il ne s'entre-poent f....., il le devent afermer
+                            par la main de sept jurez&#160;; et issi la feme se porra marier&#160;;
+                            et se cil se marie à autre, face sa pénitence de parjure, et s'en
+                            reviegnent arrière.</p>
+                        <p>Note que naturel froidure pot estre provée dedanz trois anz.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">nno</hi>. A<hi rend="sc">utisid. e.</hi>
+                            <emph>Fraternitatis</emph><note>Innocentius III Altissiodorensi
+                                episcopo, cap. 6&#160;: <emph>Fraternitatis,</emph>, ibid.</note>.
+                            Un hom fut départi de sa feme, qu'il ne la poet f......, et puis qu'il
+                            fut prové qu'ele ne poet estre feme, si cum cele qui n'avoit point de
+                            c... La feme voa chastée, et promist à entrer en religion. Et donna l'en
+                            congié au mari de prendre autre. Enprès ce la feme trova que son pertuis
+                            li ovri, et se maria à un qui avoit nom Guillerme&#160;; et pria l'en le
+                            pape qu'il remainsit o cele. Le pape dit qu'il ne set pas se ele voa
+                            simplement ou solempnéement, ne comment ele fut percié, ou par
+                            fisiciens, ou par hureiz de v..&#160;; dont il apert que ce vice ne fut
+                            pas perdurable empeechement qui pot estre ostez sans péril de cors. Et
+                            por ce dit-il que la sentence fut donée nicement, et dit que mariage est
+                            entre la première et G., et o la segonde, non. Dont il les départi, et
+                            commende qu'il retort à la premère, s'ele n'entre en religion, ou s'ele
+                            ne voe chastée. Et issi entent l'en que ele ne feist fornicacion o le
+                            segont, puisqu'ele voa continence, cum l'en la poit metre arrière por la
+                            fornicacion. Et s'ele voa chastée simplement, et puis prist le segont,
+                            l'en dota de lui, et par l'ome estoit-ele <pb n="208"/>rendue convenable
+                            à home, por ce ne dut l'en pas cuidier qu'ele eust fet fornicacion o
+                            lui.</p>
+                        <p>Note que provance de cors par droit est aprovée&#160;; et l'en dit que ce
+                            qui est sanz preu n'est pas&#160;; et sentence donné par error provable
+                            pot estre rapelée&#160;; et issi pot yglise chasteer sa folie&#160;; et
+                            il a différence entre vou simple et sollempné&#160;; et l'en ne se pot
+                            marier o feme qui a c.. atroit.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p> H<hi rend="sc">onorius</hi> III. <emph>Litere</emph><note>Honorius III,
+                                cap. 7&#160;: <emph>Literœs</emph>, Decret., lib. 4, tit.
+                            15.</note>. Une feme requéroit estre départie, devant juiges délégaz, de
+                            son mari&#160;: car cum ele eust esté o lui huit anz, il ne la poet
+                            f......, tot s'abendonast la feme à lui à sa volenté. Li homdisoit que,
+                            tot ne la poist-il f....., il f...... bien autres. Li juige, qui orent
+                            peor que il ne le feissent par conchiement, firent la feme esgarder à
+                            prodes femes par devers le c.., qui distrent qu'ele estoit virge. Et cum
+                            li juige ne poissent savoir s'il poent f..... li un o l'autre, et la
+                            feme requist estre départie, il requistrent le pape quil
+                                (<emph>qui</emph>) mande&#160;: que se li hom et la feme ont hinté
+                            trois anz ensemble, et ont juré que l'un ne pot f..... l'autre, qu'il
+                            soent départi.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_16">
+                <front>
+                    <head>XVI. De mariage fet encontre l'entredit d'yglise<note>Decret. Greg. IX,
+                            lib. 4, tit. 16, <emph>de Matrimonio contracto contra interdictum
+                                Ecclesiœ.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lexander</hi> III, P<hi rend="sc">ad. episcopo</hi> XXV.
+                                <emph>Litere</emph><note>Alexander III Paduano episcopo, cap.
+                                1&#160;: <emph>Literœ</emph>, ibid.</note>. Cum une feme fust
+                            esposée à un autre par présent, quant il fut mort, ele prist son
+                            frère&#160;; et cum li évesques li défendit qu'il ne se mariast ne à
+                            celi ne autre, ele se maria au tierz, et se fist f.....&#160;; et cum li
+                            évesque li eust commendé à aler chés sa mère, ele apela. Le pape mende
+                            qu'ele auge chiés sa mère, si comme li évesques commenda, et quant ele i
+                            aura esté un mois, qu'ele retort au tierz mari.</p>
+                        <p>Note que aucun se pot lier d'autrui fet&#160;; et la cause est renviée à
+                            celi don l'en apele&#160;; et prélat ne doit pas soffrir que ce qu'il
+                            commende ne soit fet&#160;; et mariage fet contre la deffense sainte
+                            iglise tient.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p><pb n="209"/>I<hi rend="sc">dem</hi>. B<hi rend="sc">atenen.
+                                episcopo.</hi>
+                            <emph>EX literis</emph><note>Alexander III Vigoriensi et Baron.
+                                episcopis, cap. 3&#160;: <emph>Ex literis</emph>, Decret., lib. 4,
+                                tit. 16.</note>Cum R. eust esposé une en la main son père, et enprès
+                            se vosist allors marier, li arcevesque de Conturbere le li
+                            défendi&#160;; et sor se cil prist une autre. Et cum cil R. et l'autre
+                            feme eussent reconeu que il s'estoit marié avant, et enprès prist une
+                            autre par folie, et li mari deist que il l'avoit esposée, quant li
+                            arcevesques volt aler avant en la cause, le marié apela. Et li
+                            arcevesque li deffendi qu'ele ne se mariast dusque la cause fust
+                            terminée&#160;; cele se maria enprès sa deffense. Le pape mende que si
+                            vot que il ait fience entr'aus, que le segont mariage tienge, et que cil
+                            R. face sa pénitence por ce qu'il se maria contre la deffense sainte
+                            yglise.</p>
+                        <p>Note que l'en ne croist pas à qui reconoist par soi por mariage&#160;; et
+                            défense d'iglise n'est pas cause sofisant à départir mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>De Muliere</emph><note>Idem Paduano episcopo, cap. 3&#160;:
+                                    <emph>de Muliere,</emph> ibid.</note>. L'en dit que se sopcenos
+                            de parenté se marient contre défense d'iglise, il devent estre départi
+                            dusque l'en l'ait seu.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_17">
+                <front>
+                    <head>XVII. Qui sunt leax fez<note>Decret. Greg. IX, lib. 4, tit. 17&#160;:
+                                <emph>Qui filit sint legitimi.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>Conquestus</emph><note>Alexander
+                                III, cap. I&#160;: <emph>Conquestus</emph>, ibid.</note>. Un ot
+                            enfanz de sa meschine&#160;; il la prist à feme. Quant il fut morz, li
+                            coisin voloient tolir as enfanz l'éritage au père, comme as
+                            bâtarz&#160;: et l'en deffent qu'il ne le facent.</p>
+                        <p>Note que enfanz sont amoilleré par le mariage fet enprès&#160;; et pape
+                            se pot entremetre d'éritage por reson de péchié.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Cum inter</emph><note>Idem, cap. 2&#160;: <emph>Cum inter,</emph>
+                                ibid.</note>. Un se maria à une, et prist à bénoiçon&#160;; enprès
+                            parenté fut prové entr'aus, et furent départi&#160;: l'en demende qu'en
+                            dit droit des fiz engendrez avant le département&#160;? L'en dit qu'il
+                            devent estre mollerez, et avoir l'éritage.</p>
+                        <p>Note que tens do concevement doit estre noté por le preu as enfanz&#160;;
+                            et l'en croit plus ce qu'est en cuidence que ce qu'est en vérité. Et
+                            note <pb n="210"/>que li enfant que yglise tient amollerez, que li père
+                            les devent norrir, et devent estre lor heir.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Transmisse</emph><note>Alexander III Rothomagensi archiepiscopo,
+                                cap. 3 &#160;: <emph>Transmissœ,</emph> Decret, lib. 4, tit.
+                                17.</note>. Un qui avoit sa meschine, se maria, et norri un enfant
+                            que l'en cuidet qui fut lor fiz&#160;; et il le niéent, et disoent qu'il
+                            le norrisoent por Dé. Et cum li autre enfant le vosissent metre hors de
+                            l'éritage, le pape dit que l'en en doit croire l'ome et la feme, si l'en
+                            ne pot prover qu'il ne soit lor fiz.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem, exonen. abbati</hi> H<hi rend="sc">erefeidenen.</hi>
+                            <emph>Sator</emph><note>Idem Exoniensi episcopo et abbati Herfordensi,
+                                cap. 5 &#160;: <emph>Lator,</emph> ibid.</note>. Cum N. eust tret H.
+                            son oncle en cause por sa partie de l'éritage, cil H. dist que le père
+                            N. n'avoit pas esté nez de mariage&#160;; et cum il eussent plédié
+                            devant l'évêque, cil H. apela à la pape, et n'i vint, ne n'i envoia. Le
+                            pape mende à un juige qu'il oe la cause de la nessance N. dedanz deus
+                            mois&#160;; et se cil H. ne prove ce qu'il dit, qu'il mende au juige
+                            devant qui la cause estoit, qu'il défine le plet.</p>
+                        <p>Note que certain terme pot estre mis à cez qui plèdeent, dedenz que s'il
+                            ne provent lor intencion, il ne seront pas oïz. Et note qu'il appartient
+                            premièrement au juige estrange conoistre de la cause de la nessance.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem. episcop</hi>. E<hi rend="sc">xonen.</hi>
+                            <emph>Tanta</emph><note>Idem Exon. episcopo, cap. 6&#160;:
+                                    <emph>Tanta,</emph> ibid.</note>. Se le fornicator se marie o la
+                            damoisele dont il a eu enfanz, li enfant sont molleré par le mariage qui
+                            vint enprès.</p>
+                        <p>Note que fiz engendré en avotire ne pot estre molleré&#160;; et ce que
+                            droit damne ne pot estre amendé d'iqui en avant.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">ud. et</hi> W<hi rend="sc">ill.
+                                episcop.</hi>
+                            <emph>Tamen</emph><note>Idem London. et Vigorien. episcopis, cap.
+                                7&#160;: <emph>Causam</emph>, ibid.</note>Le pape manda à un juiges
+                            que il feissent seisir R. de ses teneures, que sis aos avoit quant il se
+                            mist à la voie d'aler otre-mer. Et por ce que li rois estoit irez que le
+                            pape s'entremestoit de cause de possession, mande le pape qu'il lesse la
+                            cause de possession au roi&#160;; à cui il apartient à juigier de la
+                            nativeté à la mère.</p>
+                        <p>Note que la juridicion le pape et des princes est devisée. Et note que
+                            l'en pot quenoistre de l'estat d'aucun enprès ce qu'il est mort.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p><pb n="211"/>I<hi rend="sc">dem. ep. et arch</hi>. V<hi rend="sc"
+                                >incenen.</hi>
+                            <emph>Relatum</emph><note>Idem episcopo et archidiacono Vincentino, cap.
+                                8&#160;: <emph>Perlatum</emph>, Decret, lib. 4, tit 17.</note>. Plet
+                            estoit entre un de parenté&#160;; le mari ala hors do païs&#160;; la
+                            feme ala devant l'évesque, et requist estre départie, que ele ne le poet
+                            plus atendre. Li évesques manda as parenz à la feme qu'il l'enveessent
+                            quérir&#160;; et quant il ne vint, tot fust-il atendu longuement, li
+                            évesques les départi, et li dona congié de soi marier à autre. Ele se
+                            maria, et ot enfanz, que aucun disoent qu'il estoent bastart. Le pape
+                            disoit qu'il sont mollerez, et qu'il devent estre receuz à
+                            l'éritage.</p>
+                        <p>Note que se par autorité de iglise sunt aucun départi, lor enfanz sont
+                            mollerez. Note que en cause de mariage doit l'en et pot l'en tesmoinz
+                            recevoir, et sentence doner, tot ne soit le plet entammé.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> C<hi rend="sc">elsus</hi>, E<hi rend="sc">bor. ar.</hi>
+                            <emph>Referente</emph><note>Cælestinus III Eboracensi archiepiscopo,
+                                cap. 10&#160;: <emph>Referente</emph>, ibid.</note>. Se aucun se
+                            marie o la cosine sa feme, le mariage est nul, et doit estre
+                            départi&#160;; ne li enfant ne devent pas estre receu à l'éritage.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Pervenit</emph><note>Idem, cap. 11&#160;: <emph>Pervenit</emph>,
+                                ibid.</note>. Une feme disoit que entre son père et sa mère avoit eu
+                            léau mariage, et furent en bel estat dusque à la mort&#160;; lor mariage
+                            fut acusé enprès la mort&#160;: et qu'ele doit estre heir.</p>
+                    </div>
+                    <div>
+                        <head>§ 10.</head>
+                        <p>I<hi rend="sc">nno</hi>. III. <emph>Per tuas</emph><note>Innocentius III,
+                                cap. 12&#160;: <emph>Per tuas</emph>, ibid.</note>. Un ot un fiz
+                            d'une qu'il tenoit si comme sa damoisele&#160;; il la lessa, et prist
+                            une autre, dont il ot enfanz&#160;; et reconu qu'il avoit la premère
+                            feme&#160;; et quant il se mori, il apela celui enfant son heir. Et
+                            comme contanz fut entr'aus de la léauté à celi enfant, la pape dit que
+                            l'en en doit croire l'ome et la feme. Et com cil fiz prove que sis pères
+                            avoit sa mère espossée, li officiau do leu le juiga à léau. Et cum la
+                            cause envoié au pape, il dit que, de ce que sis pères se maria o
+                            l'autre, mariage ne fu pas entre lui et la premère feme&#160;; et por ce
+                            que l'espossalle fut provée par garenz, il furent overz léaument&#160;;
+                            tot furent les esposalles de présent ou de futur, le pape loe la
+                            sentence, et commende qu'el soit gardée.</p>
+                        <p>Note que aucun est prové fiz par le nomemant do père. Et note une
+                            merveille, que aucun pot dire&#160;: Ge sui fiz celui&#160;; et la règle
+                            dit que plus <pb n="212"/>vaut ce qu'est en vérité que ce que est en
+                            opinion&#160;; et se emprès esposalles f... aucun la feme, le mariage
+                            est achevez.</p>
+                    </div>
+                    <div>
+                        <head>§ 11.</head>
+                        <p>I<hi rend="sc">dem nobili viro</hi> M<hi rend="sc">ontispessu.</hi>
+                            <emph>Per venerabilem</emph><note>Innocentais III, nobili viro Gu.
+                                Montis Pessulani, cap. 13&#160;: <emph>Per venerabilem</emph>,
+                                Decret, lib. 4, tit. 17.</note>. Li sires de Montpallier requéroit
+                            le pape qu'il li aléautast ses fiz por estre ses heirs, et provoit à la
+                            pape qu'il le poet fere&#160;: car il aléautet cez qui estoient nez
+                            d'avotire et de parenté, qui séent clers&#160;; plus tost pot-il fere
+                            qu'il séent receu à causes séculères, et mesmement de cez qui sont soz
+                            li. Et ce li prove par l'essemple au roi de France, à qui le pape
+                            aléauta ses fiz, qu'il avoit eu de la segonde feme au vivent à l'autre.
+                            Enprès dit le pape que ce n'est pas senz cause&#160;: car li rois fut
+                            départiz de la première par juigement d'iglise, et avant qu'il se
+                            mariast o la segonde, et avant que l'en li deffendist&#160;; et disoit
+                            qu'il avoit parenté entre lui et la premère, et ce prova par garenz, et
+                            por ce fust départi&#160;; et com le plet fut comenciez do premer
+                            mariage, li enfant qu'il avoit eu de la segonde devent estre molleré, se
+                            la premère estoit sa cosine. Et cum li rois n'eust pas plus haut de soi
+                            en tenporés choses, l'en l'a fet en espérités&#160;; et autant de poer a
+                            un pape comme ot saint Père.</p>
+                        <p>Note que trois menières de causes sunt&#160;: criminel, espéritel, et
+                            citéenne &#160;; et la quarte est meslée, si comme cause de mariage et
+                            patronage. Et note quel poine ont cil qui sont nez en avotire, qu'il ne
+                            poent estre ordenez, ne avoir héritage, ne les pères ne les devent pas
+                            norrir.</p>
+                    </div>
+                    <div>
+                        <head>§ 12.</head>
+                        <p>I<hi rend="sc">dem</hi>. H. <hi rend="sc">et</hi> R. <hi rend="sc"
+                                >can</hi>. B<hi rend="sc">enenonen.</hi>
+                            <emph>Ex tenore</emph><note>Idem H. et R. canonicis Beneventanis, cap.
+                                14&#160;: <emph>Ex tenore</emph>, ibid.</note>. Une demendoit
+                            l'éritage son mari par la reson de un enfant qu'ele avoit eu de lui.
+                            L'en disoit contre lui que son mari avoit esté nez en mariage, car sis
+                            pères l'avoit eu de la seconde feme, au vivent de la première. Encontre
+                            disoit l'en que la segonde ne savoit rien que cil eust autre. Le pape
+                            dist qu'il doit estre léaus.</p>
+                        <p>Note que feme est heir à son mari en héritage&#160;; et feme qui plèdee
+                            est receue por ses enfans&#160;; et cil ne sont pas avotre qui ne
+                            nessent pas de avotre conscience&#160;; et mariage est juigé à léau por
+                            l'amor des enfanz, qui autrement seréent desléaus.</p>
+                    </div>
+                    <div>
+                        <head>§ 13.</head>
+                        <p><pb n="213"/>I<hi rend="sc">dem</hi> T<hi rend="sc">iberensi
+                                episcop.</hi>
+                            <emph>Gaudemus</emph><note>Idem episcopo Tibur., cap. 15&#160;:
+                                    <emph>Gaudemus</emph>, Decret., lib. 4, tit. 17.</note>. Enfanz
+                            nez de mescréanz en mariage joint en trois ou en deux genou, enprès ce
+                            qu'il sont converti, por le preu de l'iglise, devent estre tenu por
+                            franchi et por léaus.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_18">
+                <front>
+                    <head>XVIII. Qui puent acusser mariage<note>Decret. Greg. IX, lib. 4, tit.
+                            18&#160;: <emph>Qui matrimonium accusare possunt, vel contra illud
+                                testificari.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lex</hi>. III. <hi rend="sc">nomina. cen. e.</hi>
+                            <emph>Relatum</emph><note>Alexander III Parisiensi episcopo, cap.
+                                1&#160;: <emph>Relatum,</emph> ibid.</note>. Un hom por peor
+                            d'omicide qu'il avoit fet en une cité, s'enfoï. Enprès vindrent uns qui
+                            acusoent le mariage, et disoient que le père à la feme estoit père au
+                            mari, et por ce ne la poet avoir. L'en dit ci que se cil mari furent
+                            ensenble aucune foiz, se li acuseor sont léal, l'en face quérir le
+                            bacheler&#160;; et se l'en ne pot trover, li afferes soit terminez.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>A nobis</emph><note>Clemens III,
+                                cap. 2&#160;: <emph>A nobis</emph>, ibid.</note>. L'en demende ci se
+                            l'en pot doner sentence en cause de mariage, se li garant ne dient rien
+                            de parole, mès s'il estaient (<emph>escrivent</emph>) lor tesmoing par
+                            cherité&#160;? L'en dit que non.</p>
+                        <p>Note que nus ne pot estre acusez par letres.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> C<hi rend="sc">elsus, papa.</hi>
+                            <emph>Videtur</emph><note>Idem papa Florentino episcopo, cap. 3&#160;:
+                                    <emph>Videtur</emph>, ibid.</note>. L'en dit ci que, en joindre
+                            mariage, les tesmoinz as parenz devent estre plus tost receu que autres
+                            &#160;: car il en sevent plus la vérité.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> I<hi rend="sc">dem.</hi>
+                            <emph>Insuper</emph><note>Idem, cap. 4&#160;: <emph>Insuper</emph>,
+                                ibid.</note>. Un se maria o une pucele qui n'estoit pas bone à
+                            marier&#160;; et quant ele fut d'aage, enprès quatre anz ou cinq, ele
+                            dist, contre le mariage, que ele se maria contre sa volenté. Et l'en dit
+                            ci que por ce qu'el sofri que cil la f.... une foiz, ele se fist
+                            tort.</p>
+                        <p>Note que f..... nuist à celui qui pot réclamer et contredire, et ne le
+                            fet&#160;; et par fermeté est confermé ce que ne valut pas au
+                            commencement.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">nno</hi>. III, <hi rend="sc">arc preposito et priori</hi>
+                                S<hi rend="sc">ancte</hi> M.
+                                <emph>Significante</emph><note>Innocentius III archiepiscopo,
+                                præposito et priori Sanctæ Mariæ de Alban. Genuen., cap. 5&#160;:
+                                    <emph>Insuper,</emph> ibid.</note>. Un se maria&#160;; enprès la
+                            mère acusa le mariage sa fille, por avoir en aucun <pb n="214"
+                            />denier&#160;: et l'en demendoit, tot ne valut rien son acusement, que
+                            la pape en dit&#160;? Le pape mende, que s'il est issi, qu'el ne soit
+                            pas oïe&#160;: car ele ne bée que à nuire.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>
+                            <emph>Cum in tua</emph><note>Innocentius III archiepiscopo, præposito et
+                                priori Sanctæ Mariæ de Alban. Genuen., cap. 6&#160;: <emph>Cum in
+                                    tua</emph>, Decret., lib. 4, tit. 18.</note>. Aucun volt un
+                            mariage acuser, qui au tens qu'il fut banni en iglise n'i mist point de
+                            contredit. L'en dit ci qu'il le pot bien fere, s'il n'i fut pas quant il
+                            fut benni, ou s'il fut malade, ou s'il fut en enfance, ou empêchié
+                            d'autre cause&#160;; ne n'est pas oïz à acuser, s'il ne jure que l'en li
+                            a dit ce qu'il met sus, et que par malice ne le fet&#160;; ne il n'est
+                            pas por ce osté d'acuser, s'il l'a apris d'autre.</p>
+                        <p>Note que maladie est provable en cause d'ignorance&#160;; et aucun pot
+                            acuser ce qu'il oï en s'enfance&#160;; et allégament d'ignorance n'a
+                            mester en ce que l'en fet apertement&#160;; et aucun est receu à fere
+                            aucune chose où son auctor ne seroit pas receu.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_19">
+                <front>
+                    <head>XIX. De désevremanz<note>Decret Greg. IX, lib. 4, tit. 19, <emph>de
+                                Divortiis.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> E<hi rend="sc">x conc. ap</hi>. W<hi rend="sc">armation.</hi>
+                            <emph>Si mulier</emph><note>Ex concilio apud Wormatiam, cap. 1&#160;:
+                                    <emph>Si quœ mulier</emph>, ibid.</note>. Se aucune feme a
+                            porchacée la mort son mari, einssi qu'il le sache, et il ocist aucun de
+                            cez qui le guiètent, en soi deffendant, il la pot lessier.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> A<hi rend="sc">lex</hi>. III. <emph>Quesivit</emph><note>Alexander III,
+                                cap. 2&#160;: <emph>Quœsivit</emph>, ibid.</note>. Un larron volt sa
+                            feme forcier qu'ele soit larronesse&#160;: l'en demende se l'en pot por
+                            ce départir le mariage&#160;? L'en dit que oïl&#160;; mès il remaindront
+                            tozjorz mariz&#160;; et ausint est se la feme velt trère à aucun mal
+                            fere son mari.</p>
+                        <p>Note que por fornicacion espéritel pot l'un des mariz lessier
+                            l'autre&#160;; et tot soent départiz hom et feme por fornicacion, il
+                            remainent mariez&#160;; ne le lien do mariage ne pot estre effaciez.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">bienen. episcopo.</hi>
+                            <emph>Porro</emph><note>Idem, Ambianen. a. episcopo, cap. 3,
+                                    <emph>Porro</emph>, ibid.</note>. Un par s'autorité lessa sa
+                            feme, por ce que ele estoit cosine sa feme, qui à tort avoit esté
+                            morte&#160;: l'en dit qu'il la doit recevoir&#160;; car il ne la dut pas
+                            lessier par s'autorité, sanz <pb n="215"/>juigement d'iglise&#160;; el
+                            s'il n'i vent avant qu'il volle acuser le mariage, bien soent oï. Enprès
+                            dit ci que un avoit pris sa cosine à feme &#160;: l'en commande qu'il
+                            soit départiz, tot ne soit-il acusez de nul.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Significasti</emph><note>Alexander III, cap. 4&#160;:
+                                    <emph>Significasti</emph>, Decret., lib. 4, tit 19.</note>. Un
+                            por avotire, par s'autorité, lessa sa feme&#160;; et come ele soit en
+                            avotire, ele requiert son mari par deus resons&#160;: por ce qu'il a
+                            esté acheson de mariage, et por ce qu'il l'avoit lessée par s'autorité.
+                            Et l'en dit que li hom la repreigne, s'il ne est avotre.</p>
+                        <p>Note que feme qui n'a son seignor et qui le demende, ne pot estre oïe,
+                            s'ele a fet avotire.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Ex litteris</emph><note>Idem, cap. 5&#160;: <emph>Ex
+                                    literis</emph>, ibid.</note>. Un évesque réconcilia sovent un
+                            bacheler, qui avoit nom Guillerme, à sa feme&#160;; enprès il l'acussa
+                            de fornicacion, et ele reconut qu'ele l'avoit fet par povreté&#160;; et
+                            issi li évesque li enjoint continence. Li évesque oï dire qu'il se
+                            voloit marier à une autre&#160;: il le li deffendi, et cil ne le lessa
+                            pas. L'en commende qu'il pregne la première, et face sa pénitence.</p>
+                        <p>Note que le évesque et ses chanoines devent oïr les causes, et terminer.
+                            Note que qui reconoist aucune chose en droit est vencu&#160;; et feme
+                            qui pèche par povreté n'est pas acusée (<emph>excusée</emph>).</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p> U<hi rend="sc">rb</hi>. F<hi rend="sc">loriacen. episcopo.</hi>
+                            <emph>De illâ</emph><note>Urbanus III Florentino episcopo, cap. 6&#160;:
+                                    <emph>De illa</emph>, ibid.</note>. Se li hom chiet en bogrerie,
+                            la feme bone crestiene le lesse. Et l'en dit que, s'il sont endui
+                            départi par jugement d'iglise, l'en ne doit pas forcier de retorner à
+                            celi mari&#160;; et s'ele s'en vet par s'autorité, por fere ennui à
+                            l'ome, l'en la doit forcier de retorner à lui.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">nno</hi>. S<hi rend="sc">enen</hi>. E<hi rend="sc"
+                                >piscop.</hi>
+                            <emph>Querito</emph><note>Innocentais III Ferrariensi episcopo, cap.
+                                7&#160;: <emph>Quanto</emph>, ibid.</note>. L'en demende se l'un des
+                            mariz chiet en bogrerie, se l'un, au vivent de l'autre, se pot marier o
+                            autre &#160;? Et le pape devise, et dit que, si l'un des bogres retorne
+                            à la foi, et l'un ne velt habiter o l'autre, o velt sanz le despit
+                            Nostre Seignor, bien se porra marier par le congié d'iglise&#160;; et
+                            issint entent l'en le dist l'Apostre&#160;: Se le bogre s'en vet, auge.
+                            Et se li autres chiet en bogrerie, cil qui remaindra en la foi ne se pot
+                            marier, tot soit ci plus grant le despit au Créator. Car tot soit verai
+                            le mariage qui est entre bogres, il n'est mie quant à <pb n="216"
+                            />crestiens&#160;; car issi le créant auroit domage sanz sa colpe, et ce
+                            avient sovant. Por ce avient que l'on vet contre la malice de plusors,
+                            que s'il savoent que bogrerie poit dépécier mariage, il feindréent
+                            sovent bogrerie por départir de lor femes. Et si est solue la demende,
+                            dont l'en demende se cil qui remaint en la foi, est forciez de retorner
+                            à celi qui retorne à la foi.</p>
+                        <p>Note trois cas où mariage de mescréanz est dépeciez par droit&#160;; et
+                            la rigle dit que aucun pert aucune foiz son droit sanz sa colpe.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p>I<hi rend="sc">dem</hi>. T<hi rend="sc">ibiacen. episcopo.</hi>
+                            <emph>Gaudemus</emph><note>Innocentius III Tiberiadensi episcopo, cap.
+                                8&#160;: <emph>Gaudemus</emph>, Decret., lib. 4, tit. 19.</note>.
+                            L'en demende premièrement se mescréanz convertiz sont en segont degré de
+                            parenté marié, se l'en les i doit soffrir&#160;? Et l'en dit que oïl,
+                            cum mariage soit entre toz&#160;; et ce prove l'Apostre. Car s'il
+                            estoient por ce départi, tost porroent retorner à l'enciene folie&#160;;
+                            donc il poent bien issi remanoir. Enprès demende l'en se Sarrazin, qui a
+                            plusors femes, se convertist, laquelle il retendra&#160;? Et il est
+                            chose veue que totes&#160;: cum li patriarche, segont la vieille loi,
+                            eussent plusors femes&#160;; cum li païen ne soient pas à nos
+                            establissemenz. Enprès il dit encontre que hom se tendra à sa feme, et
+                            non pas à ses femes&#160;; Lamehe por ce qu'il fut repris&#160;; et dit
+                            ci que l'en doit ce tenir, que il ne lut unques à nului avoir plusors
+                            femes, se otroi ne fut à aucun par devine volenté. Enprès dit ci que se
+                            païen refuse sa feme segont sa costume, s'il se convertist, et cele
+                            vive, il ne porra avoir autre, (<emph>fors</emph>) en trois cas&#160;;
+                            enquels, se la feme malement dessésie, et dement se sésine, ele l'ara.
+                            Et se la feme sit son mari converti à nostre foi, et ele demende avant
+                            qu'il se marie, por les causes devant estres dites, est forciez à
+                            prendre la. Ne avant ne porra pas metre li sus fornicacion, por ce se
+                            ele se maria à autre, se ele n'a fet à autre fornicacion aillors.</p>
+                        <p>Note que mariage est entre totes genz&#160;; et li païen ne sont pas soz
+                            noz rigles&#160;; et par baptesme sont péchiez ostez, et non pas
+                            mariage&#160;; et vérité vaut plus que fauseté&#160;; et qui emble, et
+                            ment, et f..., s'il le fet, il pèche. Et note un cas où cil qui est à
+                            tort dessési est ressési.</p>
+                    </div>
+                    <div>
+                        <head>§ 9.</head>
+                        <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">inonen. episcopo.</hi>
+                            <emph>Is qui</emph><note>Idem Livoniensi episcopo et eis qui cum ipso
+                                sunt fratribus, cap. 9&#160;: <emph>Deus, qui</emph>, ibid.</note>.
+                            Unes genz avoient acostumé, <pb n="217"/>avant qu'il se convertissent,
+                            prendre en mariage les femes lor frères. Li un ne se voloient convertir
+                            por eles retenir&#160;; et la pape lor otroie por la noviauté de la foi.
+                            Mès quant il seront afermé, qu'il ne le facent&#160;; et tot ce lor
+                            otroie l'en ou segont degré ou en l'autre.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_20">
+                <front>
+                    <head>XX. De doere restablir après désevrement<note>Decret. Greg. IX, lib. 4,
+                            tit. 20&#160;: <emph>de Donationibus inter virum et uxorem, et de dote
+                                post divortium restituenda.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> E<hi rend="sc">x. con</hi>. W<hi rend="sc">armiacen.</hi>
+                            <emph>Mulieres</emph><note>Ex concilie habito apud Wormatiam, cap.
+                                1&#160;: <emph>Mulieres</emph>, ibid.</note>. L'en dit que se feme
+                            est départie de son mari sanz sa colpe, ele doit avoir son doere.</p>
+                        <p>Note&#160;: se mariage est rapelé, et le doaire, et quantque est doné par
+                            mariage.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> U<hi rend="sc">rb</hi>. III, <hi rend="sc">decano et ca. lexonen.</hi>
+                            <emph>Significavit</emph><note>Urbanus III decano, cantori et capitulo
+                                Lexon., cap. 2.&#160;: <emph>Significavit</emph>, ibid.</note>.
+                            Quant lignage est prové, et le mariage est départi, li hom ne velt
+                            rendre à la feme son doaire, ne rien qu'il éent conquis ensemble&#160;:
+                            le pape mende que l'en rende à la feme son doaire et la moité de ce
+                            qu'il ont conquis.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>De prudentia</emph><note>Clemens
+                                III, cap. 3&#160;: <emph>de Prudentia</emph>, ibid.</note>. Cause de
+                            mariage fut baillée à un juige qui a doné sentence, n'onques ne parla de
+                            doaire&#160;: l'en demende qu'en dit droit&#160;? Et l'en dit que cil
+                            qui dona sentence de département dut conoistre do doaire&#160;; donc
+                            l'en commende que le mari soit forciez par escommeniement rendre le
+                            doaire.</p>
+                        <p>Note que quant cause de mariage est, cause de doere i est ballie&#160;;
+                            et qui a le principan, si a l'apertenant&#160;; et se le mariage est
+                            départi par droite cause, la feme doit avoir son doere.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> C<hi rend="sc">elsus.</hi>
+                            <emph>Plerumque</emph><note>Clemens III, cap. 4&#160;:
+                                    <emph>Plerumque</emph>, ibid</note>. Se par fornicacion ou par
+                            sa volenté se départ de son mari, et fame enprès ne soit pas recordée,
+                            et li hom more, l'en demende se ele pot son doere demender à coisins à
+                            l'ome&#160;? Et l'en dit que non.</p>
+                        <p>Note que se feme fait fornicacion, ne ne se racorde pas à son mari, ele
+                            pert son doere&#160;; et d'iqui puet l'en prendre une rigle, que l'un
+                            gaagne en la folie à l'autre.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p><pb n="218"/>I<hi rend="sc">nno.</hi> III. <emph>Et si
+                                necesse</emph><note>Innocentius III Compostel. archiepiscopo, et
+                                universis episcopis in regno Legionensi constitutis, cap. 5&#160;:
+                                    <emph>Et si necesse, Decret. lib. 4, tit. 20.</emph></note>. Uns
+                            rois prist la fille au roi de Castele à feme, et li dona chastiaus en
+                            doaire, par tel convent que, si trovoist vers lui nule acheson porquoi
+                            il la lessât, li chastiau li remendrent. Et cum il fust aperessent qu'il
+                            estoient cosin, ne la voloit lessier, qu'il ne perdist les châtiaus. Le
+                            pape dit, que cum il n'et pas mariage entr'aus, qu'il let au roi ses
+                            chastiaus.</p>
+                        <p>Note que là où mariage ne pot estre&#160;; ne doaire&#160;; et la reigle
+                            dit&#160;: Ce qu'est doné sanz cause, pot l'en redemender.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Nuper</emph><note>Idem archidiac. S. Andreæ in Scotia, cap.
+                                6&#160;: <emph>Nuper</emph>, ibid.</note>. Se l'en otroie à aucun
+                            tenir aucune chose à sa vie, s'il otroie icele chose ou partie à aucune
+                            en doaire, l'en demende, quant li hom sera mort, se la feme le pot
+                            retenir&#160;? Et encore demende l'en se l'en done aucune chose à aucun,
+                            et à son heir que l'en a de sa prode feme, de l'aport d'icele chose qui
+                            est donée en doaire de son seignor, s'il mort sanz heir, se la feme le
+                            pot demender, ou s'il doit retorner à celi qui primes le dona au
+                            premier&#160;? A ce respont l'en que cil ne pot doner outre sa vie ce
+                            qu'il n'avoit que à sa vie. Au segont dit l'en que la feme, enprès la
+                            mort au mari, ne pot ce retenir, se cil ne l'otroie qui fit avant le
+                            don.</p>
+                        <p>Note que yglise doit deffendre cause de veve et de povres persones&#160;;
+                            et la règle dit que nus ne pot plus doner à autre que il n'a&#160;; et
+                            nos ne devon pas deffendre cause à tort.</p>
+                    </div>
+                    <div>
+                        <head>§ 7.</head>
+                        <p>I<hi rend="sc">dem. arch. et ar</hi>. J<hi rend="sc">anen.</hi>
+                            <emph>Per tuas</emph><note>Idem archiepiscopo et archidiac. Genuen.,
+                                cap. 7&#160;: <emph>Per vestras</emph>, ibid.</note>. L'en dit
+                            contre un home qui redemendoit le doere sa feme, que il avoit chacée de
+                            soi, et qu'il avoit la vérité teue quant il empétra les letres, que l'en
+                            avoit juigé que por ce que il apovrissoit, il ne li poeist fere doaire.
+                            Quant ce fut prové, li juige li commendèrent qu'il reprist sa feme, et
+                            que li doaire fust mis en autre main, dusque le plége fust donez. Le
+                            pape dit que bien pot l'en baller à l'ome un po de doaire, à qui l'en
+                            balle le cors à la feme &#160;; donc il mande que l'en li aseigne
+                            doaire, en donant aucune plévine, ou qu'il soit ballié à aucun marcheant
+                            qui l'esplète, que cil en puisse <pb n="219"/>sostenir le fès do
+                            mariage&#160;; car poor seroit, se le doaire estoit retenu, que li un et
+                            li autre encore péril de fornicacion.</p>
+                    </div>
+                    <div>
+                        <head>§ 8.</head>
+                        <p> G<hi rend="sc">regorius nonus.</hi>
+                            <emph>Donatio</emph><note>Gregorius IX, cap. 8&#160;:
+                                    <emph>Donatio</emph>, Decret, lib. 4, tit. 20.</note>. Ceste
+                            décrétale est devisée en deus parties&#160;: primes dit l'en que, se don
+                            est fet entre home et feme en mariage, et li un en soit plus povre, le
+                            don ne vaut rien. Enprès dit l'en que quant le mariage est départi, les
+                            doaires retornent arières, se costume ne vet encontre, ou
+                            convenance.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_21">
+                <front>
+                    <head>XXI. De doere et de la poeste.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Cause de doaire est perdurable à la persone de la feme, et à ses heirs
+                            qui istront de celui mariage. Il apartient au juige que les femes aient
+                            lor doaire sauf, par maintes resons&#160;: por ce qu'ele est de povre
+                            porvéance de sa vie&#160;; l'autre si est, por ce qu'ele est sevre au
+                            seignor, et por ce qu'ele a dolor d'enfantement plus que sire n'a.</p>
+                        <p>Non de doere n'est pas raportez à mariage que ne puet estre fet&#160;;
+                            car doere ne puet estre fet sanz mariage, et là où il n'i a point de
+                            mariage, il n'i a point de doere. L'en ne puet plus doner au doere que
+                            la costume done, mès l'en puet bien plus apeticier que la costume ne
+                            done. Se aucuns prent sa première feme, il la puet doer de la moitié de
+                            toz ses biens&#160;; et la segonde ausint, sauf le premier doere&#160;;
+                            et la tierce ausint, sauf le doere à la segonde&#160;; et toz les autres
+                            en consiguance. Et dit que se feme est départie de son mari sanz sa
+                            colpe, ele doit avoir son doere. Enprès l'en dit que se mariages n'est
+                            célébrez par la bénoïçon, et il n'avient en charnel compoignie ensemble,
+                            et est enprès dépéciez, ci n'a point de doere. Quant lignages est
+                            provez, et li mariages est départiz, l'en doit rendre à la feme son
+                            doere, et la moitié des conquez.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>I<hi rend="sc">dem.</hi> Une feme a son doere dou don de son premier
+                            seignor, et prant le segont seignor. Li segonz sire baille le doere à
+                            gaagnier à trois anz à un laboreor, et li preste dix livres por le fere
+                            valoir. Dedanz les trois anz, la feme muert, et eschiet li doeres, et
+                            demende li sires ses dix livres, et li heir et li laborreres en vienent
+                            encontre, et veulent <pb n="220"/>avoir le prest. Et l'en respont que il
+                            n'auront pas le prest, car nus n'est puniz sanz colpe. Car il fist ce
+                            par droit, par droit li tolit, il ne meffit de riens&#160;; et cil à qui
+                            il fit marchié, poit bien savoir que ce li en poet avenir.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Doere en fié de la dame a le mestre herbergage en arpant se il i a plus
+                            de un arpant, la dame l'ara&#160;; mès ele le fera avant de terre.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p> Totes les choses assemblées dou premer mariage sont as premiers enfanz,
+                            ne nus n'i a doere, ne segont mariage, ne trez, dedans la banliue.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_22">
+                <front>
+                    <head>XXII. De segondes noces<note>Decret. Greg. IX, lib. 4, tit. 21&#160;:
+                                <emph>de Secundis nuptiis.</emph></note>.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> A<hi rend="sc">lexander</hi> III. <emph>Capellanus</emph><note>Alexander
+                                III, cap. 1&#160;: <emph>Capellanum</emph>, ibid.</note>. Un
+                            chapelain avoit fet bénoïçon de deus, qui segonde foiz estoient
+                            mariez&#160;: l'en dit qu'il doit estre sospenduz de l'ofice et do
+                            bénéfice, et qu'il auge à Rome.</p>
+                        <p>Note que cil qui ont deus femes, s'il se marient segonde foiz, ne devent
+                            pas estre bénéiz.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> L<hi rend="sc">ucius.</hi>
+                            <emph>Dominus</emph><note>Lucius III universis Christianis in
+                                captivitate Sarracenorum positis, cap. 2&#160;:
+                                <emph>Dominus</emph>, ibid.</note>. L'en dit ci que feme ne se doit
+                            pas marier, se ele n'est certaine de la mort son mari&#160;; et s'ele se
+                            marie, cil la porra f....., mès ele n'en porra pas requerre. Et se le
+                            premier home que l'en cuidoit que fut mort retorne, la feme retornera à
+                            lui.</p>
+                        <p>Note que nul ne se pot marier, s'il ne set la mort à l'autre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> U<hi rend="sc">rb</hi>. III. V<hi rend="sc">igilien. episcopo.</hi>
+                            <emph>Vir autem</emph><note>Urbanus III Vigiliensi episcopo, cap.
+                                3&#160;: <emph>Vir autem</emph>, ibid.</note>. L'en dit ci que haute
+                            béneïçon n'est pas en segont mariage, que l'en ne face tort au
+                            sacremant.</p>
+                        <p>Note que femes qui segonde fois se marient, ne devent pas estre bénoittes
+                            de provoire.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>I<hi rend="sc">dem.</hi>
+                            <emph>Super illa</emph><note>Idem Exonensi episcopo, cap. 4&#160;:
+                                    <emph>Super illa</emph>, ibid.</note>. L'en demende se feme,
+                            dedanz le tens qu'ele doit son mari plorer, se se pot marier sanz estre
+                            mal renomée&#160;? Et l'en dit que oï&#160;; car demanois qu'il est
+                            morz, est la feme délivre.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p><pb n="221"/>I<hi rend="sc">nno</hi>. III. P. <hi rend="sc">nobili
+                                mulieri</hi>. <emph>Cum secundum apostolum</emph><note>Innocentius
+                                III P. nobili mulieri, cap. 5&#160;: <emph>Cum secundum
+                                    Apostolum,</emph> Decret., lib. 4, tit. 21.</note>. Quant le
+                            mari fut mort, la feme demenda congié de soi marier, sanz encorre male
+                            renomée de la loi, qui deffent que nule ne se marie dedanz le tens
+                            qu'ele doit plorer. Le pape dit qu'ele se pot marier de par Dé, segont
+                            ce que li Apostre le dit et commende.</p>
+                        <p>Note que se feme se marie dedanz le tans de plor, ele n'est pas man
+                            renomée.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_23">
+                <front>
+                    <head>XXIII. De baill.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p> Tuit cil qui tiennent en fié sont en baill por la reson dou fié. Or
+                            demende l'en qui aura baill&#160;? L'en dit que li plus prés. Et s'il i
+                            a feme ou home iue, qui aura léal ball&#160;? Li uns ou les dui&#160;?
+                            L'en dit&#160;: li mâles aura la garde. Et s'il sont trois mâles iues en
+                            l'eschéete, li dui auront le bail&#160;; et li autres aura la garde, et
+                            aura avenant por la garde.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p> Et tel chose si est de fié partable. Car choses non partables, et non de
+                            baronies, de contez, qui sera de deus yues homes, ou home et fame, ou
+                            feme et fame pareil, et li deus homes ont le preu, et uns a la
+                            garde&#160;; et de trois fréres, li ainznez a la garde. Ne feme ne prent
+                            tant com il i ait homme issint près. Et se li frères ainznez est morz,
+                            et ai an (<emph>eu</emph>) l'eenneté, li autre ont le bail yuiement.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p> Et baill dure dusque vingt-un an, et en feme, à quinze anz. Et mariage
+                            tost-il bail&#160;? Nenil, en home&#160;; et en feme, oïl. En roi n'a
+                            point de baill, mès il i a garde. Et les issues des choses à celui qui
+                            est en baill, sont à celui qui a le bail. Et l'en doit garderles choses
+                            dou baill en point.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Quiconques reçoit bail, il le reçoit atot son fès&#160;; et tot doie le
+                            menor, cil qui prent le bail paie les detes&#160;; et quant le menor
+                            viant à àge, il s'en vet o ses choses toz quites.</p>
+                        <p>Autrement vet dou vilenages&#160;: tant com li pères et la mère se tient
+                            de marier, tant ont de bail&#160;; et quant il se marient, si faut le
+                            bail, et sont comme compoignon, por quoi lor biens soent acompoignez à
+                            lors&#160;; autrement non.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p><pb n="222"/>Puis que la chose passe à autre que à la mère et au père,
+                            bail faut&#160;; mes garde ne faut pas, ainz doit avoir li plus près la
+                            garde de l'enfant.</p>
+                    </div>
+                    <div>
+                        <head>§ 6.</head>
+                        <p>Or demende l'en en desvé, ou en home qui ne set qui se fet, ou en malade
+                            qui ait maladie perpétuel, savoir s'il i a bau&#160;? Et l'en dit que
+                            non&#160;; mes il i a garde, et li profiz de toz ses biens sont
+                            séant.</p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

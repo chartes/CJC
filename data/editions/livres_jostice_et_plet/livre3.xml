@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre3">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LI LIVRES DE JOSTICE ET DE PLET</title>
+				<principal xml:id="GP">Graziella Pastore</principal>
+				<funder>École nationale des chartes</funder>
+				<respStmt>
+					<name xml:id="MH">Mathilde Henriquet</name>
+					<resp>2015 - édition électronique</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt n="1">
+				<p>2015, première édition électronique</p>
+			</editionStmt>
+			<extent/>
+			<publicationStmt>
+				<publisher>École nationale des chartes</publisher>
+				<address>
+					<addrLine>65, rue de Richelieu</addrLine>
+					<addrLine>75002 Paris</addrLine>
+					<addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+					<addrLine>http://enc.sorbonne.fr/</addrLine>
+					<addrLine>recherche@enc.sorbonne.fr</addrLine>
+				</address>
+				<idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+				<date>2015</date>
+				<availability status="restricted">
+					<p>L'École nationale des chartes met à disposition cette ressource électronique
+						structurée, protégée par le code de la propriété intellectuelle sur les
+						bases de données (L341-1), selon les termes de la licence Creative
+						Commons&#160;: «&#160; Paternité - Pas d'Utilisation Commerciale - Pas de
+						Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+						http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+						à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+						94105, USA.</p>
+					<p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+						encourager l'utilisation et l'amélioration de ses ressources électroniques,
+						pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+						au-delà du champ de cette licence doit être obtenue auprès de l'École
+						nationale des chartes.</p>
+					<p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+						l'École nationale des chartes s'engage à conserver et à toujours offrir
+						publiquement la version la plus à jour de ses ressources électroniques par
+						une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+						les contributions qui lui sont soumises (après validation par un comité
+						scientifique), et à référencer l'origine de ces contributions. Toute
+						modification de la ressource qui ne serait pas reversée à la version de
+						référence sous l'autorité éditoriale de l'École nationale des chartes doit
+						faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+						contributions et de permettre les meilleures conditions possibles de
+						collaboration scientifique.</p>
+					<p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+						publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+						nom de l'École nationale des chartes et, pour les publications
+						électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+						notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+						source utilisé.</p>
+					<p>Tout litige soulevé par le non respect des termes de cette licence sera
+						soumis à la juridiction des tribunaux de Paris.</p>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Éditions en ligne de l'École des chartes</title>
+				<idno type="URI">http://elec.enc.sorbonne.fr</idno>
+				<idno type="vol"/>
+			</seriesStmt>
+			<sourceDesc>
+				<bibl>
+					<abbr>Li livres de jostice et de plet</abbr>
+					<title>Li livres de jostice et de plet, publié pour la première fois d’après le
+						manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+						glossaire des mots hors d’usage par P. Chabaille</title>
+					<pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+						when="1850">1850</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+					telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+					précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2016-11" who="GP">Mise à jour du fichier</change>
+			<change when="2015-07" who="MH">Création du fichier</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>LI TIERS LIVRES</head>
+		</front>
+		<group>
+			<head>LI TIERS LIVRES</head>
+			<text xml:id="art_01">
+				<pb n="104"/>
+				<front>
+					<head>I. De mal renomez.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Les paroles Johan de Beaumont sunt teles&#160;: Cil est mau renomez, qui
+							por aucune mauvestié s'en vint de l'ost le roi&#160;; et li bordeler, et
+							li larron, et li toleor et li tricheor&#160;; et cil qui ovrent de
+							bosdie&#160;; et cil qui ovrent mauvèsement de bal&#160;; et fame qui
+							prent home que si sires het de mort, segont droit<note>Dig., lib. 3,
+								tit. 2, frag. 1, <hi rend="i">de His qui notantur
+								infamia.</hi></note>. Ballif qui fet tort apensèement, et qui prent
+							loer por droit fere, et ballif qui est hors de ballie par son
+							forfet&#160;; cil qui ovre de son privilége fausement&#160;; chevalers
+							qui est désordenez, avostres et avotresse&#160;; truanz&#160;;
+							travalleors de genz à tort&#160;; cil qui traït celui à cui il doit
+							aider. Omecide, traïtor, murtrier, aforceor de femes&#160;; qui tout
+							membre, qui fet sanc et chaable&#160;; procurator, curator, tutor,
+							avoquaz, si ne font en la chose ce qu'il devent, sont mau renomé. Cil
+							qui demende chose que il ne doit mie, parjur, foi-mentie, et cil qui
+							prent feme marié par tricherie, ou fiz qui est ou poer son père, et se
+							marie sanz son congié<note>Ibid., frag, 1, in fine.</note>&#160;; cil
+							qui prent la feme à autre, arbitre qui prent loer. Cele est mau renomée,
+							qui fet son mari de celi qui ne l'est pas. Qui decet guig
+								(<emph>juige</emph>) est mau renomez&#160;; faus tesmoins est mau
+							renomez.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_02">
+				<pb n="105"/>
+				<front>
+					<head>II. De procurators<note>Dig., lib. 3, tit. 3&#160;: <hi rend="i">de
+								Procuratoribus et defensoribus.</hi></note>.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Ce fut establi por bones mors, que li menor, que li muat, que li orp, que
+							li desvé, les fames prestes de anfanter, cil qui sunt malade de maladie
+							durable, cil qui sont en marcheandise et en pélerinage, et cil qui sunt
+							por le commun, et cil qui sunt pris de gerre, et celx qui sunt en garde
+							par hayne, puent metre procurator por aus, si com vos porret ci-près
+							oïr.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Se menor demande deniers, éritages, estre rétabliz en la sésine son père,
+							injures de laidissemanz&#160;: en ce il puet metre procurator por soi,
+							et demender. Et si l'en li demende chose don sis pères mori saisis, an
+							ce il metra procurator en ce que la cause désire&#160;: c'est à savoir à
+							alégier sanz plus que il ne respondra jusque li enfes soit d'aage. Et si
+							li menors bat et fiert un home, ou tue, li juges le contraindra à metre
+							procurator, et respondra, et amendra, s'il l'a forfet. Et li procurators
+							sera mis par l'autorité au juge.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Mais orp, sort, cil qui sunt malade de maladie durable, puent metre
+							procurator en toutes causes.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Feme qui est preste d'enfanter n'et pas contrainte à metre procurator,
+							ains doit l'en atendre jusqu'el ait enfanté.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Home ou feme qui sont en santé ne puent metre procurator en cause
+							d'éritage, ne l'en ne li recevroit mie&#160;; mès l'ome por sa feme. Mès
+							en cause de moeble puet l'en metre procurator.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Evesques, arcevesques, contes, barons, toutes autres menières de genz,
+							puent metre procurator en la forme devant dite, ne plus ne meius.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Et se aucuns a perdue sa cause, et il nie que le procurator ne soit pas
+							por li, recort de bones genz corra sor ce, et sera estable sor le
+							recort, ne en ce n'afiert pas batalle.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Procurator doit doner plége, qui feront atable ce que l'en fet por celi,
+							si en viaut hon aver bones letres qui seil autenticié&#160;; et sera
+							estable ce que l'en fera por celi à qui l'en demende.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p><pb n="106"/>L'an ne puet metre procurator en cause de crime, qui toche à
+							dampnement de cors.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_03">
+				<front>
+					<head>III. De besoignes fetes par autrui.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Ci bans profite mout à celx qui ne sont présens, qu'il ne perdent la
+							sésine de lor choses par défaute d'aide.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Se aucuns fet l'afere à aucun qui n'estoit pas présens, et qui n'an set
+							riens, quanz l'en fet à son preu, et despent ou se oblige à autre, li
+							doit estre randu. Et se l'en fet l'afere à un orfelin, ou à desvé, à son
+							preu, l'en doit emplédier.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Mès l'en doit regarder qués aferes l'en doit fere, et de quex aferes l'en
+							est tenuz, et l'en entent, si l'en i gaagne&#160;; mès l'en n'est pas
+							tenuz vers celui qui par sa volenté se mist à autrui besognes fere, dom
+							il n'iere pas besoing<note>Dig., lib. 3, tit. 5, frag. 1, 2, frag. 3, §
+								4, 5, 10&#160;: <hi rend="i">de Negotiis gestis.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Et se ge cuide que les aferes que je faissoe fussent Johan, et il
+							estoient Pierre, en est Pierres tenus à moi&#160;? s'il i a gaagnié.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Et se ge préte à son procurator deniers à rembre ton gage, vers cui ai-ge
+							aucion&#160;? Et ge di que vers le segnor.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Et se aucuns fet son afere et le mien en une meisme chose, l'en entent
+							qu'il le fet plus por soi que por moi&#160;; et à ce doit l'en garder
+							mesure, que chascuns en soit chargiez avenaument. Et se ge ne fas ces
+							aferes por achoison de toi, et la faz por achoison de ton fiz, ou de ton
+							serf, g'é (<emph>j'ai</emph>) auction contre toi<note>Ibid., frag. 5, §
+								1, frag&#160;: 6, § 1, 4, 6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Se dui compagnon ont une meson qui vuelent fondre, et la puet bien
+							retenir o point (<emph>per</emph>) de coût, et ge le vuelle fere, et li
+							un des compagnons qui est hors dou païs n'an siet rien et li autre me
+							deffent que je n'i face riens, et ge retien la meison à mes coz&#160;:
+							G'é (<emph>j'ai</emph>) aucion contre les deus ou contre l'un&#160;?
+							L'en dit que g'é aucion contre les deus. Car il apert bien qu'il vousist
+							avoir domage por que se compeinz i eust domage&#160;: et bone foi ne
+							suefre pas tex choses<note>Ibid., frag. 8, § 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Ausit se aucun a aucion contre moi de mes aferes qu'il a fez, <pb n="107"
+							/>ausit et ge ai aucion contre lui de mes aferes qu'il aura fez
+							mauvèsement.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Mès tot face-il mes aferes mauvèsement, et ge lo ce qu'il a fet, ge no
+							puis rapeler, se ge ne faz ce par son déçoivement.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>J. dit&#160;: Icil ne fet mie aferes, qui emprent à fere choses don l'en
+								(<emph>n'</emph>) a mestier, ou qui grève celui qui ele est. Et dit
+							encores, que cil qui fet les aferes en bone foi, et si comme il doit,
+							tout ne l'en chie-il pas bien, si a-il aucion de fere
+								(<emph>d'afere</emph>) fez<note>Dig., lib. 3, tit. 5, frag. 9,
+								10.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Comme dui frères fussent l'un d'aage et l'autre non aagé, et avoient
+							communes tenures à vilages, li plus granz adefiece sans reson et sanz
+							besoing en la tenure. Quant il partirent lor teneure, il demenda les
+							despens qu'il i avoit fez an amender cele chose. Et li frères menor
+							estoit jà d'aage, et responoit, que por ce qu'il avoit ce fet sanz
+							besoing, qu'il n'en voloit riens paer. L'en demande que dit droit&#160;?
+							Et l'en respont, que por ce qu'il fist ces choses sanz besoing, qu'il
+							n'i a nulle action contre lui<note>Ibid., frag. 27, pr.</note>.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Se Felippe nourrist la fille sa seror par prière, il n'a nule action
+							contre lui.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Li sergenz qui me siert emprunte deners por feres mes aferes&#160;: l'en
+							dit qu'il a action contre moi, et non pas contre moi com sires, mès
+							comme sergens qui me sert en bone foi<note>Ibid., frag. 27, § 1, frag.
+								36.</note>.</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Se aucuns rent por autre qui riens n'en set, et soit contre la volenté à
+							celui por cui l'en a rendu, cil est quites por cui l'en a rendu. Mès
+							débonaireté, ne naturel reison ne suefre pas que cil n'en ait action
+							contre celui por que il a rendu. Et raison s'acorde que nos poons bien
+							fere l'afere à celui qui riens n'en siet, tot ne le vuele-il. Mès nos ne
+							le poons empirer<note>Ibid., frag. 39.</note>.</p>
+					</div>
+					<div>
+						<head>§ 15.</head>
+						<p>Qui fet les aferes à aucuns à son preu, et il fet despens, il puet avoir
+							contre lui action d'afere fez.</p>
+					</div>
+					<div>
+						<head>§ 16.</head>
+						<p>Cil qui furent fet franc ou testament au mort qui estoit lor sires, ne
+							sont pas tenu de rendre reson por les aferes qu'il a fez au vivant au
+								segnor<note>Ibid., frag. 45.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_04">
+				<pb n="108"/>
+				<front>
+					<head>IV. De tricherie.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Tricherie est une chose que l'en ne doit mie soutenir, ainz la doivent
+							tuit prodomes estreper à lor pooir. Et action de tricherie dure dedens
+							l'an&#160;: quar assez i a de tens à regarder se l'en li a fet tricherie
+							ou non. Mès nos en metons hors menors, et desvez et autres genz qui
+							n'ont point de demende par aucune droite cause&#160;: quar itex puent
+							demender dedenz l'an que il vendront en lor bon estat.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Li rois deffent ci que l'en ne donast deners as juges, ne loers&#160;:
+							car moult est périlleuse chose à juge de prendre d'autrui&#160;: car
+							covoitise esmuet le juge, quant cil est devant lui por fere sa cause
+							bone&#160;; et por ce deffent li rois que ce ne fust pas fet, ne que ce
+							ne fust pas pris<note>Dig., lib, 3, tit. 6, frag. 1, § 3&#160;: <hi
+									rend="i">de Calumniatoribus.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se aucuns a aucun marchié qui soit à unchérissement, et aucuns vigne à
+							lui, si li dit qu'il li enchercira son marchié, ou il li donra dou sien
+							; et s'il li done&#160;: l'en dit que tel don est fez par tricherie, et
+							que tex deners sunt receuz par tricherie.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Quar tex don si est fez por enpirer la condiction dou marchié&#160;; et
+							bone foiz ne sufre pas que tex dons soit fez, ne que tex dons soit
+							receuz. Et doit perdre ce qu'il a doné, et doit estre à celui por qui
+							domage il fu fet&#160;; et li autres doit estre puniz, se que l'on voit
+							que raisons sera.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Se aucuns vent les choses à autrui, et il prent loer por la vente fere,
+							l'en a action contre lui de trecherie&#160;: et tel trecherie vaut
+							autant comme larrecins. Car aperte chose est, quant cil qui donne por la
+							chose avoir, charge le marchié.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Se aucuns a convenant aucun qu'il li fera son affere, et il ne li fet
+							pas, et sa chose périst&#160;: en ce a-il action contre lui de domages
+							et de trecherie. Et l'en doit bien ce noter.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Qui done deners à aucun por fere aferes de vilenie, il ne le puet
+							redemender por la vileine convenance qu'il est&#160;; ne li autres ne's
+							aura pas, ainz les aura li rois&#160;: ains les porra li rois punir,
+							segont ce qu'il verra qu'il devra fere.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p><pb n="109"/>Se aucuns prent deners de moi por fere mes aferes contre
+							toi, et prent deners de toi qu'il ne les face, l'en a action contre lui
+							de aperte tricherie, et de traïson mellée ensemble<note>Dig., lib. 3,
+								tit 5, frag. 3, § 1, 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Ceste action est contre l'eir dedanz l'en (<emph>l'an</emph>) de tant que
+							comme il en a eu&#160;: quar l'en establi que l'en ne puet demender à
+							l'eir la chose que ses pères a eue par trecherie, tout soit li termes de
+							la trecherie passez&#160;; ausit comme l'en done à juge loier por dire
+							faus, ou por doner mauvèse sentence, ou s'il a pris loier por vendre la
+							chose le roi&#160;: et tout ce que (<emph>l'en</emph>) a doné, li hers
+								rendra<note>Ibid., frag. 5.</note>.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Or demende l'en que (<emph>se</emph>) cil qui done est perçoners de la
+							tricherie&#160;? Et l'en dit que oïl, puisque cil qui le reçoit que par
+							lui est mené la trecherie. Et en tel chose prescripcion ne cort pas
+							contre le roi.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Or demende l'en dou tens qui passe, comment l'en le doit entendre, ou
+							quant li deners sunt paez por la trecherie, ou quant la trecherie est
+							fete&#160;? Et l'en dit que li anz commence quant l'en set que la
+							tricherie est fete, et quant li deners sont baillié.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Se uns procurators qui a plenier poer fet por moi aucune de ces choses,
+							et ge l'estable, il vaut autant com se je l'avoie fet&#160;; et se non,
+							non&#160;; ainz sera li procurators tenuz d'action de trecherie. Cil qui
+							reçoit deners, et set que l'en ne les li doit pas, fet apertement
+								tricherie<note>Ibid., frag. 6, 7.</note>.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Se aucuns ballis prent deners d'aucuns non aagé por aucun crime que l'en
+							li met sus, et n'est mie prové que il ait fet, et est aparissanz que li
+							deners sont à tort pris&#160;: l'en a action contre le ballif de la
+							chose r'avoir et de trecherie&#160;; et li rois le doit punir segont ce
+							que droit le requiert<note>Ibid., frag. 8.</note>.</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Enprès demende l'en comment l'en puet home prover de tricherie&#160;? Et
+							l'en respont que, en quas dont la chose est si petite que batalle n'en
+							puet nestre, ce doit aler par sairement, (<emph>et le choix de la
+								preuve</emph>) est à celi à qui l'en demende. Si comme est trecherie
+							de cinq sols, la prove n'est pas garanz. Et qui prove tricherie, si doit
+							dire les moz por quoi batalle i soit.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_05">
+				<pb n="110"/>
+				<front>
+					<head>V. De restablissemenz.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Ci titres si est mout profitables à mout de genz&#160;: quar en mout de
+							menières avoit l'en domage, en ce que l'en n'estoit restabliz des choses
+							don aucuns s'estoit mis en seisine, sanz droit qu'il il eust. Et l'en
+							secort en meintes menières à cels qui sont déceu, ou par peor, ou par
+							conchiemant, ou por ce qu'il n'estoient pas présent, ou por ce que lor
+							estat fust muez, ou par autre droite error<note>Dig., lib. 4, tit 1,
+								frag. 1, 2&#160;: <hi rend="i">de in integrum
+								Restitutionibus.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>L'en doit sofrir toz ratablissement, quant l'en a oï por quoi et veu se
+							c'est voirs&#160;; et doit l'en fere droit. L'en ne doit pas celui
+							restablir qui demende une petite chose, se il fet tort de gregnor. Ne
+							cil n'est pas hors de la chose, à cui ballis a dit qu'il la li
+							rendra.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Enfanz ne sunt pas restabli solement, (<emph>mès</emph>) desvé et muz et
+							sorz, et cil meismes qui sunt hors dou païs por le roi ou por le commun,
+							et cil qui est outre-mer, qui muert seisiz de la chose en veraie
+								seisine<note>Ibid., frag. 3-6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Nos apelons veraie sésine, quant aucuns remaint sési an et jor comme
+							sires, et par jostice, à le veue et à la seue de celui qui demender
+							puet, et ne veaut demender, et se test.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Et se aucuns est forbeniz dou païs, le nunbre dou tens, et quant il ce
+							vient (<emph>revient</emph>), si se trove désésiz, sera-il restabliz
+							arière en sa sésine&#160;? Et l'en dit que nenil, s'il a esté désésiz
+							par jugement. Quar se il a esté désésiz par défaut, ç'a esté en ses
+							copes, com il doie metre procurator an ses choses défendre&#160;; et se
+							il a esté désésiz selon la deffense de son procurator, il ne doit pas
+							estre resésiz, por quoi li procurators a menée la procuracion que
+							prodome doit mener. Qui pert sésine an tel quas, anprès l'an et jor, il
+							puet plèdier de la seignorie, et de la sésine non.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Et se aucuns est en guerre de ses enemis, qu'il ne puisse venir son droit
+							deffendre, ou sorpris de guerre, sera-il restabliz&#160;? Et l'en
+							respont que, se il est en guerre que droiz doie sofrir, ou pris por son
+							droit qu'il défant, il sera restabliz&#160;; se non, non.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p><pb n="111"/>Se li pères muert, li enfes a tel droit ès choses, an estre
+							restabliz, com li pères eust. Se cil qui n'est pas de âge est déceuz an
+							son fet, ou à fet son tutor, l'en le doit restablir arières, aagé ou il
+							non aagé&#160;: fors en ce s'il fet ce que prodome et sage doit fere, et
+							son tutor ausit, il ne sera mie an ce restabliz.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Johan de Beaumont manda à un provost qui estoit metres, de aidier à celui
+							qui avoit perdue sa chose, qu'il n'estoit pas présanz, et li manda tex
+							paroles&#160;: Totevoies se l'en ne doit riens muer de restablissemanz,
+							l'an doit aidier là où l'en voit que mestiers en est à fere. Et se
+							aucuns estoit semons et ne respondi pas, et por ce dona l'en contre lui
+							sentence&#160;; enprès il vint à toi, quant tu tenoies tes plez, et
+							requist à estre restabliz de la sentence à fesant droit, et com cil qui
+							onques n'avoit esté semons&#160;: et quant il fust issint, il n'i ot
+							point de copes, si commendons qu'il soit restabliz<note>Dig., lib. 4,
+								tit. 1, frag. 7 pr.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Ne cil secors n'est pas solement en tel menière, mès en autres&#160;: car
+							l'en secort à tex qui sunt déceuz sanz lor copes. Maimemant se lor
+							aversères lor fet boidie, il doivent estre en ce restabli que égauté lor
+							querra&#160;: car l'en doit plus tost leissier plez max renomez, que
+							tenir les.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Tel différence est entre celx qui n'ont vingt-un an, et cels qui sont
+							hors dou païs por aus, et entre celx qui sunt hors por le commun&#160;:
+							li menor sunt deffendu par tutors ou procurators&#160;; cil qui sunt por
+							aus hors, ou por lor cope, sunt deffendu par procurators&#160;; cil qui
+							sunt hors por le commun profit doivent un poi plus estre
+								déporté<note>Ibid., frag. 7, § 1, frag. 8.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Mès se aucuns est forbeniz de son païz, et enprès vienge frans de la
+							chose que l'en li met sus, l'en le doit restablir&#160;: car il n'i doit
+							mie avoir domage en tort fet de juge. Et tex doivent estre
+							restabliz.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_06">
+				<front>
+					<head>VI. De forbannissemanz<note>Ibid., tit. 5&#160;: <hi rend="i">de Capite
+								minutis</hi>.</note>.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Ceste chose est por bien establie, et por punir celx qui meffont. Car se
+							aucuns a fet aucuns meffet, et s'enfuie, por ce ne le doit l'en pas
+							lessier en pez. Car qui les larroit en paiz ceste genz, les autres genz
+							au <pb n="112"/>roient matière de forfere. Si doit l'en garder segont
+							reson comment l'en an doit ovrer de cez qui s'enfuient por lor
+							forfet&#160;: or doit l'en garder por quel quas l'en doit home
+							forbanir.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Se aucuns doit, et il ne puet, ou ait assez, et ne veaut paier, et
+							s'anfuit, l'en demende se l'en le doit forbenir&#160;? Et l'en dit que
+							non, segont droit. Et segont la costume d'Orliens, s'il n'a riens et
+							s'il ne puet paier, il aura terme de quarante jorz à soi paier&#160;; et
+							au terme, s'il ne se puet paier, il forjura la vile, jusque il se puisse
+							paier. Et s'il a héritage, il aura licence de quarante jorz de vendre,
+							et s'il n'a vendu dedanz ce, et ne se soit paiez, la jotice vendra, ou
+							ele contraindra à vendre.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>La costume de l'ostel le roi n'est pas tele, ainçois est tele que qui n'a
+							riens, riens ne li chiet&#160;: einsint que cil qui ne se puet paier
+							jurra sor sainz que au plus tôt que il porra et aura poir de soi
+							aquitier, qu'il s'aquitera.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>L'en demende por férir home, ou por laidir de paroles, ou fere li sanc ou
+							en chaable, sanz mort et sanz mahaing, et il s'enfuit, se l'en le doit
+							forbenir&#160;? Et l'en dit que non.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Enprès demende l'en, si l'en li met sus murtre, ou larrecin, ou rat, ou
+							omicide, ou membres tolu, ou roberie&#160;; ou s'il a pris de l'autrui à
+							force, ou s'il ne vient avant por doner trives, et il s'enfuit&#160;:
+							savoir, se l'en le doit forbenir&#160;? Et l'en dit oïl. Car tel chose
+							apartient à dampnement de cors, et à perdre perdurable salu.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Or demende l'en, se aucuns fet guerre que droit (<emph>ne doive</emph>),
+							ne que droit ne puisse sofrir, et ne veaut venir avant por fere droit et
+							por avoir droit, se l'en le doit forbenir&#160;? Et l'en dit que oïl,
+							por le péril de la guerre, por le gastement des biens de sus terre, et
+							por l'ocision de genz.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Nus ne doit estre forbaniz por son don, ne guerpir son païs.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Or est à savoir comment l'en doit forbenir, et en quel tens, et combien
+							de tens l'en se doit sofrir enprès plainte, et enprès ce que l'en l'aura
+							sopeceneus dou fet.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Premièrement, l'en le doit fere semondre en son ostel, et s'il n'a ostel,
+							là où l'en quidera qui repere plus. Et si ne veaut, l'en doit prendre le
+							suen, et doit estre en la main au juge. Et se aucuns l'acuise <pb
+								n="113"/>(<emph>l'excuse</emph>) de convenable asoine, recroira l'en
+							la soe chose&#160;? Et l'en dit que oïl à son ami, por qu'il preigne en
+							main qu'il ne mefface, et qu'il vendra à jor por soffrir droit,
+							autrement non. Et se li corpables vient por droit avoir, aura-il ce que
+							l'en a pris dou suen quite, sanz recréance&#160;? L'en dit que oïl,
+							avant que il reponge.</p>
+						<p>Ci dit l'en que avant que home soit forbeniz, que l'en le doit fere
+							semondre par trois jorz&#160;: chascuns d'uit jorz&#160;; et si ne vient
+							dedanz, l'en doit mander de ses amis prucheins et dire leur qu'il ait à
+							un jor&#160;; et se l'en la aveut (<emph>l'aqueut</emph>) cortoisement
+							d'assoine, l'en le doit oïr.</p>
+						<p>L'en doit laissier passer qu'an aut anprès le tens de quarante jorz, et
+							dedanz ce, s'il ne vient, l'en doit forbenir&#160;; et s'il est pris
+							enprès en la suite dou forbenissement, il est dampnez dou fet.</p>
+						<p>Ci dit l'en que se aucuns est forbeniz enprès quarante jorz, et il vient
+							avant dedanz les trois pruchenes assisses, et fet des assoines ce qu'il
+							doit et vuelle soffrir droit, l'en le recevra&#160;; et se ne vient
+							dedanz les trois assisses, il sera dampnez dou fet que l'en li metra
+							sus.</p>
+						<p>Et se aucuns fet apertement fet devant le pueple, et se destorne, et par
+							malice ne veaut venir avant, aura-il le terme de quarante jorz ne des
+							trois assisses&#160;? L'en dit qu'il n'aura plus terme qu'il ne soit
+							forbeniz ; mès il aura le terme de la dampnacion, c'est à savoir de
+							trois assisses&#160;: que l'en doit mout soffrir et atendre, avant que
+							home soit livrez à mort&#160;; car mout est granz chose à deffere ce que
+							Dex a fet, et à fere ce qu'il ne veaut fere.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_07">
+				<front>
+					<head>VII. De ce que l'en fet par force ou par cautele de peor.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Li rois dit&#160;: Je n'aurai pas estable ce que l'en fera par force, ou
+							par cause de poor&#160;: car issint dissoit l'an ancienement que force
+							ere quant l'en fesoit contre la volenté à celi contre qui l'en la
+							fesoit. Peor est cause de péril, qui est à venir et tranblement de
+							priesse. Et por ce ne fet l'en pas mencion de force que toute n'at pas
+							fete sanz force, ne force sanz peor. Force est efforz de genz don l'en
+							ne puet deffendre<note>Dig. lib. 4, tit. 2, frag. 1, 2&#160;: <emph>quod
+									metus causa gestum erit</emph>.</note>. Et tel cause contient
+							paor et force&#160;; et se aucuns fet aucune <pb n="114"/>chose por
+							force ou por paor, qu'il doie estre en hardi home, li rois commende
+							qu'il soit restabliz en sa chose. Nos entendons force cruel, ce que l'en
+							fet encontre bones mors&#160;; non pas tiel force comme li metre font,
+							li ballif, li provoz, por lor droit ou por lor seignorie. Nos apelons
+							force ce que autres fet ou que li metres fet sanz droit ou sanz
+								seignorie<note>Dig. lib. 4, tit. 2, frag. 3.</note>. Nos apelons
+							force paor de mort. Quant la force de mes braz vaint la peor de autrui,
+							je cuit que ausint i puet l'en metre peor de cuvertage, issit com aucuns
+							fet aucuns cuvert où il ostroiast ce que il daist.</p>
+						<p>L'an ne doit mie entendre chascune chose por peor&#160;; mès peor est de
+							greignor mal que l'en n'a.</p>
+						<p>Nos dison que peor de coart home n'apartient pas à ce ban&#160;; mès peor
+							de hardi home<note>Ibid., frag. 3, <emph>in fine</emph>&#160;; frag.
+								4-6.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_08">
+				<front>
+					<head>VIII. De secorre cex qui ont esté déceu par male tricherie.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Li rois secort par ceste loi cex qui ont esté déceu par tricherie et par
+							mellée, que li malicieux et li tricheor ne gaignent pas por lor malice,
+							et que li simples n'i perdent. Les paroles le roi sunt teles&#160;: Ce
+							que l'en fera par mal tricherie, quant nos auron oï la cause, sera
+								rapelée<note>Ibid., tit. 3, frag. 1, pr., § 1&#160;: <hi rend="i">de
+									Dolo malo</hi>.</note>.</p>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/2">Estiene de
+								Sancerre</ref> dit que tricherie male est itele quant l'en fet à
+							aucuns conchiement por autrui décevoir, et quant l'en sent une chose et
+							l'an fet autre.</p>
+						<p>J. B. dit que male tricherie est de fere conchiement, décevance, angin à
+							autre décevoir&#160;; por ce, fut dite male tricherie. Bone tricherie
+							puet estre fete, cum aucuns fet contre son enemi ou contre larrons. J.
+							B. dit : Se dan (<emph>dom</emph>) Tybert déçoit aucuns orfelin de qui
+							il est tutor&#160;; par son conchiement, il ne doit pas avoir aucion de
+							tricherie contre Tybert&#160;; mès de ban qu'il li rende sa chose. Et se
+							le tutor n'a que rendre, lors doit-il avoir aucion de tricherie. Ci n'a
+							nule aucion contre son aversaire qu'il n'a que paier<note>Ibid., frag.
+								1, § 2, 3&#160;; frag. 5, 6.</note>.</p>
+						<p><pb n="115"/>En toles les choses où cil qui n'a vingt-un an est conchiez,
+							la chose est rapelable.</p>
+						<p>Se ta beste me fait domage par ta tricherie, je ai aucion contre toi de
+							tant com le domage monte.</p>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
+								Biaumont</ref> dit que se aucuns deslie mon serf por l'en fere foïr,
+							que je avoie lié, je ai aucion de tricherie contre toi, et J. dit que se
+							tu le fes sanz miséricort, tu fais larrecin&#160;; se tu le fais par
+							miséricorde, il a contre toi aucion de fet<note>Dig., lib. 4, tit. 3,
+								frag. 7, pr., § 6, 7.</note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Uns patrons franchi son serf por ce qu'il remaindroit à lui servir, et
+							cil par sa male tricherie ne le vost servir. L'en demende qu'en dit
+							droit&#160;? Et l'en dit que cil le puet remestre arière là où il le
+							prist.</p>
+						<p>Se uns procurators fet par tricherie que mis aversères gaigne la querele
+							qu'il demende contre moi, j'ai contre lui aucion de tricherie et contre
+							l'aversaire aucion de demender<note>Ibid., frag. 7, § 8, 9.</note>.</p>
+						<p>Se aucuns aferme que aucuns soit bien rendables, et il le dit en bone
+							foi, et il fust povres, je n'ai pas contre lui aucion de
+							tricherie&#160;; mès s'il savoit que il fust povres et afermast qu'il
+							fust riches et bien rendables, j'é (<emph>j'ai</emph>) aucion contre lui
+							de tricherie, quant il loa fausement ce por moi décevoir.</p>
+						<p>Se aucuns aferme que aucuns héritage soit ou grant ou petit, et il ne
+							soit pas, et aucuns l'achate&#160;: se il l'a veu, il n'a pas contre lui
+							aucion de tricherie&#160;; et s'il ne l'a veu, il se fie en celui&#160;;
+							il a contre li auction de tricherie<note>Ibid., frag. 7, § ult.&#160;;
+								frag. 8, 9, pr., § 1.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se plusors font trecherie, et li uns rent por toz, tuit li autre sont
+							délivré. Ceste aucion est contre l'air de tant comme il en est plus
+							riches.</p>
+						<p>Cil a aucion de tricherie contre celui qui li presta poisqu'il savoit
+							bien qu'il n'estoit pas bons.</p>
+						<p>Cil qui nea (<emph>vend</emph>), se li pois est trop granz, cil n'a point
+							de tricherie. Cil qui achate, se li pois est trop petiz, ci a tricherie
+							à celui qui vant, s'il le sot.</p>
+						<p>Se je me met au serement d'aucun, et il se parjure, ge n'ai pas action
+							contre li de trecherie&#160;: la poine dou parjure sofist<note>Ibid.,
+								frag. 17, 18, § 3&#160;; frag. 21, 22.</note>.</p>
+						<p><pb n="116"/>Se mon légat fet entendre à l'ériter que la chose au mort
+							vaille plus que li testement, et il ons croit par le tesmoing de celui
+							sanz voir la chose, et la chose vaut meins, l'en a contre le loeur
+							auction de tricherie.</p>
+						<p>J. dit que li hers n'est pas tant tenuz por le forfet com por la
+							cause&#160;; quar il n'est pas tenuz au forfet. Se aucuns efface le
+							testament qui est escriz, li oir et cil sor qui il ont lessié, auront
+							sor li aucion de tricherie<note>Dig. lib. 4, tit. 3, frag.
+								23-29-35.</note>.</p>
+						<p>Se li marcheanz qui vent sa chose aferme que ele soit bone et ele soit
+							mauvèse, et l'en ne se fie pas an lui, l'en n'a pas contre lui aucion de
+							tricherie.</p>
+						<p>L'en n'a pas aucion de tricherie contre non aagé&#160;; mès il a auction
+							contre autre.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Uns hons si dit à un autre qu'il est déceuz par sa tricherie an ce qu'il
+							se fioit en lui d'un arpent qu'il acheta qu'il n'avoit pas veu, et li
+							fist entendant qu'il estoit de fromentes, et il estoit de roiges, don la
+							chose vaut moins&#160;; et l'ofre à prover par soi et par garanz qui est
+							prez à fere champ et batalle. Et li autres fet encontre tel ni et tel
+							deffense com il doit, l'en demende qu'en dit droit&#160;? Et l'en
+							respont que ci a gage.</p>
+						<p>Entent que la tricherie solement ne fet pas le gage, mès le chatel&#160;;
+							et si n'i a chatel, il n'i a point de gage fors serement.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_09">
+				<front>
+					<head>IX. De cex qui n'ont quinze anz.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Ciz establissement est por aider à celx qui n'ont quinze anz. Li rois vit
+							nature et reson en ce ban, por quoi il prist le ban de celx qui n'ont
+							pas san de lor biens governer&#160;: car comme li consauz de tel aage
+							apartienent au roi, li rois le provet (<emph>promet aide</emph>) contre
+							le conchiement que l'en lor fet.</p>
+						<p>Li rois dit&#160;: Ce que en sera fet à menor de seize anz, je saie ce
+							qui fera. Il apert que li rois promest aide à celx qui n'ont seize
+							anz&#160;: quar enprès seize anz, il sont en aage de vigor, et ancor li
+							valet sont guoverné en tel estat procurators, ne ne puent estre seignors
+							de lor choses, tot <pb n="117"/>sache-il mener ses biens, et jusque il
+							ait tel aage&#160;; et nos entendons ce de celx qui n'ont ne père ne
+								mère<note>Dig., lib. 4, tit. 4, frag. 1&#160;: <hi rend="i">de
+									Minoribus viginti quinque annis.</hi></note>.</p>
+						<p>G. dit que se aucuns fet marchié ou enfant qui n'a que douze anz, et la
+							dete i veigne au tens qu'il a seize anz, l'en demende se l'en doit
+							regarder le commeincement ou la fin&#160;? Et l'an dit que nos devons
+							avoir regart ou commencement.</p>
+						<p>Se aucuns vient aagé et il tiegne à fet ce que il a fet quant il n'iert
+							de aage, il ne puet apeler restablissement de rechief<note>Ibid., tit.
+								4, frag. 3, § 1.</note>. L'en dit que l'en doit regarder la chose où
+							il demende restablissement, se il i est conchiez, et (<emph>s'</emph>)
+							il fet ce que sages hons fet, il ne doit pas estre restabliz.</p>
+						<p>Je cuic que l'en doit secorre celx qui sont plédoiez et dedanz tel aage,
+							et désessi de muebles et de héritages, et de marchiez ou d'autres
+							obligacions an ce où il est déceuz.</p>
+						<p>G. dit que l'en doit secore celx qui sont dedenz tel aage, non pas
+							solement quant il perdent riens de lor éritages&#160;; mès an totes
+							poines et en toz despans<note>Ibid., frag. 6.</note>. Ce qu'an l'an fera
+							o celui qui est non aagé sera nul. Nos devons entendre, s'il fet en
+							queque menière, s'il achète aucune chose, s'il vant, s'il entre en
+							plévine, si prant plaige, se l'en li rent, s'il antre en compaignie et
+							se cil qui desvoient son père li rendoit se il perdoit. An cel choses il
+							sont restabli&#160;: car se il tient en plet nului por acheson d'aucune
+							chose, il ne serient pas oï se n'ière por l'autorité de lor tutors ou
+							por le commendement dou juge. Et se aucuns menor est déceuz sanz male
+							tricherie, par l'autorité son tutor, toutevois li doit l'en
+							secorre&#160;; et por ce défant l'en que nus n'achate riens de celui à
+							l'orfelin, tot le face l'en en bone foi.</p>
+						<p><emph>Item</emph>. Menor ne doit pas estre restabliz an gaaing qui vient
+							d'aventure quant il est fez por le tutor en bone foi, et il n'i a apert
+							barat, comme en gaaigner terres, ou en fere vignes à moitié, en achater
+							vergiers, ou en loier ovriers<note>Ibid., frag. 7, pr., § 1, 2,
+								8.</note>.</p>
+						<p>J. dit que de ce ne dote l'en pas que se li menors ne rant ce que il doit
+							de tele chose, où il ne puet demender restablissement, l'en a bone
+							aucion contre lui&#160;; et se menor enpruente deniers et en achate
+							tenemanz <pb n="118"/>plus que ele ne vaut, aura l'en demende contre
+							lui&#160;? Et l'en dit que oïl, de tant quant il sera plus riches.</p>
+						<p>Se cil qui est non croit deners à celui qui est moins de âge, cil a menor
+							cause qui l'argent balle que celui qui le reçoit<note>Dig., lib. 4, tit.
+								4, frag. 34.</note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>J. dit que menor ne doit pas estre quite de forfet, s'il le fet, se li
+							juges n'a pitié de lui por son aage.</p>
+						<p>Se li menors vit en avotire et il soit coneu, nul pardon ne li ait, ou
+							s'il vit de larrecin ou s'il vit de ce que feme gaigne à f....., ou s'il
+							prent loer por sofrir f....., ou por murtre, ou por traïson, ou por tex
+							vilains fez&#160;: ne acusement (<emph>excuse</emph>) ne li a mestier,
+							quar il fet contre les commendemanz de la loi, et por noiant apele l'en
+							la loi en aide qui fet contre la loi<note>Ibid., frag. 9, § 2,
+							3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Uns menor qui n'estoit pas de âge vendi un héritage, par si que se il le
+							poet raimbre quant il seroit d'aage, il auroit dedenz le demi-an. Il fu
+							de âge, enprès il mori, et achei la chose à celui à cui ele devoit
+							escheer, à un qui n'estoit pas de âge, et ne rendi pas les deners au
+							terme.</p>
+						<p>Or demende l'en se il sera restabliz&#160;? Et l'an dit que non, com li
+							ancessor se consenti au marchié que il avoit fet non de âge quant il fu
+							de âge, ne li autre n'i avoit que le droit que cil i avoit.</p>
+						<p>G. dit que tot ce que li menor font n'est pas quassé&#160;; mès ce
+							solement que il font ou par lor folie ou par lor négligence, ou s'il
+							perdirent ce qu'il avoient, en ce qu'il porrent gaagner, ou si le
+							lièrent à celui fès qu'il ne porent porter<note>Ibid., frag.
+							44.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Se menor qui a esté non âgé et sera venuz à âge, s'il ne demende dedanz
+							l'an et dedanz le jor restablissemanz, il ne sera pas oïz dès iqui en
+							avant.</p>
+						<p>En rétablissement de menor n'a point de gage&#160;; mès enqueste savoir
+							s'il est droiz ou non.</p>
+						<p>L'an ne doit pas respondre à menor an cause où il a gage de batalle
+							devant qu'il ait vingt-un an, ne an chose de fié, ne à feme tant com ele
+							soit en garde, s'ele n'est marié et ele le face por la volenté son
+							seignor&#160;; et s'ele est hors de garde et ele n'ait point de seignor,
+							l'an ne li doit respondre devant onze anz.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_10">
+				<pb n="119"/>
+				<front>
+					<head>X. Por quele cause cil qui sont greignor sunt restabli a lor
+						choses.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Nus ne porra nier que cil bans ne soit droiturées&#160;: quar li droiz
+							est recovrez au tans que li graignor estoit en l'afere de la commune, ou
+							en autre afere don il ne se pot délivrer. Les paroles de ce ban sunt
+							teles : Se l'en prant aucune chose des biens à celui qui n'est pas ou
+							païs, sanz male tricherie, s'il est hors dou païs por commun, ou s'il
+							est en prison don il ne se puisse issir, ou en servage, ou en gerre, ou
+							s'il a apelé devant le roi, ou s'il estoit empêchiez qu'il ne poist
+							riens demender, je le restablirai, se je voi que la cause soit
+								droiturère<note>Dig. lib. 4, tit. 6, frag. 1&#160;: <hi rend="i">ex
+									quibus causis majores</hi>
+								<hi rend="sc">xxv</hi>
+								<emph>annis in integrum restituantur</emph>.</note>. Cil est bien
+							hors par peor, qui a peor de mort ou péril de son cors&#160;; et ce doit
+							estre seu par le juge. Cil qui sunt hors por le commun de la vile, sanz
+							male tricherie, doivent estre restabli.</p>
+						<p>J'apele male tricherie quant cil ne vient pas et puet revenir, et remaint
+							plus por son preu que por le preu dou commun&#160;; il ne sera pas
+							secoruz de ce que l'en fera contre lui en icel tens<note>Ibid., frag. 3,
+								4.</note>. Nos n'antendons pas que cil soient secoruz qui sont por
+							la commune, comme ballis, provoz, servanz, et sunt ou païs où l'an lor
+							demande&#160;; mès nos entendons cil qui sunt lointains. Ausit secort
+							l'en à celui qui est en prison&#160;: l'en apele prison, prison de grant
+							seignor, prisons de larrons, prison de anemis. Nos entendons que cil
+							sont au liens qui sunt si liez qui ne puent venir avant sanz honte.
+							Ausit secort l'en celx qui sont sers, et sert son seignor en bone foi
+							qui venir ne li lesse<note>Ibid., frag. 5, § 1&#160;; fr. 6,
+								9-11.</note>. L'en ne secort pas les pereceus&#160;; mès celx qui
+							sont destorbez par besoignes de lor choses ou de lor cors, ou par autre
+							destrece de tens. L'en ne doit mie entendre que l'en restablisse les
+							gregnors por gaigner, ne por fere domage à autrui<note>Ibid., frag. 16,
+								18.</note>. L'en demende commant l'en puet prover ces choses devant
+							dites&#160;? Et l'en dit que li juges doit ce savoir par loiaus
+							enquestes et par tesmoinz de bones gens.</p>
+						<p>Gaius. <emph>Omnibus</emph>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_11">
+				<pb n="120"/>
+				<front>
+					<head>XI. Se aucuns met hors de sa main la chose dont est li plez, tant comme il
+						dure, et la baille a plus fort qu'il n'est<note><hi rend="i">Nota</hi>. On
+							lit en marge de ce titre&#160;: <hi rend="i">de Alienatione judicii
+								mutandi causa facta</hi>, lib. 4, Digeste, ch. 4. (Écriture
+							moderne.)</note>.</head>
+					<head type="gp">XI. Se aucuns [35vA] met hors de sa main la chose dom li plez
+						tant comme il dure et la baille à plus fort que il n’est <hi rend="i"
+							>[rubr.]</hi></head>
+					<div type="original">
+						<listWit>
+							<witness>Traduit du Dig., liv. 4, tit. 7, <hi rend="i">de Alienatione
+									judicii mutandi causa facta</hi>.</witness>
+						</listWit>
+					</div>
+				</front>
+				<body>
+					<div>
+						<head>§ {4.7.1} <hi rend="i">Gaius. Omnibus</hi>.</head>
+						<div type="gp">
+							<p>Li prevoz esgarde an totes menieres que la cause d’aucun ne pire par
+								autrui fet quant il antant que la fin de la cause est plus dure por
+								autre aversaire que l’en amoine contre nos. Et por ce fu esgardé que
+								se aucuns met le plet sor autre aversaire, et le fet esciant por nos
+								conchier, nos avons contre lui aucion de fet, d’autretant comme ne
+								nos vosison que il eust amené autre aversere contre nos. {1} Et s’il
+								amoine contre nos home d’autre terre ou plus poissant que lui, il
+								sera tenuz à nos de l’aucion escrite desus.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.7.2} <hi rend="i">Gaius. Aut</hi>.</head>
+						<div type="gp">
+							<p>Ou s’il amene autre aversere por nos travaller.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.7.3} <hi rend="i">Gaius. Quia</hi>.</head>
+						<div type="gp">
+							<p>Et se je pledoie contre lui qui est d’autre province, je doi pledier
+								la où il est, en nos ne poons pas estre paronz à poissanz plus que
+								nos. ¶ {1} Et se nos demandon un serf et il le franchit, et nostre
+								afere en enpire por ce que li prevoz soutienent les franchises. ¶
+								{2} Et s’il met en autrui mein le leu où tu fes ta besoinge, an qui
+								tu avoies auction et deffense que nul n’i feist ne n’i amenast eau,
+								nostre afere en enpire&#160;; car se la pledoiast à toi, tu otases
+								cele ovre à tes despans. Et quant il me convient ore pledoier o
+								autre que o celui qui cel evre avoit fete, je sui tenu et forcié
+								d’oster à mes despens cele ovre&#160;; car qui tient fet d’autre est
+								tenuz par ces demandes que il sofre cele ovre estre otee. ¶ {3} Et
+								se je te nonce nove ovre que tu fes en ma chose que tu n’i faces
+								plus et tu mez celui leu en autrui main et li heritier fet iqui
+								l’oivre, tu es tenuz à moi de cest jugement&#160;; ausi comme je ne
+								puisse pas pledier à toi de ce que tu n’en as riens fet, ne à celui
+								ne puis je pledoier à qui tu l’as baillié por ce que ne li deffendi
+								pas que il n’i feist rien. ¶ {4} Et de ce apert il que li prevost
+								promet [35vB] que il retablira celui qui issi est atornez, que li
+								autor a itel auction par l’ofice au juge por tant comme il ne vosist
+								que cil eust quis contre lui autre aversere ‹...› il le li tendra. ¶
+								{5} Et se cil contre qui l’en a tele aucion est prez de sofrir tel
+								jugement ausit com s’il tenist la chose, l’en ne le doit pas oïr ne
+								doner li auction.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.7.4} <hi rend="i"> Ulpianus. Idem</hi>.</head>
+						<div type="gp">
+							<p>Encore, se cil à qui la chose est balliee de mon aversere a tant tenu
+								les que l’en ne la li puet demander, cest ban est contre lui. {1} Et
+								il puet avenir que aucun lesse à tenir la chose que je demande sainz
+								tricherie, mes il le fet por foïr le plet&#160;; et moulz autres
+								choses puet aucun lessier à tenir sanz tricherie, ne no fet pas pour
+								foïr le plet, ne n’est pas tenuz de foïr ce ban, car il ne met pas
+								la chose hors de sa main que ne fet sanz plus que la chose lesser.
+								Ne li prevost ne blasme pas celui quar il motre que il ne voloit pas
+								avoir la chose, et il a bone pensee que il n’a cure de plet, ne l’en
+								ne l’en doit pas blasmer. Mes cil doit estre blasmz que quant il
+								vost avoir la chose la porte à autrui por deffendre, que il est plus
+								animos et plus forz. ¶ {2} Pedius dit que ci ban n’apartien pas
+								solement à müer la seignorie de la chose don est li plez, mes ausi
+								se l’en mue la sesine&#160;; se que non, il ne sera pas tenuz contre
+								celui à qui l’en demandoit s’i lesse la possession. ¶ {3} Et se
+								aucun met son plet sor autre por febleté ou por aage ou por ce que
+								il n’i puet entendre, il n’est pas tenuz de ce ban, car ce ban fet
+								mencion de male tricherie&#160;; ne il ne porra pledoier par
+								procurators por ce que il avront prise sor aus la seignorie aucunne
+								foiz por droite cause. ¶ {4} Et cil ban apartient à droitures des
+								teneures, que l’en ne la mete en autrui main par tricherie. ¶ {5}
+								Cete aucion aviant à ce que cil vosit por tant que cil n’eust sa
+								chose, ou se cil est morz à qui l’autre li balla, cest ban faut an
+								ce, si li autor n’i a autre chose. [36rA] ¶ {6} Ceste aucion n’en
+								porte point de poine, mes el commande que l’en n’enpeichast sa
+								chose&#160;; et ele est donee à l’oir et contre l’oir.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.7.11} <hi rend="i"> Idem. Cum miles</hi>.</head>
+						<div type="gp">
+							<p>Uns chevalers demandoit possessions que il disoit que l’an li avoit
+								donees&#160;; l’an respondi que se cil don fust fet por acheson de
+								müer le jugement, il convient que le premier seignor an
+								pledoit&#160;; que l’en ne croie que l’en ait baillié au chevaler
+								plus la chose que le plet.</p>
+						</div>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_12">
+				<front>
+					<head type="gp">XII. De arbitres <hi rend="i">[rubr.]</hi></head>
+					<div type="original">
+						<listWit>
+							<witness>Traduit du Dig., liv. 4, tit. 8, <hi rend="i">de Receptis qui
+									arbitrium receperunt ut sententiam dicant</hi>.</witness>
+						</listWit>
+					</div>
+				</front>
+				<body>
+					<div>
+						<head>§ {4.8.1} <hi rend="i"> Paulus. Cumpromissum</hi>.</head>
+						<div type="gp">
+							<p>Mise si ‹est› à la meniere de jugement et apartient à fenir plez.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.2} <hi rend="i"> Ulpianus. Et compromisso</hi>.</head>
+						<div type="gp">
+							<p>Acordé est que excepcion n’issent pas de mise, mes l’en puet demander
+								la paine.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.3} <hi rend="i"> Idem. Libon</hi>.</head>
+						<div type="gp">
+							<p>Labes dit&#160;: se li arbitres ne dit sentence de la mise qui est
+								sor lui que aucuns soit assoz de la demande que aucun menor fesoit
+								sor lui, li prevost ne le doit pas avoir estable ne l’en ne porra
+								demander la paine. ¶ {1} Et li prevoz ne puet nul forcer à prandre
+								arbitre, ¶ car ceste chose est franche et delivre et sanz besoing de
+								juridiction. Mes, puis que aucun a pris sor soi la mise, li prevoz
+								cuide que il apartient à soi ou delivrer, non pas por ce que il
+								s’estudie à plez fenir, mes que li miseor ne soient deceu, qui
+								l’eslurent comme preudom. ¶ Or soit que li plez eit esté demenez et
+								que li arbitres seit tout l’afere, et que il est corrumpu ou par
+								amor ou par loer ou par autre cause, et ne vost dire droit, nus ne
+								puet nier que il ne soit droit que li prevoz ne san autrement que il
+								le forcera ce à dire que il prist sor soi. ¶ {2} Li prevoz
+								dit&#160;: cil qui recevra arbitres de mise de pecune. ¶ {3} Veon
+								des persones des arbitres. Li prevoz forcera arbitre de queque
+								digneté que il soit de dire son dit, tot soit il conche, s’i n’est
+								mestre ou an aucunne poeté, ou provot ou conte&#160;; car cex n’en
+								puet il forcier.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.4} <hi rend="i"> Paulus. Nam magistratus</hi>.</head>
+						<div type="gp">
+							<p>Car li haut mestre ne puent estre forcé en nule meniere&#160;; ne
+								n’est [36rB] mie force s’il ont receu l’arbitre an cele
+								digneté&#160;; car li plus bas i puent estre forcié.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.5} <hi rend="i"> Ulpianus. Sed et filius</hi>.</head>
+						<div type="gp">
+							<p>Et li fiz i est forciez.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.6} <hi rend="i"> Gaius. Quin etiam</hi>.</head>
+						<div type="gp">
+							<p>L’an dit que li filz doit estre arbitre de la cause au pere, car
+								plusor s’acordent que il doit estre juge.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.7} <hi rend="i"> Ulpianus. Pedius</hi>.</head>
+						<div type="gp">
+							<p>Pedius et Pomponius dient que pou monte se li arbitre est franc ou
+								franchi, ou de bone renommee ou de mauvese. Labeo dit que l’en ne
+								puet fere mise au serf&#160;; et c’est voir. Don Julien dit que s’il
+								a fet mise sor Robert et sor un serf, l’an ne doit pas forcier
+								Robert à dire sentence por ce que il a compegnon, tot ne soit nul
+								l’arbitre de serf. Et s’il dit sentence, la poine ne puet estre
+								demandee&#160;; car il ne dit pas sentence si com il reçut la
+								mise.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.8} <hi rend="i"> Paulus. Sed et si ita</hi>.</head>
+						<div type="gp">
+							<p>Et si l’an fet issit la mise que la sentence d’un vaille, Julian dit
+								que l’en doit Tebert forcer à dire son dit.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.9} <hi rend="i"> Ulpianus dit&#160;: Sed et si
+							servum</hi>.</head>
+						<div type="gp">
+							<p>Et si l’an fet mise au serf, et il dit franc sa sentence, je cuit que
+								ele vaut se les parties s’i acordent s’il est fet franc. ¶ {1} Mes
+								l’en ne puet fere mise an orfelin, ne an forsené, ne an sort, ne an
+								muz, ausit com dit Ponponius. ¶ {2} Se aucun est juge et il reçoit
+								en son arbitre de la chose don il est juge, ou s’il comande que l’en
+								se mete sor lui, la loi le li deffent&#160;; et s’il an dit, l’en ne
+								puet demander la poine. ¶ {3} Autres i a qui<note>qui] <hi rend="i"
+										>quant</hi> dans le ms., cf. lat. <hi rend="i">sunt et alii
+										qui non coguntur sententiam dicere</hi>, distraction du
+									scribe dans la résolution des abréviations</note> ne puent estre
+								forcié de dire lor dit, si comme s’il i a loer ou vilté en lor mise.
+								¶ {4} Julian dit : se li pledeor diffement le pledeor, le prevot ne
+								le doit pas acuser ne forcier&#160;; mes s’il est issi, il le doit
+								savoir. ¶ {5} Et ausi est s’i le lessent et retornent ariere à lor
+								juge.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.10} <hi rend="i"> Paulus. Vel aliud</hi>.</head>
+						<div type="gp">
+							<p>Ou à autre arbitre.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.11} <hi rend="i"> Ulpianus. Litigatores</hi>.</head>
+						<div type="gp">
+							<p>Se li pledeors vont à la cort de l’ofice et enprés retornent, le
+								prevost ne doit pas l’arbitre forcer de dire [36vA] son dit por ce
+								que cil li ont fet despit por ce que il alerent à autre. ¶ {1} L’an
+								ne doit pas forcer arbitre de dire son dit s’il n’i a mis poine. ¶
+								{2} Ce que li prevost dit «&#160; deners don est fete mise &#160;»,
+								nos devon entendre s’il i a poine de deners de ça et de la, ou autre
+								chose en leu de poine se aucun ne tenoit le dit l’arbitre&#160;; et
+								issit le dit Ponponius. ¶ Et se les choses sont misses allors, par
+								si que cil les ait qui gaagnera, ou que il doint cele chose cil qui
+								l’a en garde, s’il ne voudra tenir la sentence l’en demande se l’en
+								doit forcer l’arbitre de dire sentence. Et je cuit que oïl,
+								d’autretant com li a ballé. Et se li uns promist deners, li autre la
+								chose, la mise est pleniere et sera forcie. {3} Aucunne foiz, si
+								comme Ponponius dit, mise est fete aucunne foiz par un convenant, si
+								comme s’il sont andui detor et il funt entre aus que li un ne
+								l’autre ne demande la chose que l’en la lor doit s’il ne tienent la
+								sentence l’arbitre. ¶ {4} Julien dit que l’en ne puet l’arbitre
+								forcer à dire son dit se l’un se met en lui et li autres ne s’i met.
+								¶ {5} Ausit dit il&#160;: se la poine i est mise par condiction,
+								ausit comme l’en dit «&#160; se tu fes ce, je te donroi ce &#160;»,
+								l’an ne puet forcer l’arbitre à dire son dit dusque la condicion
+								soit avenue, que la sentence ne soit mauvese se la condiction
+								est&#160;; et issit dit Ponponius. ¶</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.12} <hi rend="i"> Paulus. Quo casu</hi>.</head>
+						<div type="gp">
+							<p>Et en ce quas apartient il au prevost que li arbitres puet dire son
+								dit au jor que c’est mis qu’i le die.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.13} <hi rend="i"> Ulpianus</hi>.</head>
+						<div type="gp">
+							<p>Puponius dit que se un autre prent la poine à gré, l’en ne doit pas
+								l’arbitre forcer à dire son dit. ¶ {1} Ponponius dit&#160;: se mise
+								est solement de mes contenz, et j’ai promise poine de la chose, l’an
+								doit voer s’il i a mise&#160;; je ne voi pas que ele i soit, car
+								s’il i a mise solement de mes contenz, il n’i a [36vB] nule reson.
+								Et si puet l’en fere mise d’une chose, et s’i i a reson por quoi
+								l’en puet dire que ce n’est pas mise por ce que la promesse vient
+								d’une part et se cil qui promist fust demandé, or l’en puet dire que
+								la mise est pleniere, car cil à qui l’en demande est segur, ausit
+								comme de barre de convenant&#160;; et se l’autre ne vint tenir la
+								mise, cil à qui l’en demande a la promesse. Mes je ne cuit pas que
+								ce soit voirs&#160;; il ne sofist pas avoir barre qui l’arbitre soit
+								tenuz de dire sentence. ¶ {2} Cil est veuz que il a receu l’arbitre
+								qui reçoit ce que li juges fet et qui veaut terminer le plet par sa
+								sentence&#160;; et s’il fet issi que l’an en pledoit, ou que li
+								aferes soit menez par son consoil ou par s’autorité, il n’est pas
+								aparissant que il ait receu l’arbitre. ¶ {3} Li arbitres ne puet
+								estre forcez à tos jorz de dire sentence où li juges ne seroit
+								forciez, se le jor de la mise ne doit passer ne il ne la puisse
+								dire. {4} Et se le prevost le force à dire son dit, droiz est que
+								s’il jure que il n’est pas certain de la cause que l’an li doint
+								espace à dire son dit. ¶</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.14} <hi rend="i"> Ponponius. Sed et si</hi>.</head>
+						<div type="gp">
+							<p>Et se la mise est fete sanz jor, il convient que li arbitres meste
+								son jor au parties s’il s’i acordent por la cause determiner&#160;;
+								et se l’é lessé que il n’i ait jor, il puet estre toz jorz forciez à
+								dire son dit.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.15} <hi rend="i"> Ulpianus. Licet</hi>.</head>
+						<div type="gp">
+							<p>Et tot die le prevost estroitement que il forcera l’arbitre de dire
+								son dit, il doit oïr sa reson aucunne foiz et son acusement, si
+								comme il avient se l’en dit que il soit mal renomez par celx qui se
+								sont mis sor lui, ou s’il le heent, ou s’il aime l’un plus que
+								l’autre, ou s’il a age, ou feblece l’enpeche, ou que il ait trop à
+								fere de ses aferes, ou que il le convient aler hors dou païs, ou por
+								le commun, il n’est pas tenu à dire son dit&#160;; et issit le dit
+								Labeo.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.16} <hi rend="i"> Paulus. Et si qua</hi>.</head>
+						<div type="gp">
+							<p>Et se aucunne autre male [37rA] aventure li avient enprés ce que il a
+								l’arbitre receu, si comme de feblece ou de tex chose, il n’est pas
+								droiz que il soit forciez. ¶ {1} Li arbitres doit estre racusez au
+								non de son jugement, que il est privé au commun, si comme cil ne
+								puet dire son dit dedanz le jor que il i a mis. Et s’il puet, por
+								quoi ne le fera il quant il le puet dire&#160;? Et il li puet avenir
+								aucune foiz sanz nule devise s’il si acordent andui que il puet dire
+								son dit, tot n’et l’en parle de jor, ne autrement n’en fera rien. Il
+								ne puet estre forciez s’il ne consent que il se mete an lui de chief
+								se le jor doit passer.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.17} <hi rend="i"> Ulpianus. Item</hi>.</head>
+						<div type="gp">
+							<p>Et se un des pledeors qui n’a rien et guerpit ce que il a, li
+								arbitres ne doit pas estre forciez de dire son dit por ce que il n’a
+								de quoi paer, ne ne puet estre trez en plet ne traire l’autrui. ¶
+								{1} Labeo dit que si li pledeor, un poi enprés que il avront
+								pledoié, retornent à l’arbitre, non poent forcier de dire son dit. ¶
+								{2} Et s’il i a plusors arbitres, l’an ne puet forcier l’un de dire
+								son dit o toz o nuil. {3} Et se l’an fet mise en tel meniere que li
+								arbitres die ce que plera à Tebert mon aversere, Ponponius demande
+								quil doit estre forciez&#160;; et je cuit que tel arbitres ne vaut
+								riens quant li arbitres n’a poer de dire sa sentence à sa volenté.
+								{4} Et s’il en fet issi misse que ce que Tybert et Gaubert en
+								feront, tel mise vaut, et je le cuit, et puet l’en forcier l’arbitre
+								de dire son dit. ¶ {5} Et si l’en fet mise sor dos, ainsint que s’il
+								se descordent que il pregnent le tierz, tel mise ne vaut riens, car
+								il se puet discorder en eslire le tierz. ¶ Et se l’an fet issi que
+								dan Jefroi soit li tierz, tel mise vaut, car il ne se puent
+								descorder an prendre le tierz. {6} Or demandun principaument, se
+								l’en met mise sor .ii. arbitres, se li prevoz les doit forcier de
+								dire sentence, por ce que la chose ne sera jamés fenie par avanture
+								por ce que home sont de nature legiere à descorder. Et por ce reçoit
+								la mise au numbre desiuel<note>desiuel] <hi rend="i">desimel</hi>
+									dans le ms., distraction dans la notation des jambages, cf. lat.
+										<hi rend="i">impari numero</hi></note>, por ce que toz ne
+								s’acordent pas legierement&#160;; mes s’il se descordent [37rB],
+								l’en tendra ce que li plus en dira. Et si tient l’en que l’an puet
+								fere mise an .ii., et doit li prevolz fere eslire as arbitres le
+								tierz à qui droit l’en se tiegne s’il se descordent. ¶ {7} Celsus
+								dit que se l’en fet mise an .iii., que li consentement des .ii.
+								sofist se li tierz est presanz. Et s’il n’est presanz, tot s’i
+								acordent li dui, lor arbitre ne vaut riens, por ce que la mise fut
+								fete sur aus trois&#160;; et s’il fut present, il puet trere les
+								.ii. à sa sentence.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.18} <hi rend="i"> Ponponius. Sicuti</hi>.</head>
+						<div type="gp">
+							<p>Et ausit comme s’il ne vaut riens ce que .ii. juges font quant li
+								tierz n’i est, quar ce que la gregnor partie juige doit estre tenu,
+								quar ausit est comme se toz eusent jugié.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.19} <hi rend="i"> Paulus. Qualem</hi>.</head>
+						<div type="gp">
+							<p>Labeo dit que li prevoz n’a que fere quel sentence li arbitres die,
+								s’il dit toute voies ce que l’en est avis&#160;; et se l’an fist
+								issi la mise que il doint certaine sentence, li arbitres est nul, ne
+								l’an ne le doit pas forcier à dire son dit. {1} Julianus. Dicere.
+								Nos cuidon que cil die «&#160; sentence &#160;» que il a dit en tel
+								pensee que selon son dit que il voille fenir tot le contenz. Et se
+								la mise est de plusors choses, s’il ne fenist toz les contanz, il ne
+								dit rien, ainz le doit forcier li prevoz. {2} Donc l’en doit voir
+								s’il puet müer sa sentence. Et autrement n’et li aferes se li
+								arbitres dit par son dit que l’en doint aucunne chose à l’autre
+								partie et aprés le deffant&#160;; l’en demande le quel l’en doit
+								tenir, ce que il deffant ou ce que il commande. Et Sabinus cuide
+								bien que oïl&#160;; et Casius acuse bien la sentence son metre, et
+								dit que Sabinus n’antandi pas de cele sentence por qui li arbitres
+								est determinz, mes de cele sentence qui est aparellement à delivrer
+								la cause. Ausi comme s’il commande que cil qui se sont mis sor lui
+								seent par devant lui an avrill, puis lor remande que il i soient an
+								moy, il puet bien müer le jor. Et s’il condampne ou s’il asost par
+								sentence, il ne puet rapeler sa sentence premiere.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.20} <hi rend="i"> Gaius. Quia</hi>.</head>
+						<div type="gp">
+							<p>Et se li arbitres foloie à dire, il ne la puet remander.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.21} <hi rend="i"> Ulpianus. Quid tamen</hi>.</head>
+						<div type="gp">
+							<p>Et s’il est [37vA] fet arbitre de plusors contenz divers, et il dit
+								son dit de un et non pas de autres, il remaint encore arbitre&#160;?
+								¶ Or veon s’il puet müer sa sentence do premier contanz dom il avoit
+								dit sentence. Et moult i a à savoir se mise est ou non que il die
+								son dit de tot&#160;; car s’ill i a mise de tot, il puet müer son
+								jor, car il n’a pas dit son dit de tot&#160;; et s’il i a plusors
+								mises deviseement, quant à ce, il n’est plus arbitres. ¶ {1} Se li
+								arbitres dit isit par son dit&#160;: «&#160; je ne voi pas que il
+								soit certeine chose ne segure à Tibert avoir contanz contre Gaubert
+								&#160;», et s’il ne deffendi Aubert que il ne demandast rien, et
+								s’il demande rien, il fist contre la sentence l’arbitre&#160;; et
+								issint le cuident Offilius et Tribace. ¶ {2} Je cuit que li arbitres
+								puet metre jor à fere poie, et issit le cuide Tribace. ¶ {3}
+								Ponponius dit que se li arbitres dit mauvese sentence, ausit comme
+								l’en dit&#160;: «&#160; de tant comme tu doiz à Robert, nos en feron
+								à nostre devise, et tant com tu as rendu, autretant pren &#160;» ¶
+								{4} et se li arbitres deffant que l’an ne demande la poine de la
+								mise, Ponponius dit que il ne puet valoir&#160;; et ce est reson,
+								car il n’i ot point mise fete de la poine. {5} Ponponius. Si cum.
+								Quant li jor de la mise fu feniz, le jor fu alongiez, li pledeor se
+								mistrent de chief en l’arbitrage, ne ne reçut pas sus soi l’arbitre
+								de la secunde mise, ne l’an ne l’en puet forcier de prendre le sus
+								soi, s’il n’a esté en demore de dire son dit&#160;; et s’il demora
+								por lui, droiz est que il soit forciez por le prevost de prendre
+								l’autre mise. Et c’est voir s’il n’ot mis point de jor en la
+								premiere mise, et s’il i ot jor et il ne dit son dit, il fut et
+								remest arbitre. ¶ {6} L’an apele «&#160; plene mise &#160;» quant
+								l’en fet pez des choses ou de contenz, car il apartient à toz
+								contez. Et s’il i à contenz d’une chose, tot i ait il plaine mise,
+								aucunne chose i remaint des autres demandes, [37vB] car ce vient en
+								la mise don parlé fut que il an fust mise&#160;; mes miauz vaut se
+								l’an fet mise de chose certaine que l’en en die son dit. {7} Li
+								contenteor ne doivent pas obeir à la mise s’il lor commande fere
+								chose qui ne soit cortoise. ¶ {8} Et si<note>si] <hi rend="i"
+										>li</hi> dans le ms., cf. lat. <hi rend="i">si intra
+										diem...</hi></note> arbitres est requis dedanz le jor de la
+								mise de aler avant en la mise, et enprés le jor mande les parties,
+								il n’i a point de poine. ¶ {9} Et se aucuns de celx n’i vient pas ou
+								par feblece, ou par le commun, ou de par les metres, ou por autre
+								droite cause, la poine n’est pas commise, si com dient Proculus et
+								Articilinus. Et s’il veaut fere mise sor lui, l’an li doit avoir
+								barre&#160;; et c’est voir se li arbitres veaut recevoir la mise sor
+								soi, car Julien dit qui l’en ne le doit pas forcier, et cil est
+								quité de la poine. {10} Et se li arbitres commande que li miseor qui
+								estoient en la province venissaint, et li arbitres estoit à
+									Rome<note>Rome] <hi rend="i">jorne</hi> dans le ms., sans doute,
+									une faute de lecture, cf. lat. <hi rend="i">cum Romae esset in
+										eum compromissum</hi></note>, l’en demande se l’en n’i vet
+								s’il i a point de poine. Et c’est voir que Julien dit que can doit
+								estre mis en la mise, et qui jura le comprera s’il commande autre
+								leu. Et que sera se l’en ne set le leu&#160;? Mieuz est que l’en
+								entende le leu où est fete la mise. Et se li arbitres lor commande
+								un leu qui soit dedanz la cité&#160;? Pegasus dit que il le puet
+								bien fere&#160;; et je cuit bien que c’est voirs s’il est de tel
+								autorité que il est à costume à fere ses aferes an privez leus et li
+								pledeor i puent venir legierement. {11} Et s’i les commande venir en
+								aucun autre leu qui n’est pas honeste, si comme en corsine ou en
+								bordeau, Juliain dit que se l’en n’i vet, l’an ne le comprara pas.
+								Celsus loe ceste sentence, don il dit trop bien&#160;: se ce leu est
+								tel que l’un des pledeors n’i puet venir honestement, et li autres i
+								puet venir et il n’i vient pas, que il puet venir sanz honte ne il
+								n’i vient pas, et li autres i vient qui n’i puet venir sanz honte,
+								l’en demande se la poine est commise, ausit comme s’il n’en chausit
+								à celui d’i venir. Celsus [38rA] cuide que la poine ne doit pas
+								estre commise, car ce seroit trufle entendre que la chose fust ferme
+								an persone d’autrui et an autre non. ¶ {12} Or doit l’en voir an
+								combien de tens sera commise la poine se l’en ne rant ce que li
+								arbitres commande. Et s’il n’i met point de jor, s’il i a un pou de
+								tens et s’il é passé, la poine puet estre demanois demandee. Et s’il
+								le commande avant que il die son dit, l’en ne porra demander la
+								poine.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.22} <hi rend="i"> Paulus. Utique</hi>.</head>
+						<div type="gp">
+							<p>Et c’est voirs s’i ne vost lors que l’an rendist.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.23} <hi rend="i"> Ulpianus</hi>.</head>
+						<div type="gp">
+							<p>Celsus dit&#160;: se li arbitres commande que l’en rande dedanz moi
+								et l’an ne rant pas, tot l’ofre l’an aprés, la poine est commisse,
+								por ce que l’an ne randi quant l’an dut. Et s’il prant ce que l’en
+								li offre, il ne puet demander la poine&#160;; et s’il le fet, l’en a
+								contre lui barre de tricherie. ¶ {1} Ausit dit il&#160;: s’i
+								commande que tu me randes, et se je soi si feble ou par autre cause
+								si enpechié que je ne le poi recevoir, je ne cuit pas que la poine
+								soit commisse, et se tu es preuz enprés de prandre le jor et tu ne
+								le fes pas. Il cuide que li arbitres ait .ii. commandemanz, l’un de
+								randre l’argent, l’autre de tens&#160;; tot ne soit la poine
+								commisse por ce que tu ne ranz pas au jor, et par toi ne faut pas,
+								toute voies le doiz tu, an ce que tu ne le ranz pas. {2} Ausi est
+								que il n’i a autre chose de fere son poer de tenir la mise que de
+								fere son poer quant à lui apartient. {3} Ausi dit Celsus&#160;: se
+								li arbitres commande que je te rande à certain jor, tu ne vosis
+								prendre, je me poi deffendre par droit que la poine n’est pas
+								commise.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.24} <hi rend="i"> Paulus. Sed et si postea</hi>.</head>
+						<div type="gp">
+							<p>Et s’il est enprés prez de prandre, je li puis baller sanz poine, tot
+								ne l’avoie je pas fet devant.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.25} <hi rend="i"> Paulus. Labeo</hi>.</head>
+						<div type="gp">
+							<p>Labeo dit&#160;: si li arbitres de la mise qui estoit sor lui, s’il
+								fust issi acordé que il deist à celui jor son dit et il dit d’une
+								chose son dit et d’autres ne le dit pas et alogna le jor, le dit
+								vaut et puet sanz poine te[38rB]nir son dit. Et Ponponius loe la
+								sentence Labeonis&#160;; et ausit m’est il avis, car il n’a pas
+								achevé son afere à dire son dit. ¶ {1} Et ceste cause d’aloigner le
+								jor ne done à arbitre nul autre poir que de jor alongier&#160;; et
+								por ce ne puet il ne apeticer ne müer la condiction de la premiere
+								mise, et por ce doit il dire son dit de totes choses. ¶ {2} Et se
+								l’en done ploige de la premiere mise et de l’autre anprés, Labeo dit
+								que il doit dire son dit&#160;; mes Ponponius dit se par ces plege
+								ou par ausi bons, et que sera se cil ne vuelent plevir&#160;? Il
+								convient que il quiere ausi bons.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.26} <hi rend="i"> Paulus. Ne in potestate</hi>.</head>
+						<div type="gp">
+							<p>Et c’est fet que li plege n’eent poer com la poine soit commisse
+								quant il ne s’obligent enprés&#160;; et ausi est s’il se morent.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.27} <hi rend="i"> Paulus. Diem</hi>.</head>
+						<div type="gp">
+							<p>L’an puet alongier jor par mesage ou par letres. ¶ {1} Se l’en ne fet
+								mencion de la mise de loer ou de ces autres, la mise faut quant le
+								miseor muert. Mes nos ne tenon pas la sentence Labeo, qui cuide que
+								la poine soit perdue se li arbitres commande à aucun que il rande
+								aucunne chose et il muert avant que il la randist&#160;; li hers à
+								celui qui est morz est tenuz rendre por lui. ¶ {2} L’an doit estre
+								en la sentence à l’arbitre, soit ele bone ou mauvese, bien si gart
+								que il se mist sor lui&#160;; et li enpereor dit que il la convient
+								tenir tot ne soit ele bone. ¶ {3} S’il sont plusors arbitres et il
+								dient diverses sentences, l’en ne doit pas tenir la&#160;; mes l’an
+								la doit tenir se la gregnor partie s’i consent, si que non la poine
+								est commise. ¶ Et ancor demande l’en&#160;; s’il i a trois arbitres
+								et li uns condampne an .xv. et li autres an .x. et li autres an .v.,
+								l’en demande la quele sentence doit valoir. Et Julien dit que l’en
+								doit rendre .v., car tuit s’acorderent an some de .v. {4} Se aucun
+								des pledeors n’est pas presanz, et par li est que li arbitres ne die
+								son dit, la pene est commise. Et ‹si› les parties n’i sont, s’il ne
+								fust devisé en la mise que se .i. ou .ii. [38vA] en defallent que il
+								puet dire son dit, cil qui defaut doit la poine, por ce que por lui
+								falli que li arbitres ne fut dit. {5} Et cil dit son dit devant juge
+								qui le dit devant sages, car devant desvé, forsené, orfelin, se le
+								tutor n’est present, ne doit l’en pas dire son dit&#160;; issit le
+								dit Julien. {6} Et se aucun present deffant à l’arbitre que il ne
+								die sun dit, il doit la poine. {7} Et s’il n’a point de poine en la
+								mise, me s’il promet simplement que il tendra la mise, li autres a
+								contre lui auction de tote la chose.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.28} <hi rend="i"> Paulus. Non autem</hi>.</head>
+						<div type="gp">
+							<p>Ne nuit pas se dotose ou certaine somme est mise an la mise, ausint
+								comme l’en dit tant comme la chose voudra.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.29} <hi rend="i"> Ulpianus. Adversus</hi>.</head>
+						<div type="gp">
+							<p>L’en vet contre la sentence l’arbitre se l’an demande à celui contre
+								qui il deffendi que l’en ne demandast&#160;; et se l’en demande au
+								plege, la poine est commise. Et issit le dit Sabin&#160;; et s’il
+								fist mise ou le plege et l’an demande à l’autre, li plege n’i pert
+								rien.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.30} <hi rend="i"> Paulus. Si quis</hi>.</head>
+						<div type="gp">
+							<p>Se aucuns tret en plet la chose don a esté mise, aucun dient que li
+								prevoz ne puet forcer l’arbitre à dire son dit, car il n’i a point
+								de poine, ausi com se la mise fust depecee. Et s’il i gaagne ce, il
+								avendra que il se met am poier à celui don il se repant et il
+									volt<note>volt] <hi rend="i">vol’t</hi> dans le ms.</note> sa
+								mise alungier&#160;; donc doit il la poine, et plet corra par devant
+								le juge.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.31} <hi rend="i"> Ulpianus. Ita</hi>.</head>
+						<div type="gp">
+							<p>Issi sera commisse la poine quant l’an fet aucunne chose contre li
+								sanz la tricherie à celui qui la promist&#160;; car en tel meniere
+								est fete la mise que nul ne gaagne en son conchiement. ¶ Et se l’an
+								met en la mise tel cause que se l’en fet rien par tricherie en tele
+								chose, que l’en ait contre celui aucion de promesse. Et por ce, se
+								aucun corrunt l’arbitre ou par loier ou por covoitise, ou l’avocat à
+								l’autre partie, ou aucun de cels à qui il a si cause ballie, l’en
+								avra contre lui action de tricherie&#160;; ou s’il conchie son
+								aversere conjontement et s’il fet tricherie en cet plet, auction de
+								promesse a leu&#160;; et se cil veaut avoir aucion de tricherie, il
+								ne devra [38vB] pas avoir la, mes de promesse. Et se cet mot n’est
+								mis en la mise, aucion ou barre de tricherie avra leu&#160;; et cele
+								mise est plene qui a mencion de cete cause.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.32} <hi rend="i"> Paulus. Non distinguemus</hi>.</head>
+						<div type="gp">
+							<p>Nos ne feron pas force s’il a petite poine ou grant an mises plus que
+								la choses dom est li contenz ne vaut. {1} Et li arbitres n’est pas
+								forcez de dire son dit s’il n’i a poine. ¶ {2} Se feme fet mise an
+								autrui non, la poine n’et pas commise por lui. ¶ {3} La some de la
+								chose est que li prevoz ne s’en entremete ja s’il i ot mise ou n’i
+								ot, mes lesse pendre<note>pendre] <hi rend="i">prandre</hi> dans le
+									ms.</note> savoir se la poine puet estre demandee ou se ele faut
+								enprés. ¶ Mise est depecee par jor qui passe, par mort, par gié, par
+								jugement, par convenant. {4} Et se aucun arbitre devient pretre,
+								veon se l’en le puet forcer à dire son dit. Et cest é ostroié
+								solement non pas à l’enor des arbitres, qui à l’annor de Deu, à cui
+								servise il convient que li prestres entende. Et s’i le reçoit
+								pretres, il convient que il die son dit. {5} Et l’an ne repuet
+								forcer l’arbitre de dire son dit se l’en n’a fet pez, ou se cil est
+								morz qui fist la mise, s’il n’i a remés aucunne chose por quoi. ¶
+								{6} Julien dit sanz devise&#160;: se l’an fet mise de aucun forfet
+								par error ou se l’en fet mise de la chose don commun jugement est
+								establi, ausit comme de avotires, de murtres, li prevoz doit deveer
+								que l’an an die droit ne que le dit ne vauge rien. ¶ {7} Ne arbitre
+								ne doit pas dire son dit de cause de franchise, car c’est si aute
+								chose que grant juges devent an conoistre. Et ausit doit l’en dire
+								s’il est plet de franchise ou de franchir&#160;; et se l’en doit
+								franchise de testamant ausi en doit l’en dire. ¶ {8} Et se li serf
+								fet mise, l’an ne doit pas forcier l’arbitre de dire<note>de dire]
+										<hi rend="i">de dedire</hi> dans le ms.</note> son dit, ne
+								ne doit l’en rendre la poine. ¶ Veon se franc fet mise o li se l’an
+								doit doner poine contre le franc&#160;; et miauz vaut que il n’i
+								soit pas donee. ¶ {9} Et se aucun fet mise à Rome, [39rA] et enprés
+								vient en mesage à Rome, li arbitres ne doit pas estre forciez de
+								dire son dit, ne ne sera plus forciez que s’il eust avant entemné le
+								plet&#160;; ne ne regarde l’en pas si fu lors en mesage ou non. Et
+								s’il fet mise en mesagerie, je cuit que li arbitres doit estre
+								forciez de dire son dit, car s’il eust un plet pris sor soi, il fust
+								tenuz dou precheur. Et aucun sont qui de ce dotent, et non pas à
+								droit, que ne devent pas doter s’il fist mise de la mesagerie de
+								cele chose, que il fist lors por ce que il est forcez de prendre le
+								plet an celui non. L’en doit ce voir avant, s’il fist la mise avant
+								que il fust mesage li arbitres doit estre forciez de dire son dit se
+								cil le requiert. Et ce sanble tort par la premiere reson, que cil
+								ait tel poer&#160;; et autretel comme en plet que l’an auge en plet
+								avant de la mise, ausint comme en<note>en] <hi rend="i">enn</hi>
+									dans le ms., signe d’abréviation mal placé</note> un autre plet.
+								{10} Se cil qui avoit fet mise o le mort fet contenz de l’eritage
+								avoir, se li arbitres dit son dit, il puet fere tort à l’oir&#160;;
+								don ne doit l’en deffendre l’arbitre que il ne die son dit. ¶ {11}
+								Le jor de la mise puet estre longié, non pas por convenance, mes
+								quant besoing est que il soit alongié par le comandement l’arbitre
+								que la poine ne soit commise. ¶ {12} Se li arbitres se vout celer,
+								li prevoz le doit cerchier et, s’il demore, il doit rendre la poine.
+								{13} Quant mise est fete sor plusors par tel convent que se chascun
+								ou un die son dit, que il soit tenu se li autre n’i sont presant,
+								cil qui est presanz sera forciez de dire son dit. Et se l’en fet
+								mise par tel condiction que tuit dient lor dit, ou que ce soit tenu
+								que li plus dira, l’an ne forcera pas chescun, car la sentence de
+								chascun ne fet pas rendre la poine. ¶ {14} Cum .i. arbitre fust
+								aperceu à estre ennemi d’autre cause, l’en li deffendi que il ne
+								deist son dit, et sanz force de nul il le dist, li enpereor dist que
+								l’en avoit encontre lui barre de tricherie&#160;; et quant il
+								demanda conseil au juge devant qui la poine [39rB] estoit demandee,
+								il dist que se l’an ne poet apeler, que l’an poist avoir contre lui
+								barre de tricherie ou demander la poine. Et itel barre est une
+								meniere d’apeler que l’an puisse rapeler la sentence l’arbitre. ¶
+								{15} Et por ce que nos parlon de office de arbitre, l’an doit savoir
+								que tot doit estre preis de la mise, ne dehors l’en ne doit riens
+								fere, ne li arbitres ne puet rien fere fors de la mise. {16} L’en
+								demande de la sentence l’arbitre et de son dit, tot eent dit aucunne
+								autre chose. Et je ne cuit pas que ce soit voir que la poine soit
+								commise s’il dit que l’en auge à son juige, ou que l’en se mete ou
+								sor lui ou sor un autre&#160;; car Julien dit que la poine doit
+								estre randue se l’en ne tient son dit, s’i commande que l’auge à
+								autre arbitre, et issi ne fineroit l’en jamés. Et s’il dit ainsi que
+								la chose soit baillie par l’arbitre don Tebert ou que il dont
+								caucion, Pedius dit que l’an ne doit pas tenir son dit. Et cil
+								Pedius dit que les mises soient alongees, ou fetes mises sor autres
+								mises por metre fin à contenz, car il ne fenist pas le contenz s’il
+								delae l’afere ou s’il le met sus autre, et que c’est une partie de
+								sentence se l’an done caucion ou plege, et que l’en ne puet l’afere
+								à autre baller s’il n’i a mise ou se li arbitres n’atablist par cui
+								volenté la caucion soit prise ou donee. ¶ {17} Et s’il commande que
+								il ait o soi un compaignon an la mise, il ne dit rien, car son dit
+								doit estre de la mise et la parole n’est pas de ce. ¶ {18} Se cil
+								qui firent la mise volent venir devant l’arbitre par procurators, li
+								arbitres puet commander s’il vint que il i viegnent ; {19} et se
+								l’an fet en la mise mencion de l’oir, il puet commander que li ers i
+								viegne. ¶ {20} Il est contenu en l’ofice à l’arbitre comment la
+								teneure doit estre baillie voide&#160;; ou s’il doit doner caucion
+								que li sires<note>sires] <hi rend="i">sues</hi> dans le ms., cf.
+									lat. <hi rend="i">dominus</hi></note> avra son fet acablé, la
+								poine est commise. ¶ {21} Li arbitres ne puet riens fere hors de la
+								mise; et por ce doit l’en metre jor à la mise, si non il n’i a point
+								de poine.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.33} <hi rend="i"> Papinianus. Arbiter</hi>.</head>
+						<div type="gp">
+							<p>Se l’an dit en la mise que l’an poche le jor alongier, bien [39vA] le
+								puet l’en fere&#160;; me il convient que les parties s’i
+								acordent.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.34} <hi rend="i"> Paulus. Si duo</hi>.</head>
+						<div type="gp">
+							<p>Si dui qui doivent ou à cui l’en doit sont, et l’an fet mise, et l’en
+								deffende à cetui qui ne demant ou que l’an ne demant, l’an doit
+								trover s’il demande ou se l’an li demande. Se l’an li demande, la
+								poine est commise. ¶ Et ausit puet l’en dire de .ii. changeors qui
+								ont lor choses ensenble&#160;; et nos la porrons joindre issi ou les
+								pleges, s’i sont compagnons&#160;; issi que l’an ne demant rien, ne
+								je ne demant, ne an mon non ne demande l’en pas, tot demant l’en.
+								{1} Se la poine est commise, je cuit que la mise est depecee&#160;;
+								ne n’i puet plus avoir poine s’il n’est mis en convant que de tantes
+								causes tantes poines.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.35} <hi rend="i"> Paulus. Si pupillus</hi>.</head>
+						<div type="gp">
+							<p>Se li orfelins fet mise sanz l’autorité au tutor, l’an ne doit pas
+								forcier l’arbitre de dire son dit. Car se l’an dit contre lui, il
+								n’est pas tenuz de la poine, mes le plege qui i est<note>i est] <hi
+										rend="i">rest</hi> dans le ms.</note> mis en est
+								tenuz&#160;; et issi dit Julien.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.36} <hi rend="i"> Ulpianus. Si feriatis</hi>.</head>
+						<div type="gp">
+							<p>Se li prevoz force l’arbitre de dire son dit en jor de ferie et l’an
+								demande la poine, barre n’a point de leu se ce jor ferié où l’en dit
+								le dit n’est excepté par autre convenance.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.37} <hi rend="i"> Celsus. Quamvis</hi>.</head>
+						<div type="gp">
+							<p>Se li arbitres deffant que l’en ne demant rien l’un à l’autre, et li
+								hers demande à l’autre, la poine sera pardue&#160;; car l’en ne fet
+								pas mise por plez alongier mes por acorcier.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.38} <hi rend="i"> Modestinus</hi>.</head>
+						<div type="gp">
+							<p>Quant poine est demandee de mise, et cil qui si mist est condamnez,
+								n’est pas force s’il apartient à l’aversere que l’an tenist dit à
+								l’aversere ou non.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.39} <hi rend="i"> Sabolunus. Non ex omnibus</hi>.</head>
+						<div type="gp">
+							<p>L’an ne doit pas demander poine de mise et totes les causes dont l’en
+								ne garde lo dit l’arbitre, mes li arbitres puet punir solement celui
+								qui ne rant ce que il commande. Et an cest conte ne sont pas les
+								nons des garanz s’il ne sont monstrez par la sentence de l’arbitre.
+								{1} Quant li arbitres commande le jor alongier et l’en li otroie, li
+								autres puet avoir la poine [39vB] par la demore à l’autre.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.40} <hi rend="i"> Ponponius. Arbiter</hi>.</head>
+						<div type="gp">
+							<p>Li arbitres commanda as parties que il fussent devant lui à mi moi,
+								et antre tant il mori&#160;; li uns de cels n’i fu pas. Sanz dote la
+								poine n’est pas commise, car Aristo dit que il oï<note>oï] <hi
+										rend="i">or</hi> dans le ms.</note> que Casius disoit que la
+								poine n’estoit pas commise por ce que li arbitres n’estoit pas
+								venuz&#160;; ausit comme Servius dit&#160;: si remeint par le
+								prometeor que il ne receue la procuracion, la poine n’est pas
+								commisse.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.43} <hi rend="i"> Scevola. De rebus</hi>.</head>
+						<div type="gp">
+							<p>Mise fut fete de par Tebert de toz contenz sor arbitre&#160;; mes
+								l’en i oblia par folie à nonmer en la mise unes choses, ne li
+								arbitres ne dit riens. L’an demande se ce qui fu lessié puet estre
+								demandé. Je di que oïl, ne n’i a point de poine. Et s’il le fist
+								malicieusement, il puet demander ce que fu lessié, mes il rendra la
+								poine.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.44} <hi rend="i"> Idem. Inter</hi>.</head>
+						<div type="gp">
+							<p>Contez estoit antre Chatelein et Senefroi de bones ; mises en fut
+								fete sor l’arbitre por terminer l’afere par son dit&#160;; il dit
+								sentence par devant les parties et i eust bonnes. L’en demande se
+								Chatelain ne tint le dit l’arbitre se la poine est commise. Je di
+								que oïl, por ce que il dist son dit an la presence de celx.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.45} <hi rend="i"> Ulpianus. In compromissis</hi>.</head>
+						<div type="gp">
+							<p>Arbitre de persone ne passe pas la persone en mise.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.46} <hi rend="i"> Paulus. De hiis</hi>.</head>
+						<div type="gp">
+							<p>Li arbitres puet juigier de ces contanz et de celes choses qui
+								estoient au commencement antre ceux qui se mistrent, non pas de ce
+								qui vient enprés.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.47} <hi rend="i"> Paulus</hi>.</head>
+						<div type="gp">
+							<p>Se la mise ‹est› issi fete que li arbitres die son dit devant aus ou
+								devant lor hers et li uns d’aus muert et li orfelins remaint heir,
+								la sentence, s’ele est dite, ne vaut riens se le tutor n’i est
+								presant. {1} Et ausi est se li uns des miseors ist fors dou san.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.48} <hi rend="i"> Modestinus. Arbiter</hi>.</head>
+						<div type="gp">
+							<p>Arbitre n’est pas forcié à dire sentence.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.49} <hi rend="i"> Ulpianus. Sed et interpellatur</hi>.</head>
+						<div type="gp">
+							<p>Mes l’an le doit metre à reson que il die sa sentence, car l’an ne
+								fet rien devant desvé&#160;; et se cil desvé a curator, li arbitres
+								puet dire son [40rA] dit devant lui. ¶ {1} Li arbitres puet
+								commander à parties que il soient devant soi ou par mesages ou par
+								letres. {2} Et se l’autre partie solement fet mencion de l’oir, la
+								mise sera depecee se l’un de cels muert, ausi com s’il moroent en
+								dui se l’an ne fesoit mencion des hers à icels deus.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.50} <hi rend="i"> Sabinus. Arbiter</hi>.</head>
+						<div type="gp">
+							<p>Li arbitres qui ne puet dire son dit avant le jor qui en la mise
+								estoit establiz, commanda que li jorz fust alongiez, li uns d’aus ne
+								l’et pas&#160;; l’en demandoit se l’an li porroit demander la poine
+								por la promesse. Je di que non, por ce que l’en n’avoit pas ostroié
+								à l’arbitre que il aloignast le jor.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.51} <hi rend="i"> Marcellus. Si de re</hi>.</head>
+						<div type="gp">
+							<p>Se aucun est fet arbitre de sa chose, il ne puet dire son dit, car il
+								commande à soi meismes ou deffant à soi, et nus ne puet deffandre ne
+								commander à soi.</p>
+						</div>
+					</div>
+					<div>
+						<head>§ {4.8.52} <hi rend="i"> Idem. Si quis</hi>.</head>
+						<div type="gp">
+							<p>Se aucuns demore à rendre ce que li arbitres dit, il doit la
+								poine&#160;; et s’il rant anprés, il est delivré.</p>
+						</div>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_13">
+				<front>
+					<head>XIII. De noteniers, de taverniers et hosteliers, commant il sunt tenu des
+						choses qu'il reçoivent<note>Dig., lib. 4, tit. 9, <hi rend="i">Nautœ,
+								caupones, stabularii, ut recepta restituant</hi>.</note>.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>U<hi rend="sc">lpianus.</hi>
+							<emph>Ait pretor</emph>. Li prévoz dit&#160;: Tavernier, nautonier,
+							ostelier, s'il ne rendent loiaument ce que l'en lor balle, ge donroi
+							jugement contre aus.</p>
+						<p>Ci a mout grant preu&#160;: car il convient aucune foiz croire soi à aus
+							baller lor ses choses, ne ne cuit nus que ce soit establi durement
+							contre aus&#160;: car il est en aus de recevoir autrui choses ou de
+							lessier, et se ce n'estoit establi, il auroient matire d'estre compainz
+							à larrons ; ne ancor ne s'en gardent-il pas de fere tricheries.</p>
+						<p>Or doit l'en voir qui sunt cil qui sunt tenu&#160;; et li prévoz dit que
+							li notenier. Nos devon entendre notenier, cil qui moine nef, jà sé ce
+							qui l'an apele noteniers toz cels qui sunt en nés&#160;; mès li prévoz
+							antant solement dou mestre de la nef&#160;: car il ne doit pas, ce dit
+								<ref target="http://josticeetplet.huma-num.fr/items/show/3">Johanz
+								de Beaumont</ref>, estre obligié par le guoverneor de la nef, ou par
+							un des autres&#160;; mès por soi, ou por les metres, jà sé ce qu'il est
+							commendé baller la chose à aucun des noteniers&#160;; et lors sanz dote
+							doit-il estre obligié. Et si a uns qui sunt mis an nés por garder les,
+							et se aucuns reçoit riens de tex, je cuit que l'en doit doner aucion
+							contre le mestre, porce qu'il commendent, qu'il reçoivent la chose, tot
+							face celi notoniers, ou li metres&#160;; et se l'en ne set li quex ot la
+							chose, li notoners est tenuz de la recete. <pb n="121"/>Labeo dit qu'il
+							doit issit estre establi des metres des nés, et nos tenons ce droit.</p>
+						<p>Nos apelons taverners et osteliers qui moinent taverne ou otelerie, ou
+							lor serjanz. Et se aucun use de mein métier, si comme pateor, triboleor
+							et itel menestères, il ne sont pas de ce tenu.</p>
+						<p>Et ce que li prévoz dit que ce qui recevront soit sauf, c'est à entendre
+							de quanquez il recevront. Et Johan dit que ce apartient à cest ban, se
+							l'en lor balle robes, unes et autres choses, don nos avon chescun jor
+							besoing. Et Johens dit que poi se monte, se nos ballons à garder nos
+							choses, ou au noteniers ou au mestre, que il nos convient qu'il soient
+							sauves, ausi bien comme à cex à qui il sunt. Et se je praing merz ou
+							gage por deners de notenerie, li noteners sera plus tenuz à moi que au
+							deteur&#160;; s'il les a receuz avant il convient qu'il soient sauves,
+							se les choses sont mises en la nef, ou seignées&#160;; ou s'el ne sont
+							seignées, por ce solement qui sont mises an la nef, sont-il
+							receues&#160;? Et je cuit qu'il doit de tot recevoir la garde. Le fet au
+							noteniers ne li apartient solement que des avainturiers.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>G<hi rend="sc">aius.</hi>
+							<emph>Sicut</emph>. Ausi comme li taverniers est tenuz de cex qui vunt
+							lor chemin.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>U<hi rend="sc">lpianus.</hi>
+							<emph>Et ita</emph>. Et issit escrit Johan de Beaumont dou fez
+							aveinturiers, et ausi en dit com se les choses n'estoient encore en la
+							nef receues, et issi sont perdues ou rivage, et il les ont prises en
+							garde, le péril en est lor.</p>
+						<p>Li prévoz dit&#160;: S'il ne les rendent, je donrai jugemant contre aus.
+							De ce ban ist demende de fet&#160;; mès l'en doit voir s'il est
+							nécessere&#160;; car de ceste cause puet l'en avoir aucion de cité, s'il
+							i a loer de loage, et se tote la nef est loée, et cil qui la loa puet
+							plédoier de loage et des choses qui li fallent&#160;; et se li noteniers
+							les prist à porter, il est tenu de loage&#160;; s'il les prist en garde,
+							Johan dit que l'en a contre lui auction de chose ballié à garder. Or
+							s'émervoille Johan porquoi auction de prévost est otroïe comme ele soit
+							de cité, se n'est por ce que li prévoz i met poine por chastier tel
+							rebauderie, et por ce que cope est an loage et tricherie en chose
+							ballie. Et en cest ban est tenuz cil qui reçut la chose, tot soit la
+							chose perdue sanz sa cope, ou s'il i a domage ou par avanture ou <pb
+								n="122"/>por nef froissie, ou par galies, Johan dit que c'est droit
+							que li metres ait exception.</p>
+						<p>Ausit doit l'en dire des hosteliers et de taverne, s'il i a juerie&#160;:
+							ausit en sont-il tenu. Et s'il recevent autrui chose hors lor office, il
+							ne sont pas tenu. Se fiz ou serf reçoit autrui chose par la volenté au
+							père, au seignor, chascun d'aux puet estre trez en plet por le tot. Et
+							se serf amble ou fet domage, aucion de forfet n'aura pas leu&#160;; mès
+							il sera tret en plet par ice ban, parce qu'il a la chose reçue. Et s'il
+							le fet sanz la volenté au seignor ou au père, l'en aura aucion contre
+							lui de son chetel&#160;; et ceste aucion si est por la chose porchacier,
+							comme dit Pomponius, et por ce est-ele donée à toz jorz contre lo
+							er.</p>
+						<p>Au derrenier, convient voir se l'an puet avoir aucion deus, une de
+							prévost, autre de larrecin, an nom d'une meisme chose. Johanz en
+							dote&#160;; mès miauz vaut que cil qui balle la chose, se l'an ne la li
+							rent, s'an tiegne apoié de l'ofice dou juge, ou de barre de
+							tricherie.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>G<hi rend="sc">aïus</hi> (P<hi rend="sc">aulus</hi>). <emph>Sed et
+								ipsi</emph>. Au taverniers meismes aviant aucion de larrecin, aucun
+							péril la chose est perdue, s'il meismes ne l'an emblée, et se l'an la li
+							emble anprès&#160;; ou se l'an la li emble, cil noteniers n'a par
+							avainture de quoi paier.</p>
+						<p>Se noteniers, hosteliers, herbergeors, taverniers, reçoivent autrui
+							choses, il en sont tenu inelement.</p>
+						<p>Johan dit que ce ban apartient à celes choses qui sont mises an la nef,
+							anprès les marchandies et anprès les aloés, tot n'en doie l'en rien de
+							voiture, si comme de robe et de despanse de chascuns jor&#160;: car
+							totes ces choses sunt de loage des autres choses.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>G<hi rend="sc">aïus</hi>, <emph>Noute</emph>. Notenier et tavernier et
+							ostelier prenent loer, non pas por garder&#160;; mès por porter la
+							voiture et li voituriers. Et li taverniers qui sofre les joeors, li
+							establer qui sofre les jumanz estre establées en l'estable, et si est-il
+							tenuz de garder les&#160;: car li folon et li chartrener n'ot pas
+							solement por la garde que por le mester, et totevoies sont-il tenu de la
+							garder por le nom de loage.</p>
+						<p>Rien que nos avon dit de larecin, ausit doit l'en antendre de
+							domage&#160;: quar l'en ne doit pas doter que cil qui prist en main à
+							fere sauf, ne soit tenu de domage et de larrecin.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p><pb n="123"/>P<hi rend="sc">aulus.</hi>
+							<emph>Licet</emph>. Tot sois-tu passé par noiant ou an antrer en taverne
+							por noiant, l'en ne t'aniera pas aucions en fet, se l'en t'a fet honte
+							ou domage. Se tu as ton serf an taverne ou en nef, et il me fet domage
+							ou larrecin, tot aie-je aucion de larrecin et de honte et de domage et
+							d'injure, j'é (<emph>j'ai</emph>) ici contre aucion de fet, an nom de
+							mon serf. Ausit est s'il est commun, et tu n'ies tenu an son nom ou de
+							partir ou de compagnie, o (<emph>ou</emph>) se tu achatas sa partie o il
+								(<emph>ou le</emph>) tot, je sui dou loage obligié à toi. Et se
+							aucun fet à celui domage qui est en la nef ou à la taverne, qui fet li
+							prévoz&#160;? Priser, s'il ne cuide pas en tel nom bone aucion.</p>
+						<p>Le tavernier est tenu de aucion de fet por cels qui sont antré an taverne
+							por i habiter&#160;; et cestes choses n'apartienent pas à celui qui i
+							entre demanois, ausi comme cil qui vet sa voie.</p>
+						<p>Nos poon user d'aucion de larrecin et de honte contre noteniers, se nos
+							menon le plet dan Tibert&#160;; mès nos ne devon tenir amne. Et se nos
+							plédeon contre le metre, nos li devon fere noz demendes, tot ait li
+							metres aucion contre aus de loage. Et se le mestres est quites de cele
+							aucion et emprès plédoie l'en contre le notenier, il aura barre qu'il ne
+							soit tote jor travaillié por un forfet. Et se l'an plédoie dou forfet,
+							ce fu home, et anprès plédiei l'en d'aucion de fet, il aura barre.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>U<hi rend="sc">lpianus.</hi>
+							<emph>Debet</emph>. Li metres doit rendre reson de toz ses noteniers,
+							soient-il franc ou serf, et par droit, com il lessa (<emph>les a</emph>)
+							à soi pris à son péril, ou à son preu&#160;; mès il e rant (<emph>il le
+								rant</emph>) ausi com se le domage eist esté fet an la nef&#160;:
+							car s'il est fez dehors, il n'i est pas tenuz. Et s'il dit avant que
+							chascun gart sa chose, ne s'il i ont domage qu'il n'en rendront rien, et
+							il s'i acordent, il n'i est pas tenuz.</p>
+						<p>Ceste aucion de fet est (<emph>du double</emph>), se li noteniers
+							s'entre-font domage, li metres n'en a que fere. Mès se aucun est
+							noteniers et marcheant, bien se gart&#160;: car l'aucion est contre lui,
+							et li autre notenier sont tenu ausi, si sont notenier qui ne randront
+							rien de portage.</p>
+						<p>Se li sers et li notenier font domage, tot ne soit-il serf notenier, est
+							que l'an ait aucion contre le mestre&#160;; et li mestres est tenuz de
+							sa cope an ceste aucion, por ce qu'il li mist en sa nef tex menateres.
+							Et s'il meurt, il n'en sera jà relevez&#160;; mès il est tenuz sanz plus
+							de forfet de <pb n="124"/>ses sers&#160;: quar quant il met estranges en
+							sa nef, il doit voier de quel foiz, de quel bunté il sont. Se li sien li
+							forfont, pardoner li doit-on, s'il met tex et quex à sa nef garder. Se
+							pluisors moinent la nef, chascun est amplédiez par sa partie. Ces
+							juigemenz, tot soient-il de provosté, il durent&#160;; mès ce n'est pas
+							contre le ier. Et por ce, se le serf fust en la nef et morit, l'en ne
+							donra pas aucion de chetel au sers contre le segnor, ne dedanz l'an. Mès
+							se li sers ou li fiz moine la nef ou la taverne ou la herbergeresse, je
+							cuic que cete aucion est contre aus, chascun por le tot, por ce qu'il
+							reçurent toutes les choses qu'il i avoient, chascun por le tot.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>D'osteliers, de taverniers, de notonners, cil qui prandront en garde,
+							s'il ne le rendent loïaument, B. dit&#160;: l'en donra jugement contre
+							aus, et de ce ne puet nestre batalle&#160;; mès prove par léaus
+							tesmoinz.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>

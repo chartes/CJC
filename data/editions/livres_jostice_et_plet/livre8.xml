@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre8">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: « Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-07" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>[80vB] CI COMMANCE LI HUITIESME LIVRES <hi rend="i">[rubr.]</hi></head>
+        </front>
+        <group>
+            <head>CI COMMANCE LI HUITIESME LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="169"/>
+                <front>
+                    <head type="gp">I. D’achat et de convenant entre acheteor et vendeor et quex
+                        choses ne puent estre vendues <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 18, tit. 1&#160;: <hi rend="i">de
+                                    Contrahenda emptione, et de pactis inter emptorem et venditorem
+                                    compositis, et quœ res venire non possint</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {18.1.1} <hi rend="i">Origo</hi>.</head>
+                        <div type="gp">
+                            <p>Commoincemenz de vendre et d’acheter vint d’eschanges. Encienement
+                                n’estoit pas deniers, et merz estoit apelé une chose et pris
+                                autre&#160;; et chescun, segont le besoing que il avoent, chengoent
+                                mauvés por bon&#160;; car tote jor avient que l’un a assez dont
+                                l’autre a pou. Et por ce que il n’avenoit pas souvent de legier que
+                                tu eusses ce que ‹je voloie, et que› je avoie et qui te plesoit,
+                                matere fut esleue qui eust commun esme et durable qui secoroist à
+                                changes par iviauté. Et cele matiere fut serne en commun coign, qui
+                                dont usage et seignorie de tant comme ele vaut&#160;; et perdi merz
+                                son non et apela l’en «&#160;l’autre pris&#160;». ¶ {1} L’en dote
+                                que vençon puet hui estre fete sanz deniers, ausi comme se ge te
+                                donoi une cote por une cote. Sabinius et Cassius cuident que ce soit
+                                vençon. Nerva et Proculus distrent que c’est change. Sabinus apele
+                                Homer à tesmoing, qui dist que li ost de Grece achetoit arein de
+                                fer&#160;; mes les vers que Homer dist senefient plus change que
+                                achat. Mes la sentence que Nerve et Proculus dient est plus
+                                veroie&#160;; car autre chose est vendre et autre chose est achat,
+                                un est vendeor autre est achateor, autre chose est merz autre chose
+                                est pris, et l’en ne pot pas deviser en chenge le quel est achateor
+                                ne le quel est vendeor. ¶ {2} Achat fut contrové de droit de
+                                gent&#160;; et il est fet por acort et pot estre fez entre cez qui
+                                ne sont presenz et par mesage et par letres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.2} <hi rend="i">Ulpianus. Inter</hi>.</head>
+                        <div type="gp">
+                            <p>Achat ne pot estre fez entre [81rA] pere et fiz, fors que de ce que
+                                li fiz a hors gaignié. {1} Nule vençon n’est sanz pris ; et le pris
+                                nombre, et la chose baillie fet l’achat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.4} <hi rend="i">Ponponius. Et liberi</hi>.</head>
+                        <div type="gp">
+                            <p>L’en entant que eschet est de franc home et de seint leu se cil n’en
+                                siet rien qui l’achate.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.5} <hi rend="i">Paulus. Quia</hi>.</head>
+                        <div type="gp">
+                            <p>Car l’en conoist à poine fran home de serf.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.6} <hi rend="i">Ponponius. Sed Celsus</hi>.</head>
+                        <div type="gp">
+                            <p>Mes Celsus dit que tu ne puet acheter franc home se tu le siez, ne
+                                autre chose se tu sez que ele soit autrui et que el soit deffendue,
+                                si comme seinz leus et religios que l’en ne pot vendre, ne choses
+                                qui sont communes.¶ {2} La convenance qui est dite au commoincement
+                                do marchié pot estre muee enprés par autre convenance&#160;; ausi
+                                comme l’en pot lessier tot l’achat se il n’est acompli quanque l’en
+                                devoit fere ça et la.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.8} <hi rend="i">Ponponius. Nec</hi>.</head>
+                        <div type="gp">
+                            <p>L’an n’entent pas que ce soit vençon ne eschet s’i n’i a chose qui
+                                soit vendue. Et si pot l’en bien acheter feons et fruiz qui sont
+                                encore à venir&#160;; si comme l’en dist, quant cil sera nez, lors
+                                est fez li aferes et la vençon. Et se le vendeor fet tant que il ne
+                                nesse, l’en a aucion d’achat. {1} Et aucunne foiz est vençon sanz
+                                chose aucunne, comme quant l’en achete jui de table, prise de
+                                poison&#160;; lors est li achaz, tot n’i aviegne rien, car li achaz
+                                est fez en esperance. Et ce qu’est pris en tel non par les engins,
+                                enprés ce n’a point de demande en non d’achat, car il fut ensi
+                                entendu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.9} <hi rend="i">Ulpianus. In empcionibus</hi>.</head>
+                        <div type="gp">
+                            <p>Aperte chose est que il convient que acort soit en achat et en
+                                vençon&#160;; et s’il i a descort en achet, ou en pris, ou en autre
+                                chose, li achaz ne vaut rien. Et se je cuide acheter la vigne de
+                                Leure d’or (?) et tu me vendis cele d’Orgemont et por ce que nos nos
+                                descordames en la chose, la vençon ne vaut rien. {1} Et se nos
+                                descordon ou non et l’en est certains do cors, n’est pas dote que la
+                                vençon et l’achat ne valle, l’error dou non ne fet rien quant l’en
+                                est certain do cors. {2} Ausi demande l’en s’il n’a error do cors
+                                mes l’en ne set quel il est, ausi comme se l’en vent vinegre por vin
+                                plein, arain por or, plun por argent ou aucunne autre chose qui
+                                senble argent&#160;? Marcellus dit que c’est vençon, car l’acort fut
+                                acordé de la chose, [81rB] tot soit il meserré en la matiere. ¶ Je
+                                me consant bien au vin, car c’est pris d’une chose se le vin est
+                                egre&#160;; mes s’il n’est egre, ou il fut egre au commoincement
+                                quant je l’achetoi, aparissant est que il vent autre chose por
+                                autre. Es autres choses, je ne cuit pas que il i eist vençon à totes
+                                les foiz que l’e‹n› meserre en la matire.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.11} <hi rend="i">Ulpianus. Quid</hi>.</head>
+                        <div type="gp">
+                            <p>Que diron nos se un orb fut marcheant ou l’en meserre en la matiere,
+                                si comme tel qui n’est pas mout sage de marcheandie acheter&#160;?
+                                Nos dison que la vençon vaut s’i s’acorde ou cors, ausi comme l’orb
+                                s’i consenti. ¶ {1} Et se je cuide acheter une pucele qu’estoit ja
+                                feme, li achaz vaut&#160;; car s’el ne fu pucele se fut ele femele.
+                                Et se ge vendi une feme et tu cuidas acheter un enfant, car il est
+                                error en genre, l’achat ne vaut rien et est nul.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.14} <hi rend="i">Ulpianus. Quid</hi>.</head>
+                        <div type="gp">
+                            <p>Que diron nos si foloient en dui en savoir que la chose est&#160;?
+                                Ausi comme se je cuidoi vendre or et tu le cuidas acheter et ce fut
+                                arain. Et se li heir vendirent à un heir une pierre preciose grant
+                                argent et l’en i trova grant partie de herain, la vençon vaut por ce
+                                que il i ot partie d’or ; car se aucunne chose est doree tot cuide
+                                je que ce soit or, la vençon vaut. Et se je vent arain por or, la
+                                vençon ne vaut pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.16} <hi rend="i">Ponponius. Sue</hi>.</head>
+                        <div type="gp">
+                            <p>Achat de sa chose ne vaut rien se je l’achate au seu ou sanz seu. Et
+                                se ge l’achate sanz sen quel soit moie, je la porroit redemander,
+                                car il n’i ot point de obligacion&#160;; {1} ne il ne nuist rien à
+                                l’achateor s’il use un poi de ma chose.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.19} <hi rend="i">Idem. Quod</hi>.</head>
+                        <div type="gp">
+                            <p>Ce que je veng n’est à celi qui l’achate dusque le pris soit rendu ou
+                                que il en ait fet gre, ou se nos nos tenon à l’acheteor saz nul
+                                plege.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.21} <hi rend="i">Paulus</hi>.</head>
+                        <div type="gp">
+                            <p>Labeo dist que ocurité de convenant doit plus nuire au vendeor qui
+                                menti que à l’acheteor, car il pot dire sa verité avant que le
+                                marchié fut fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.38} <hi rend="i">Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun vent par cause de don mois do pris la chose, la vençon vaut.
+                                Nos dison tantes foiz que la vençon ne vaut rien quantes foiz com
+                                tote la [81vA] vençon est fete par cause de don&#160;; quant la
+                                chose est vendue por mois por cause de don, n’est pas dote que la
+                                vençon ne valle antre cez autres genz&#160;; mes vençon qui est fete
+                                entre home et sa feme por mois que ele ne vaut n’est pas
+                                tenable.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.40} <hi rend="i">Paulus. Qui</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui vendi le champ dist issi en convenant que le acheteor mesurat
+                                le champ dedanz .xxx. jorz procheins, et quant il avroit mesuré que
+                                il le seut à dire&#160;; et s’il ne l’eust mesuré avant le jor, que
+                                la foi au vendeor fut delivré. Li achateor li dist dedanz le jor que
+                                il i avoit meins que il ne cuidoit, et pris l’argent por tant comme
+                                il dist, et quant il le mesura il trova mout mois de mesure que il
+                                ne cuida. L’en demande se le vendeor li devoit rendre ce que i
+                                estoit moins. Je di que il i a difference comment li marchiez fut
+                                fet&#160;; car s’il fu issi dit que li achateor mesurast le champ
+                                dedanz .xxx. jorz procheins et que il le venist dire au seignor
+                                combien il troverent moins, s’il i dit enprés le terme il ne li
+                                profete rien. Mes s’il fut issi mis en convenant qu’i li feist
+                                savoir dedanz les .xxx. jorz se il i avoit meins ou champ, il porra
+                                demander lonc tens enprés ce que i faudra de la mesure. ¶ {1} Il
+                                dist, quant il vendi le champ, qu’i li apendoit eve&#160;; l’en
+                                demandoit se la voie à l’eve i apendoit. Je di que oïl, por ce
+                                convient il que le vendeor i soit tenuz. ¶ {2} Cil qui vendi le
+                                champ dist que il i avit .xviii. jornees et fut mis en convent que
+                                chescun prés<note>prés] <emph>pris</emph> dans le ms., confusion du
+                                    scribe, cf. lat. <emph>iugerum</emph> «&#160;unité
+                                    agraire&#160;»</note> fust mesuré et que certain pris fust por
+                                chescun doné&#160;; l’en i trouva .xx. jornez, je di que l’en doi
+                                rendre le pris de .xx.<note>xx] <emph>xii</emph> dans le ms., erreur
+                                    de lecture, cf. lat. <emph>pro viginti</emph></note></p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.43} <hi rend="i">Affricanus</hi>.</head>
+                        <div type="gp">
+                            <p>Ea. Les choses qui sunt dites en vençons por eles loier, s’il apert
+                                que i soit veroies, il n’obligent pas le vendeor&#160;; ausi comme
+                                il dist que li serf est bel ou que il a meson bien atornee&#160;;
+                                mes s’il dist que li hom est letrez ou engignos, il est tenuz de ce,
+                                car por ce vent il plusors choses. ¶ {1} Aucunnes promes[81vB]ses
+                                n’obligent pas le vendeor se la chose est si aperte que li acheteor
+                                la siet bien&#160;; ausi comme se aucun achate home qui a les euz
+                                trez et promet le vendeor que il est seins&#160;; issi est il veü
+                                qu’i promet de l’autre partie dou cors que de cele dont il est
+                                maegnié. ¶ {2} Li vendeor doit garder qu’i n’i est barat&#160;; et
+                                bien i apert que ele i est quant il parle ocurement por conchier son
+                                compaignon, et encore est cil tenuz qui feint oscuremant et
+                                aguite.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.55} <hi rend="i">Idem. Nuda</hi>.</head>
+                        <div type="gp">
+                            <p>Nue vençon est tenue por non fete&#160;; et par ce n’est pas entendu
+                                que la chose soit mise en autrui main.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.59} <hi rend="i">Celsus. Cum vendentes</hi>.</head>
+                        <div type="gp">
+                            <p>Quant tu vendis le champ tu ne deïs pas que il fust trop bon ne trop
+                                grant. Il est voir que Quintus Mucius à ce s’acordeit, que il
+                                convient que la teneure soit baillie tele comme ele est&#160;; ausi
+                                doit l’en dire en teneures citaenes.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.60} <hi rend="i">Macellus. Conprehensum</hi>.</head>
+                        <div type="gp">
+                            <p>Il estoit contenu en la loi de la vençon que le acheteor avroit .lx.
+                                toniaus, comme il en i eust .c.&#160;; il fut o chois dou vendeor de
+                                bailler la quel que il volt.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.61} <hi rend="i">Idem. Existimo</hi>.</head>
+                        <div type="gp">
+                            <p>Je cuit que je puis acheter soz condicion la chose qui est
+                                moie&#160;; car par aveinture i pot avenir que el ne seroit pas
+                                moie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.67} <hi rend="i">Idem. Alienacio</hi>.</head>
+                        <div type="gp">
+                            <p>Quant nos meton nostre chose hors de nostre main, la seignorie passe
+                                à un autre o la cause que nos avion se la chose nos remainsist. Et
+                                issi est en toz droiz, se aucunne chose n’est mise hors de marchié
+                                nomeement.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.1.71} <hi rend="i">Papianus. Imperator</hi>.</head>
+                        <div type="gp">
+                            <p>Li enpereor Severus et Antonius escritrent tex paroles Sexto
+                                Severo&#160;: il est en la volenté et o poer à cez qui font marchié
+                                ensenble à quex mesures et à quex pris il achetent lors vins&#160;;
+                                car uns n’est forciez de vendre se le pris ou la mesure li desplet,
+                                mesment se la chose n’est fete contre la coutume de la region.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. De peril et de preu de chose vendue <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 18, tit. 6&#160;: <hi rend="i">de
+                                    Periculo et commodo rei venditœ</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {18.6.1} <hi rend="i">Ulpianus. Si vinum</hi>.</head>
+                        <div type="gp">
+                            <p>Se vin qui est vendu egrist ou prent aucun tunve, le domage est a
+                                l’acheteor&#160;; ausi comme s’il [82rA] fust espandu ou s’il fust
+                                mis en vesseaus depeciez ou par aucunne autre cause. Mes se le
+                                vendeor prist le peril sor soi, il avra le peril en ce tans que il
+                                le prist. Et s’il n’i mist terme, le peril est son dusque aist tasté
+                                dou vin&#160;; ausi comme se l’en fet lors la vençon quant l’en a
+                                tasté dou vin, ou s’il s’acorde que il eist le peril dou vin itant
+                                de terme, ou s’il ne fet de ce convent, il avra lors le peril dusque
+                                l’en aist do vin tasté. ¶ Et se l’en ne taste, et li tonel ne sont
+                                bien vercee par la main l’acheteor, encore est le peril au vendeor
+                                se autre convent n’i a. {1} Et le vendeor doit garder combien il en
+                                i a, car avant que il soit mesuré la vençon n’est mie fete&#160;;
+                                puis que la mesure n’est fete, le vendeor n’i a point de
+                                peril&#160;; et il est delivré dou peril avant la mesure s’il ne
+                                vent à mesure, ‹mes› par buies, ou par poz, ou par toniaus. ¶ {2} Se
+                                le acheteor a seignié le tonel, Trebacius dit que il en est ja comme
+                                sesi&#160;; Labeo dist que ce n’est pas voirs, car l’en le seigne
+                                que l’en n’i mete rien. ¶ {3} Le vendeor pot despendre le vin s’i
+                                dut estre mesuré dedanz un jor ne il ne le fet pas&#160;; il ne
+                                porra pas avant dusque il eit fet savoir à l’acheteor que il oste
+                                son vin ou que il sache que il le dapendra. Et s’il le pot despendre
+                                ne no fist pas, il en doit estre mout loez. Et por ce, pot il d’iqui
+                                en avant demander le loier des toneaus s’il i ot domage, se les
+                                toneaus ne furent vuidiez où li vin estoit, ausi comme s’il les eust
+                                loez ou il li convient querre d’autres toneaus. Miauz est que li
+                                vaissiau soient loiez, ne que vin ne soit pas rendu dusque il eist
+                                rendu le loage, ou que il puisse vendre son vin à bone foi se l’en
+                                le pot fere sanz domage à ce que li achateor n’i eist domage. ¶ {4}
+                                Se tu achetas vin en tonel, ne n’i a point de convent quant il soit
+                                baillié, il est entendu en convent que il fuissent voidié ant il
+                                fussent bon à recevoir ou en la vendenge. Et s’il ne sont voidié, il
+                                convient que l’en en face ce que li ancien cuiderent, que le vendeor
+                                face mesure et jeter hors. Issi le distrent li ancian por la mesure,
+                                se l’en ne set quel est me[82rB]sure, s’il n’est aparissant combien
+                                le acheteor i a eu de domage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.2} <hi rend="i">Gaius</hi>.</head>
+                        <div type="gp">
+                            <p>Et se celi venst, qui n’a point de nove vendenge, et sanz cele n’a ce
+                                mestier&#160;; et se cil est marcheant qui seaut acheter vins et
+                                revendre, celi jor doit l’en atandre que l’en pot oster au preu au
+                                vendeor. ¶ {1} Il convient que l’en voie quel garde le vendeor face
+                                avant que il soit mesuré, savoir s’il i metra pleine diligence ou
+                                solemant que il n’i eist barat&#160;; et je cuit que le vendeor doit
+                                metre cele diligence que prodom doit metre en ses choses, et vimaira
+                                seent hors.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.3} <hi rend="i">Paulus. Custodia</hi>.</head>
+                        <div type="gp">
+                            <p>Le vendeor doit baillier tel diligence comme cil à cui la chose est
+                                prestee, que il i meste plus grant cure que il ne selt mestre en ses
+                                choses.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.4} <hi rend="i">Papianus. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun vent vins et dit que dedanz un jor en tastera l’en, et
+                                enprés faut par le vendeor que l’en en tastast, l’en demande s’el e
+                                peril qui est passe et de egror et de muide se le vendeor le doit
+                                rendre; ou, s’il est tenu dou peril qu’i est passe que s’i
+                                    s’est<note>s’est] <hi rend="i">sont</hi> dans le ms.</note> par
+                                aventure corrumpu puis le jor que taster passa, se le peril
+                                apartient à celui qui le vendi; ou si li achaz est depeciez, ausi
+                                comme s’ele est fete soz condicion, c’est à dire s’il fussent tasté
+                                avant celi jor. Et l’en ne fiet quel convent il i ot. Je cuit que ce
+                                ne fut pas fet en repostan, et que l’en doit dire que c’est achet.
+                                Et bien si gart le vendeor outre le jor qui fust mis a en taster et
+                                par li failli ; la cope est soe. ¶ {1} Se vin est venduz en contenz,
+                                l’en le doit garder&#160;; et de ce avient il que se le vins fut
+                                issi vendu que le n’en tastast, le vendeor n’est tenuz de egror ne
+                                de muide, ainz apartient tot le peril à l’acheteor. Et grieve chose
+                                est que aucun achete issi par si que le n’en taste pas&#160;; et por
+                                ce, se le jor de taster en n’i est i mis, li acheteor en porra
+                                taster aucunne foiz&#160;; et quant il en avra tasté, le peril
+                                apartendra au vendeor, car por ce que le jor est mis à l’acheteor à
+                                taster dou vin se marchiez est amendé. {2} Et se vin est vanduz en
+                                contanz, s’il i a garde ou tens de aporter&#160;; et l’en doit
+                                [82vA] issi ce entendre se le tans i est mis. Et s’il n’i est mis,
+                                l’en doit voier que le vendeor ne soit tenuz de metre i trop longue
+                                garde. Et est voir segont ce que nos avons dist desus, il demandera
+                                son domage de ce que le vin n’a esté osté ou que il li face savoir
+                                qui l’ost. Et certes, avent que li tonel seent necessere à
+                                vendenges, le vin doist estre avant anporté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.5} <hi rend="i">Paulus. Si per hemptorem</hi>.</head>
+                        <div type="gp">
+                            <p>Se il faut par l’achateor que le vin ne fust pas osté à jor, enprés
+                                se le vendeor n’i fet barat et il perit, il ne le doit pas rendre.
+                                S’i ne li a fet ausi comme se l’en a osté .c. poz de tonel qui
+                                estoit en son celier, s’il a esté mesuré, dusque il soit mesuré tot
+                                le peril avient au vendeor, se ce n’est fet par l’acheteor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.6} <hi rend="i">Ponponius. Si vina</hi>.</head>
+                        <div type="gp">
+                            <p>Se je achete vins, hors les egres et les muides, et il me convient
+                                prendre les egres, Proculus dit que ja soit ce que soint mis hors
+                                par la cause de l’acheteor, li egre et li muide ne sont pas vendu ;
+                                car li acheteors ne les prendra pas outre sa volenté et ce seroit
+                                iniquité se l’en ne soffroit au vendeor ou à autres vendre les.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.7} <hi rend="i">Paulus. Id quod</hi>.</head>
+                        <div type="gp">
+                            <p>Ice que acheist à la teneure, enprés l’achat, par eau, si ‹est› comme
+                                ce apartient au preu ou au damage de l’acheteor ; car se tot le
+                                champ est coviart de fluve enprés l’achat, le peril est à
+                                l’acheteor, ausi sera le preu son, s’il i aviant. ¶ {1} Ce qu’est
+                                vendu est en la mesure do champ s’il n’en fust mis hors&#160;; et ce
+                                que i vient doit estre en la mesure, s’i fust mis en convent, ausi
+                                comme voies communes, sentes, bois qui toihet à la teneure. Tot ce i
+                                doit venir quant l’en en dit mot ; et por ce doit l’en doner
+                                nomeement caucion que les voies communes qui sont en la teneure
+                                seent en la vençon et en la mesure.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.8} <hi rend="i">Idem. Necessario</hi>.</head>
+                        <div type="gp">
+                            <p>À force convient savoir quant achat est perfet ; et lors savrons nos
+                                qui est le peril. Car se le achat est perfet, le peril apartendra à
+                                l’acheteor&#160;; et se ce apert qui est vendu et quoi et quel chose
+                                et combien et le pris et se c’est fet soz condicion, l’achat est
+                                perfet. Et se la chose est [82vB] vendue soz condicion, se la
+                                condicion faut, l’achat est nul, ausi comme ne la promesse. Et se la
+                                condicion dure, Proculus et Octavenus dient que le peril est à
+                                l’achateor ; et ce dit Ponponius. Et se le acheteor ou li vendeor
+                                muert tant comme la condicion pent, la vençon estoit. ¶ Et se la
+                                condicion est, li heir sont obligié, ausi comme se le achat fut fet
+                                piece à. Et se la chose est baillie tant comme la condicion pent,
+                                l’acheteor n’en avra pas l’usage por achat, et ce que il a eu en non
+                                dou pris sera rendu, et li fruit d’autretant sunt au vendeor si
+                                comme promesses, et les fez en condicion sont nul se la chose est
+                                esmee tant comme la condicion pent. Et se la chose dure, tot soit
+                                ele enpiree, l’an pot dire que le domage est à l’acheteor. {1} Et se
+                                l’en vent issi une chose, ou serf soit acheté, se une nef vient
+                                d’otre mer ou ne vient, Julien cuide que la vençon est fete
+                                mointenant, car le marchié est fet. ¶ {2} Quant tu me venz le fruit
+                                et l’usage de quoi li heir sont tenu, il a difference se tu venz le
+                                fruit de l’usage qui est tuen solement ou cele chose qui est toe
+                                dont tu me venz le fruit et l’usage ; car an premer cas, tot meures
+                                tu mointenant, ton heir ne me devra rien et l’en devra à mon heir se
+                                tu viz&#160;; et ou cas desranier, ne doit l’en rien à mon heir, ton
+                                heir me devra.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.9} <hi rend="i">Gaius. Si post</hi>.</head>
+                        <div type="gp">
+                            <p>Se li arbre sont tunbé à terre par force de vent avant ce que la
+                                teneure a esté monstree, l’en demande s’il doivent estre à
+                                l’acheteor. Et ce demande l’en, et l’en dit que non, car le acheteor
+                                nes acheta mie, car il n’estoient de la teneure quant li achat fut
+                                fet. Et se li acheteor ne sot pas que li arbre fussoint jus, et le
+                                vendeor le sot ne n’en dit rien, il amendra à l’acheteor por tant
+                                comme il n’on vossit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.10} <hi rend="i">Ulpianus. Si in</hi>.</head>
+                        <div type="gp">
+                            <p>S’i fust mis en la convenance qui fust fete en condicion que la chose
+                                fust gardee au peril à l’acheteor, je cuit que li marchiez doit
+                                valoir. {1} Par la sentence Julien, Scevola note que l’acheteor ne
+                                po rien demander de la teneure comme une partie de la teneure soit
+                                niee par sorondemant de eve ou par deluige ou par aucunne autre
+                                aventure.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.11} <hi rend="i">Alphenus</hi>.</head>
+                        <div type="gp">
+                            <p>Se une meson qui estoit arse fust [83rA] rendue, comme tel chose ne
+                                soit pas fete sanz colpe, l’en demande qu’an dit droiz. Je di que ce
+                                pot estre fet sanz colpe, car se ce avient par la negligence au serf
+                                mavois, li sires est en colpe. Et por ce, se le seignor eust mis
+                                diligence en la meson garder, autel comme bon home doit doner, se
+                                aucunne chose avint, il n’est pas tenuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.12} <hi rend="i">Paulus. Lectos</hi>.</head>
+                        <div type="gp">
+                            <p>Li sires des maisons depeça liz achatez qui estoient mis en la voie
+                                commune&#160;; s’il furent baillié à l’achateor, ou par li failli
+                                que il ne furent baillié, acordé est que le peril en soit sun.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.13} <hi rend="i">Julianus. Cum</hi>.</head>
+                        <div type="gp">
+                            <p>Et il a auction contre le metre des mesons por la loi Aquiliene s’il
+                                n’ot droit de fere le domage que il fist encontre le vendeor
+                                d’achat ; que cil li doint ses auctions que il eust contre le
+                                seignor des mesons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.14} <hi rend="i">Paulus. Quod si neque</hi>.</head>
+                        <div type="gp">
+                            <p>Et s’il ne furent baillie à l’acheteor ne en lui ne failli que il ne
+                                le receust, le peril sera au vendeor. ¶ {1} Se ma terre qui estoit
+                                achetee est enblee, se ele fust baillie, le peril est à
+                                l’acheteor&#160;; si non, il est au vendeor. Et ausi le trés que li
+                                acheteor avoit seeloés avant et seigniés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.16} <hi rend="i">Labeo. Servi</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui acheta le serf, s’il ne rendi l’argent mointenant, il ne
+                                porra rien conquerere par celi serf ; car l’achat n’est mie fet puis
+                                que il est retenu por le loage de par le vendeor. Le peril dou serf
+                                apartient à l’acheteor ensint que le vendeor n’i eist fet barat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.17} <hi rend="i">Ponponius. Cum mora</hi>.</head>
+                        <div type="gp">
+                            <p>L’en doit savoir que quant l’en demore à avoir sa chose, il doit
+                                garder que il n’i eist ne colpe ne barat cil qui vent. Et se li un
+                                et li autre demorent, Labeo dit que ce puet plus nuire à l’acheteor
+                                que au vendeor&#160;; mes l’en doit veoir que la demore desreniere
+                                ne li face domage. Et que sera se je demande au vendeor et il vent
+                                ce que je avoie acheté et enprés il offre le pris et je ne voil
+                                recevoir&#160;? Certes, ce me doit nuire. Et se la demore vint por
+                                l’acheteor, et enprés comme il n’i eust encore rien osté le vendeor
+                                demora quant il pot la chose bail[83rB]ler, droiz est que cele
+                                demore doit nuire au vendeor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.18} <hi rend="i">Papinianus. Habitacionum</hi>.</head>
+                        <div type="gp">
+                            <p>Quant les redevances des mesons sont fenies par mort de hers, li
+                                acheteor de la meson ne sera pas tenuz au vendeor por cele cause
+                                s’il n’i a autre convenance, fors que l’en baillast les mesons sor
+                                le pris de la franchise segont la volenté au mort.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {18.6.19} <hi rend="i">Hermogenes. Venditori</hi>.</head>
+                        <div type="gp">
+                            <p>Se l’acheteor demore à rendre le pris au vendeor, il en rendra
+                                l’usure et non pas tot ce que le vendeor pot avoir por la
+                                demore&#160;; ausi comme s’il fust marcheant, et il pot gaigner plus
+                                en sa mercerie plus que en usure.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head>III. Comment l'en puet vendre teneures.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Home puet vendre son héritage por son besoing, non por son preu&#160;; et
+                            se il n'a besoing, ou se l'en siet apertement qu'il le face por son
+                            lignage désériter, non. Et se il a feme, si poent-il vandre ensemble. Et
+                            puet li sires vendre sanz la feme&#160;? Nenil, que la chose dure que sa
+                            vie, et enprès sa mort non.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Li doeres ne puet estre encombriez, ne l'éritages à la feme, ne sa part
+                            des conquez, s'ele ne l'otroie. Et s'ele le otroie, li hons puet vendre
+                            et se conquez, se il a enfanz de li, et por son besoing.</p>
+                        <p>Et fame ne puet vendre son héritage enprès la mort son seignor, s'ele a
+                            anfanz del seignor, sanz besoing nécessère&#160;; et s'ele n'a enfanz,
+                            ele puet vendre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Home puet vendre son héritage por son besoing emprès la mort sa feme,
+                            s'il a anfanz, sauf doere. Et se il doit, puet-il vandre son
+                            héritage&#160;? <pb n="170"/>Oïl, se li héritages n'est sésiz avant. Nus
+                            ne puet vendre chose porquoi ele soit liée.</p>
+                        <p>Home et sa feme puent vendre ce qu'il ont ensemble, aient enfanz ou non,
+                            por besoing. Nus héritages n'est encombrez de fet, se l'en n'est dampnez
+                            avant par juigement.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Home garantira sa vie ce que il vendra de l'éritage sa feme, sanz l'otroi
+                            sa feme&#160;; et se il muert ou se la feme muert, la vente ne vaut
+                            riens.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>En l'an de l'incarnacion mille et deux cents et cinquante et neuf, ou
+                            mois de septembre, juja li rois Loïs et son consoil, por estoper l'usure
+                            as mauvès créanciers, que la dame de Chevri, ne ses sires ne vandroient
+                            point de lor héritage por lor dete&#160;; ainz seroit la terre laborée
+                            et gaagnie en sauve main, et totes les issues seroient baillies as
+                            détors en esquit.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">IV. [83vA] Ci commence de aucion d’achat et de vente <hi
+                            rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 19, tit. 1&#160;: <hi rend="i">de
+                                    Actionibus empti et venditi</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {19.1.1} <hi rend="i">Si res</hi>.</head>
+                        <div type="gp">
+                            <p>Se la chose qui est vendue n’est baillie, l’en avra auction de domage
+                                que l’en i a&#160;; et ce domage monte plus aucunne foiz que la
+                                vençon. ¶ {1} Et se le vendeor cela le servage qui estoit deu, l’en
+                                avra contre lui aucion d’achat se le acheteor n’en sot rien ; car
+                                tot ce que l’en fet contre bone fois vient en aucion d’achat. Et nos
+                                entendon que le acheteor dest au vendeor dire tot, et s’i cele, non
+                                pas solement s’il ne amonesta, mes encor s’il nia que celui servise
+                                ne fust deu quant l’en li demanda. ¶ Et se il li est tenuz, nos
+                                dison que il dit issi&#160;: que il n’i a point de servise et se
+                                aucun servise vient avant, je ne sui pas tenu. Je cuit que cil a
+                                aucion d’achat, car le servise estoit deu s’il le savoit. Et s’il
+                                nie et le acheteor no sot pas que l’en deust aucun servise, je cuit
+                                que il est tenuz d’achat. Et que je die en generau s’il se moine en
+                                mauvese maniere de celer le servise&#160;: il en est tenuz s’il ne
+                                se vost garder. Et ce est voir se le acheteor n’en sot rien ; car ce
+                                ne est pas celé ce<note>celé ce] <emph>celui</emph> dans le ms., cf.
+                                    lat. <emph>quia non videtur esse celatus qui scit</emph></note>
+                                qui est seu, ne cil ne dut pas estre acertené qui bien le
+                                savoit.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.2} <hi rend="i">Paulus. Si in empcionem</hi>.</head>
+                        <div type="gp">
+                            <p>Se mesure est dite en l’achat et ele n’est baillie, l’en a aucion
+                                d’achat. {1} L’en ne entent pas que possession soit baillie voide à
+                                l’achateor se un autre est mis leanz por cause de garder lés et les
+                                autres choses, et que le creacier porsient les biens. Et ausi doit
+                                l’en dire se li un ne li autre n’est en possession ; car issi entant
+                                [83vB] l’en que la possession est voide.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.4} <hi rend="i">Paulus. Si servum</hi>.</head>
+                        <div type="gp">
+                            <p>Se tu me venz un serf qui est lierre ou mauvés et je n’en soi rien,
+                                tot le me amendes tu au doble, tu m’es tenuz de l’achat por tant
+                                comme je no vosisse que il ne fust seu ; car je ne puis pledier o
+                                toi de la promesse en celui non que il i eist aucunne faute de la
+                                poie. ¶ {1} Se l’en trove greignor mesure en champ, ¶ li auctor est
+                                obligié segont le numbre des jornex, car la où l’en trove greignor
+                                numbre l’en ne puet esmer la bonté dou leu qui ne apert mie&#160;;
+                                et non pas solement se tote la mesure est plus grant mes de parties,
+                                ausi comme se l’en dit que il i a cent jornex de vigne ou de alviei
+                                et l’en i trove mois. ¶ Et en ce quas fera l’en l’esme dou leu por
+                                sa bonté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.8} <hi rend="i">Paulus. Si tibi</hi>.</head>
+                        <div type="gp">
+                            <p>Se ge te baille un champ franc et je le te devoie baillier a
+                                servitute, l’en a ci aucion de chose qui n’est pas certoine que tu
+                                soffres metre la servitute qui dust estre mise. ¶ {1} Et se ge
+                                baille un champ serf que je te dui baillier franc, tu avras aucion
+                                d’achat por la grace de relachier l’achat que tu ne devoies pas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.9} <hi rend="i">Ponponius. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun achete pierres de un champ et il ne les veaut oster, l’en a
+                                contre lui aucion que il les oste.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.12} <hi rend="i">Celsus. Si iactum</hi>.</head>
+                        <div type="gp">
+                            <p>Se je achete le giez de la roiz et le pecheor ne veaut giter, l’en
+                                doit ce esmer non pas certoinement. Et s’il tret aucun poisson et il
+                                ne le veaut rendre, il convient que ce soit prisé que il a tret en
+                                la teneure.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.17} <hi rend="i">Ulpianus. Fundi</hi>.</head>
+                        <div type="gp">
+                            <p>Rien n’est de la teneure fors ce qui s’entretant. Et maintes choses
+                                sunt de maisons qui ne sont pas de mesons, et l’en le doit bien
+                                savoir, si comme serreures, clos et cles. ¶ Et les caves qui sont
+                                fetes ne sunt pas de la teneure ne de la meson, comme vaissiaus à
+                                vin pressors, car ce sont estrumenz, tot soint joint à l’edefice.
+                                {1} Et li vin et li fruiz ne sont pas de la meson. ¶ {2} Se la
+                                teneure est lessie ou vendue, le fumer ou l’estrein sont à
+                                l’acheteor ou à celui à cui l’en fet le lés. Et les fuz sont au
+                                vendeor ou à son heir, car il ne sont pas de la teneure, tot eient
+                                il ce vendu. Et il a difference en femier, car s’il fust acheté por
+                                [84rA] femer le champ, l’acheteor l’avra&#160;; se non, il est au
+                                vendeor, s’il n’i a autre convenance. Ne n’i a point de difference
+                                se li fiens est en l’estable ou en la cort en un moncel. {3} Et s’il
+                                i a point de chamberil et pierres de marbre, il sont de la meson.
+                                {4} Et ce qui se tient à soliviaus et ce qui se tient à mesieres et
+                                les cortines ne sont pas de la meson. {5} Et ce qu’est apareillié
+                                por la meson s’il n’est perfet tot soit il mis en l’edefice, il
+                                n’est pas de mesons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.18} <hi rend="i">Labeo. Granaria</hi>.</head>
+                        <div type="gp">
+                            <p>Li granier qui solent estre fez des tables sont des mesons se
+                                l’estape d’aus est foie en terre&#160;; et s’il sont hors de la
+                                terre, il n’en sont pas. {1} Et les tueles qui ne sont pas mises en
+                                l’edefice, tot soent eles aportees por covrir la mesons, ne sont pas
+                                des mesons. Autre chose est des choses qui sont ostees por remetre
+                                ariere, car celes sont des mesons.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.19} <hi rend="i">Gaius. Veteres</hi>.</head>
+                        <div type="gp">
+                            <p>Li encien useent de non de ventes et de achaz pelle melle.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.20} <hi rend="i">Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Ausi est en loage et en aloage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.26} <hi rend="i">Alphenus. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun vendi une teneure et dist que cent toneaus apartienent à
+                                cele teneure, il devra les toneaus à l’acheteor tot n’en i eust il
+                                nul.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.27} <hi rend="i">Paulus. Quidquid</hi>.</head>
+                        <div type="gp">
+                            <p>Quanque le vendeor dit que apartient à la vençon, ce convient que il
+                                rende et sein et entier&#160;; ausi comme s’il dist que toneaus
+                                apartienent à la vençon, il est tenuz de baillier les seins et
+                                enteres.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.29} <hi rend="i">Idem. Cui res</hi>.</head>
+                        <div type="gp">
+                            <p>Cil à cui la chose fut lessee soz condicion, l’acheta de l’eir comme
+                                fos&#160;; il porra avoir par bone auction ce que il a rendu, car il
+                                n’a pas la chose par cause de lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.37} <hi rend="i">Idem. Sicut</hi>.</head>
+                        <div type="gp">
+                            <p>Ausi comme il est droiz que ausi comme l’acheor achete en bone foi
+                                que autrui barat ne li nuise, ausi n’est ce pas droiz que li barat
+                                au vendeor li nuise.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.39} <hi rend="i">Modestinus. Quero</hi>.</head>
+                        <div type="gp">
+                            <p>Je demande, se aucun vent issi un champ, que ce soit veü vendu que il
+                                i a dedanz les bones, et set bien que il n’en tient pas aucunne
+                                partie, ne il ne le fist savoir l’acheteor, l’en demande s’il est
+                                tenuz d’auction d’achat. Comme ceste decision<note>decision]
+                                        <emph>decciinon</emph> (?) dans le ms., cf. lat. <emph>cum
+                                        haec generalis adiectio ad ea</emph></note> generau ne doie
+                                pas apartenir à ce que cil sot especiaument qui vendi, ne ne la mist
+                                hors, que l’acheteor ne soit issi deceu [84rB]&#160;; car s’i l’eust
+                                seu par aventure il n’eust pas acheté, ou par avainture il l’eut eu
+                                por moins s’il fust certain dou leu. ¶ Et issi le distrent li encien
+                                en cele persone qui issi avoit mis hors : ¶ se il i a servage deu,
+                                il sera deu. Issi distrent cil qui establirent droit&#160;: ¶ se le
+                                vendeor fut certain que l’en deust certain servage à aucunne gent,
+                                ne il ne le dist à l’acheteor, il est tenuz de l’achat ; quant ceste
+                                barre generau ne doit pas apartenir as choses que le vendeor sot,
+                                que il pot mestre hors espaciaument et dut, mes à ce que il ne sot
+                                mie et dont il ne pot acertener l’acheteor. Modestinus dit que se le
+                                vendeor fist ce par conchier l’acheteor en la meniere dont est le
+                                plet, il puet estre trez en plet par auction d’achat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.1.46} <hi rend="i">Idem. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun veut autrui chose et est certain que il est heir au seignor
+                                de la chose, il sera forcié d’acomplir la vençon.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. De loage et de aloemanz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>La première partie de ce titre est traduite du Dig., liv. 19,
+                                tit. 2&#160;: <hi rend="i">Locati conducti</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {19.2.1} <hi rend="i">Paulus. Locacio</hi>.</head>
+                        <div type="gp">
+                            <p>Loage et aloemant, tot soit naturel et entres totes genz, est fet non
+                                pas par paroles mes par consentement, ausi comme achat et
+                                vençon.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.2} <hi rend="i">Gaius. Locacio</hi>.</head>
+                        <div type="gp">
+                            <p>Loage et aloemant est prochein à achat et à vençon et c’est en relles
+                                de droit&#160;; car ausi comme achat et vençon est fet se l’en siet
+                                le pris, ausi loage<note>aussi loage] <emph>aussi a loage</emph>
+                                    dans le ms.</note> et aloage sont entendu se le loier i est
+                                entendu. {1} Et est ausi comme une chose jointe à achat et à vente,
+                                loage et aloage est ausi, comme l’en selt demander en aucunnes
+                                choses savoir se c’est achat ou vençon ou loage ou aloemant. Ausi
+                                comme se je fis marchié o l’orfevre que il me feist aniaux de son or
+                                à certain pois et de certoine forme, si comme .ccc., l’en demande se
+                                c’est achat ou vençon ou loage ou aloage. Mes acordé est que c’est
+                                un afere, et que c’est acordé que c’est achat et vençon. Et se je e
+                                doné or et le loier est apareillié, n’est pas dotance que ce ne soit
+                                loage et aloemant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.3} <hi rend="i">Ponponius. Cum fundus</hi>.</head>
+                        <div type="gp">
+                            <p>Se une teneure est aloee et le gaegneor [84vA] prent l’antrumant
+                                esmé, Proculus dist que le gaenigneor doit avoir l’estrumant por
+                                achat, ausi comme il avendroit se aucunne chose esmee est donee en
+                                doerre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.13} <hi rend="i">Ulpianus. Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Ansi demande l’en se le charetier, quant il ne lesse passer la gent,
+                                vers sa cherrete et ocit un serf. Je cuit que l’en a contre lui
+                                aucion de loage, car il doit atrenper son hernois ; et avra l’en
+                                contre lui aucion de la loi Aquiliene. ¶ {2} Se li mestres de la nef
+                                mest la nef sanz governeor en l’eve et tempeste lieve et il ne la
+                                pot atrenper et il pert la nief, li seignor avront contre lui aucion
+                                de loage. ¶ {3} Se aucun prent un enfant à aprendre et il le moine
+                                hors do païs et il est pris de guerre ou il perist, l’en a contre
+                                lui aucion de loage s’il ne fut mis en convent que il fust mené hors
+                                do païs. ¶ {4} Si le suor fiert si belement à la forme do soler le
+                                garçon que il aprent que il li tret l’oil, le pere a contre lui
+                                aucion de loage tot eit l’en ostroié à metre legier chastiement,
+                                totesvoies ne dut pas cil avoir ce fet. Et le pere n’a pas contre
+                                aucion de la loi Aquiliene, car il ne fist pas ce por nuire que por
+                                commander au garçon. ¶ {5} Se une pierre preciose est baillie à
+                                mestre en or ou a entaillier et el e froisse, se aucunne chose de ce
+                                est fete par le vice de la matiere, l’en n’avra pas auction de
+                                loage. Et se c’est por la niceté au menestrel, l’en doit ce garder
+                                se le mestre prist le peril sor soi&#160;; ¶ et lors, se ce avient
+                                par le vice de la matire, l’en avra aucion de loage. ¶ {6} Se le
+                                folon prent dras à polir et soriz le pertuisent, il est tenuz de
+                                loage, car il se dut bien garder. Et se le folon change la robe et
+                                il la baille à un autre, il est tenuz de auction de loage, tot ne
+                                l’oit il fest à escient. ¶ {7} Cil qui avoit aloé la meson s’en issi
+                                quant li ost<note>ost] <emph>oste</emph> dans le ms., cf. lat.
+                                        <emph>Exercitu veniente migravit conductor</emph></note>
+                                vint&#160;; cil enporterent de celi ostel fenestres et autres
+                                choses&#160;; s’il ne fist savoir au seignor son issir, il est tenuz
+                                de loage. Labeo dit&#160;: s’i la pot defendre et ne la deffant, il
+                                est tenuz, et c’est veroie sentence&#160;; et s’il ne le pot fere
+                                savoir, je cuit [84vB] que il n’en est pas tenuz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.24} <hi rend="i">Paulus. Si in lege</hi>.</head>
+                        <div type="gp">
+                            <p>S’il est mis en convent do loage que l’ovre soit prisee à la volenté
+                                au seigneor, ausi est comme se ce fust mis en la gart de
+                                prodome.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.30} <hi rend="i">Idem. Qui</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui avoit aloé une meson .xxx. solz il aloa chescunne chambre
+                                issi que l’en eust .xl. solz de tot ; li sires de la meson, por ce
+                                que il disoit que il i avoit maumeteure, la depeça. L’en demanda
+                                combien ce plet devoit estre esmé se cil qui tote l’aloa pleda de
+                                loage. Je di, si com vint à besoing que il abatist l’edefice, qui
+                                estoit mauvés, l’en en dut metre hors do loage de tant de tens comme
+                                li arbitreor n’i porent demorer ne habiter, et itant esmer le plet.
+                                Et s’i ne fut nul besoing d’abatre la meson, por ce que il voloit
+                                fere meillor edefice, il convient que il rende à l’oste por tant
+                                comme il ne vosist estre issu de la meson.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.32} <hi rend="i">Julianus. Qui fundum</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui avoit loé la teneure à lonc tens morit et lessa cele
+                                teneure ; Cassius dist que l’en ne puet forcier le coitiveor que il
+                                foist cele teneure, car il n’avoit que fere de l’eir. Et se le
+                                gagneor velt fere la teneure, et cil à cui l’en lessa la teneure li
+                                deffendi que il ne la feit, li gagneor a aucion contre l’eir et le
+                                perill apartient à l’eir&#160;; ausi comme se aucun vendi la chose
+                                ne n’en sesi l’acheteor et le eust lessié, sis heirs est obligié à
+                                l’acheteor et à celui à qui l’en fist le lés.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.38} <hi rend="i">Paulus. Qui</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui loa ses besoignes doit avoir le loer de tot le tens s’il ne
+                                failli en lui que les ovres ne fusent fetes. {1} Li avocat, s’il
+                                faut par aus que il ne deffendent la cause, il n’avront pas lor
+                                loer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.45} <hi rend="i">Paulus. Si tibi</hi>.</head>
+                        <div type="gp">
+                            <p>Se je te loe une meson et mi serf t’i font domage et larrecin, je ne
+                                te sui pas tenuz de loage mes de aucion de forfet. ¶ {1} Se je loe
+                                un home por avoir l’en en ta taverne, et il te fet larrecin, l’en
+                                porra de tot savoir se aucion de loage sofist, comme ce soit hors de
+                                bone foi que tu soffres domage en ce que tu as loé, ou se l’en doit
+                                dire que cause de crime de larrecin est hors de larrecin et que ce
+                                soit une cause por soi&#160;; et l’en dist que ce ‹est› qui plus
+                                vaut. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.55}</head>
+                        <div type="gp">
+                            <p>{2} Cil qui lessent avant que il fust tens sanz droite cause contre
+                                la conveneue sont tenu de rendre tot le loage et tot le domage que
+                                li sires ne vosist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.2.59} <hi rend="i">Labeo</hi>.</head>
+                        <div type="gp">
+                            <p>Lucianus aloa une meson à don Julien qui avoit [85rA] non Flacus, et
+                                quant l’ovre fut fete en partie, trelle de terre abati l’edefice.
+                                Massius dist que le peril doit estre Flacus se la trelle avint par
+                                nature.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>De loages et de aloemanz&#160;: loages et aloement, tot soit-il naturel
+                            antre totes genz, est fet non pas par paroles, mès par consentement,
+                            aussi comme achat et vençon est fez, et se l'en fet le pris&#160;; aussi
+                            est loages et aloemanz.</p>
+                        <p>Loages est entenduz, se li loages est entenduz&#160;; et est ausi comme
+                            une chose jointe à achat et à vente. Loage et aloemenz est aussi comme
+                            l'en siot demender en aucunes choses, savoir se c'est achat ou vençon,
+                            ou loage ou aloemenz&#160;; ausi comme se je fis marchié à l'orfèvre
+                            qu'il me feist aniaux de son or à certoin pois et à certoine forme, si
+                            comme de vingt esterlins pésent&#160;: l'en demende se c'est achat ou
+                            vençon ou loage ou aloemanz. Acordé est que c'est vençon. Mès se je
+                            baille or apareilliez, n'est pas dotence que ce ne soit loages et
+                            aloement. Loage ou <pb n="171"/>chose qui est baillie par prière est
+                            issi fete, tant comme oil qui l'a baillé vit, et ele faut quant cil est
+                            morz qui l'aloa<note>Dig., lib. 19, tit. 2, frag. 1, 2, 4.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Se je te loe demain mon champ vingt sous et tu les loe à un prodome
+                            vingt-cinq., et je défens au prodome qu'il n'i entre, tu as aucion de
+                            loage contre moi.</p>
+                        <p>Se aucun loe une meson qu'il a achetée en bone foi, ou une teneure, et
+                            ele est retraite sanz le barat et la colpe à celui<note>Ibid., frag. 8,
+                                9 pr. Pour la suite, voy. § 3.</note>...</p>
+                        <p>Se aucuns a loé bues chascun an por six mines de mestive, et il en
+                            preigne plège, et les bos soent pris por la dete de celui qui les a
+                            aloez, et cil qui la chose est la dénit, il ne l'aura pas&#160;; mès se
+                            il les a bailliez sanz gage et sanz plège, il les aura.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>... <ref target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
+                                Beaumont</ref> dit que cil qui loa la chose est tenuz à celui qui
+                            l'aloa dou loage, si que l'en eist l'usage. Et se li sires qui l'a
+                            retrete no viaut pas, et li aloeor est prez de bailler li une autre
+                            meson aussi bone, le loer est délivres segont droit. Et s'il n'a meson,
+                            et il voile emender le domage qui en nestra, il est délivres<note>Ibid.,
+                                frag. 9 pr.</note>.</p>
+                        <p>Se aucun loe son usage à cinq anz, qu'il a à un an loé, et il mort, son
+                            heir n'i est pas tenuz. Mès de la meson, s'ele ere arse, ausi dit cil,
+                            que (<emph>si</emph>) sa meson ardoit, l'en en doit rendre le loer de
+                            tant comme l'en i aura esté&#160;; et se li feus fust par la cope de
+                            l'ôte, il est do loage et do domage tenuz<note>Ibid., frag. 9, §
+                                1</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Se je baille mes chièvres à loage en garde, et larrons les emblent sanz
+                            la colpe à celi qui les garde, il n'i est pas tenuz, et aura son loage
+                            de tant comme il les aura gardées.</p>
+                        <p>Se aucuns aloa veaus à pêtre, ou à une robe apareillier, il doit garder
+                            qu'il n'i eist copes&#160;; et s'il i meffet, il en est tenuz, car il la
+                            prist à fere comme metres.</p>
+                        <p>Se tu me loes autrui meson et ele m'est donée ou lessie, je ne sui pas à
+                            toi tenuz de rendre le loage&#160;; mès je cuit que je sui tenuz de ce
+                            tens qui fust devant le lès<note>Ibid., frag. 9, § 4-6.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>Un homme se pleint issit, et dit que un home loua un champ vingt livres
+                            jusqu'à cinq anz la dablée&#160;; lesquex vingt livres l'en a
+                            paiés&#160;; <pb n="172"/>il ne veaut baller le champ&#160;: si requéron
+                            que vos li facez tenir les convenances&#160;; et s'il veut nier que ce
+                            ne soit voirs, nos somes prez de prover par nos et par garanz qui vit
+                            les deners baillier et les convenances fere. Li copables fet encontre
+                            tel ni et tel deffense comme il doit. L'en demende qu'en dit droiz. Et
+                            l'en respont que li copables est loisanz de prendre la prove de lui et
+                            de son garant et de quenoistre que c'est voirs, ou d'escondire par gage
+                            de bataille. Mès se li denier ne fussent poiez, il n'i eust que
+                            proves&#160;; et le chois fust au copable.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. [85rB] De aucion de esme <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 19, tit 3&#160;: <hi rend="i">de
+                                    Æstimatoria</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {19.3.1} <hi rend="i">Ulpianus. Uccio</hi>.</head>
+                        <div type="gp">
+                            <p>Aucion de esme est aportee por oster dotance ; car l’en dota moult
+                                quant chose esmee est baillie à vendre savoir se l’en a aucion de
+                                vente por l’esme, ou se ele est do loage ausi comme il soit veü que
+                                je l’oie loé à vendre, ou s’il i a aucion de loage ausi comme se ge
+                                eusse aloé les besoignes, ou se c’est aucion de mandemant. Et il est
+                                miauz veü que ceste aucion auge avant ; car totes les foiz que l’en
+                                dote dou non de aucunne chose, il convient que l’en dont à ce
+                                aucunne auction, ou aucion d’esme ou aucion de paroles escrites. ¶
+                                Cest afere est de cité et fet en bone foi, por quoi totes ont ci leu
+                                que nos avon dit en juigement de bone foi. {1} Esme qui est fete
+                                receist le peril à celi qui le reçoit, car il devra baillier la
+                                chose entiere ou la value.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head type="gp">VII. De change de choses <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 19, tit. 3, frag. 2&#160;: <hi rend="i"
+                                    >de Æstimatoria</hi>&#160;; et tit. 4, frag. 1&#160;: <hi
+                                    rend="i">de Rerum permutation</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {19.3.2} <hi rend="i">Paulus. Hec aucio</hi>.</head>
+                        <div type="gp">
+                            <p>Ceste aucion est profitable, tot i eit il loer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.4.1}</head>
+                        <div type="gp">
+                            <p>Car un est vendeor autre acheteor, ¶ et ausi est pris<note>pris]
+                                        <emph>prise</emph> dans le ms., cf. lat. <emph>ita pretium
+                                        aliud</emph></note> [85vA] une chose et merz autre chose. Et
+                                quant la chose est changie, l’en ne set le quel est acheteor ne le
+                                quel est vendeor. Et moult i a grant difference. ¶ Car l’acheteor
+                                s’il ne baille le pris au vendeor est tenuz de la vente ; et le
+                                vendeor est tenuz de la chose delivrer et de baller la possession et
+                                que il n’i face tricherie, et se la chose est tolue il ne doit rien.
+                                Et s’il a pris ou change de ça et de la, la chose doit estre à l’un
+                                et à l’autre&#160;; s’il i a merz, n’a l’un n’a l’autre. ¶ Mes quant
+                                il doit avoir et merz et pris, l’en ne pot savoir le quel est merz
+                                ne le quel est pris, ne reson ne s’ofre mie que une moine chose soit
+                                rendue et soit pris d’achat. {1} Donc se cele chose que j’é prise,
+                                piece à m’est tolue, je avroi aucion de fet. ¶ {2} Achat et vençon
+                                est fet por la volenté<note>volenté] <emph>vencon</emph> dans le
+                                    ms., distraction du scribe, cf. lat. <emph>Item emptio ac
+                                        venditio nuda consentientium voluntate
+                                    contrahitur</emph></note> à cez qui s’i acordent&#160;; et
+                                change done commandemant à obligacion quant la chose est baillie par
+                                dehors. ¶ Et se la chose n’est baillie, nos dison que l’obligacion
+                                sera fete par nu consentement&#160;; et c’est issi establi que
+                                chescunne aucion eist son non, si comme en achat, en vençon, en
+                                aloage, en mandemant. ¶ {3} Pedius dist que cil qui baille autrui
+                                chose ne fet nul change. {4} Et d’autre part, se la chose est
+                                baillie, se l’un ne velt baller les choses, nos ne plederon pas do
+                                domage de ce que nos ne poon avoir la chose dont est la convenance,
+                                mes nos poon demander la chose que el nos soit rendue, ausi comme se
+                                la besoigne ne fut mie.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <front>
+                    <head type="gp">VIII. De paroles porparlies et de aucion de fet <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 19, tit. 5&#160;: <hi rend="i">de
+                                    Prœscriptis verbis et in factum actionibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {19.5.1} <hi rend="i">Papinianus. Nonnunquam</hi>.</head>
+                        <div type="gp">
+                            <p>Aucunne foiz avient que quant jugemenz et aucions communes fallent et
+                                quant nos ne poon trover propre non à l’aucion, nos descendons à
+                                celes aucions que l’en apele « aucion de fet »&#160;; et ge en
+                                mostreroi à cortes paroles exemple. ¶ {1} L’en donra aucion de cité
+                                contre le metre de la nef au seignor de la mercerie se l’en ne set
+                                s’il a aloé la nef ou sa mercerie porter. ¶ {2} Et se aucun balle
+                                aucunne chose por fere savoir que ele vaut, ce ne sera ne prest ne
+                                chose baillie a garder, ainz avra l’en aucion de [85vB] fet se l’en
+                                i fet desloiauté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.2} <hi rend="i">Celsus. Nam cum</hi>.</head>
+                        <div type="gp">
+                            <p>Car quant us<note>us] <hi rend="i">usez es</hi> dans le ms., leçon
+                                    inchoèrente, cf. lat. <hi rend="i">nam cum deficiant vulgaria
+                                        atque usitata actionum nomina</hi></note> et usages
+                                faillent, l’en avra ceste auction.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.3} <hi rend="i">Julianus. In quam</hi>.</head>
+                        <div type="gp">
+                            <p>Il convient quant l’en trove nos que l’en i puisse mestre par droit
+                                de cité.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.4} <hi rend="i">Ulpianus. Natura</hi>.</head>
+                        <div type="gp">
+                            <p>Car nature s’acorde à ce que plus sont besoignes que noz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.5} <hi rend="i">Paulus. Naturalis</hi>.</head>
+                        <div type="gp">
+                            <p>Mis fiz de une meschine te servoit et le tuen moi&#160;; nos nos
+                                acordames que tu franchisses le mien et je le tien&#160;; je fis tu,
+                                ne feis pas. ¶ L’en demande quele aucion g’e contre toi. L’en
+                                resgarde en cete question por la chose don l’en parle, ce que
+                                apartient à cez apeces en tel forme&#160;: je done que tu me donges,
+                                ou ge done que tu faces, ou ge faz que tu donges, ou ge faz que tu
+                                faces. ¶ Et en ce demande l’en quele aucion en pot venir. {1} Car se
+                                ge done peccune por avoir une chose, c’est achat et vençon. ¶ Et se
+                                ge done une chose por autre avoir, ce n’est mie change ne achat, ¶
+                                ainz est aucion de cité. Et ce avient en ceste aucion, que tu ne
+                                rendes pas ce que tu as receu, ainz seras condempnez à moi por tant
+                                comme je no vossisse que je n’eusse la chose&#160;; ou se ge voil,
+                                ge avré ce que j’é baillé, ausi comme se la chose ne fut fete. ¶ Et
+                                se ge te donoi hennas por avoir Tebert, il sera à mon peril, et tu
+                                doiz garder que n’i ees colpes. ¶ Or est debatre cest article
+                                «&#160;je done que tu me donges&#160;». ¶ {2} Et quant « je done que
+                                tu me faces », se le fet est tel que l’en selt à loer, ausi comme tu
+                                talces por poindre une table, se ge te baille l’argent, ce sera
+                                loage, ausi comme achat est en cas desus. ¶ S’il n’i a rien baillié,
+                                ne ce n’est mie loage, mes ce sera aucion de cité por tant comme je
+                                no vossisse et la puis demander. ¶ Et se le fet est tel que l’en ne
+                                puisse aloer, ausi comme se tu fez marchié que tu franchisesses un
+                                serf, s’il i a certain tens dedenz quant il soit franchi et li tens
+                                passe au vivent au serf, ou se le tens n’est passé et tot li tens
+                                passe où il pot et dut estre franchi, l’en li pot demander ou avoir
+                                contre lui ceste aucion&#160;; et ce avient à ce que nos dison
+                                desus. ¶ Se je te donoi un serf por franchir le tuen [86rA] et tu le
+                                franchis, et celui que je te donoi est toluz, se je le donoi par
+                                barat, por barat tu as aucion contre moi de fet, comme Julien dit.
+                                Se tu n’en seus rien, aucion de cité t’avient. ¶ {3} Et se ge faz
+                                que tu me doignes et tu ne fez rien enprés ce que j’é fet, l’en
+                                n’avra pas aucion de cité mes de barat. ¶ {4} Et se ge te faz que tu
+                                faces, ceste maniere de parole regarde plusors marchiez&#160;; car
+                                se nos avon mis en convent que tu demandes ma dete à Maroc et g’é la
+                                toe à Rome, ou ge face edefice en ta terre et tu en la moie et tu
+                                n’en fez rien, li aferes remaint si comme devant, sanz que la
+                                peccune ne pot estre demandee en autrui non. Et ge soit ce que il
+                                eit despens, nostre office est et de ça et de la, et pot nature
+                                passer le mandemant de convenir. Je te puis mander que tu me faces
+                                garde et que tu ne despens au demander que .x. sous&#160;; et se tu
+                                despens autant, n’est nule dotance que tu n’eies auction. Et s’il le
+                                fet autrement, que l’en voie que ciert mandemant, ausi comme se nos
+                                rendon despens de ça et de la, je ne te mande pas de ta chose. Mes
+                                ce sera plus segure chose que l’en ait ceste aucion en fere mesons
+                                et en demander detes&#160;; et ceste aucion est senblable à aucion
+                                de mandemant, ausi en quas qui sont desus en loage et en achat. ¶
+                                {5} Et s’il est issi acordé que li un et li autre face, ausi pot
+                                l’en dire en cete question, et à force convient que cil soit
+                                condempné à moi por tant comme je no vossisse avoir le serf que j’é
+                                franchi. Et l’en dote se l’en metra hors ce que g’ei un franchi ?
+                                Mes l’en ne pot ce esmer.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.6} <hi rend="i">Neracius. Insula</hi>.</head>
+                        <div type="gp">
+                            <p>Ge vendi une meson par si que tu en feisses une autre&#160;; je di
+                                que c’est nule vençon, mes l’en a aucion de chose qui n’est mie
+                                certaine.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.13} <hi rend="i">Ulpianus. Si tibi</hi>.</head>
+                        <div type="gp">
+                            <p>Si ge te baille la chose à vendre por certain pris, et ce que en
+                                peusses plus avoir tuen fut, acordé est que il n’i a auction ne de
+                                mandemant ne de compoignie mes de fet, ausi comme de autrui afere
+                                fet&#160;; car mandemanz devent estre fez por neient, et il est veü
+                                que compoignie n’est pas fete o celi qui ne te reçut pas en
+                                compoignie de vendre la chose s’il mest hors cer[86rB]tain pris.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.15} <hi rend="i">Ponponius. Qui</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui sorent les fuitis sers estre en aucun leu celez, les solent
+                                descovrir au seignors, et ce n’est pas larrecin, ainz en solent
+                                avoir loer por dire lo ; ¶ et bien l’en poent prendre, car il i a
+                                bone cause, et bien l’en pot demander. Et s’il n’i a rendu rien, mes
+                                la convenance fut fete por le serf enseigner et que le serf fut
+                                pris, veon s’il pot demander le loer. Et ce convent n’est pas nuz,
+                                que aucun ne die pas que ceste aucion ne nesse pas dou convenant,
+                                ainz en soi a aucunne afere&#160;; et donc en pot estre ceste
+                                aucion, s’il n’i a aucion de barat quant aucun en est repris.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.22} <hi rend="i">Gaius. Si tibi</hi>.</head>
+                        <div type="gp">
+                            <p>Se je te baille robe à polir ou à costre, se tu prenz cele besoingne
+                                por neant il i a obligacion de mandemant&#160;; et s’il i a loer, il
+                                i a aucion de loage&#160;; et se tu n’as cele besoigne por neient et
+                                le loer n’est pas mis demanois mes en tel pensé le prist à fere que
+                                il eust son loer enprés tant comme il seroit à nos .ii., il plest
+                                que ceste aucion eist leu. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.23} <hi rend="i">Alpheis</hi>.</head>
+                        <div type="gp">
+                            <p>.ii. bachelers aloient sor Loire, l’un d’aus qui aloit o l’autre pria
+                                l’autre que il li monstrat un anel por voier, li anel li cheist en
+                                l’eve&#160;; je di que l’en a aucion contre li de fet.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {19.5.26} <hi rend="i">Si tibi</hi>.</head>
+                        <div type="gp">
+                            <p>Se je te baille hennas por si que tu les me redesses, j’é aucion de
+                                prest. Et se ge te prestoi issi un pois d’argent que tu m’en
+                                rendisses autretant, j’ei ceste aucion d’avoir ausi bon argent comme
+                                cil hennas furent. Et s’il fut en convent que tu me donasses cez
+                                henas ou autretant de pois d’argent, ausi en pot l’en dire.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

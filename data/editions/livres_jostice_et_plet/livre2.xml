@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre2">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LI LIVRES DE JOSTICE ET DE PLET</title>
+				<principal xml:id="GP">Graziella Pastore</principal>
+				<funder>École nationale des chartes</funder>
+				<respStmt>
+					<name xml:id="MH">Mathilde Henriquet</name>
+					<resp>2015 - édition électronique</resp>
+				</respStmt>
+			</titleStmt>
+			<editionStmt n="1">
+				<p>2015, première édition électronique</p>
+			</editionStmt>
+			<extent/>
+			<publicationStmt>
+				<publisher>École nationale des chartes</publisher>
+				<address>
+					<addrLine>65, rue de Richelieu</addrLine>
+					<addrLine>75002 Paris</addrLine>
+					<addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+					<addrLine>http://enc.sorbonne.fr/</addrLine>
+					<addrLine>recherche@enc.sorbonne.fr</addrLine>
+				</address>
+				<idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+				<date>2015</date>
+				<availability status="restricted">
+					<p>L'École nationale des chartes met à disposition cette ressource électronique
+						structurée, protégée par le code de la propriété intellectuelle sur les
+						bases de données (L341-1), selon les termes de la licence Creative
+						Commons&#160;: « Paternité - Pas d'Utilisation Commerciale - Pas de
+						Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+						http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+						à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+						94105, USA.</p>
+					<p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+						encourager l'utilisation et l'amélioration de ses ressources électroniques,
+						pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+						au-delà du champ de cette licence doit être obtenue auprès de l'École
+						nationale des chartes.</p>
+					<p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+						l'École nationale des chartes s'engage à conserver et à toujours offrir
+						publiquement la version la plus à jour de ses ressources électroniques par
+						une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+						les contributions qui lui sont soumises (après validation par un comité
+						scientifique), et à référencer l'origine de ces contributions. Toute
+						modification de la ressource qui ne serait pas reversée à la version de
+						référence sous l'autorité éditoriale de l'École nationale des chartes doit
+						faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+						contributions et de permettre les meilleures conditions possibles de
+						collaboration scientifique.</p>
+					<p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+						publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+						nom de l'École nationale des chartes et, pour les publications
+						électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+						notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+						source utilisé.</p>
+					<p>Tout litige soulevé par le non respect des termes de cette licence sera
+						soumis à la juridiction des tribunaux de Paris.</p>
+				</availability>
+			</publicationStmt>
+			<seriesStmt>
+				<title>Éditions en ligne de l'École des chartes</title>
+				<idno type="URI">http://elec.enc.sorbonne.fr</idno>
+				<idno type="vol"/>
+			</seriesStmt>
+			<sourceDesc>
+				<bibl>
+					<abbr>Li livres de jostice et de plet</abbr>
+					<title>Li livres de jostice et de plet, publié pour la première fois d’après le
+						manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+						glossaire des mots hors d’usage par P. Chabaille</title>
+					<pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+						when="1850">1850</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+					telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+					précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2016-11" who="GP">Mise à jour du fichier</change>
+			<change when="2015-07" who="MH">Création du fichier</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head>LI SEGONZ LIVRES<note>Nous suivons la division par livres adoptée dans la table
+					seulement.</note></head>
+		</front>
+		<group>
+			<head>LI SEGONZ LIVRES</head>
+			<text xml:id="art_01">
+				<pb n="75"/>
+				<front>
+					<head>I. De la juridiction de toz juiges.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Et li segonz livres. — L'office à celi qui a juridiction est trop let
+								(<emph>latissimum</emph>), car il puet doner la seisine des biens et
+							metre en saissine, et puet doner tutors as orfelins, qui point n'en ont,
+							et doner juges à cels qui pleidient ensemble. — Tout ce est otroié à
+							celi à qui l'en done juridiction, sanz quoi l'en ne puet la juridiction
+								desenvoloper<note>Dig. lib. 2, tit. 1, frag. 1 et 2&#160;; <emph>de
+									Jurisdictione</emph>.</note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Commendement est pur ou maulé. Commandemant est pur, quant l'en a poer de
+							glaive à punir les mauvès homes&#160;; et ce apele l'en poer. Li
+							commendemanz est mauslez là où il a juridiction dedanz. Juridiction est
+							poer de doner juge<note>Ibid., frag. 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Issint le commandèrent li grant seignor, que cil poet mander juridiction
+							qui l'a por son droit, non pas por autre bénéfice. Et se cil qui mende
+							la juridiction muert avant que la chose soit commencée, devant celui à
+							qui l'en l'a mandé, <ref
+								target="http://josticeetplet.huma-num.fr/items/show/3">Jehan de
+								Beaumont</ref> dit que li mendement est nul<note>Ibid., frag. 5 et
+								6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Se aucun corrump ou dépièce par sa tricherie ce qu'est atabli par bons
+							princes, ou par chartre, ou par durable juridiction, ou par <pb n="76"
+							/>autre matère, il li det coter&#160;; et an cest banc sont contenu
+							serf, et mesnie, et femes. Et andemantres que tex juridiction est
+							escrite, ou avant, ou aucun viant qui la dépièce, li bans ne les paroles
+							qui i ssunt ne serunt pas tenues. Et <ref
+								target="http://josticeetplet.huma-num.fr/items/show/6">Geufroi de la
+								Chapele</ref> dit que c'est reisons. — Et si li serf la dépiècent,
+							et celx qui sont poure, se lor seignors ne's en défendent, il seront
+							tormenté. Et por ce fait l'en mencion de male trecherie&#160;: et se
+							aucuns la dépièce par niceté, ou par vilenie, ou se sa jotice le li
+							commende, en tex choses il n'est pas tenuz. Et se cil qui dépièce le
+							droit ou ses mains, ou commende à un autre qu'il le dépièce, andui i
+							sont tenu&#160;; et se li uns le mande par conchiement, et li autres le
+							fit sen (<emph>sans</emph>) conchiement, li conchierres i est tenuz, et
+							l'autre non. Et se l'un et l'autre le font par conchiemant, andui i sont
+								tenu<note>Dig. lib. 2, tit. 1, frag. 7.</note>. — Il ne soffira pas
+							que l'un en port la paine&#160;; mais li dui l'en porteront, et le
+							penoirront. — Se la mesnie à aucun conchie la juridiction, et li sires
+							le pout deffendre, et ne le deffende, il n'i sont pas sostenu&#160;; mès
+							li sires l'amendera an non d'aus, et li autre plusors foiz&#160;: ausint
+							com si plusors font injures, ou font domages, por ce qu'il i a plusors
+							fez, li uns n'est pas solemant tenuz, mès tuit. — Mès se aucuns soz fist
+							conchiement, que la juridictions fust dépecée ou corrumpue, lor il n'i a
+							que un consel, ne n'i apert mie plusors foiz&#160;: et Renauz de Triecot
+							le dit issit<note>Ibid., frag. 8, 9.</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Cil qui a juridiction ne doit pas fere droit de soi, ne de sa feme, ne de
+							son fiz qui est en son poer&#160;: quar plus tost sera esmeuz de fere
+							mauvestié en sa querele que en l'autrui forfet, aceuté
+								(<emph>excepté</emph>) le roi, que pot quenoistre de tot. — Se
+							aucuns d'aucune juridiction ait contre un autre de pluisors demendes,
+							dun chascune apartiene à la juridiction, et il n'i ait pas tant demandes
+							que al et (<emph>elle ait</emph>) passé mesure, cil qui à la juridiction
+							sera en porra quenoitre&#160;; et se l'uns fet demende contre l'autre,
+							et li uns demande meins et li autre plus, et il ne saient plus d'une
+							jotice, li uns respondra à l'autre. Et toutes demandes sunt ci
+							contenues, fors d'éritage, com mesons, vignes, terres, molins, et asés
+							autres choses. — Se une demande est commune à plusors personnes, <pb
+								n="77"/>ausit com de partir héritage, ou de partir choses communes,
+							ou de bones metre, l'en doit veoir se la partie à chascun de cels qui
+							demende, se ele est de cele juridiction&#160;: et issit le commende
+							l'en, que l'en ne tiegne droit de ce don l'en n'est pas juges<note>Dig.
+								lib. 2, tit. 1, frag. 10, 11.</note>.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Nus ne puet tormenter son serf sanz cause&#160;; mès il le puet bien
+							châteier atempréement.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Il convient que cil soit apelez juges qui est en aucun poer&#160;; si com
+							l'en fet meors, serganz, prévolz, baillis, et autres qui governent le
+							pueple.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Nus ne doit commender jugier à celi jor qu'il pert sa baillie.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Droit otroie, et nos usons de celi droit, que se aucun qui a vingt et un
+							an ou anviron, se met en juridiction, l'en li porra dire droit contre
+								li<note>Ibid., frag. 12-14.</note>.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Se l'en vait par airor à un prévost por autre, ne vaudra riens quanquez
+							l'en fera devant lui&#160;: car cil ne sera pas oïz qui dira que les
+							parties s'i saient consenties en li, et qu'il n'antendoient pas à
+							consentir. <ref target="http://josticeetplet.huma-num.fr/items/show/3"
+								>Jehan de Beaumont</ref> dit que cil ne consint pas qui foloie, quar
+							tel chose est plus contraire à consentement que à error, qui descuevre
+							la niceté<note>Ibid., frag. 15.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Li prévoz puet mender sa juridicion, ou tout, ou une pièce&#160;: car cil
+							à qui la juridicion est mandée n'use pas de sa juridicion, mès de cele à
+							celi qui la li mande. Ausint com li baillis ou li prévoz puet mander sa
+							juridiction tote, ausi en puet-il mander partie. — Se convenanz est que
+							autres prévolz que cil qui an la juridiction est, die droit, et avant
+							que l'en auge devant li, est meuée la volenté sanz dotance, nus ne doit
+							estre forcez de tenir ces convenances<note>Ibid., frag.
+							16-18.</note>.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Nus ne puet fere pez sanz jotice, por qu'il i ait clamor, et por que il i
+							ait chose où il i ait à amender&#160;; que cil qui a la juridiction n'i
+							ait amende.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Come une pucele fust en plet devant son juge, ele fu condempnée&#160;;
+							ele se maria emprès à un home qui estoit d'autrui juridiction. L'en
+							demendoit se cil porroit fere tenir la sentence au premier juge&#160;?
+							et je <pb n="78"/>di que oïl&#160;: quar la sentence qui est donée dou
+							premier juge est droite, et en toz quas doit l'en ce garder généraument.
+							—</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Cil qui est hors dou poer au juge, si ne fet ce qu'il commende, n'est pas
+							puniz, ausit com s'il vousit plus croître sa juridiction qu'ele n'estoit
+								d'avant<note>Dig. lib. 2, tit. 1, frag. 19, 20.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_02">
+				<front>
+					<head>II. D'establissemanz.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Cet ban contient grant loiauté, et sanz marir nuil. Qui refusera à tenir
+							le droit q'il meismes dit, ou se fet dire&#160;? nus ne doit ce
+							refuser.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Cil qui aura jugié ou establi contre aucuns noveau droit, il doit user
+							d'autretel droit à la requeste son aversaire.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se aucuns empètre noveau droit devant son juge, et amprès, à la requeste
+							son aversaire, ne veaut cil user de celi droit, il doit sofrir que ce
+							tiegne et vauge an sa persone, qu'il crut que vausit en persone
+							d'autrui.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Cez paroles, que celui establist qui a juridicion, nos le devons prendre
+							en fet, non pas en parole.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Et s'il viout establir aucune chose contre droit, l'en deffent que l'en
+							n'i obéisse&#160;: quar ceste parole qui est apelée establir, senefie
+							parfete chose, et injure achevée, non pas commencée.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Et se aucuns dit droit entre aucuns, et il n'et (<emph>n'ait</emph>)
+							juridiction, ce qu'il dit ne vaut riens, et sa sentence est nulle&#160;:
+							car l'enforcement au juge ne vaut riens là où il n'a point de
+								juridiction<note>Les § 1 à 6 sont extraits du frag. 1&#160;:
+									<emph>Quod quisque juris in alterum statuerit, ut ipse eodem
+									jure utatur</emph>, au livre 2, tit. 2, du Digeste.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>En ce droit est establi, se li juges fet trecherie, qu'il soit puniz, et
+							se li droiz est dit autrement qui ne convient, par la niceté as jugeons,
+							ce ne doit pas nuire au jugé, mès au jugeors<note>Ibid., frag.
+							2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Se aucun empètre an cort contre aucun, et il let celi droit qui use, de
+							celi droit doit l'en huer (<emph>user</emph>) contre celi qui l'a
+							empétré&#160;; mès si ne l'a empétrié, il n'est pas tenuz. Et s'il
+							empètre aucune <pb n="79"/>cause (<emph>et en use</emph>) ou s'il
+							empètre por an user, tout n'en ait-il usé, cet ban le punit<note>Ce § et
+								les suivants sont tirés du frag. 3, au liv. 2, tit. 2, du
+								Digeste.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Se un procurator que j'ai establi en mes choses viot user d'un droit
+							contre mon aversaire, mis aversaires usera de celui droit contre
+							moi&#160;; et se tutor ou curator de desvé pu à orfelin qui n'ait pas
+							quatorze anz, le demande, aura le il&#160;? l'en li otroie&#160;: et ce
+							doit l'en garder entre tés persones.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Ceste (<emph>peine</emph>) est establie contre totes genz, non pas
+							solement contre celi qui demende&#160;; mès ausit contre celi à qui l'en
+							demende.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Se celui por qui tu es plèges, empètre que aucuns qui riens li date ne
+							puisse user contre li de barre, et tu vuelles user en celui afere, don
+							tu es plus&#160;; griés, il n'avient pas que tu n'en puisses user. Et
+							s'il avient aucunes foiz que tu soies grevez, come il avient que cil qui
+							doit ne puet paier, et tu chiés en ban, cil à qui tu demandes aura barre
+							contre toi, et tu n'en aras point contre li.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Se mi fiz qui est en mon poer chiet an cet ban, l'en demende s'il a leu
+							en demendes qui vienent en sa persone&#160;? et l'en respont que l'en ne
+							quide pas que la condicion au père en soit peor. Or demende l'en, se
+							cete paine passe jusqu'à l'er&#160;? <ref
+								target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
+								Beaumont</ref> dit que l'en ne doit pas paier son air. Cil Johan ne
+							dit pas ce sanz reson, et quide par cete cause que l'en ne puisse pas
+							redemander ce que l'en a paé&#160;: car ge quit que les naturés causes
+							remeint, qui défent que l'en ne puet redemender ce que l'en a paié, se
+							l'en ne veaut prover le contraire.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_03">
+				<front>
+					<head>III. De fere ce que li juiges commande.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Il apartient à touz juges, qui deffendent lor juridictions par jugement
+							de peine. Cil ne fet pas ce que li juges commende, qui ne fet ce qu'est
+							le darrenier de la juridiction&#160;: ausint cum se aucuns ne fet pas ce
+							que droit done, il convient que l'en i mete force&#160;; et se aucuns ne
+							fet la fin dou commendement, il est chose veue qu'il a passé le
+							commendement. Se ton procurator, ou tutor, ou curator d'orfelin, ne fet
+								<pb n="80"/>ce que li juges commende, il est puniz, non pas li
+							sires, ne li orfelins.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Renaut de Triecort dit que cil qui demende n'est pas seulement liez de
+							fere le commendement&#160;; mès cil à qui l'en demande.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Cil jugement se clot, non pas solement en domage de la chose, mès en ce
+							que droit doit regarder&#160;; et tout i ait-il pure peine, ale ne dure
+							pas outre l'an, ne contre l'air.<note>Les trois premiers § de ce titre
+								sont tirés du frag. 1&#160;: <emph>Si quis jus dicenti non
+									obtemperaverit</emph>, au liv. 2, tit. 3 du Digeste.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Nus ne doit fere somondre devant juge por héritage jusque l'an est semons
+							le juge, qui lo mete en sesine, que qu'an aut de la querele au juge.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Quant juges fet semondre un home por ses défauz, la semonse doit estre
+							fete par ses homes liges, trois foiz, et par tex qu'il les puissent
+							juger. Et si défaut, lors puet-il jugier contre li, hou
+							(<emph>ou</emph>) por li, et li troi jor doivent estre chascuns de
+							quinze jorz, et li quars de quarante jors.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_04">
+				<front>
+					<head>IV. De fere semondre devant juige.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>De fere semondre devant juge. — N'est pas convenable chose de traire en
+							plet, sanz le congié de celui qui a juridiction&#160;: conte, viconte,
+							baron, baillif ne prévost ne ces granz seignors qui ont poer de punir
+							aucun, et de metre en prison por lor juridiction&#160;; ne évesque quant
+							il doit chanter&#160;; ne cels qui ne pueent mouver por ce qu'il sont en
+							religion&#160;; ne cil qui vest por la commune chose, au communs
+							despens&#160;; ne celi qui prent feme&#160;; ne juges qui tient ses
+							plez&#160;; ne celi qui est devant aucun juge por sa cause&#160;; ne
+							celi qui siut aucuns de ses amis morz&#160;; ne celi qui fet les
+							mortalles au mort&#160;; ne cels qui vont morz entarrer.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Et cist establissement si est de par les rois&#160;: ne qui convient aler
+							por plédier, ou estre à fere droit à un certain jor, ou en un certain
+							leu&#160;; ne desvé, ne enfanz<note>Dig. frag. 2, 3 et 4&#160;: <emph>de
+									in Jus vocando</emph>.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Li rois deffent que fiz naturés ne face semondre lor père, ne franchi son
+							patron, ne serf son segnor&#160;: et ausit enten l'en des dames&#160;;
+							ne ce ne soit fet sanz la volenté au segnor ou au prévost. L'en apèle ci
+								<pb n="81"/>père et mère, cels qui sont en léal mariage nez. — Et
+							l'en demende se cest bienfice dure gaires&#160;? et l'en dit que oïl. Et
+							dit l'en qu'il dure jusque au tierz genoil, et commence l'en au filz, et
+							puis au père, et puis à l'aol, et issit en montant, cels que l'en apèle
+							greignors&#160;: <ref
+								target="http://josticeetplet.huma-num.fr/items/show/6">Geufrois de
+								la Chapele</ref> dit que ce sont les plus anciens.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Et se aucuns est bastart, il ne porra sa mère fere semondre, quant il est
+							bien certains qu'il est ses filz, tout ait-il plusors pères. L'en apèle
+							celui père, qui est mariez.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Nus ne puet apeler en cause, se n'est par le prévost, cels que l'en a
+							desus nomez&#160;: quar l'en doit à tex genz porter révérence<note>Dig.,
+								lib. 2, tit. 4, frac. 4-6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>L'en puet traire en cause les parenz au père avoé, por ce que cil ne sont
+							pas si parant, comme il ne soient solement que lor queneuz.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>L'en ne puet apeler en cause père avoé, tant com l'en est en son
+							poer&#160;: quar plus i a droit de poïr que commandement de
+							jotice&#160;; se ce n'est fiz qui a ce qu'il gaagne par soi&#160;:
+							lores, quant l'en a oï la cause, l'en li suefre. Tant comme l'en est en
+							avoement, l'en ne puet son père naturel semondre, ne patron, ne patrone.
+							L'en apèle ce <emph>(ci)</emph> patron, qui de sers font frans. L'en dit
+							que tel droit ne puet passer à mon fiz, de tel franchi, tant com je
+							vive. <ref target="http://josticeetplet.huma-num.fr/items/show/6">Gefroi
+								de la Chapele</ref> dit encontre. Aucun loent sa sentence, segont ce
+							qu'il avient que li patrons est trez en cause, li filz qui est
+							juvenceaus n'i est pas trez<note>Ibid., frag. 7, 8.</note>.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Et se j'ai acheté aucuns par convent que je le franchise, et cil vient
+								<emph>(à)</emph> la franchise par la convenance, je sui patron, ne
+							ge ne porrai estre trez en plet, se n'est par le prévost. Et se ge l'ai
+							acheté de ses deniers et ge ne garde ma foi, ge ne serai pas patron. Nos
+							apelons celui patron, tout ne soit-il pas forbeni, ou se li franchi est
+							forbeni, endomentres qu'il est avoez par conchiement&#160;: car il cèle
+							son servage, parce qu'il se suefre à metre en autre main, ne issit ne
+							puet l'en voer qu'il soit franchi. Mès se li patrons l'a seissi de la
+							franchise, ge cuit qu'il doit porter révérence au patron, jà soit ce
+							qu'il soit ses filz de don de noblece. Autre chose est de celui qui le
+							prince fait franc<note>Ibid., frag. 10, pr. § 2 et 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p><pb n="82"/>Cil que aucuns communs en citez franchist, les porra toz
+							trère en plet&#160;: chascuns par soi n'est pas ses patrons&#160;; mès
+							il doit porter révérence au commun, et s'il veut emplédier le commun ou
+							l'université, il en doit demander congié au juge.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Et se patron devent estre envoié en essil, <ref
+								target="http://josticeetplet.huma-num.fr/items/show/5">Renaut de
+								Tricoi</ref> dit (qu'il) quide qu'il ait perdue honor&#160;; et s'il
+							est rapelez, li preuz de ce ban li est toz saus. Et si mes filz qui est
+							hors de ma mein avoe un fiz, cil niez porra estre trez en cause.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Li prévoz deffendi que nus ne apiaut autre en cause sanz sa volenté, et
+							il le voudroit lors, se l'en demande cause lède et honteuse, dont le
+							patron est trez en plet, ou li parenz&#160;; et tot doit ce fere li
+							prévolz, que li franchi tret en plet son patron, s'il li a fet
+							disconvenue, ou s'il l'a batu laidement. Li franchiz porra trere en plet
+							le procurator, le tutor, le curator au patron, et ce porra fere sanz
+								paine<note>Dig., lib. 2, tit. 4, frag. 10, § 4, 6, 8, 12,
+							13.</note>.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Jà soit que li prévolz ne dot pas, quant il aura queneu de la cause,
+							qu'il dongne sentence&#160;; mès il atrempera sa juridicion si sagement
+							qu'il metra celx en bone pez.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Se li franchizapèle les filz au patron en cause, contre cest ban, et se
+							li filz est ou poer au père, l'en loe qu'il l'en secore au fiz, quant li
+							pères n'est présenz, et cil filz est (ait) contre son aversaire action
+							de peine<note>Ibid., frag. 11, 12.</note>.</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Nous ne poons pas apeler généraument en plet persones an cui l'en doit
+							révérence, sans le commandement au prévost. Se li patrons se plaint de
+							son franchi, et cil se veaut deffendre, il doit prié celui qui tient les
+							plez de miséricorde, et emprès l'en li otroie qu'il se
+								deffende<note>Ibid., frag. 13, 14.</note>.</p>
+					</div>
+					<div>
+						<head>§ 15.</head>
+						<p>Li franchiz balla sa demende contre son patron, ne ne fesoit pas semblant
+							qu'il fust ses franchiz, ne cil ne disoit pas qu'il fust. L'en demende
+							s'il le puet fere&#160;? et l'en dit que oïl&#160;: quar cil qui balle
+							sa demende devant son aversaire n'a pas veu, quant il n'i a contredit,
+							que ses averseres soit fet (ses) patrons.</p>
+					</div>
+					<div>
+						<head>§ 16.</head>
+						<p>L'en demende se li tutor, an non de l'orfelin, puet trere an plet sa
+							patrone, sauf (sans) la volenté au prévost. Ge di, qui se plaint
+							d'aucune <pb n="83"/>chose au non de l'orfelin, que ele n'est pas
+							patrone, bien le puet fere sanz requerre le prévost<note>Dig., lib. 2,
+								tit. 4, frag. 15, 16.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_05">
+				<front>
+					<head>V. De cas de haute jostice et de baronie.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>L'en doit semondre devant juige tantost, sanz délai, de murtre, de rat,
+							de larrecin, de traïson, d'omecide, de membre tolu, de chaable, de
+							force, et d'itex fez senblables&#160;; et de chetel, segont la loi, et
+							de héritages, et de censives, à huit jorz, et de fiez, à quinze
+							jorz.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>La semonse de l'ostel le roi doit estre recevable segont la loi où cil
+							est, et axuené <emph>(essoiné)</emph> à trois semaines, et à un
+							mois&#160;: et ce est en la volenté le roi.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_06">
+				<front>
+					<head>VI. De trives fere doner.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>L'en doit au juige montrie por trives avoir.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>L'en dit ci que l'en doit trives fere doner à toz tens et à totes ueures
+								<emph>(heures)</emph>, ne que ce ne doit estre alongié. Car trives
+							si est sauvement de cors d'ome et sauvement des biens desus terre, et
+							ôte acheson que nus ne forface, et est alonguement de vie, et est
+							espérance de pez, et garde home de péchier, et por ce que toz biens en
+							vienent, et toz maus en doivent remenoir, ce est si haute chose que nus
+							ne la doit aloignier, qu'ele ne soit donée en tote cort où home sera
+							trovez.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_07">
+				<front>
+					<head>VII. De celi qui plévist que aucuns vindra a jor.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Cil qui plévist por moi que ge vendrai au jor, est tenuz de moi avoir au
+							jor. Et se aucuns promist sanz doner caution de li avoir au jor, il le
+							doit avoir au jor.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Aucuns quidièrent que l'en ne puisse nus de sa meson trere en plet, parce
+							que sa meson est à chascun segnor refuige, et qui nul en tret <pb n="84"
+							/>d'iqui, il est légière chose qui li fet force. Asés a peine celi qui
+							n'a que le deffende, ne que paer qui se repont&#160;; et certaine chose
+							est qui met son aversaire en saisine de ses biens. Et se l'en le trueuve
+							en aucun certain leu, bien le puet l'en pleidier.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>L'en ne puet trere en plet cels qui ovrent en vigne, ne qui se beignent,
+							ne qui sont en moutiers. Et cil qui est en sa meison puet estre
+							semons.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Mès l'en ne le doit pas traire de sa meison. Et ce l'en otroie à cels qui
+							n'ont pas fet chose par quoi lor cors périsse.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>L'en ne puet semondre celx qui n'ont quatorze anz, ne puceles qui sont en
+							autrui garde<note>Dig., lib. 2, tit. 4, frag. 17-21&#160;; 22,
+							pr</note>.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Cil qui est semons en droit, doit estre leissiez en deus quas&#160;: li
+							uns est, s'il a essoine et il i anvoit soufisant qui le défande&#160;;
+							ou se, demantres qu'il i vient, fet pès, sauve la droiture au
+								seignor<note>Ibid., frag. 22, § 1.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Se aucuns est semons, et donge plège d'étier (d'ester) à droit, et cil
+							plèges n'ait de quoi paier, autant vaut comme s'il n'en avoit unques
+							point doné. En quelque menière que aucuns soit semons devant le prévost,
+							ou devant le baillif, il i doit venir por alléguier son privilège, s'il
+							a, por soi deffendre.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Se aucuns est trez en plet de son juge, et il n'i vet, li juges le punira
+							segont raison, por le despit de la juridiction&#160;: car l'en doit fere
+							espenoir as fos lor folie. Et s'il ne vaut riens au demendeor à avoir
+							tret son aversaire en plet, la poine est sor lui<note>Dig., lib. 2, tit.
+								5, frag. 1, 2&#160;: <hi rend="i">Si quis in jus vocatus non
+									ierit.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Se aucuns promet en cort qu'il aura acun à droit, si n'i a mise peine,
+							s'il n'i viant, l'en ne li siet que demander&#160;: et issit le dit <ref
+								target="http://josticeetplet.huma-num.fr/items/show/3">Jehan de
+								Beaumont</ref>. Mès le domage que l'en i a puet l'en
+								demander<note>Ibid., frag. 3.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_08">
+				<front>
+					<head>VIII. Cil qui sont semons a jor, i aillent, ou i envoient.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Cil qui sont semons, allent au jor, ou il i envoient pour aus qui les
+							plévissent.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p><pb n="85"/>L'en commende en cest ban, que se l'en done plège que aucun
+							viegnent à jor, que l'en le pregne bien soufisanmant, fors en persones
+							nécessaires, si comme père, comme fiz, ou patron&#160;: car en cel leu
+							reçoit l'en tex plèges com l'en le puet avoir&#160;; et de patrone, et
+							por bruz. Et lors doit doner sentence contre le juge qui ne le reçoit ou
+							demende, comme il sache le besoing des parties. Et sachiez que l'en doit
+							tenir plège por bens et por riches en tex persones<note>Dig., lib. 2,
+								tit. 6, frag. 1-3&#160;: <hi rend="i">In jus vocati ut eant, aut
+									satis vel cautum dent.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Qui promet trois homes à fere venir à jor, s'il en i a un seulement, il
+							n'a mie fet ce qu'il a promis, comme il n'en i ait amené que
+								un<note>Ibid., frag. 4.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_09">
+				<front>
+					<head>IX. Que l'en ne destorbe aucuns venir a jor.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Que l'en ne destorbe par force celi qui sera semons.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Li rois Loys fit ce ban, por metre à mesure cels qui destorbent à venir à
+							jor celx qui sont semons. <ref
+								target="http://josticeetplet.huma-num.fr/items/show/3">Jehanz de
+								Beaumont</ref> dit issit, que se aucuns fet mal, l'en doit doner
+							contre lui sentence de malfet, s'il ne le fet par le commendement le
+							roi, et lors s'il a sentence contre lui, ele sera sanz paine<note>Dig.,
+								lib. 2, tit. 7, frag. 1, pr. § 1, <hi rend="i">Ne quis eum qui in
+									jus vocabitur, vi eximat.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Gefroi de la
+								Chapele</ref> dit que cil bans n'a pas leu, se cil est hors dou poer
+							à celui juge qui le fera semondre.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Et certes, qui apèle tex gens, il ne fet pas tort qui les destorbe de
+							l'aler au jor.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Et encor se puet meaus tenir celui d'aler au jor, qui sot que aucuns l'a
+							semons qui semondre ne le deit fere.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Et se aucuns détient aucun serf, qui est semons, de venir à jor, l'en dit
+							que bien le puet fere, quant ses sires ne fut amonestez qu'il en feit
+							droit&#160;: quar l'en ne doit pas semondre tex persones sanz le seu au
+							seignor cui il est. Et qu'en fera l'en s'il vient au jor&#160;? l'en ne
+							le doit pas recevoir, se l'en sot qu'il fust serf, jusque ses sires en
+							fust amonestez<note>Ibid., fr, 1 § 2, frag. 2, 3, pr.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Johans de Beaumont dit que, se aucuns destorbe autre qu'il <pb n="86"/>ne
+							viegne au jor, par force ou par trecherie, cil bans le met en paine.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Cil bans&#160;: destorbe, ou soutrere, est mult généraus, si comme Johans
+							de Beaumont dit. Soustrere c'est tolir, en queque menière que l'en le
+							face, ausit com se aucuns ravisoit aucun par force, et le destorbast
+							qu'il ne venist à jor, et qu'il perdist sa demende ou sa défense, ou que
+							la chose fust dou tot perdue. Cil est droiz destorbeor, tout
+								<emph>(n'i)</emph> ait-il le cors dou destorber&#160;; cil est tenuz
+							de cest banz. Et se aucuns détient celui qui est tenuz en plet, par
+							trecherie, certaine chose est qu'il est tenuz en plet par cest ban. Et
+							li rois deffent que nus ne face par quoi li semons ne viegne au jor. Et
+							cil puet bien estre destorbé sanz tricherie, quant il n'est dou poer au
+								juge<note>Dig., lib. 2, rit. 7, frag. 3, § 2, fr. 4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Et se aucuns est destorbez par autre que par celi qui ne le puet fere,
+							s'il est présens ou non, sentence por le fet est donnée contre celui qui
+							le destorbe. Et en celui jugement n'est pas commune la vérité, mès tant
+							com li desmenteor prise la chose dom est li contens&#160;: et c'est
+							ajosté, que l'en doit voir s'il i a droit, por doner la paine contre
+							celui qui a tort. Et Johan de Beaumont dit que chascun doit motrer qui
+							soit exanz, s'il est, c'est-à-dire qui n'est pas dou poer à celui juge,
+							par si qu'il ne soit pas tenuz d'aler devant celui juge. Et s'il i
+							vient, la paine remaint, por ce que l'en doit entendre les paroles o le
+							parfet. Et tel jugement est de fet&#160;; et s'il i a plusors qui
+							l'aient empeschié, la paine corra contre toz&#160;; et as ers donra l'en
+							le jugement, s'il i ont domage&#160;; ne ne sera pas doné à l'oir, ne
+							contre l'oir, ne emprès l'oir <emph>(l'an)</emph><note>Ibid., frag.
+								5.</note>.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Cil qui sont tret <emph>(soustret)</emph> à force le détor, se cil qui le
+							fortret <emph>(paie)</emph>, il ne délivre pas celui por cui il
+							paie&#160;: car l'en doit entendre qui paie la paine dou
+								forfet<note>Ibid., frag. 6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>L'en demende comment l'en puet tex choses prover, de metre sus à home que
+							l'en le destorbe&#160;? et l'en respont qu'en tex choses ne sont que
+							sormises ne que sairement.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_10">
+				<front>
+					<head>X. Qui sunt forcié de doner plège.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p><pb n="87"/>Qui sunt forcé de doner plège, ou de jurer, ou de prometre
+							que cil por qui il i vienent, vendront à jor.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Autant fet satisfacion comme fere gré. Quar ausi comme nos feisons gré à
+							celui à qui nos feisons son desirrier, ausi fesons-nos à son aversaire,
+							quant nos le fesons segur de ce, por plège, qu'il nos demende<note>Dig.,
+								lib. 2, tit. 8, rub. frag. 1&#160;: <hi rend="i">Qui satisdare
+									cogantur, vel jurato promittant, vel suœ promissioni
+									committantur.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Uns borgois qui done plège d'aucun à fere venir à jor, doit l'en doner
+							riche, c'est à entendre que l'en puisse légièrement nanter ou trere en
+							plet.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Se aucuns done plège de venir au jour à tex persones qui n'ont poer de
+							riens demender, la plévine n'est mie. Le filz puet estre plège por le
+							père, tout soit-il à autrui<note>Ibid., frag. 2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Li rois done demende contre le plège qui promist que aucun vendroit à
+							jor, de tant comme la chose vaut&#160;; et mius vaut que li plèges soit
+							tenus de tant com la chose se monte, s'il ne s'oblige por certaine
+							chose.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Se la demende est tele qu'ele vaille deus, ou trois, ou quatre, <ref
+								target="http://josticeetplet.huma-num.fr/items/show/3">Jehan de
+								Beaumont</ref> dit que li plèges est tenuz de tant com la chose
+								vaut<note>Ibid., frag. 2, § 5, frag. 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Se cil muert qui done plège de venir à jor, li prévoz ne doit pas
+							commender que cil iviegne&#160;; et s'il le fet, et ne le sache qu'il
+							soit mort, la demende doit remaindre&#160;; et s'il muert emprès le jor
+							qui dut venir, ou soit forbenis de la cité, la demende porra bien estre
+								fete<note>Ibid., frag. 4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Se aucuns plévist por aucuns condamné et li condempnez muire ou soit
+							forbeniz de la cité, l'en fera sa demende contre le plège que l'en siet
+							bien, jà por ce ne remaindra.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Qui ne voudra recevoir plège que l'en siet bien que bien puet paier la
+							chose, et ne le voudra recevoir por autre venir à jor, li refusez plège
+							se puet pleindre de celui qui le refuse&#160;: car ce n'est mie que l'en
+								<pb n="88"/>ne voie injure, et viaut l'en celi détraire en cause qui
+							veaut doner bon plège&#160;; et le plège que l'en ne veaut recevoir se
+							puet plaindre ausint comme de tort que l'en li a fet.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>A totes les foiz que l'en plévist ou l'en fet gré en mauvèse menière,
+							l'en n'i a plévi ne fet grié<note>Dig., lib. 2, tit. 8, frag. 5,
+								6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Geufroi de la
+								Chapele</ref> dit que l'en puet bien prandre juge en plèges, et puet
+							bien refuser le juge, se l'en viaut. L'en doit garder qu'en die
+							droit&#160;? et l'en dit que le demendeor le doit refuser. Et se l'en ne
+							puet avoir autrement pleige, l'en li doit dire qu'il n'usera pas de son
+							privilége, et il doit ce otroier.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Se plévine est nécessaire, et cil à qui l'en demende ne la puet pas doner
+							légièrement, l'en doit voir là où il est semons, s'il puet doner plège
+							en une autre cité de la province. Et se aucuns plévist par sa volenté,
+							l'en ne l'envoira pas en autre leu por doner plège, ne cil qui par
+							besoing s'otroie à doner plège n'i gaaigne riens ne n'i pert.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Se l'en ne done pas plège por meubles, et la persone soit sopeceneuse,
+							que l'en viut que l'en done plège, il le doit doner devant le juge, s'il
+							plest au juge, jusque il ait fet gré, ou que li plez soit
+								achevez<note>Ibid., frag. 7.</note>.</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Renaut de Triecot dit&#160;: Cil qui pleidoient ensemble se doivent
+							acorder de metre jor&#160;; et s'il ne s'i acordent, li juges li doit
+							metre sufisanment, et doit atremper et de çà et de là l'afere.</p>
+					</div>
+					<div>
+						<head>§ 15.</head>
+						<p>Qui done feme en plège sanz le seu au seignor, ne done nul plège&#160;;
+							ne enfant non aagé, se n'est par l'autorité à celui qui le doit
+							garder&#160;; ne desvé ne doit estre plège. Et se l'en demende au mari
+							chose qui soit dou doaire sa feme, la feme porra estre plège en sa
+							chose.</p>
+					</div>
+					<div>
+						<head>§ 16.</head>
+						<p>Se aucuns serf vient avant, qui pléyisse sanz le congié son seignor, la
+							plévine est nule&#160;; et se li sires le siet, ou s'i consient, la
+							plévine vaut. Et à celi qui n'a quinze anz passez doit l'en aidier, et à
+							feme por sa niceté<note>Ibid., frag. 8.</note>.</p>
+					</div>
+					<div>
+						<head>§ 17.</head>
+						<p>Se li plège devient eir à celui qui le mist en plège, ou celui qui le
+							mist en plèges à lui, il doit rendre la caucion.</p>
+					</div>
+					<div>
+						<head>§ 18.</head>
+						<p>Se tutor et curator plévissent la chose à l'orfelin estre sauve, <pb
+								n="89"/>il doivent estre seisi de la chose&#160;: quar il convient
+							qu'il plévissent à rendre la propriété et les fruiz.</p>
+					</div>
+					<div>
+						<head>§ 19.</head>
+						<p>Gagez <emph>(le gagez)</emph> doit doner plège de randre le lés, quant li
+							juges voit qu'il en est mesters. Li er meismes doit doner plège qu'il
+							fera gré dou lés&#160;; et s'il ne le fet, il sera dessessiz de la
+							chose. Et se le gagiez ne puet doner plège de rendre le lés, li eir doit
+							requerre qu'il ait la sesine, en donant plège de rendre le lés&#160;: si
+							que non, la chose sera mise en sauve mein par le juge. — Se le gagiez
+							est mis en saisene del lés par les juges, sanz trecherie et sanz cope,
+							l'en ne le puet plédier<note>Dig., lib. 2, tit. 8, frag. 8, §
+							4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 20.</head>
+						<p>Et cil qui ne puet doner plège à Orliens, le doit jurer&#160;; et qui le
+							puet doner à Paris, ne jurra pas qu'il ne le puet doner allors&#160;;
+							mès il jurra qu'il ne le fet par barat ne par conchiement&#160;: et
+							issit ne le puet l'en forcer. Et se aucuns a convent de donner plège en
+							un leu, et il le done allors, il ne le prendra pas, s'il ne veaut.</p>
+					</div>
+					<div>
+						<head>§ 21.</head>
+						<p>Se li baillif done arbitre à enquerre qui sont plège de aucune cause, se
+							les parties voent qu'il dient son arbitre malement por son dit, il en
+							puent apeler ausint comme de juges<note>Ibid., frag. 8, § 5, 6, frag.
+								9.</note>.</p>
+					</div>
+					<div>
+						<head>§ 22.</head>
+						<p>Se arbitre dit que li plège sont bon et bien rendant, l'en les i doit
+							tenir, com cele querele puist estre portée à un autre bon juge par apel.
+							Et qui dit chose por quoi li plège ne valent riens, ce que li arbitres
+							dit que li plège estoent bon, bien se gart, s'il a pris icés à sa
+							volenté, il s'en doit tenir apaiez.</p>
+					</div>
+					<div>
+						<head>§ 23.</head>
+						<p>Et se mésaventure avient as plèges andementres, ou de povreté, ou de
+							aucune autre chose, se l'en siet qu'il soit issit, il convindra que l'en
+							doint autres plèges<note>Ibid., frag. 10.</note>.</p>
+					</div>
+					<div>
+						<head>§ 24.</head>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Geufroi de la
+								Chapele</ref> dit&#160;: Se ge te mandai que tu demandasses une
+							tenure por moi, et tu en preis plège, et anprès la fès demender par mon
+							commendement, li plège que tu as pris en sont tenu vers moi.</p>
+					</div>
+					<div>
+						<head>§ 25.</head>
+						<p>Acordé est de toz que li eir tindra le éritage par conduction, c'est à
+							entendre à rendre ce dont ele est chargie, et doit doner plège de
+							l'éritage ou dou fez&#160;; et quant la conduction faut, la plévine
+							faut. Et <pb n="90"/>se pluisors sont atablir <emph>(établis)</emph>
+							commun, se l'en plévist, l'en plévist por toz<note>Dig., lib. 2, tit. 8,
+								frag. 11, 12, 13.</note>.</p>
+					</div>
+					<div>
+						<head>§ 26.</head>
+						<p>Se filz défant son père qui est hors dou païs, ge demans s'il doit donner
+							plège de rendre ce que l'en jugera&#160;? et G. dit que celui qui
+							deffent celi qui n'est pas présenz, tout soit-il fiz ou père, est tenu
+							de doner plège, par la force dou ban J. B. L'en doit savoir se
+								<emph>(que)</emph> cil qui porfist <emph>(possède)</emph> teneure
+							n'est pas tenuz de doner plège. L'en apèle cel possessor qui a terre, ou
+							a borc ou a cité, ou a pou ou a grant. Celui qui en a la sole seignorie
+							est possessor, et cil qui a ou qui tient aucune terre por l'amender, est
+							possessor&#160;; et cil qui n'en a, san plus, fruiz, n'est pas
+							possessor. Le créancier qui tient le gage n'est pas possessor&#160;: cil
+							qui tient en bal n'est pas possessor<note>Ibid., frag. 14,
+							15.</note>.</p>
+					</div>
+					<div>
+						<head>§ 27.</head>
+						<p>Se teneure est donée en doaire, et la feme et le mari sont possessor, par
+							la seissine qu'il en ont. Li orfelin et li tutor, s'il porsient, sont
+							tenu por possessor&#160;; et se un tutor porsit, autant en doit l'en
+							dire.</p>
+					</div>
+					<div>
+						<head>§ 28.</head>
+						<p>Se tu me demendes la chose que ge tien, par jugement qui a esté dit
+							contre moi, et ge apèle au roi, l'en demende se ge tieng cele
+							chose&#160;? et l'en dit à droit que ge la porsief, tant com la cause de
+							l'apel durra&#160;: ne ce ne nuist pas, se ma chose vait en autre main.
+							L'en doit voir le tens de la plévine, et qu'ele soit fete segont
+								droit<note>Ibid., frag. 15, § 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 29.</head>
+						<p>Un jura ou jugement qu'il auroit aucun à jor, ne se parjure pas s'il n'i
+							vient, por qu'il reviegne <emph>(ne viegne)</emph> par l'otroi à cels à
+							qui il jura<note>Ibid., frag. 16.</note>.</p>
+					</div>
+					<div>
+						<head>§ 30.</head>
+						<p>Et se aucuns nie qui ne soit pas plèges, comment en doit-il estre
+							atainz&#160;? et l'en dit que par le recort de la cort où il fut plège,
+							se la cort est tele qu'ele port recort. Et se la cort n'est tele qu'ele
+							porte recort, cil qui demende le doit prover por soi et par tesmoing, et
+							i aura gage, se les dui parties se consentent, s'il i a cause dont gaige
+							doie nêtre. Et se la cause est si petite qu'il n'i ait gage, li chois de
+							la prove est à celui à qui l'en demende.</p>
+					</div>
+					<div>
+						<head>§ 31.</head>
+						<p>Uns hons fist semondre un autre, et dit issint devant le juge&#160;: Ge
+							demendoie à Tybert cent&#160;; tu le plévis qu'il vendroit à jor&#160;;
+							dedanz le <pb n="91"/>jor, il s'en est foïz&#160;: si te demant l'ome,
+							ou les cent t. (<emph>tournois&#160;?</emph>) Li copables nie la
+							plévine&#160;; li autres dit issint&#160;: Se tu viauz nier qu'il ne
+							soit voirs, je sui près dou prover por moi et par deus garanz, si com ge
+							devrai, en champ et par batalle, si com il devroient&#160;; et li autres
+							fet encontre tel ni et tel deffense comme il doit. L'en demende que en
+							dit droit&#160;? et l'en respont que cil à qui l'en demende, est loisans
+							de prendre la prueve de celui et de ses garanz, et de quenoistre que est
+							voirs, ou d'escondire vers l'un des garanz par gage de batalle.</p>
+					</div>
+					<div>
+						<head>§ 32.</head>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/3">Jehanz de
+								Beaumont</ref> dit&#160;: Se aucuns promet vers celui à qui l'en a
+							fet le forfet, plège de venir à jor, J. dit qu'il ait en cele cause où
+							il est lores, jusques li juges en ait jugié droit. L'en demende que
+							veaut dire ceste parole qui est desus, qui dit en cele cause&#160;? et
+							ge di que cil i doit estre en cele cause, qui n'empire pas le droit au
+							demendeor. Quar se cil qui estoit au plet en yuel leu, ala en plus fort,
+							et mua le leu en sa persone, por grever son aversaire en poine ou en
+							despens, je di qu'il ne le puet fere.</p>
+					</div>
+					<div>
+						<head>§ 33.</head>
+						<p>Nos usons d'autre droit&#160;: quar cil n'et pas délivré, qui est queneuz
+							qu'il a forfet, ains est tozjorz tenuz vers celui à qui il fet le
+							forfet, jusque il ait amendé segont le forfet. Et se cil n'a riens que
+							sun cors, l'en le doit metre en paine corporel, por ce que aucuns
+								(<emph>n'ait</emph>) achoison de fere forfet<note>Dig., lib. 2, tit.
+								9, frag. 1, 2, pr.&#160;: <hi rend="i">Si ex noxali causa agatur,
+									quemadmodum caveatur.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 34.</head>
+						<p>Se li serf n'et pas présenz, contre qui aucun viaut plaidier de forfet,
+							et li sires soit présenz, qu'il quenoisse qui l'a jà en son poer&#160;:
+							Jehan dit que l'en doit le seignor forcier dou serf fere venir avant au
+							jor, ou qu'il pregne lou plet sor lui&#160;; ou se il ne le veaut
+							deffendre, qu'il dont plège, que au plus tost qu'il porra le fera venir
+							avant. Et s'il veaut qu'il ne soit mie en son poer, il est tenuz
+							d'amender le domage que li demanderres i aura par sa mençonge. Et se li
+							serf est présens, et li sires n'est pas au païs, ne il n'i ait qui le
+							défende, li prévolz le retindra jusque li sires soit venuz&#160;; et
+							quant li sires sera venuz, il le deffendra&#160;; et s'il ne le veaut
+							deffendre, il le lerra corre en la cause dou forfet. Et se l'en plédie
+							d'aucun, que n'a en la chose que son <pb n="92"/>usage, de cause de
+							forfet, et il en chée, l'en li doit tolir son usage, se li usages vient
+							à lui par don, porce qu'il n'est mie recorz dou bienfet que l'en li a
+							fet, et fet de bonne foi male foi. Et s'il a achaté l'usage, et il soit
+							condempnez dou forfet, ausit le perdra-il, por ce qu'il n'ait acheson,
+							ne autres, de fere tricherie ne desloïauté<note>Dig., lib. 2, tit. 9,
+								frag. 2, 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 35.</head>
+						<p>Se pluisors ont un serf, et li un le vuelle deffendre por sa part, il ne
+							sera pas oïz, ainz convendra qu'il le deffende tot le serf, non pas
+							demi&#160;: quar l'en ne doit pas respondre de forfet en partie, mès en
+							tot.</p>
+					</div>
+					<div>
+						<head>§ 36.</head>
+						<p>Se aucuns promist qu'il auroit à jor un serf, et il a au jor franc, se la
+							cause est de forfet, bien s'aquité&#160;; et se la cause est en nom de
+							servage, il ne l'a pas au jor si comme il doit&#160;: car autrement done
+							l'en en plège de cause de servage, et autrement de cause de forfet.</p>
+					</div>
+					<div>
+						<head>§ 37.</head>
+						<p>Se aucuns promet qui aura au jor un franc, bone chose est qu'il le doit
+							avoir franc, porce que li quas de la franchise est en la cause
+								envolopez<note>Ibid., frag. 4-6.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_11">
+				<front>
+					<head>XI. De celui qui destorbe aucun qu'il n'auge a jor.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Se celui qui destorbe aucun qu'il n'alle à son jor. — Loys roi cuida
+							très-bone chose fere de refraindre la trecherie à celui qui destorbe
+							aucun qui ne viegne à son jor. Et il ne cuidet pas solement de celui qui
+							le retint o ses mains par tricherie&#160;; mès cil qui le fit retenir à
+							ses sergenz, ou qu'il pria qu'il fust retenuz. Nos apelons ce mauvèse
+							trecherie, que se aucuns nonce aucun qui vet à son jor acune mauvèse
+							novele, por quoi il s'en retort, par droite achoison bien le puet fere,
+							s'en ne li fesoit fauseté entendent, il i seroit tenuz&#160;; jà soit ce
+							que aucun dient, que la cope en est sor celi qui aloit à son jor, por ce
+							qu'il crut trop légièremant<note>Ibid., tit. 10, frag. 1&#160;: <emph>De
+									eo per quem factum crit quo minus quis in judicio
+								sistat.</emph></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Se cil à qui l'en demende ne vet pas à son jor par la tricherie à celui
+							qu'il li demende, ne aura pas demande contre lui, et c'est la poine de
+							la tricherie, porce qu'il i ait reson envolepié&#160;: autrement vet, se
+								<pb n="93"/>autres l'empesche. Et se pluisors le li font par
+							trecherie, tuit en sont tenu&#160;; et se li uns en fet la poine et
+							l'amande, tuit li autre en sunt délivre&#160;: car il ne nuist riens, se
+							tuit se consentent de plédoïer en un de ceste cause, bien le pueent
+							fere&#160;; ne ceste demende n'est pas donée que dedenz l'an, ne n'est
+							pas donée à l'air, ne contre l'air<note>Dig. lib. 2, tit. 10, frag. 1, §
+								3, 4, 6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se li serf à celi qui me demende, par le seu au seignor, et qui pas ne li
+							deffent, fet que ge ne puisse aler à mon jor, J. B. dit que g'é
+								(<emph>j'ai</emph>) bone barre contre le seignor au serf, que li
+							sires n'i puisse gaagner. Et se le serf le fet contre la volenté au
+							seignor, J. B. dit que demande de forfet doit estre donée contre le
+							serf&#160;; ne son fet ne doit pas nuire au segnor, ne mès tant qu'il
+							les mete hors de soi&#160;: quar il n'i a péchié de riens<note>Ibid.,
+								frag. 2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Gefroi de la
+								Chapele</ref> dit&#160;: Demende de fet avient, en ce ban, à celui
+							qui fist tant que celui qui estoit citez ne vint à son jor, por tant com
+							il i aura eu doumage. Et se cil qui fera par sa tricherie que l'en ne
+							puisse aler à son jor, yuel chose sera que s'en le demende, qu'il perde
+							la sesine, qu'il ne gaent en sa trecherie&#160;; et s'il demende, que
+							l'en ait barre contre lui, jusque il ait amendé à l'agart de la cort. Et
+							se li demendeor par le cochiement son aversaire est destorbez, et li
+							copables par le cochiemant au demandeor est destorbez, li prévolz ne
+							s'entremet fors par sa demande&#160;: quar conchiement ira contre
+								conchiement<note>Ibid., frag. 3.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_12">
+				<front>
+					<head>XII. Se aucuns ne tient les plévines de venir a jor.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Se aucuns ne tient pas les plévines qu'il fist por venir à jor, li rois
+							commende que nus ne soit semons qui n'ait licence de venir à son jor, et
+							qu'il et (<emph>qu'il ait</emph>) vingt mille pas en la jornée, fors
+							celi jor où il convient plédier&#160;: quar tel jornée n'est pas griève
+							ne à l'une partie ne à l'autre<note>Dig., lib. 2, tit. 11, frag.
+								1&#160;: <hi rend="i">Si quis cautionibus in judicio sistendi causa
+									factis non obtemperaverit.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Nos requirons que l'en ait celi à jor que l'en ait plévi, tout ait l'en
+							fet pez de la chose, por savoir la droiture au prévost.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se aucuns sanz trecherie est destorbez par droite cause, qui <pb n="94"
+							/>ne puisset estre à jor, segont ce que l'en a promis, droiz dit qu'il a
+							bone barre&#160;; et ausint, se l'en demende à tesmoing
+								porter<note>Dig., lib. 2, tit. 2, frag. 2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Nos clamons droite cause, maladie, prison, tempeste, cretine&#160;; la
+							mort de prochein ami&#160;; noces de li, ou de son filz, ou de sa fille,
+							ou de celi qu'il aura en garde&#160;; ou s'il est de garde, ou s'il est
+							en prison ou febleté&#160;; ou se fame est grosse environ l'ore de
+							enfanter&#160;; ou se aucuns chiet en forsenerie&#160;; ou se li ponz
+							est dépecez et il n'i ait point de navie. Et nos entendons tempeste qui
+							viegne à cele jornée, à tel hore que l'en ne puisse aler à son
+							jor&#160;; et dou fluve ausint, s'il est si granz. Et se aucuns chiet
+							issint, qui ne set la tempeste ne la force dou fluve, et que s'il fust
+							meuz avant, il fust bien passez, et il se mist en tel besoing, barre li
+							aura mester, quant l'en aura oï la cause&#160;: quar l'en ne li doit pas
+							si atrecier, que l'en ne li die&#160;: Porquoi [<emph>ne</emph>] meus-tu
+							avant que li jorz venist&#160;? Ne ne doit l'en pas sofrir qu'il i ait
+							domage&#160;; ne barre ne doit pas avoir mester à aucun, quant il n'i a
+							ne angoisse ne péril. Autretel barre a cil qui fut retenuz de jotice, et
+							la retenue fu fete sans sa coupe<note>Ibid., frag. 2, § 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Et se aucuns est condempnez à mort, ou forbeniz dou païs, l'en li doit
+							aidier&#160;: quar il a assez paine. Nos devons entendre quant il est
+							dampnez ou de mort ou d'esil. Et ceste barre est nécessaire à ses
+							plège.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>L'en demende se dous se puent acorder qui plèdent ensemble, que l'un ne
+							puisse metre barre contre l'autre par cause por venir à jor&#160;? Et G.
+							dit nenil, que tés convenances ne valent riens&#160;: quar tés
+							convenances engendre mauvès gaen, et movent péril de pardurable salu.
+							Mès ge cuit qu'ele vaut issint, se les quases des barres sont
+							espéciaument devisées, à qui li prometeor renoiee espéciaument par sa
+								volenté<note>Ibid., frag. 4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Encor demende l'en se aucun qui ne doit pas doner plège de venir à jor,
+							done plège, savoir se il et si plège i sunt tenu por vice&#160;? et je
+							orrai qu'il i a devise&#160;: quar si plévi par folie, il n'i sunt pas
+							tenu, et s'il plévi par convenance, il i sont tenu. Car si plévi par
+							niceté, ce dit G., por achoison d'ester à droit, il doit avoir barre qui
+							issint promet&#160;; et <pb n="95"/>s'il i a promesse par convenance, G.
+							dit que la barre sera ostée, par la reson de promesse en
+								convenance<note>Dig., lib. 2, tit. 11, frag. 4, § 5.</note>.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Renaut de Triecot dit&#160;: Se dui à qui l'en demende prometent l'un por
+							l'autre, qu'il vendront à jor, ou peine, et li un destorbe l'autre, la
+							paine doit estre commisse, por ce qu'il sont compagnon, por ce que la
+							tricherie ne lor valle rien.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Et se dui prometent qui sont tret en cause que l'un vendra à jor, et il
+							n'i viant pas, et le demandeor veant, et demant à l'un la chose, et à
+							l'autre la paine de ce qu'il ne vint pas au jor&#160;: s'il demende la
+							paine, il sera hors de la barre. Et se li pères promet que sis fiz
+							vendra à jor, et emprès viant cil qui demende, et emplède par le marchié
+							dou fiz, barre metra hors le père de la paine&#160;; et autresit est se
+							li fiz promet, et le demandeor plède ou le père de la chose au
+								fiz<note>Ibid., frag. 5.</note>.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Se aucuns done plège de venir à jor, et por ce qui fut en l'afère dou
+							commun, ne vint pas&#160;: nos dison que li plège n'i est pas obligiez,
+							fors de li avoir<note>Ibid., frag. 6.</note>.</p>
+					</div>
+					<div>
+						<head>§ 11.</head>
+						<p>Se serf promet qu'il vendra à jor, et il n'i vient, la promesse
+							vaut&#160;: quar au mains i doit-il venir por soi escuser. Et se l'en
+							promet por plusors sers de venir à droit, l'en port toute la poine, se
+							un en faut, si com dit R.&#160;: car voirs fui que tuit n'i vindrent
+							pas. Et se la poine est prise et offerte por celi qui se deffalli, et
+							amprès demant l'en as autres la poine ce qui en remaint, cil qui sera
+							tret en plet de ceste promesse aura barre contre l'autre de
+								tricherie<note>Ibid., frag. 9.</note>.</p>
+					</div>
+					<div>
+						<head>§ 12.</head>
+						<p>Se aucun promet à avoir à jor aucun, qui estoit jà délivrés de la demende
+							que l'en li fesoit, il i doit envoier, por savoir et por enquerre et por
+							cerchier la vérité de sa délivrance.</p>
+					</div>
+					<div>
+						<head>§ 13.</head>
+						<p>Aucun que voloit pleidier d'injure avoit un plège, que sis aversaires
+							vendroit à jor&#160;; et quant la promesse fut acordée, li plège mori.
+							L'en demende se si eir i sont tenu&#160;? et l'en dit que non&#160;: et
+							dison, quant aucun voit plédier de plévine à l'oir à cel qu'il plévi, il
+							n'a pas action de plédier à celi<note>Ibid., frag. 10.</note>.</p>
+					</div>
+					<div>
+						<head>§ 14.</head>
+						<p>Se aucuns promet que aucuns vendra à jor, il le doit fere venir <pb
+								n="96"/>en cela (<emph>cele</emph>) cause, si que cil qui demende
+							n'i puisse avoir domage par son délai ne par son barat.</p>
+					</div>
+					<div>
+						<head>§ 15.</head>
+						<p>A toutes les foiz que sers est pléviz de venir à jor por plédier, ou por
+							soi deffendre, ou li sers meismes le promet, la promesse ne vaut riens,
+							ne la plévine ne vaut riens&#160;: car sers ne puet demander, ne l'en ne
+							li puet demander, sanz son seignor.</p>
+					</div>
+					<div>
+						<head>§ 16.</head>
+						<p>Se li procurator que l'en aura envoié por moi, plévist que ge vendrai à
+							jor, la plévine ne vaut riens, por ce qu'il est ausit comme sires en la
+							chose. Et se le procurator plévist de rendre la value de la chose, l'en
+							demende s'il est tenu&#160;? et l'en dit que nenil, s'il n'a espéciau
+							commendement dou seignor de cel fet<note>Dig., lib. 2, tit 11, frag. 11,
+								13, 14.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_13">
+				<front>
+					<head>XIII. De délaiz.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Li rois commenda que nus ne fust forchiez de venir à cort en tens qu'il
+							mestive, ne en tens qu'il vendegne, porce que les biens dont il ont la
+							cure ne périssent. Et se li prévolz les i apèle, et il ne vienent par
+							lor gré, il i doivent venir&#160;; mès il n'i respondront mie, se n'est
+							par lor gré. Et s'il done sentence estre (<emph>outre</emph>) lor gré,
+							la sentence tendra, se ele n'est apelée par rapel&#160;; mès por rapel
+							puet estre rapelée<note>Ibid., tit. 12, frag. 1&#160;: <emph>De ferüs et
+									dilationibus.</emph></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Mès il i a certaines persones que l'en puet forcier à venir à cort, si
+							comme la chose don est li contenz puet périr par la loi de venir à cort.
+							Car totes les foiz que mester est, nos devons aler à cort et respondre,
+							quant il n'i a péril de l'aler et dou respondre&#160;; et issit le
+							commende li rois.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Et se li un et li autre, emprès ce que li plez fust entammez, ne veaut
+							plédier, li rois lor donne délai<note>Ibid., frag. 1, § 2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Car autel reson fist li rois, et commende que l'en en doit ausi user à
+							jor de foiriez&#160;: si comme si l'en doit doner tutor ou curator à
+							aucun, barre de la loi n'i vaut riens, por le péril des enfanz&#160;; ou
+							se aucuns est morz, por metre sa feme en saisine de doère, barre de la
+							loi <pb n="97"/>n'i vaut riens&#160;; et d'ovrir testament. Au tens de
+							aoust ou de vendenges, doit l'en fere droit des choses qui sont en
+							péril, ausi comme de larecin, de domages et de injure&#160;; et de granz
+							injures, si comme de sanc&#160;; et de ce que l'en ravist de arson, de
+							trébuchéiz et de froiseure, de nef prise&#160;; et de murtre, de rat, de
+							traïson, d'omecide, de membre tolu, de jugement de franchise, de celui
+							qui prent les choses dou commun profit<note>Dig., lib. 2, tit. 12, frag.
+								2, 3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>L'en tient tens de venenges, quant l'en venenge&#160;; et tens de
+							mestive, quant l'en mestive<note>Ibid., frag. 4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Li rois deffent que l'en ne juge à jor de foirie, se les parties ne s'i
+							acordent&#160;; mès por la grâce à celx qui pleident ensemble, quant il
+							i a por quoi, l'en le doit fere. Et se aucuns a estrument où il ait
+							péril de montré le par délai, l'en le doit montrer en tel tens. Segont
+							la costume de France en l'ostel le roi, li jorz commence à solel levant,
+							et dure jusque soleil est cochanz&#160;; et as assises ausint&#160;; et
+							as autres menuz plez de prévôtez, et as autres seignories, jusque miedi
+							en avant, si se deffent<note>Ibid., frag. 6, 7, 8.</note>.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_14">
+				<front>
+					<head>XIV. De demende fere.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Demende si est pure ou mellée. La pure si est, quant aucuns demande
+							héritage par la reison de ce que il est heirs. La mellée si est ce que
+							l'en demende por soi et por autrui, si comme quant aucuns dit&#160;: Je
+							me plein de tel home, qui a fet tel home metre en prison, por apeticier
+							ma juridiction, ou por rapeler ma bone sentence.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>De fere sa demende, ou qui viout fere sa demende, ne vaut riens sa
+							demende, se ele n'est à droit dite. Car c'est yuel chose que cil qui
+							demende die sa demende, si que cil à qui l'en demande sache s'il veaut
+							lessier le plet ou tenir&#160;; et s'il bée à plédier, qu'il viegne toz
+							garniz au plet de demender ou de défendre<note>Ibid., tit. 13, frag. 1,
+								pr.&#160;: <emph>de Edendo.</emph></note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Demender est sa demende dire de boche, ou fere la dire par autre qui fere
+							le puisse, et embracier en sa demende quanque l'en veaut demander.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Uns di que cil ne fet pas sa demende, qui toute ne la fet&#160;: et le
+								<pb n="98"/>secort celx qui ne sevent fere lor demende, ou par aage,
+							ou par viellegnere, ou por nature de fame, qui ne set pas
+								mout<note>Dig., lib. 2, tit. 13, frag. 1&#160;; § 1, 4,
+							5.</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Uns hons demende lés, que li morz a lessié as hériters<note>Ibid., frag.
+								2.</note>&#160;; et dient issi, que s'il est nié ne mesqueneu, qu'il
+							est prez de montrer (<emph>et</emph>) de l'averier, et par soi et par
+							garanz. Et li autres reus fet encontre ce tel ni et tele deffense com il
+							doit. Et droiz dit que l'en en doit trere celx qui furent au
+							testament&#160;: quar l'en doit accomplir la volenté au mort&#160;; quar
+							mout seroit dure chose, se de testament nesseit batalle.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Quant aucuns demende aucune chose, et la fera (<emph>l'offre</emph>) à
+							prover, et reus ne fet riens, ne ni ne deffense, queneue chose est qu'il
+							det ce que l'en li demande.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Se l'en demende à aucun chose qui soit de la borse le roi<note>Ibid.,
+								frag. 3.</note>, l'en usera de tel droit, que li rois fera enquerre
+							de tel chose par bones genz, qui bien le sauront&#160;; et se enqueste
+							donne au roi, li rois aura, et se enqueste li tout, il se téra.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p>Uns dit à un changeor qu'il li avoit vendu tornois, et un autre
+							marcheant, qu'il li avoit vendu poivre&#160;; et l'offri à prover par
+							soi et par garanz. Et li autre fesoient encontre ni et deffense, tel
+							comme il devoient, et ne disoient pas qu'il lor eust ballé point
+							d'argent. Et droit dit qu'il n'i a que la prueve au changeor, ou au
+							marcheant, contre li et contre ses garanz&#160;: car tel chose n'est que
+							sormise. Et se li fiz au prodome, qui est en bal, fet tel chose, i est
+							li prodom tenu&#160;? oïl, s'il le fet par son commendement, ou par son
+							consentement, ou autrement non. Et se li serf fet autel marchiez, i est
+							li sires tenuz&#160;? oïl, s'il l'a fet par la volenté au segnor. Car
+							droit s'acorde, qui a le preu il doit avoir le domage en cele meisme
+							chose. Mès s'il le fit sanz le seu au segnor, assez est se li sires jure
+							qu'il n'a riens eu de son gaaing<note>Ibid., frag. 4.</note>.</p>
+					</div>
+					<div>
+						<head>§ 9.</head>
+						<p>Uns hons dit à un autre que il li doit trente toneaus de vin, qu'il li
+							vendi vingt livres, et celes vingt livres il li a paiés&#160;; et s'il
+							veaut dire que ce ne soit voirs, il est près del mostrer et de l'avérer
+							par soi et par garanz. Li autres fet encontre tel ni et tel défense com
+							il doit. L'en demende qu'en dit droit&#160;? et l'en respont&#160;: Cil
+							qui défant est loisanz de <pb n="99"/>prendre la prove de lui et de ses
+							garanz, ou d'escondire par gage de batalle.</p>
+					</div>
+					<div>
+						<head>§ 10.</head>
+						<p>Uns bons vendi un cheval à un autre&#160;: se li en demande quarante
+							solz, comme à celui qui a eu le cheval. Li autre nie qu'il ne doit
+							riens. Cil l'ofre à prover soi, sanz garanz&#160;; et li autre fet
+							encontre tel ni et tel deffense comme il doit. Et droit dit que cil est
+							loisans de prendre la prove de celui qui demende, ou escondire par la
+							soe&#160;: et ce droit est tenu à Orliens. Et en l'ostel le roi ne fera
+							ne escondit, ne autre chose, s'il n'amène son garant o soi.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_15">
+				<front>
+					<head>XV. De metre jor et de semondre.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>L'en dit ci<note>V. tit. 5 de ce livre.</note> que l'en doit semondre
+							home, quant il se plaint de lui, quant il a forfet.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Or est à savoir la menière commant. Se aucuns se plaint l'en tegne son
+							héritage, l'en dit (<emph>doit</emph>) semondre des mobles&#160;; l'en
+							doit semondre des domages&#160;; l'en doit semondre des
+							ledissemanz&#160;; l'en doit semondre se li filz se plaint de son père.
+							L'en ne doit pas semondre se l'en ne siet certaine chose por quoi. L'en
+							ne doit pas semondre por desvé ne por menor, sanz tutor, ne por fame de
+							plainte de son mari, se n'est por la cruauté son mari&#160;; ou se feme
+							se pleint d'autre, non, se l'en n'en a le congié de son mari. L'en ne
+							doit pas por serf semondre son seignor, se n'est por sa cruauté&#160;:
+							por sergant et por sergente l'en doit semondre.</p>
+						<p>Or demende dou jor de la semonse&#160;; et l'en respont que l'en doit
+							avoir jor selonc le cas. De murtre, de rat, de larrecin, de traïson,
+							d'omicide, de membre tolu, n'a point de jor, et de trives demender, de
+							novele désesine qui est fete prestement. J'apeau présantement après le
+							fet, que l'en vient prestement à la jostice por soi plaindre, et de
+							prandre cors d'ome et de fame. Et qui se plaint de marcheandise, ou de
+							prest, ou d'autres choses, ou de dit&#160;; don li juges doit fere
+							semondre avenant, segont le leu et la persone, ou d'un jor, ou de deus
+							jorz, ou de huit jorz, ou de quinze et d'asé plus assez, segont ce qu'il
+							verra qu'il fera à fere.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_16">
+				<front>
+					<head>XVI. De convenances.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p><pb n="100"/>La droiture de cest ban est naturel&#160;; et que chose est
+							plus acordable au monde (<emph>qu'</emph>) est garder ce qu'est
+							enconvenancé entre les genz<note>Dig., lib. 2, tit. 14, frag. 1&#160;:
+									<hi rend="i">de Pactis.</hi></note>&#160;?</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Convenanz est dit de convenances, et en non de pez, et est convenance
+							d'un ou de plusors, plésir et consentement en une chose. Parole de
+							convenance est général, et apartient à totes les choses don l'en a
+							afère&#160;; si comme de celx qui se consentent en un marchié et en une
+							pez. Ausint comme l'en dit que cil s'asemblent en un leu, qui de divers
+							loeu (<emph>en</emph>) un leu s'asemblent, ausit cil s'acordent de
+							divers corages en une sentence<note>Ibid., tit. 14, frag. 1&#160;; §
+								1-3.</note>.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Se aucuns dit que aucuns ail fet marchié à li, et li marchiez soit
+							queneuz&#160;; et cil qui a vendu veaut jurer qu'il ne puet segre le
+							marchié, il s'en passera par tant, et paera cinq sols de sa paumée,
+							quant il n'a eu point de cheté&#160;; et s'il a eu cheté, il le tendra,
+							s'il a de quoi.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Le non de convenance est si généraus que j'ai dit, en tel bien que il n'a
+							marchié ne obligacion où il n'ait convenance, ou par chose, ou par
+							parole. Car promisse qui est fete par parole, s'il n'i a consentement,
+							est nulle<note>Ibid., frag. 1&#160;; § 3 in fine</note>.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Uns hons dit issint&#160;: Pieres me convenance qu'il me presteroit son
+							cheval à aler jusque à Blois&#160;; ne l'ai pas eu, si le vuel avoir.
+							Cil niee&#160;: li autres l'ofre à prover por soi et por garanz, et li
+							autres fet encontre tel ni comme il doit. Droiz dit qu'il n'i a que la
+							prove à celi à qui l'en demande.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Uns hons dit à un autre qu'il li devoit baller sa fille por gesir à lui,
+							et la veaut avoir par la convenance&#160;: et l'en respont que tele
+							convenance n'est pas tenable, qu'ele est pécheresse et laide.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Uns hons dist que uns autre li devoit un cheval por quarante sols&#160;;
+							si viaut avoir le cheval por les quarante sols&#160;; et l'ofre à prover
+							par soi et par garanz. Et li autres fet encontre tel ni comme il doit.
+							Et l'en dit qu'il n'i a que la prove à celi à qui l'en demende.</p>
+					</div>
+					<div>
+						<head>§ 8.</head>
+						<p><pb n="101"/>Enten que qui mot sus convenance qui n'est acomplie en
+							aucune chose, et est nié, il n'i a que la prove à celui à qui l'en
+							demende.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_17">
+				<front>
+					<head>XVII. De pez.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>De pez. R(<emph>ubrica</emph>). — Qui fet pez de chouse douteuse, et de
+							plez qui n'est pas certain ne finez, l'en puet recevoir pez, non pez
+								(<emph>pas</emph>) solement se la promesse est achevée&#160;; mès se
+							li convenanz n'et (<emph>n'est</emph>) acordez<note>Dig., lib. 2, tit.
+								15, frag, 1, 2, de <hi rend="i">Transactionibus.</hi></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Gautier se pleint de Robert, et dist que pez estoit fete dou contenz
+							d'une meson que Gautier li demendoit. Robert li nia la pez&#160;; li
+							autres se demende le recort de cels qui furent à la pez, et nomer le leu
+							où la pez fut fete. Et Robert dit qu'il ne veaut avoir point de recort,
+							com cort de tex genz n'on[t] point de recort. L'en demande que en dit
+							droit&#160;? et l'en dit que, se la cort est tele qu'el en doie porter
+							recort, li recorz courra par preudes homes, et par le recort sera seue
+							la forme de la pez. Et se la pez est queneue, et il ait discort, ausi
+							sera seue par le recort. Et se la pez fut fete sanz jutice, ou par
+							jutice qui n'a pas recort, et ele soit niée le recorz ne corra
+							pas&#160;; et se cil qui demande veaut prover la pez par soi et par
+							garanz, et li autres face encontre tel ni et tel deffense comme il doit,
+							il n'i a que la prove à celui à qui l'en demende.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Enten se pez est fete devant juge, et ele est niée doit estre seu par le
+							recort de bones genz&#160;; et en pez que l'en dit qui est fete sanz
+							joutise, n'a que sormise.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Quant l'en apèle home de ses membres, et il en fet pez par joutise, an
+							commune seue, à un de ceaus qui a action contre li, de tant il est
+							dèlivrés vers autres genz.</p>
+					</div>
+					<pb n="102"/>
+				</body>
+			</text>
+			<text xml:id="art_18">
+				<front>
+					<head>XVIII. De juigier bataille et comment l'en la doit jugier.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>Parole ne fet pas batalle, mès li fet. Si doit regarder qui juge, la
+							chose et la persone&#160;: la chose qu'al i set par quoi il i aut gage,
+							si comme fet, ou châtel, ou hôtel, ou hèritage&#160;; la persone, qu'ele
+							soit tele que se doie combatre. Quar dure chose seret, si d'une persone,
+							comme contes, ou rois, se combatoit à basse persone. Kar haute persone
+							doit bien metre por lui, à deffendre soi, home, honeste persone, se l'an
+							l'apèle, ou s'il apele autre.</p>
+					</div>
+				</body>
+			</text>
+			<text xml:id="art_19">
+				<front>
+					<head>XIX. D'avocaz.</head>
+				</front>
+				<body>
+					<div>
+						<head>§ 1.</head>
+						<p>L'en dit que clerc ordenez de sainte ordenes, s'il sunt bienficiez en
+							sainte yglise, ne puent estre avoquaz en cort laye, que por aus, ou por
+								yglise<note>Decret. Greg. IX, lib. 1, tit. 37, c. 1&#160;: <emph>de
+									Postulando.</emph></note>.</p>
+					</div>
+					<div>
+						<head>§ 2.</head>
+						<p>Enten que clers qui sont en saintes ordres, ou en menors, ne puent estre
+							avocaz en cort laie.</p>
+					</div>
+					<div>
+						<head>§ 3.</head>
+						<p>Come chanoine rielé se fussent pris à estre avoquaz en cort laie, l'en
+							dit que ne puent ce fere, que por lor yglise&#160;; et convient que lor
+							abé lor commant. Et il respondoient que li canon qui ce disoient
+							parloient de moines, non pas de chanoines. Et le pape dit que ausit doit
+							l'en garder de chanoines relez com de moines, tot die li canons des
+								moines<note>Ibid., c. 2.</note>.</p>
+					</div>
+					<div>
+						<head>§ 4.</head>
+						<p>Enten que moine et chanoine sont osté d'estre avoquaz&#160;; et moines ne
+							puet plaidier por le preu de son moster, quant li aferes est atanduz à
+							autre.</p>
+					</div>
+					<div>
+						<head>§ 5.</head>
+						<p>Cil chapitres<note>Ibid., c. 3.</note> est devisés en trois parties. En
+							la premère partie, parole l'en des prestres&#160;; en la seconde, des
+							clerc, et des menors ordres. Et dient que li clerc ne deivent pas estre
+							avoquaz en cort laye, que por aus ou por lor yglise, et por lor parenz
+							ou por poures, ne ne doit estre avoquaz en cause de sanc, ne por chose
+							qui atoche à mort d'ome <pb n="103"/>Ausit dit l'en de procurator. En la
+							seconde (<emph>tierce</emph>) part, dit l'en que, se aucuns a bienfice,
+							et il vet encontre ce, il doit perdre le bienfice.</p>
+					</div>
+					<div>
+						<head>§ 6.</head>
+						<p>Enten que aucuns doit perdre le bienfice, quant il n'est recors dou
+							bienfet que l'en li a fet.</p>
+					</div>
+					<div>
+						<head>§ 7.</head>
+						<p>Emprès l'en dit&#160;: couvers (<emph>cuvert&#160;?</emph>) ne puet estre
+							avoquaz, se n'est par le congié son segnor&#160;; ne non aagé, se n'est
+							par le commendemant au juge et à son tutor&#160;; ne fame ne orp, por ce
+							qu'il ne puet voir la autece dou juge, ne nul qui soit queneu estre
+							dampnez de fez don l'en doit estre livrez à mort, tout soit-il respitez
+							par pitié&#160;; ne vaincu. Et cil sont osté d'estre avoquaz<note>Dig.,
+								lib. 3, tit. 1, frag. 1, <hi rend="i">de
+							Postulando.</hi></note>.</p>
+					</div>
+				</body>
+			</text>
+		</group>
+	</text>
+</TEI>

@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre7">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+                <principal xml:id="GP">Graziella Pastore</principal>
+                <funder>École nationale des chartes</funder>
+                <respStmt>
+                    <name xml:id="MH">Mathilde Henriquet</name>
+                    <resp>2015 - édition électronique</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt n="1">
+                <p>2015, première édition électronique</p>
+            </editionStmt>
+            <extent/>
+            <publicationStmt>
+                <publisher>École nationale des chartes</publisher>
+                <address>
+                    <addrLine>65, rue de Richelieu</addrLine>
+                    <addrLine>75002 Paris</addrLine>
+                    <addrLine>tél.&#160;: +33 (0)1 55 42 75 00</addrLine>
+                    <addrLine>http://enc.sorbonne.fr/</addrLine>
+                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
+                </address>
+                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+                <date>2015</date>
+                <availability status="restricted">
+                    <p>L'École nationale des chartes met à disposition cette ressource électronique
+                        structurée, protégée par le code de la propriété intellectuelle sur les
+                        bases de données (L341-1), selon les termes de la licence Creative
+                        Commons&#160;: «&#160; Paternité - Pas d'Utilisation Commerciale - Pas de
+                        Modification&#160;; 2.0 France&#160;». Cette licence est disponible en ligne
+                        http://creativecommons.org/licenses/by-nc-nd/2.0/fr/ ou par courrier postal
+                        à Creative Commons, 171 Second Street, Suite 300, San Francisco, California
+                        94105, USA.</p>
+                    <p>Pas d'Utilisation Commerciale&#160;: L'École nationale des chartes souhaite
+                        encourager l'utilisation et l'amélioration de ses ressources électroniques,
+                        pour les intérêts de l'enseignement et de la recherche. Toute autorisation
+                        au-delà du champ de cette licence doit être obtenue auprès de l'École
+                        nationale des chartes.</p>
+                    <p>Pas de Modification&#160;: Afin de mieux servir la communauté scientifique,
+                        l'École nationale des chartes s'engage à conserver et à toujours offrir
+                        publiquement la version la plus à jour de ses ressources électroniques par
+                        une URI pérenne. Elle s'engage à les corriger et à les améliorer, à intégrer
+                        les contributions qui lui sont soumises (après validation par un comité
+                        scientifique), et à référencer l'origine de ces contributions. Toute
+                        modification de la ressource qui ne serait pas reversée à la version de
+                        référence sous l'autorité éditoriale de l'École nationale des chartes doit
+                        faire l'objet de l'accord de celle-ci, afin de ne pas disperser les
+                        contributions et de permettre les meilleures conditions possibles de
+                        collaboration scientifique.</p>
+                    <p>Paternité&#160;: l'École nationale des chartes demande à ce que toute
+                        publication dérivée de ses ressources électroniques comporte&#160;: 1) le
+                        nom de l'École nationale des chartes et, pour les publications
+                        électroniques, son logo 2) l'URI permettant d'accéder à la page citée sur
+                        notre site, ou à la page d'accueil de la ressource 3) la date du fichier
+                        source utilisé.</p>
+                    <p>Tout litige soulevé par le non respect des termes de cette licence sera
+                        soumis à la juridiction des tribunaux de Paris.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Éditions en ligne de l'École des chartes</title>
+                <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+                <idno type="vol"/>
+            </seriesStmt>
+            <sourceDesc>
+                <bibl>
+                    <abbr>Li livres de jostice et de plet</abbr>
+                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                        glossaire des mots hors d’usage par P. Chabaille</title>
+                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
+                        when="1850">1850</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
+                    telle qu’elle apparaît dans l’édition imprimée de 1850, couplée aux sections
+                    précédemment inédites, ici éditées par les soins de G. Pastore.</p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2016-11" who="GP">Mise à jour du fichier</change>
+            <change when="2015-09" who="MH">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <head>LI SEPTIESME LIVRES</head>
+        </front>
+        <group>
+            <head>LI SEPTIESME LIVRES</head>
+            <text xml:id="art_01">
+                <pb n="160"/>
+                <front>
+                    <head type="gp">I. De aucion de marchandie menee en nés <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 14, tit. 1, <hi rend="i">de Exercitoria
+                                    actione</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {14.1.1} <hi rend="i">Utilitatem</hi>.</head>
+                        <div type="gp">
+                            <p>Nus n’est qui ne sache que en cest ban n’ait moult de preu&#160;; car
+                                come nos ne savon mie aucunne foiz quex hon de quel meniere sont cex
+                                à qui nos feson marchié por estre porté en la nef, droiz fiz que cil
+                                fust tenuz qui mist mestre en la nef&#160;; ausi comme cil est tenuz
+                                qui met marcheant à tavernerie mener ou à autre afere, comme il soit
+                                plus grant mester de fere marchié o le metre de la nef que o le
+                                marcheant. Et par ce, convient il que l’en voie au marcheant s’il
+                                fet marchié en la nef, au metre aucunne foiz&#160;; que li leus ou
+                                li tens ne sofere mie que l’en soit sanz bon conseil. ¶ {1} Nos
+                                devon entendre «&#160;metre de nef&#160;» cil à qui la cure de tote
+                                la nef est commandee. {2} Et se l’en fet marchié en aucun des
+                                notoniers, l’en n’a pas aucion contre le metre, tot soit il tenuz de
+                                forfet que chascun met en la nef&#160;; car il i a une cause de fere
+                                marchié et une autre de fere folie. Et cil qui mest le mestre en la
+                                nef sofre bien que l’en face marchié à noteniers et il doit garder
+                                que il ne facent barat ne tricherie. ¶ {3} Li mestre sont mis à loer
+                                les [72rB] nés, ou à merceries porter ou à aloier, ou armes vendre
+                                ou achatier&#160;; et se cil est mis por acheter et por vendre, il
+                                oblige le seignor par ce. {4} Et l’en n’a que fere de quel meniere
+                                est cil metres, ou serf ou franc ou privé ou estrange, ne de quel
+                                aage, bien si gart cil qui li mist. ¶ {5} Nos apelon celui metre non
+                                pas solement que li sires mist, mes celui moismes que li metres i a
+                                mis&#160;; et issi le dit Julien. Et se li sires le fet, et il li
+                                sofre user de mestrie en la nef, il senble que il i et mis&#160;; et
+                                il m’est avis que c’est droiz. Et li metres que il mist doit
+                                regarder tot ce que il fet, si que non cil qui font marchié o lui
+                                seront deceu. Et l’en doit ce miauz entendre en mestre<note>mestre]
+                                        <emph>mestir</emph> dans le ms., cf. lat. <emph>et facilius
+                                        hoc in magistro quam institore admittendum propter
+                                        utilitatem</emph></note> que en marcheant por le preu qu’i i
+                                est. Que sera s’il i mist metre par si que il n’i poist metre
+                                autre&#160;? Recevron nos à la sentence&#160;? Julien dit que l’en i
+                                doit voir, posé que il et deffendu nicement que Ticius ne fust
+                                mestre de la nef&#160;; l’en doit dire que l’en doit regarder le
+                                preu à cex qui sont en la nef. ¶ {6} Nos devon entendre
+                                «&#160;nef&#160;» se ele est sor mer, ou en fluve, ou en estant. ¶
+                                {7} Li prevoz ne done mie aucion de tote cause en seignor de la nef,
+                                mes de cele chose en qui non il fut iqui mis&#160;; ausi comme s’il
+                                fust mis por porter fuerre ou aucunne chose, ou s’il achate aucunnes
+                                marchandies bones<note>bones] <emph>pones(?)</emph> dans le ms., cf.
+                                    lat. <emph>ad onera inhabiles</emph></note> à porter en nef, ou
+                                s’il a despendu aucunne chose por rafetier la nef, ou si li notenier
+                                demandent aucunne chose de lor ovres. {8} Et s’il enprunte deners,
+                                savoir se c’est en non de cele chose&#160;? Et Pagasus le cuide,
+                                s’il fist l’enprunt à l’usage de cele chose don il est mestre, il
+                                avra aucion&#160;; et je cuit que il est voirs. Que sera s’il fist
+                                l’enprunt por aparellier la nef, ou por fere, ou por metre i
+                                notoniers&#160;? {9} Donc Offilius demande&#160;: se cil fet enprunt
+                                por refere la nef et il met les deniers en son usage, l’en demande
+                                se l’en doit doner aucion contre le seignor de la nef. Et il dit que
+                                s’il les prist par tel convent que il les despendist en la nef et
+                                enprés mua son corage, il en est tenuz [72vA]&#160;; et bien si gart
+                                li sires qui tel mestre mist en sa nef. Et s’il prist consoil au
+                                commoincement de co‹n›chier le creencier, et il ne li dist mie que
+                                il prenoit ces deniers por la nef amender, autre chose est&#160;; et
+                                Pedius dit que ce est bien. {10} Et se li metres deçut son
+                                compoignon en pris des chose achatees, li domages sera son, non pas
+                                au creancier. {11} Et s’il enprunta d’autre, il delivra celui qui
+                                fist la creance à refere la nef&#160;; et je croi que il a aucion.
+                                {12} Et dunc la mestrie done certoine convenance à cez qui font
+                                marchié. Por quoi, se il sires l’es mist en la nef por demander le
+                                pris de voitures, non pas que il les aloe qui l’avoit ja aloé, li
+                                sires n’en sera pas tenuz si li mestres a loé, ou s’il est establi
+                                solement à aloer non pas à demander. Ausint en dira l’en, ou s’il
+                                est posé que il aloe le portage, non pas que il preste la nef à
+                                mercerie&#160;; ou s’il fet plus que il ne doit, il n’oblige pas le
+                                seignor. Et s’il l’aloe à porter certaines merceries, si comme à
+                                porter chenvre, leum, et cil l’aloe à porter pierre ou fuz, il ne
+                                sera pas tenuz. ¶ Car aucunnes nés sont porteresses et autres sont à
+                                autre mester. Li uns mande as autres noteniers que il recevent les
+                                porteors, et que il augent en certein leu et en certone mer&#160;;
+                                ausint comme nés qui sont à Brandiz ou à Jafés, que li notenier
+                                moinent, qu’i ne sont pas bones à porter ; et les autres nés ne sunt
+                                preuz à aler par mer. ¶ {13} S’il i a plusors metres et lor ofices
+                                ne sont pas devisé, quanque l’an fera o l’un obligera le
+                                seignor&#160;; et se li office sont devisé, que le un aloe l’autre,
+                                li sires sera obligé por l’ofice à chescun. {14} Et se li sires les
+                                i met, isint que li un ne face rien sanz l’autre, ausint comme l’en
+                                fet aucunne foiz, bien si gart cil qui fet marchié o l’un. ¶ {15}
+                                Nos apelon celui «&#160;seignor de la nef&#160;» qui a totes les
+                                issues et les rentes de la nef, se il est sires de la nef ou se il
+                                l’a aloee ou à ja ou à toz jorz. ¶ {16} Petit motre se cil qui est
+                                sires est male ou fumule, perre, ou fez, ou serf&#160;; et se [72vB]
+                                menor est sires de la nef, il i convient l’autorité de tutor. ¶ {17}
+                                Il est ou nostre chois de trere en plet le seignor ou le mestre de
+                                la nef. {18} Et cil qui est sires de la nef n’a pas aucion contre
+                                ceaus qui firent marchié o le mestre, car il ne li afiet pas&#160;;
+                                mes si pot avoir aucion de commandemant contre le mestre, ou de
+                                loage s’il ne li rent le loer. Et ce solent fere li provost por le
+                                mestre de l’annone&#160;; ¶ et ausi solent fere li seignor des
+                                provinces es marchiez que li metres de nés funt ou autres. ¶ {19} Se
+                                cil qui est sires de la nef est en autrui poer, et cil en est sires
+                                par la volenté celui, l’en avra aucion de ce que l’en fera o le
+                                mestre de la nef contre celi en qui poer li sires de la nef est.
+                                {20} Se cil est sires de la nef par la volenté à celi en qui poer il
+                                est, et il est tenuz de tot, puis que cil est metres de la nef par
+                                sa volenté&#160;; car usage de nef apartient au commun profit. Mes
+                                n’est pas issi de marcheanz&#160;; ¶ et por ce, cil qui font marchié
+                                o lui sont tenuz sanz plus de trëu&#160;; cil qui moinent marchandie
+                                de lor chetel au seu lor seignor, et s’il font marchié o le mestre
+                                au seu au seignor et il ne le veust mie, donron nos action de tot
+                                contre li, ausi com s’i le vosist, ou aucion de trëu&#160;? ¶ Puis
+                                que la chose est dotose, miauz est que l’en segue les paroles de
+                                loi, et que l’en ne meste pas sus au pere ou au seignor qui sache le
+                                fet au mestre de la nef&#160;; que il ne soient obligié par tel
+                                volenté se cil moinent le miauz de lor propre chetel. Et issi le dit
+                                Ponpinius&#160;: se li sires de la nef est en autrui poer et por la
+                                volenté à celui est cil sires de la nef, il est obligié de
+                                tot&#160;; se ce n’est par sa volenté, il n’est tenuz que do chatel.
+                                ¶ {21} Nos entendon «&#160;estre en poer&#160;» filz, filles, serf,
+                                serves. ¶ {22} Se serf est sires de nef par la volenté au fiz cu’il
+                                estoit, li peres ou li filz qui ne le vost mie contredire sera
+                                obligié de tost. ¶ {23} Ja soit ce que li prevoz doigne aucion
+                                solement de ce que l’en fet o le mestre, Julien dit&#160;: se l’en
+                                fet marchié ou le seignor de la nef, li peres au fiz ou li sires au
+                                serf seront tenuz de tost. ¶ {24} Ceste aucion sera donee contre le
+                                seignor par la persone [73rA] au mestre&#160;; et se l’en plede o
+                                l’un d’aus ou à l’autre, l’en ne plediera pas à l’autre&#160;; et se
+                                l’en rent aucunne chose, l’obligacion au mestre apetice. ¶ Et se
+                                l’en rent en non dou seignor ou en non do mestre aucunne chose,
+                                l’obligacion sera apeticee, por ce que se aucuns rent por moi, je
+                                sui quité. ¶ {25} Se plusors sont mestre de la nef, l’en porra
+                                pledier o le quel que il vodra de tot.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.1.2} <hi rend="i">Gaius. Ne in plure</hi>.</head>
+                        <div type="gp">
+                            <p>Quar cil qui fist marchié ne soit forcé de avoir tant aversaires
+                                ensenble.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.1.3} <hi rend="i">Paulus. Nec quicquam</hi>.</head>
+                        <div type="gp">
+                            <p>Ne aucuns d’aus ne pot pas mostrer combien que il a en la nef de
+                                partie, et cil qui avra mené le plet avra ses despens des autres par
+                                juigement de compoignie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.1.6} <hi rend="i">Paulus. Si servus</hi>.</head>
+                        <div type="gp">
+                            <p>Se li sers est sires de la nef sanz la volenté au seignor, s’il le
+                                sot, il avra contre lui aucion de trëu&#160;; s’il ne le set, il
+                                avra aucion de chetel. ¶ {1} Se serf commun moine neff por la
+                                volenté au seignor, l’en dira contre toz aucion de chetel por
+                                tot.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_02">
+                <front>
+                    <head type="gp">II. De la loi Rodiane de geter marcheandise en mer <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 14, tit. 2&#160;: <hi rend="i">de Lege
+                                    Rhodia de jactu</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {14.2.1} <hi rend="i">Papianus. Lege</hi>.</head>
+                        <div type="gp">
+                            <p>L’an garde en la loi Rodienne de giet&#160;: quant l’en veaut geter
+                                en la mer por alegier la nef, ce qu’est geté por le salu de toz doit
+                                estre restoré de toz ces qui sont en la nef.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.3} <hi rend="i">Papinianus. Cum arbor</hi>.</head>
+                        <div type="gp">
+                            <p>Quant arbre ou estrumant de nef est geté por achever le peril,
+                                chascun doit metre do son.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.4} <hi rend="i">Calistratus. Navis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucunne merz sont tregetees en chalan por legier la nef chargie,
+                                qu’i ne poent venir à port que elle ne perillat, et ce chalain tumbe
+                                à l’entree dou port, cil qui sont en la nef et ont lor marchandies
+                                sauves doivent doner do lor à emender le domage qui est avenu en
+                                chelein, autresi comme s’il en eust fet giet&#160;; et Sabinus dit
+                                que c’est voir. Encontre, se la hoe est sauvee ou une partie des
+                                marchendies et la nef perist, cil qui perdirent en la nef ne doivent
+                                rien emender&#160;; car se la nef est sauvee le giet vient en
+                                commun. ¶ {1} Et se la nef, qui est tempestee, est alegie de giet de
+                                merz à un marcheant, est [73rB] noee en autre leu, et notoners
+                                treent les merz à aucuns marcheanz, se li loer est rendu, cil doit
+                                avoir reson de ses choses qui furent getees por la nef legier par
+                                ceus qui orent lor choses sauves par les notoniers. Sabinus dist que
+                                cil qui orent lor choses sauves ne doivent rien rendre à celi qui
+                                fist le giet se aucunnes choses de lor merz furent tretes por les
+                                noteniers&#160;; quar il n’est pas veu que la merz fust getee por la
+                                nef garder, qui perist. ¶ {2} Quant getoiz de merz est fez, et
+                                    les<note>les] <emph>la</emph> dans le ms.</note> choses à aucun,
+                                qui remetret en la nef sunt enpirees, l’en doit veoir s’i doit metre
+                                en la communauté, comme il ne doivet pas avoir doble domage. Mes
+                                l’en doit dire que cesti doit communauter por le pris des choses
+                                presentes&#160;; ausi com se la merz à .ii. i sont, et les choses à
+                                l’un sont arosees de eau, cil qui a ses choses sauves metra en la
+                                communauté dusqu’à .xx. et cestui dusque à .x. Et nos poon deviser
+                                de quoi ces choses sont enpirees&#160;; ou por la giez ou por ce que
+                                les choses furent descouvertes vint li domages&#160;; ou por autre
+                                cause, por ce que la merz gesoet allors en un autre angle et l’eau
+                                entra&#160;; lors devroit il acommunauter. Ou il n’acommunautera mie
+                                por la premiere cause por ce que il perdi ou giet&#160;? Et se les
+                                choses sont enpirees de l’eau por le giet&#160;? Et s’il i a plus
+                                sotive divise, que sera s’il a plus de domage en communauter que un
+                                giet&#160;? Ausi com s’il i avoit .xx. fardiaus et la communauté .x.
+                                et li domages vaut .ii.&#160;; hors ce que il i a eu do domage, il
+                                doit acommunauter le remanant. Que sera s’e plus de domage qu’en la
+                                communauté, ausi comme les choses sont enpirees vaillant .x. mars et
+                                la communauté .ii.&#160;? En ceste dotance il ne doit pas porter lou
+                                fes et<note>et] <emph>a</emph> dans le ms., cf. lat. <emph>utrumque
+                                        onus pati non debet</emph></note> l’autre. Or veon si li
+                                convient acommunauter. Que sera se je perz mes choses qui sont
+                                gitees ou s’i sont enpirees par ce que furent descouertes&#160;? Car
+                                ausi comme l’en aide à celi qui a perdu, ausi doit l’en aidier à
+                                celi qui a ses choses en[73vA]pirees por le giet&#160;; et issit le
+                                dit Papinian.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.5} <hi rend="i">Hermogenes. Amisse</hi>.</head>
+                        <div type="gp">
+                            <p>Domage de nef perdue n’est pas recovré par compoignie de communauté
+                                par ceus qui delivrent lor choses quant la nef froissa&#160;; car
+                                l’en s’acorde à ce quant la nef est sauvee au commun peril par le
+                                remede do giet. {1} Se li arbres de la nef est tranchiez por
+                                delivrer la nef et la marchandie, il convendra que chascun mete sa
+                                serve.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.7} <hi rend="i">Paulus. Cum</hi>.</head>
+                        <div type="gp">
+                            <p>Cum la nef fust getee par tempeste, ce que chascun puet sauver à son
+                                os, comme de feu, il fut son.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.8} <hi rend="i">Julianus. Qui levande</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui gitet aucunnes choses por la nef legier ne les gitet mie par
+                                tel corage que il lasoient guerpies&#160;; et s’i la trovent, i les
+                                    anporterunt<note>i les anporterunt] <emph>ilasanportemut</emph>
+                                    dans le ms., cf. lat. <emph>quippe si invenerint eas,
+                                        ablaturos</emph></note>&#160;; et si sevent où i·ssunt
+                                getees, et la requerrunt. Et seront autresi comme celi qui est trop
+                                chargiez qui lesse la chose en mi la voie et puis retorne por
+                                aporter la.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.2.10}</head>
+                        <div type="gp">
+                            <p>Voluistius manda à Paulus tex paroles&#160;: por ce que tu aloas
+                                sers, l’en ne te doit pas voiture por celui qui est morz en la nef.
+                                Paulus demande se l’en doit doner loier por ceus qui sont mis en la
+                                nef ou por ceus qui sont envoié en essil&#160;; et se ce n’est
+                                aparissant, il sofira au notoner s’il pot prover que li serf fust
+                                mis en la nef. ¶ {1} Se tu as la nef aloe por tel condicion que tes
+                                merz i fussent portees, et li noteniers mist ces merz sanz besoing
+                                en une mauvese nef, comme il seust bien que tu no voloies pas, et
+                                l’aver perist, et por cele nef où ele fust mise darrenierement, tu
+                                as aucion contre le notonier do loage. Paulus dit&#160;: plus que se
+                                l’une nef et l’autre perist en cele voie, et ce fust fet sanz la
+                                trechierie à notonier. Autel droit avra cil se li noteniers fust
+                                retenuz et l’en li deffendi que il ne portast cele marchandie. Et
+                                autel droit avra cil s’il fist tel convenant à toi que il te rendist
+                                une poine&#160;; si ne t’avoit portees tes marchandies ou leu où tu
+                                li dois au terme [73vB] que tu li metoies, il doit la poine. Et ausi
+                                diron nos se li notonniers est destorbez de maladie que il ne puisse
+                                nagier. Et ausi diron nos se la nef est mauvese sanz son barat et
+                                sanz sa cope. ¶ {2} Se tu aloas une nef à mestre .ii. mil de bues et
+                                tu les i portas, tu doiz le pris des .ii. mil. Paulus. Si in
+                                adversionem. Et se la nef est aloie en tempeste, li loers est deu
+                                por .ii. mil. Se le marchié est issi fet, encontre tu doiz le loier
+                                por tant des bues comme tu i portas.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_03">
+                <front>
+                    <head>III. De giter marcheandise en eau por péril eschever.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>De marchandie menée par iau gitée por charge, l'en doit avoir reson de
+                            giter marchandise en eau&#160;; car se li metres de la nef charge trop
+                            la nef, et por ce convient la marchandie giter, et la cope en est soe et
+                            li domages&#160;; ou se li marinier ne sont sofisant, et por ce périsse
+                            li avoirs.</p>
+                        <p>Mès se torment sort por quoi il conviegne l'avoir giter en la mer, ou la
+                            nef peçoie d'avointure que l'en ne put eschiver, li marcheanz est
+                            tenuz.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Or gardon comment li metres de la nef sera tenuz&#160;: et s'il dit que
+                            sa chose soit périe, se c'est par peceure, la peceure sera veue par
+                            prodes omes, ou presanz qu'il sera peceaie, et por ces prodes omes. Et
+                            por les compoignons de la nef, por ce qu'il jurront, ne seront creu. Et
+                            s'ele est effundée do tot, iloc ne convient point de prove, fors le
+                            parent. Et se l'en a geté l'avoir en l'eau por le péril de tempeste,
+                            l'en en sera creuz par les seremanz au compoignons de la nef, et par le
+                            tesmoing <pb n="161"/>dou païs, qu'à celi jor ot tempeste en cele
+                            contrée&#160;; quar en tel chose n'a point de gage.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_04">
+                <front>
+                    <head type="gp">IV. De aucion que l’en apele institutore qui parle que aucuns
+                        sont tenuz <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>La première partie de ce titre est traduite du Dig., liv. 14,
+                                tit. 3&#160;: <hi rend="i">de Institoria actione</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {14.3.3} <hi rend="i">Ulpianus. Institor</hi>.</head>
+                        <div type="gp">
+                            <p>Il est apelé «&#160;institor&#160;» li marcheanz por ce que il est
+                                curios de sa besoigne fere&#160;; ne il ne fet pas moult se il est
+                                metre de taverne ou d’autre marchandie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.4} <hi rend="i">Paulus. Cum interdum</hi>.</head>
+                        <div type="gp">
+                            <p>Car il enporte aucunne foiz marchandies à prodes homes et la lor
+                                vendoit&#160;; ne le leu où vient ou l’en eschate ne mue pas la
+                                cause de l’au[74rA]cion, comme avient en l’une meniere et en l’autre
+                                que li marcheanz vent et achete.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.5} <hi rend="i">Ulpianus. Quocque</hi>.</head>
+                        <div type="gp">
+                            <p>Donques, quiconques est mis à fere la besoigne est apelé institor à
+                                droit, et c’est à dire marcheant&#160;; {1} car Servius et Labeo
+                                distrent à Brutus&#160;: se aucuns fet marchié o charpenter, ou o
+                                celi que aucun mist et fist sire de la meson ou l’establi à achetier
+                                froment, cil est tenuz de tot. ¶ {2} Labeo dit&#160;: se aucun a mis
+                                aucun à prester à usure ou à terre coitiver ou à marchandise mener,
+                                il est tenuz de tot. {3} Et se aucun a mis aucun serf metre à sa
+                                table, il sera tenuz de celi serf. ¶ {4} Et nos apelons cez
+                                «&#160;institors&#160;», qui portent teles et autres choses à
+                                vendre. ¶ {5} Et itex puet l’en apeler proprement chacerranz. ¶ {6}
+                                Et cil qui sont mestres des folons, de sartriniers, et qui sont
+                                herbergeor sont institors. ¶ {7} Et se aucun taverner envoie son
+                                serf en leu estrange à acheter marcheandie et que il la li envoiat,
+                                Labeo dit que il est en leu de marcheant. ¶ {9} Ausi dist il : se
+                                aucun talemeler a à costume envoier son serf en aucun leu certain à
+                                vendre son pain, enprés cil reçut l’argent dou pain, il fausa sa
+                                foi, l’en ne doit pas doter que s’il li otroia issi à doner la
+                                marchandie il est tenuz, et non pas li sers. ¶ {10} Et se li felon
+                                qui aloit hors dou païs pria son serf que il fust mestres sor ses
+                                menesteres à qui il avoit lessé sa taverne à garder, et quant ce
+                                felon s’en fust alez cil sers prist le dras et s’enfoit, li felon
+                                n’est pas tenuz se cil fust lessié comme procurators ; et s’il fust
+                                lessié comme marcheant, il est tenuz&#160;; et s’il le establi à
+                                estre mestre sor les ovriers, il ne sera pas tenuz de ceste aucion
+                                mes do loage. ¶ {11} Et tot ce a l’en fest o le marcheant n’oblige
+                                pas celi qui li mist&#160;; et si li marchiez fut fez o li par celui
+                                marchié, et par cele cause dont il est mis à la mestrie, {12} et
+                                s’il le mist à vendre marchandie, il sera tenuz de aucion
+                                d’achat&#160;; et se je l’e mis à achetier, je serai tenuz de la
+                                vente. ¶ Et se je ne l’ai pas mis à achetier et il vent, ne à vendre
+                                [74rB] et il achate, il en sera tenuz&#160;; et Casius à ce
+                                s’acorde. ¶ {13} Et se aucun tret peccune au marcheant à achetier
+                                marcheandies, le creancier avra leu à ceste aucion&#160;; et ausint
+                                est s’il establist à estre mestre de la taverne&#160;; c’est verité
+                                se l’en ne li deffendi que il n’empruntat. {14} Se l’en a presté
+                                oile à celui que li mestre establi à achetier ou à vendre oile,
+                                ceste aucion avra leu. ¶ {15} Et se le marcheanz quant il ot l’oille
+                                vendue prist un agnel en erres et il ne le reçut mie por gage, li
+                                sires n’est pas tenuz de ceste aucion s’il le vandi&#160;; car il ne
+                                fet pas ce que l’en li comanda se l’en ne li manda par avainture que
+                                il le vendist. Et por ce, se li marcheanz prist gage por le pris et
+                                il le vandi, ceste aucion avra leu. ¶ {16} Ausi avra li plege qui
+                                plevist por le marcheant&#160;; il est tenuz de la plevine. ¶ {17}
+                                Se un autre establist le marcheant, et cil se muert, qui li mist, et
+                                s’il a hers qui aent l’usage de ce marcheant, sanz dote il convient
+                                que l’en soit tenu. Et se l’en fist marchié avant que il eussent
+                                demandé l’eritage, bien est que cil qui rien n’en savoient aient
+                                aucion de marchendie. ¶ {18} Et se mis procurator, mis tutor, mis
+                                curator establist un marcheant, l’an dorra contre moi aucion, ausi
+                                comme se je li eusse mis.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.6} <hi rend="i">Paulus. Sed et</hi>.</head>
+                        <div type="gp">
+                            <p>Et contre le procurator sera donee ceste aucion se il est
+                                generaus.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.7} <hi rend="i">Ulpianus. Sed et si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Et se aucun qui fest ma besoigne establist aucun à estre mestre et je
+                                l’oi establie, ausi en dira l’en comme de l’autre devant. ¶ {1} N’en
+                                a point de differance quex soit li marcheanz ou male ou femele,
+                                franc ou serf propre ou autrui, ne quil est cil qui l’establi. Car
+                                se feme l’establi, ceste aucion li avient à le guise de aucion des
+                                choses mises en nés&#160;; ceste aucion est contre li se ele forfet.
+                                ¶ {2} Et se orfelin qui est fet marcheant et fet chose que il ne
+                                doet, il oblige celi qui li met de ceste aucion, car bien se gart
+                                cil qui li mist.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.8} <hi rend="i">Gaius. Nam</hi>.</head>
+                        <div type="gp">
+                            <p>Car aucunne foiz [74vA] aviant que aucun metent effanz et puceles
+                                garder taverne.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.9} <hi rend="i">Ulpianus. Verum</hi>.</head>
+                        <div type="gp">
+                            <p>Et se li orfelin les i mest, se c’est por l’autorité au tutot, il
+                                sera obligié&#160;; si que non, non.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.14} <hi rend="i">Paulus. Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Ausi sera se autrui serf est aloé et mis à commune marcheandie, l’en
+                                doit doner contre l’un et l’autre aucion de tot&#160;; et ce que
+                                l’un rendra, li autre le li rendrunt por juigement de compoignie. Et
+                                la où action de compoignie ou de departir communauté cesse, chascun
+                                doit estre condempné por sa partie&#160;; ausi comme se ceus, à qui
+                                serf l’en fist creance, estrabli .ii. heirs et franchi celi serf. Et
+                                heir doivent estre trest en plet por la partie, car auction de
+                                communauté cesse antre aus.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.15} <hi rend="i">Ulpianus. Novissime</hi>.</head>
+                        <div type="gp">
+                            <p>L’en doit savoir au derrenier que cez aucions doivent estre donees à
+                                toz jorz contre l’eir et contre les hoirs. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.3.19}</head>
+                        <div type="gp">
+                            <p>{3} Serf establi à prester à usure, s’il enprunte, il n’oblige pas
+                                son seignor de tot comme s’il fust marcheant&#160;; et s’il a promis
+                                à une autre à rendre de tele marcerie, l’en le porra demander au
+                                seignor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ 1.</head>
+                        <p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Geffroi de la
+                                Chapele</ref> dit&#160;: Nus n'est qui ne sache bien qu'ant cest ban
+                            a mout de preu. Car com nos ne savon mie aucune foiz qués est, ne à qués
+                            nos fesons marchiez, por estre porté nos et noz choses en la nef, droiz
+                            est que cil qu'i met le metre i soit tenuz. Por ce est bien avenant que
+                            l'en face marchié o le metre de la nef, ou à celui à cui ele est baillie
+                            à marcheander. Ausi dison-nos de celui qui moine marcheandise par terre.
+                            Cil qui moine marcheandise par terre ou par eve n'est pas tenuz des
+                            aventures que l'en ne puet eschiver, se la colpe ne passe le quas, comme
+                            il set plus por la cope au seignor de la nef que por autre chose.
+                            Aventure si est tormente, roberie, feu, pecéement de nef, et plusors
+                            autres choses.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Emprès demende l'en se li sires de la nef nie que il n'oit mie receu la
+                            marchandie, comment l'en porra l'en atendre. Et l'en respont par tex
+                            paroles&#160;: Ge me plein de Gui, metre de cele nef, à qui j'é baillié
+                            mon avoir, une charge de poivre, et la me dut amener à Orliens, en ceste
+                            vile, ne je ne ai puis avoier&#160;; et s'il veaut dire que il n'ait ma
+                            chose eue, et en ceste forme, je le sui prez de mostrer et de l'avérer,
+                            et par moi et par garanz, que si est ceste chose, si com ge le di. Il
+                            vet avant à la jostice, lui et son garant, et offre ce à mostrer&#160;;
+                            et li mestre de la nef fet encontre tel ni et tel deffense comme il
+                            doit. L'en demende qu'en dit droiz. Et l'en respont que l'en doit
+                            demender la personne de celui qui demende et de son garant, et s'il est
+                            preudom et honeste, l'en le doit oïr, issint que li deffenderres est
+                            loissanz de prandre la prove de li et de son garant, et de quenoistre
+                            que c'est voirs, ou d'escondire par gage de bataille&#160;; car en tel
+                            chose doit bien avoir bataille&#160;: car il i a traïson et mambre de
+                            larrecin. Tot outresint pot l'en apeler de marcheandise à mener par
+                            terre.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p><pb n="162"/> Et se l'en savet généraument, si come d'èse et de vins et
+                            de grosses choses que chascun vet, ci n'a point de gage qu'anqueste.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_05">
+                <front>
+                    <head type="gp">V. [74vB] De aucion tributoire, c’est ce aucion par quoi l’en
+                        rent <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 14, tit. 4&#160;: <hi rend="i">de
+                                    Tributoria actione</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {14.4.1} <hi rend="i">Ulpianus. Huius</hi>.</head>
+                        <div type="gp">
+                            <p>Li preu de ce ban est moult grant por le seignor qui aucunne foiz a
+                                preu en marchiez son serf, qui n’est tenuz solement que do chetel
+                                qui est hesmé hors ce que il doit au seignor. Mes se il set que li
+                                serf soit marcheanz de son chetel, ausi comme estrange marcheant, il
+                                est tenuz de ceste aucion à rendre au seignor le gaing. {1} Tot soit
+                                « marchandie » estroite, qui ne s’estant pas à serf, à folons, à
+                                coturiés, à toissiers, à serpiers, mes Pedius dit que totes
+                                marcheandises apartienent à ce ban. ¶ {2} Mes marcheandise de ce que
+                                li serf a n’est ansi comme nos apelons son chetel, hors ce que il
+                                doit au seignor&#160;; et se ce serf n’a rien, li sires est tenuz se
+                                cil moine marcheandie par son sen. ¶ {3} Nos entendon savoir quant
+                                il é viot&#160;; et je n’entent pas volenté, mes soffrance. Et li
+                                sires ne le doit pas voloir&#160;; et s’il le set et il ne le
+                                contredit, il sera tenuz de ceste aucion [75rA]. ¶ {4} Parole de
+                                poier est entendue à homes et à femes ¶ et à toz cex qui ne sont en
+                                autrui poer. ¶ {5} Et ceste auccion n’apartient pas solement à sers,
+                                qui à cez qui nos servent en bone foi, soient franc, soient sers à
+                                autrui ou à cex en qui nos avon nostre usage.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.4.3} <hi rend="i">Ulpianus</hi>.</head>
+                        <div type="gp">
+                            <p>Et se le serf est commun et li .ii. seignor le sevent, l’en avra
+                                contre l’un et l’autre aucion. Et se l’un le set et l’autre non,
+                                l’en avra auction contre celi qui le set&#160;; mes ce sera oté que
+                                l’en doit à celi que rien n’en set. Et se aucun tret en plet celi
+                                qui rien n’en siet por ce que il est trez en plet dou chetel au
+                                serf, ce que l’en doit à celi qui ne le sot sera osté et sera tenuz
+                                de tot&#160;; car se cil qui le sot est trez en plet il metra hors
+                                ce que l’en li doit, et issi le dit Julien. ¶ {1} Se serf à orfelin
+                                ou à forsené est marcheanz de marcheandise de son chetel, li barat
+                                au tutor ou au curator ne nuira pas à l’orfelin ne à forsené, ne il
+                                ne i doivent rien gaigner&#160;; et neporquant, se li orfelin a rien
+                                eu par le barat au tutor, il est tenuz de ceste aucion. Et ausi di
+                                ge de celui qui est forsené, ja soit ce que Ponponius dit que li
+                                orfelin est tenuz do barat au tutot s’il a de quoi paier&#160;; et
+                                il sera tenuz de tant que il donge l’aucion que il a contre le
+                                tutor. {2} Et se c’est fet par le barat au tutor, s’il est de tel
+                                aage que il sache que est barat, il est tenuz, tot ne soufise son
+                                savoer à mener la marcheandise. Et que sera donques par foi ? Le
+                                savoir au tutor ou au curator fera leu à ceste auction&#160;; et
+                                g’ei desus monstré comment nuira le barat.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.4.12} <hi rend="i">Paulus. Alius</hi>.</head>
+                        <div type="gp">
+                            <p>Aucun plede encontre le seignor ou non de serf solement do chetel, un
+                                autre de ceste aucion&#160;; l’en demande se li sires doit metre
+                                hors de chetel ce que il doit rendre à celi qui plede de ceste
+                                auction. Il dit que lors pot l’en pledier de ceste auction quant li
+                                sires ne veaut fere gré par le ban au prevost de departir le pris de
+                                la marchendie, c’est à dire quant il met hors la greignor partie de
+                                sa dete que il rendi à ses creanciers&#160;; ausi comme se la
+                                marcerie se monta .xxx. livres dont il en avoit creu [75rB] .xv. et
+                                .ii. estranges .xxx., il mist hors toz les .xv. et rendi aus
+                                creanciers les autres .xv. quant n’en dut metre hors que .x. et
+                                rendre .x. es astranges. Quant il fist ce, l’en entant ce que il ne
+                                se delivra pas do serf, par ce<note>par ce] <emph>por ce par
+                                        ce</emph> dans le ms.</note> que il en doit encor .xv. en
+                                non de celi par ceste aucion&#160;; par quoi, s’il commande pledier
+                                do chetel que il estoit par aventure hors de la mercerie, il metra
+                                hors .xv. comme cil qui est creancier au serf.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_06">
+                <front>
+                    <head type="gp">VI. Do consoil do senator macedonien <hi rend="i">[rubr.]</hi>,
+                        qui parole ainz que li peres ait obligé le fet au fiz.</head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 14, tit. 6&#160;: <hi rend="i">de
+                                    Senatusconsulto macedoniano</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {14.6.1} <hi rend="i">Ulpianus. Verba</hi>.</head>
+                        <div type="gp">
+                            <p>Les paroles do senator Macedoniain sont teles&#160;: « come Macedo
+                                eust pris autrui avoir entre cez autres felonies, que nature
+                                l’aministre, et comme il donast à mauvés homes matiere de pechier,
+                                cil qui devoit l’argent que l’en doit plus, et cuidoit que ce fust
+                                bien fet que l’en ne donast aucion ne demande au fiz enprés la mort
+                                au pere, li quel fiz avoit l’argent enprunté, et cil usurer fesoient
+                                ce que li fiz n’eussent nul non en atandre la mort lor
+                                        pere »<note><emph>Come Macedo… pere</emph>&#160;: passage
+                                    qui pose problème</note>. ¶ {1} Se le fiz est en branle ou il
+                                n’est pas o soi, si comme il avient que le pere est en guerre, l’en
+                                dote se le senator s’en doit entremetre&#160;; car se il rechiet en
+                                poer au pere, ceste aucion a leu&#160;; si non, ele n’a pas leu, et
+                                entretant ne doit l’en avoir contre le fiz point de auccion. ¶ {2}
+                                Et se cil qui est avoez enprunte, et il est restabbi et nus hors de
+                                bau, ceste aucion avra leu car il fut ou bau. ¶ {3} Dignité ne fet
+                                rien en fiz qui est ou bau que ceste aucion n’oit leu&#160;; car
+                                s’il est conte ou il a autre dignité, se il a chetel por soi, lors
+                                n’a point de leu ceste aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.3} <hi rend="i">Idem. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun cuide que cil fust sires, et le cuida certainement, et por
+                                ce que aucun le cuidoient, car en tel non fesoit il quanque il
+                                fesoit et marchiez et autres choses, ceste aucion n’avra point de
+                                leu contre lui&#160;; {1} et [75vA] ausi dit Julien de celui qui
+                                avoit paage aloé, que establi fut que ceste ‹aucion› n’avoit point
+                                de leu contre lui. ¶ {2} Et ausi en celui qui ne pot pas savoir se
+                                cil estoit en bau, Paulus dit que ceste aucion cesse, comme en
+                                orfelin, comme en menor de .xx. anz. Et a ice dit le prevost : que
+                                l’en doit secorre quant il i a cause por quoi&#160;; et ausi a
+                                orfelin, par autre reson cesse ceste auction, por ce que le prest
+                                est nul que li orfelin a fet sanz l’autorité au tutor. Paulus. Se
+                                fiz qui est en bau croit, ceste auction n’a leu por ce que la
+                                creance est nule, tot soit il sires de son chatel&#160;; car li
+                                peres ne li ostroie mie à perdre son chetel quant il li ostroie que
+                                il euse ; et por ce puet li piere demander l’argent. ¶ {3} Celi
+                                solement mostre ceste auction&#160;: qui presta l’argent à celi qui
+                                estoit en bau et ne fist pas autre marchié, si comme loer, si comme
+                                vendre, ou qui fist marchié en autre maniere, car li pere virent que
+                                li marchiez estoit mauvés. Et por ce, se je fis creance au fiz qui
+                                estoit en bau ou d’achat ou de autre marchié où il ne conta pas
+                                l’argent, et je le fis promesse, tantot commeince il à fere lor
+                                tort, par ce que l’a‹r›gent ne fut pa conté ceste aucion cesse. Et
+                                ce doit estre issi entendu&#160;: s’il n’i a boidie que cil qui ne
+                                pot croire ne pot vendre, que cil eust le pris en maniere de prest.
+                                ¶ {4} Se je enprunte do fiz qui est en bau, et quant il ert pere je
+                                li faz creance, ou s’il est en mauvés estat, ou se si peres est
+                                morz, ou s’il est sires de les choses, ceste aucion doit cesser, car
+                                il a receu l’argent comme pere et comme seignor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.4} <hi rend="i">Scevola. Quia</hi>.</head>
+                        <div type="gp">
+                            <p>Et ce que l’en dit communaument que l’en ne pot fere creance à fiz
+                                qui est en bau ne doit pas estre entendu à paroles mes au numbre de
+                                la peccune.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.5} <hi rend="i">Paulus. Ergo</hi>.</head>
+                        <div type="gp">
+                            <p>Et donc sera cil do tot ‹condamné›, non pas de tant comme il pot
+                                fere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.6} <hi rend="i">Scevola. Contra</hi>.</head>
+                        <div type="gp">
+                            <p>Et encor dira l’en droitement encontre&#160;: « se tu enpruntes do
+                                pere et enprés fez creance au fiz [75vB], ceste aucion avra leu, car
+                                la sustence de l’obligacion est esconplie ».</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.7} <hi rend="i">Ulpianus. Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Se fiz qui est en bau plevist, Neracius dit que ceste aucion n’a
+                                point de leu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.14} <hi rend="i">Julianus. Filium</hi>.</head>
+                        <div type="gp">
+                            <p>J’é un fiz et de lui un neveu ; l’en fest creance à mon neveu par le
+                                commandemant son pere ; l’en demanda se l’en fist ce contre ceste
+                                aucion. Je di, se li fiz furent non aagé et au bau dou pere, hou il
+                                et contre les paroles au senator, ¶ ausi devra l’en dire dou neveu
+                                comme dou fiz ; et que le commandemant au pere nuise – ou ne nuise –
+                                que la creance fust esmee contre ceste aucion, comme ceste cause
+                                fust de li meismes comme cil qui ne pot enprunter contre la volenté
+                                son pere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.15} <hi rend="i">Marcellus. Nichil</hi>.</head>
+                        <div type="gp">
+                            <p>Ne monte rien qui fet creance à fiz qui est en bau, ou privé, ou
+                                commun, si comme une cité; car Severus et Antoninus distrent que
+                                ceste aucion a leu en cité se l’en fet prest à fiz qui est en
+                                bau.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.16} <hi rend="i">Paulus. Si filius</hi>.</head>
+                        <div type="gp">
+                            <p>Se li fiz, quant li peres n’est pas au païs, ausi comme por son
+                                commandemant enprunte et en fist letres et les envoia à son pere que
+                                il rendist cele pecune, li peres, se ne li plest, doit demanoies
+                                mander que li enprent est fez contre sa volenté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.17} <hi rend="i">Idem. Filius</hi>.</head>
+                        <div type="gp">
+                            <p>Se li fiz enprunte deniers por doner les à sa seror en doere, li
+                                peres est tenuz de cele peccune s’ele est mise en son preu&#160;;
+                                car se la fille muert<note>muert] <emph>avet</emph> dans le ms., cf.
+                                    lat. <emph>ipsi enim mortua in matrimonio puella repetitio dotis
+                                        datur</emph></note> en mariage, il pot demander le
+                                doere.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {14.6.20} <hi rend="i">Idem. Si is</hi>.</head>
+                        <div type="gp">
+                            <p>Se cil deviant pere à cui tant comme il estoi en poer furent li
+                                denier baillié, et il qui n’estoit pas sage balla un rendeor por
+                                soi, se l’en li demande cel argent, il avra por soi barre de
+                                fet.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_07">
+                <front>
+                    <head type="gp">VII. Do conseil au fil ou au serf <hi rend="i"
+                        >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 15, tit. 1&#160;: <hi rend="i">de
+                                    Peculio</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {15.1.1} <hi rend="i">Ordinarium</hi>.</head>
+                        <div type="gp">
+                            <p>Li prevoz cuida que ce fut ordre et bien de mestre avant les marchiez
+                                à cez qui sont en autrui poer, qui donent aucion de tot&#160;; vient
+                                l’en à ce que l’en done aucion de chetel. ¶ {1} Ce ban est [76rA]
+                                tres bon, car aucion vient ‹ou› de chetel, ou de ce que est au preu
+                                au seignor, ou de commandemant. ¶ {2} Les paroles dou ban sont
+                                teles&#160;: ce que l’en fera o celui qui est en autrui poer. ¶ {3}
+                                Il parle de masculin non pas de feme&#160;; et si donra l’en aucion
+                                por la feme. ¶ {4} Se l’en fet marchié o celi qui n’a .xiiii. anz ou
+                                qui est serf, l’en donra ausi aucion contre le pere ou contre le
+                                seignor dou chetel se lor chetel en est creuz. ¶ {5} La parole
+                                «&#160;do poer&#160;» doit estre prise communaument ausi ou fiz
+                                comme ou serf. {6} Ne l’en ne doit plus regarder le seignor à serf
+                                que le poer de avoir les&#160;; ne nos ne seron pas solement tret en
+                                plet por noz sers propres ne de ceus qui sunt communs, mes encores
+                                de cex qui nos servent en bone foi, soient fiz soient autrui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.2} <hi rend="i">Ponponius. Ex ea causa</hi>.</head>
+                        <div type="gp">
+                            <p>L’en done aucion de chetel solement de cele cause don li serf frutier
+                                ou usagier requierent contre celui à cui est li usages ou le
+                                fruit&#160;; des autres choses, l’en done auction contre le seignor
+                                de la proprieté.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.14} <hi rend="i">Idem</hi>.</head>
+                        <div type="gp">
+                            <p>L’en commanda en testamant en present jor que li serf franc
+                                fust&#160;: l’en doit pledier en toz les heirs do chetel, ne nus
+                                d’aus ne ostera plus do chetel que ce que l’en li doit. {1} Et quant
+                                li sers est morz au vivent au seignor, et enprés li sire lesse
+                                plusors heirs dedanz l’en, ceste aucion faut, et poier de metre rien
+                                hors do chetel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.24} <hi rend="i">Ulpianus. Curator</hi>.</head>
+                        <div type="gp">
+                            <p>Cil qui a la cure de forcené pot tolir et doner l’aministracion do
+                                chetel ausi au serf au forsené comme au fiz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.29} <hi rend="i">Si quis. Paulus</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun commande en son testemant que le siers soit franc et lesse
+                                hers cil qui font marchié ou le serf, ‹il› poent pledier o les heirs
+                                do chetel, car chescun est tenuz do chetel qui li remaint à
+                                quiconques plede do chatel. {1} Et si li sires deffant que l’en ne
+                                face marchié o le serf, l’en avra contre lui aucion de chetel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.39} <hi rend="i">Florentinus. Peculium</hi>.</head>
+                        <div type="gp">
+                            <p>Chetel est ce que aucun a par s’aparne ou que il a gaignié par son
+                                servise que l’en [76rB] li done ou se il veut que sis sers soit son
+                                propre patrimoine.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.44} <hi rend="i">Ulpianus. Si quis</hi>.</head>
+                        <div type="gp">
+                            <p>Se aucun fet marchié ou celi qui est en bau, il a .ii. detorz&#160;;
+                                le fiz por tot et le pere solement do chetel.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.1.45} <hi rend="i">Paulus. Et ideoque</hi>.</head>
+                        <div type="gp">
+                            <p>Et por ce, se li peres tolist le chatel au fiz, por ce ne remoint pas
+                                que li creancier ne puissent pledier o le fiz.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_08">
+                <front>
+                    <head type="gp">VIII. Quant aucion de peccune est finee en un an <hi rend="i"
+                            >[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 15, tit. 2&#160;: <hi rend="i">Quando de
+                                    peculio actio annalis est</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {15.2.1} <hi rend="i">Pretor. Ulpianus</hi>.</head>
+                        <div type="gp">
+                            <p>Le prevoz dit cex paroles&#160;: « je donroi sentence enprés la mort
+                                à celi qui a esté en autrui poer, ou enprés ce que il a esté mis
+                                hors d’autrui bau, ou que il est franchi ou mis en autrui main por
+                                le chetel. Et se l’en l’a fet por conchiemant que le chatel soit
+                                apeticiez en cel an, cil qui ot l’autre en son poer premierement
+                                doit pledier ». ¶ {1} Tant comme fiz ou serf est en poer à autrui,
+                                aucion de chetel est durable. Et enprés la mort à celi, puis que cil
+                                sera mis hors de bau ou mis en autrui main ou franchi, ceste aucion
+                                n’est que d’un an. ¶ {2} Et l’en contera bon an&#160;; et par ce, se
+                                obligacion est fete par condicion, Julien dist que de lors conte
+                                l’an, non pas des quant l’en pot le plet monoier, tant comme la
+                                condicion dura. ¶ {3} Li prevoz fist à droit en ce cas auction
+                                treporele&#160;; car comme chetel estoint par mort ou por ce que il
+                                est mis en autrui main, il soffist que l’obligacion fust menee
+                                dusqu’am l’an. ¶ {4} Alienacion et manumission, ceste franchise
+                                apartient à sers non pas à fiz&#160;; mort apartient et à fiz et à
+                                sers&#160;; et metre hors de bau apartient au fiz. Et s’il est hors
+                                de la main au pere par autre meniere que par metre hors de sa main,
+                                l’aucion sera d’un an – c’est à dire que ele ne durra que un an et
+                                outre l’an ne durra pas. Et se il est hors d’autrui poer ou par mort
+                                de pere ou par essil, li heir au pere sera tenuz dedenz l’an. {5} En
+                                «&#160;metre en autrui main&#160;» est entendu vendeor et il est
+                                tenuz de ceste aucion dedenz l’an&#160;; {6} et s’il a doné ou
+                                cheingié le serf ou doné en doere, ausi en est. ¶ {7} Encor demande
+                                l’en se li heir à celi qui le serf lessa s’il est tenuz dou [76vA]
+                                chetel ou s’i commanda que il fust frans. Et il m’et avis que l’en
+                                ne doit pas aucion de chatel n’an celui qui fu franchi ne en celi à
+                                qui fu fet le lés. Or demande l’en, li heir est tenuz&#160;? ¶ Et
+                                Cecilius dit que il estoit tenuz – et en est tenuz – , car le chatel
+                                est ches celui que le rendi et se delivra de celi à cui il estoit
+                                lessié. Et Pegasus dit que il le devoit et que il en devoit doner
+                                segurté à l’oir par celui à qui le lés fut lessié, car li creancier
+                                vienent à lui&#160;; par quoi se il rent senz segurté, il sera trez
+                                en plet. ¶ {8} Se quant li sers est pris et le chatel li heir est
+                                prez de rendre l’eritage, s’il est trez en plet do chetel, il n’avra
+                                pas barre, si comme Marcellus dit. Et cil à cui l’en a rendu
+                                l’eritage ne doit pas estre receu, comme Scevala dist, comme il n’a
+                                pas le chatel ne ne fist pas por quoi il ne l’eust. ¶ {9} Et se le
+                                usage est passé, l’en avra aucion dedenz l’an contre le
+                                fruitier.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_09">
+                <front>
+                    <head type="gp">IX. De mandemant <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 15, tit. 4&#160;: <hi rend="i">Quod
+                                    jussu</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {15.4.1} <hi rend="i">Ulpianus. Merito</hi>.</head>
+                        <div type="gp">
+                            <p>L’en dona par droit aucion de tot demandemant au seignor contre celi
+                                o qui l’en fet marchié par son commandemant. {1} Nos entendon
+                                «&#160;commandemant&#160;» se aucun commande en son testamant ou par
+                                letres ou par paroles ou par message ou especiaument en un marchié.
+                                Et par ce, se il dit issi&#160;: ce que tu voidras foi à Tibert mon
+                                serjant&#160;; bien mi gart à ce commander se je ne prove que li
+                                marchié est coruz en autre meniere. {2} Et je demande se je puis
+                                rapeler cet commandemant avant que cil soit creu. Et je cuit que cil
+                                ausi, comme je eusse mandé et puis enprés rapelé mon
+                                commandemant&#160;; et je fis celi de certain. ¶ {3} Et se li peres
+                                ou li sires mande, il est veü que il commande. {4} Et se li sires
+                                seele au serf cez letres, il est tenuz dou commandemant. {5} Et que
+                                sera s’il plevist le serf&#160;? Marcellus dit que il n’est pas
+                                tenuz de ceste aucion, car iloc parlent si comme estrange&#160;; ne
+                                par ce n’est il pas tenuz de la cause de la plevine, mes par ce
+                                qu’autre chose est commander et autre choses est plevir. Et encor
+                                dit il que se il nicemant plevist, cil n’est pas obligié comme s’il
+                                eust commandé&#160;; et ceste sentence est veraie. ¶ {6} Se aucun a
+                                establi ce que son sers a establi o le fiz, ceste [76vB] aucion est
+                                contre aus. ¶ {7} Se li orfelins est sires, il n’est pas tenuz se le
+                                tutor no commanda ausi. ¶ {8} Se le serf fist le marchié par le
+                                commadement au frutuer ¶ et ausi de celi à cui il sert en bone foi,
+                                Marcellus cuide que ceste aucion soit contre aus&#160;; et je cuit
+                                que c’est bien. ¶ {9} Se l’en fet marchié au curator de vallet ou de
+                                desvé ou de gaste blé, Labeo cuide que l’en doit ceste aucion contre
+                                aus à cui a esté le serf. Et ausi est en veroi procurator&#160;; et
+                                s’il n’est verai procurator, Labeo dit que l’en donra aucion contre
+                                lui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.4.2} <hi rend="i">Paulus</hi>.</head>
+                        <div type="gp">
+                            <p>Se l’en fet creance au serf de l’orfelin por le commandemant au
+                                tutor, je cuit que, se l’en fet la creance par le preu à l’orfelin,
+                                l’en avra contre lui auction de ce que le tutor commada. ¶ {1} Se
+                                l’en fet creance par le commandemant au seignor à la serve, ou à la
+                                fille por le commandemant au pere, ceste aucion doit estre donee
+                                contre. ¶ {2} Se l’en fet marchié ou autrui serf par mon
+                                commandemant et enprés je l’achate, je ne seroi pas tenuz de ceste
+                                aucion, que ce que premerement ne valut rien soit fet bon por
+                                avainture.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.4.3} <hi rend="i">Ulpianus. Dominum</hi>.</head>
+                        <div type="gp">
+                            <p>Li sires qui commanda que l’en creut à usure à son serf deniers à
+                                prest, est tenuz de tant comme il commanda&#160;; ne obligacion de
+                                gage n’a point de leu en teneures que li sers a obligiés se n’est
+                                par la volenté au seignor.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.4.4} <hi rend="i">Idem. Si iussu</hi>.</head>
+                        <div type="gp">
+                            <p>Se l’en fet marchié o le serf de la cité por le commandemant de celi
+                                qui estoit sire, Ponponius dit que l’en a contre lui ceste
+                                aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {15.4.5} <hi rend="i">Paulus. Si dominus</hi>.</head>
+                        <div type="gp">
+                            <p>Se li peres ou li sires qui voloiet deners enprunter, et les
+                                commaderent conter à lor serf ou à lor fiz, ce n’est nule demande
+                                que il ne lor puissent demander&#160;; et en cest cas, n’a point
+                                ceste aucion de leu. ¶ {1} Se un des seignors au serf commanda fere
+                                marchié o celi, cil sol en sera tenuz&#160;; et se .ii. le
+                                commandent, l’en a aucion contre les .ii., car il sont .ii.
+                                commandeors.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_10">
+                <front>
+                    <head>X. Comment l'en est tenuz de mandemenz.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Obligement de mendement est fez par consentement de corage de cez qui
+                            font marchié ensemble&#160;; et tex mendement puet estre receuz par
+                            mesage ou par letres&#160;; et encor se ge vos pri, ou se ge voill, ou
+                            se ge mende, l'en a auction de mendement contre moi. Mandement puet
+                            estre porloignez jusqu'à jor, et puet estre fez par condicion<note>Dig.,
+                                lib. 17, tit. 1, frag. 1&#160;: <hi rend="i">Mandati vel
+                                    contra.</hi></note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Mandement, s'il n'et à gré de l'un et de l'autre, ne vaut riens.
+                            Mandement si est commoincement de servir et amitié, et s'en en prent
+                            loer, ce regarde plus loage que amitié. Mandement si viant entre nos, si
+                            comme ge te mande que tu faces aucune chose por l'amor de moi ou
+                            d'autrui, ou por autrui amor ou por la moie, ou por autrui <pb n="163"
+                            />solement&#160;; ou se ge te mende por amor de te <emph>(toi)</emph>
+                            solement, le mandemenz est nus. Mandemanz viant avant por l'amor de moi,
+                            ausint com se ge te mandasse que tu feisses mes aferes, ou que tu
+                            m'achetasses une teneure, ou que tu me plévisses<note>Dig., lib. 17,
+                                tit. 1, frag. 1, § 4&#160;; frag. 2 pr. § 1.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Mandement d'autrui amor viant avant, ausint com se ge te mandasse que tu
+                            feisses les aferes Gaubert, que tu li achètes une teneure, ou que tu li
+                            plévisses. Por autrui amor et por la moie est ausint fet mandement,
+                            ausint comme se je te mande que tu faces mes aferes et les Gobert, ou
+                            que tu plévisses por moi ou por Gaubert, ou que tu achates une teneure
+                            por moi. Por la toe amor, ausint com se ge te mandoie que tu feisses
+                            créance à celui qui me prestoit sor ma chose<note>Ibid., frag. 2, §
+                                2-4.</note>.</p>
+                        <p>Mandemenz por autre <emph>(toi)</emph> et por autrui est ausint com se ge
+                            te mande que tu feisses créance à Gaubert par autrui amor, et par tel
+                            chose vient mandemant avant.</p>
+                        <p>Por l'amor est mandemant, ausint com se ge te mende que tu changasses ta
+                            teneure à un autre, ou que tu feisses ta meson abattre&#160;; et tex
+                            parole est plus conseil que mandement&#160;; et por ce n'est-il pas
+                            obligiez de consoil, tot n'ait-il mestier à celui cui l'en done&#160;;
+                            car chascun doit panser en son corage que conseil li est bons ou
+                                mauvès<note>Ibid., frag. 2, § 5, 6.</note>.</p>
+                    </div>
+                    <div>
+                        <head>§ 4.</head>
+                        <p>Nus ne doit fere commendement, fors purement le mandement&#160;: car s'il
+                            fet plus que l'en ne li mende, s'il fet moins, il fet moins que l'en ne
+                            li mende. Mès la cause de celui qui mende puet estre fete meillor, ausi
+                            com se ge te mandasse que tu achatasses un cheval vingt sols et tu
+                            l'eusses por quinze sols.</p>
+                    </div>
+                    <div>
+                        <head>§ 5.</head>
+                        <p>Mandement de lède chose est nul<note>Ibid., frag. 5 pr., § 5&#160;; frag.
+                                6, § 3.</note>.</p>
+                        <p>Un home dit que Gaubert me manda que je li achetasse un cheval cent sols,
+                            ge li achate&#160;; je requiers les deniers qu'il les me rande et
+                            praigne le cheval. Gaubert nie qu'il ne se panssa onques&#160;; cil
+                            l'offre à prover par soi et par garanz, qui vit le commendement fere à
+                            celui qui aporta le mendement, et oï le mandement&#160;; et li copables
+                            fet encontre tel ni et tel deffanse comme il doit. L'en respont que li
+                            copables est loissanz de prendre la prove de celui qui demende et de son
+                            garant, <pb n="164"/>ou d'escondire par la soe. Mès s'il eust chetel en
+                            sa chose qu'il manda, et l'en l'eust dit en la demende, et offert à
+                            prover, il i eust gage.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_11">
+                <front>
+                    <head type="gp">XI. [77rB] De contrepois <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 16, tit. 2&#160;: <hi rend="i">de
+                                    Compensationibus</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {16.2.1} <hi rend="i">Modestinus. Compensacion</hi>.</head>
+                        <div type="gp">
+                            <p>Contrepoies est solte de dete et de creance l’un encontre
+                                l’autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.2} <hi rend="i">Julianus. Unus</hi>.</head>
+                        <div type="gp">
+                            <p>Chescun oste son creancier et son detor qui demande s’il veut fere
+                                contrepois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.3} <hi rend="i">Ponponius. Ideo</hi>.</head>
+                        <div type="gp">
+                            <p>Et por ce est contrepois necessere, car c’est plus nostre preu de
+                                requenoistre la dete que de demander ce que l’en a rendu.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.4} <hi rend="i">Paulus. Verum</hi>.</head>
+                        <div type="gp">
+                            <p>Ce que plesoit à Neracius est voier. Et Ponponius dit que li pleige
+                                doit moins par droit de tot marchié de tant comme li detor pot
+                                retenir de contrepois&#160;; ausi comme se je demande tot au detor
+                                je demande malement, ausi le plege n’est pas tenuz en plus que cil
+                                por qui il plevist pot estre condempné.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.5} <hi rend="i">Gaius</hi>.</head>
+                        <div type="gp">
+                            <p>Se l’en demande rien au plege, droiz est que il choissise le quel que
+                                il vodra miauz que l’en face contrepois à lui ou au detor de ce que
+                                l’en doit&#160;; et s’il veaut l’un et l’autre trespasser, il doit
+                                estre oïz.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.6} <hi rend="i">Paulus. Etiam</hi><note>Etiam]
+                                    <emph>etien</emph> dans le ms., cf. lat. <emph>Etiam quod natura
+                                    debetur</emph></note>.</head>
+                        <div type="gp">
+                            <p>Et ce que l’en doit por nature vient en contrepois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.7} <hi rend="i">Idem. Quod in diem</hi>.</head>
+                        <div type="gp">
+                            <p>Ce que l’en doit à jorné sera pas contrepesé jusque li jor viegne.
+                                {1} Se le juige ne velt pas fere contrepois, la demande remoint
+                                sauve, ne l’en ne li pot metre encontre barre de chose juigie. Je
+                                diroi autre chose se il ne velt fere contrepois, ausi comme s’il
+                                n’eust point de dete, lors avroi ge contre moi barre de chose
+                                juigie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.10} <hi rend="i">Ulpianus. Si ambo</hi>.</head>
+                        <div type="gp">
+                            <p>Se nos somes .ii. compoingnons et nos somes [77vA] ausi l’un comme
+                                l’autre negligenz en noz aferes, l’en doit dire que nos leson à
+                                estre obligié et que l’en doit garder le contrepois de la
+                                negligence. Et ausi prove l’en se l’un prent rien de la chose
+                                commune et li autre fust tant negligent que bien valut sa niceté par
+                                la proece à l’autre, l’en porra ci fere contrepois et delivrer l’un
+                                et l’autre. ¶ {1} Se aucun doit fere contrepois et rende<note>rende]
+                                        <emph>rendre</emph> dans le ms., cf. lat.
+                                        <emph>solverit</emph></note>, il porra demander ausi comme
+                                s’il eust rendu chose que il ne devoit. ¶ {2} À totes les foiz que
+                                aucion nest de male foi, si comme de larecin et de tex malefices, se
+                                l’en plede de tel chose por avoir deniers contrepois a leu&#160;;
+                                ausi est se l’en plede de cause de larrecin. ¶ Et cil qui est tret
+                                en plet de cause de forfet pot metre avant contrepois. ¶ {3} Et en
+                                promesse a ceste aucion leu&#160;; et segont ce que Julien dit, en
+                                la promesse ou aucion de promesse porra l’en metre contrepois
+                                avant.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.11} <hi rend="i">Idem. Cum alter</hi>.</head>
+                        <div type="gp">
+                            <p>Quant l’un doit deners à l’autre sanz usure et li autre doit usure,
+                                Severus li enpereor establi que de tant comme chescun a il ne doit
+                                pas rendre l’usure.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.12} <hi rend="i">Idem. Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Ausi est non pas solemant en privez aferes que en communs&#160;; et
+                                s’il a usure ça et la, et il i a diverses<note>diverses]
+                                        <emph>diversses</emph> dans le ms., distraction du copiste,
+                                    qui a inseré un –<hi rend="i">s</hi> supplementaire après
+                                    l’abréviation</note> usures, contrepois a leu de que l’un doit à
+                                l’autre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.13} <hi rend="i">Idem</hi>.</head>
+                        <div type="gp">
+                            <p>Ce que Labeo dit n’est pas sanz reson, que se l’en fet especiaument
+                                contrepois à aucunne demande, ele ne sera pas misse contre cez
+                                autres choses.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.15} <hi rend="i">Idem. Pecuniam</hi>.</head>
+                        <div type="gp">
+                            <p>J’é promis à baillier deners à Tebert en certain leu, cil les me
+                                demande&#160;; je demande se l’en doit ce contrepeser de tant comme
+                                je ne vossisse que el ne fust rendue en certain leu. Je di, se
+                                Tebert demande cel argent que il promist en certain leu, il convient
+                                ce contrepeser ou sa cause, c’est à dire por combien il ne vosist
+                                que la peccune ne fust rendue, la où ele fust promisse.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.16} <hi rend="i">Papinianus. Si cum</hi>.</head>
+                        <div type="gp">
+                            <p>Se un<note> un] <hi rend="i">une</hi> dans le ms.</note> autre est
+                                heir à chevaler et un autre heir est, et le detor qui est obligié à
+                                l’un des heirs veault contrepeser ce que li autres li doit, il ne
+                                sera pas oïz. ¶ {1} Quant cil qui est condempné à Tebert plede de la
+                                chose jugie dedanz le jor que la chose fu jugie [77vB], l’en n’avra
+                                pas contrepois, car autre chose que le jor de l’obligacion n’est pas
+                                venu&#160;; autre chose est s’il done terme de rendre por sa
+                                debonereté. ¶</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.17}</head>
+                        <div type="gp">
+                            <p>Et cil qui est condempné por ce que il ne fist largece de blé quant
+                                le herbaut fu, n’est pas senblant que il done l’argent do froment,
+                                et por ce avra il contrepois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.20} <hi rend="i">Idem. Ob negacionem</hi>.</head>
+                        <div type="gp">
+                            <p>Se curator est condempné de ce que l’en li commanda que il foist
+                                avoir en l’ost quant il i fut, ne fust pas escordé que il receust
+                                l’argent par contrepois, car il n’est pas contrepoissé.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.21} <hi rend="i">Paulus. Postea</hi>.</head>
+                        <div type="gp">
+                            <p>Puis que il fut acordé entre tot<note>entre tot]
+                                        <emph>entretor</emph> dans le ms., cf. lat.
+                                        <emph>interomnes</emph></note> que ce que l’en dut ça et la
+                                fust contrepoissé - Paulus -, se le procurator à celi qui estoit
+                                hors do païs est tret en plet, il ne devra pas doner caucion de
+                                fermeté&#160;; car il n’i a point de contrepois et au commoincement
+                                li doit l’en moins demander.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.22} <hi rend="i">Scevola. Si debeas</hi>.</head>
+                        <div type="gp">
+                            <p>Se tu doiz .x. solz et tis averseres ne veust fere contrepois, li
+                                contrepois de ceste dete est issi fet se li averseres dist en apert
+                                que il le vosist ou non.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.23} <hi rend="i">Paulus. Idem quod</hi>.</head>
+                        <div type="gp">
+                            <p>Se le tutor demande ce qu’est deu en non de orfelins, l’en ne porra
+                                metre avant le contrepois de cel argent que li tutor doit à
+                                l’aversere en son non.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.2.24} <hi rend="i">Paulus. Iussit</hi>.</head>
+                        <div type="gp">
+                            <p>Li enpereor commanda que cil fust oïz qui voloit prover que il li
+                                devoit et que il l’en fut tret en plet.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_12">
+                <front>
+                    <head type="gp">XII. De chose que l’en baille à garder que l’en apele depos <hi
+                            rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>Traduit du Dig., liv. 16, tit. 3&#160;: <hi rend="i">Depositi
+                                    vel contra</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {16.3.1} <hi rend="i">Ulpianus. Depositum</hi>.</head>
+                        <div type="gp">
+                            <p>Deposee chose est qui est baillie à garder à aucun&#160;; et l’en
+                                apele «&#160;deposee&#160;» por ce que ele i est posee&#160;; car
+                                ceste preposicion croit le depos por senefier que il met tot sor la
+                                loiauté quanque apartient à la garde de la chose. ¶ {1} Le prevost
+                                dit&#160;: je donroi juigement de ce qu’est baillié à garder, non
+                                pas por acheson de guerre, ne de feu, ne de froissiez de nef, ne de
+                                trebucheiz, ¶ d’une chose contre celi qui avra la chose esgardé. Et
+                                des choses qui sont desus nomees, contre lui à doble&#160;; et
+                                contre l’oier à celui don l’en dira que li mort i fist barat, d’une
+                                chose. ¶ {2} Le prevoz departit par droit ces causes de baillier
+                                choses en garde, que contienenent cause de aventure de bau, qui
+                                descent de besoing qui ne vient pas de volenté. ¶ {3} Et l’en entant
+                                que cil baille en garde par cause de feu, [78rA] de guerre, qui n’a
+                                nule autre cause de baillier en garde fors que le peril aparissant.
+                                ¶ {4} Ceste defenrance de causes n’est pas sanz reson&#160;; car
+                                comme cil qui baille sa chose en garde par sa volenté à aucun en qui
+                                il se fie, il se doit tenir apaié de simple rente. Et quant il
+                                baille en garde par besoing, le crime au trecheor il le croist, et
+                                le doit comperer par le commun profist&#160;; car c’est moult grant
+                                mauveté de froissier sa loiauté quant l’en reçoit chose en garde. ¶
+                                {5} Ce qui s’esjont<note>s’esjont] <emph>se fiont</emph> dans le
+                                    ms., cf. lat. <emph>Quae depositis rebus accedunt</emph></note>
+                                à choses baillies en garde ne sont mie desposees&#160;; ausi comme
+                                se l’en met en garde un home vestu, la robe n’est pas por ce
+                                baillie&#160;; ne se un chevau est baillié ou le chevoitre, car le
+                                cheval solement est desposé. ¶ {6} S’il est en convant que barat et
+                                colpe soent hors de bau, la convenance est bone, car li marchié
+                                prenent loi de la convenance. {7} L’en ne doit pas desloier ce que
+                                trecherie soit hors&#160;; car, s’il i a trecherie et barat, ce est
+                                contre bones mors et contre bone foi, et por ce ne la doit l’en pas
+                                tenir. ¶ {8} Se robe que l’en a baillie à garder à celi qui garde
+                                les bainz est perrie et cil n’a eu nul loier de la robe garder, il
+                                est tenuz de bau, et cuit que il doit fere foi que il ne fist
+                                barat&#160;; et s’il en ot loier, il est tenuz do loage. ¶ {9} Se
+                                aucun gete son serf qui estoit baillié à garder au pestrin, et se li
+                                petriseor et loer por garder le serf, je cuit que l’en a aucion
+                                contre celi do loage. Et se j’é pris loer por le serf que cil tient
+                                en son mestier, je puis avoier aucion de loage&#160;; et se les
+                                ovres à celui serf furent baillies o le serf, c’est ausi comme
+                                loage. ¶ Et par ce que il n’i ot point de loier, ceste aucion est de
+                                paroles&#160;; et s’il ne rent rien que le manger et tu n’eus rien
+                                de la besoigne au serf, ceste aucion est contre toi. ¶ {10} L’en
+                                ostera barat et tricherie de loage et d’autres convenances don nos
+                                avons desus parlé. Et se aucun reçoit un serf et il li done à
+                                mangier solement, l’en ne metra hors de ce que tricherie&#160;; et
+                                ausi comme Ponponius dist, s’il i ot rien en convenance ne escrit,
+                                il n’i a [78rB] ura nus hors que tricherie vers cez qui le serf
+                                receurent&#160;; et ceste tricherie doit estre ostee folement do
+                                depos. ¶ {11} Se ge te prie que tu portes mes choses à Tibert que il
+                                les me gart, l’en demande à Ponponius quele aucion je puis avoir
+                                contre toi. Et il cuide que de aucion de commandemant&#160;; et se
+                                cil reçoit celes choses, il i a aucion de depos&#160;; et s’il la
+                                reçoit en ton non et tu le mandas, tu es tenuz de commandemant et il
+                                t’est tenuz de depos&#160;; et se tu es tret en plet de mandemant,
+                                tu me bailleras ceste auction. ¶ {12} Et se te baille la chose que
+                                se Tebert ne prist la chose tu la me gardasses, et il ne la prent
+                                pas, l’en doit voer se tu es tenuz solement de bau ou do
+                                commandemant&#160;; et Ponponius en dote. Et je cuit que tant
+                                solement de aucion de commandemant, car plus fust à voier le
+                                mandemant que la garde. ¶ {13} Ausi dist Ponponius&#160;: se je te
+                                mande que tu me gardes ma chose que tu as receu en mon non de aucun
+                                et tu le fes, issi l’en demande se tu es tenuz de mandemant ou de
+                                depos. Et il dit que plus vaut de aucion de mandemant, car c’est
+                                celi premer marchié. ¶ {14} Ausi demande Ponponius&#160;: se quant
+                                je vol deposer ma chose ches toi, tu commandas la metre chiés ton
+                                serf, l’en demande se j’é contre toi ceste aucion. Et il dist&#160;:
+                                se ge li mis en ton non, ausi comme se tu le gardasses, j’é contre
+                                toi ceste aucion. Et se tu me diz que je mete ma chose ches toi, je
+                                n’é nule aucion contre toi, et ceste aucion est o celi, ne tu n’es
+                                pas tenuz do commendement, car tu fois mes choses. Mes se tu
+                                commandas que je le moisse ches celi en ton peril, je ne voi pas por
+                                quoi il n’i eist aucion de mandemant. Et se tu fus son plege, Labeo
+                                dist sanz faille que tu es tenuz non pas solement se cil fist barat
+                                me·s’il a la chose. Et que sera se cil fu forsené qui ot la chose ou
+                                s’il est orfelin ou il n’est heir, ne ne tient les biens ne cil n’ot
+                                nul heir&#160;? Il sera tenuz et convient que il rende le bau. ¶
+                                {15} L’en demande se l’en doit doner [78vA] aucion contre l’orfelin
+                                à cui l’en a baillé à garder sanz l’autorité au tutor. L’en doit
+                                voer se il set point de barat&#160;; l’en i a aucion s’il fet barat
+                                de tant comme il i a gaignié&#160;; et s’il n’i fet barat, ausi est
+                                il tenuz. ¶ {16} Se l’en rent la chose enpiree que l’en a en garde
+                                baillie, l’en pot avoir aucion ausi comme se ele ne fut pas
+                                rendue&#160;; quar quant ele est rendue peor, l’en pot dire, por le
+                                barat qui est, que el n’est pas rendue. ¶ {17} Se mon serf baille
+                                aucunne chose en garde, je avroi aucion de bau. ¶ {18} Se ge baille
+                                à sers ma chose en garde et ge plede o franchi, Macellus dit que il
+                                n’i a point de aucion, ja soit ce que nos solons dire que chescun
+                                est tenuz de barat qui est fet ou tens que aucun est serf&#160;; car
+                                li forfez doivent estre puniz or convendra aler à autres aucions
+                                convenables. ¶ {19} Ceste aucion est rendue à cez qui tienent les
+                                biens et lor heirs. ¶ {20} Et l’en n’avra pas aucion solement de
+                                barat qui est passé mes de celi qui est à venir, c’est à dire enprés
+                                ce que plet est entammé. {21} Et d’iqui dit Neracius&#160;: se chose
+                                baillie en garde est perdue sanz barat et ele est trovee enprés ce
+                                que le plet en fu terminé, por ce ne ravient pas que cil qui l’ot ne
+                                soit tenuz à rendre la, ne ne doit pas estre delivré s’il ne la
+                                rent. ¶ Oncor dit li enpereor&#160;: ja soit ce que l’en n’et pledié
+                                o toi de bau, et tu n’as poer de rendre moi la chose, car li grenier
+                                por avointure sont clos, se tu as poer de rendre la avant ce que tu
+                                es condempnez à rendre la, tu doit estre condempnez se tu ne la
+                                ranz, car tu l’as&#160;; lors doit l’en demander se tu i ferés barat
+                                quant tu n’as pas la chose. ¶ {22} Julien dit que cil qui deposa la
+                                chose pot demanois avoir aucion de demander la&#160;; car il apert
+                                que cil qui la chose reçut i face barat quant il ne la vost rendre à
+                                celi qui la demandoit. Et Marcellus dit que cil ne fest pas barat
+                                toz jorz s’il ne rent la chose à celi que ele est ; car par aventure
+                                la chose sera loing de celi [78vB], ou il ne porra pas ovrir les
+                                graniers au jor que il fut condempné de rendre la, et la condicion
+                                de rendre<note>rendre] <emph>rendra</emph> dans le ms.</note> la
+                                n’est pas echevé. {23} Il ne convient pas doter que ceste aucion ne
+                                soit de bien et de lëauté. {24} Et por ce doit l’en dire que l’en
+                                pot demander par ceste aucion les fruiz de la chose baillie et les
+                                feons et toute la cause, que la chose ne soit rendue mie si comme
+                                ele fut baillie. ¶ {25} Se tu vendis la chose qui ce fut baillie et
+                                enprés la rachetas, se ele perist puis, tot n’i ert il point de
+                                barat, tu en es tenuz, car tu fois barat une foiz quant tu la
+                                vendis&#160;; {26} et en ceste auction jure l’en en plet. ¶ {27} Non
+                                pas mes se cili qui me sert en bone foi balle chose en garde droit
+                                esgarde et sera que je en ee aucion s’il balla chose qui
+                                m’apartenoit. {28} Et ausi se g’e usage et fruit en serf, se ce que
+                                il bailla en garde fut do chetel qui n’i apartenoit ou se la chose
+                                fut moie, je porrai avoir ceste aucion. ¶ {29} Se serf heriter
+                                baille chose à garder, li heir qui avra l’eritage avra ceste aucion.
+                                ¶ {30} Se serf baille chose en garde s’i mort ou s’il vit, li sires
+                                avra ceste aucion à droit&#160;; et se le serf est franchi, il ne la
+                                porra avoier. ¶ Et s’il est mis en autrui main, il avra ceste aucion
+                                cis cui est le serf quant il fist le bau, car l’en doit regarder le
+                                commencement do marchié. ¶ {31} Se le sers qui bailla la chose en
+                                garde est à .ii. seignors, chescun avra à ceste aucion par sa
+                                partie. ¶ {32} Se tu rendis à Tebert la chose que li serf avoit
+                                baillie en garde et tu cuidas que il en fust sires et ne l’estoit
+                                pas, tu n’es pas tenuz de ceste aucion&#160;; ce dit Celsus, car il
+                                n’i à point de barat et li sires pledera o Tebert ou o celi qui la
+                                chose a, et la mostree en demandera à avoier. ¶ Et s’ele li est
+                                monstree, il la chalongera. Et s’il despandi la chose qui savoit que
+                                ele estoit à autrui, il sera condempné, car il fist par son barat
+                                que il ne l’ot pas. ¶ {33} L’en fet une demande trop bele à
+                                Julien&#160;: se le serf me bailla deners en garde par si que ge les
+                                donasses à son seignor por lui franchir et ge les li done, l’en
+                                demande se ge sui [79rA] tenuz dou bau. Et Neracius dist&#160;: se
+                                je les baille issi que el fut à moi baillé por ce et je le te faz
+                                savoir, tu n’as pas ceste aucion contre moi&#160;; car tu seus bien
+                                l’afere quant je t’e baillé l’argent et issi n’i faz ge point de
+                                barat. Et se je baille les deniers comme miens por lui franchir,
+                                g’en seroi tenuz, et m’est avis que c’est voir&#160;; et cist ne
+                                randi pas la chose sanz barat, et si ne la rendi pas&#160;; car
+                                autre chose est rendre et autre chose est doner do sien.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.3.16} <hi rend="i">Affricanus. Si his</hi>.</head>
+                        <div type="gp">
+                            <p>Se cil à cui tu as baillié la chose à garder la baille à un autre, et
+                                cil pert aucunne chose por le barat à celi à cui il le bailla
+                                enprés, cil est tenuz à cui tu la baillas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.3.31} <hi rend="i">Trophonius. Bona</hi>.</head>
+                        <div type="gp">
+                            <p>Bone foi que l’en demande en marchié deserre que l’en face lëauté.
+                                Mes l’en demande se l’en le doit esmer segont le droit à genz ou
+                                segont le droit à prevoz. Ausi comme se cil qui estoit condempné à
+                                perdre la teste te bailla .c. solz en garde et il fust envoié en
+                                essil et ses chose sont totes sesies, l’en demande se l’en li doit
+                                ce rendre o metre o les choses sesies. Se nos regardon droit naturel
+                                et de gent, le doit rendre la chose à celi qui la bailla&#160;; mes
+                                segont droit de cité et segont loi, il doit rendre les choses o
+                                celes qui sont sesies, car li maufesor doit avoir soffroite por
+                                espoenter les autres. {1} Et oncor devons nos regarder se nos devon
+                                voier solement bone foi entre cex qui ont fet lor marchié sanz autre
+                                jointure ne sanz autres persones à cui apartient ce que l’en fet. Et
+                                vez l’esample&#160;: ¶ un lierres mist en garde ches Gaubert la robe
+                                que il me tolit, cil Gaubert n’en savit rien de larrecin, l’en
+                                demande à cui je Gaubert vendrai la chose, ou au larron ou à celi
+                                que eles sont. Se nos regardon celi qui baille et celi qui reçoit,
+                                c’est la bone foi que cil ait la chose qui la bailla&#160;; et se
+                                l’en regarde equité de totes les persones qui avienent à cest afere,
+                                l’en me doit rendre la chose, et par ce les doit perdre li lerres.
+                                Et por ce, di ge que c’est droiz qui rent à chescun ce qu’est droiz.
+                                Et se je ne demande la chose, el doit estre rendue à celi qui li
+                                mist, tot i eit il mis chose que n’estoit mie soe. Et [79rB] ausi
+                                dit Macellus en toleor et en robeor. Et se li lierres n’en sot rien
+                                que la chose fust au fiz ou au serf à qui il la tolit, et il la met
+                                en garde chiés le pere ou ches le seignor, par droit de genz ne vaut
+                                rien ce bau, qui a tel poer que la chose doit estre baillee au
+                                seignor à l’autre non pas qui est baillie comme estrange à garder.
+                                Et se li lerres me baille à garder la chose que il m’a emblee et
+                                rien n’en soi, l’en dira par droit que li bau est nul, car il n’i a
+                                point de bone foi et il est tenuz de rendre ses choses au seignor.
+                                Et s’ele estoit baillie do seignor qui rien n’en sot, il la pot
+                                redemander ausi comme de cause de bau.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {16.3.32} <hi rend="i">Celsus. Quod Nerva</hi>.</head>
+                        <div type="gp">
+                            <p>Ce que Nerva dist que grant colpe estoit tricherie ne plesoit pas à
+                                Proculus&#160;; car se aucun n’est pas si diligent comme nature
+                                desierre, s’il ne fu si diligent à sa maniere en la chose garder, il
+                                n’a point de barat. Et, sauve la foi, il ne metra menor diligence en
+                                cele chose garder qu’an la soie.</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_13">
+                <front>
+                    <head>XIII. De chose baillie en garde, d'establissemanz de roi, et de choses qui
+                        sont baillies en yglise en garde.<note>Les trois premiers paragraphes de ce
+                            titre sont tirés du chap. 1, et les trois derniers du chap. 2 des
+                            Décrétales de Grégoire IX, au liv. 3, tit. 16.</note></head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Li rois dit en son conseil&#160;: Nos avons sovent plez de quoi une
+                            question est née qui nos avient sovant&#160;; et por ce que nos savons
+                            que plusors tex choses avienent sovent, il en semblent qui estoit bien
+                            mester que nos feissiens une loi propre à savoir le droit des choses qui
+                            sont baillies en garde.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Comme un ons meist ses deners en un moster, en une uiche qu'il aporta,
+                            uns clers embla ces deniers, et s'enfoï. Cil hom demande ses deners à
+                            l'abé et au convent de ce moter. A ce respondi li abés et li convenz
+                            qu'il n'en voloit nus rendre, comme li dener n'avoient pas esté baillié
+                            espéciaument, mès en l'iglise avoit mise cele chose, et aus avoient mis
+                            diligence de prodome en garder l'iglise. Don l'en demende qu'en dit
+                            droiz. Et l'en dit que l'iglise n'i est pas tenue, et que l'en doit
+                            querre le clerc, et s'il est trovez, qu'il soit forciez de rendre les
+                            deniers.</p>
+                        <p>Ci a bone devise, comme chose est mise ou chiés clerc ou en yglise, l'en
+                            doit demender la chose à la personne, non pas à l'iglise, se ce n'est
+                            torné en preu de l'iglise&#160;: lors est tenue l'iglise de ce qu'el en
+                            a eu, tot ne soit la chose mise en l'iglyse. Et quant la chose est mise
+                            en <pb n="165"/>l'iglyse, pardevant les prélaz de l'iglyse, lors la doit
+                            l'en demender à l'yglise. Et l'en doit maumener celi chés qui l'en a
+                            mise la chose en garde qu'il la rende.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Aucun mist sa chose en ma meson, ge la perdi&#160;; mès la moie fust bien
+                            gardée&#160;; et l'en dist que, tot doie l'en cuider que j'eie la chose
+                            bien gardée que l'en me bailla à garder, en ce quas a présumpcion qu'il
+                            ne l'et pas bien gardée.</p>
+                        <p>Mès posé que je te baille une chose à garder por estre sauve, ou tu eus
+                            loer por la chose garder, se la garde n'empire par tes copes, tu n'i es
+                            pas tenuz, fors en tres quas&#160;: que se tu as convent que s'ele est
+                            perdue que tu la li rendras&#160;; ou quant ta cope ala avant le
+                            quas&#160;; ou quant la chose demora à rendre.</p>
+                        <p>Posé soit que aucun eist mise sa chose chés toi jusque à la Saint-Guérin,
+                            la porra-il demender avant le terme&#160;? et l'en dit que oïl, posé
+                            encore que cil qui te baille sa chose à garder estoit tenuz à toi de
+                            rendre aucuns deniers por la chose garder, tu ne veauz pas la chose
+                            rendre jusque tu eis ta promesse&#160;: l'en dit que tu puez bien ce
+                            fere, que bone foi ne soit tornée à tricherie, que l'en ne te toille ce
+                            que tu as déservi.</p>
+                        <p>Et se aucuns reçoit or ou autres choses en garde par aucune condicion,
+                            cil qui a la chose en garde doit la chose rendre, quant la condition est
+                            acomplie, ne nus n'oit congié de deffendre contre ce, que la chose que
+                            fu baillie en garde ne soit rendue&#160;; car plusors priviléges en sont
+                            donées par le feseor de lois, et par nos-meismes ès choses baillies en
+                            garde.</p>
+                        <p>Et s'il avient que la chose que estoit baillie en garde soit perdue, ou
+                            périe par quas d'aventure que l'en ne pot eschever, la perte soit sor
+                            celi qui la chose est, se la chose ne demora à rendre par celi qui la
+                            gardoit. L'en commende que plus soit estroitement commendé la chose
+                            rendre à celi qui la garde, qu'ele ne soit juigée à perdue à celi qui la
+                            bailla à garder, por ce que li gardeor des choses n'aient acheson de
+                            fere tricherie, ne desloïauté&#160;; car o tot ce ne se gardent-il
+                            pas.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_14">
+                <pb n="166"/>
+                <front>
+                    <head>XIV. De choses prestées qui sunt fetes par prière.</head>
+                </front>
+                <body>
+                    <div>
+                        <head>§ 1.</head>
+                        <p>Chose qui est fete par prière si puet estre rapelée, issit comme vos
+                            porrez ci-emprès oïr.</p>
+                        <p>L'en dit ci<note>Au chap. 2, liv. 3, tit. 14, des Décrét, de Grég.
+                                IX&#160;: <emph>de Precariis.</emph></note> que ce que li ancessors a
+                            estrangé malement, cil qui viant emprès lui le puet rapeler, en tens que
+                            successor puet rapeler. Ce que ancessor mist mauvèsement, il n'est pas
+                            tenus en ce que si ancessors en fist.</p>
+                    </div>
+                    <div>
+                        <head>§ 2.</head>
+                        <p>Se ge otroi à aucun la moie chose par prière, l'en demende combien doit
+                            durer ce prest&#160;? Et l'en dit tant comme ge vodroi. Et tel otroi est
+                            dépéciez, quant cil est morz qui presta o celui à qui l'en
+                                presta<note>Ce paragraphe et les deux suivants sont extraits du
+                                chapitre 3, ibid.</note>.</p>
+                        <p>Posé que je t'otroi ma chose par prest&#160;; tu la mez aillors&#160;; je
+                            la voil rapeler, puis le je fere&#160;? L'en dit que oïl&#160;; car il
+                            ne lest pas à autrui tenir ma chose sanz ma volenté. Posé que je te
+                            preste ma chose por ton besoing, la puis-ge demender d'avant que ton
+                            besoin fauge&#160;? Nenil, se tu ne lessoies ton besoing à estanchier
+                            par malice, por tenir ma chose&#160;; et lors la te porroie-ge
+                            demander.</p>
+                        <p>Et se ge te preste ma chose jusque à un jor, la te puis-ge demender avant
+                            le jor por mon besoing&#160;? Non, que male foi n'i soit entendue. Et
+                            s'il n'a que fere de la choze et ge en aie besoing, puis la ge
+                            demender&#160;? Et l'en respont que cortoisie sera se ele est rendue por
+                            le besoing, quant cil n'en a afere, come l'en doie estre recorz des
+                            biens que li a fez.</p>
+                        <p>Or demende l'en se chose est prestée et ele soit perdue, se l'en i est
+                            tenuz&#160;? Et l'en respont que la division est tele&#160;: se la chose
+                            est prestée par si que l'en la rende, la convenance vaut. Et se la chose
+                            est prestée simplement, sanz division, li emprunterres ait mis ausi
+                            grant diligence en la chose garder, comme prodom doit fere, et la chose
+                            périsse, il n'en est pas tenuz. Et se la chose demuere à rendre enprès
+                            le terme qu'ele dut estre rendue, et ele périst, comment que ce soit,
+                            ele doit estre rendable<note>Decret Greg. IX, lib. 3, tit. 15, cap.
+                                unic.&#160;: <emph>de Commodato.</emph></note>.</p>
+                        <p><pb n="167"/>Et se li chevaus est menez plus grant jornée qu'il ne doit
+                            et plus tost que reson ne done, et il périst, est-il rendables&#160;?
+                            Oïl&#160;; car il apert plus que la chose soit desavancie par l'otrage
+                            que non.</p>
+                    </div>
+                    <div>
+                        <head>§ 3.</head>
+                        <p>Emprès l'en dit que quant l'en preste la chose à certain usage, que l'en
+                            ne la puet redemender ainz que la chose soit fete, por quoi l'en i mete
+                            diligence de prodome&#160;; car l'en ne doit pas estre déceuz de
+                            bienfet, einz en doit l'en estre aidiez<note>Decret. Greg. IX, lib. 3,
+                                tit. 15&#160;: <emph>de Commodato.</emph></note>.</p>
+                        <p>Et se aucuns dit que la chose est prestée à certain usage, et li
+                            prestierres li nit&#160;; ou s'il dit que l'en a presté simplement, et
+                            li presterres li nist&#160;: en tel chose n'a pas bataille, mès
+                            prove&#160;; et li chois de la prove est au presteor.</p>
+                        <p>Se li emprunterres nia la chose qui li a esté prestée, qu'ele ne li fu
+                            onques prestée, en tel chose a bataille, et se la chose est tele que
+                            bataille en doie nestre&#160;; car se li presterres dit qu'il est prest
+                            de prover par soi et par garanz, qu'il li presta la chose, et die quele,
+                            et li autre die encontre qu'il fet tel ni et tel deffense comme il
+                            doit&#160;: droiz dit qui sera loisanz de prendre la prove de celui et
+                            de son garant, et de quenoistre que c'est voir, ou d'escondire par gage
+                            de bataille vers un des garanz.</p>
+                        <p>Et en autre forme doit l'en dire de celui qui quenoist qu'il a emprunté,
+                            et dit qui li a rendu, et l'offre à prover par soi et par garanz.</p>
+                    </div>
+                </body>
+            </text>
+            <text xml:id="art_15">
+                <front>
+                    <head type="gp">XV. [80rA] De compoignie <hi rend="i">[rubr.]</hi></head>
+                    <div type="original">
+                        <listWit>
+                            <witness>La première partie de ce titre est traduite du Dig., liv. 17,
+                                tit. 2&#160;: <hi rend="i">Pro socio</hi>.</witness>
+                        </listWit>
+                    </div>
+                </front>
+                <body>
+                    <div>
+                        <head>§ {17.2.1} <hi rend="i">Societas</hi>.</head>
+                        <div type="gp">
+                            <p>Compoignie pot estre fete à toz jorz, c’est à dire tant comme il
+                                vivent, ou à ja ou par condicion. ¶ {1} En compoignie, totes les
+                                choses de toz les biens que cil ont, qui s’entracompoignent, sont en
+                                communauté manois.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.3} <hi rend="i">Paulus. Ea vero</hi>.</head>
+                        <div type="gp">
+                            <p>Et les choses qui sont en chetel remainent en lor estat, et les
+                                aucions doivent estre rendues aucunne foiz. {1} Quant compoignie de
+                                toz biens est especiaument assenblie, lors et l’eritage et les lés
+                                ou ce qu’est conquis par aucunne reson vient en communauté. ¶ {2}
+                                L’en demande de celi se compoignie est issi assenblee que se aucun
+                                droit heritage avient à l’un et à l’autre qui soit commun [80rB],
+                                qui est droit heritage. À l’un et à l’autre li avient par lëau
+                                droit, et ce qu’est en testamant et qu’est apartenant à lëau
+                                heritage. ¶ {3} Se compoignie est assenblie par barat ou par
+                                conchiement, il est nule par droit&#160;; car bone foi est contraire
+                                à barat et à tricherie.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.4} <hi rend="i">Modestinus. Societatem</hi>.</head>
+                        <div type="gp">
+                            <p>N’est pas dote que l’en ne puisse bien fere compoignie et par chose
+                                et par parole et par message. {1} Nos somes desavanci de la
+                                compoignie, par mort, par apeticement de chief, par reniement et par
+                                besoing.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.5} <hi rend="i">Ulpianus. Societates</hi>.</head>
+                        <div type="gp">
+                            <p>Compoignies sont fetes de toz cez que l’en a eu, d’aucunne
+                                marchandie, ou de trevage, ou d’une chose. ¶ {1} Compoignie puet
+                                estre fete et vaut entre tez qui n’ont pas li un tant comme li
+                                autre&#160;; comme aucunne foiz avient que la povreté<note>que la
+                                    povreté] <emph>que la porveance</emph> dans le ms., incohérence
+                                    determinée par la mauvaise lecture d’une abréviation, cf. lat.
+                                        <emph>cum plerumque pauperior opera suppleat, quantum ei per
+                                        comparationem patrimonii deest</emph></note> d’auqun face
+                                autretant par sa porveance et par son seu comme l’autre a mis de son
+                                patremoine. ¶ {2} Compoignie n’est mie bien fete par cause de
+                                doner.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.6} <hi rend="i">Pomponius. Si</hi>.</head>
+                        <div type="gp">
+                            <p>Se tu fez compoignie o moi par tel condicion que tu feisses parties
+                                de la compoignie, cele chose doit estre menee avant à l’arbitre do
+                                prodome. Et est bien par l’arbitre de prodome que nos ne seons pas
+                                compoingnons de ivés parties&#160;; ausi comme se le un mest plus
+                                que l’autre en la compoignie que il n’i meste de peccune.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.7} <hi rend="i">Ulpianus. Cohiri</hi>.</head>
+                        <div type="gp">
+                            <p>L’en pot assenbler compoignie simplement. Et s’il n’est devise,
+                                aparissant est que la compoignie est de tot ce que l’en pot
+                                conquerre, c’est à dire se aucun gaignent d’achast, de vendicion, de
+                                loange.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.20} <hi rend="i">Idem. Nam</hi>.</head>
+                        <div type="gp">
+                            <p>Car le compoignon mon compoignon n’est mie mon compoignon.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.35} <hi rend="i">Ulpianus. Nemo</hi>.</head>
+                        <div type="gp">
+                            <p>Nus ne pot apareillier compoignie à son heir que li heir soit
+                                compoignon&#160;; et l’en a aucion contre l’eir au compoignon que il
+                                soit leal.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.39} <hi rend="i">Ponponius. Si fundus</hi>.</head>
+                        <div type="gp">
+                            <p>Se ge et tu avons un champ et tu enterres un mort, je avrai aucion
+                                contre toi.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.40} <hi rend="i">Idem. Heres</hi>.</head>
+                        <div type="gp">
+                            <p>Li heir au compoignon, tot ne soit il compoignon, totevoies, ce que
+                                li mort commoinça, li heir doit eschiver.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.68} <hi rend="i">Gaius. Nemo</hi>.</head>
+                        <div type="gp">
+                            <p>Nul [80vA] de compoignons ne pot metre hors de sa main que sa part
+                                s’il sont compoignons de toz biens. ¶ {1} Encor demande l’en se cil
+                                qui porchace que il ne puisse rendre par barat. Il est voir que l’en
+                                entant de celi qui balle sa chose par barat en tel main que il ne
+                                puisse rendre.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.69} <hi rend="i">Ulpianus. Cum</hi>.</head>
+                        <div type="gp">
+                            <p>Quant compoignie est fete por acheter si que l’un aparillat à manger
+                                as autres et il fet la besoigne, se il ne fet ce, l’en avra contre
+                                lui aucion.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <head>§ {17.2.70} <hi rend="i">Paulus. Nulla</hi>.</head>
+                        <div type="gp">
+                            <p>Nule compoignie puet estre assenblee à toz jorz</p>
+                        </div>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
