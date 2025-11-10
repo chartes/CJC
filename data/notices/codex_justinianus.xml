@@ -2,7 +2,7 @@
 <?xml-model href="../../miroir.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../xsl/miroir2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="codex_justinianus" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="codex_justinianus_notice" xml:lang="fr">
   <teiHeader>
     <fileDesc> <titleStmt> <title><hi rend="i">Codex</hi>, Justinianus I.</title> <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan du <hi rend="i">Codex</hi>, Justinianus I</title>
       <author key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
@@ -58,6 +58,25 @@
         <language ident="fr"/>
       </langUsage>
     </profileDesc>
+    <encodingDesc>
+      <refsDecl>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[1]" use="default" unit="presentation">
+          <citeData use="head" property="dc:title"/>
+        </citeStructure>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[position() > 1]" use="default" unit="partie">
+          <citeData use="head" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="traduction">
+            <citeData use="head" property="dc:title"/>
+            <citeStructure match="div" use="default" unit="état">
+              <citeData use="head" property="dc:title"/>
+              <citeStructure match="div" use="default" unit="état">
+                <citeData use="head" property="dc:title"/>
+              </citeStructure>
+            </citeStructure>
+          </citeStructure>
+        </citeStructure>
+      </refsDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>

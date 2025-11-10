@@ -2,7 +2,7 @@
 <?xml-model href="../../miroir.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../xsl/miroir2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="institutiones" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="institutiones_notice" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -66,6 +66,25 @@
         <language ident="fr"/>
       </langUsage>
     </profileDesc>
+    <encodingDesc>
+      <refsDecl>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[1]" use="default" unit="presentation">
+          <citeData use="head" property="dc:title"/>
+        </citeStructure>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[position() > 1]" use="default" unit="partie">
+          <citeData use="head" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="traduction">
+            <citeData use="head" property="dc:title"/>
+            <citeStructure match="div" use="default" unit="état">
+              <citeData use="head" property="dc:title"/>
+              <citeStructure match="div" use="default" unit="état">
+                <citeData use="head" property="dc:title"/>
+              </citeStructure>
+            </citeStructure>
+          </citeStructure>
+        </citeStructure>
+      </refsDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -1459,7 +1478,7 @@
                           <title type="sub">[Inst. 2.8]</title>
                           <title xml:lang="lat" resp="#FD">Quibus alienare licet vel non</title>
                           <incipit><note>Réserve ménagée ; titre d’attente marginal français en cursive ; titre rubriqué latin ajouté en cursive au 14<hi rend="sup">e</hi> ou 15<hi rend="sup">e</hi> s.</note>Il avient aucune foiz <expan>q<ex>ue</ex></expan> cil qui est sires de la chose ne la puet pas estrangier <expan><ex>et</ex></expan> cil <expan>q<ex>ui</ex></expan> n’en est pas sires a pooir d’estrangier la.<note>§ 2 incomplet.</note></incipit>
-                            <explicit>...<expan><ex>et</ex></expan> <expan>en<ex>con</ex>tre</expan> ce, cil <expan><ex>et</ex></expan> celes <expan>q<ex>ui</ex></expan> <expan>s<ex>on</ex>t</expan> dedanz aage ne <expan>puee<ex>n</ex>t</expan> pas paier leur decés <expan>sa<ex>n</ex>z</expan> l’auctorité a celui <expan>q<ex>ui</ex></expan> les a en garde car ce <expan>q<ex>ue</ex></expan>...</explicit>
+                          <explicit>...<expan><ex>et</ex></expan> <expan>en<ex>con</ex>tre</expan> ce, cil <expan><ex>et</ex></expan> celes <expan>q<ex>ui</ex></expan> <expan>s<ex>on</ex>t</expan> dedanz aage ne <expan>puee<ex>n</ex>t</expan> pas paier leur decés <expan>sa<ex>n</ex>z</expan> l’auctorité a celui <expan>q<ex>ui</ex></expan> les a en garde car ce <expan>q<ex>ue</ex></expan>...</explicit>
                         </msItem>
                         <msItem>
                           <locus from="23a"/>
@@ -7331,28 +7350,28 @@
             </div>
             <div type="deperdita">
               <head>Deperdita<note>Sont ici reprises la numérotation des manuscrits perdus adoptée par F. Olivier-Martin ainsi que, pour la plupart des items, la présentation qu’il en fait.</note></head>
-                <p xml:id="institutes_perdu1">1. Dans l’inventaire des biens meubles de la reine <persName role="possesseur" key="Clémence de Hongrie">Clémence de Hongrie</persName>, rédigé en 1328, mention :
-                  <quote>Item, une Institute en françois, presié XVI s.</quote> (Paris, Bibl. nat. de Fr., Clairambault 471, f. 33). Le ms a été acheté par la reine <persName role="possesseur" key="Jeanne d'Evreux">Jeanne d’Evreux</persName> (cf. <bibl>Léopold Delisle, <title>Le cabinet...</title>, t. I, p. 12</bibl>) avant qu’on en perde la trace. (F. Olivier-Martin, p. xxi-xxii).</p>
-                <p xml:id="institutes_perdu2-5">2-5. Des 6 exemplaires de la traduction possédés par <persName role="possesseur" key="Charles V">Charles V</persName>, deux seulement nous sont parvenus. Les quatre autres figurent dans les inventaires. Cf. <bibl>Leopold Delisle, <title>Recherches</title>, t. II, n° 381, 382, 383, 401 de l’inventaire général</bibl>. (F. Olivier-Martin, p. xxii).</p>
-                <p xml:id="institutes_perdu6">6. <persName role="possesseur" key="Jacques Cholet">Jacques Cholet</persName>, berruyer, avocat au Parlement de Paris au 17<hi rend="sup">e</hi> siècle, avait dans sa bibliothèque un ms renfermant une traduction des
-                  <title>Institutes</title>
-                  <quote>faite vers le règne de saint Louis</quote> et dont parlent Nicolas Catherinot (<bibl><title>Généalogie de Messieurs Dorsannes</title>, p. 3</bibl>) et d’après lui son ami Thaumas de la Thaumassière (<bibl><title>Questions et responses sur les coutumes de Berry</title>, Bourges, 1691, p. 8</bibl>). (F. Olivier-Martin, p. xxii).</p>
-                <p xml:id="institutes_perdu7">7. Manuscrit du <title xml:lang="lat">Parvum volumen</title> possédé par <persName role="possesseur" key="Louis Nublé">Louis Nublé</persName> et décrit par Ménage.
-                  <bibl>Ménage, <title>Observations sur la langue française</title>, éd. 1675, t. I, p. 6sqq</bibl> décrit un in-folio sur vélin appartenant à son ami Louis Nublé (1603-1686), qui contenait la traduction des <title>Institutes</title>, des
-                  <title>Authentiques</title> et des <title>Tres libri</title>, à laquelle avait été ajoutée d’une autre main une traduction des
-                  <title>Libri feudorum</title>, copiés en 1292. La seule particularité textuelle que l’on connaisse de ce manuscrit est qu’il a rendu l’intitulé <quote>De patria potestate</quote> (Inst. 1.9) par la rubrique <quote>Des enfants qui sont en bail et de ceux qui en peuvent être hors</quote> (d’après <bibl>François de Launay,
-                    <title>Commentaire sur les Institutes Coutumières de M<hi rend="sup">e</hi> Antoine Loisel</title>, Paris, 1688, p. 271</bibl>), contrairement à <hi rend="i">ABD</hi> (<quote>De la poesté as peres</quote>), à <hi rend="i">F</hi> (<quote>de ceus qui sont en la poesté leur peres</quote>) et à <hi rend="i">C</hi> (<quote>Cis tritres est de celz qui sunt en nostre poesté</quote>). (F. Olivier-Martin, p. viii et xxii).</p>
-                <p xml:id="institutes_perdu8">8. D’après <bibl>Montfaucon (<title>Bibliotheca bibliothecarum</title>, p. 1383 D, n°315)</bibl>, il existait au 18<hi rend="sup">e</hi> siècle à la <orgName role="possesseur" key="Metz, cathédrale">cathédrale de Metz</orgName> un ms décrit ainsi : <quote>Les Institutes de l’empereur Justinien en vieux françois, in charta, 300 ad minus ann.</quote> (F. Olivier-Martin, p. xxii).</p>
-                <p xml:id="institutes_perdu9">>Dans l’inventaire des livres du duc
-                  <persName role="possesseur" key="Charles d'Orléans">Charles d’Orléans</persName> destinés à être gagés en 1427, il est fait mention des <quote>Institutes de l’empereur Justinien, de forme ancienne, en françoys, couverts de cuir vert, a deux petiz fermouers de cuivre</quote> (<bibl>comte de Laborde, <title>Les ducs de Bourgogne, Preuves</title>, t. III, n° 6351. Ce ms se retrouve dans l’inventaire non daté (<hi rend="i">ca</hi> 1446), <title>ibid.</title>, n° 6462</bibl>). (F. Olivier-Martin, p. xxii-xxiii).</p>
-                <p xml:id="institutes_perdu11">11. Brodeau, dans son édition des
-                  <title>Arrêts de Louet</title>, signale une traduction des
-                  <title>Institutes</title> de Justinien, manuscrite et <q>qui est de quatre cents ans</q>, sans plus d’indication (t. I, p. 414). (F. Olivier-Martin, p. xxiii).</p>
-                <p xml:id="institutes_perdu12">12. Strasbourg, Bibl. nationale et universitaire, latin 822 (sigle Q de l’éd. F. Olivier-Martin, p. xxxi). Provenant du <orgName role="possesseur" key="Strasbourg, couvent des capucins">couvent des capucins de Strasbourg</orgName>, ce ms in-folio, copié au 14<hi rend="sup">e</hi> s. (?), a été détruit en 1870. <bibl>Charles Giraud,
-                  <title>Essai sur l’histoire du droit français</title>, Paris-Leipzig, 1846, t. I, <title>Pièces justificatives</title>, p. 5, et même vol., p. 241</bibl>, en a transcrit la traduction de la constitution initiale, <title xml:lang="lat">Imperatoriam majestatem</title>. <bibl>Karl Bartsch, <title>La langue et la littérature française</title>, éd. 1887, col. 637-640</bibl>, reproduit le fragment publié par Giraud. D’après la transcription,
-                  <hi rend="i">Q</hi> présente une scripta du centre du domaine d’oïl (et peut-être même de l’Orléanais) : confusion de <hi rend="i">an</hi> et <hi rend="i">en</hi> (<quote>antentemant</quote>, <quote>mauvesemant</quote>,
-                  <quote>encianes</quote>) ; imparfaits en -<hi rend="i">ai</hi>- : <quote>osait</quote>, <quote>pouaient</quote> ; formes occidentales comme <quote>sunt</quote>, <quote>orailles</quote> ou <quote>commaincent</quote>/<quote>comaincemant</quote> ou bien encore la désinence du subjonctif présent P5 -<hi rend="i">eiz</hi> dans <quote>puisseiz</quote>.</p>
-                <p xml:id="institutes_perdu13">13. Poitiers, Archives départementales de la Vienne, fragment (sigle P de l’éd. F. Olivier-Martin, p. xxxi). « Ce fragment se compose d’un feuillet de vélin, très fin, de 221 x 150 millimètres, plus la base d’un autre feuillet. L’écriture, du milieu du XIII<hi rend="sup">e</hi> siècle, est très soignée et presque sans abréviation ; Rubriques rouges. 2 col. à la page. Réglure à la mine de plomb. Ce feuillet renferme <title>Inst.</title>, IV, 14 § 2 à IV, 15, § 1 » (<title>ibid.</title>). Ce fragment a été signalé à F. Olivier-Martin par Charles Samaran. Il n’a pas été retrouvé aux Archives départementales de la Vienne.</p>
+              <p xml:id="institutes_perdu1">1. Dans l’inventaire des biens meubles de la reine <persName role="possesseur" key="Clémence de Hongrie">Clémence de Hongrie</persName>, rédigé en 1328, mention :
+                <quote>Item, une Institute en françois, presié XVI s.</quote> (Paris, Bibl. nat. de Fr., Clairambault 471, f. 33). Le ms a été acheté par la reine <persName role="possesseur" key="Jeanne d'Evreux">Jeanne d’Evreux</persName> (cf. <bibl>Léopold Delisle, <title>Le cabinet...</title>, t. I, p. 12</bibl>) avant qu’on en perde la trace. (F. Olivier-Martin, p. xxi-xxii).</p>
+              <p xml:id="institutes_perdu2-5">2-5. Des 6 exemplaires de la traduction possédés par <persName role="possesseur" key="Charles V">Charles V</persName>, deux seulement nous sont parvenus. Les quatre autres figurent dans les inventaires. Cf. <bibl>Leopold Delisle, <title>Recherches</title>, t. II, n° 381, 382, 383, 401 de l’inventaire général</bibl>. (F. Olivier-Martin, p. xxii).</p>
+              <p xml:id="institutes_perdu6">6. <persName role="possesseur" key="Jacques Cholet">Jacques Cholet</persName>, berruyer, avocat au Parlement de Paris au 17<hi rend="sup">e</hi> siècle, avait dans sa bibliothèque un ms renfermant une traduction des
+                <title>Institutes</title>
+                <quote>faite vers le règne de saint Louis</quote> et dont parlent Nicolas Catherinot (<bibl><title>Généalogie de Messieurs Dorsannes</title>, p. 3</bibl>) et d’après lui son ami Thaumas de la Thaumassière (<bibl><title>Questions et responses sur les coutumes de Berry</title>, Bourges, 1691, p. 8</bibl>). (F. Olivier-Martin, p. xxii).</p>
+              <p xml:id="institutes_perdu7">7. Manuscrit du <title xml:lang="lat">Parvum volumen</title> possédé par <persName role="possesseur" key="Louis Nublé">Louis Nublé</persName> et décrit par Ménage.
+                <bibl>Ménage, <title>Observations sur la langue française</title>, éd. 1675, t. I, p. 6sqq</bibl> décrit un in-folio sur vélin appartenant à son ami Louis Nublé (1603-1686), qui contenait la traduction des <title>Institutes</title>, des
+                <title>Authentiques</title> et des <title>Tres libri</title>, à laquelle avait été ajoutée d’une autre main une traduction des
+                <title>Libri feudorum</title>, copiés en 1292. La seule particularité textuelle que l’on connaisse de ce manuscrit est qu’il a rendu l’intitulé <quote>De patria potestate</quote> (Inst. 1.9) par la rubrique <quote>Des enfants qui sont en bail et de ceux qui en peuvent être hors</quote> (d’après <bibl>François de Launay,
+                  <title>Commentaire sur les Institutes Coutumières de M<hi rend="sup">e</hi> Antoine Loisel</title>, Paris, 1688, p. 271</bibl>), contrairement à <hi rend="i">ABD</hi> (<quote>De la poesté as peres</quote>), à <hi rend="i">F</hi> (<quote>de ceus qui sont en la poesté leur peres</quote>) et à <hi rend="i">C</hi> (<quote>Cis tritres est de celz qui sunt en nostre poesté</quote>). (F. Olivier-Martin, p. viii et xxii).</p>
+              <p xml:id="institutes_perdu8">8. D’après <bibl>Montfaucon (<title>Bibliotheca bibliothecarum</title>, p. 1383 D, n°315)</bibl>, il existait au 18<hi rend="sup">e</hi> siècle à la <orgName role="possesseur" key="Metz, cathédrale">cathédrale de Metz</orgName> un ms décrit ainsi : <quote>Les Institutes de l’empereur Justinien en vieux françois, in charta, 300 ad minus ann.</quote> (F. Olivier-Martin, p. xxii).</p>
+              <p xml:id="institutes_perdu9">>Dans l’inventaire des livres du duc
+                <persName role="possesseur" key="Charles d'Orléans">Charles d’Orléans</persName> destinés à être gagés en 1427, il est fait mention des <quote>Institutes de l’empereur Justinien, de forme ancienne, en françoys, couverts de cuir vert, a deux petiz fermouers de cuivre</quote> (<bibl>comte de Laborde, <title>Les ducs de Bourgogne, Preuves</title>, t. III, n° 6351. Ce ms se retrouve dans l’inventaire non daté (<hi rend="i">ca</hi> 1446), <title>ibid.</title>, n° 6462</bibl>). (F. Olivier-Martin, p. xxii-xxiii).</p>
+              <p xml:id="institutes_perdu11">11. Brodeau, dans son édition des
+                <title>Arrêts de Louet</title>, signale une traduction des
+                <title>Institutes</title> de Justinien, manuscrite et <q>qui est de quatre cents ans</q>, sans plus d’indication (t. I, p. 414). (F. Olivier-Martin, p. xxiii).</p>
+              <p xml:id="institutes_perdu12">12. Strasbourg, Bibl. nationale et universitaire, latin 822 (sigle Q de l’éd. F. Olivier-Martin, p. xxxi). Provenant du <orgName role="possesseur" key="Strasbourg, couvent des capucins">couvent des capucins de Strasbourg</orgName>, ce ms in-folio, copié au 14<hi rend="sup">e</hi> s. (?), a été détruit en 1870. <bibl>Charles Giraud,
+                <title>Essai sur l’histoire du droit français</title>, Paris-Leipzig, 1846, t. I, <title>Pièces justificatives</title>, p. 5, et même vol., p. 241</bibl>, en a transcrit la traduction de la constitution initiale, <title xml:lang="lat">Imperatoriam majestatem</title>. <bibl>Karl Bartsch, <title>La langue et la littérature française</title>, éd. 1887, col. 637-640</bibl>, reproduit le fragment publié par Giraud. D’après la transcription,
+                <hi rend="i">Q</hi> présente une scripta du centre du domaine d’oïl (et peut-être même de l’Orléanais) : confusion de <hi rend="i">an</hi> et <hi rend="i">en</hi> (<quote>antentemant</quote>, <quote>mauvesemant</quote>,
+                <quote>encianes</quote>) ; imparfaits en -<hi rend="i">ai</hi>- : <quote>osait</quote>, <quote>pouaient</quote> ; formes occidentales comme <quote>sunt</quote>, <quote>orailles</quote> ou <quote>commaincent</quote>/<quote>comaincemant</quote> ou bien encore la désinence du subjonctif présent P5 -<hi rend="i">eiz</hi> dans <quote>puisseiz</quote>.</p>
+              <p xml:id="institutes_perdu13">13. Poitiers, Archives départementales de la Vienne, fragment (sigle P de l’éd. F. Olivier-Martin, p. xxxi). « Ce fragment se compose d’un feuillet de vélin, très fin, de 221 x 150 millimètres, plus la base d’un autre feuillet. L’écriture, du milieu du XIII<hi rend="sup">e</hi> siècle, est très soignée et presque sans abréviation ; Rubriques rouges. 2 col. à la page. Réglure à la mine de plomb. Ce feuillet renferme <title>Inst.</title>, IV, 14 § 2 à IV, 15, § 1 » (<title>ibid.</title>). Ce fragment a été signalé à F. Olivier-Martin par Charles Samaran. Il n’a pas été retrouvé aux Archives départementales de la Vienne.</p>
             </div>
           </div>
           <div type="soustraduction" n="I.1.2" xml:id="tradition_indirecte">

@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DV_l1-2_fr-20118">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,6 +39,20 @@
         <p> Transcription du manuscrit Paris, Bibliothèque nationale de France, fr. 20118, avec
           correction par les autres témoins et par conjecture.</p>
       </projectDesc>
+      <refsDecl>
+        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+          <citeData use="head[1]" property="dc:title"/>
+        </citeStructure>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
+            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+            <citeStructure match="p" use="@xml:id" unit="rubric">
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+            </citeStructure>
+          </citeStructure>
+        </citeStructure>
+      </refsDecl>
     </encodingDesc>
   </teiHeader>
   <text>
@@ -64,18 +77,14 @@
           en tant qu’étape préliminaire à la forme soudée moderne <hi rend="i">toujours</hi>.
           Nous désagglutinons <hi rend="i">porce que</hi> en <hi rend="i">por ce que</hi>.
           L’apostrophe suit la norme moderne et a été employée pour distinguer <hi rend="i">qui</hi>
-          pronom relatif de <hi rend="i">qu'i</hi> conjonction plus pronom sujet réduit de <hi
-            rend="i">il</hi> à <hi rend="i">i.</hi></p>
+          pronom relatif de <hi rend="i">qu'i</hi> conjonction plus pronom sujet réduit de <hi rend="i">il</hi> à <hi rend="i">i.</hi></p>
         <p> Le manuscrit présente parfois des points finaux, mais leur usage n’offre pas
           d’indications cohérentes pour l’établissement de la ponctuation, qui suit alors les normes
           modernes.</p>
         <p> L'usage de la majuscule est parcimonieux. La lettre capitale est réservée uniquement aux
-          noms propres de personne, de lieu et de peuple, alors que les institutions (<hi rend="i"
-            >senat</hi>, <hi rend="i">prevosté</hi>) et les titres juridiques (<hi rend="i"
-            >empereeur</hi>, <hi rend="i">prevost</hi>) sont écrits avec une minuscule. Les chiffres
+          noms propres de personne, de lieu et de peuple, alors que les institutions (<hi rend="i">senat</hi>, <hi rend="i">prevosté</hi>) et les titres juridiques (<hi rend="i">empereeur</hi>, <hi rend="i">prevost</hi>) sont écrits avec une minuscule. Les chiffres
           romains simples ont été transcrits en minuscules encadrées par deux points. On a gardé le
-          numéral <hi rend="i">.i.</hi> sans le transformer en l’article indéfini <hi rend="i"
-            >un(s)/une.</hi></p>
+          numéral <hi rend="i">.i.</hi> sans le transformer en l’article indéfini <hi rend="i">un(s)/une.</hi></p>
         <p> Le système des accents suit un compromis entre l’orientation conservatrice habituelle,
           la nécessité de faciliter la lemmatisation du texte et l’opportunité de distinguer les
           homographes. Nous employons régulièrement l’accent aigu sur le ‹é› tonique de la syllabe
@@ -91,34 +100,26 @@
           L’usage du tréma est lui aussi soumis à la nécessité de favoriser la compréhension : il
           n’est pas ajouté aux formes verbales <hi rend="i">eust, deust, feussent, veu...</hi>, mais
           il est employé sur des formes qui ont conservé l’hiatus en français moderne, comme les
-          formes des verbes <hi rend="i">oïr, enfoïr, obeïr</hi> et certains substantifs tels que <hi
-            rend="i">païs/paÿs.</hi> Le manuscrit n’emploie jamais la cédille, qui a été introduite
+          formes des verbes <hi rend="i">oïr, enfoïr, obeïr</hi> et certains substantifs tels que <hi rend="i">païs/paÿs.</hi> Le manuscrit n’emploie jamais la cédille, qui a été introduite
           lorsque cela était nécessaire.</p>
       </div>
       <div>
         <head><hi rend="i"> Résolution des abréviations</hi></head>
         <p> Le système d’abréviations du manuscrit est assez simple et se limite à peu de signes :
           notes tironiennes pour <hi rend="i">et</hi> et <hi rend="i">con/com</hi>, tilde pour les
-          nasales, <hi rend="i">p</hi> barré pour <hi rend="i">par</hi>, apostrophe pour <hi
-            rend="i">er/re</hi> et peu de lettres suscrites. Toutes les abréviations sont résolues
+          nasales, <hi rend="i">p</hi> barré pour <hi rend="i">par</hi>, apostrophe pour <hi rend="i">er/re</hi> et peu de lettres suscrites. Toutes les abréviations sont résolues
           en caractères romains et sur la base des formes écrites en toutes lettres repérées au
           premier livre. Les cas d’incertitudes concernent la résolution du <hi rend="i">9</hi>
           tironien devant une consonne labiale. Le copiste en fait un usage systématique et il donne
-          très peu de cas de <hi rend="i">con/com</hi> en toutes lettres. Nous avons un cas de <hi
-            rend="i">con-</hi> devant <hi rend="i">p</hi>, notamment « conpaignon » au f. 16d), qui
+          très peu de cas de <hi rend="i">con/com</hi> en toutes lettres. Nous avons un cas de <hi rend="i">con-</hi> devant <hi rend="i">p</hi>, notamment « conpaignon » au f. 16d), qui
           autorise à résoudre de cette manière toutes les occurrences abrégées de ce substantif ;
           quatre cas de <hi rend="i">com-</hi> sans la gémination de la nasale (« comencemenz » f.
-          3d ; « comuns » f. 3c, « comenciees » f. 14b, « comant », 14c), et trois cas de <hi
-            rend="i">con-</hi> devant <hi rend="i">m</hi>, notamment « conme » au f. 3a, « conmun »
+          3d ; « comuns » f. 3c, « comenciees » f. 14b, « comant », 14c), et trois cas de <hi rend="i">con-</hi> devant <hi rend="i">m</hi>, notamment « conme » au f. 3a, « conmun »
           au f. 3b, e « conmandemenz » au f. 16d, sur la base desquels nous avons résolu les mots
-            <hi rend="i">conme</hi>, <hi rend="i">conment</hi>, et toutes les formes dérivées de <hi
-            rend="i">conmun</hi> et <hi rend="i">conmander</hi>. Les décisions concernant les termes
-          n’ayant jamais, au premier livre, une forme pleine, sont les suivantes : nous écrivons <hi
-            rend="i">conmencer</hi> (et dérivés), <hi rend="i">exconmenié</hi>, <hi rend="i"
-            >sonme</hi>, suivant « sonmes » (f. 3b), « diligenment » (f. 15c), « conmandemenz » (f.
+            <hi rend="i">conme</hi>, <hi rend="i">conment</hi>, et toutes les formes dérivées de <hi rend="i">conmun</hi> et <hi rend="i">conmander</hi>. Les décisions concernant les termes
+          n’ayant jamais, au premier livre, une forme pleine, sont les suivantes : nous écrivons <hi rend="i">conmencer</hi> (et dérivés), <hi rend="i">exconmenié</hi>, <hi rend="i">sonme</hi>, suivant « sonmes » (f. 3b), « diligenment » (f. 15c), « conmandemenz » (f.
           16d), et nous écrivons <hi rend="i">conpris</hi> suivant « conpaignon » (f. 16d). Lui
-          aussi abrégé, le nom propre de l’empereur Commode est rendu par la forme latine <seg
-            type="lemme" xml:lang="lat"> Commodus</seg> (f. 15c). La forme pleine « non » (f. 3b)
+          aussi abrégé, le nom propre de l’empereur Commode est rendu par la forme latine <seg type="lemme" xml:lang="lat"> Commodus</seg> (f. 15c). La forme pleine « non » (f. 3b)
           pour ‘nom’ a guidé la résolution des formes dérivées (<hi rend="i">nonmé, renonmé</hi>)
           abrégées par « no » avec tilde, alors qu’on a adopté la forme <hi rend="i">chevalier</hi>
           (suivant le modèle de « conseillier », f. 4c) pour l’écriture abrégée « chrs ».</p>
@@ -194,10 +195,9 @@
     <body>
       <div>
         <head>[Liber primus]</head>
-        <div>
-          <head xml:id="fr_20118-digeste.1.1.0">[1.1.0. De iustitia et iure.]<lb/><cb n="3a"/>
-            <seg
-              type="rubric"> Ci comence li premiers livres des Digestes au glorieus empereor
+        <div xml:id="fr_20118-digeste.1.1.0">
+          <head>[1.1.0. De iustitia et iure.]<lb/><cb n="3a"/>
+            <seg type="rubric"> Ci comence li premiers livres des Digestes au glorieus empereor
               Justinian. Cist tytres est de justice et de droit.</seg></head>
           <p xml:id="fr_20118-digeste.1.1.1"><label>[1.1.1]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> I</hi>l covient que tuit cil qui vuelent
@@ -259,14 +259,12 @@
           <p xml:id="fr_20118-digeste.1.1.7"><label>[1.1.7]</label>
             <hi rend="b"> P</hi>apinians dit<hi rend="b"> : D</hi>roiz citeains est qui vient de
             lois ou des establissemenz au pueple ou des conseulz<note resp="editor">des conseulz]
-              del (con)seill <hi rend="i">E</hi> (<seg
-                rend="eleve"> « Ius autem civile est, quod ex
+              del (con)seill <hi rend="i">E</hi> (<seg rend="eleve"> « Ius autem civile est, quod ex
                 legibus, plebis scitis, senatus consultis, decretis principum, auctoritate
                 prudentium venit »</seg>).</note> au <cb n="3c"/> senat ou des jugemenz as princes ou
             de l’auctorité as sages homes. ¶ <label>[1]</label> Li droiz as prevolz est cil que li
             prevost establirent por aidier ou por acomplir ou pour amender le droit citeain por
-            conmun proufit ; et cil<note resp="editor">cil] cist <hi rend="i">A </hi> (<seg
-                rend="eleve"> « Quod et honorarium dicitur ad honorem praetorum sic
+            conmun proufit ; et cil<note resp="editor">cil] cist <hi rend="i">A </hi> (<seg rend="eleve"> « Quod et honorarium dicitur ad honorem praetorum sic
                 nominatum »</seg>).</note> droiz est
             apelez droiz hanorez por l’anor as prevolz.</p>
           <p xml:id="fr_20118-digeste.1.1.8"><label>[1.1.8]</label>
@@ -303,8 +301,8 @@
             <hi rend="b"> M</hi>arcians dit : <hi rend="b">A</hi>ucune foiz prenons nos droiture por
             besoing, si come <cb n="3d"/> l’en dit droiture de lignage ou d’affinité.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.2.0">[1.2.0. De origine iuris et omnium magistratuum et
+        <div xml:id="fr_20118-digeste.1.2.0">
+          <head>[1.2.0. De origine iuris et omnium magistratuum et
             successione prudentium.]<lb/><seg type="rubric"> De la nessance de droit et de totes les
               baillies.</seg></head>
           <p xml:id="fr_20118-digeste.1.2.1"><label>[1.2.1]</label>
@@ -323,8 +321,7 @@
                 si in foro causas dicentibus nefas ut ita dixerim videtur esse nulla praefatione
                 facta iudici rem exponere : quanto magis interpretationem promittentibus
                 inconveniens erit omissis initiis atque origine non repetita atque illotis ut ita
-                dixerim manibus protinus materiam interpretationis tractare ? »</hi> ; (com)tent <hi
-                rend="i"> E</hi> ; (con)vient <hi rend="i">A</hi>.</note> à espondre sanz metre devant
+                dixerim manibus protinus materiam interpretationis tractare ? »</hi> ; (com)tent <hi rend="i"> E</hi> ; (con)vient <hi rend="i">A</hi>.</note> à espondre sanz metre devant
             point de prologue, qar, se ge ne sui deceuz, li prologue nos amainent à lire la matere
             qui est proposee, et la nos font entendre plus legierement.</p>
           <p xml:id="fr_20118-digeste.1.2.2"><label>[1.2.2]</label>
@@ -359,8 +356,7 @@
             nasquirent, autresin conme en .i. meisme tens, cist troi droit <note resp="editor">cist
               troi droit] <hi rend="i"> Suivi d’un signe de renvoi (cercle et trait horizontal à droite)
                 à </hi>les actions de loi et<hi rend="i">, rajouté dans la marge (main B).
-                La leçon ajoutée n’est pas confirmée par EA, ni par le texte latin : <seg
-                  rend="eleve"> « Et ita eodem paene tempore tria haec iura nata sunt: lege duodecim
+                La leçon ajoutée n’est pas confirmée par EA, ni par le texte latin : <seg rend="eleve"> « Et ita eodem paene tempore tria haec iura nata sunt: lege duodecim
                   tabularum ex his fluere coepit ius civile, ex isdem legis actiones compositae
                   sunt ».</seg></hi></note>
             <choice>
@@ -425,8 +421,7 @@
             li pueples fu creuz, batailles conmencerent à nestre espessement, et li voisin greverent
             en maintes manieres la cité de Rome ; si plot as Romains que il establirent par besoing
             .i. mestre qui eust greignor poesté. Lors furent li diteeur establi, de qui l’en ne
-            pooit pas apeler et qui pooient dampner à mort ; et, por ce que cele baillie avoit <cb
-              n="4d"/> soveraine poesté, il ne loisoit pas à retenir la outre .vi. mois.
+            pooit pas apeler et qui pooient dampner à mort ; et, por ce que cele baillie avoit <cb n="4d"/> soveraine poesté, il ne loisoit pas à retenir la outre .vi. mois.
               <label>[19]</label> Et à cez diteeurs estoient ajoint li mestre des chevaliers,
             autresi come li connestable estoient ajoint as rois ; et lor offices estoit autretieus
             come est orendroit cil as prevolz. ¶ <label>[20]</label> En cel meisme tens, quant li
@@ -480,8 +475,7 @@
               <sic source="#F">voir</sic>
               <corr resp="#A #E">droit</corr>
             </choice>
-            <note resp="editor">droit] voir <hi rend="i">ms. Corr. d’après EA</hi> (voir <hi
-                rend="i">exponctué et corr. en</hi> droit <hi rend="i"> E), cf. le texte latin :
+            <note resp="editor">droit] voir <hi rend="i">ms. Corr. d’après EA</hi> (voir <hi rend="i">exponctué et corr. en</hi> droit <hi rend="i"> E), cf. le texte latin :
                 « Claudius duos praetores adiecit qui de fideicommisso ius dicerent ».</hi></note>
             des lés et des choses enjointes, de quoi Titius osta puis .i. et Nerva establi .i. autre
             prevost qui tenist droit entre la borse l’empereeur et les menues genz. Ensi a il en la
@@ -524,8 +518,7 @@
             Rome et viscontes en Ase, et Paulus et Quintus Tubero, qui fu conseilliers, et Sextus
             Pompeius. En cel meisme tens fu Celius Antipater, qui escrist les istoires, mes il dona
             plus entente à estre bien enparlez que à escience. Et si fu Lucius Crassus, li freres
-            Mutius, qui fu apelez Mutias : l’en dit que cil fu li tres enresniez <note resp="editor"
-              >que cil fu li tres enresniez] <hi rend="i"> Leçon facilior du ms. A, qui donne</hi> :
+            Mutius, qui fu apelez Mutias : l’en dit que cil fu li tres enresniez <note resp="editor">que cil fu li tres enresniez] <hi rend="i"> Leçon facilior du ms. A, qui donne</hi> :
               qui fu li tres ententis doctor<hi rend="i">. E concorde avec F. Le texte latin
                 dit : « hunc Cicero ait iurisconsultorum disertissimum ».</hi>
             </note> de touz cels qui sorent de droit. <label>[41]</label> Aprés cez fu Quintus
@@ -625,8 +618,8 @@
             furent amedui conseillier. Aprés Jabolenus fu Aburnius Valerius et Tuscianus, et puis
             Salvius Julianus.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.3.0">[1.3.0. De legibus senatusque consultis et longa consuetudine.]<lb/>
+        <div xml:id="fr_20118-digeste.1.3.0">
+          <head>[1.3.0. De legibus senatusque consultis et longa consuetudine.]<lb/>
             <seg type="rubric"> Des lois et des conseulz au senat, et de longue
             coustume.</seg></head>
           <p xml:id="fr_20118-digeste.1.3.1"><label>[1.3.1]</label>
@@ -645,8 +638,7 @@
               <sic source="#F">viennent</sic>
               <corr source="#A" resp="#IR">[a]viennent</corr>
             </choice>
-            <note resp="editor">aviennent] viennent <hi rend="i">ms. Corr. d’après</hi> avienent <hi
-                rend="i">A, cf. le texte latin : « <hi rend="sc"> Idem</hi> libro XVII digestorum.
+            <note resp="editor">aviennent] viennent <hi rend="i">ms. Corr. d’après</hi> avienent <hi rend="i">A, cf. le texte latin : « <hi rend="sc"> Idem</hi> libro XVII digestorum.
                 nam ad ea potius debet aptari ius, quae et frequenter et facile, quam quae perraro
                 eveniunt ».</hi></note> à tart.</p>
           <p xml:id="fr_20118-digeste.1.3.7"><label>[1.3.7]</label><hi rend="b"> M</hi>odestins
@@ -752,8 +744,7 @@
             </choice>
             <note resp="editor">par mours … por tant que il] <hi rend="i"> Post correctionem (main
                 B), ajouté par un signe de renvoi (petit cercle suivi d'un trait horizontal)
-                dans la marge inférieure.</hi> il covient garder ce qui s’acorde as lois <hi
-                rend="i">ante correctionem. EA</hi> concordent avec <hi rend="i"> F ante
+                dans la marge inférieure.</hi> il covient garder ce qui s’acorde as lois <hi rend="i">ante correctionem. EA</hi> concordent avec <hi rend="i"> F ante
                 correctionem, mais le texte latin confirme l’intervention du correcteur : « De
                 quibus causis scriptis legibus non utimur, id custodiri oportet, quod moribus et
                 consuetudine inductum est: et si qua in re hoc deficeret, tunc quod proximum et
@@ -827,8 +818,8 @@
             <cb n="7b"/> a esté fez par consentement, ou establiz par besoing, ou confermez par
             coustume.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.4.0">[1.4.0. De constitutionibus principum.]<lb/>
+        <div xml:id="fr_20118-digeste.1.4.0">
+          <head>[1.4.0. De constitutionibus principum.]<lb/>
             <seg type="rubric"> Des establissemenz as princes.</seg></head>
           <p xml:id="fr_20118-digeste.1.4.1"><label>[1.4.1]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> C</hi>e qui plest au prince a force de
@@ -852,8 +843,8 @@
             <hi rend="b">J</hi>abolenus dit : <hi rend="b"> N</hi>os devons espondre plenierement le
             benefice l’empereeur qui vient de sa sainte indulgence.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.5.0">[1.5.0. De statu hominum.]<lb/>
+        <div xml:id="fr_20118-digeste.1.5.0">
+          <head>[1.5.0. De statu hominum.]<lb/>
             <seg type="rubric"> De l’estat as homes.</seg></head>
           <p xml:id="fr_20118-digeste.1.5.1"><label>[1.5.1]</label>
             <hi rend="b"> G</hi>aius dit : <hi rend="b"> T</hi>ouz li droiz de quoi nos usons
@@ -891,8 +882,7 @@
               <sic source="#F">soufist</sic>
               <corr source="#A" resp="#IR">soufit</corr>
             </choice>
-            <note resp="editor">soufit] soufist <hi rend="i">ms. Corr. d’après</hi> souffit <hi
-                rend="i">A, cf. le texte latin : « et tamen rectius probatum est liberum nasci et
+            <note resp="editor">soufit] soufist <hi rend="i">ms. Corr. d’après</hi> souffit <hi rend="i">A, cf. le texte latin : « et tamen rectius probatum est liberum nasci et
                 sufficere ei qui in ventre est liberam matrem vel medio tempore
               habuisse ».</hi></note> bien à celui qui est el ventre que sa mere ait esté franche en
             aucun tens puis que il fu conceuz.</p>
@@ -983,13 +973,11 @@
               <sic source="#ante correctionem"/>
               <corr source="#post correctionem" resp="#main B">franc</corr>
             </choice>
-            <note resp="editor">franc] <hi rend="i"> Post correctionem. Le mot</hi> franc <hi
-                rend="i">et la virgule qui le suit sont ajoutés dans l’interligne par la main B.</hi> 
+            <note resp="editor">franc] <hi rend="i"> Post correctionem. Le mot</hi> franc <hi rend="i">et la virgule qui le suit sont ajoutés dans l’interligne par la main B.</hi> 
               por naturelment <hi rend="i">Ante correctionem. Le texte latin
                 dit : « Ingenuum accipere debemus etiam eum, de quo sententia lata est, quamvis
                 fuerit libertinus: quia res iudicata pro veritate accipitur ».</hi></note>, 
-            <cb
-              n="8b"/> por qui sentence est donee que il est naturelment frans, ja soit ce que il
+            <cb n="8b"/> por qui sentence est donee que il est naturelment frans, ja soit ce que il
             ait devant esté en l’estat de cels qui sont franchi, quar la chose jugiee est prise por
             verité.</p>
           <p xml:id="fr_20118-digeste.1.5.26"><label>[1.5.26]</label>
@@ -1004,8 +992,8 @@
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> L</hi>i patrons ne puet en nule maniere
             fere naturelment franc celui qui reconnoist que il a esté franchiz.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.6.0">[1.6.0. De his qui sui vel alieni iuris sunt.]<lb/>
+        <div xml:id="fr_20118-digeste.1.6.0">
+          <head>[1.6.0. De his qui sui vel alieni iuris sunt.]<lb/>
             <seg type="rubric"> De cels qui sont à soi ou en autrui poesté.</seg></head>
           <p xml:id="fr_20118-digeste.1.6.1"><label>[1.6.1]</label>
             <hi rend="b"> G</hi>aius dit : <hi rend="b">A</hi>prés vient une autre division de la
@@ -1072,8 +1060,7 @@
             acorde, que se li mariz a esté lonc tens o sa feme, que il n’a pas geu <choice>
               <sic source="#F">a li</sic>
               <corr source="#E" resp="#IR">o li</corr>
-            </choice><note resp="editor">o li] a li <hi rend="i">ms. Corr. d’après</hi> o lui <hi
-                rend="i"> E, cf. le texte latin : « si constet maritum aliquamdiu cum uxore non
+            </choice><note resp="editor">o li] a li <hi rend="i">ms. Corr. d’après</hi> o lui <hi rend="i"> E, cf. le texte latin : « si constet maritum aliquamdiu cum uxore non
                 concubuisse ».</hi> </note>, ou par maladie ou par autre cause, ou se il a esté en
             tel point que il ne peust engendrer et li voisin le sevent bien, cil qui est nez en sa
             meson n’est pas ses filz.</p>
@@ -1113,8 +1100,8 @@
             <hi rend="b"> M</hi>odestins dit : <hi rend="b"> L</hi>i fill naturel ou cil qui sont
             mis hors de baill ne sont pas ramené en la poesté lor pere, mal gré leur.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.7.0">[1.7.0. De his qui sui vel alieni iuris sunt.]<lb/>
+        <div xml:id="fr_20118-digeste.1.7.0">
+          <head>[1.7.0. De his qui sui vel alieni iuris sunt.]<lb/>
             <seg type="rubric"> D’adopcions et de metre enfanz hors de bail, et d’autres manieres
               par quoi la poesté as peres faut.</seg></head>
           <p xml:id="fr_20118-digeste.1.7.1"><label>[1.7.1]</label><hi rend="b"> M</hi>odestins
@@ -1127,8 +1114,7 @@
             manieres : ou par l’auctorité au prince ou par le comandement à aucun bailli. Par
             l’auctorité au prince prenons nos en adopcion cels qui sont de lor droiture, et ceste
             maniere d’adopcion est apelee arrogacion, quar l’en demande à celui qui prent aucun en
-            adopcion se il veult que il soit ses droiturels filz, et à l’autre demande l’en se <cb
-              n="9b"/> il veult estre ses filz. Nos prenons en adopcion par le comandement <choice>
+            adopcion se il veult que il soit ses droiturels filz, et à l’autre demande l’en se <cb n="9b"/> il veult estre ses filz. Nos prenons en adopcion par le comandement <choice>
               <sic source="#F">as baillis</sic>
               <corr source="#E" resp="#IR">au bailli</corr>
             </choice><note resp="editor">au bailli] as baillis <hi rend="i">ms. Corr. d’après</hi>
@@ -1338,8 +1324,7 @@
             deffendeeur, ce est loiauté que il soit mis hors <choice>
               <sic source="#F">del</sic>
               <corr source="#A" resp="#IR">du</corr>
-            </choice><note resp="editor">du] del <hi rend="i">ms. Corr. d’après</hi> du <hi rend="i"
-                >A. Le texte latin dit : « Et si pubes factus non expedire sibi in potestatem eius
+            </choice><note resp="editor">du] del <hi rend="i">ms. Corr. d’après</hi> du <hi rend="i">A. Le texte latin dit : « Et si pubes factus non expedire sibi in potestatem eius
                 redigi probaverit, aequum esse emancipari eum a patre adoptivo atque ita pristinum
                 ius reciperare ».</hi>
             </note> baill à son pere adoptif et recuevre l’ancienne droiture.</p>
@@ -1411,8 +1396,8 @@
             estoie sers puet estre ramenez en ma poesté par le benefice au prince ; neporquant, l’en
             ne dote pas que il ne soit de la condicion à cels qui sont franchi.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.8.0">[1.8.0. De divisione rerum et qualitate.]<lb/>
+        <div xml:id="fr_20118-digeste.1.8.0">
+          <head>[1.8.0. De divisione rerum et qualitate.]<lb/>
             <seg type="rubric"> De la division des choses et des qualitez.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.8.1"><label>[1.8.1]</label>
@@ -1526,8 +1511,8 @@
             que par les portes, quar issir par aillors est chose abominable et maniere à anemis. Et
             l’en dit que Remus, li freres Romulus, fu ocis por ce que il volt tressaillir le mur.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.9.0">[1.9.0. De senatoribus.]<lb/>
+        <div xml:id="fr_20118-digeste.1.9.0">
+          <head>[1.9.0. De senatoribus.]<lb/>
             <seg type="rubric"> De l’office as senateurs.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.9.1"><label>[1.9.1]</label>
@@ -1536,7 +1521,7 @@
             il covient vooir se home qui est en digneté de prevost doit estre mis par devant feme
             qui est en digneté de conseillier, et ge croi que oïl, quar il a greignor digneté en
             nature d’ome que de feme. ¶ <label>[1]</label> Nos disons <choice>
-              <sic source="#ante correctionem"></sic>
+              <sic source="#ante correctionem"/>
               <corr source="#post correctionem">que les
                 fames</corr>
             </choice>
@@ -1619,8 +1604,8 @@
             Julie, sa cosine. ¶ <label>[1]</label> Nos apelons senateurs toz cels qui pueent doner
             sentence el senat.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.10.0">[1.10.0. De senatoribus.]<lb/>
+        <div xml:id="fr_20118-digeste.1.10.0">
+          <head>[1.10.0. De senatoribus.]<lb/>
             <seg type="rubric"> De l’office as conseilliers.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.10.1"><label>[1.10.1]</label>
@@ -1645,8 +1630,8 @@
             doit estre franchiz et examiner la, mes il puet bien franchir les par devant son
             conpaignon, se la cause est prouvee.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.11.0">[1.11.0. De officio praefecti praetorio.]<lb/>
+        <div xml:id="fr_20118-digeste.1.11.0">
+          <head>[1.11.0. De officio praefecti praetorio.]<lb/>
             <seg type="rubric"> De l’office au prevost de la prevosté</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.11.1"><label>[1.11.1]</label>
@@ -1672,8 +1657,8 @@
             qui sont dedenz aage ne pueent pas avoir restitucion contre lor sentence par devant
             autre juge que par devant els.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.12.0">[1.12.0. De officio praefecti urbi.]<lb/>
+        <div xml:id="fr_20118-digeste.1.12.0">
+          <head>[1.12.0. De officio praefecti urbi.]<lb/>
             <seg type="rubric"> De l’office au prevost de la cité.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.12.1"><label>[1.12.1]</label>
@@ -1746,8 +1731,8 @@
             issuz de la cité, il n’a point de poesté, ne il ne puet pas conmander
             que l’en juge hors de la cité.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.13.0">[1.13.0. De officio quaestoris.]<lb/>
+        <div xml:id="fr_20118-digeste.1.13.0">
+          <head>[1.13.0. De officio quaestoris.]<lb/>
             <seg type="rubric"> De l’office as questeeurs</seg>
             <note resp="editor">
               <hi rend="i"> La rubrique manque dans FE et est ajoutée d’après A.</hi>
@@ -1773,8 +1758,8 @@
             princes. <label>[3]</label> Mes il est or venu en costume que li questeur sont pris sanz
             nule difference des hauz homes ou des bas.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.14.0">[1.14.0. De officio praetorum.]<lb/>
+        <div xml:id="fr_20118-digeste.1.14.0">
+          <head>[1.14.0. De officio praetorum.]<lb/>
             <seg type="rubric"> De l’office as prevolz.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.14.1"><label>[1.14.1]</label>
@@ -1811,8 +1796,8 @@
             <hi rend="b"> C</hi>il meismes dit : <hi rend="b"> P</hi>revolz ne puet doner soi meisme
             deffendeeur ne especial juge.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.15.0">[1.15.0. De officio praefecti vigilum.]<lb/>
+        <div xml:id="fr_20118-digeste.1.15.0">
+          <head>[1.15.0. De officio praefecti vigilum.]<lb/>
             <seg type="rubric"> De l’office as prevost des guetes.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.15.1"><label>[1.15.1]</label>
@@ -1859,8 +1844,8 @@
             <cb n="13d"/>
             lor seignors.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.16.0">[1.16.0. De officio proconsulis et legati.]<lb/>
+        <div xml:id="fr_20118-digeste.1.16.0">
+          <head>[1.16.0. De officio proconsulis et legati.]<lb/>
             <seg type="rubric"> De l’office au visconte et au legat.</seg>
           </head>
           <p xml:id="fr_20118-digeste.1.16.1"><label>[1.16.1]</label>
@@ -2025,8 +2010,8 @@
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> D</hi>és que li viscontes entre en la
             porte de Rome, il oste sa jurisdicion.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.17.0">[1.17.0. De officio praefecti Augustalis.]<lb/>
+        <div xml:id="fr_20118-digeste.1.17.0">
+          <head>[1.17.0. De officio praefecti Augustalis.]<lb/>
             <seg type="rubric"> De l’office au prevost d’Egypte.</seg></head>
           <p xml:id="fr_20118-digeste.1.17.1"><label>[1.17.1]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> L</hi>i prevolz d’Egypte ne pert sa
@@ -2034,8 +2019,8 @@
             d’Alixandre, ja soit ce que il entre avant en la contree, et einsi est
             il contenu es conmandemenz l’empereeur.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.18.0">[1.18.0. De officio praesidis.]<lb/>
+        <div xml:id="fr_20118-digeste.1.18.0">
+          <head>[1.18.0. De officio praesidis.]<lb/>
             <seg type="rubric"> De l’office au prevost.</seg></head>
           <p xml:id="fr_20118-digeste.1.18.1"><label>[1.18.1]</label>
             <hi rend="b"> M</hi>arc dit : <hi rend="b"> L</hi>i nons de prevost est generals, qar li
@@ -2090,8 +2075,7 @@
               <sic source="#ante correctionem">la m(er)ci</sic>
               <corr source="#post correctionem" resp="#main B">l’amende</corr>
             </choice><note resp="editor">l’amende] <hi rend="i"> Post correctionem (main B).</hi>
-              <hi rend="i">Ante correctionem. La correction est faite par exponctuation du</hi> i<hi
-                rend="i"> final et insertion de la syllabe</hi> de<hi rend="i"> dans la marge de
+              <hi rend="i">Ante correctionem. La correction est faite par exponctuation du</hi> i<hi rend="i"> final et insertion de la syllabe</hi> de<hi rend="i"> dans la marge de
                 gouttière à travers un signe de renvoi (petit cerle et trait horizontal à droite).
                 EA concordent avec F ante correctionem, alors que le texte latin confirme la
                 révision : « Praeses provinciae si multam quam irrogavit ex praesentibus
@@ -2103,8 +2087,7 @@
             demandee à cels qui governent les contrees.</p>
           <p xml:id="fr_20118-digeste.1.18.7"><label>[1.18.7]</label>
             <hi rend="b"> C</hi>il meismes dit : <hi rend="b"> Q</hi>uant li prevolz de la contree
-            avra veuz les edefiemenz, il doit contraindre cels qui<note resp="editor">qui] <hi
-                rend="i"> Lire « à qui ».</hi></note>
+            avra veuz les edefiemenz, il doit contraindre cels qui<note resp="editor">qui] <hi rend="i"> Lire « à qui ».</hi></note>
             <choice>
               <sic source="#F">il</sic>
               <corr source="#E" resp="#IR">i</corr>
@@ -2233,8 +2216,8 @@
             ou il est de tel maniere que il quiere le damage non pas tant seulement de son chatel
             mes de toute sa mesniee, il en doit prendre la venjance.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.19.0">[1.19.0. De officio procuratoris Caesaris vel rationalis.]<lb/>
+        <div xml:id="fr_20118-digeste.1.19.0">
+          <head>[1.19.0. De officio procuratoris Caesaris vel rationalis.]<lb/>
             <seg type="rubric"> De l’office au procurateur l’empereor.</seg></head>
           <p xml:id="fr_20118-digeste.1.19.1"><label>[1.19.1]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> L</hi>es choses que li procurateurs
@@ -2262,13 +2245,12 @@
               <label>[2]</label> Ne il ne puet pas otroier à aucun bani que il reviegne ; et einssi
             l’escristrent li empereeur Sevoirs et Antonins.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.20.0">[1.20.0. De officio iuridici.]<lb/>
+        <div xml:id="fr_20118-digeste.1.20.0">
+          <head>[1.20.0. De officio iuridici.]<lb/>
             <seg type="rubric"> De l’office à celui qui dit droit.</seg></head>
           <p xml:id="fr_20118-digeste.1.20.1"><label>[1.20.1]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b">A</hi>ucuns puet adopter par devant celui
-            à qui jurisdicion est donee, quar les actions de loi li sont otroiees<note resp="editor"
-                ><hi rend="i"> L’alinéa 1.20.1 suit directement 1.19.3 dans le manuscrit et précède
+            à qui jurisdicion est donee, quar les actions de loi li sont otroiees<note resp="editor"><hi rend="i"> L’alinéa 1.20.1 suit directement 1.19.3 dans le manuscrit et précède
                 ainsi la rubrique 1.20.0.</hi></note>.</p>
           <p xml:id="fr_20118-digeste.1.20.2"><label>[1.20.2]</label>
             <hi rend="b"> C</hi>il meismes dit : <label>[2]</label>
@@ -2278,8 +2260,8 @@
             </choice> par l’establissement à l’empereeur Marc à celui à qui jurisdicion est donee en
             la cité d’Alixandre que il doint deffendeeurs as orfelins.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.21.0">[1.21.0. De officio iuridici.]<lb/>
+        <div xml:id="fr_20118-digeste.1.21.0">
+          <head>[1.21.0. De officio iuridici.]<lb/>
           </head>
           <p xml:id="fr_20118-digeste.1.21.1"><label>[1.21.1]</label> ¶ Les choses qui sont otroiees
             especialment par loi ou par conseill au senat ou par establissement au prince ne sont
@@ -2329,8 +2311,8 @@
             .i. bas home, aucun pou de destraignement li est bailliez, quar jurisdicion n’est nule
             se il n’i a aucun pou de destraignement.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.1.22.0">[1.22.0. De officio adsessorum.]<lb/>
+        <div xml:id="fr_20118-digeste.1.22.0">
+          <head>[1.22.0. De officio adsessorum.]<lb/>
             <seg type="rubric"> De l’office as assesseeurs.</seg></head>
           <p xml:id="fr_20118-digeste.1.22.1"><label>[1.22.1]</label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> T</hi>ouz li offices as assesseurs, de
@@ -2368,8 +2350,8 @@
       </div>
       <div>
         <head><hi rend="i">[Liber secundus]</hi></head>
-        <div>
-          <head xml:id="fr_20118-digeste.2.1.0">[2.1.0. De iurisdictione]<lb/>
+        <div xml:id="fr_20118-digeste.2.1.0">
+          <head>[2.1.0. De iurisdictione]<lb/>
               <seg type="rubric"> Ci comence li segonz livres. Cist tytres est de la jurisdicion à
               toz les juges.</seg></head>
           <p xml:id="fr_20118-digeste.2.1.1"><label>[2.1.1]</label><hi rend="b"> U</hi>lpians dit :
@@ -2436,8 +2418,7 @@
             vengiee, et l’en entent que ce furent pluseur fet, autresi come quant pluseur serf <choice>
               <sic source="#F">ont fet .i. tort fet</sic>
               <corr source="#A #E" resp="#IR">ont fet .i. tort</corr>
-            </choice><note resp="editor">ont fet .i. tort] ont fet .i. tort fet <hi rend="i"
-                >ms.</hi></note> ou .i. damage, ce sont pluseur fet et non pas uns, autresi come en
+            </choice><note resp="editor">ont fet .i. tort] ont fet .i. tort fet <hi rend="i">ms.</hi></note> ou .i. damage, ce sont pluseur fet et non pas uns, autresi come en
             larrecin. Octavenus dit que en cest cas doit l’en secorre au seigneur, mes ce puet estre
             dit se il porchaça par tricherie que il fust corrompuz par .i. autre, quar lors est ce
             uns conseulz et non pas pluseur fet. Et ce meisme dit Pomponius.</p>
@@ -2506,8 +2487,8 @@
             paine por ce se il n’obeïst à lui.</p>
         </div>
 
-        <div>
-          <head xml:id="fr_20118-digeste.2.2.0">[2.2.0 Quod quisque iuris in alterum statuerit, ut
+        <div xml:id="fr_20118-digeste.2.2.0">
+          <head>[2.2.0 Quod quisque iuris in alterum statuerit, ut
             ipse eodem iure utatur.]<lb/>
             <seg type="rubric"> Que chascuns doit user en soi del droit que il establist en
               autre.</seg></head>
@@ -2568,19 +2549,16 @@
             Et il n’escrit pas sanz reson que il doit soffrir la paine del banissement, non pas
             tant seulement es actions que il avoit quant il i enchaï, mes en celes que il a puis
             aquises. ¶ <label>[7]</label> Julians dit que ce qui est paié por ceste cause ne puet
-            estre demandé arrieres, quar<note resp="editor">quar] <hi rend="i"> Suivi de</hi> il <hi
-                rend="i">exponctué.</hi></note> toz jorz remaint la naturel cause qui deffent que il
+            estre demandé arrieres, quar<note resp="editor">quar] <hi rend="i"> Suivi de</hi> il <hi rend="i">exponctué.</hi></note> toz jorz remaint la naturel cause qui deffent que il
             ne soit demandé arriere.</p>
           <p xml:id="fr_20118-digeste.2.2.4"><label>[2.2.4]</label><hi rend="b"> G</hi>aius dit :
               <hi rend="b"> L</hi>i prevolz excepta .i. cas, ce est qant aucuns velt user de novel
             droit contre celui qui en usa premierement. Et ce est à bon droit que li juges qui velt
             deffendre le banissement ou aucuns qui en<note resp="editor">en] <hi rend="i">Ajouté
-                dans la marge avec un signe de renvoi.</hi></note> veult avoir<note
-              resp="editor">avoir] <hi rend="i"> Suivi de</hi> en <hi rend="i"
-              >exponctué.</hi></note> le benefice n’enchiee en paine.</p>
+                dans la marge avec un signe de renvoi.</hi></note> veult avoir<note resp="editor">avoir] <hi rend="i"> Suivi de</hi> en <hi rend="i">exponctué.</hi></note> le benefice n’enchiee en paine.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.3.0">[2.3.0 Si quis ius dicenti non obtemperaverit.]<lb/>
+        <div xml:id="fr_20118-digeste.2.3.0">
+          <head>[2.3.0 Si quis ius dicenti non obtemperaverit.]<lb/>
             <seg type="rubric"> Se aucuns n’obeïst au juge.</seg></head>
           <p xml:id="fr_20118-digeste.2.3.1"><label>[2.3.1]</label><hi rend="b"> U</hi>lpians dit :
               <hi rend="b"> I</hi>l est otroié à toz les baillis selonc la droiture de lor poesté,
@@ -2598,8 +2576,8 @@
             chose vaut, et por ce que la paine en doit estre paiee à la borse l’empereeur, l’action
             n'en [n']est pas donee aprés l’an, ne contre l’oir.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.4.0">[2.4.0 De in ius vocando.]<lb/>
+        <div xml:id="fr_20118-digeste.2.4.0">
+          <head>[2.4.0 De in ius vocando.]<lb/>
             <seg type="rubric"> D’apeler en droit.</seg></head>
           <p xml:id="fr_20118-digeste.2.4.1"><label>[2.4.1]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b">A</hi>peler en droit est apeler por esprover le droit.</p>
@@ -2624,8 +2602,7 @@
             pere jusqu’à tierz aiel, et cil qui sont outre sont apelé li graigneur. Einsi dit
             Pomponius que li ancien le disoient, mes Gaius Cassius apele noz peres toz cels de qui
             nos issimes, et ce est plus honeste chose. Labeo apele peres cels qui ont engendré en
-            servage. Et si come Servius dit, cist banissemenz n’apartient pas à cels tant <cb
-              n="18d"/> seulement qui sont né de loial mariage, quar li filz qui est engendrez de
+            servage. Et si come Servius dit, cist banissemenz n’apartient pas à cels tant <cb n="18d"/> seulement qui sont né de loial mariage, quar li filz qui est engendrez de
             porchaz n’apelera pas sa mere en droit.</p>
           <p xml:id="fr_20118-digeste.2.4.5"><label>[2.4.5]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> Q</hi>ar la mere est toz jorz certaine, ja soit ce que ele ait conceu de
@@ -2782,8 +2759,8 @@
               le<note resp="editor">le] <hi rend="i"> Suivi de o exponctué.</hi></note> chastiera se
             il n’a de quoi paier.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.5.0">[2.5.0 Si quis in ius vocatus non ierit sive quis
+        <div xml:id="fr_20118-digeste.2.5.0">
+          <head>[2.5.0 Si quis in ius vocatus non ierit sive quis
             eum vocaverit, quem ex edicto non debuerit.]<lb/>
             <seg type="rubric"> Se aucuns est apelez en droit et il n’i va pas, ou se aucuns i apele
               celi que il n’i doit pas apeler.</seg></head>
@@ -2791,8 +2768,7 @@
             <hi rend="b"> U</hi>lpians dit :
               <hi rend="b"> S</hi>e cil qui est apelez en droit done plege d’estre à droit qui ne
             soit pas souzmis au juge par devant qui il le doit 
-            amener<note resp="editor">amener] apemener <hi rend="i">avec</hi> pe <hi rend="i"
-                >exponctué.</hi></note>, autretant vaut conme se il n’eust doné point de plege, se
+            amener<note resp="editor">amener] apemener <hi rend="i">avec</hi> pe <hi rend="i">exponctué.</hi></note>, autretant vaut conme se il n’eust doné point de plege, se
             li pleges ne quite especialment son privilege.</p>
           <p xml:id="fr_20118-digeste.2.5.2"><label>[2.5.2]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> P</hi>or quel chose que aucuns soit apelez en droit par devant le
@@ -2807,8 +2783,8 @@
             paine, l’en pledera à lui por tant come ses aversaires i a de damage. Et einsi le dist
             Celsus.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.6.0">[2.6.0 In ius vocati ut eant aut satis vel cautum dent.]<lb/>
+        <div xml:id="fr_20118-digeste.2.6.0">
+          <head>[2.6.0 In ius vocati ut eant aut satis vel cautum dent.]<lb/>
             <seg type="rubric"> Que cil qui sont apelé en droit i aillent ou il doignent
               caucion.</seg></head>
           <p xml:id="fr_20118-digeste.2.6.1"><label>[2.6.1]</label><hi rend="b"> P</hi>aulus dit :
@@ -2839,8 +2815,8 @@
             l’un et l’autre non, il ne fet pas ce que il pramist dés que il ne les i amaine
             amedeus.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.7.0">[2.7.0 Ne quis eum qui in ius vocabitur vi eximat.]<lb/>
+        <div xml:id="fr_20118-digeste.2.7.0">
+          <head>[2.7.0 Ne quis eum qui in ius vocabitur vi eximat.]<lb/>
             <seg type="rubric"> Que aucuns ne retiegne par force celui qui est apelez en
               droit.</seg></head>
           <p xml:id="fr_20118-digeste.2.7.1"><label>[2.7.1]</label><hi rend="b"> U</hi>lpians dit :
@@ -2906,8 +2882,8 @@
             jugement paie ce qui li est jugié, il ne delivre pas le deteur, quar il paie sa
             paine.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.8.0">[2.8.0 Qui satisdare cogantur vel iurato promittant
+        <div xml:id="fr_20118-digeste.2.8.0">
+          <head>[2.8.0 Qui satisdare cogantur vel iurato promittant
             vel suae promissioni committantur.]<lb/>
             <seg type="rubric"> Liquel doivent estre contraint de doner caucion.</seg></head>
           <p xml:id="fr_20118-digeste.2.8.1"><label>[2.8.1]</label><hi rend="b"> G</hi>aius dit :
@@ -2932,16 +2908,14 @@
             est pleges d’avoir aucun à droit. Mes il covient vooir se cele action contient la verité
             de la chose ou les deperz, et il est mielz que li pleges soit tenuz à toz les deperz se
             il ne fu pleges por certaine qantité.</p>
-          <p xml:id="fr_20118-digeste.2.8.3"><label>[2.8.3]</label><hi rend="b"> P</hi>aulus<note
-              resp="editor"> Paulus] « <hi rend="sc"> Gaius</hi> » <hi rend="i">dans le texte
+          <p xml:id="fr_20118-digeste.2.8.3"><label>[2.8.3]</label><hi rend="b"> P</hi>aulus<note resp="editor"> Paulus] « <hi rend="sc"> Gaius</hi> » <hi rend="i">dans le texte
                 latin.</hi></note> dit : <hi rend="b"> S</hi>e l’action est del double, si come de
             larrecin qui n’est pas aperz, <choice>
               <sic source="#F"/>
               <corr source="#E" resp="#IR">[ou aus trois parz ou aus qatre parz, si conme de larrecin
                 apert]</corr>
             </choice>
-            <note resp="editor">ou aus trois parz ou aus qatre parz si comme de larrecin apert] <hi
-                rend="i"> Manque dans F (saut du même au même). Ajouté d’après E (cf. le texte
+            <note resp="editor">ou aus trois parz ou aus qatre parz si comme de larrecin apert] <hi rend="i"> Manque dans F (saut du même au même). Ajouté d’après E (cf. le texte
                 latin : « Sive in duplum est actio sive tripli aut quadrupli, tanti eundem
                 fideiussorem omnimodo teneri dicimus, quia tanti res esse
               intellegitur »).</hi></note>, nos disons que li pleges sera tenuz por tant conme la
@@ -2953,8 +2927,7 @@
             conmandement ainz que li jorz venist, action ne doit pas estre donee contre le plege.
             Mes se il muert aprés le jor où il est forsbaniz de la cité, l’en puet pledier contre le
             plege.</p>
-          <p xml:id="fr_20118-digeste.2.8.5"><label>[2.8.5]</label><hi rend="b"> P</hi>aulus<note
-              resp="editor"> Paulus] « <hi rend="sc"> Gaius</hi> » <hi rend="i">dans le texte
+          <p xml:id="fr_20118-digeste.2.8.5"><label>[2.8.5]</label><hi rend="b"> P</hi>aulus<note resp="editor"> Paulus] « <hi rend="sc"> Gaius</hi> » <hi rend="i">dans le texte
                 latin.</hi></note> dit : <hi rend="b"> S</hi>e aucuns est pleges por celui qui est
             condampnez et li condampnez muert ou il est forsbaniz de la cité de Rome, por ce ne
             remaint <cb n="21a"/> pas que l’en ne puisse pledier au plege. ¶ <label>[1]</label> Cil
@@ -3015,7 +2988,7 @@
             aucuns dit que il ne puet doner pleges à Rome et il veult estre envoiez en aucun
             chastel por doner les, il doit fere serement de verité que il ne le fet pas par malice.
             Mes cist seremenz est quitez à aucunes personnes, si come as peres et aus 
-            pa<cb n="21c" />trons. Cil qui est envoiez en aucun chastel por doner pleges doit jurer que il ne les
+            pa<cb n="21c"/>trons. Cil qui est envoiez en aucun chastel por doner pleges doit jurer que il ne les
             puet doner à Rome et que il le fet sanz malice : quar il ne doit pas estre contrainz de
             jurer que il ne puet doner pleges ailleurs que là où il velt estre envoiez, quar l’en
             le feroit parjurer, quar par aventure il ne les puet pas doner à Rome mes il les puet
@@ -3081,8 +3054,7 @@
             porsiee, ou il ou li orfelin. Et autresi dit l’en se li uns des deffendeeurs est
             porseerres. ¶ <label>[6]</label> Se tu me demandes le champ que ge porsie, et sentence
             est donee por toi et ge appel contre la sentence, l’en demande se ge sui mes porseerres
-            de tel champ. Et l’en dit par droit que oïl, quar il ne remaint pas que ge ne por<cb
-              n="22a"/>siee por ce se la possession puet estre gaaigniee contre moi. ¶
+            de tel champ. Et l’en dit par droit que oïl, quar il ne remaint pas que ge ne por<cb n="22a"/>siee por ce se la possession puet estre gaaigniee contre moi. ¶
               <label>[7]</label> Se l’en dote se aucuns a esté porseerres ou non, il covient garder
             au tens que il dona la caucion, quar autresi come il ne nuist rien à celui qui vendi la
             possession aprés ce que il ot doné caucion, ne vaut il rien à celui qui comença à
@@ -3091,8 +3063,8 @@
               <hi rend="b"> S</hi>e aucuns jure que il sera à droit, il ne semble pas que il soit
             parjures se il le lesse por cause qui soit otroiee.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.9.0">[2.9.0 Si ex noxali causa agatur, quemadmodum caveatur.]<lb/>
+        <div xml:id="fr_20118-digeste.2.9.0">
+          <head>[2.9.0 Si ex noxali causa agatur, quemadmodum caveatur.]<lb/>
             <seg type="rubric"> Se l’en plede por mesfet à serf, coment caucion doit estre
               donnee.</seg></head>
           <p xml:id="fr_20118-digeste.2.9.1"><label>[2.9.1]</label><hi rend="b"> U</hi>lpians dit :
@@ -3114,8 +3086,7 @@
             meffez que il fist avant n’est pas delivrez, quar li meffez ensuit le serf autresi come se
             il fust venduz. ¶ <label>[1]</label> Se li sers n’est pas presenz por qui meffet action
             apartient à aucun, se ses <cb n="22b"/> sires ne nie pas que il ne soit en sa poesté,
-            Vindius dit que ses sires<note resp="editor"> que ses sires] que il <hi rend="i">avec</hi> il <hi rend="i"
-                >exponctué ; ses sires ajouté en marge avec signe d'insertion.</hi></note> 
+            Vindius dit que ses sires<note resp="editor"> que ses sires] que il <hi rend="i">avec</hi> il <hi rend="i">exponctué ; ses sires ajouté en marge avec signe d'insertion.</hi></note> 
             doit estre contrainz ou de prametre que il l’avra à droit, ou
             de recevoir le jugement ; ou, se il ne le velt deffendre, il doit doner caucion d’amener
             le avant au plus tost que il porra. Et se il nie que il n’est pas en sa poesté et il
@@ -3141,16 +3112,14 @@
             plez est por actions capitals et por torz fez, il n’est pas amenez avant soufisamment,
             quar satisfacion est autrement fete de serf que de franc home, quar li sers doit estre
             tormentez et batuz, et li frans hom doit estre condampnez à paine de deniers. Mes se
-            l’action estoit citeaine, li demanderres doit mielz voloir que il ait amenez<note
-              resp="editor">amenez] <hi rend="i"> Suivi de </hi>ii <hi rend="i"
-              >exponctué.</hi></note> frans que sers, quar sa cause en vaut <cb n="22c"/> mielz.</p>
+            l’action estoit citeaine, li demanderres doit mielz voloir que il ait amenez<note resp="editor">amenez] <hi rend="i"> Suivi de </hi>ii <hi rend="i">exponctué.</hi></note> frans que sers, quar sa cause en vaut <cb n="22c"/> mielz.</p>
           <p xml:id="fr_20118-digeste.2.9.6"><label>[2.9.6]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> M</hi>es se aucuns pramet à amener avant celui à qui franchise est deue,
             il semble que il soit amenez en cel meismes estat se il i est amenez quant il est frans,
             quar il n’est pas loing de franchise.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.10.0">[2.10.0 De eo per quem factum erit quominus quis in
+        <div xml:id="fr_20118-digeste.2.10.0">
+          <head>[2.10.0 De eo per quem factum erit quominus quis in
             iudicio sistat.]<lb/>
             <seg type="rubric"> De celui par qui il remaint que aucuns ne vient à
             jugement.</seg></head>
@@ -3201,8 +3170,7 @@
             doit secorre à nul d’els, ainz lesse aler l’une tricherie contre l’autre. ¶
               <label>[4]</label> Se ge ai mis au plege en covenant que il me paiera .L. solz, se cil
             por qui il est pleges ne vient à jugement, à qui ge vuell demander .c. livres ? Se
-              Simphrones<note resp="editor"> Simphrones] Simprones<hi rend="i"> avec </hi>h<hi
-                rend="i"> ajouté dans l’interligne.</hi></note> 
+              Simphrones<note resp="editor"> Simphrones] Simprones<hi rend="i"> avec </hi>h<hi rend="i"> ajouté dans l’interligne.</hi></note> 
             fet par sa tricherie que li deteurs
             ne vient pas à jugement, ge <choice>
               <sic source="#F">pledera</sic>
@@ -3211,8 +3179,8 @@
             droit qui m’apartient contre lui ou contre son hoir, ja soit ce que ses pleges estoit
             obligiez en meneur quantité.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.11.0">[2.11.0 Si quis cautionibus in iudicio sistendi
+        <div xml:id="fr_20118-digeste.2.11.0">
+          <head>[2.11.0 Si quis cautionibus in iudicio sistendi
             causa factis non obtemperaverit.]<lb/>
             <seg type="rubric"> Se aucuns n’obeïst à la caucion que il a donee d’estre à
               droit.</seg></head>
@@ -3390,12 +3358,11 @@
             pramet que il l’amenra à jugement et il ne li amaine pas, et li orfelins vient dedenz
             ce en aage, ou il muert, ou il s’atient de l’eritage por quoi il estoit trez en cause,
             action ne sera pas donee contre le deffendeor por cele caucion, quar se li deffenderres
-            fust condampnez de la demande et il avenist à l’orfelin une des choses qui<note
-              resp="editor">qui] <hi rend="i">Suivi de</hi> nos <hi rend="i">exponctué.</hi></note>
+            fust condampnez de la demande et il avenist à l’orfelin une des choses qui<note resp="editor">qui] <hi rend="i">Suivi de</hi> nos <hi rend="i">exponctué.</hi></note>
             sont dites avant, si ne seroit pas action de chose jugiee donee contre lui.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.12.0">[2.12.0 De feriis et dilationibus et diversis temporibus.]<lb/>
+        <div xml:id="fr_20118-digeste.2.12.0">
+          <head>[2.12.0 De feriis et dilationibus et diversis temporibus.]<lb/>
             <seg type="rubric"> Des feres et des delaiemenz.</seg></head>
           <p xml:id="fr_20118-digeste.2.12.1"><label>[2.12.1]</label><hi rend="b"> U</hi>lpians
             dit : <hi rend="b"> L</hi>i empereres Marc establi que nus ne contraigne son aversaire
@@ -3457,8 +3424,7 @@
             l’en la puet otroier autre foiz por le proufit as parties où que li instrument soient :
             ou en la contree meismes, ou en autre. Et li termes doit estre atemprez selonc ce que li
             leu sont lointain. Et meesmement, se aucune chose est avenue de qoi l’en ne se donoit
-            garde, il covient vooir se li morz avoit eu<note resp="editor">eu] en <hi rend="i"
-                >ms.</hi></note> aucune dilacion por aporter ses instrumenz, savoir mon se ses hoirs
+            garde, il covient vooir se li morz avoit eu<note resp="editor">eu] en <hi rend="i">ms.</hi></note> aucune dilacion por aporter ses instrumenz, savoir mon se ses hoirs
             doit avoir une autre ou se ele li doit estre vaee. Et mielz que ele li soit donee se
             l’en voit droite cause de demander la.</p>
           <p xml:id="fr_20118-digeste.2.12.8"><label>[2.12.8]</label><hi rend="b"> P</hi>aulus dit :
@@ -3476,8 +3442,8 @@
             estre donees au deffendeeur et .ii. au demandeeur, se l’en voit droite cause de demander
             les.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.13.0">[2.13.0 De edendo.]<lb/>
+        <div xml:id="fr_20118-digeste.2.13.0">
+          <head>[2.13.0 De edendo.]<lb/>
             <seg type="rubric"> De fere sa demande et de mostrer par quele action l’en velt
               pledier.</seg></head>
           <p xml:id="fr_20118-digeste.2.13.1"><label>[2.13.1]</label><hi rend="b"> U</hi>lpians
@@ -3497,8 +3463,7 @@
             bien savoir ce qui a esté mis et receu. ¶ <label>[3]</label> Totes les choses doivent
             estre mostrees de quoi aucuns velt user par devant le juge, neporquant nus n’est
             contrainz de mostrer ses instrumenz. ¶ <label>[4]</label> Il ne semble pas que cil
-            mostre tote s’action, qui ne mostre tote la covenance. ¶ <label>[5]</label> L’en se<cb
-              n="25b"/>cort à cels qui por aage ou por rudece ou por autre droite cause ne mostrent
+            mostre tote s’action, qui ne mostre tote la covenance. ¶ <label>[5]</label> L’en se<cb n="25b"/>cort à cels qui por aage ou por rudece ou por autre droite cause ne mostrent
             pas lor actions.</p>
           <p xml:id="fr_20118-digeste.2.13.2"><label>[2.13.2]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> S</hi>e lés est demandez, li prevolz ne commande pas que les paroles del
@@ -3516,8 +3481,7 @@
             miens, me soit mostrez. ¶ <label>[2]</label> Li filz qui est en baill est contenuz en
             cez paroles, mes l’en demande se il doit estre contrainz de mostrer les resons ou ses
             peres. Et Labeo escrist que li peres n’en doit pas estre contrainz se il ne sot que ses
-              filz<note resp="editor">filz] <hi rend="i"> filiz avec</hi> i <hi rend="i"
-                >exponctué.</hi></note> fust notaires. Et Sabins dit par droit que ce doit lors
+              filz<note resp="editor">filz] <hi rend="i"> filiz avec</hi> i <hi rend="i">exponctué.</hi></note> fust notaires. Et Sabins dit par droit que ce doit lors
             estre receu quant gaainz en est venuz au pere. ¶ <label>[3]</label> Se sers a esté
             notaires (quar il le puet bien estre), se ce a esté par la volenté son seignor, li sires
             doit estre contrainz de mostrer les instrumenz, et jugemenz en doit estre donez contre
@@ -3581,8 +3545,7 @@
             l’en doit entendre que ce doit estre totes les foiz que mestiers en sera, quar il puet
             avenir que aucuns ait perdu ce qui li a esté mostré par .ii. foiz.</p>
           <p xml:id="fr_20118-digeste.2.13.8"><label>[2.13.8]</label><hi rend="b"> U</hi>lpians
-            dit : <hi rend="b"> Q</hi>uant l’en commande à aucun que il mostre ses instrumenz, <cb
-              n="26a"/> il est puniz quant il lesse par tricherie à mostrer les ; mes por legiere
+            dit : <hi rend="b"> Q</hi>uant l’en commande à aucun que il mostre ses instrumenz, <cb n="26a"/> il est puniz quant il lesse par tricherie à mostrer les ; mes por legiere
             corpe n’est il pas puniz se ele n’est prouchaine à tricherie. L’en dit que cil lesse par
             tricherie à mostrer les, qui malicieusement les mostre ou qui n’en mostre point. ¶
               <label>[1]</label> Cil qui enchiet en cest banissement doit paier ce que ce que ses
@@ -3607,8 +3570,7 @@
             por savoir verité. <label>[3]</label> Li prevolz commande que instrument soient mostré à
             toz cels qui les demandent, se il jurent que il ne le font pas par malice, se li
             instrument apartienent à els. <label>[4]</label> Li instrument apartienent à nos,
-              non<note resp="editor">non] <hi rend="i"> Suivi de</hi> i <hi rend="i"
-              >exponctué.</hi></note> pas tant seulement quant nos avons fet marchié ou quant nos
+              non<note resp="editor">non] <hi rend="i"> Suivi de</hi> i <hi rend="i">exponctué.</hi></note> pas tant seulement quant nos avons fet marchié ou quant nos
             somes hoir à cels <cb n="26b"/> qui le firent, mes quant cil le fist qui est en nostre
             poesté.</p>
           <p xml:id="fr_20118-digeste.2.13.10"><label>[2.13.10]</label><hi rend="b"> G</hi>aius
@@ -3637,8 +3599,8 @@
             dit : <hi rend="b"> C</hi>este action n’est pas donee aprés l’an ne contre l’oir, mes
             ele est donee à l’oir.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.14.0">[2.14.0 De pactis.]<lb/>
+        <div xml:id="fr_20118-digeste.2.14.0">
+          <head>[2.14.0 De pactis.]<lb/>
             <seg type="rubric"> Des covenanz.</seg></head>
           <p xml:id="fr_20118-digeste.2.14.1"><label>[2.14.1]</label><hi rend="b"> U</hi>lpians
             dit : <hi rend="b"> L</hi>a loiauté de cest banissement est naturel. Quel chose est si
@@ -3748,8 +3710,7 @@
             ce que il li doit, et il s’esforce aprés de depecier cel covenant. Vains covenanz est se
             il fu deceuz quant il le fist. ¶ <label>[11]</label> Se li covenanz a esté fez au
             comencement par tricherie ou aucune chose i a esté fete par tricherie aprés le covenant,
-            excepcion nuira à celui qui fist la tricherie por les paroles del banissement<note
-              resp="editor"><hi rend="i"> Le paragraphe 2.14.7 <label>[12]</label> manque dans tous
+            excepcion nuira à celui qui fist la tricherie por les paroles del banissement<note resp="editor"><hi rend="i"> Le paragraphe 2.14.7 <label>[12]</label> manque dans tous
                 les témoins de la traduction 3. Voici le texte latin : « Quod fere novissima parte
                 pactorum ita solet inseri “rogavit Titius, spopondit Maevius”, haec verba non tantum
                 pactionis loco accipiuntur, sed etiam stipulationis : ideoque ex stipulatu nascitur
@@ -3796,8 +3757,7 @@
             conmun assens de quel partie de lor dete il se tendront apaiez. Mes se il se descordent,
             lors covient il que li prevolz s’en entremete et que il sive la volenté à la graignor
             partie.</p>
-          <p xml:id="fr_20118-digeste.2.14.8"><label>[2.14.8]</label><hi rend="b"> P</hi>aulus <note
-              resp="editor"> Paulus] « <hi rend="sc"> Papinianus</hi> » <hi rend="i">dans le texte
+          <p xml:id="fr_20118-digeste.2.14.8"><label>[2.14.8]</label><hi rend="b"> P</hi>aulus <note resp="editor"> Paulus] « <hi rend="sc"> Papinianus</hi> » <hi rend="i">dans le texte
                 latin.</hi></note> dit : <hi rend="b"> L</hi>a greignor partie doit estre entendue
             selonc la quantité des detes et non pas selonc le nombre des personnes. Et se les detes
             sont yvels, lors doit l’en garder au nombre des personnes. Et se li nombres des
@@ -3860,8 +3820,7 @@
             excepcion de tricherie li nuist, quar dés que li empereres Pius escrist que les actions
             doivent estre donees à celui qui achate l’eritage, li deteurs de l’eritage porra par
             droit user d’excepcion de tricherie contre celui qui le vendi. <label>[1]</label> Et se
-            covenanz fu fez entre celui qui estoit sires de la chose vendue<note resp="editor"
-              >vendue] <hi rend="i"> Suivi de</hi> i <hi rend="i">exponctué.</hi></note> et celui
+            covenanz fu fez entre celui qui estoit sires de la chose vendue<note resp="editor">vendue] <hi rend="i"> Suivi de</hi> i <hi rend="i">exponctué.</hi></note> et celui
             qui l’achata que li sers qui estoit achatez fust renduz au procurateur qui le vendi en
             leu del seigneur, se li sires en demande le pris, excepcion de tricherie li nuira.</p>
           <p xml:id="fr_20118-digeste.2.14.17"><label>[2.14.17]</label><hi rend="b"> P</hi>aulus
@@ -3988,8 +3947,7 @@
             qui est establiz es lois, ce est dedenz l’an. Li doeres revient à sa droiture par le
             derrenier covenant, ne l’en ne doit pas dire que la condicion del doere soit empiriee
             par le couvenant, quar toutes les foiz que action de doere revient à la droiture que la
-              loi<note resp="editor">la loi] <hi rend="i"> Précédé de</hi> action <hi rend="i"
-                >exponctué.</hi></note> de nature lor done, la cause del doere n’est pas empoiriee,
+              loi<note resp="editor">la loi] <hi rend="i"> Précédé de</hi> action <hi rend="i">exponctué.</hi></note> de nature lor done, la cause del doere n’est pas empoiriee,
             ainz est rendue à sa droite forme. Et ce dit Scevola. ¶ <label>[3]</label> L’en ne puet
             fere par nule covenance que aucuns ne <choice>
               <sic source="#F">respon(n)e</sic>
@@ -4101,8 +4059,7 @@
             tierz por cez deniers. Et Modestins respont que se li freres se velt deffendre par
             excepcion de covenant, il avront contre lui replicacion de tricherie.</p>
           <p xml:id="fr_20118-digeste.2.14.36"><label>[2.14.36]</label><hi rend="b">
-              P</hi>aulus<note resp="editor"> Paulus] « <hi rend="sc"> Proculus</hi> » <hi rend="i"
-                >dans le texte latin.</hi></note> dit : <hi rend="b"> S</hi>e tu avoies porsis mon
+              P</hi>aulus<note resp="editor"> Paulus] « <hi rend="sc"> Proculus</hi> » <hi rend="i">dans le texte latin.</hi></note> dit : <hi rend="b"> S</hi>e tu avoies porsis mon
             champ et covenant en fu fez entre moi et toi que tu en baillasses à Tyce la possession,
             se ge te demant puis cel champ, tu ne me puez pas metre arriere par excepcion de
             covenant se tu n’as ja bailliee la possession, ou se la covenance ne fu fete por la
@@ -4288,8 +4245,8 @@
             premier covenant est ostez au plege. Et la verité est que, puis que excepcion de
             covenant est une foiz aquise au plege, ele ne li puet puis estre tolue malgré suen.</p>
         </div>
-        <div>
-          <head xml:id="fr_20118-digeste.2.15.0">[2.15.0 De transactionibus.]<lb/>
+        <div xml:id="fr_20118-digeste.2.15.0">
+          <head>[2.15.0 De transactionibus.]<lb/>
             <seg type="rubric"> De transactions.</seg></head>
           <p xml:id="fr_20118-digeste.2.15.1"><label>[2.15.1]</label><hi rend="b"> U</hi>lpians
             dit : <hi rend="b"> T</hi>ransaction est de chose douteuse et de plet qui n’est pas
@@ -4369,11 +4326,8 @@
             establissemenz blasme la transaction qui por ce est fete que aucuns gast les deniers qui
             li sont baillié. ¶ <label>[6]</label> Et se aucuns fet transaction sanz l’auctorité au
             prevost, si come se il fet que il ait de mois en mois ce que il devoit avoir d’an en an,
-            ou ce que il doit avoir de mois en mois li soit paiez de jor en jor, ou que<note
-              resp="editor"> que] <hi rend="i"> Précédé de</hi> ce <hi rend="i"
-              >exponctué.</hi></note> ce que il doit avoir en la fin de l’an li soit paié au
-            conmencement, et ge croi que cele transaction vaut<note resp="editor"> vaut] avaut <hi
-                rend="i">avec</hi> a <hi rend="i">exponctué.</hi></note>, quar par ce amende il sa
+            ou ce que il doit avoir de mois en mois li soit paiez de jor en jor, ou que<note resp="editor"> que] <hi rend="i"> Précédé de</hi> ce <hi rend="i">exponctué.</hi></note> ce que il doit avoir en la fin de l’an li soit paié au
+            conmencement, et ge croi que cele transaction vaut<note resp="editor"> vaut] avaut <hi rend="i">avec</hi> a <hi rend="i">exponctué.</hi></note>, quar par ce amende il sa
             condicion, quar li establissemenz fu fez por tant sanz plus que la norreture ne soit
             amenuisiee. ¶ <label>[7]</label> Il n’a pas force se cil à qui norreture est lessiee ont
             esté franchi ou se il sont naturelment franc, ou se il sont povre ou riche. ¶
@@ -4469,8 +4423,7 @@
             ne doivent pas estre destruites par covenant.</p>
           <p xml:id="fr_20118-digeste.2.15.10"><label>[2.15.10]</label><hi rend="b"> C</hi>il
             meismes dit : <hi rend="b"> S</hi>e li peres fist transaction de la chose à ses filz qui
-              n’estoient<note resp="editor">n’estoient] nestoit <hi rend="i">avec</hi> en <hi
-                rend="i">inséré dans l’interligne. </hi></note> pas en sa poesté, ele ne lor doit
+              n’estoient<note resp="editor">n’estoient] nestoit <hi rend="i">avec</hi> en <hi rend="i">inséré dans l’interligne. </hi></note> pas en sa poesté, ele ne lor doit
             pas nuire.</p>
           <p xml:id="fr_20118-digeste.2.15.11"><label>[2.15.11]</label><hi rend="b"> C</hi>il
             meismes dit : <hi rend="b"> A</hi>prés ce que sentence est donee, ja soit ce que l’en

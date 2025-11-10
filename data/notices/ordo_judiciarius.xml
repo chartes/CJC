@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../xsl/miroir2html.xsl"?>
 <!--<?xml-stylesheet type="text/xsl" href="..\xsl\oeuvre_2.xsl"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ordo_judiciarius" xml:lang="fr">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ordo_judiciarius_notice" xml:lang="fr">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,6 +55,25 @@
         <language ident="fr"/>
       </langUsage>
     </profileDesc>
+    <encodingDesc>
+      <refsDecl>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[1]" use="default" unit="presentation">
+          <citeData use="head" property="dc:title"/>
+        </citeStructure>
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div[position() > 1]" use="default" unit="partie">
+          <citeData use="head" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="traduction">
+            <citeData use="head" property="dc:title"/>
+            <citeStructure match="div" use="default" unit="état">
+              <citeData use="head" property="dc:title"/>
+              <citeStructure match="div" use="default" unit="état">
+                <citeData use="head" property="dc:title"/>
+              </citeStructure>
+            </citeStructure>
+          </citeStructure>
+        </citeStructure>
+      </refsDecl>
+    </encodingDesc>
   </teiHeader>
   <text>
     <body>

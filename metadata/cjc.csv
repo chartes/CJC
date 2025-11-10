@@ -1,0 +1,14 @@
+id	title	description	relation
+CJC	Corpus Juris Civilis	Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français.	
+editions	Éditions		
+notices	Notices		
+Authentiques	Les Authentiques		
+Code	Code de Justinien		
+Codi	Li Codes an romanz		
+digestum_vetus	Digeste de Justinien		
+livres_jostice_et_plet	Li livres de jostice et de plet	"Li livres de jostice et de plet est une compilation anonyme du XIIIe siècle organisée en vingt livres rassemblant des dispositions du droit coutumier et des extraits traduits du Corpus juris civilis et des Decretales, le tout organisé suivant le plan du Digeste médiéval.
+Conservé dans un seul manuscrit (Paris, BnF, fr. 2844), cet ouvrage n’était connu qu’à travers l'édition partielle de Pierre-Nicolas Rapetti (Paris, 1850). Graziella Pastore reproduit fidèlement cette première édition qu'elle complète avec l'édition et l'étude de toutes les sections inédites."	
+authenticum_lI			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
+authenticum_lII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
+authenticum_lIII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
+authenticum_notice			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_lI

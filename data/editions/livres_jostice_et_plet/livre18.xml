@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="livre18">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jostice_et_plet_l18">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>LI LIVRES DE JOSTICE ET DE PLET</title>
+              <title>Li livres de jostice et de plet 18</title>
                 <principal xml:id="GP">Graziella Pastore</principal>
                 <funder>École nationale des chartes</funder>
                 <respStmt>
@@ -83,6 +83,17 @@
                     telle qu'elle apparaît dans l'édition imprimée de 1850, couplée aux sections
                     précédemment inédites, ici éditées par les soins de G. Pastore.</p>
             </projectDesc>
+          <refsDecl>
+            <citeStructure match="/TEI[1]/text[1]/group[1]" use="default" unit="liber">
+              <citeData use="head" property="dc:title"/>
+              <citeStructure match="text" use="@xml:id" unit="part">
+                <citeData use="front/head/text()" property="dc:title"/>
+                <citeStructure match="body/div" use="default" unit="rubric">
+                  <citeData use="head" property="dc:title"/>
+                </citeStructure>
+              </citeStructure>
+            </citeStructure>
+          </refsDecl>
         </encodingDesc>
         <revisionDesc>
             <change when="2016-11" who="GP">Mise à jour du fichier</change>

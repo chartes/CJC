@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fr_1064-institutes">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,6 +40,11 @@
          <projectDesc>
             <p>Encodage de l'édition de 1935, restitution de la leçon de C (français 1064).</p>
          </projectDesc>
+        <refsDecl>
+          <citeStructure match="/TEI[1]/text[1]/body[1]/div[@xml:id]" use="@xml:id" unit="liber">
+            <citeStructure match="div[@xml:id]" use="@xml:id" unit="part"/>
+          </citeStructure>
+        </refsDecl>
          <tagsDecl>
             <rendition> Le projet a pour but de donner la leçon de C. Pour ce faire, nous avons
                utilisé l'élément <gi>choice</gi>, avec ses éléments enfants <gi>sic</gi>, avec un
