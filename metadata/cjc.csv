@@ -1,14 +1,33 @@
-id	title	description	relation
-CJC	Corpus Juris Civilis	Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français.	
-editions	Éditions		
-notices	Notices		
-Authentiques	Les Authentiques		
-Code	Code de Justinien		
-Codi	Li Codes an romanz		
-digestum_vetus	Digeste de Justinien		
-livres_jostice_et_plet	Li livres de jostice et de plet	"Li livres de jostice et de plet est une compilation anonyme du XIIIe siècle organisée en vingt livres rassemblant des dispositions du droit coutumier et des extraits traduits du Corpus juris civilis et des Decretales, le tout organisé suivant le plan du Digeste médiéval.
-Conservé dans un seul manuscrit (Paris, BnF, fr. 2844), cet ouvrage n’était connu qu’à travers l'édition partielle de Pierre-Nicolas Rapetti (Paris, 1850). Graziella Pastore reproduit fidèlement cette première édition qu'elle complète avec l'édition et l'étude de toutes les sections inédites."	
-authenticum_lI			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
-authenticum_lII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
-authenticum_lIII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice
-authenticum_notice			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_lI
+id	title	description	relation1	relation2	relation3	relation4	relation5	relation6	relation7	relation8	relation9	relation10	relation11	relation12	relation13
+CJC	Corpus Juris Civilis	Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français.													
+editions	Éditions														
+notices	Notices														
+Authentiques	Les Authentiques														
+Code	Code de Justinien														
+Codi	Li Codes an romanz														
+digestum_vetus	Digeste de Justinien														
+livres_jostice_et_plet	Li livres de jostice et de plet	Li livres de jostice et de plet est une compilation anonyme du XIIIe siècle organisée en vingt livres rassemblant des dispositions du droit coutumier et des extraits traduits du Corpus juris civilis et des Decretales, le tout organisé suivant le plan du Digeste médiéval.													
+authenticum_lI			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice												
+authenticum_lII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice												
+authenticum_lIII			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_notice												
+authenticum_notice			https://dev.chartes.psl.eu/elec/cjc/document/authenticum_lI	https://dev.chartes.psl.eu/elec/cjc/document/authenticum_lII	https://dev.chartes.psl.eu/elec/cjc/document/authenticum_lIII										
+giessen_945-code			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r658265#r658347												
+H_81-code			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r658265#r658347												
+fr_20120-code			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r658265#r658347												
+fr_20119-code			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r658265#r658347												
+codi_fr_6			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_4			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_3			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_7			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_2			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_1			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_8			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_5			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codi_fr_9			https://dev.chartes.psl.eu/elec/CJC/document/codex_justinianus_notice?refId=r874167#r874175												
+codex_justinianus_notice			https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_1	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_2	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_3	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_4	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_5	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_6	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_7	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_8	https://dev.chartes.psl.eu/elec/CJC/document/codi_fr_9	https://dev.chartes.psl.eu/elec/CJC/document/fr_20120-code	https://dev.chartes.psl.eu/elec/CJC/document/H_81-code	https://dev.chartes.psl.eu/elec/CJC/document/fr_20119-code	https://dev.chartes.psl.eu/elec/CJC/document/giessen_945-code
+DV_l2_fr-197			https://dev.chartes.psl.eu/elec/CJC/document/digestum_vetus_notice												
+DV_l2_H47			https://dev.chartes.psl.eu/elec/CJC/document/digestum_vetus_notice												
+DV_l2_KBR-9234			https://dev.chartes.psl.eu/elec/CJC/document/digestum_vetus_notice												
+DV_l1-2_fr-20118			https://dev.chartes.psl.eu/elec/CJC/document/digestum_vetus_notice												
+digestum_vetus_notice			https://dev.chartes.psl.eu/elec/CJC/document/digestum-vetus_translation-2_witness-BnF-fr-197_livre-2.xml	https://dev.chartes.psl.eu/elec/CJC/document/digestum-vetus_translation-3_witness-F_livres-1-et-2.xml	https://dev.chartes.psl.eu/elec/CJC/document/digestum-vetus_translation-4_witness-msMontpellier_livre-2.xml	https://dev.chartes.psl.eu/elec/CJC/document/digestum-vetus_translation-5_witness-KBR-9234_livre-2.xml									
+fr_1064-institutes			institutiones_notice												

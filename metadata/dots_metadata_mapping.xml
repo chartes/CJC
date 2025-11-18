@@ -13,10 +13,22 @@
     <dc:date scope="document" xpath="/TEI/teiHeader//profileDesc/creation/date"/>
     <description scope="document" xpath="/TEI/teiHeader//projectDesc/p"/>
     <dc:subject scope="document" xpath="/TEI/teiHeader//textClass/keywords/term/@key" key="@id"/>
-    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation"/>
     <dct:publisher scope="document" resourceId="all">École nationale des chartes</dct:publisher>
     <dct:license scope="document" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:license>
     <download scope="document" xpath="let $id := /TEI/@xml:id return concat('https://dev.chartes.psl.eu/dots/api/dts/document?resource=', $id)" key="XML"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation1" key="relation1"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation2" key="relation2"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation3" key="relation3"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation4" key="relation4"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation5" key="relation5"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation6" key="relation6"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation7" key="relation7"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation8" key="relation8"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation9" key="relation9"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation10" key="relation10"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation11" key="relation11"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation12" key="relation12"/>
+    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation13" key="relation13"/>
     <!-- Métadonnées de fragment -->
     <dc:title scope="fragment" format="tsv" source="./institutes_metadata.csv" value="title"/>
   </mapping>

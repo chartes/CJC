@@ -72,10 +72,7 @@
     </profileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div[1]" use="default" unit="presentation">
-          <citeData use="head" property="dc:title"/>
-        </citeStructure>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div[position() > 1]" use="default" unit="partie">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="part">
           <citeData use="head" property="dc:title"/>
           <citeStructure match="div" use="default" unit="traduction">
             <citeData use="head" property="dc:title"/>
