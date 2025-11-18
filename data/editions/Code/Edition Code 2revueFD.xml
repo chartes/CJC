@@ -31,7 +31,7 @@
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/text()" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dc:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
               <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
             </citeStructure>
