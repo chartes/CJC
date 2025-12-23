@@ -7,8 +7,8 @@
     <fileDesc>
       <titleStmt>
         <title>Li Codes an romanz, livre 4</title>
-        <author> (traduction du Codi en langue d'oïl)</author>
-        <author>Anonyme (auteur)</author>
+<!--        <author> (traduction du Codi en langue d'oïl)</author>-->
+        <author>Anonyme</author>
         <principal>
           <persName xml:id="VM">Viola Mariotti</persName> (éditeur)</principal>
       </titleStmt>
@@ -38,7 +38,7 @@
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
             <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dc:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="if (contains(label[1], '[') ) then substring-after(substring-before(label[1], ']'), '[') else label[1]" property="dc:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
@@ -369,7 +369,7 @@
           <p xml:id="codi_fr_4.44.1"><label>[4.44.1]</label><hi rend="b">S</hi>i li fiz fait aucun marchié et non est el pouoir de son pere, il <app><lem wit="#H"><subst><del rend="expunction">e</del><add>n'en</add></subst></lem></app> est tenuz ausimant com seroit .i. autres hons. ¶ Mais se li fiz est el pouoir del pere ou de l’avi, il an est tenuz, si com nous avons dit desoure, tant com il est el pouoir son pere.</p>
           <p xml:id="codi_fr_4.44.2"><label>[4.44.2]</label>Mais se li fiz est issuz del pouoir son pere, ou par la mort del pere ou par autre <app><lem wit="#H"><subst><del rend="expunction">chose</del><add>guise</add></subst></lem></app>, et li peres la  <app type="palaeographic"><lem wit="#H"><choice><sic>deherite</sic><corr resp="#VM">desherite</corr></choice></lem></app>, ou il an a fait son hoir, mais ne li a laissié fors la falcide de s’onnour et de son avoir, ne doit estre mis an plaiz se non de tant com il puet paier.</p>
           <p xml:id="codi_fr_4.44.3"><label>[4.44.3]</label>Ce est voirs se on le met an plaiz tantost com li peres est morz, ou tantost com il issi del pouoir de son pere par quelque guise. Mais se il a esté grant termine, doit estre tenuz de tout, ancore non ait il tant dont il le puisse paier. ¶</p>
-          <p xml:id="codi_fr_4.44.4">>§ 4. Iceste raisons est issi com les autres qui ne se puet perdre par mains de .xxx. anz.</p>
+          <p xml:id="codi_fr_4.44.4"><label>§ 4.</label> Iceste raisons est issi com les autres qui ne se puet perdre par mains de .xxx. anz.</p>
         </div>
         <div xml:id="codi_fr_4.45">
           <head type="rubric"><label>[4.45]</label> Ici dit quex raisons est se li sers ou li fiz font marchié de lor <foreign xml:lang="lat">peculio</foreign> sanz le seu de lor seignour ou des peres contre lor anfanz .xlv.<note resp="#VM">Dans l’éd. Fitting, rubrique XLIII. <hi rend="i">Si filius vel seruus faciunt aliquod mercatum de suo <foreign xml:lang="lat">peculio</foreign> sine scientia domini uel patris uel contra eorum uetitum</hi>. Dans l’éd. Derrer, rubrique XLII. <hi rend="i">Cals rasuns est, si lo servs o lo fillz fant merchat de sun peculio sens lo saput de sun senor o de.l paire o d’altra lor vet.</hi></note></head>
@@ -691,7 +691,7 @@
           <p xml:id="codi_fr_4.72.10"><label>[4.72.10]</label>Se li sires ne viaut recevoir an la tenoison cel home qui a gaaignié le droit de la chose de cel home qui la tenoit an fief, et il sera par .ii. mois aprés que li sera dit, bien le porra mettre an tenoison cil qui li vaut ou qui l’aliene par autre maniere. ¶</p>
           <p xml:id="codi_fr_4.72.11"><label>[4.72.11]</label><app><lem resp="#VM">Se cil hons qui tient une chose à cens, ce est <foreign xml:lang="occ">amphiteosim</foreign>, la vande ou la aliene an autre guise que il ne doit, pert tout le droit qu'il avoit an la chose.</lem><rdg wit="#H"/><witDetail wit="#H">Saut du même au même.</witDetail></app></p>
           <p xml:id="codi_fr_4.72.12"><label>[4.72.12]</label>Se cil hons qui tient une chose de moi an fief pert la tenoisons par aucune maniere, il la puet demander de touz homes par raison, et de moi meismes de cui est la chose la puet demander, s’il m’a paié le cens ou il le viaut paier, ja soit ce qu’il tiegne la chose de moi, ce est <foreign xml:lang="lat">possidet</foreign> de moi, ce est an mon nom, et ou autant que je aie la tenoison, mais a droit an la chose par quoi il la puet demander à toz homes qui la tient.</p>
-          <p xml:id="codi_fr_4.72.13">§ 13.<pb n="f. 46v"/> Se je doig une terre qui soit moie an fié à autre, cil covanz que nous faisons quant je li done, doit estre tenuz, ou soit que nous façons tel convant que il la tanra, et il et si hoir, et qu’il la puisse vandre et doner, ou soit que li convanz fust tex qu’il la tenist solemant an sa vie, ou soit que li convanz fust d’autre maniere, il doit estre tenuz adés, se escriz fu faiz de cel convant, s’il n’est ancontre la loi. ¶</p>
+          <p xml:id="codi_fr_4.72.13"><label>§ 13.</label><pb n="f. 46v"/> Se je doig une terre qui soit moie an fié à autre, cil covanz que nous faisons quant je li done, doit estre tenuz, ou soit que nous façons tel convant que il la tanra, et il et si hoir, et qu’il la puisse vandre et doner, ou soit que li convanz fust tex qu’il la tenist solemant an sa vie, ou soit que li convanz fust d’autre maniere, il doit estre tenuz adés, se escriz fu faiz de cel convant, s’il n’est ancontre la loi. ¶</p>
           <p xml:id="codi_fr_4.72.14"><label>[4.72.14]</label>Se cil qui tient la moie chose an fié, si com est dit desoure, tient la chose par .xxx. anz et il ne paie le cens, adés nil ne puet dire que la chose soit soue par icelle tenoison. Mais s’il la tient par .xxx. anz qu’il ne pait le cens ne il n’an fait nul samblant, il se puet  puis desfandre par icelle tenoison et dou seignour de cui il tient la chose et de touz homes, et puet tenir la chose pour soue, ansinc que il n’an devra cens des cel termine an avant.</p>
         </div>
       </div>

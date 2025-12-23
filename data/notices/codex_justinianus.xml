@@ -67,7 +67,7 @@
             <citeStructure match="div" use="default" unit="état">
               <citeData use="head" property="dc:title"/>
               <citeStructure match="div" use="default" unit="état">
-                <citeData use="head" property="dc:title"/>
+                <citeData use="if (head) then head else list/head" property="dc:title"/>
               </citeStructure>
             </citeStructure>
           </citeStructure>
@@ -33631,9 +33631,8 @@
               </div>
             </div>
             <div type="deperdita">
-              <head/>
+              <head>Manuscrits perdus</head>
               <list type="deperdita">
-                <head>Manuscrits perdus</head>
                 <item xml:id="codi_martin_daragon"><title type="nom_ms">Manuscrit ayant appartenu à la bibliothèque de Martin d’Aragon</title><p><bibl>H. Suchier, <title>Manuscrits perdus de la Somme provençale du Code de Justinien</title>, Toulouse, 1894, p. 6</bibl>, a signalé une copie listée dans l’inventaire de la bibliothèque de <persName role="possesseur" key="Martin d'Aragon">Martin d’Aragon</persName> (mort en 1410), f. 18 : n°131 <quote>Item un altre appellat Codi en tholoza scrit en pergamins ab posts de fust e cuberta de cuyro vermell sens tancadors, lo qual comença en vermello: « De summa trinitate » e en lo negre: « De totes les cosas », e faneix: « Antequam mors sequatuur amen »</quote>.</p>
                 </item>
                 <item xml:id="codi_inventaire17"> <title type="nom_ms">Manuscrit mentionné dans un inventaire du 17<hi rend="sup">e</hi> s.</title>
@@ -37717,9 +37716,8 @@
               </div>
             </div>
             <div type="deperdita">
-              <head/>
+              <head>Manuscrits perdus</head>
               <list type="deperdita">
-                <head>Manuscrits perdus</head>
                 <item xml:id="codi_fr_martin_daragon"> <title type="nom_ms">Manuscrit ayant appartenu à la bibliothèque de Martin d’Aragon (mort en 1410)</title>
                   <p><bibl>H. Suchier, dans <title>Manuscrits perdus de la Somme provençale du Code de Justinien</title>, Toulouse, 1894, p. 7</bibl>, a signalé la présence d’une traduction française du <title>Codi</title> dans la bibliothèque de
                     <persName role="possesseur" key="Martin d'Aragon">Martin d’Aragon</persName>, d’après la notice de l’inventaire, f. 22 : [n°158] <quote>Item vn altre libre appellat lo Codi en frances, scrit en pergamins ab posts de fust et cubert de cuyro blau ab. v. claus a cascuna post e ab dos tancadors de parxa de seda vermella, lo qual comença en vermello : Açi comença, e en lo negre : Per totes les chouses, e faneix : Pater noster per cortesia</quote>.</p>

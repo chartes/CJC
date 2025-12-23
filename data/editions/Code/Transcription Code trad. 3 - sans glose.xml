@@ -38,7 +38,7 @@
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/text()" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/seg/text()" property="dc:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
               <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
             </citeStructure>
@@ -1010,11 +1010,7 @@
         </div>
         <div xml:id="fr_20119-code3.2.7bis.0">
           <head>
-            <lb/><seg type="rubric">Des avocaz as divers jugemant. <note place="bottom">
-                <hi rend="i">fr. 20119 : cette rubrique indique une division supplémentaire par
-                  rapport à la structure du texte latin de référence (éd. P. Krüger)</hi>
-              </note>
-            </seg></head>
+            <lb/><seg type="rubric">Des avocaz as divers jugemant. <note place="bottom"><hi rend="i">fr. 20119 : cette rubrique indique une division supplémentaire par rapport à la structure du texte latin de référence (éd. P. Krüger)</hi></note></seg></head>
           <p xml:id="fr_20119-code3.2.7.20"><label>[2.7.20]</label>
    Li empereres Anastasius dit à Eusebe le mestre des offices. <seg type="lemme" xml:lang="lat">Sugestionem.</seg>
               <label>[pr.]</label> Nos avons reçeu les letres au noble visconte d’Ase par coi il nos
@@ -1177,7 +1173,7 @@
             niees que tu n’as pas eu ton salaire, neporquant tient toi à ce que tu as prameis. Quar il
             est deveé<note place="bottom">est deffendu que</note> que cil qui ont mené la cause à la
             borse l’empereeur<note place="bottom">c. du fisque s.</note>, soient avocat contre li. </p>
-          <p><anchor xml:id="__DdeLink__2056_1453346465"/>[2.8.2] Li empereeur Valentins et Galiens
+          <p xml:id="fr_20119-code3.2.8.2"><anchor xml:id="__DdeLink__2056_1453346465"/><label>[2.8.2]</label> Li empereeur Valentins et Galiens
             dient. <seg type="lemme" xml:lang="lat">Potes.</seg> Tu puez par nostre autorité <cb n="65d"/> donner defendement as bas hommes
             contre la borse l’empereeur<note place="bottom">c. le fisque por</note>, por tant que tu
             te gardes de recevoir icele cause que tu tretas quant tu estoies avocaz de la borse
@@ -2444,7 +2440,7 @@
             demandez por nient que cele meisme question d’enterigne restitucion soit menee derechief ;
             quar vos deussoiz avoir apele se la sentence vos desplesoit ; e se vos estes encore en
             l’aage à qui l’en selt secorre, nos vos donnons restitucion que vos puissoiz apeler.</p>
-          <p><anchor xml:id="__DdeLink__3727_1581754182"/>[2.43.2] <hi rend="b">L</hi>i empereres
+          <p xml:id="fr_20119-code3.2.43.2"><anchor xml:id="__DdeLink__3727_1581754182"/><label>[2.43.2]</label> <hi rend="b">L</hi>i empereres
             Alissandres dit. <seg type="lemme" xml:lang="lat">Quamque.</seg> <hi rend="b">J</hi>a soit ce que li procureeur<note place="bottom">le curateur à</note> à l’orfeline furent vaincu quant il re<cb n="77d"/>queroient que ele eust enterigne restitucion, neporquant, porce que tu diz que la
             cause puet estre garnie par noveles defenses, li procureeur<note place="bottom">le
               curateur à</note> à l’orfeline qui ore<note place="bottom">qui maintenant est</note> est

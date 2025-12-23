@@ -63,7 +63,7 @@
             <citeData use="head" property="dc:title"/>
             <citeStructure match="div" use="default" unit="état">
               <citeData use="head" property="dc:title"/>
-              <citeStructure match="div" use="default" unit="état">
+              <citeStructure match="div[head != '']" use="default" unit="état">
                 <citeData use="head" property="dc:title"/>
               </citeStructure>
             </citeStructure>

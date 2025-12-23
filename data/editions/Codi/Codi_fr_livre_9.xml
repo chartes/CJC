@@ -7,8 +7,8 @@
     <fileDesc>
       <titleStmt>
         <title>Li Codes an romanz, livre 9</title>
-        <author> (traduction du Codi en langue d'oïl)</author>
-        <author>Anonyme (auteur)</author>
+<!--        <author> (traduction du Codi en langue d'oïl)</author>-->
+        <author>Anonyme</author>
         <principal>
           <persName xml:id="VM">Viola Mariotti</persName> (éditeur)</principal>
       </titleStmt>
@@ -37,7 +37,7 @@
           <citeData use="head" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
             <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dc:title"/>
-            <citeStructure match="p" use="@xml:id" unit="rubric">
+            <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
               <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
             </citeStructure>
           </citeStructure>

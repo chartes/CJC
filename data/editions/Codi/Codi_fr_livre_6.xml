@@ -7,8 +7,8 @@
     <fileDesc>
       <titleStmt>
         <title>Li Codes an romanz, livre 6</title>
-        <author> (traduction du Codi en langue d'oïl)</author>
-        <author>Anonyme (auteur)</author>
+<!--        <author> (traduction du Codi en langue d'oïl)</author>-->
+        <author>Anonyme</author>
         <principal>
           <persName xml:id="VM">Viola Mariotti</persName> (éditeur)</principal>
       </titleStmt>
@@ -236,7 +236,7 @@
         </div>
         <div xml:id="codi_fr_6.31">
           <head type="rubric"><label>[6.31]</label> Ici dit quant cil hons qui antre an monester puet faire testamant et quant non .xxxi.<note resp="#VM">Dans l’éd. Fitting, rubrique XXIX. Dans l’éd. Derrer, rubrique XXX. <hi rend="i">Que aquel om qui intra in monasteri pot faire testament et cant non.</hi></note></head>
-          <p xml:id="codi_fr_6.31.1">§ 1.<hi rend="b">S</hi>e aucune hons antre an moniage, ce est an religion, et il et totes ses choses sunt del monester, et pour ce ne puet puis faire testament, ou soit que il l’avoit fait de ses biens ou soit que non, se il non a fiz, ou se il les a, et il lor laissa la falcide, an icest cas doit estre conté an la falcide li douaires que li peres li dona se elle ere fame, et li espousalices se il ere malles. ¶</p>
+          <p xml:id="codi_fr_6.31.1"><label>§ 1.</label><hi rend="b">S</hi>e aucune hons antre an moniage, ce est an religion, et il et totes ses choses sunt del monester, et pour ce ne puet puis faire testament, ou soit que il l’avoit fait de ses biens ou soit que non, se il non a fiz, ou se il les a, et il lor laissa la falcide, an icest cas doit estre conté an la falcide li douaires que li peres li dona se elle ere fame, et li espousalices se il ere malles. ¶</p>
           <p xml:id="codi_fr_6.31.2"><label>[6.31.2]</label>Mais se iciz hons qui antre an religion a anfanz, et il ne ordona les soues choses antre ses fiz avant que il antrast an la religion, ne ne lor laissa la falcide, bien puet issir de la religion pour partir les soues choses antre ses fiz selonc la soue volanté, sol que il ne doint à nesun de ses anfanz mains de la falcide, mais plus li puet doner, se il vuet. Et doit retenir à soi autretel part de ses choses comme il done à .i. de ses fiz, et icelle parz doit estre del monester, et totes les autres choses ausimant que il ne dona à ses fiz. Mais se il muert el monester avant que il devisast les soues choses, si com est dit desoure, li fiz puet demander la falcide al monester et non plus. ¶</p>
           <p xml:id="codi_fr_6.31.3"><label>[6.31.3]</label>Autretex raisons com est dite del moine, autretel dient molt d’omes par samblance que soit des chenoine reguler, mais non est lois escrite.</p>
         </div>

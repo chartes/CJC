@@ -87,7 +87,7 @@
 		    <citeStructure match="/TEI[1]/text[1]/group[1]" use="default" unit="liber">
 		      <citeData use="head" property="dc:title"/>
 		      <citeStructure match="text" use="@xml:id" unit="part">
-		        <citeData use="front/head/text()" property="dc:title"/>
+		        <citeData use="string-join(front/head/text())" property="dc:title"/>
 		        <citeStructure match="body/div" use="default" unit="rubric">
 		          <citeData use="head" property="dc:title"/>
 		        </citeStructure>

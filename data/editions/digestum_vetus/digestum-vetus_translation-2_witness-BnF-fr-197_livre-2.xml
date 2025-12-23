@@ -38,8 +38,11 @@
           correction ope ingenii et sur la base de la Traduction 3 et du texte latin.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
           <citeData use="head[1]" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="subpart">
+            <citeData use="head[1]" property="dc:title"/>
+          </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
@@ -55,7 +58,7 @@
   </teiHeader>
   <text>
     <front>
-      <head> Principes d’édition</head>
+      <head>Principes d’édition</head>
       <p> La toilette du texte suit les orientations fournies par <bibl> Vielliard Françoise,
         Guyotjeannin Olivier, <title> Conseils pour l’édition des textes médiévaux,</title> vol.
         I, « Conseils généraux », Paris, École Nationale des Chartes, 2014.</bibl></p>

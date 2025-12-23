@@ -37,7 +37,7 @@
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (head) then if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/text() else concat('[', substring-after(./@xml:id, 'code.'), ']')" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dc:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
               <citeData use="if (label) then substring-after(substring-before(label[1], ']'), '[') else concat('[', substring-after(./@xml:id, 'code.'), ']')" property="dc:title"/>
             </citeStructure>
@@ -1576,7 +1576,7 @@
             patrocinii causa in lite praestet] <lb/><seg type="rubric">Cist tytres est que la borse
               l’empereeur ne chos[e] commune ne doinst à aucun procuration por cause de
               defendement.</seg></head>
-          <p xml:id="fr_20120-code.2.17.1"><cb n="49c"/> [2.17.1] <hi rend="b">L</hi>i empereres Gordians dit. <hi rend="b">T</hi>u
+          <p xml:id="fr_20120-code.2.17.1"><cb n="49c"/> <label>[2.17.1]</label> <hi rend="b">L</hi>i empereres Gordians dit. <hi rend="b">T</hi>u
             desierres contre les resons de droit à estre ediez par les forces de la chose commune, por
             l’endroit de la quantité que doiz à la chose commune.</p>
           <p xml:id="fr_20120-code.2.17.2"><label>[2.17.2]</label>

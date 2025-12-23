@@ -40,14 +40,17 @@
           correction par les autres témoins et par conjecture.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
           <citeData use="head[1]" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="subpart">
+            <citeData use="head[1]" property="dc:title"/>  
+          </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
             <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
-            <citeStructure match="p" use="@xml:id" unit="rubric">
+            <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
               <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
             </citeStructure>
           </citeStructure>
@@ -57,7 +60,7 @@
   </teiHeader>
   <text>
     <front>
-      <head> Principes d’édition</head>
+      <head>Principes d’édition</head>
       <p> La toilette du texte suit les orientations fournies par <bibl> Vielliard Françoise,
           Guyotjeannin Olivier, <title> Conseils pour l’édition des textes médiévaux,</title> vol.
           I, « Conseils généraux », Paris, École Nationale des Chartes, 2014.</bibl></p>
@@ -3636,7 +3639,7 @@
                 mutus pacisci potest »).</hi></note>. <label>[2]</label> La provance de ce puet
             estre que, se covenance est fete de paier doaire, il ne doit pas estre demandez devant
             le mariage ; et se li mariages n’est assenblez, la covenance faut par droit.</p>
-          <p><label>[3]</label><hi rend="b"> C</hi>il meismes dit : Se covenanz fu fez entre le
+          <p xml:id="fr_20118-digeste.2.14.4bis"><label>[3]</label><hi rend="b"> C</hi>il meismes dit : Se covenanz fu fez entre le
             creancier et le deteur que li chatieus ne fust pas demandez devant que les usures fussent
             paiees, ja soit ce que la covenance fu fete purement, neporquant l’en doit entendre
             que il i ot condicion autresi conme se ele i fust mise expressement.</p>

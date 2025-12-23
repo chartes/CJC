@@ -36,8 +36,11 @@
         <p>Transcription du manuscrit Bruxelles, Bibliothèque Royale, ms. 9234, avec corrections <hi rend="i">ope ingenii</hi> et sur la base de la Traduction 3 et du texte latin.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
           <citeData use="head[1]" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="subpart">
+            <citeData use="head[1]" property="dc:title"/>
+          </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
@@ -347,7 +350,7 @@
             adversaire, que il apert que il ne se parjure mie.</p>
         </div>
         <div xml:id="KBR_9234-digeste.2.9.0">
-          <head>[2.9.0] <seg rend="eleve">Si ex noxali causa agatur,
+          <head>[2.9.0 <seg rend="eleve">Si ex noxali causa agatur,
               quemadmodum caveatur.</seg>] <seg type="rubric">De celui qui a afaire et est accusé de
               crime, en quel maniere il puisse eschiver la cause criminal dont il est
             suivi.</seg></head>
@@ -780,7 +783,7 @@
             et de l’autre doit estre contenue de demoustrer response de cause.</p>
         </div>
         <div xml:id="KBR_9234-digeste.2.13.0">
-          <head>[2.13.0] <seg rend="eleve">De edendo.</seg>]</head>
+          <head>[2.13.0 <seg rend="eleve">De edendo.</seg>]</head>
           <p xml:id="KBR_9234-digeste.2.13.1"><label>[2.13.1]</label>
             <hi rend="b">U</hi>lpians dit que quiconques veult suivre autrui par action, il doit
             ainçois demoustrer son action que il commence à suivre son action, car ce est plus juste
@@ -1784,7 +1787,7 @@
             pooir estre estorce de celui noient volenteif.</p>
         </div>
         <div xml:id="KBR_9234-digeste.2.15.0">
-          <head>[2.15.0] <seg rend="eleve">De
+          <head>[2.15.0 <seg rend="eleve">De
               transactionibus.</seg>] <seg type="rubric">Des transactions.</seg></head>
           <p xml:id="KBR_9234-digeste.2.15.1"><label>[2.15.1]</label>
             <hi rend="b">U</hi>lpians dit que qui se tresporte aussi comme de chose douteuse se
@@ -2034,7 +2037,7 @@
             laquelle le fait est prové devant, si n’est il mie de droit d’escrivre les choses
             desquelles les actions li apartiennent, ja soit ce que il ait fait convenant dont il
             n’ert pas ensaignié.</p>
-          <p xml:id="KBR_9234-digeste.2.15.10"><label><cb n="21d"/></label>
+          <p xml:id="KBR_9234-digeste.2.15.10"><cb n="21d"/>
             <label>[2.15.10]</label><note resp="editor"><hi rend="i">La Trad. 5 déplace les
                 paragraphes 2.15.10-2.15.13 après 2.7.2.</hi></note>
             <hi rend="b">C</hi>il meismes dist : <hi rend="b">L</hi>i peres qui fet transaction de

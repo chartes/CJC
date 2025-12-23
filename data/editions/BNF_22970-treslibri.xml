@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BNF_22970-treslibri">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Tres libri</title>
+           <author>Anonyme</author>
          </titleStmt>
          <extent/>
          <publicationStmt>
@@ -37,19 +39,18 @@
       <body>
          <div>
             <head>[Liber decimus]</head>
-         
          <div>
             <head xml:id="BNF_22970-treslibri.10.1.0">[10.1.0. De iure fisci]<lb/>
                <cb n="223a"/>
                <seg type="rubric"> El non du Pere et du Filz et du Saint Esperit. Ci commence le disieme livre du Code au saint empereeur Justinien.</seg></head>
             <p xml:id="BNF_22970-treslibri.10.1.1"><label>[10.1.1]</label>
-               <hi rend="b"> L</hi>i empereres Gordians dit : <hi rend="b"> S</hi>e il est prouvé que vostre pere vous donnast ses possessions par parfait don ainz que eles fussent obligiees à la bourse l'empereur, ce qui ne fu pas fet pour grever à ceus à cui il devoit ne sera pas rapelé. 
+               Li empereres Gordians dit : Se il est prouvé que vostre pere vous donnast ses possessions par parfait don ainz que eles fussent obligiees à la bourse l'empereur, ce qui ne fu pas fet pour grever à ceus à cui il devoit ne sera pas rapelé. 
          </p>
             <p xml:id="BNF_22970-treslibri.10.1.2"><label>[10.1.2]</label>
-               <hi rend="b"> C</hi>il meismes emperes dit : <hi rend="b"> C</hi>onte qui est faiz par les notaires ne puet pas avoir force de chose jugiee, se il n'est confermez par la sentence au procurateur de la bourse l'empereur.
+               Cil meismes emperes dit : Conte qui est faiz par les notaires ne puet pas avoir force de chose jugiee, se il n'est confermez par la sentence au procurateur de la bourse l'empereur.
             </p>
             <p xml:id="BNF_22970-treslibri.10.1.3"><label>[10.1.3]</label>
-               <hi rend="b"> C</hi>il meismes empereres dit : Se la bourse l'empereur a vendu les choses qui li estoient obligiees meins que eles ne valoient et ce a esté fait par l'apert barat à l'acheteur ou par grace de lui, se mon procurateur en est requis, il 
+               Cil meismes empereres dit : Se la bourse l'empereur a vendu les choses qui li estoient obligiees meins que eles ne valoient et ce a esté fait par l'apert barat à l'acheteur ou par grace de lui, se mon procurateur en est requis, il 
                prou<cb n="223b"/>vera que eles soient rendues au deteur se il paie ce que il devoit. 
             </p>
             <p xml:id="BNF_22970-treslibri.10.1.4"><label>[10.1.4]</label>
@@ -271,7 +272,7 @@
             <head xml:id="BNF_22970-treslibri.10.13.0">[10.13.0. De his qui se deferunt]<lb/>
                
                <seg type="rubric"> Cest tytre est de ceus qui encusent soi meismes.</seg></head>
-            <p xml:id="BNF_22970-treslibri.10.3.1"><label>[10.13.1]</label>
+            <p xml:id="BNF_22970-treslibri.10.13.1"><label>[10.13.1]</label>
                Li empereres Costantins dit as bailliz d’Espaigne : Cil à cui heritages est lessiez sanz mot dire le denonce maintenant à l’office de ta dignité et aport avant les escriz et nonce maintenant ce qui avra esté fait ; et quant il avra ce fait, il ait la tierce partie de tous les biens au mort. 
                <label>[1]</label> Et se ce est noncié à ton office par la fame au mort, se ele meismes dit que li mors volt qu’il <cb n="227a"/> fust ses hoirs [et] descuevre ce qui a esté fait, ele soit soldoiee par cel loier que ele ait la moitié de tout le patremoine et parte à la bourse l’empereur. Et ait cel privilege que ele choisisse avant, et aprés cil qui avoit porpris les escriz qui estoient anemis à la borse l’empereur et à la fame soit despoilliez de tout son patremoine, et puis soit envoiez en essill.
             </p>
@@ -340,7 +341,7 @@
             <p xml:id="BNF_22970-treslibri.10.16.11"><label>[10.16.11]</label>
                Cil meismes empereurs dient à Adrians : Nous commandons que les juges qui seront negligenz ou pareceus de demander les choses qui sont deues à nostre tresor soient contrainz de rendre toutes les choses que cil qui sont desouz eulz en recevront.   
             </p>
-            <p xml:id="BNF_22970-treslibri.10.1.1"><label>[10.16.12]</label> Manque.
+            <p xml:id="BNF_22970-treslibri.10.16.12"><label>[10.16.12]</label> Manque.
             </p>
             
          </div>
@@ -420,9 +421,11 @@
                <label>[2]</label> Et s’il les i convient demorer aprés l’an, les juges et les officiaus soient contrainz de paier leur sanz nule demeure du leur propre ce que le lor doit mes en la contree, si que il puissent aprés ce demander à ceus qui le doivent. 
                <label>[3]</label> Et se aucune plainte nous vient que cil qui furent envoiez pour recevoir les rentes soient retenuz outre le terme pour ce que l’en ne lor paie pas, les juges soient contrainz de paier cele dete à doubles, si que les chevaliers aient ce que l’en leur doit, et la borse l’empereur ait le sorplus. 
                <label>[4]</label> Et nous secorons si as juges et à leur officiaus que il monstrent lor auctorité contre les deteurs qui ne voudront paier, de quel dignité que il soient. Et se il porloignent malicieusement à paier, les juges porsivent lor possessions et lor procurateurs et nous en facent savoir les nons.
+               </p>
                <p xml:id="BNF_22970-treslibri.10.19.8"><label>[10.19.8]</label>
                Li empereres Leons et Anthonins dient à Nicostrate le prevost : Se une sainte meson ou uns autres lieus, de quel fortune ou de quel dignité que il soit, porsiet champs par achat ou par aucun autre leal tytre et il ne fait pas les servises qui sont deu à la chose commune autresi comme li premiers sires le faisoit, les possessions soient maintenant atornees à la commune droiture et assignees à la court de la cité, si que il apere que nous aions porveu as communs profiz envers la rente des treuz. 
             </p>
+               
          </div>
          <div>
             <head xml:id="BNF_22970-treslibri.10.20.0">[10.20.0. De superexactionibus]<lb/>
@@ -487,7 +490,7 @@
             </p>
             <p xml:id="BNF_22970-treslibri.10.23.4"><label>[10.23.4]</label> 
                Cil meismes empereurs dient à Elyodore, conte des sainz dons : Nous commandons que, se li atornemenz qui est faiz selonc la coustume de la haute prevosté en diverses contrees ne contient pas assez souffisaument comment li don doivent estre demandez, pour ce ne remaigne pas que li juges avenanz ne s’entremete que li don soient demandez, si comme il doivent as viscontes et as vicaires et as contes d’Orient et au prevost d’Egypte et as gouverneurs des contrees et à lor officiaus et as curiaus ; et chascuns ait paour d’estre condampnez à .xx. livres d’or, se meins est demandé ou <cb n="230b"/> mis en nostre tresor que l’ancienne coustume establi.
-               
+               </p>
          </div>
          <div>
             <head xml:id="BNF_22970-treslibri.10.24.0">[10.24.0. Ne operae a collatoribus exigantur]<lb/>
@@ -1041,8 +1044,6 @@
                Li empereres Justiniens dit à Mene le prevost : Nous voulons que cil qui sont delivres de la fortune de la court et puis se donnent à la court d’aucune cité sachent cer<cb n="223c"/>tainement que lor enfanz que il ont et qu’il avront aprés ce seront delivres de cele fortune, comment que il soit, ou se il firent quant il se donnerent à la court especial convenant que lor enfanz fussent delivres de cele fortune, ou s’il n’en firent nule mencion, ne nuls n’ost dire que cil qui seront nez ou conseill aprés cel abandonnement doient sivre la condicion lor pere, quar nous voulons faire par cest especial benefice que tuit soient plus corageus de aidier as citez, si que cil curial ne lor hoirs ne soient pas travailliez par l’achoison de la quarte partie de lor biens, quar lor substance doit estre gardee fraiche de tout grief de tort. 
                <label>[1]</label> Et s’il est prouvé quant tiex homs est morz que il deust aucune chose del aministracion des servises de la court ou de aucune quarte qui soit eschaoite à la court ou d’aucune autre chose, ses hoirs ne doutent pas que il ne les doivent rendre. Et les choses qui sont ordenees par les anciennes lois et par nos establissemenz des filz naturiex que li peres naturiex donne ou dorra dés ci en avant à la court de sa cité par tel convenant que il soient ses hoirs, ou par testament ou sanz testament, soient exceptees de ceste presente loy, si que non pas tant seulement la fille naturel, mes les enfanz masles qui naistront d’euls, ensivent la fortune au pere. Et s’il n’i a enfanz masles, la quarte part du chatel au mort soit à la court.
             </p>
-            <p xml:id="BNF_22970-treslibri.10.1.1"><label>[10.1.1]</label>
-            </p>
          </div>
          <div>
             <head xml:id="BNF_22970-treslibri.10.45.0">[10.45.0. De his qui a principe vacationem acceperunt]<lb/>
@@ -1265,7 +1266,7 @@
             <head xml:id="BNF_22970-treslibri.10.54.0">[10.54.0.  De athletis]<lb/>
                
                <seg type="rubric"> Cest tytre est des champions.</seg></head>
-            <p xml:id="BNF_22970-treslibri.10.1.1"><label>[10.54.1]</label>
+            <p xml:id="BNF_22970-treslibri.10.54.1"><label>[10.54.1]</label>
                Li empereurs Diocleciens et Maximiens dient : Quitance de servises citoiens seult estre donnee as champions se il se sont combatuz tout lor aage et il ont esté coronnez de .iii. victoires par le jugement à ceus de Romme ou de l’ancienne Grece, et ne mie par hommes loez ou corrompus. 
             </p>
          </div>
@@ -1582,7 +1583,6 @@
          </div>
  </div>
          </div>
-         
          <div>
             <head>[Liber undecimus]</head>
             <div>
@@ -1920,15 +1920,15 @@
                   
                </div>
                <div>
-                  <head xml:id="BNF_22970-treslibri.11.8.0">[11.8.0.  De collegiatis et chartopratis et nummulariis]<lb/>
+                  <head xml:id="BNF_22970-treslibri.11.18.0">[11.18.0.  De collegiatis et chartopratis et nummulariis]<lb/>
       
                      <seg type="rubric"> De ceus qui sont mestres des assemblees</seg></head>
-                  <p xml:id="BNF_22970-treslibri.11.8.1"><label>[11.8.1]</label>
-                  </p>
+                  <p xml:id="BNF_22970-treslibri.11.18.1"><label>[11.18.1]</label>
+                
                   Li empereres Antonins dit : Se aucuns s'efforce de soztraire soi à autres servises, pour l'endroit del office de connestables ou de doiens ou de mestre d'aucunes assemblees que il ne font pas, nous voulons aler contre lor baraz, si que nuls ne soit sozlegiez de servise que il doie faire pour couverture d'autre servise que il ne fait pas, et que li servises as orfeivres ou à ceus qui font les deniers ne faille par ceus qui vuelent estre apelez doiens ou mestres d'assemblees et ne le sont pas. 
                   <label>[1]</label> Et pour ce, se aucuns se nomme doiens ou mestres d'assemblees et il n'en veult avoir fors le non, sache que .i. autre sera mis pour lui qui sera souffisanz à cel office, mes l'en gart autres en lieu de ces, et en lieu de ceus qui muerent que le nombre qui est establiz ne soit pas passez ; et nuls ne se <cb n="251b"/> puisse escuser par nule aide ne par nule puissance et il apartient à ton jugement et à ta hautece et à ton office à garder ce o grant cautele. 
                   <label>[4]</label> Et nous commandons qu'il soit gardé egalment entre tous, ne nuls ne s'en escuse pour aide de devine meson, ne par nule reverence des saintes yglises ne par nule autre puissance, mes que il n'apere que nous ne conseillons fors as simples en tant comme il apartient as offices. Nous disons et voulons que ce soit gardé, et quant cil des contrees vendent aucune chose à ceus d'aucune assemblee, la vente soit enclose es bonnes du premier establissement, ce est que ce qui fu establi au commencement soit gardé sanz nul renouvelement. 
-                  
+                    </p>
                   
                </div>
                <div>
@@ -2044,7 +2044,7 @@
                      <label>[1]</label> Nous commandons que il ne s’entremetent pas de ceste chose, mes cil que tu i establiras par ta porveance facent et acomplissent cest office.
                      
                   </p>
-                  <p xml:id="BNF_22970-treslibri.11.28.1"><label>[11.28.2]</label>
+                  <p xml:id="BNF_22970-treslibri.11.28.2"><label>[11.28.2]</label>
                      Li empereres Theodoses dit : Nous ajoustons as livroisons de la cité d’Alixandre .c. et .x. muis de blé chascun jour, si que nuls ne perde ce que il a receu jusques ci.  
                   </p>
                   
@@ -3496,18 +3496,15 @@
                      </p>
                </div>
                <div>
-                  <head xml:id="BNF_22970-treslibri.12.10.0">[12.10.0. De comitibus consistorianis]<lb/>
-                     
-                     <seg type="rubric"> Des contes du saint consistoire<note resp="editor">12.10.0] Ce paragraphe est copié avant [12.09.0] dans le manuscrit <hi rend="i">F</hi>.</note>
-                        <p xml:id="BNF_22970-treslibri.12.10.1"><label>[12.10.1]</label>
-                           
+                <head xml:id="BNF_22970-treslibri.12.10.0">[12.10.0. De comitibus consistorianis]<lb/> <seg type="rubric"> Des contes du saint consistoire<note resp="editor">12.10.0] Ce paragraphe est copié avant [12.09.0] dans le manuscrit <hi rend="i">F</hi>.</note></seg></head>
+                <p xml:id="BNF_22970-treslibri.12.10.1"><label>[12.10.1]</label>
                            Li empereur Archades et Honoires dient<note resp="editor">12.10.1] Les paragraphes [12.10.1] et [12.10.2] sont intervertis dans le manuscrit <hi rend="i">F</hi>.</note> : Nous jujons generalment que cil qui ont deservi à estre apelez conte de nostre saint 
                            <cb n="264d"/>
                            consistoire soient egals as nobles viscontes. 
                         </p>
-                        <p xml:id="BNF_22970-treslibri.12.10.2"><label>[12.10.2]</label>
+                 <p xml:id="BNF_22970-treslibri.12.10.2"><label>[12.10.2]</label>
                            Li empereres Anestaises dit : Nous voulons que les contes de nostre consistoire, et lor fames et lor enfanz et lor sers et lor cultiveeurs lisent en proposer lor actions et en recevoir celes qui sont proposees contre eulz de ceus meismes previleges. De quoi li prince des escoles et cil qui s’entremetent de nos choses usent par l’establissement au saint empereur Zenon qui fu de haute memoire.
-                  </p>
+                  </p>      
                </div>
                <div>
                   <head xml:id="BNF_22970-treslibri.12.11.0">[12.11.0. De comitibus et tribunis scholarum]<lb/>
@@ -4506,12 +4503,12 @@
                   <head xml:id="BNF_22970-treslibri.12.49.0">[12.49.0. De numerariis actuariis et chartulariis et adiutoribus scriniariis et exceptoribus sedis excelsae ceterorumque iudicum tam civilium quam militarium]<lb/>
                      
                      <seg type="rubric"> Cest tytre est des conteurs et des notaires du siege l’empereur</seg></head>
-                  <p xml:id="BNF_22970-treslibri.12.49."><label>[12.49.1]</label>
+                  <p xml:id="BNF_22970-treslibri.12.49.1"><label>[12.49.1]</label>
                      Ce paragraphe manque.
                   </p>
                   <p xml:id="BNF_22970-treslibri.12.49.2"><label>[12.49.2]</label>
                      Les empereurs Valantiniens et Valens dient : Cil qui souloient estre apelez conteurs as conseilliers et as prevoz tant seulement soient apelé notaires aprés cest establissement, et sachent que il seront sozmis à torment se il ne dient certainement as juges et à ceus qui par nostre commandement vendront as contrees et as demandeurs de nos detes la verité de ce que l’en nous doit ; et il seront tenuz à faire paiement autresi comme les deteurs se il ne dient toute la somme des detes.
-                     <label>[1]</label> Et lor offices doit durer .iii. anz tant seulement.
+                     <label>[1]</label> Et lor offices doit durer .iii. anz tant seulement.</p>
                      <p xml:id="BNF_22970-treslibri.12.49.3"><label>[12.49.3]</label>
                         Cil meismes empereurs dient à Rufin le prevost : Nous commandons que les conteurs de ton haut siege aient dignité de chevalerie.
                      </p>
@@ -4545,7 +4542,6 @@
                      <p xml:id="BNF_22970-treslibri.12.49.12"><label>[12.49.12]</label>
                         Ce paragraphe manque.
                      </p>
-                  </p>
                </div>
                <div>
                   <head xml:id="BNF_22970-treslibri.12.0.0">[12.0.0.]<lb/>
@@ -4926,5 +4922,6 @@
                </div>
          </div>
       </body>
+
   </text>
 </TEI>

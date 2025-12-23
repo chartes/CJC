@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authenticum_lI">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authenticum_lI">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,14 +35,17 @@
           le second témoin, le texte latin et par conjecture.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
           <citeData use="head[1]" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="subpart">
+            <citeData use="head[1]" property="dc:title"/>
+          </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
-          <citeStructure match="div" use="default" unit="part">
+          <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
             <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
-            <citeStructure match="p" use="default" unit="rubric">
+            <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
               <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
             </citeStructure>
           </citeStructure>
@@ -75,22 +74,16 @@
         <p> La séparation des mots tend à régulariser les formes sur les habitudes modernes. Nous
           soudons les relatifs composés (ex. <hi rend="i">lequel</hi>, <hi rend="i">laquele</hi>)
           ainsi que la conjonction <hi rend="i">sicomme</hi> et <hi rend="i">porce que</hi> locution
-          conjonctive mais nous écrivons séparément <hi rend="i">ja soit (que)</hi> ainsi que <hi
-            rend="i">toz jorz</hi> et <hi rend="i">touz jourz</hi>, en tant qu’étape préliminaire à
+          conjonctive mais nous écrivons séparément <hi rend="i">ja soit (que)</hi> ainsi que <hi rend="i">toz jorz</hi> et <hi rend="i">touz jourz</hi>, en tant qu’étape préliminaire à
           la forme soudée moderne <hi rend="i">toujours</hi>. L’apostrophe suit la norme moderne et
-          a été employé pour distinguer <hi rend="i">qui</hi> pronom relatif de <hi rend="i"
-            >qu'i</hi> conjonction plus pronom sujet réduit de <hi rend="i">il</hi> à <hi rend="i"
-            >i.</hi></p>
+          a été employé pour distinguer <hi rend="i">qui</hi> pronom relatif de <hi rend="i">qu'i</hi> conjonction plus pronom sujet réduit de <hi rend="i">il</hi> à <hi rend="i">i.</hi></p>
         <p> Le manuscrit présente parfois des points finaux, mais leur usage n’offre pas
           d’indications cohérentes pour l’établissement de la ponctuation, qui suit alors les normes
           modernes.</p>
         <p> L'usage de la majuscule est parcimonieux. La lettre capitale est réservée uniquement aux
-          noms propres de personne, de lieu et de peuple, alors que les institutions (<hi rend="i"
-            >senat</hi>, <hi rend="i">prevosté</hi>) et les titres juridiques (<hi rend="i"
-            >empereeur</hi>, <hi rend="i">prevost</hi>) sont écrits avec une minuscule. Les chiffres
+          noms propres de personne, de lieu et de peuple, alors que les institutions (<hi rend="i">senat</hi>, <hi rend="i">prevosté</hi>) et les titres juridiques (<hi rend="i">empereeur</hi>, <hi rend="i">prevost</hi>) sont écrits avec une minuscule. Les chiffres
           romains simples ont été transcrits en minuscules encadrées par deux points. On a gardé le
-          numéral <hi rend="i">.i.</hi> sans le transformer en l’article indéfini <hi rend="i"
-            >un(s)/une.</hi></p>
+          numéral <hi rend="i">.i.</hi> sans le transformer en l’article indéfini <hi rend="i">un(s)/une.</hi></p>
         <p> Le système des accents suit un compromis entre l’orientation conservatrice habituelle,
           la nécessité de faciliter la lemmatisation du texte et l’opportunité de distinguer les
           homographes. Nous employons régulièrement l’accent aigu sur le ‹é› tonique de la syllabe
@@ -114,9 +107,7 @@
         <head><hi rend="i"> Résolution des abréviations</hi></head>
         <p> Le système d’abréviations du manuscrit est assez simple et se limite à peu de signes :
           notes tironiennes pour <hi rend="i">et</hi> et <hi rend="i">con/com</hi>, tilde pour les
-          nasales, <hi rend="i">p</hi> barré pour <hi rend="i">par</hi>, apostrophe pour <hi
-            rend="i">er/re</hi> et <hi rend="i">mlt</hi>, que nous transcrivons <hi rend="i"
-            >molt</hi>. Toutes les abréviations sont résolues en caractères romains et sur la base
+          nasales, <hi rend="i">p</hi> barré pour <hi rend="i">par</hi>, apostrophe pour <hi rend="i">er/re</hi> et <hi rend="i">mlt</hi>, que nous transcrivons <hi rend="i">molt</hi>. Toutes les abréviations sont résolues en caractères romains et sur la base
           des formes écrites en toutes lettres. Les cas d’incertitudes concernent la résolution du
             <hi rend="i">9</hi> tironien devant une consonne labiale. Le copiste en fait un usage
           systématique et il ne donne aucun de cas de <hi rend="i">con/com</hi> en toutes lettres.
@@ -138,7 +129,7 @@
     <body>
       <div>
         <head>[Liber primus]</head>
-        <div>
+        <div xml:id="authenticum.1.1">
           <head>[1. De heredibus et falcidia] <cb n="6a"/>
             <seg type="rubric">Ci commance li livres des noviaus establissemenz à l’empereeur
               Justinian qui est apelez <hi rend="i">Autentiques</hi>. Cist tytres se li oirs ne veut
@@ -147,7 +138,7 @@
                 Jehan le Prevost el nom Nostre Seignor Jhesucrist. Cest tytres est des heritages et de
                 la loy qui retaille les lés. Ce est la premiere constitucion, se li hoir ne pueent
                 paier les lés. F</note></seg></head>
-          <p><label>[1.pr.0]</label>
+          <p xml:id="authenticum.1.1.pr.0"><label>[1.pr.0]</label>
             <hi rend="b">L</hi>i empereres Justinians dit : Porce que nos somes embesoignié des cures
             de la chose commune et ne volons penser à nule petite chose, més commant cil de
               Perse<note>de P.] de Persie F</note> sont en repos, et li Wandre et li Mor obeïssent à
@@ -163,8 +154,7 @@
               <corr source="#F" resp="#editor">del</corr>
             </choice><note>del] des O <hi rend="i">corr. d’après</hi> F<hi rend="i">, cf. le texte
                 latin « jussione imperatorum ».</hi></note> commandement l’empereeur.</p>
-          <p><label>[1.pr.1]</label> Nos avons<note>Nos avons] ¶ <seg type="lemme" xml:lang="lat"
-                >Semper.</seg> Nous avons F</note> donc toz jorz qui nos requiert, li un por lés qui
+          <p xml:id="authenticum.1.1.pr.1"><label>[1.pr.1]</label> Nos avons<note>Nos avons] ¶ <seg type="lemme" xml:lang="lat">Semper.</seg> Nous avons F</note> donc toz jorz qui nos requiert, li un por lés qui
             leur sont lessié, qu’il ne leur sont pas paié, et li autre por franchises, et li autre por
             aucune autre chose que cil qui lessierent les heritages commandent qui fussent fetes ou
             donnees, et cil à qui li heritage furent lessié les recevent sanz obeïr à la volenté au
@@ -174,7 +164,7 @@
             Més porce que nos trovons que les lois qui ont esté issi fetes<note>esté i. f.] ainsi esté
               faites F</note> sont pluseurs foiz despites, nos jujons que il les convient recorder,
             por donner cautele à ceus qui vivent et aneur à ceus qui muerent.</p>
-          <p><label>[1.pr.2]</label> ¶<note>¶] ¶ Primum. F</note> Nos devons donc premierement penser
+          <p xml:id="authenticum.1.1.pr.2"><label>[1.pr.2]</label> ¶<note>¶] ¶ Primum. F</note> Nos devons donc premierement penser
             que, quant<note>quant] se F</note> aucuns font leur testament, la loi les contraint de
             lessier une partie de leur heritage à unes personnes, autresi comme se ele leur fust deue
             selonc nature, sicomme au filz et as neveuz et as peres et as meres et aucunes foiz au
@@ -183,7 +173,7 @@
               ceuls [qui descendent de nos] de qui n. d. O</note> ; et autres personnes sont, à qui
             cil qui fet le testament n’est pas contrainz de doner aucune partie de sa sustence, més il
             leur puet doner ce que il voudra, autresi comme à autres.</p>
-          <p><label>[1.1.0]</label> ¶ Aprés<note>¶ Aprés] ¶ <seg type="lemme" xml:lang="lat">Hiis
+          <p xml:id="authenticum.1.1.1.0"><label>[1.1.0]</label> ¶ Aprés<note>¶ Aprés] ¶ <seg type="lemme" xml:lang="lat">Hiis
                 igitur.</seg> Aprés F</note> ce que nos avons ordené ces choses, nos establissons que
             cil qui sont fet oir à aucuns, ou à qui il ont lessié lés, soient contraint d’acomplir en
             toutes manieres ce que cil leur commanda<note>commanda] command[e]a O</note> qui fist le
@@ -194,7 +184,7 @@
             </choice> expressement que<note>que] car F</note> li testamenz doit estre fers<note>fers]
               ferme F</note>, ja soit ce que cil qui est chargiez de cest<note>cest] cel F</note>
             commandement ne le face pas.</p>
-          <p><label>[1.1.1]</label> Se aucuns<note>Se aucuns] ¶ <seg type="lemme" xml:lang="lat">Si
+          <p xml:id="authenticum.1.1.1.1"><label>[1.1.1]</label> Se aucuns<note>Se aucuns] ¶ <seg type="lemme" xml:lang="lat">Si
                 quis autem.</seg> Se aucuns F</note> n’a donc pas<note>n’a donc pas] n’a pas donc
               F</note> acompli ce qui a esté ordené, ainz a retenu ce qui fu lessié à aucun, et est
             amonestez par le juge, et il atent jusqu’à .i. an que il ne fet pas ce qui li fu
@@ -260,7 +250,7 @@
               <corr source="#O" resp="#editor">nomma avant</corr>
             </choice><note>nomma avant] nom avant O nomma par devant F</note> quant il les franchi
             soit mis en ce par devant les autres.</p>
-          <p><label>[1.1.2]</label> Et nos establissons ce là où il convient<note>il convient] il le
+          <p xml:id="authenticum.1.1.1.2"><label>[1.1.2]</label> Et nos establissons ce là où il convient<note>il convient] il le
               convient F</note> par force que cil pait aucune chose à qui cil qui fet le testament
             doit, par nature, aucune chose de son heritage. ¶<note>¶] <hi rend="i">om</hi>. F</note>
             Et se nule tel persone n’est fete oirs, més cil<note>cil] se cil F</note> qui
@@ -279,7 +269,7 @@
               <corr source="#F" resp="#editor">avons</corr>
             </choice><note>avons] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après</hi> F</note>
             avant dit.</p>
-          <p><label>[1.1.3]</label> Et se cil qui fist le testament establi que uns autres fust oirs
+          <p xml:id="authenticum.1.1.1.3"><label>[1.1.3]</label> Et se cil qui fist le testament establi que uns autres fust oirs
             aprés le premier, il est certainne chose que toutes les choses doivent venir au segont
             aprés le premier, se il veut acomplir totes les choses qui ont esté commandees que li
             premiers ne volt fere, et se cil ne le volt fere, les choses qui li sont tolues viegnent
@@ -288,9 +278,8 @@
             selonc la forme que nos avons donnee, qui acomplissent en toutes choses les derrenieres
             volentez au morz, car porce regardons nos as heritages qui sont soztret, que il ne
             remaingnent pas sanz estre receuz.</p>
-          <p><label>[1.1.4]</label> Més nos n’i apelons point les enfanz qui sont desherité, se leur
-            pere les ont par droit mis hors de l’eritage, si que il ne vuelent que il en<note>en] <hi
-                rend="i">om.</hi> F</note> aient rien de l’eritage, ne nos ne regardons point à eus,
+          <p xml:id="authenticum.1.1.1.4"><label>[1.1.4]</label> Més nos n’i apelons point les enfanz qui sont desherité, se leur
+            pere les ont par droit mis hors de l’eritage, si que il ne vuelent que il en<note>en] <hi rend="i">om.</hi> F</note> aient rien de l’eritage, ne nos ne regardons point à eus,
             ja soit ce que il <cb n="7b"/> vuellent acomplir la volenté au mort, qar l’intencion de
             ceste loi est que li ordenemenz à ceus qui muerent sont<note>sont] soit F</note>
             acompliz : commant est il donc droiz que cil que li morz mist hors de sa propre sustence
@@ -311,8 +300,7 @@
               oir<note>cil qui sont fet oir] cil sont fait hoir qui F</note> n’acomplissent pas la
             volenté à celui qui fist le testament, et nos apelons à avoir l’eritage ceus à qui une
             chose est donnee en testament<note>en t.] el t. as autres F</note>, o ceus qui peussent
-            estre oir sanz testament ou autres, nos leur otroions que il soient fet<note>fet] <hi
-                rend="i">om.</hi> F</note> oir et recevent les choses, et aient la droiture de tenir
+            estre oir sanz testament ou autres, nos leur otroions que il soient fet<note>fet] <hi rend="i">om.</hi> F</note> oir et recevent les choses, et aient la droiture de tenir
             soi comme oir, et facent toutes choses comme oir quant il seront tret en cause, ou quant
             il i treront aucuns, car les <choice>
               <sic source="#O">acianes</sic>
@@ -332,8 +320,7 @@
               <sic source="#O">il</sic>
               <corr resp="#editor">i</corr>
             </choice> seront en toz tens.</p>
-          <p><label>[1.2.0]</label> ¶ Ci nos vient<note>¶ Ci nos vient] ¶ <seg type="lemme"
-                xml:lang="lat">Huic nobis.</seg> Ci nous v. F</note> une cure et uns autres<note>uns
+          <p xml:id="authenticum.1.1.2.0"><label>[1.2.0]</label> ¶ Ci nos vient<note>¶ Ci nos vient] ¶ <seg type="lemme" xml:lang="lat">Huic nobis.</seg> Ci nous v. F</note> une cure et uns autres<note>uns
               autres] un granz F<hi rend="i">, cf. le texte latin « quaedam
               consideratio ».</hi></note> regarz de la loi qui retaille les lés, qui otroie que se li
             heritages est despenduz par lés, li oirs puisse retenir tent des lés que il ait la quarte
@@ -348,10 +335,9 @@
             </choice><note>qui i v.] qui n'i v. O qui v. F <hi rend="i">, cf. le texte latin « et non
                 per quae forte subripiunt ».</hi></note> d’avanture, car ele ne leur apartenist pas
             par aventure se il n’i feissent nule chose maliciexsement.</p>
-          <p><label>[1.2.1]</label> ¶ Li oirs qui a poor que il n’ait pas la qarte part de l’eritage,
+          <p xml:id="authenticum.1.1.2.1"><label>[1.2.1]</label> ¶ Li oirs qui a poor que il n’ait pas la qarte part de l’eritage,
             quant il avra paié toz les lés, face donc .i. escrit des choses que il trueve en
-            l’eritage, selonc la maniere et le tens que nos establismes pieça, quant nos por<cb n="7d"
-            />veismes commant li home <choice>
+            l’eritage, selonc la maniere et le tens que nos establismes pieça, quant nos por<cb n="7d"/>veismes commant li home <choice>
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">qui</corr>
             </choice><note>qui] <hi rend="i">om.</hi> O<hi rend="i"> corr. d’après F</hi></note>
@@ -401,7 +387,7 @@
             de son heritage et il quide que il ait chatel soffisant à ce més ce n’est pas voirs, il
             est certainne chose que la loi qui retaille les lés ne sera pas contrere à sa sentence més
             à s’ignorence.</p>
-          <p><label>[1.2.2]</label> Et se li oirs n’a fet l’escrit selonc la forme que nos avons
+          <p xml:id="authenticum.1.1.2.2"><label>[1.2.2]</label> Et se li oirs n’a fet l’escrit selonc la forme que nos avons
             dites, il n’avra<note>il n’avra] il n’a. pas F</note> le benefice de la loi qui retaille
             les lés, ainz les paiera toz, ja soit ce que il seurmontent la quantité de la pure
             sustence au mort. Et nos disons ce non pas por desdire la loi que nos feismes que il ne
@@ -422,7 +408,7 @@
             dit, ou li autre oir ou cil à qui li lés sont lessié, ou li serf qui ont esté franchi, ou
             cil qui pueent <cb n="8b"/> avoir son heritage sanz testament, ou estrange, il soient
             apelé selonc la voie que nos avons trovee en tiex choses.</p>
-          <p><label>[1.3]</label> Et nos ne donrons pas à l’oir congié qui set soutilment la quantité
+          <p xml:id="authenticum.1.1.3"><label>[1.3]</label> Et nos ne donrons pas à l’oir congié qui set soutilment la quantité
             de l’eritage, que il pait maintenent as uns leur lés tout enterinement et gart<note>et g.]
               et si g. F</note> en ce la volenté au mort, sicomme li establissement à ceus qui furent
             devant nos le dient. Et vuelle retenir aucune chose des lés as autres, car il ne doit pas
@@ -439,21 +425,18 @@
             aucune droite cause ne fet ce, porce que tel chose i avient de qoi l’en ne se donnoit
             garde qui apetice le chatel et fet demander arrierre ce qui a esté paié, et que lonc
             termes ne soit mis en tiex questions.</p>
-          <p>
+          <p xml:id="authenticum.1.1.4.0">
             <label>[1.4.0]</label> Nos establissons que cil<note>cil] tiex F</note> plez ne s’estende
             pas outre l’espasce d’un an, et commandons que dedanz l’an aprés ce que li heritages sera
             receuz soient li lés paié, et toutes les choses que cil qui fist le testament commanda
             soient acomplies selonc leur nature, et toutes les choses <cb n="8c"/> que nos avons avant
             dites i soient fetes, et li commancemenz de l’an soit sicomme nos avons dit, dés lors que
             li oirs fu amonestez par le juge. Et quant li anz sera passez es corpes à l’oir, il perde
-            les choses qui li furent lessiees, et cil les aient que nos i avons avant<note>avant] <hi
-                rend="i">om.</hi> F</note> apelez.</p>
-          <p><label>[1.4.1]</label> Nostre loi<note>Nostre l.] ¶ <seg type="lemme" xml:lang="lat"
-                >Pupillis.</seg> Nostre loi F</note> ne grieve de rien les orfelins ne ceus qui sont
+            les choses qui li furent lessiees, et cil les aient que nos i avons avant<note>avant] <hi rend="i">om.</hi> F</note> apelez.</p>
+          <p xml:id="authenticum.1.1.4.1"><label>[1.4.1]</label> Nostre loi<note>Nostre l.] ¶ <seg type="lemme" xml:lang="lat">Pupillis.</seg> Nostre loi F</note> ne grieve de rien les orfelins ne ceus qui sont
             dedanz aage, car se il sont grevé selonc les causes que nos avons dites, il en ont double
             confort, par restitucions<note>restitucions] restitucion F</note> et par droit, contre
-            leur procureeurs qui sont negligent. ¶ Nos n’esceptons<note>¶ Nos n’esceptons] ¶ <seg
-                type="lemme" xml:lang="lat">Non autem excepimus.</seg> Nous n’e. F</note> pas de la
+            leur procureeurs qui sont negligent. ¶ Nos n’esceptons<note>¶ Nos n’esceptons] ¶ <seg type="lemme" xml:lang="lat">Non autem excepimus.</seg> Nous n’e. F</note> pas de la
             loi l’eritage<note>la loi l’eritage] la loi de l’e. F</note> qui eschiet au patrons, car
             la leal partie que nos avons jugiee leur soit gardee, et se aucune chose leur est lessiee
             par desus, et li mort leur ont commandé que il en facent aucune chose, et cil ne le
@@ -463,8 +446,7 @@
             meesmement que en l’establissement que nos feismes de la droiture del patronnage, nos
             ordenasmes les franchises presque autresi comme celes à ceus qui sont naturelment
             franc.</p>
-          <p><label>[1.4.2]</label> ¶ Et porce que<note>¶ Et porce que] ¶ <seg type="lemme"
-                xml:lang="lat">Qui vero.</seg> Et pour ce que F</note> deus manieres <choice>
+          <p xml:id="authenticum.1.1.4.2"><label>[1.4.2]</label> ¶ Et porce que<note>¶ Et porce que] ¶ <seg type="lemme" xml:lang="lat">Qui vero.</seg> Et pour ce que F</note> deus manieres <choice>
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">sont</corr>
             </choice><note>sont] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après F</hi></note> de
@@ -483,7 +465,7 @@
             leur vaudra puis que il seront mort, et merra<note>merra] metra F <hi rend="i">cf. le
                 texte latin « perducet ».</hi></note> à perfection toutes les choses que il ont
             ordenees.</p>
-          <p><label>[1.ep.]</label> Et porce donc que cil profiz est communs à toz homes, ta hautece
+          <p xml:id="authenticum.1.1.ep."><label>[1.ep.]</label> Et porce donc que cil profiz est communs à toz homes, ta hautece
             face commandemenz qui esclerent à toz la vertu de ceste loi et soient envoié par les
             contrees en totes les genz qui ont pieça esté sozmises à l’empire de Rome, et qui il sont
             ajostees de novel par nos, et li juges des citez qui sont par desus les autres les
@@ -491,16 +473,15 @@
             soz euls. Et nus ne sera qui oie ceste loi qui sueffre que li oirs vive en povreté, ne que
             aucuns muire en engoise de ses choses.</p>
         </div>
-        <div>
+        <div xml:id="authenticum.1.2">
           <head>[2. De non eligendo secundo nubentes mulieres, et alienatione, et lucro antenuptialis
             donationis, et de successionibus earum filiis suis]<seg type="rubric">Cist tytres est des
               fames qui ne se marient pas seconde foiz, qui ne doivent pas donner à un de leur enfanz
               que à l’autre, et de l’estrangement et del guaaing del don por noces, et des heritages
-              que eles ont de par leur filz. Ce est ci li segonz establissemenz.<note><hi rend="i"
-                  >Rubrique</hi>] Cest tytres est de la segonde constitucion des fames qui se marient
+              que eles ont de par leur filz. Ce est ci li segonz establissemenz.<note><hi rend="i">Rubrique</hi>] Cest tytres est de la segonde constitucion des fames qui se marient
                 segonde foiz et del estrangement et del gaaing del don devant les noces, et comment
                 fames sont hoirs à leur filz. F</note></seg></head>
-          <p><label>[2.pr.0]</label>
+          <p xml:id="authenticum.1.2.pr.0"><label>[2.pr.0]</label>
             <hi rend="b">L</hi>i empereres Justinian dit à Hermonian<note>Hermonian] Herulomen
               F</note>, mestre des sainz offices qui fu conseilliers : La diversité des
               causes<note>causes] choses F</note> qui nessent sovant nos donne achoison de fere lois,
@@ -512,7 +493,7 @@
               <corr source="#F" resp="#editor">et</corr>
             </choice><note>et] il O <hi rend="i">corr. d’après</hi> F</note> tiex est li cas qui nos a
             esmeuz de fere ceste loi.</p>
-          <p><label>[2.pr.1]</label> Car Gregoire nos requist et dist que ele ot pieça .i. mari de qui
+          <p xml:id="authenticum.1.2.pr.1"><label>[2.pr.1]</label> Car Gregoire nos requist et dist que ele ot pieça .i. mari de qui
             ele ot deus enfanz, .i. fils et une fille, et ses mariz fu morz<note>fu morz] si fu m.
               F</note> avant que ele ne fu, et porce que li filz trova grace vers sa mere, il fu avis
             à la mere que il ne <cb n="9a"/> convenoit pas que ele le lessast<note>avis à la mere
@@ -561,7 +542,7 @@
               <corr source="#F" resp="#editor">feissions</corr>
             </choice><note>feissions] feussions O <hi rend="i">corr. d’après</hi> F</note> seur ce une
             commune loi par que<note>par que] par quoi F</note> ceste question fust terminee.</p>
-          <p><label>[2.1]</label> Nos regardasmes donc que nos ne lessissions pas confusement le
+          <p xml:id="authenticum.1.2.1"><label>[2.1]</label> Nos regardasmes donc que nos ne lessissions pas confusement le
             tretié de tiex amors, ainz donnasmes cele ordre à cele cause, que quant la mere se marie
             seconde foiz, ele ait l’usuaire tant seulement <choice>
               <sic source="#O">le don</sic>
@@ -577,7 +558,7 @@
             n’avoient enfanz, et li remenanz est à l’oirs<note>à l’o.] as hoirs F <hi rend="i">sur
                 grattage</hi></note> à la fille, se aucun sont apelé à son heritage<note>à son h.] à
               son h. par les loys F</note>.</p>
-          <p><label>[2.2.0]</label> E ce qui n’est pas bien expris ne determiné encore, par ceste loi
+          <p xml:id="authenticum.1.2.2.0"><label>[2.2.0]</label> E ce qui n’est pas bien expris ne determiné encore, par ceste loi
             amenons nos à melleur exposicion<note>e.] [estat] exposicion O</note> et le donnons à
             ceste loi, car se la mere qui n’a pas encor pris autre mari ne donne pas à son fils més à
             .i. estrange tout le don por noces ou une partie, ou ele l’estrange par autre
@@ -595,8 +576,7 @@
             qu’il vaudra selonc la partie qui remaint à la fame par l’achoison de ce que ele n’a nus
             enfanz, et sera rapelez por la partie qui eschiet aus oirs au fils. E se li filz n’a nul
             oir fors sa mere, toz li marchiez sera fers.</p>
-          <p><label>[2.2.1]</label> Et porce que<note>Et porce que] ¶ <seg type="lemme" xml:lang="lat"
-                >Quia vero.</seg> Et pour ce que F</note> painnes sont establies communement contre
+          <p xml:id="authenticum.1.2.2.1"><label>[2.2.1]</label> Et porce que<note>Et porce que] ¶ <seg type="lemme" xml:lang="lat">Quia vero.</seg> Et pour ce que F</note> painnes sont establies communement contre
             les homes et contre les fames qui se marient seconde foiz, et li hom soutendra peril del
               <cb n="9d"/> doere se il prant autre fame, et la fame le soustendra del don por noces,
             ceste loi soit fete por l’une et por l’autre persone<note>persone] p[artie]sone O</note>,
@@ -604,13 +584,11 @@
               <sic source="#O">del l’estrengement</sic>
               <corr source="#O" resp="#editor">de l’estrengement</corr>
             </choice> et del guaaig.</p>
-          <p><label>[2.3.0]</label> Et porce que<note>Et porce que] ¶ <seg type="lemme" xml:lang="lat"
-                >Cum igitur.</seg> Et pour ce que F</note> il convient porpenser des heritages as filz
+          <p xml:id="authenticum.1.2.3.0"><label>[2.3.0]</label> Et porce que<note>Et porce que] ¶ <seg type="lemme" xml:lang="lat">Cum igitur.</seg> Et pour ce que F</note> il convient porpenser des heritages as filz
             porqoi ceste doute<note>doute] presente doute F </note> est, nos creons <choice>
               <sic source="#O">que il convient que il convient ceste question</sic>
               <corr source="#F" resp="#editor">que il convient determiner ceste question</corr>
-            </choice><note>que il c. d. ceste q.] que il convient que il convient ceste question O <hi
-                rend="i">corr. d’après</hi> F</note> par general loi et donner fin à toutes celes qui
+            </choice><note>que il c. d. ceste q.] que il convient que il convient ceste question O <hi rend="i">corr. d’après</hi> F</note> par general loi et donner fin à toutes celes qui
             seront meues de ci en avent. Et nos establissons que les choses qui viennent as enfanz,
             autres que li dons por noces que leur pere donna à leur mere, viengnent à ceus qui sont
             foet oir, se li enfent font testament ; més allegacions <choice>
@@ -640,8 +618,7 @@
                 licet legaliter caste vivere ».</hi></note> , ce est asavoir en mariage. Nos ne volons
             donc pas que li establissemenz que nos meismes el qart livre<note>Cf. le texte latin « in
               quinto libri Codicis ».</note> de nostre code vaille de ci en avant, que juge des
-            heritages as filz qui muerent ainz que les meres qui se marient seconde foiz, ne <cb
-              n="10a"/> cil qui est el siste livre de cest meisme livre<note>cest m. l.] cel meisme
+            heritages as filz qui muerent ainz que les meres qui se marient seconde foiz, ne <cb n="10a"/> cil qui est el siste livre de cest meisme livre<note>cest m. l.] cel meisme
               volume F</note> sor l’establissement del conseill au senat qui est apelez tertulians,
             qui despute des fames qui se marient deus foiz et ont enfanz del premier mariage, més la
             mere soit en toutes manieres apelee<note>apelee] <hi rend="i">om.</hi> F</note> à
@@ -666,8 +643,7 @@
             comme nos ne tolons pas au peres l’eritage as filz porce que il se marient seconde foiz,
             ne il n’est nule loi qui de ce die aucune chose, ne toudrons nos pas à la mere l’eritage à
             ses filz por ce se ele prant autre mari quanque li fils muirent ou devant le secont
-            mariage ou aprés. Car se il estoit autrement et li fils moroient tuit avant que leur <cb
-              n="10b"/> mere et il n’avoient ne filz ne neveuz, se les meres<note>se les m.] et celes
+            mariage ou aprés. Car se il estoit autrement et li fils moroient tuit avant que leur <cb n="10b"/> mere et il n’avoient ne filz ne neveuz, se les meres<note>se les m.] et celes
               m. F</note> perdoient leur heritage porce que eles se marient avant que<note>avant que]
               avant que se F</note> il morussent, encor remaindroit li tormenz, ne la mere n’avroit
             pas l’eritage à ses filz, ja soit ce que il seroient morz<note>morz] morussent F</note>
@@ -676,7 +652,7 @@
             painnes por le segont mariage et aucuns des lontainz paranz as enfanz avroient lor
             heritage, et la mere en seroit mise hors contre reson. Et por ce la mere ait l’eritage as
             filz. Et ceste loi soit debonnere et soeve et acort les meres as filz.</p>
-          <p><label>[2.3.1.]</label> Nos conqueillons donc une partie de ceste loi, et porce que nos
+          <p xml:id="authenticum.1.2.3.1."><label>[2.3.1.]</label> Nos conqueillons donc une partie de ceste loi, et porce que nos
             avons pieça dit que la mere est semblable au pere el don por noces et <choice>
               <sic source="#O">eles</sic>
               <corr resp="#editor">ele</corr>
@@ -697,7 +673,7 @@
             </choice> tenu endroit les fames qui ne sont pas encor vueves et ont eu l’eritage à leur
             filz qui sont mort, ja soit ce que il aviegne aprés que eles se marient seconde foiz. ¶ Ce
             qui est donc ci contenu soit confermé en toz tens.</p>
-          <p><label>[2.4]</label> ¶ Nos creons bien que ce s’acorde à ce que nos avons avant dit, que
+          <p xml:id="authenticum.1.2.4"><label>[2.4]</label> ¶ Nos creons bien que ce s’acorde à ce que nos avons avant dit, que
             nos i ajostons <cb n="10c"/> une autre chose por l’acheson des fames qui se marient
             seconde foiz et del don por noces, qar li encian establissement donnoient à la fame qui se <choice>
               <sic source="#O">marient</sic>
@@ -733,8 +709,7 @@
             caucion ou lessier les choses et <choice>
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">avoir</corr>
-            </choice><note>avoir] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après</hi> F<hi
-                rend="i"> cf. le texte latin « usuram accipere ».</hi></note> les usures selonc ce que
+            </choice><note>avoir] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après</hi> F<hi rend="i"> cf. le texte latin « usuram accipere ».</hi></note> les usures selonc ce que
             nos avons dit, et selonc l’anciane loi, més se les choses sont mellees et li dons por
             noces est partie en deniers et partie en autres choses, <choice>
               <sic source="#O">om.</sic>
@@ -744,14 +719,13 @@
                 matrem ».</hi></note> ne sont pas movables remaignent en toutes manieres à la mere à
             vivre soi, et des choses movables vaille ce que nos establismes avant se toutes les choses
             del don por noces fussent movables.</p>
-          <p><label>[2.5]</label> Il<note>Il] ¶ <seg type="lemme" xml:lang="lat">Illud.</seg> Il
+          <p xml:id="authenticum.1.2.5"><label>[2.5]</label> Il<note>Il] ¶ <seg type="lemme" xml:lang="lat">Illud.</seg> Il
               F</note> nos semble que il est necessaire chose que nos compraingnons par clere
               loi<note>clere loy] icele loy F <hi rend="i">cf. le texte latin « clara
               lege ».</hi></note> et metons en usage por le commun profit une chose qui fu pieça
             establie qui a petit esté usee en jugement : que se aucun se marient et la fame pramet
             doere et li hons don por noces, et aprés li hom paie ce que il pramist et la fame escrive
-            que ele doit donner doere ou ses peres ou uns estranges<note>uns e.] uns autres F <hi
-                rend="i">cf. le texte latin</hi> « <hi rend="i">quolibet extraneo ».</hi></note> le
+            que ele doit donner doere ou ses peres ou uns estranges<note>uns e.] uns autres F <hi rend="i">cf. le texte latin</hi> « <hi rend="i">quolibet extraneo ».</hi></note> le
             doit donner por lui, et il apert aprés ce que li mariages est assemblez<note>est a.] a
               esté a. F</note> que li doeres n’a pas esté donnez au mari, se il sostient la charge del
             mariage et il muert avant que la fame, il n’est pas droiz que la fame qui ne donna pas à
@@ -770,19 +744,19 @@
               <sic source="#O">om.</sic>
               <corr resp="#editor">avant</corr>
             </choice> .</p>
-          <p><label>[2.ep.]</label> Ta hautece s’entremete donc de mener à<note>mener à e.] donner à
+          <p xml:id="authenticum.1.2.ep."><label>[2.ep.]</label> Ta hautece s’entremete donc de mener à<note>mener à e.] donner à
               e. F</note> effeut les choses qui nos ont pleu et les face savoir à toz par propres
             escritures, que cez choses vaillent en toutes les citez qui sont <choice>
               <sic source="#O">enostre</sic>
               <corr resp="#editor">en nostre</corr>
             </choice> empire et soient fetes certainnes à tox selonc ce que nos avons ordené.</p>
         </div>
-        <div>
+        <div xml:id="authenticum.1.3">
           <head>[3. Ut determinatus sit numerus clericorum sanctissimae maioris ecclesiae et ceterarum
             sanctarum ecclesiarum Constantinopolis] <seg type="rubric">Cist tytres est que li nonbres
               des clers de la grant iglise de Costentinoble<note>de C.] <hi rend="i">om.</hi> F</note>
               et des autres iglises soit determinez. Ce est ci li tierz establissemenz.</seg></head>
-          <p><label>[3.pr.]</label>
+          <p xml:id="authenticum.1.3.pr."><label>[3.pr.]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Ephithan, tres saint et tres beneuré
             arcevesque de la real cité et universel patriache : Nos avons pieça ordené, par une loi
             commune et general que nos avons escrite à ta beneurté et as autres sainz patriaches, des
@@ -831,8 +805,7 @@
             iglises qui leur prest, ainz descendent à trop<note>à trop] en tres F</note> grant
             povreté, si que eles ne soffissent pas à donner à leur ministres leur despenses, et
             venoient à si grant chetiveté que il covenoit que eles aban<cb n="11c"/>donnassent leur
-              biens<note>abandonnassent leur biens] a. à lor creanciers touz lor biens F <hi rend="i"
-                >cf. le texte latin « quatenus rerum omnium creditoribus cederet ».</hi></note> ; et
+              biens<note>abandonnassent leur biens] a. à lor creanciers touz lor biens F <hi rend="i">cf. le texte latin « quatenus rerum omnium creditoribus cederet ».</hi></note> ; et
             ce poise nos que il le nos convient dire. Et nos nos porveons commant l’en se porra garder
             que ce ne soit fet<note>que ce ne soit fet] <hi rend="i">om.</hi> F</note> de ci en avant,
             car se nus n’est qui sueffre volentiers celi qui despent plus que il n’a, commant lerions
@@ -843,7 +816,7 @@
             à desleauté, més chascuns doit amesurer ses despenses selonc ce que il a, et por ce
             establissons nos avenentment de cez choses et en ostons la trop<note>trop] tres F</note>
             grant multitude et baillons la cause à certainne medecine.</p>
-          <p><label>[3.1.0]</label> Nos establissons donc que li anorable clerc et les nonnains
+          <p xml:id="authenticum.1.3.1.0"><label>[3.1.0]</label> Nos establissons donc que li anorable clerc et les nonnains
             beneoites et li costeeur qui sont en la sainte iglise et es autres anorables mesons
             demeurent en l’estat où il sont, car nos ne fesons pas ces establissemenz por amenuisier
             les ; més nus n’i soit ordenez de ci en avant, devant que li nombre des clers de la grant
@@ -873,7 +846,7 @@
             des encians mescreanz par la grasce Jhesu Crist nostre sauveeur et par noz travauz et par
             noz amonestemenz, il i convient establir plus de menistres que il n’en i ot au
             commancement.</p>
-          <p><label>[3.1.1]</label> Et por ce establissons nos que il n’ait pas en la grant iglise
+          <p xml:id="authenticum.1.3.1.1"><label>[3.1.1]</label> Et por ce establissons nos que il n’ait pas en la grant iglise
             plus de .lx. provoires et .c. diacres et .xl. nonnains beneoites et .xc.<note>.xc.] .xx. F
                 <hi rend="i">cf. le texte latin « nonaginta ».</hi></note> sordiacres et .c. et .x.
             liseeurs et chanteeurs .xxv., <choice>
@@ -890,7 +863,7 @@
               <sic source="#O">il</sic>
               <corr resp="#editor">i</corr>
             </choice> sont soient ramené à cest nombre.</p>
-          <p><label>[3.2.0]</label> Et nos <choice>
+          <p xml:id="authenticum.1.3.2.0"><label>[3.2.0]</label> Et nos <choice>
               <sic source="#O">il</sic>
               <corr resp="#editor">i</corr>
             </choice> volons ajoster que ce qui a esté fet jusque ci contre droit ne soit pas fet de
@@ -909,7 +882,7 @@
               <corr resp="#editor">i</corr>
             </choice> viegne par desus le nombre, car nos ne soffrons pas que ce soit fet par nule
             maniere ne par nul enging.</p>
-          <p><label>[3.2.1]</label> Et ce que nos establissons de la grant iglise de ceste noble cité
+          <p xml:id="authenticum.1.3.2.1"><label>[3.2.1]</label> Et ce que nos establissons de la grant iglise de ceste noble cité
             volons nos que soit tenu en toutes les autres granz iglises, si que li clerc qui <choice>
               <sic source="#O">il</sic>
               <corr resp="#editor">i</corr>
@@ -964,13 +937,12 @@
             passee ne nus baraz ne soit fez en ce, qar nos ne sofferrons pas en ce que ce soit fet que
             l’en ne die que il aient congié d’ordener les sanz donner lor leur vivre, car ce est .i.
             autre chose qui fet confusion, et aissi seroient fet dui covent et aprés vandroient
-            plusors cas de covenence<note>plusors cas de covenence] p. causes de decevance F <hi
-                rend="i">cf. le texte latin « deinde etiam plurimas habebit causa
+            plusors cas de covenence<note>plusors cas de covenence] p. causes de decevance F <hi rend="i">cf. le texte latin « deinde etiam plurimas habebit causa
                 circumventiones ».</hi></note>, si que il truissent pluseurs voies de covoitise ; et
             nos deffendons del tout que ce ne soit fet, sor la painne qui est apelee la painne de
             sainte iglise, car nos creons que ce soit tres granz preuz que la grant iglise ne soit pas
             sozmise à detes ne à destrece, ainz soit tozjors riche.</p>
-          <p><label>[3.3]</label> Et issi comme nos avons determiné les despenses, covandra il que li
+          <p xml:id="authenticum.1.3.3"><label>[3.3]</label> Et issi comme nos avons determiné les despenses, covandra il que li
             sainz patriache et li anorable procurateur regardent que les autres depenses qui sont
             fetes des conquez des iglises soient fetes en buens usages qui plesent à Damediex et
             soient aministrees à ceus qui pledent por verité ne n’ont pas d’autre part de qoi il
@@ -983,7 +955,7 @@
             Sachent donc li procurateur qui or sont et qui seront de ci en avant que se il font contre
             ce en aucune chose, il seront sozmis as devins tormenz et restoreront de lor propre chatel
             à la sainte iglise son damage.</p>
-          <p><label>[3.ep.]</label> La sainte iglise a donc ordené ta beneurté dés enfance en sainte
+          <p xml:id="authenticum.1.3.ep."><label>[3.ep.]</label> La sainte iglise a donc ordené ta beneurté dés enfance en sainte
             ordre. Et nos establissons que tuit cil qui descendent del saint lignage gardent ces
             choses continuelment<note>continuelment] communement F</note> et sachent que nos n’avons
             pas <choice>
@@ -992,19 +964,19 @@
             </choice><note>mains de c. des choses c.] mains des choses communes mains de cure O corr.
               d’après F</note> qui valent as saintes iglises que de nostre ame meisme.</p>
         </div>
-        <div>
+        <div xml:id="authenticum.1.4">
           <head>[4. De fideiussoribus et mandatoribus, et solutionibus] <seg type="rubric">Cist tytres
               est de pleges et de commandeeurs, et des paiemenz. Ce est ci li quarz
                   establissemenz.<note><hi rend="i">Rubrique</hi>] Cest tytres est des pleges et des
                 demandeurs et des paieurs F</note></seg></head>
-          <p><label>[4.pr.]</label>
+          <p xml:id="authenticum.1.4.pr."><label>[4.pr.]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Jehan le provoire : Il nos semble que il
             est bien que nos rapelons et ramentons<note>Il nos semble que il est bien que nos rapelons
               et ramentons] il nous semble que il est biens et rapelons F</note> à la chose commune
             une anciane loi qui fu fete pieça, més nos ne savons porqoi ele n’a pas esté en us, et qui
             est necessaires em pluseurs causes, més nos ne la metons pas simplement sicomme ele
             estoit, ainz la departirons par avenant acroisement qui plera à Damedieu.</p>
-          <p><label>[4.1]</label> ¶ Se aucuns preste donc aucune chose <choice>
+          <p xml:id="authenticum.1.4.1"><label>[4.1]</label> ¶ Se aucuns preste donc aucune chose <choice>
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">et</corr>
             </choice><note>et] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après</hi> F</note> il
@@ -1026,8 +998,7 @@
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">demander</corr>
             </choice><note>demander] <hi rend="i">om.</hi> O <hi rend="i">corr. d’après</hi> F</note>
-            d’amener avant le pricipal deteur, si que il soutiegne premierement<note>p.] <hi rend="i"
-                >om.</hi> F</note> le plet, et se il n’a de qoi paier, lors soit li pleges contrainz
+            d’amener avant le pricipal deteur, si que il soutiegne premierement<note>p.] <hi rend="i">om.</hi> F</note> le plet, et se il n’a de qoi paier, lors soit li pleges contrainz
             de paier. Et il a esté establi por les pleges et por les commandeeurs que quant li deteurs
             sera amenez avant, cil qui estoient tormenté por lui soient em pés tent que l’en sache se
             il porra paier, et se li termes qui fu donnez au plege à amener le deteur est passez (car
@@ -1037,7 +1008,7 @@
               <sic source="#O"> est crist</sic>
               <corr resp="#editor">escrist</corr>
             </choice> le mandement<note>le m.] le commandement F</note> .</p>
-          <p><label>[4.2]</label> Et li creanciers ne viegne pas as choses au deteurs que autre
+          <p xml:id="authenticum.1.4.2"><label>[4.2]</label> Et li creanciers ne viegne pas as choses au deteurs que autre
               tiennent<note>tiennent] tient F</note> devant que il ait pledié par personnieus actions
             contre les pleges et contre les commandeeurs. Et lors viegne il as choses au pricipal
             deteur, qui que les tiengne, et traie en cause ceus qui les tiennent. Et se sactifacion ne
@@ -1060,7 +1031,7 @@
             païs que nos avons pieça establies des pleges et des commandeeurs, et ce meisme soit tenu
             es autres marchiez en qoi plege ou commandeeur sont pris et es principax deteurs et en
             leur oirs ; et ceste loi leur vaille et norisse noz sormis o toute jostice.</p>
-          <p><label>[4.3.0]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Quod autem.</seg>
+          <p xml:id="authenticum.1.4.3.0"><label>[4.3.0]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Quod autem.</seg>
               Et F</note> nostre debonnereté establist une chose qui aide as humaines cures qui ne
             nuist pas à aucuns deteurs, que se un hom preste or à aucun et il n’en prant point de
             plege, porce que cil à qui il est presté est assez riche et a bien de qoi paier le, et il
@@ -1103,21 +1074,20 @@
             </choice><note>il] ele O <hi rend="i">corr. d’après</hi> F</note> porra donner : ele
               doit<note>ele doit] et l’en doit F</note> porveoir au creanciers en tel maniere que li
             deteur n’en soient pas grevé à desmesure.</p>
-          <p><label>[4.3.1]</label> Et nos apelons celui creancier selonc les ancianes lois qui pueent
+          <p xml:id="authenticum.1.4.3.1"><label>[4.3.1]</label> Et nos apelons celui creancier selonc les ancianes lois qui pueent
             avoir aucune<note>aucune] aucune[s] O</note> action contre aucuns, ja soit ce que il ne
             leur ont rien presté més aucuns marchiez a esté fez entre euls, et les plevines à ceus qui
             font les instrumenz soient en l’ordre où il sont ore por le profit des marchiez.</p>
-          <p><label>[4.ep.]</label> Ta hautece s’entremete donc de fere<note>fere] <hi rend="i"
-                >om.</hi> F</note> savoir et ci et par toute ta juridicion les choses que nos avons
+          <p xml:id="authenticum.1.4.ep."><label>[4.ep.]</label> Ta hautece s’entremete donc de fere<note>fere] <hi rend="i">om.</hi> F</note> savoir et ci et par toute ta juridicion les choses que nos avons
             establie por le preu à noz sozmis, si que il sachent entre toutes genz comment nos avons
             grant porveance por le profit<note>le profit] le commun p. F<hi rend="i"> cf. le texte
                 latin</hi> « <hi rend="i">pro illorum utilitate providentia ».</hi></note>.</p>
         </div>
-        <div>
+        <div xml:id="authenticum.1.5">
           <head>[5. De monachis] <seg type="rubric">Cist tytres est des moines ce est ci li quinz
                   establissemenz.<note><hi rend="i">Rubrique</hi>] <hi rend="i">om.</hi>
               F</note></seg></head>
-          <p><label>[5.pr.]</label>
+          <p xml:id="authenticum.1.5.pr."><label>[5.pr.]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Epychain<note>E.] Ephitain F<hi rend="i">
                 cf. le texte latin « Epiphanio ».</hi></note> arcevesque de ceste beneuree cité et
             universel patriache : La conversacion et la vie au moine<note>au m.] aus moines F</note>
@@ -1132,19 +1102,18 @@
             </choice><note>il soient] ils aient O <hi rend="i">corr. d’après</hi> F</note> verai
             champion en cele seconde voie<note>voie] [foiz] voie O</note>, et por ce avons nos
             entencion en ceste presente loi, aprés ce <cb n="13d"/> que nos avons establi des sainz
-              evesques<note>establi des s. e.] establi des sainz arcevesques et des sainz e. F <hi
-                rend="i">cf. le texte latin « sanctissimis episcopis ».</hi></note> et des onorables,
+              evesques<note>establi des s. e.] establi des sainz arcevesques et des sainz e. F <hi rend="i">cf. le texte latin « sanctissimis episcopis ».</hi></note> et des onorables,
             que nos ne lessons pas sanz avenant ordre ce qui apartient as moines<note>ce qui a. as
               moines] ce qui a. à la vie et à l’onnesté des m. F <hi rend="i">cf. le texte latin
                 « neque quod monachicum est extra quod competit relinquamus ».</hi></note>.</p>
-          <p><label>[5.1]</label> Et il convient dire devant totes les autres choses<note>devant [...]
+          <p xml:id="authenticum.1.5.1"><label>[5.1]</label> Et il convient dire devant totes les autres choses<note>devant [...]
               choses ] <hi rend="i">om</hi>. F</note> qui en toz tens et en toutes terres, se aucuns
             veut edefier<note>edefier] faire F</note> abaïe, il n’ait pas congié de ce fere devant que
             il i apiaut l’evesque del lieu, et li esvesques tende ses mains au ciel et sacre le lieu à
             Damedieu par oroisons, et il mete le saint sine de la veraie croiz et commaint en tel
             maniere buen edefiement, et il mete cest fondement qui est avenanz : ce soit<note>ce soit]
               ce soit donc F</note> li commancemenz de la forge des onorables abaïes.</p>
-          <p><label>[5.2.0]</label> Et nos devons de ci en avant penser<note>Et nos [...] penser] Més
+          <p xml:id="authenticum.1.5.2.0"><label>[5.2.0]</label> Et nos devons de ci en avant penser<note>Et nos [...] penser] Més
               desci en avant convient penser F</note> des moines en quel maniere il convient
               que<note>il c. que] nous voulons que F</note> il soient fet, et savoir mon se il doivent
             estre fet de frans homes tant seulement ou des sers, porce que la devine grace receit
@@ -1163,7 +1132,7 @@
             </choice><note/> qui les amoneste<note>a.] <hi rend="i">om.</hi> F</note> et ensaingne de
             recevoir pacience et honesté. <cb n="14a"/> Qar ce n’est pas legiere chose de muer sa vie,
             ainz le convient fere o grant travaill de cuer.</p>
-          <p><label>[5.2.1]</label> Et se il mostrent en cez trois anz as autres moines et à leur
+          <p xml:id="authenticum.1.5.2.1"><label>[5.2.1]</label> Et se il mostrent en cez trois anz as autres moines et à leur
             prelat que il soient buen et soffrable<note>soffrable] souffisable F</note>, il aient
               vesteure<note>vesteure] v. de moine et tonture F vesteu[e]re O</note> et soient sanz
             nule chalenge se il sont franc, et se il sont serf<note>se il sont s.] se il sont serf ou
@@ -1179,8 +1148,7 @@
             de bonne conversacion de .c.xx. d’aage<note>conversacion de c.xx. d’aage ] c. et aprez de
               .vi.xx. anz d’aage F</note> et est vertuex de cuer et de cors et plains de buenes uevres
             et de la grasce Damedieu), et cil que il en veut retrere a buene volenté et ferme d’estre
-            moinnes et cil qui l’en veut trere<note>a buene volenté [...] veut trere ] <hi rend="i"
-                >saut du même au même</hi> F</note> dit que il li a emblé aucune chose et por ce s’en
+            moinnes et cil qui l’en veut trere<note>a buene volenté [...] veut trere ] <hi rend="i">saut du même au même</hi> F</note> dit que il li a emblé aucune chose et por ce s’en
             est foiz en l’abaïe, nos establissons que il ne l’en traie pas maintenent, ainz prueve
             premierement que cil est ses sers et que il s’en est foiz por larrecin et por malvese vie
             ou por aucun vice et est venuz à l’abaïe por ses mesfez, et se il prueve ce et il apert
@@ -1188,7 +1156,7 @@
             que il ne covoite pas habit de religion por verité, il soit renduz à son seingneur o les
             choses que il li a emblees se eles sont en l’abaïe ; més li sires doit avant jurer que il
             ne li fera nul mal, et puis prendre le et ramener à sa meson.</p>
-          <p><label>[5.2.2]</label> Més se cil qui dit que il est sires ne prueve nule tel chose et il
+          <p xml:id="authenticum.1.5.2.2"><label>[5.2.2]</label> Més se cil qui dit que il est sires ne prueve nule tel chose et il
             apert par la conversacion meisme que cil qui est acusez de tiex choses est onestes et soés
             et a buen teste <cb n="14b"/> moine des autres que il fu bien ensegniez et d’oneste vie
             tent comme il fu o son segnor, ou se li troi an ne sont pas encore acompli, neporquant il
@@ -1200,7 +1168,7 @@
             torne molt de legier à meffere), neporquant li testemoines de troiz anz sosfist bien à
             espurgement de ses pechiez et acroissemenz de vertuz. Et se les choses qui ont esté ravies
             sont trovees sus aucuns, eles soient rendues à leur premier segneur.</p>
-          <p><label>[5.2.3]</label> Et se il s’en fuit por son vice et il veut lessier l’abaïe et
+          <p xml:id="authenticum.1.5.2.3"><label>[5.2.3]</label> Et se il s’en fuit por son vice et il veut lessier l’abaïe et
             sivre autre maniere de vie, nos donnons à son segnor <choice>
               <sic source="#O">om.</sic>
               <corr source="#F" resp="#editor">congié</corr>
@@ -1209,7 +1177,7 @@
             retrez à son verai servise, l’en ne li fera pas si grant tort comme il fist quant il lessa
             le servise Damedieu, et nos establissons ce de l’estat à ceus qui vuelent fere profession
             entre les moines.</p>
-          <p><label>[5.3]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Cogitandum.</seg> Et
+          <p xml:id="authenticum.1.5.3"><label>[5.3]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Cogitandum.</seg> Et
               F</note> or nos convient penser commant il doivent habiter et vivre dignement. Nos ne
             volons donc que en nule des abaïes qui sont soz nostre empire, combien que il
               aient<note>il aient] il i aient F</note> de moines, ne soit si ordenez que li un soient
@@ -1229,11 +1197,10 @@
             o les vielz, et la conversacion as vielz sera parfete norreture as juenes et soient es
             covenz obediant à leur abbé, et gardent sanz nul blasme la conversacion qui leur est
             bailliee.</p>
-          <p><label>[5.4]</label> Et se aucuns qui est sacrez au servise Damedieu<note>au s. D.] <hi
-                rend="i">om</hi>. F</note> se veut par aventure partir de l’abaïe et eslire privee
+          <p xml:id="authenticum.1.5.4"><label>[5.4]</label> Et se aucuns qui est sacrez au servise Damedieu<note>au s. D.] <hi rend="i">om</hi>. F</note> se veut par aventure partir de l’abaïe et eslire privee
             vie, il sache quel sactifacion il fera à Damedieu et les choses que il avoit quant il
             entra en l’abaïe soient de la segnorie de l’abaïe que il n’en giete nule hors.</p>
-          <p><label>[5.5]</label> Et<note>Et] <seg type="lemme" xml:lang="lat">Illud quoque.</seg> Et
+          <p xml:id="authenticum.1.5.5"><label>[5.5]</label> Et<note>Et] <seg type="lemme" xml:lang="lat">Illud quoque.</seg> Et
               F</note> nos jujons que cil <choice>
               <sic source="#O">quil</sic>
               <corr resp="#editor">qui</corr>
@@ -1257,14 +1224,14 @@
               <corr source="#F" resp="#editor">et</corr>
             </choice><note>Et] en O <hi rend="i">corr. d’après</hi> F</note> toutes les choses qui ont
             esté dites des moines soient tenues des fames qui entrent en abaïe.</p>
-          <p><label>[5.6]</label> Et se il lesse l’abaïe por venir à <choice>
+          <p xml:id="authenticum.1.5.6"><label>[5.6]</label> Et se il lesse l’abaïe por venir à <choice>
               <sic source="#O">autreune</sic>
               <corr resp="#editor">aucune</corr>
             </choice> chevalerie ou à aucune autre maniere de vie, sa sustence remaigne à l’abaïe
             selonc ce qui a esté avant dit, et il soit establiz entre les officians au juge de la
             contree, et il avra cez fruiz de sa muance que porce que il despit le devin servise, il
               soit<note>il soit] garder le soit F</note> el servise de la terriane poosté.</p>
-          <p><label>[5.7]</label> Et se il lesse l’abaïe en qoi il <choice>
+          <p xml:id="authenticum.1.5.7"><label>[5.7]</label> Et se il lesse l’abaïe en qoi il <choice>
               <sic source="#O">oit</sic>
               <corr resp="#editor">ot</corr>
             </choice> sa conversacion et il va à autre abbaïe, sa sustence remaingne à la premiere
@@ -1274,7 +1241,7 @@
             més à cele qui vet querant en divers lieus diverses choses ; et por ce li evesque et li
             arcevesque defendent cez choses et gardent l’onesté as moines selonc les saintes
             riulles.</p>
-          <p><label>[5.8]</label> Et se aucuns de cex qui <choice>
+          <p xml:id="authenticum.1.5.8"><label>[5.8]</label> Et se aucuns de cex qui <choice>
               <sic source="#O">oont</sic>
               <corr resp="#editor">ont</corr>
             </choice> esleu la conversacion de moines sont ordené à estre clerc, il gart issi pure
@@ -1292,7 +1259,7 @@
               c.] à ordre de c. F</note> ne à aucun autre office se il ne veut estre sozmis as painnes
             que nos avons pieça establies, ainz serve à terriane pooesté si que il sache qel
             sactifacion il doit por ce à Damedieu.</p>
-          <p><label>[5.9.0]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Ordinatione.</seg>
+          <p xml:id="authenticum.1.5.9.0"><label>[5.9.0]</label> Et<note>Et] ¶ <seg type="lemme" xml:lang="lat">Ordinatione.</seg>
               Et F</note> se il avient aucunefoiz que l’abaïe <choice>
               <sic source="#O">oit</sic>
               <corr resp="#editor">ait</corr>
@@ -1307,12 +1274,12 @@
             sera li miexdres entre les autres soit leur abbés, et ait l’ordre par l’aide de sa vertu.
             Car il convient que cil qui departent le meilleur del poieur establissent l’un à governer
             les autres et commant que li autre li enclinent.</p>
-          <p><label>[5.9.1]</label> Et nos volons que toutes les choses que nos avons establies en noz
+          <p xml:id="authenticum.1.5.9.1"><label>[5.9.1]</label> Et nos volons que toutes les choses que nos avons establies en noz
             sainz establissemenz et ore et autres foiz des clers et des moines et des abaïes soient
             communes es homes et es fames et es abaïes de moinnes et de nonnains, ne nos ne fesons
             nule difference quant à ce entre les homes et les fames, porce que toutes choses sont unes
             en Jhesu Crist, sicomme nos avons avant dit.</p>
-          <p><label>[5.ep.]</label> Li saint patriache facent donc savoir toutes <cb n="15b"/> cez
+          <p xml:id="authenticum.1.5.ep."><label>[5.ep.]</label> Li saint patriache facent donc savoir toutes <cb n="15b"/> cez
             choses as arcevesques<note>a.] sainz a. F</note> qui sont soz eus, et li arcevesque le <choice>
               <sic source="#O">facet</sic>
               <corr resp="#editor">facent</corr>

@@ -39,8 +39,11 @@
           Traduction 3 et du texte latin.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/front[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
           <citeData use="head[1]" property="dc:title"/>
+          <citeStructure match="div" use="default" unit="subpart">
+            <citeData use="head[1]" property="dc:title"/>
+          </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>

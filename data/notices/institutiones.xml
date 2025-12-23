@@ -75,7 +75,7 @@
             <citeStructure match="div" use="default" unit="état">
               <citeData use="head" property="dc:title"/>
               <citeStructure match="div" use="default" unit="état">
-                <citeData use="head" property="dc:title"/>
+                <citeData use="if (head/title) then head/title else string-join(head/text())" property="dc:title"/>
               </citeStructure>
             </citeStructure>
           </citeStructure>
@@ -406,7 +406,7 @@
             </div>
             <div><head>Étude de la tradition</head><p><bibl><author>F. Olivier-Martin</author> (p. xxxviii-xl)</bibl> a étudié la tradition des
               <title>Institutes</title> en prose qu’il a résumée sous forme d’un stemma à trois branches. L’examen mériterait d’être repris à nouveaux frais, car Olivier-Martin, intéressé par l’établissement du texte, néglige les témoins tardifs dont il fait les descendants de témoins proches antérieurs. Etant donné le nombre de manuscrits et les lacunes de certains, il n’a pas été possible d’aboutir à une vision synthétique et complète de la tradition. Tout au plus pouvons-nous préciser certaines relations à l’intérieur d’une tradition qui semble par ailleurs contaminée :</p></div>            
-            <div type="temoins"><head/><!-- LG 26/06/2019 head vide suggeré par FD le 18/06/2019 -->  <list type="temoins">
+            <div type="temoins"><head>Les témoins</head><!-- LG 26/06/2019 head vide suggeré par FD le 18/06/2019 -->  <list type="temoins">
               <item><label>Groupe <hi rend="i">ABD</hi></label>
                 <p><hi rend="i">ABD</hi> présentent des fautes communes : Inst. 2.20 est copié dans ces trois témoins sans solution de continuité avec Inst. 2.19 ; <app>
                   <rdg wit="#C #E #F #G #I #L #N #M">que il se donna a</rdg>

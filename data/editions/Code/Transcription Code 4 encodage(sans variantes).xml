@@ -40,8 +40,8 @@
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="=@xml:id" unit="part">
             <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/text()" property="dc:title"/>
-            <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+            <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
+              <citeData use="if (label) then substring-after(substring-before(label[1], ']'), '[') else .//text()" property="dc:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
@@ -912,7 +912,7 @@
             <hi rend="b">L</hi>i empereres Lions dit : « <hi rend="b">N</hi>os jujons que les .lxiiii.
             avocaz qui sont establi aient ces meismes previliges qui ont les avocaz deu tresor et
             leurs fuiz aprés les .ii. avocaz deu tresor qui usent de ceus meimes previleges.</p>
-          <p><label>[1]</label>
+          <p xml:id="giessen_945-code.2.7.15bis"><label>[1]</label>
             <hi rend="b">E</hi>t à ce ajostom que se aucun avocaz deu tresor vient à gregneur dignité
             et il muert, qu’il doie avoir tout le loier de l’an par si qu’il soit randuz à ses oirs,
             soient ses fuiz ou soient estranges, ou il face testament ou non. »</p>
@@ -1007,9 +1007,11 @@
             previliege qu’il ont gaangnié en divers tens ou par letres d’empereors ou par les
             ordenemenz de ta cort, car ceus que nos i veions pourdignes, ces doivent estre plus aidé
             de nos et essaucié. »</p>
-          <p xml:id="giessen_945-code.2.8.0">[2.8.0 De advocatis fisci] <lb/><seg type="rubric">Ci
-              parole des avocaz qi plaidoient por la droiture del tresor l’empereeur.</seg></p>
-          <p><hi rend="b">C</hi>i vient un titre qui parole des avocaz deu tresor l’empereor.
+        </div>
+        <div xml:id="giessen_945-code.2.8.0">
+          <head>[2.8.0 De advocatis fisci]<lb/></head>
+          <p><seg type="rubric">Ci parole des avocaz qi plaidoient por la droiture del tresor l’empereeur.</seg></p>
+          <p xml:id="giessen_945-code.2.8.1"><hi rend="b">C</hi>i vient un titre qui parole des avocaz deu tresor l’empereor.
               <label>[2.8.1]</label> [U]ns huem fu avocaz deu tresor l’empereor et n’avoit eu point de
             salaire. Or vouloit estre avocaz contre l[<hi rend="color_FF0000 note">e]<note>li <hi rend="i">A</hi></note></hi> tresor pour autre, et li empereres li dit que ce ne puet
             il fere, que dés <cb n="42a"/> qu’il a esté avocaz deu tresor, ja soit ce qu’il n’en a eu
@@ -1129,7 +1131,7 @@
           <p xml:id="giessen_945-code.2.11.10"><label>[2.11.10]</label>
             <hi rend="b">C</hi>ist meimes empereres dit : « <hi rend="b">C</hi>il qui <hi rend="i">est</hi> condanpnez pource qu’il fist honte, ja soit ce qu’il la fist à serf, nequedent
             il est disfamé. »</p>
-          <p><cb n="42d"/> [2.11.12] <hi rend="b">T</hi>u venis à un heritage où il n’avoit point
+          <p xml:id="giessen_945-code.2.11.12"><cb n="42d"/> <label>[2.11.12]</label> <hi rend="b">T</hi>u venis à un heritage où il n’avoit point
             d’oir ; si en anblas aucunes choses, fus acusé et comdampné, ne te condampna le juge en
             autre poine. Dit li empereres que tu n’eschapes pour ce que tu ne soies disfamé.</p>
           <p xml:id="giessen_945-code.2.11.13"><label>[2.11.13]</label>
@@ -1164,7 +1166,7 @@
             leur soit aquitee – ne mie se de grace sanz nul pris leur est pardonee – sont disfamé, mes
             se je jurai que je n’avoie fet honte par la volenté à celui qi m’avoit encusé, le juge me
             doit asoudre. »</p>
-          <p><cb n="43a"/> [2.11.19] Uns huem s’estoit clamez de moi, qui disoit que je li avoie fet
+          <p xml:id="giessen_945-code.2.11.19"><cb n="43a"/> <label>[2.11.19]</label> Uns huem s’estoit clamez de moi, qui disoit que je li avoie fet
             honte. Si fui semons. Il ne prova mie ce qu’il disoit ne le juge ne me condanpna par
             sentence que je eusse fet force ne honte, mes il me dist que je amendasse ma vie. Dist li
             empereres que je ne sui mie pour ce disfamé.</p>
@@ -1341,7 +1343,7 @@
             perdra le preu qu’il doit avoir de cele q<hi rend="i">ue</hi>rele en laquele il volt plus
             pledier par soi meimes que par procurateur. Et le juge qui fera encontre sache qu’il
             paiera .xx. livres d’or par non de peine et son osficial autant. »</p>
-          <p><label>[Auth. 71.1 = Nov. 71.1]</label><hi rend="b">C</hi>i vient un[<hi rend="color_FF0000">e</hi>
+          <p>[Auth. 71.1 = Nov. 71.1]<hi rend="b">C</hi>i vient un[<hi rend="color_FF0000">e</hi>
               aut<hi rend="color_FF0000 note">entique]<note>un autre titre<hi rend="i"> AH</hi>] <hi rend="i">I</hi></note></hi> qui amende ceste loi qui dit que [<hi rend="color_FF0000 note">cest]<note>ce est <hi rend="i">AH</hi></note></hi> droit qu’il
             soient tenuz à fere procurateurs avra leu en ceus qi sont illustres, que les autres
             tendront le droit comunel.</p>
@@ -1358,7 +1360,8 @@
                 des[f]ent<note place="bottom">destent <hi rend="i">A</hi></note> qe nus qi est
               puissantz ne s’entramete des plaiz aus menues genz.</seg></head>
           <p>Ci vient un titre qui desfent que les puissanz homes ne doient aidier à ceus qui pledent
-            ne que ne reçoivent autrui quereles. <seg xml:id="giessen_945-code.2.13.1"><label>[2.13.1]</label> De ce dit li empereres Dioclicie<hi rend="i">n</hi>s : « <hi rend="b">M</hi>out establi selonc Dieu li empereres Claude, le saje prince nostre
+            ne que ne reçoivent autrui quereles.</p>
+          <p xml:id="giessen_945-code.2.13.1"><label>[2.13.1]</label> De ce dit li empereres Dioclicie<hi rend="i">n</hi>s : « <hi rend="b">M</hi>out establi selonc Dieu li empereres Claude, le saje prince nostre
               pere, que ceus qui apelent les puissanz homes en leur aide doivent perdre leur q<hi rend="i">ue</hi>rele, que par ceste peeur les causes alassent plus par droit que par
               la force des puissanz homes, <label>[1]</label> car il fu si esmeuz des quereles de ceus
               qui venoient à lui des t<hi rend="i">er</hi>res que il fist gardes de ceste chose et
@@ -1369,7 +1372,7 @@
               les pledeors ne ne [<hi rend="color_FF0000 note">d]<note>toutes <hi rend="i">AH</hi>]
                     <hi rend="i">I</hi></note></hi>outes que tu faces tort as autres juges, car
               l’emperere Claude fist le governeeur de la provi<hi rend="i">n</hi>ce jugeor de ceste
-              chose et, se mestier fust, vengeor. »</seg></p>
+              chose et, se mestier fust, vengeor. »</p>
           <p xml:id="giessen_945-code.2.13.2"><label>[2.13.2]</label>
             <hi rend="b">L</hi>i empereres Honoires dit : « <hi rend="b">S</hi>e aucunes demandes qiex
             qu’eles soient so<hi rend="i">n</hi>t aportees en persones de puissanz homes, ceus
@@ -1406,11 +1409,12 @@
             alienis imponat vel vela regalia suspendat] <lb/><seg type="rubric">Ci deffent qe nus ne
               mete brief en sa teneure.</seg></head>
           <p><hi rend="b">C</hi>i vient un autre titre qui desfent que nul ne mete escriz en ses
-            teneures ne es autrui ne ne mete baniere deu roi. <seg xml:id="giessen_945-code.2.15.1"><label>[2.15.1]</label> De ce dit li emperereres Honoires : « <hi rend="b">C</hi>e
+            teneures ne es autrui ne ne mete baniere deu roi.</p>
+          <p xml:id="giessen_945-code.2.15.1"><label>[2.15.1]</label> De ce dit li emperereres Honoires : « <hi rend="b">C</hi>e
               avient seulement à la roial [<hi rend="color_FF0000 note">majesté]<note>moieté <hi rend="i">A</hi>] <hi rend="i">HIL</hi></note></hi> que noz mesons et noz teneures
               aient noz titres escriz qui soient leu ; et sache<hi rend="i">n</hi>t tuit que ce où
               l’en trouvera escrit le non <cb n="44d"/> deu segneur ou de l’empereeur, cele teneure
-              sera saisie de par nos. »</seg></p>
+              sera saisie de par nos. »</p>
           <p xml:id="giessen_945-code.2.15.2"><label>[2.15.2]</label>
             <hi rend="b">L</hi>i emperere Theodoise dit : « <hi rend="b">N</hi>os desfendo<hi rend="i">n</hi>s que nul n’ost pendre gonfanon de roi ne nul autre seing as choses autrui sanz
             le comandement deu juge qui le puet comander en quel que manieres celes choses soient
@@ -1474,8 +1478,8 @@
           <head>[2.18.0 De negotiis gestis] <lb/><seg type="rubric">Ci parole des besoignes autruis q’en fet sen comandament.</seg></head>
           <p><hi rend="b">C</hi>i vient le titre qui parole des besongnes fetes, ce est à dire de
             celes besongnes autrui qui aucun fet s[<hi rend="color_FF0000 note">e]<note>son <hi rend="i">AHL</hi>] <hi rend="i">I(</hi>sanz)</note></hi>n comandeme<hi rend="i">n</hi>t, car sus en titre des procurateurs avoit p<hi rend="i">ar</hi>lé des besongnes
-            que l’en fet par comandement. <seg xml:id="giessen_945-code.2.18.1"><label>[2.18.1]</label> De ce parolent .ii. ampereors, Sever et Antonins :</seg></p>
-          <p><hi rend="b">U</hi>ne fame avoit enfanz petiz qui estoie<hi rend="i">n</hi>t orphelin ;
+            que l’en fet par comandement.</p>
+          <p xml:id="giessen_945-code.2.18.1"><label>[2.18.1]</label> De ce parolent .ii. ampereors, Sever et Antonins : <hi rend="b">U</hi>ne fame avoit enfanz petiz qui estoie<hi rend="i">n</hi>t orphelin ;
             si avoient tuteurs. La mere vit que ces tuteurs menoient maleme<hi rend="i">n</hi>t les
             besongnes de ses fuiz, si les acusa qu’il estoient soupeçoneus. Si leur demandoit autres
             tuteurs et curateurs. En ces choses mener fist despens. Or voloit demander les despens ;
@@ -1880,7 +1884,7 @@
             Mes se vos avez .xxv. anz acompliz et passé .iiii. anz outre dedenz que vos pouez avoir
             restitucion, vos pouez pledier contre voz curateurs qui furent, pource qu’il ne vos
             garderent de cest domage selonc la forme de droit.</p>
-          <p><cb n="48b"/> [2.24.2] <hi rend="b">L</hi>i empereres Alixandres dit : « <hi rend="b">L</hi>es meneurs de .xxv. anz ont aide de restitucio<hi rend="i">n</hi> se il sont
+          <p xml:id="giessen_945-code.2.24.2"><cb n="48b"/> <label>[2.24.2]</label> <hi rend="b">L</hi>i empereres Alixandres dit : « <hi rend="b">L</hi>es meneurs de .xxv. anz ont aide de restitucio<hi rend="i">n</hi> se il sont
             engingnié, neis [<hi rend="color_FF0000 note">en<note>en <hi rend="i">om.
               AHI</hi></note></hi>] ces marchiez qu’il font em presence de leurs tuteurs ou de leurs
             curateurs. »</p>
@@ -2169,12 +2173,13 @@
               sauf.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole quant le meneur emprunte argent et il le despent ou
             gaste, s’i demande restitucion contre son creancier qui li presta l’argent. De ce si avint
-            tel quas : <seg xml:id="giessen_945-code.2.37.1"><label>[2.37.1]</label>
+            tel quas :</p>
+          <p xml:id="giessen_945-code.2.37.1"><label>[2.37.1]</label>
               <hi rend="b">U</hi>ne femme qui avoit non Zenodora prist deniers à prest ; et quant
               celui qui li avoit presté li demanda son argent, ele dist qu’ele estoit engingniee, si
               demanda restitucion. Cel qui li avoit presté vint à l’empereor et l’emperere dist : « Se
               tu ne puez prover que l’argent que cele femme emprunta de toi soit entré en ton preu,
-              saches qu’ele est par droit restituie. »</seg></p>
+              saches qu’ele est par droit restituie. »</p>
           <p xml:id="giessen_945-code.2.37.2"><label>[2.37.2]</label>
             <hi rend="b">L</hi>i empereres Gordians dit à un meneur : « <hi rend="b">S</hi>e tu preis
             deniers à usure si co<hi rend="i">m</hi> tu diz et ces deniers ne sont entrez en ton preu,
@@ -2212,10 +2217,11 @@
               eritage q’il avoit refusé.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole eu contraire de celi desus, car cesti dist quant le
             meneur de .xxv. anz a lesié l’eritache ou la possession des biens que li estoient escheoit
-            et puis demande restitucion pour les ravoir. <seg xml:id="giessen_945-code.2.39.1"><label>[2.39.1]</label> De ce dist li empereres : « <hi rend="b">L</hi>es meneurs de
+            et puis demande restitucion pour les ravoir.</p>
+          <p xml:id="giessen_945-code.2.39.1"><label>[2.39.1]</label> De ce dist li empereres : « <hi rend="b">L</hi>es meneurs de
               .xxv. anz pueent avoir restitucion enterine non seulement en ce qu’il perdent de leurs
               choses, mes encore se il lessent folement eritache ou possession de biens que leur est
-              escheoit. »</seg></p>
+              escheoit. »</p>
           <p xml:id="giessen_945-code.2.39.2"><label>[2.39.2]</label>
             <hi rend="b">L</hi>i empereres Diocliciens dit : « <hi rend="b">S</hi>e aucuns meneurs de
             .xxv. anz lessent la possession des biens qui leur est escheoite de leur pere, il i pueent
@@ -2227,7 +2233,8 @@
             necessaria non est]</head>
           <p><hi rend="b">O</hi>r a parlé assez quant restitucion a mestier, mes aucune foiz est que
             le droit meismes garde le meneur de domache, et lors ne li a mestier restitucion, et de ce
-            parole cist titre. <seg xml:id="giessen_945-code.2.40.1"><label>[2.40.1]</label>
+            parole cist titre.</p>
+          <p xml:id="giessen_945-code.2.40.1"><label>[2.40.1]</label>
               <hi rend="b">À</hi> entendement de ceste loi covient savoir que se aucun est murtri en
               son ostel, celui qui doit avoir son eritache doit venchier sa mort, ce est qu’il doit
               acuser les murtriers ne ne doit prandre l’eritache ta<hi rend="i">n</hi>t que sentence
@@ -2235,7 +2242,7 @@
               meneur de .xxv. anz, car à cel oir ne nuist. Et de ce dist li empereres Alixandre :
                 « <hi rend="b">I</hi>l ne nuit riens as meneurs de .xxv. anz, meimement à ceus qui
               n’ont tuteurs ne curateurs, se il ne venchent la mort à celi qui est tué, car il ne
-              perdront l’eritache, ne leur a mestier restitucion. »</seg></p>
+              perdront l’eritache, ne leur a mestier restitucion. »</p>
           <p xml:id="giessen_945-code.2.40.2"><label>[2.40.2]</label>
             <hi rend="b">L</hi>i empereres Valanti[<hi rend="color_FF0000 note">n]<note>valantis <hi rend="i">A</hi>] <hi rend="i">H(</hi>valentins<hi rend="i">)I(</hi>valetins<hi rend="i">)L(</hi>valentin)</note></hi>s dit : « <hi rend="b">S</hi>e aucu<hi rend="i">n</hi> est dessevré à tort de l’eritache son pere, il a querele par qu’il
             recuevre son droit, qu’il puet dire que son pere fist son testament contre osfice de
@@ -2276,7 +2283,8 @@
             possunt] <lb/><seg type="rubric">Ci devise qi sont cil qi peuent avoir restablissiment de
               leurs choses.</seg></head>
           <p><hi rend="b">C</hi>ist titre determine les persones qui pueent avoir restitucion
-            enterine. <seg xml:id="giessen_945-code.2.41.1"><label>[2.41.1]</label> Et de ce dit li
+            enterine.</p>
+          <p xml:id="giessen_945-code.2.41.1"><label>[2.41.1]</label> Et de ce dit li
               empereres Alixandres : « <hi rend="b">T</hi>el juge qui conoist de la cause de
               restitucion doit esgarder se cil qui dist qu’il est meneur de .xxv. anz et dist qu’il
               est engingnié est home diligent en ses besongnes et sajement se meine es besongnes de sa
@@ -2284,7 +2292,7 @@
                 <label>[1]</label> Mes quant le juge avra bien cerchiee la chose, [<hi rend="color_FF0000 note">se]<note>se <hi rend="i">om. AHIL</hi></note></hi> il trove
               qu’il est engingnié par verité, pour ce seulement ne perdra il le benefice de
               restitucion qu’il fu fet decurion avant qu’il fust d’aaje pour les besongnes deu païs ne
-              pource qu’il a fet <cb n="51b"/> assez enfanz. »</seg></p>
+              pource qu’il a fet <cb n="51b"/> assez enfanz. »</p>
           <p xml:id="giessen_945-code.2.41.2"><label>[2.41.2]</label>
             <hi rend="b">L</hi>i empereres Justinians dit : « <hi rend="b">L</hi>es anciens doutoient
             se les fuiz contre leurs peres ou ceus qui sont franchi contre leur franchisseeurs pueent
@@ -2301,8 +2309,10 @@
             franchiz – contre leurs patrons ou contre leurs patronnes, ne doient avoir restitucio<hi rend="i">n</hi>, car la reverance des persones leur tolt toute restitucion, car il n’est
             mie dote que ces persones meimes se gardent que nule chose ne soit contraire à lor
             renomee.</p>
-          <p xml:id="giessen_945-code.2.42.0">[2.42.0 Si minor se majorem dixerit vel probatus fuerit]
-              <lb/><seg type="rubric">Ci dit de celui qi se fet d’aage.</seg></p>
+        </div>
+        <div xml:id="giessen_945-code.2.42.0">
+          <head>[2.42.0 Si minor se majorem dixerit vel probatus fuerit]
+              <lb/><seg type="rubric">Ci dit de celui qi se fet d’aage.</seg></head>
           <p><hi rend="b">I</hi>l avient que celui qui est meneur de .xxv. anz si doit estre gregnor
             pour e<hi rend="i">n</hi>gingnier autre ; et de ce parole cist titre qui est ci mis, et
             est tel le prem<hi rend="i">ier</hi> cas :</p>
@@ -2346,12 +2356,13 @@
               <lb/><seg type="rubric">Ci desfent q’en ne demant pluseurs foiz
             restitucion.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole quant aucun demande plusors foiz <cb n="51d"/>
-            restitucion. <seg xml:id="giessen_945-code.2.43.1"><label>[2.43.1]</label> De ce dist li
+            restitucion.</p>
+          <p xml:id="giessen_945-code.2.43.1"><label>[2.43.1]</label> De ce dist li
               empereres Sever à .ii. freres : ¶ « Se vos demandastes restitucion enterinne contre la
               sentence del juge qui fu donee contre vos et ne vos fu ostroiee, pour noiant querroiz
               que cele meimes qause soit derechief traitiee, car vos deviez apeler quant la sentence
               fu donee contre vos que nel deussiez avoir restitucion ; mes se vos estes encore meneur,
-              vos pouroiz estre restitui à apeler de cele sentence. »</seg></p>
+              vos pouroiz estre restitui à apeler de cele sentence. »</p>
           <p xml:id="giessen_945-code.2.43.2"><label>[2.43.2]</label>
             <hi rend="b">L</hi>i empereres Alixandres dit à un qui li demandoit conseill : « <hi rend="b">J</hi>a soit que les tuteurs de l’orfeline furent veincu qua<hi rend="i">n</hi>t il demandoient restitucion par non de l’orfeline, car tu diz que tu puez user de
             noveles raisons, voisent les curateurs de cele meimes qui est ore ta femme p<hi rend="i">ar</hi> devant le juge et demandent qu’il facent les causes de restitucion. »</p>
@@ -2366,9 +2377,10 @@
               d’aage.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole de ceus que, ja soit ce qu’il soient meneurs de .xxv.
             anz, il pourchacent de l’enpereeur qu’il puisse<hi rend="i">n</hi>t fere leurs besongnes
-            ausi con s’il fussent d’aage. <seg xml:id="giessen_945-code.2.44.1"><label>[2.44.1]</label> De ce dist li empereres Aureli<hi rend="i">us</hi> : « Ceus
+            ausi con s’il fussent d’aage.</p>
+          <p xml:id="giessen_945-code.2.44.1"><label>[2.44.1]</label> De ce dist li empereres Aureli<hi rend="i">us</hi> : « Ceus
               qui ont pourchacié pardon de leur aage, ja soit ce qu’il ne facent leur beso<hi rend="i">n</hi>gnes covenablement, nequedent il ne pourront avoir restitucion enterinne, car
-              ces qui feroient marchié à eus seroient deceu par l’autorité deu prince. »</seg></p>
+              ces qui feroient marchié à eus seroient deceu par l’autorité deu prince. »</p>
           <p xml:id="giessen_945-code.2.44.2"><label>[2.44.2]</label> Li empereres Costentin dit :
               « <hi rend="b">T</hi>ouz les bachelers qui sont apris de bones meurs et voelent par eus
             governer les eritaches de leurs peres et de leurs meres et de leurs aiex que sont leur
@@ -2411,10 +2423,11 @@
         <div xml:id="giessen_945-code.2.45.0">
           <head>[2.45.0 Si major factus ratum habuerit] <lb/><seg type="rubric">Ci dit de ceus qi outroient puis ce q’il firent devant aage.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole deu meneur qui ostroie puis qu’il est gregneur ce
-            qu’il avoit fet en meneur aage. <seg xml:id="giessen_945-code.2.45.1"><label>[2.45.1]</label> De ce dist li empereres Diocliciens : « <hi rend="b">S</hi>e
+            qu’il avoit fet en meneur aage.</p>
+          <p xml:id="giessen_945-code.2.45.1"><label>[2.45.1]</label> De ce dist li empereres Diocliciens : « <hi rend="b">S</hi>e
               aucune dep<hi rend="i">ar</hi>tie est fete entre les meneurs de .xxv. anz loialment sanz
               nul engin par escrit ou sanz escrit et il l’otroient puis qu’il sont d’aage, il covient
-              qu’ele remeingne entiere. »</seg></p>
+              qu’ele remeingne entiere. »</p>
           <p xml:id="giessen_945-code.2.45.2"><label>[2.45.2]</label>
             <hi rend="b">C</hi>ist meimes empereres dit : « <hi rend="b">C</hi>el que, puis qu’il a
             passé .xxv. anz, ostroie ce qu’il a fet quant il estoit de menor aage, pour noiant demande
@@ -2425,10 +2438,11 @@
             agitanda sit] <lb/><seg type="rubric">Ci devise qeus juge ount poeir de doner
               restitution.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole de juges qui ont pouoir de doner restitucion et à
-            qiex juges doit estre demandee. <seg xml:id="giessen_945-code.2.46.1"><label>[2.46.1]</label> Li empereres Antonins dit : « <hi rend="b">S</hi>’aucune
+            qiex juges doit estre demandee.</p>
+          <p xml:id="giessen_945-code.2.46.1"><label>[2.46.1]</label> Li empereres Antonins dit : « <hi rend="b">S</hi>’aucune
               chose est jugiee par mon procurateur, le baillif de la terre où ce sera jugié ne le
               poura rapeler par restitucion, car l’empereor seulem<hi rend="i">en</hi>t puet doner
-              restitucion contre la sentence de son procurator. »</seg></p>
+              restitucion contre la sentence de son procurator. »</p>
           <p xml:id="giessen_945-code.2.46.2"><label>[2.46.2]</label>
             <hi rend="b">L</hi>i empereres Dioclicians dit à un home qui li demandoit conseill : « <hi rend="b">S</hi>e tu as doné ce que tu devoies doner par transaccion, or le veus rapeler
             par restitucion ou par autre raison. Certes, dit li empereres, tu doiz ce pourchac<hi rend="i">ier</hi> par le baillif de la terre où demeure<hi rend="i">n</hi>t ceus que tu
@@ -2461,7 +2475,8 @@
               restitucion enterine.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole des contes qui sont fez es jugemenz de restitucion,
             car ausinc <hi rend="i">com</hi> le meneur de .xxv. anz recuevre sa chose par restitucion,
-            ausi l’autre qui avoit marchié fet à li doit recovrer ce que le meneur a de li. <seg xml:id="giessen_945-code.2.47.1"><label>[2.47.1]</label> De ce dist li empereres : « <hi rend="b">C</hi>il qui porchace restitucion enterinne ausi conm il ne doit avoir domaje
+            ausi l’autre qui avoit marchié fet à li doit recovrer ce que le meneur a de li.</p>
+          <p xml:id="giessen_945-code.2.47.1"><label>[2.47.1]</label> De ce dist li empereres : « <hi rend="b">C</hi>il qui porchace restitucion enterinne ausi conm il ne doit avoir domaje
               ausi ne doit avoir nul gaaing, et pource q<hi rend="i">ue</hi> tout ce que porvint à lui
               ou de l’achat ou de la vente ou de quel que marchié ce soit, tout doit randre.
                 <label>[1]</label> Et se le meneur de .xxv. anz fu plege pour aucun et fu assous de la
@@ -2469,16 +2484,17 @@
                 <label>[2]</label> Et se le meneur avoit pris heritage <cb n="52d"/> qui li estoit
               escheoit et il pourchace restitucion pour lessier l’eritache, il doit randre tout ce
               qu’il a eu de cel eritache ; <label>[3]</label> et se il a fet aucun barat, ce meimes
-              doit il randre. »</seg></p>
+              doit il randre. »</p>
         </div>
         <div xml:id="giessen_945-code.2.48.0">
           <head>[2.48.0 Etiam per procuratorem causam in integrum
             restitutionis agi posse] <lb/><seg type="rubric">Ci dit qe par autre qe par lui demande en
               restitucion.</seg></head>
           <p><hi rend="b">C</hi>ist titre dit que non seuleme<hi rend="i">n</hi>t par soi mes encore
-            par procurator puet l’en mener cause de restitucio<hi rend="i">n</hi>. <seg xml:id="giessen_945-code.2.48.1"><label>[2.48.1]</label> Li empereres Alixandres dit :
+            par procurator puet l’en mener cause de restitucio<hi rend="i">n</hi>.</p>
+          <p xml:id="giessen_945-code.2.48.1"><label>[2.48.1]</label> Li empereres Alixandres dit :
                 « <hi rend="b">S</hi>e aucun est en tel estat qu’il doie avoir restitucion, il la puet
-              pourchacier par son procureor. »</seg></p>
+              pourchacier par son procureor. »</p>
         </div>
         <div xml:id="giessen_945-code.2.49.0">
           <head>[2.49.0 In integrum restitutione postulata ne quid
@@ -2557,9 +2573,10 @@
               cele raison qe ont leur seigneurs.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole des femmes as ch<hi rend="i">evalie</hi>rs et à ceus
             qui sont fors de leurs païs pour besongnes de l’empire, car eles ont restitucion aucune
-            foiz. <seg xml:id="giessen_945-code.2.51.1"><label>[2.51.1]</label> De ce dit li empereres
+            foiz.</p>
+          <p xml:id="giessen_945-code.2.51.1"><label>[2.51.1]</label> De ce dit li empereres
               Alixandres : « <hi rend="b">C</hi>e est chose coneue que les femmes as ch<hi rend="i">evalie</hi>rs qui vont avec eus fors quant il sont en chevalerie doive<hi rend="i">n</hi>t avoir restitucion ausi come les ch<hi rend="i">evalie</hi>rs
-            meimes. »</seg></p>
+            meimes. »</p>
           <p xml:id="giessen_945-code.2.51.2"><label>[2.51.2]</label>
             <hi rend="b">L</hi>i empereres Dioclicians dit au juge de la province : « <hi rend="b">L</hi>a teneure de lonc te<hi rend="i">n</hi>s que aucun a fete de la chose à cele
             femme qui a esté avec son baron fors dementiers qu’il entendoit à sa chevalerie ne li doit
@@ -2657,11 +2674,12 @@
             restituuntur] <lb/><seg type="rubric">Ci dit par qeu raison en done restitucion à ceus qi
               ount plus de .xxv. anz.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole des causes pour lesqueles les gregneurs de .xxv. anz
-              puee<hi rend="i">n</hi>t avoir restitucion. <seg xml:id="giessen_945-code.2.53.1"><label>[2.53.1]</label> Et de ce respont li e<hi rend="i">m</hi>pereres à un qui li
+              puee<hi rend="i">n</hi>t avoir restitucion.</p>
+          <p xml:id="giessen_945-code.2.53.1"><label>[2.53.1]</label> Et de ce respont li e<hi rend="i">m</hi>pereres à un qui li
               demanda : « <hi rend="b">S</hi>e porce que tu fus en legacion pour moi, fus co<hi rend="i">n</hi>danpné sanz desfendeor en la querele que tu avoies, à droit demandes
                 restorem<hi rend="i">en</hi>t de juise, que puisses user derechief de tes
               desfenssions, car ceus qui font osfice de legacion cel previliege doivent avoir qui ont
-              ceus qui sont hors de leur païs pour le preu de l’empire. »</seg></p>
+              ceus qui sont hors de leur païs pour le preu de l’empire. »</p>
           <p xml:id="giessen_945-code.2.53.2"><label>[2.53.2]</label>
             <hi rend="b">U</hi>n huem estoit mis em prison par le bailli de la terre, il avoit plet
             par devant un juge, il ne pot venir à son jor, si fu comdampné. Dit li emperere que il
@@ -2823,7 +2841,8 @@
             <lb/><seg type="rubric">Ci dit des seurtez qe baillent cil qi plaidoient par
             autres.</seg></head>
           <p><hi rend="b">C</hi>ist titre parole des seurtez qui donent en causes cez qui veulent
-            plaidier par procureors. <seg xml:id="giessen_945-code.2.56.1">[2.56.1] De ce dit li
+            plaidier par procureors.</p>
+          <p xml:id="giessen_945-code.2.56.1">[2.56.1] De ce dit li
               empereres Dioclicians : « <hi rend="b">C</hi>erteine chose est que cil qui est fet
               procureor del demandeor par deva<hi rend="i">n</hi>t le juge ne doit estre contreint à
               doner plege que cel pour qui il est ostroiera ce qu’il fera, car en cest quas il est
@@ -2833,7 +2852,7 @@
               li met encontre au comencement allegacion de desfension, ce est se il voudra desfendre
               celui pour qui il est, il li cove<hi rend="i">n</hi>dra à doner plege deu desfendre, <hi rend="color_FF0000 note">car<note>car ge d. <hi rend="i">AI</hi>] <hi rend="i">HL</hi></note></hi> del desfendre il ne pourra aler avant de la querele dom il est
               procureor, ¶ <label>[3]</label> mes le procureor au desfendeor, ja soit ce qu’il soit
-              fet pardevant le juge en toutes causes.</seg></p>
+              fet pardevant le juge en toutes causes.</p>
         </div>
         <div xml:id="giessen_945-code.2.57.0">
           <head>[2.57.0 De formulis et impetratione actionum
@@ -2859,7 +2878,8 @@
               <lb/><seg type="rubric">Ci dit coment en doit fere sairement de verité.</seg></head>
           <p><hi rend="b">C</hi>i vient le titre des saireme<hi rend="i">n</hi>z que l’em apele
             sairemenz de verité, et est ci mis avant le titre des jugeme<hi rend="i">n</hi>z et aprés
-            le titre des arbitres, car en arbitres et en jugemenz done l’en saireme<hi rend="i">n</hi>t de verité. <seg xml:id="giessen_945-code.2.58.1"><label>[2.58.1]</label> De ce
+            le titre des arbitres, car en arbitres et en jugemenz done l’en saireme<hi rend="i">n</hi>t de verité.</p>
+          <p xml:id="giessen_945-code.2.58.1"><label>[2.58.1]</label> De ce
               dit li empereres Justini<cb n="55d"/>ans : « <hi rend="b">E</hi>n toutes les qauses qiex
               que soient, ou soient pour letres ou pour instrumenz ou pour autre chose où p<hi rend="i">ro</hi>ves soient à doner, ne voulons que autremenz soient contreinz de doner
                 p<hi rend="i">ro</hi>ves se celui qui les demande ne done prumierement sairement de
@@ -2870,7 +2890,7 @@
               ce à ceus qui ce demandent ne les juges nes doivent oïr se il ne jurent avant seur les
               seinz evangiles qu’il ne demandent ce pour haine des sers ne pour courouz de ceus qui
               sont oirs avec eus, mes pource qu’il ne pueent autrement mostrer ne enquerre la verité
-              des choses de l’eritache. »</seg></p>
+              des choses de l’eritache. »</p>
           <p xml:id="giessen_945-code.2.58.2"><label>[2.58.2]</label>
             <hi rend="b">C</hi>ist meimes empereres dit : « <hi rend="b">P</hi>uis que nos avons
             ordené que les juges ne doient jugier les causes se il n’ont les seinz evangiles par

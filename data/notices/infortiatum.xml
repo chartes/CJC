@@ -69,7 +69,7 @@
     <encodingDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="part">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="string-join(head//text())" property="dc:title"/>
           <citeStructure match="div" use="default" unit="traduction">
             <citeData use="head" property="dc:title"/>
             <citeStructure match="div" use="default" unit="état">
@@ -95,7 +95,7 @@
       </div>
       <div type="traduction" xml:id="fr_anonyme">
         <head>Traduction <lang xml:lang="fro" n="lang_arrivee">française</lang>
-          <persName ref="???" role="traducteur">anonyme</persName> de l’<!-- LG 12/06/2019 : la valeur oeuvre n'est pas prise en charge par l'attribut type dans l'élément bibl -->-<bibl corresp="http://catalogue.bnf.fr/ark:/12148/cb13736027w"><title xml:lang="lat">Infortiatum</title></bibl><bibl corresp="http://catalogue.bnf.fr/ark:/12148/cb13736027w"><title xml:lang="lat">Infortiatum</title></bibl></head>
+          <persName ref="???" role="traducteur">anonyme</persName> de l’<!-- LG 12/06/2019 : la valeur oeuvre n'est pas prise en charge par l'attribut type dans l'élément bibl --><bibl corresp="http://catalogue.bnf.fr/ark:/12148/cb13736027w"><title xml:lang="lat">Infortiatum</title></bibl></head>
         <dateline>
           <date notBefore="1260" notAfter="1269">au plus tard dans les années 1260</date>
         </dateline>
