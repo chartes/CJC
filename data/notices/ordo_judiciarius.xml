@@ -57,13 +57,13 @@
     </profileDesc>
     <encodingDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div" use="default" unit="traduction">
+          <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dc:title"/>
-            <citeStructure match="div" use="default" unit="état">
+            <citeStructure match="div" use="@xml:id" unit="état">
               <citeData use="head" property="dc:title"/>
-              <citeStructure match="div[head != '']" use="default" unit="état">
+              <citeStructure match="div[head != '']" use="@xml:id" unit="état">
                 <citeData use="head" property="dc:title"/>
               </citeStructure>
             </citeStructure>
