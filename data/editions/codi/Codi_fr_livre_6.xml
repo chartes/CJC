@@ -16,7 +16,7 @@
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p></publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="H">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
+          <witness xml:id="H" facs="https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -24,7 +24,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
-      <creation>Dernier tiers du XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1270" notAfter="1300">Dernier tiers du XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>

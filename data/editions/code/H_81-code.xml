@@ -16,7 +16,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness>Montpellier, bibliothèque interuniversitaire de médecine, H 81 (C)</witness>
+          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata670812e428f794adbbabe94a15ab39fdfd6075c4">Montpellier, bibliothèque interuniversitaire de médecine, H 81 (C)</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -24,7 +24,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <refsDecl>

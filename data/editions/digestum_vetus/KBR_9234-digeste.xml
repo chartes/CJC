@@ -1,7 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DV_l2_KBR-9234">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="KBR_9234-digeste">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,7 +21,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness>Bruxelles, Bibliothèque Royale, ms. 9234</witness>
+          <witness facs="https://portail.biblissima.fr/ark:/43093/mdata532f483e5faa76fb0e343ddc526ab3e70512b447">Bruxelles, Bibliothèque Royale, ms. 9234</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -29,7 +29,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation notBefore="1200" notAfter="1300">XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>

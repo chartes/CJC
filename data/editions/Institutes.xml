@@ -26,7 +26,7 @@
             <listWit>
                <head>Edition d'après le témoin C, mais le corrigeant. Encodage restituant la version
                   du manuscrit</head>
-               <witness xml:id="C">Paris, Bibliothèque nationale de France, français 1064</witness>
+              <witness xml:id="C" facs="https://portail.biblissima.fr/ark:/43093/mdata8053f0cbef24d1c6349c47c8818679a9b59e070f">Paris, Bibliothèque nationale de France, français 1064</witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
@@ -34,7 +34,9 @@
          <langUsage>
             <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
          </langUsage>
-         <creation>XIIIe siècle.</creation>
+         <creation>
+           <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+         </creation>
       </profileDesc>
       <encodingDesc>
          <projectDesc>

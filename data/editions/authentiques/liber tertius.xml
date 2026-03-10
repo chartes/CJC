@@ -1,4 +1,7 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authenticum_lIII">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="authenticum_lIII">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +21,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="O"> London, British Library, Royal 20.D.IX</witness>
+          <witness xml:id="O" facs="https://portail.biblissima.fr/fr/ark:/43093/mdataa8fc84625ad4fb47dbd2200b2d724c27a538dcc7"> London, British Library, Royal 20.D.IX</witness>
           <witness xml:id="F"> Paris, Bibliothèque nationale de France, fr. 22970 (F)</witness>
         </listWit>
       </sourceDesc>
@@ -27,7 +30,9 @@
       <langUsage>
         <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>

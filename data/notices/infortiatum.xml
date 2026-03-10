@@ -8,15 +8,18 @@
       <titleStmt>
         <title><hi rend="i">Infortiatum</hi>, Justinianus I.</title>
         <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan de l'<hi rend="i">Infortiatum</hi>, Justinianus I</title>
-        <author key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
+        <author ref="https://data.bnf.fr/ark:/12148/cb12055108q https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier (0482-0565)</author>
+        <principal key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">
+          <persName>Frédéric Duval</persName>
+        </principal>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
       </titleStmt>
       <editionStmt>
         <edition>École nationale des chartes</edition>
-        <respStmt>
+        <!--<respStmt>
           <name xml:id="FD">Frédéric Duval</name>
           <resp>établissement de la notice, 2006</resp>
-        </respStmt>
+        </respStmt>-->
         <respStmt>
           <name xml:id="GP">Graziella Pastore</name>
           <resp>rédaction de notices</resp>
@@ -52,7 +55,7 @@
         <title>Miroir des classiques</title>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author>Justinianus I</author>, <title ref="http://catalogue.bnf.fr/ark:/12148/cb13736027w">Infortiatum</title>.</bibl>
+        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb13736027w"><author>Justinianus I</author>, <title>Infortiatum</title>.</bibl>
       </sourceDesc>
       <noteStmt>
         <note type="abstract">Notice</note>

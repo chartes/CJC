@@ -17,7 +17,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness>Paris, Bibliothèque nationale de France, fr. 20120 (K)</witness>
+          <witness facs="https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">Paris, Bibliothèque nationale de France, fr. 20120 (K)</witness>
           <witness>Paris, Bibliothèque nationale de France, français 496 (G)</witness>
         </listWit>
       </sourceDesc>
@@ -26,7 +26,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
@@ -115,7 +117,7 @@
             cas que li demanderres fonde le commencement de sa demande des instrumenz et des resons al
             defendeeur.</p>
         </div>
-        <div xml:id="fr_2020-code.2.2.0">
+        <div xml:id="fr_20120-code.2.2.0">
           <head>[2.2.0 De in ius vocando] <lb/>
             <seg type="rubric">Cist tytres est de fere semondre.</seg></head>
           <p xml:id="fr_20120-code.2.2.1"><label>[1]</label>

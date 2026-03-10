@@ -1,17 +1,17 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DV_l1-2_fr-20118">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fr_20118-digeste">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Traduction 3 du Digeste de Justinien</title>
+        <title>Traduction 3 du Digeste de Justinien</title>
         <author>Anonyme</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition du texte</edition>
         <respStmt>
-          <name xml:id="IR"> Irene Reginato</name>
+          <name xml:id="IR">Irene Reginato</name>
           <resp>Éditeur</resp>
         </respStmt>
       </editionStmt>
@@ -21,7 +21,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="F"> Paris, Bibliothèque nationale de France, fr. 20118 (F)</witness>
+          <witness xml:id="F" facs="https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca"> Paris, Bibliothèque nationale de France, fr. 20118 (F)</witness>
           <witness xml:id="E"> Paris, Bibliothèque nationale de France, fr. 495 (E)</witness>
           <witness xml:id="A"> Bruxelles, Bibliothèque royale de Belgique, 9234 (A)</witness>
           <witness xml:id="B"> Leiden, Universiteitsbibliotheek, Meijers fr. 3 (B)</witness>
@@ -32,7 +32,9 @@
       <langUsage>
         <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation notBefore="1200" notAfter="1300">XIII<hi>e</hi> siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>

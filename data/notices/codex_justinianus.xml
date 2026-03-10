@@ -4,16 +4,22 @@
 <?xml-stylesheet type="text/xsl" href="../../xsl/miroir2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="codex_justinianus_notice" xml:lang="fr">
   <teiHeader>
-    <fileDesc> <titleStmt> <title><hi rend="i">Codex</hi>, Justinianus I.</title> <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan du <hi rend="i">Codex</hi>, Justinianus I</title>
-      <author key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
-      <sponsor>Équipement d'excellence Biblissima</sponsor>
+    <fileDesc> 
+      <titleStmt> 
+        <title><hi rend="i">Codex</hi>, Justinianus I.</title> 
+        <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan du <hi rend="i">Codex</hi>, Justinianus I</title>
+        <author ref="https://data.bnf.fr/ark:/12148/cb12055108q https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier (0482-0565)</author>
+        <principal key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">
+          <persName>Frédéric Duval</persName>
+        </principal>
+        <sponsor>Équipement d'excellence Biblissima</sponsor>
     </titleStmt>
       <editionStmt>
         <edition>École nationale des chartes</edition>
-        <respStmt>
+        <!--<respStmt>
           <name xml:id="FD">Frédéric Duval</name>
           <resp>établissement de la notice, 2006</resp>
-        </respStmt>
+        </respStmt>-->
         <respStmt>
           <name xml:id="HB">Hélène Biu</name>
           <resp>rédaction de notices</resp>
@@ -44,7 +50,7 @@
       <seriesStmt> <title>Miroir des classiques</title>
       </seriesStmt>
       <sourceDesc>
-        <bibl><author>Justinianus I</author>, <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c">Codex</title>.</bibl>
+        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763	https://portail.biblissima.fr/fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4"><author>Justinianus I</author>, <title>Codex</title>.</bibl>
       </sourceDesc>
       <noteStmt>
         <note type="abstract">Notice</note>

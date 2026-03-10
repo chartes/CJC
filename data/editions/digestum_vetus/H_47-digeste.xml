@@ -1,7 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DV_l2_H47">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H_47-digeste">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,8 @@
       <editionStmt>
         <edition>Édition du texte</edition>
         <respStmt>
-          <name xml:id="IR"> Irene Reginato</name>
-          <name xml:id="FD"> Frédéric Duval</name>
+          <name xml:id="IR">Irene Reginato</name>
+          <name xml:id="FD">Frédéric Duval</name>
           <resp>Éditeurs</resp>
         </respStmt>
       </editionStmt>
@@ -22,7 +22,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness>Montpellier, Bibliothèque interuniversitaire, section Médecine, H 47</witness>
+          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata7372583506e94b44e1dc22ee9e43189ce639d2a9">Montpellier, Bibliothèque interuniversitaire, section Médecine, H 47</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -30,7 +30,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation notBefore="1200" notAfter="1300">XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>

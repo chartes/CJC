@@ -2,17 +2,17 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="DV_l2_fr-197">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fr_197-digeste">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Traduction 2 du Digeste de Justinien</title>
-        <author> Anonyme</author>
+        <title>Traduction 2 du Digeste de Justinien</title>
+        <author>Anonyme</author>
       </titleStmt>
       <editionStmt>
         <edition>Édition du texte</edition>
         <respStmt>
-          <name xml:id="IR"> Irene Reginato</name>
+          <name xml:id="IR">Irene Reginato</name>
           <resp>Éditeur</resp>
         </respStmt>
       </editionStmt>
@@ -21,8 +21,8 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness> Paris, Bibliothèque nationale de France, fr. 197</witness>
+        <listWit>        
+          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata7951573fc432ba6cafd83dd7698d7f193e223062">Paris, Bibliothèque nationale de France, fr. 197</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -30,11 +30,13 @@
       <langUsage>
         <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation notBefore="1200" notAfter="1300">XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
-        <p> Transcription du manuscrit Paris, Bibliothèque nationale de France, fr. 197, avec
+        <p>Transcription du manuscrit Paris, Bibliothèque nationale de France, fr. 197, avec
           correction ope ingenii et sur la base de la Traduction 3 et du texte latin.</p>
       </projectDesc>
       <refsDecl>

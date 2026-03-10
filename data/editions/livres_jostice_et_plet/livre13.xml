@@ -4,7 +4,9 @@
         <fileDesc>
             <titleStmt>
               <title>Li livres de jostice et de plet 13</title>
-                <principal xml:id="GP">Graziella Pastore</principal>
+              <principal xml:id="GP">
+                <persName>Graziella Pastore</persName>
+              </principal>
                 <funder>École nationale des chartes</funder>
                 <respStmt>
                     <name xml:id="MH">Mathilde Henriquet</name>
@@ -67,7 +69,7 @@
                 <idno type="vol"/>
             </seriesStmt>
             <sourceDesc>
-                <bibl>
+              <bibl facs="https://gallica.bnf.fr/ark:/12148/bpt6k6257058f">
                     <abbr>Li livres de jostice et de plet</abbr>
                     <title>Li livres de jostice et de plet, publié pour la première fois d’après le
                         manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
@@ -75,6 +77,9 @@
                     <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date
                         when="1850">1850</date>
                 </bibl>
+              <listWit>
+                <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">Paris, Bibliothèque nationale de France, fr. 2844</witness>
+              </listWit>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>

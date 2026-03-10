@@ -8,8 +8,14 @@
          <titleStmt>
             <title>Tres libri</title>
            <author>Anonyme</author>
+           <principal>
+             <persName>Lucien Dugaz</persName>
+           </principal>
          </titleStmt>
-         <extent/>
+        <editionStmt n="1">
+          <p>2025, première édition électronique</p>
+        </editionStmt>
+        <extent/>
          <publicationStmt>
             <date>2025</date>
             <idno/>
@@ -30,7 +36,9 @@
             <idno type="vol"/>
          </seriesStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <listWit>
+              <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata23d818d8e3319ce2c28e027815380169e5642aa8">Paris, Bibliothèque nationale de France, fr. 22970</witness>
+            </listWit>
          </sourceDesc>
       </fileDesc>
   </teiHeader>

@@ -16,7 +16,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness>Giessen, Universitätsbibliothek, 945 (A)</witness>
+          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata080191e96bc63cd0aa8fc68e402994f1b918e841">Giessen, Universitätsbibliothek, 945 (A)</witness>
           <witness>Paris, Bibliothèque nationale de France, fr. 497 (H)</witness>
           <witness>Paris, Bibliothèque nationale de France, fr. 1934 (I)</witness>
           <witness>Paris, Bibliothèque nationale de France, fr. 20121 (L)</witness>
@@ -28,7 +28,9 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>XIIIe siècle.</creation>
+      <creation>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
