@@ -5,7 +5,8 @@
     <fileDesc>
       <titleStmt>
         <title>Traduction 3 du Code de Justinien</title>
-        <author>Anonyme</author> 
+        <author>Anonyme (trad.)</author> 
+        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien</author>
         <principal>
           <persName xml:id="FD">Frédéric Duval</persName>
           <persName xml:id="GP">Graziella Pastore</persName>
@@ -17,7 +18,7 @@
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata435257250d67a3a76e59616dd28f968686970d8c">Paris, Bibliothèque nationale de France, fr. 20119 (J)</witness>
+          <witness facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc51706f https://portail.biblissima.fr/fr/ark:/43093/mdata435257250d67a3a76e59616dd28f968686970d8c">Paris, Bibliothèque nationale de France, fr. 20119 (J)</witness>
           <witness>Paris, Bibliothèque nationale de France, fr. 198 (E)</witness>
           <witness>Paris, Bibliothèque nationale de France, fr. 200 (F)</witness>
         </listWit>
@@ -28,7 +29,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
       <creation>
-        <date notBefore="1200" notAfter="1300">XIIIe siècle.</date>
+        <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -37,7 +38,7 @@
           corrections par les autres témoins et par conjecture</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="dots" unit="liber">
           <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
             <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/seg/text()" property="dc:title"/>

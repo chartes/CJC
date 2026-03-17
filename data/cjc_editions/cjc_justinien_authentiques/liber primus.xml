@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Traduction 1 des Authentiques, Liber primus</title>
+        <title>Traduction 1 des Authentiques, Liber primus</title>
         <author>Anonyme</author>
       </titleStmt>
       <editionStmt>
@@ -22,7 +22,7 @@
       <sourceDesc>
         <listWit>
           <witness xml:id="O" facs="https://portail.biblissima.fr/fr/ark:/43093/mdataa8fc84625ad4fb47dbd2200b2d724c27a538dcc7">London, British Library, Royal 20.D.IX</witness>
-          <witness xml:id="F"> Paris, Bibliothèque nationale de France, fr. 22970 (F)</witness>
+          <witness xml:id="F">Paris, Bibliothèque nationale de France, fr. 22970 (F)</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
@@ -31,7 +31,7 @@
         <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
       <creation>
-        <date notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle.</date>
+        <date notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle</date>
       </creation>
     </profileDesc>
     <encodingDesc>
