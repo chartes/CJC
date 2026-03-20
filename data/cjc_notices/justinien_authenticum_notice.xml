@@ -7,10 +7,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><hi rend="i">Authenticum</hi>, Justinianus I.</title>
+        <title>Notice descriptive des traductions de l'<hi rend="i">Authenticum</hi> de Justinien</title>
         <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan de l'<hi rend="i">Authenticum</hi>, Justinianus I</title>
-        <author ref="https://data.bnf.fr/ark:/12148/cb12055108q https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier (0482-0565)</author>
-        <principal key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348">
+        <author ref="https://data.bnf.fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://www.wikidata.org/wiki/Q41866">Justinien Ier (0482-0565)</author>
+        <principal key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
           <persName>Frédéric Duval</persName>
         </principal>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
@@ -98,9 +98,9 @@
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
           <citeData use="head" property="dc:title"/>
-          <citeStructure match="div" use="@xml:id" unit="traduction">
+          <citeStructure match="div" use="@xml:id" unit="traductions">
             <citeData use="head" property="dc:title"/>
-            <citeStructure match="div" use="@xml:id" unit="état">
+            <citeStructure match="div" use="@xml:id" unit="traduction">
               <citeData use="head" property="dc:title"/>
               <citeStructure match="div" use="@xml:id" unit="état">
                 <citeData use="head" property="dc:title"/>
@@ -389,7 +389,7 @@
                 <head>Bilan</head>
                 <p>La limite de ces observations dans une tradition à quatre témoins est qu’elles n’établissent pas nettement que <hi rend="i">A</hi> descend d’un manuscrit différent de celui dont descendent <hi rend="i">F</hi> et <hi rend="i">L</hi>. Autrement dit, elle ne suffit pas à établir si la famille <hi rend="i">α</hi> est trifide ou bifide. Au vu des données textuelles récoltées, la probabilité d’une famille bifide semble l’emporter légèrement : la fréquence des leçons <hi rend="i">A</hi> vs <hi rend="i">FL</hi> et le soin apporté à la copie de <hi rend="i">A</hi> plaident en faveur de l’hypothèse suivante, toute provisoire :</p>
                 <figure>
-                  <graphic url="authenticum_stemma.png"/>
+                  <graphic url="justinien_authenticum_notice_stemma.png"/>
                 </figure>
                 <eTree type="hypothetical">
                   <label>ω</label>

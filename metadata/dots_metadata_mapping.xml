@@ -11,8 +11,9 @@
     <!-- Métadonnées de collection -->
     <dc:title scope="collection" format="tsv" source="./cjc.csv" value="title"/>
     <dc:creator scope="collection"  format="tsv" source="./cjc.csv" value="author" type="array"/>
+    <dct:creator scope="collection" format="tsv" source="./cjc.csv" value="author_idref_ppn" type="array"/>
+    <dct:creator scope="collection" format="tsv" source="./cjc.csv" value="author_data" prefix="http://data.bnf.fr/" type="array"/>
     <dc:date scope="collection" format="tsv" source="./cjc.csv" value="date" type="number"/>
-    <dc:contributor scope="collection" format="tsv" source="./cjc.csv" value="contributor" type="array"/>
     
     <description scope="collection" format="tsv" source="./cjc.csv" value="description"/>
     <dct:created scope="collection" resourceId="all" type="number">2026</dct:created>
@@ -37,8 +38,9 @@
     <dc:date scope="document" xpath="/TEI/teiHeader//profileDesc/creation/date"/>
     <dc:contributor scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/principal/persName | /TEI/teiHeader/fileDesc//respStmt/name" type="array"/>
     <dct:contributor scope="document" xpath="for $url in /TEI//titleStmt//principal/tokenize(@ref) return $url" type="array"/>
+    <dct:contributor scope="document" xpath="for $url in /TEI/teiHeader/fileDesc//respStmt/name/tokenize(@ref) return $url" type="array"/>
     
-    <description scope="document" xpath="/TEI/teiHeader//projectDesc/p"/>
+    <description scope="document" xpath="/TEI/teiHeader//projectDesc/p, /TEI/teiHeader/fileDesc/titleStmt/title[2]"/>
     <dct:created scope="document" resourceId="all" type="number">2026</dct:created>
     <dct:publisher scope="document" resourceId="all">École nationale des chartes – PSL</dct:publisher>
     <funder scope="document" resourceId="all">Biblissima+</funder>
