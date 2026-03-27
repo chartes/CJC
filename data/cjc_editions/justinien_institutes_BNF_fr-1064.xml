@@ -45,7 +45,10 @@
          </projectDesc>
         <refsDecl>
           <citeStructure match="/TEI[1]/text[1]/body[1]/div[@xml:id]" use="@xml:id" unit="liber">
-            <citeStructure match="div[@xml:id]" use="@xml:id" unit="part"/>
+            <citeData use="normalize-space(head)" property="dc:title"/>
+            <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
+              <citeData use="normalize-space(head)" property="dc:title"/>
+            </citeStructure>
           </citeStructure>
         </refsDecl>
          <tagsDecl>
@@ -19763,7 +19766,7 @@
                <pc>.</pc>
             </head>
             <div xml:id="justinien_institutes_BNF_fr-1064.2.1" n="1">
-               <head/>
+               <head>[Sans Titre]</head>
 
                <p xml:id="justinien_institutes_BNF_fr-1064.2.1.0" n="0">
                   <w xml:id="justinien_institutes_BNF_fr-1064_w_14590">Noz</w>

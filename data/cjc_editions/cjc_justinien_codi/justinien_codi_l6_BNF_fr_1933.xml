@@ -10,7 +10,8 @@
         <author>Anonyme (trad.)</author> 
         <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
         <principal>
-          <persName xml:id="VM">Viola Mariotti</persName> (éditeur)</principal>
+          <persName xml:id="VM">Viola Mariotti</persName>
+        </principal>
       </titleStmt>
       <publicationStmt>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p></publicationStmt>

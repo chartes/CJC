@@ -9,51 +9,54 @@
   >
   <dots:mapping>
     <!-- Métadonnées de collection -->
-    <dc:title scope="collection" format="tsv" source="./cjc.csv" value="title"/>
-    <dc:creator scope="collection"  format="tsv" source="./cjc.csv" value="author" type="array"/>
-    <dct:creator scope="collection" format="tsv" source="./cjc.csv" value="author_idref_ppn" type="array"/>
-    <dct:creator scope="collection" format="tsv" source="./cjc.csv" value="author_data" prefix="http://data.bnf.fr/" type="array"/>
-    <dc:date scope="collection" format="tsv" source="./cjc.csv" value="date" type="number"/>
-    
-    <description scope="collection" format="tsv" source="./cjc.csv" value="description"/>
+    <!-- 1. Identification de la ressource -->
+    <dc:title scope="collection" format="tsv" source="./collection.csv" value="title"/>
+    <dc:creator scope="collection"  format="tsv" source="./collection.csv" value="author" type="array"/>
+    <dct:creator scope="collection" format="tsv" source="./collection.csv" value="author_idref_ppn" type="array"/>
+    <dct:creator scope="collection"  format="tsv" source="./collection.csv" value="author_wikidata_url" type="array"/>
+    <dct:creator scope="collection"  format="tsv" source="./collection.csv" value="author_biblissima_url" type="array"/>
+    <dct:creator scope="collection"  format="tsv" source="./collection.csv" value="author_bnf_ark" type="array" prefix="https://data.bnf.fr/fr/"/>
+    <dc:date scope="collection" format="tsv" source="./collection.csv" value="date" type="number"/>
+    <!-- 2. Description & Contextualisation -->
+    <description scope="collection" format="tsv" source="./collection.csv" value="description"/>
+    <dct:isVersionOf scope="collection" format="tsv" source="./collection.csv" value="oeuvre_wikidata_url" type="array"/>
+    <dct:isVersionOf scope="collection" format="tsv" source="./collection.csv" value="oeuvre_biblissima_url" type="array"/>
+    <dct:isVersionOf scope="collection" format="tsv" source="./collection.csv" value="oeuvre_bnf_ark"  type="array" prefix="https://data.bnf.fr/fr/"/>
+    <dc:relation scope="collection" format="tsv" source="./collection.csv" value="relation" prefix="https://dev.chartes.psl.eu/elec/" type="array"/><!-- Attention: en prod, changer le prefix -->
+    <!-- 3. Accès & Utilisation -->
+    <dcat:accessURL scope="collection" format="tsv" source="./collection.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
+    <!-- 4. Métadonnées système -->
     <dct:created scope="collection" resourceId="all" type="number">2026</dct:created>
     <dct:publisher scope="collection" resourceId="all">École nationale des chartes – PSL</dct:publisher>
     <funder scope="collection" resourceId="all">Biblissima+</funder>
+    <dc:rights scope="collection" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dc:rights>
     
-    <dct:isVersionOf scope="collection" format="tsv" source="./cjc.csv" value="oeuvre_wikidata_url" type="array"/>
-    <dct:isVersionOf scope="collection" format="tsv" source="./cjc.csv" value="oeuvre_biblissima_url" type="array"/>
-    <dct:isVersionOf scope="collection" format="tsv" source="./cjc.csv" value="oeuvre_bnf_ark"  type="array" prefix="https://data.bnf.fr/fr/"/>
-    <dc:relation scope="collection" format="tsv" source="./cjc.csv" value="relation1" prefix="https://dev.chartes.psl.eu/elec/" type="array"/><!-- Attention: en prod, changer le prefix -->
-    <dct:creator scope="collection"  format="tsv" source="./cjc.csv" value="author_wikidata_url" type="array"/>
-    <dct:creator scope="collection"  format="tsv" source="./cjc.csv" value="author_biblissima_url" type="array"/>
-    <dct:creator scope="collection"  format="tsv" source="./cjc.csv" value="author_bnf_ark" type="array" prefix="https://data.bnf.fr/fr/"/>
-    
-    <elec_id scope="collection" format="tsv" source="./cjc.csv" value="identifier"/>
-    <dcat:accessURL scope="collection" format="tsv" source="./cjc.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
-    <dct:rights scope="collection" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+    <elec_id scope="collection" format="tsv" source="./collection.csv" value="identifier"/>
     
     <!-- Métadonnées de document -->
+    <!-- 1. Identification de la ressource -->
     <dc:title scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
     <dc:creator scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author" type="array"/>
+    <dct:creator scope="document" xpath="for $url in /TEI//titleStmt//author/tokenize(@ref) return $url" type="array"/>
     <dc:date scope="document" xpath="/TEI/teiHeader//profileDesc/creation/date"/>
     <dc:contributor scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/principal/persName | /TEI/teiHeader/fileDesc//respStmt/name" type="array"/>
     <dct:contributor scope="document" xpath="for $url in /TEI//titleStmt//principal/tokenize(@ref) return $url" type="array"/>
     <dct:contributor scope="document" xpath="for $url in /TEI/teiHeader/fileDesc//respStmt/name/tokenize(@ref) return $url" type="array"/>
-    
+    <!-- 2. Description & Contextualisation -->
     <description scope="document" xpath="/TEI/teiHeader//projectDesc/p, /TEI/teiHeader/fileDesc/titleStmt/title[2]"/>
+    <dc:source scope="document" xpath="//sourceDesc//witness[@facs], //sourceDesc//bibl"/>
+    <dct:isVersionOf scope="document" xpath="for $url in /TEI//sourceDesc//node()[@facs]/tokenize(@facs) return $url" type="array"/>
+    <dc:relation scope="document" format="tsv" source="./document.csv" value="relation" prefix="https://dev.chartes.psl.eu/elec/" type="array"/><!-- Attention: en prod, changer le prefix -->
+    <dc:subject scope="document" xpath="/TEI/teiHeader//textClass/keywords/term/@key" type="array"/>
+    <!-- 3. Accès & Utilisation -->
+    <dct:bibliographicalCitation scope="document" format="tsv" source="./document.csv" value="citation"/>
+    <download scope="document" source="./document.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/document?resource="/><!-- Attention: en prod, changer le prefix -->
+    <dcat:accessURL scope="document" format="tsv" source="./document.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
+    <!-- 4. Métadonnées système -->
     <dct:created scope="document" resourceId="all" type="number">2026</dct:created>
     <dct:publisher scope="document" resourceId="all">École nationale des chartes – PSL</dct:publisher>
-    <funder scope="document" resourceId="all">Biblissima+</funder>
-    
-    <dc:source scope="document" xpath="//witness[@facs]"/>
-    <dct:isVersionOf scope="document" xpath="for $url in /TEI//sourceDesc//node()[@facs]/tokenize(@facs) return $url" type="array"/>
-    <dc:relation scope="document" format="tsv" source="./cjc.csv" value="relation1" prefix="https://dev.chartes.psl.eu/elec/" type="array"/><!-- Attention: en prod, changer le prefix -->
-    <dct:creator scope="document" xpath="for $url in /TEI//titleStmt//author/tokenize(@ref) return $url" type="array"/>
-    <dc:subject scope="document" xpath="/TEI/teiHeader//textClass/keywords/term/@key" type="array"/>
-    
-    <dcat:accessURL scope="document" format="tsv" source="./cjc.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
-    <download scope="document" source="./cjc.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/document?resource="/><!-- Attention: en prod, changer le prefix -->
-    <dct:rights scope="document" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dct:rights>
+    <funder scope="document" resourceId="all">Biblissima+</funder>  
+    <dc:rights scope="document" resourceId="all">https://creativecommons.org/licenses/by-nc-nd/3.0/fr/</dc:rights>
     
     <!-- Métadonnées de fragment -->
     <dc:title scope="fragment" format="tsv" source="./institutes_metadata.csv" value="title"/>

@@ -7,12 +7,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Notice descriptive des traductions de l'<hi rend="i">Ordo judiciarius</hi> de Tancrède</title>
+        <title><hi rend="i">Ordo judiciarius</hi> , Tancrède.</title>
         <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan de l'<hi rend="i">Ordo judiciarius</hi> de Tancrède.</title>
-        <author ref="https://catalogue.bnf.fr/ark:/12148/cb129804640 https://portail.biblissima.fr/ark:/43093/pdatacefba854ce2298ee86d4a761735bac92b26609f4">Tancrède de Bologne</author>
-        <principal key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
-          <persName>Frédéric Duval</persName>
-        </principal>
+        <author key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
       </titleStmt>
       <editionStmt>
@@ -44,7 +41,7 @@
         <title>Miroir des classiques</title>
       </seriesStmt>
       <sourceDesc>
-        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb10772918v https://portail.biblissima.fr/fr/ark:/43093/oedata74144fb0d7ddd979e694cf200c0b58fe64b30aa2"><author>Tancrède</author>, <title>Ordo judiciarius</title>.</bibl>
+        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb10772918v https://portail.biblissima.fr/fr/ark:/43093/oedata74144fb0d7ddd979e694cf200c0b58fe64b30aa2"><author>Tancrède</author>, <title>Ordo judiciarius</title></bibl>
       </sourceDesc>
       <noteStmt>
         <note type="abstract">Notice</note>
@@ -52,7 +49,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="2018"/><!--  when="???" -->
+        <date when="2018">2018</date>
       </creation>
       <langUsage>
         <language ident="fr"/>

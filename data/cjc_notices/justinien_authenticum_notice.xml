@@ -7,12 +7,9 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Notice descriptive des traductions de l'<hi rend="i">Authenticum</hi> de Justinien</title>
+        <title><hi rend="i">Authenticum</hi>, Justinianus I.</title>
         <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan de l'<hi rend="i">Authenticum</hi>, Justinianus I</title>
-        <author ref="https://data.bnf.fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://www.wikidata.org/wiki/Q41866">Justinien Ier (0482-0565)</author>
-        <principal key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
-          <persName>Frédéric Duval</persName>
-        </principal>
+        <author key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
       </titleStmt>
       <editionStmt>
@@ -64,7 +61,7 @@
       </editionStmt>
       <publicationStmt>
         <publisher>École nationale des chartes</publisher>
-        <date when="2018"/>
+        <date when="2018">2018</date>
         <idno>https://github.com/chartes/miroir/raw/master/xml/manuscrits_juridiques/authenticum.xml</idno>
         <availability status="restricted">
           <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
@@ -80,7 +77,7 @@
         <title>Miroir des classiques</title>
       </seriesStmt>
       <sourceDesc>
-        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb137360496"><author>Justinianus I</author>, <title>Authenticum</title>.</bibl>
+        <bibl facs="http://catalogue.bnf.fr/ark:/12148/cb137360496"><author>Justinianus I</author>, <title>Authenticum</title></bibl>
       </sourceDesc>
       <noteStmt>
         <note type="abstract">Notice</note>
@@ -88,7 +85,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="2018"/>
+        <date when="2018">2018</date>
       </creation>
       <langUsage>
         <language ident="fr"/>

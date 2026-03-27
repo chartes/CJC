@@ -5,17 +5,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title> Traduction 1 des Authentiques, Liber secundus</title>
+        <title>Traduction 1 des Authentiques, Liber secundus</title>
         <author>Anonyme (trad.)</author> 
         <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
+        <principal>
+          <persName xml:id="LD">Lucien Dugaz</persName>
+        </principal>
       </titleStmt>
-      <editionStmt>
-        <edition>Édition du texte</edition>
-        <respStmt>
-          <name xml:id="LD">Lucien Dugaz</name>
-          <resp>Éditeur</resp>
-        </respStmt>
-      </editionStmt>
       <publicationStmt>
         <p> Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
