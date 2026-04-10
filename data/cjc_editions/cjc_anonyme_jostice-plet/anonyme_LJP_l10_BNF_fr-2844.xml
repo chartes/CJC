@@ -122,14 +122,14 @@
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01">
                 <pb n="178"/>
                 <front>
-                    <head>I. De esposailles et de mariage.<note>Ce titre est tiré du liv. 4, tit. 1,
+                    <head>I. De esposailles et de mariage.<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note1">Ce titre est tiré du liv. 4, tit. 1,
                             des Décrét, de Grég. IX, <emph>de Sponsalibus et
                             matrimoniis.</emph></note></head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.1">
                         <head>§ 1.</head>
-                        <p><emph>De Francia</emph><note>Decret, lib. 4, tit. 1 : <emph>Ex
+                        <p><emph>De Francia</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note2">Decret, lib. 4, tit. 1 : <emph>Ex
                                     concilio Triburiensi</emph>, cap. 1 : <emph>de
                                     Francia</emph>.</note>. Un bacheler françois qui cuidoit que la
                             costume de France fust de sustance de mariage, une feme qu'il avoit
@@ -142,7 +142,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.2">
                         <head>§ 2.</head>
                         <p>I<hi rend="sc">nno</hi>. E<hi rend="sc">xon. episcopo.</hi>
-                            <emph>Preterea.</emph><note>Innocentais III, Exonen. episcopo, cap.
+                            <emph>Preterea.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note3">Innocentais III, Exonen. episcopo, cap.
                                 2 : <emph>Prœterea,</emph> ibid.</note>. Aucun se maria à
                             aucune par paroles de chose qui estoit à venir : l'en commende
                             qu'il gardent lor fiances ; et s'il ne volent, l'un pot quiter
@@ -154,7 +154,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.3">
                         <head>§ 3.</head>
                         <p>E<hi rend="sc">ugenics papa.</hi>
-                            <emph>Juvenis</emph><note>Eugenius papa, cap. 3 :
+                            <emph>Juvenis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note4">Eugenius papa, cap. 3 :
                                     <emph>Juvenis</emph>, ibid.</note>. Uns vallet esposa une feme
                             qui n'avoit pas sept anz ; il la volt f...., mes il ne pot ;
                             donc l'en demende s'il <pb n="179"/>porra avoir sa cosine à femme ?
@@ -164,7 +164,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.4">
                         <head>§ 4.</head>
                         <p>A<hi rend="sc">lexander</hi> III, <hi rend="sc">papa electo.</hi>
-                            <emph>Ad audientiam</emph><note>Alexander III, Papien. episcopo, cap.
+                            <emph>Ad audientiam</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note5">Alexander III, Papien. episcopo, cap.
                                 4 : <emph>Ad audientiam</emph>, Decret., lib. 4, tit.
                             1.</note>. Un avoit une fille ; un autre avoit deux fiz de deux
                             femes ; il firent espossalles issi que cil qui avoit la fille jura
@@ -179,7 +179,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem parno. ar.</hi>
-                            <emph>De illis</emph><note>Idem Panormitano archiepiscopo, cap. 5 :
+                            <emph>De illis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note6">Idem Panormitano archiepiscopo, cap. 5 :
                                     <emph>de Illis</emph>, ibid.</note>. Aucun dona foi à autre
                             qu'il la prendrait à femme, et puis s'en a la hors do païs, ne ne volt
                             torner à sa femme. L'en demende se ele se pot à autre marier ? La
@@ -191,7 +191,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">D</hi>. P<hi rend="sc">aden. episcopo.</hi>
-                            <emph>De muliere</emph><note>Idem Panormitano archiepiscopo, cap.
+                            <emph>De muliere</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note7">Idem Panormitano archiepiscopo, cap.
                                 6 : <emph>de Muliere</emph> ibid.</note>. Aucune femme est
                             donée à aucun à force  ; la pape ne set quele force il i a ;
                             car il i a différence entre force et force ; et qui opose
@@ -200,7 +200,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.7">
                         <head>§ 7.</head>
                         <p> I<hi rend="sc">dem.</hi>
-                            <emph>Ex literis</emph><note>Idem Cantuarien. archiepiscopo, cap.
+                            <emph>Ex literis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note8">Idem Cantuarien. archiepiscopo, cap.
                                 7 : <emph>Ex literis</emph>, ibid.</note>. L'en demende ci
                             quant li un se marie o un autre, et l'un n'entent l'autre, que l'en en
                             doit fere ? Et l'en dit que, se l'un et l'autre est convenable à
@@ -213,7 +213,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.8">
                         <head>§ 8.</head>
                         <p><pb n="180"/>I<hi rend="sc">I</hi>. V<hi rend="sc">igil. episcopo.</hi>
-                            <emph>Sponsam</emph><note>Idem Vigilien. episcopo, cap. 8 :
+                            <emph>Sponsam</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note9">Idem Vigilien. episcopo, cap. 8 :
                                     <emph>Sponsam</emph>, Decret., lib. 4, tit. 1.</note>. Note que
                             coisin ne pot avoir l'espose au cosin ; et c'est voir de cele qui a
                             sept anz.</p>
@@ -222,7 +222,7 @@
                         <head>§ 9.</head>
                         <p>I<hi rend="sc">d</hi>. S<hi rend="sc">ancti</hi> C<hi rend="sc">adiundi
                                 et</hi> D<hi rend="sc">em. abbatibus.</hi>
-                            <emph>Ex parte</emph><note>Idem abbatibus sane ti Eadmundi et Denier,
+                            <emph>Ex parte</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note10">Idem abbatibus sane ti Eadmundi et Denier,
                                 cap. 9 : <emph>Ex parte</emph>, ibid.</note>. Un fiença en la
                             main au prestre que il prendra une femme ; et ele jura que ele
                             l'aura à mari ; il demorent ensemble longuement ; cil la lesse
@@ -238,7 +238,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.10">
                         <head>§ 10.</head>
                         <p>I<hi rend="sc">d</hi>. P<hi rend="sc">ict. episcopo.</hi>
-                            <emph>Ex literis</emph><note>Idem Pictavien. episcopo, cap. 10 :
+                            <emph>Ex literis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note11">Idem Pictavien. episcopo, cap. 10 :
                                     <emph>Ex literis</emph>, ibid.</note>. Dui baron jurèrent por
                             pez à doner lor enfant l'un à l'autre en mariage, et li enfant le
                             jurèrent ; li uns des pères et sis fiz se voloent retrere : le
@@ -249,7 +249,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.11">
                         <head>§ 11.</head>
                         <p>I<hi rend="sc">dem, archiepiscopis et episcopis per</hi> A<hi rend="sc">ngliam cons.</hi>
-                            <emph>Non est</emph><note>Idem archiepiscopis, episcopis et aliis
+                            <emph>Non est</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note12">Idem archiepiscopis, episcopis et aliis
                                 prælatis per Angliam constitutis, cap. 11 : <emph>Non
                                     est</emph>, ibid.</note>. Li fiz le roi de Angleterre demendent
                             lor femmes à lor père, que il tenoit en prison. La pape mende que il
@@ -262,7 +262,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.12">
                         <head>§ 12.</head>
                         <p> E. S<hi rend="sc">ancte agates.</hi>
-                            <emph>Preterea</emph><note>Idem episcopo sanctæ Agathæ, cap. 12 :
+                            <emph>Preterea</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note13">Idem episcopo sanctæ Agathæ, cap. 12 :
                                     <emph>Prœterea</emph>, ibid.</note>. Un jura que il esposeroit
                             une femme ; et avant que il l'eust béneesté, son cosin requenut au
                             prevoire que il l'avoit f....., et il ne l'osa pas dire en haut por le
@@ -272,7 +272,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.13">
                         <head>§ 13.</head>
                         <p><pb n="181"/>I<hi rend="sc">dem</hi>. C<hi rend="sc">an.</hi> S<hi rend="sc">enonensis.</hi>
-                            <emph>Veniens</emph><note>Idem procuratori et canonicis soran., cap.
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note14">Idem procuratori et canonicis soran., cap.
                                 13 : <emph>Veniens</emph>, Décret., lib. 4 tit. 1.</note>. Une
                             pucele ama un valet tant que ele promist par sa foi que ele le prendroit
                             à mari. Li parent à la meschine, qui ne le voloient mie, distrent qu’il
@@ -289,7 +289,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.14">
                         <head>§ 14.</head>
                         <p>I<hi rend="sc">dem</hi>. P<hi rend="sc">apin. episcop.</hi>
-                            <emph>Cum locum</emph><note>Idem Papiensi episcopo, cap. 14 :
+                            <emph>Cum locum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note15">Idem Papiensi episcopo, cap. 14 :
                                     <emph>Cum locum</emph>, ibid.</note>. Note que consentir fet
                             mariage. Et aucun dit aucune foiz qu’il li plet ce que li desplet. Et
                             juige doit assigner à parties ségur leu.</p>
@@ -297,7 +297,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.15">
                         <head>§ 15.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Veniens</emph><note>Idem, cap. 15 : <emph>Veniens</emph>,
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note16">Idem, cap. 15 : <emph>Veniens</emph>,
                                 ibid.</note>. Un esposa par future une soe meschine ; et
                             entretant, si comme il veneit d’une vile à sa meson, il se héberga chiés
                             un sien vesin, et se jut o sa fille. Le père, au matin, le force à
@@ -309,7 +309,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.16">
                         <head>§ 16.</head>
                         <p>E<hi rend="sc">xon. episcopos.</hi>
-                            <emph>Commissum</emph><note>Idem Exoniensi episcopo, cap. 16 :
+                            <emph>Commissum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note17">Idem Exoniensi episcopo, cap. 16 :
                                     <emph>Commissum</emph>, ibid.</note>. Un chevaler dona sa foi à
                             une femme qu’il la prendroit à femme ; après ele voloit entrer en
                             religion ; l’en demende se ele le pot fere, tot i soit la
@@ -322,7 +322,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.17">
                         <head>§ 17.</head>
                         <p>L<hi rend="sc">ucius</hi> III, P<hi rend="sc">ullen. episcopo.</hi>
-                            <emph>Requisivit.</emph><note>Lucius III Rapalen. episcopo, cap.
+                            <emph>Requisivit.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note18">Lucius III Rapalen. episcopo, cap.
                                 17 : <emph>Requisivit.</emph>, ibid.</note>. L’en demende se
                                 <pb n="182"/>femme qui a doné sa foi por soi marier, pot estre
                             forcée de eschever le mariage ? Et l’en dit que non.</p>
@@ -333,7 +333,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.18">
                         <head>§ 18.</head>
                         <p>U<hi rend="sc">rbanus</hi> III. <emph>Cum in
-                                apostolica</emph><note>Urbanus III, cap. 18  : <emph>Cum in
+                                apostolica</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note19">Urbanus III, cap. 18  : <emph>Cum in
                                     apostolica</emph>, Decret., lib. 4, tit. 1.</note>. Un voloit
                             départir devant juiges délégaz ; il reçurent tesmoinz sor le
                             mariage ; cil s’en vint à sa meson, et dit que il est départi de sa
@@ -346,7 +346,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.19">
                         <head>§ 19.</head>
-                        <p>C<hi rend="sc">elsus</hi> III. <emph>In presencia</emph><note>Clemens
+                        <p>C<hi rend="sc">elsus</hi> III. <emph>In presencia</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note20">Clemens
                                 III, Cæsar-augustiensi episcopo, cap. 19 : <emph>In
                                     presencia</emph>, ibid.</note>. L’en demende se feme doit
                             atendre son mari qui sera pris ou pélerins sept anz, s’ele se pot enprès
@@ -358,7 +358,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.20">
                         <head>§ 20.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Inter</emph><note>Idem, cap. 20 : <emph>Inter</emph>,
+                            <emph>Inter</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note21">Idem, cap. 20 : <emph>Inter</emph>,
                                 ibid.</note>. L’en establit que toz cez qui treront puteins de
                             bordel por prendre à femme, et qui les prendront, que ce soit en
                             rémission de lor péchiez.</p>
@@ -368,7 +368,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.21">
                         <head>§ 21.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Ad id</emph><note>Idem, cap. 21 : <emph>Ad id</emph>,
+                            <emph>Ad id</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note22">Idem, cap. 21 : <emph>Ad id</emph>,
                                 ibid.</note>. Un vilain balla une soe fillastre à un tés, et èle
                             n'avoit que onze anz, à feme contre sa volenté ; et quant ele ot
                             esté o lui an et demi, ele s’en départi ; et li un et li autre se
@@ -381,7 +381,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.22">
                         <head>§ 22.</head>
                         <p><pb n="183"/>I<hi rend="sc">nn</hi>. III, F<hi rend="sc">eg.
-                                episcopo</hi>, <emph>Sicut</emph><note>Innocentius III, Fernatin,
+                                episcopo</hi>, <emph>Sicut</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note23">Innocentius III, Fernatin,
                                 episcopo, cap. 22 : <emph>Sicut</emph>, Decret., lib. 4, tit.
                                 1.</note>. Cum un eust juré que il esposeroit une, et il fallit en
                             la femme, il se maria à une autre ; la premère s’en plainsit. La
@@ -399,7 +399,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.23">
                         <head>§ 23.</head>
                         <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">urel. episcopo.</hi>
-                            <emph>Cum apud</emph><note>Idem Arelatensi episcopo, cap. 23 :
+                            <emph>Cum apud</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note24">Idem Arelatensi episcopo, cap. 23 :
                                     <emph>Cum apud</emph>, ibid.</note>. L’en demende se sort et mu
                             se poent marier ? Et l’en dit que cum lien de soi marier ne soit
                             pas deffendable, c’est à savoir que chascun se pot marier à cui droit ne
@@ -410,7 +410,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.24">
                         <head>§ 24.</head>
                         <p>I<hi rend="sc">dem</hi>. V<hi rend="sc">ecerlensis episcopo.</hi>
-                            <emph>Dilectus</emph><note>Idem Vercel. episcopo, cap. 24 :
+                            <emph>Dilectus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note25">Idem Vercel. episcopo, cap. 24 :
                                     <emph>Dilectus</emph>, ibid.</note>. Un dona sa fille à feme à
                             un desvé, et riens n’en savoit ; donc il ne la pot avoir, car il ne
                             s’i pot consentir : por quoi li père requiert que le fet fust nul.
@@ -420,7 +420,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.25">
                         <head>§ 25.</head>
                         <p>I<hi rend="sc">dem, episc</hi>. B<hi rend="sc">risien.</hi>
-                            <emph>Que</emph><note>Idem Brixien. episcopo, cap. 25 :
+                            <emph>Que</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note26">Idem Brixien. episcopo, cap. 25 :
                                     <emph>Tuœ</emph>, ibid.</note>. L’en demende se par soles
                             paroles, et par quex, est fet mariage ? Et l’en dit que, tot soit
                             fet mariage par consentir, paroles sont nécessères por acertener seinte
@@ -430,7 +430,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.26">
                         <head>§ 26.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Tua</emph><note>Idem, cap. 26 : <emph>Tua</emph>,
+                            <emph>Tua</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note27">Idem, cap. 26 : <emph>Tua</emph>,
                                 ibid.</note>. Cum un n’eust pas volenté de soi marier, ne ne quéroit
                             que f....., et dist issi à une femme : Johen te espose, et il n’a
                                 <pb n="184"/>voit pas nom Johan ; et quant il ot ce fet, il la
@@ -445,7 +445,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.27">
                         <head>§ 27.</head>
                         <p>I<hi rend="sc">dem. episc</hi>. B<hi rend="sc">elvacen.</hi>
-                            <emph>Cum in tua.</emph><note>Idem episcopo Belvacen., cap. 27 :
+                            <emph>Cum in tua.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note28">Idem episcopo Belvacen., cap. 27 :
                                     <emph>Cum in tua,</emph> Decret., lib. 4, tit. 1.</note> Martin
                             et Berte s’entrevoléent prendre ; furent banni en yglise ; nul
                             n’i mist contredist ; mès renommée disoit en privé qu’il i avoit
@@ -463,7 +463,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.28">
                         <head>§ 28.</head>
                         <p>H<hi rend="sc">on.</hi> III, <hi rend="sc">sp</hi>. B<hi rend="sc">esgun.</hi>
-                            <emph>Consultationi</emph><note>Honorius III, episcopo Berguen., cap.
+                            <emph>Consultationi</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note29">Honorius III, episcopo Berguen., cap.
                                 28 : <emph>Consultationi</emph>, ibid.</note>. Il avient aucune
                             foiz que aucunes femes, quant il sont devant la porte de l'iglyse por
                             recevoir bénéiçon, il dient que unques ne se consentirent en cez qui
@@ -477,7 +477,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.29">
                         <head>§ 29.</head>
                         <p>G<hi rend="sc">regorius nonus.</hi>
-                            <emph>Femina</emph><note>Gregor. IX, cap. 29 : <emph>Gemma</emph>,
+                            <emph>Femina</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note30">Gregor. IX, cap. 29 : <emph>Gemma</emph>,
                                 ibid.</note>. Une feme promist soz poine que ele donroit sa fille
                             qui n'avoit pas sept anz au fiz d'un vilain qui n'avoit <pb n="185"/>que
                             sept ; et quant la pucele vint à âge, ele se maria à un autre. Le
@@ -487,7 +487,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.30">
                         <head>§ 30.</head>
                         <p>I<hi rend="sc">dem. episc</hi>. C<hi rend="sc">en.</hi>
-                            <emph>Is qui fidem</emph><note>Idem episcopo Cenomanen., cap. 30 :
+                            <emph>Is qui fidem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note31">Idem episcopo Cenomanen., cap. 30 :
                                     <emph>Is qui fidem</emph>, Decret. Greg. IX, lib. 4, tit
                                 1.</note>. Ticius fiença que il prendroit une feme ; emprès il
                             la f.... Enprès Ticius prist une et la f.... : l'en demende laquele
@@ -498,7 +498,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.31">
                         <head>§ 31.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Si inter virum</emph><note>Idem, cap. 31 : <emph>Si inter
+                            <emph>Si inter virum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note32">Idem, cap. 31 : <emph>Si inter
                                     virum</emph>, ibid.</note>. L'en dit en ceste décrétalles que se
                             léau consentement de mariage vient entre home et femme, par parole de
                             présent, et li home dit issi : Je te prens à feme ; et la feme
@@ -514,7 +514,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01.32">
                         <head>§ 32.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Adolescens</emph><note>Idem, cap. 32 :
+                            <emph>Adolescens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_01_note33">Idem, cap. 32 :
                                     <emph>Adolescens</emph>, ibid.</note>. Un jeune vallet esposa
                             une feme par futur, et se aforça de f.... la ; mès il ne pot ;
                             emprès il se maria à un autre par présent. L'en demende s'il doit
@@ -526,13 +526,13 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02">
                 <front>
-                    <head>II. De juenes esposailles<note>Decret. Greg. IX, lib. 4, tit. 2 :
+                    <head>II. De juenes esposailles<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note1">Decret. Greg. IX, lib. 4, tit. 2 :
                                 <emph>De desponsatione impuberum.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.1">
                         <head>§ 1.</head>
-                        <p> H<hi rend="sc">onorius</hi> III. <emph>Tua</emph><note>Honorius III,
+                        <p> H<hi rend="sc">onorius</hi> III. <emph>Tua</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note2">Honorius III,
                                 Eusebio episcopo, cap. 1. ibid.</note>. Un vilain voloit un son fiz
                             marier qui n'estoit pas d'aage, sanz ce que cil le vossit : l'en
                             demende s'il le pot fere ? La pape dit que non ; mès il le pot
@@ -541,7 +541,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.2">
                         <head>§ 2.</head>
                         <p><pb n="186"/> F<hi rend="sc">elix papa.</hi>
-                            <emph>Ubi.</emph><note>Nicolaus papa, cap. 2 : <emph>Ubi</emph>,
+                            <emph>Ubi.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note3">Nicolaus papa, cap. 2 : <emph>Ubi</emph>,
                                 Decret., lib. 4, tit. 2</note>. L'en deffant ci que l'en ne face
                             exposalles avant sept anz, se n'est por pez.</p>
                         <p>Note que l'en ne doit pas fere jointure d'aucun, se il n'est de droit
@@ -551,7 +551,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">sidorus.</hi>
-                            <emph>Puberes</emph>.<note>Isidorus, cap. 3 : <emph>Puberes</emph>,
+                            <emph>Puberes</emph>.<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note4">Isidorus, cap. 3 : <emph>Puberes</emph>,
                                 ibid.</note>. L'en dit ci que, tot cuident aucun que jenure ce soit
                             danz, l'en pot dire celi d'aage qui pot f...., et l'en pot apeler celes
                             femes qui poent porter enfanz.</p>
@@ -559,7 +559,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.4">
                         <head>§ 4.</head>
                         <p> A<hi rend="sc">lex.</hi> III, H<hi rend="sc">erefordenen</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Litteras</emph><note>Alexander III Herford. episcopo, cap.
+                            <emph>Litteras</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note5">Alexander III Herford. episcopo, cap.
                                 4 : <emph>Litteras</emph>, ibid.</note>. Uns se maria à un
                             autre par esposalles, et enprès f.... sa mère, et la prist à feme. L'en
                             demende se ce mariage tient ? Et l'en dit que, s'il esposa sa fille
@@ -571,7 +571,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem</hi>. E<hi rend="sc">broacens</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Accessit</emph><note>Idem Eboracen. archiepiscopo, cap. 5 :
+                            <emph>Accessit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note6">Idem Eboracen. archiepiscopo, cap. 5 :
                                     <emph>Accessit</emph>, ibid.</note>. Un esposa la fille qui
                             n'estoit pas aagé ; emprès il furent départi ; li hom prist la
                             mère à la fille. La pape dit que, se la fille ne estoit bone à marier
@@ -584,7 +584,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">dem</hi>. N<hi rend="sc">orvicen.</hi>
-                            <emph>Continebatur</emph><note>Idem Norvicensi episcopo, cap. 6 :
+                            <emph>Continebatur</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note7">Idem Norvicensi episcopo, cap. 6 :
                                     <emph>Continebatur</emph>, ibid.</note>. Un esposa un
                             autre ; cele qui se voloit départir, disoit que ele li avoit esté
                             esposée dedanz sept anz, ne ne s'i estoit pas consentue ; li hom
@@ -600,7 +600,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem</hi>. B<hi rend="sc">aton</hi>. E<hi rend="sc">piscop.</hi>
-                            <emph>De illis</emph><note>Idem Bathoniensi episcopo, cap. 7 :
+                            <emph>De illis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note8">Idem Bathoniensi episcopo, cap. 7 :
                                     <emph>De illis</emph>, Decret., Greg. IX, lib. 4, tit.
                             2.</note>. L'en dit ci que se aucun se entr'ament entr'éposent, qui ne
                             sont d'aage, et avant que il séent d'aage se volent descorder, l'en ne
@@ -618,7 +618,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.8">
                         <head>§ 8.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Nobis</emph><note>Idem eidem, cap. 8 : <emph>A nobis</emph>,
+                            <emph>Nobis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note9">Idem eidem, cap. 8 : <emph>A nobis</emph>,
                                 ibid.</note>. Aucun dedanz aage se marient : l'en demende si se
                             poent départir avant aage ? L'en dit que non, ainz devent atendre
                             aage ; et lors, si se volent départir, si se départent, se l'un n'a
@@ -629,7 +629,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.9">
                         <head>§ 9.</head>
                         <p>I<hi rend="sc">dem</hi>. J<hi rend="sc">an</hi>. E<hi rend="sc">piscop.</hi>
-                            <emph>De illis</emph><note>Idem Genuensi archiepiscopo, cap. 9 :
+                            <emph>De illis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note10">Idem Genuensi archiepiscopo, cap. 9 :
                                     <emph>De illis</emph>, ibid.</note>. Se aucun se consent en
                             aucune dedans aage, ce n'est pas mariage ; lors, s'il pot f......,
                             c'est mariage, ne ne pot descorder s'il n'i a porquoi.</p>
@@ -638,7 +638,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.10">
                         <head>§ 10.</head>
                         <p> U<hi rend="sc">rb</hi>. C<hi rend="sc">eno</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Atestaciones</emph><note>Urbanus III Cenomanensi episcopo, cap.
+                            <emph>Atestaciones</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note11">Urbanus III Cenomanensi episcopo, cap.
                                 10 : <emph>Atestaciones</emph>, ibid.</note>. Un de douze anz
                             se maria o une, et se poigna s'il la puet f......, et ne pot ;
                             enprès, avent aage, il se parti de lui ; ele le demendoit. L'en dit
@@ -652,7 +652,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.11">
                         <head>§ 11.</head>
                         <p>I<hi rend="sc">dem</hi>. P<hi rend="sc">ysa</hi>. A<hi rend="sc">r.</hi>
-                            <emph>EX litteris</emph><note>Idem Pisano archiepiscopo, cap. 11 :
+                            <emph>EX litteris</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note12">Idem Pisano archiepiscopo, cap. 11 :
                                     <emph>EX litteris</emph>, Decret., Greg. IX, lib. 4, tit.
                                 2.</note>. Un de douze anz se maria o une qui n'estoit pas
                             aagé ; enprès li parent la li baillent contre sa volenté, et fut o
@@ -665,7 +665,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.12">
                         <head>§ 12.</head>
-                        <p> C<hi rend="sc">elsus</hi> III. <emph>Duo pueri</emph><note>Clemens III,
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Duo pueri</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note13">Clemens III,
                                 cap. 12 : <emph>Duo pueri</emph> , ibid.</note>. Un vallet de
                             six anz et une pucele de sept de futur se marièrent, et furent ensemble
                             trois anz ; enprès le père à la pucele la li osta et la bailla à un
@@ -685,7 +685,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.13">
                         <head>§ 13.</head>
                         <p>I<hi rend="sc">nno.</hi> III. <emph>Ad
-                                desolvendum</emph><note>Innocentius III, C. et P. Quondam filiis
+                                desolvendum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note14">Innocentius III, C. et P. Quondam filiis
                                 Malebrancæ, cap. 13 : <emph>Ad desolvendum</emph>,
                             ibid.</note>. Dui frères disent que ce qui avoit esté fet d'un mariage
                             d'un bacheler et d'une meschine ne valoit riens, car ele n'avoit pas
@@ -701,7 +701,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02.14">
                         <head>§ 14.</head>
                         <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">lbanen</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Tue</emph><note>Idem episcopo Abbatensi, cap. 14 :
+                            <emph>Tue</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_02_note15">Idem episcopo Abbatensi, cap. 14 :
                                     <emph>Tuœ</emph>, Decret., lib. 4, tit. 2.</note>. Un esposa la
                             fille à un, qui n'avoit pas douze anz ; quant le père à cele pucele
                             fut mort, sis uncles la dona à un autre : l'en demende s'il pot à
@@ -717,21 +717,21 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03">
                 <front>
-                    <head>III. De esposailles repoz<note>Decret. Greg. IX, lib. 4, tit. 3 :
+                    <head>III. De esposailles repoz<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03_note1">Decret. Greg. IX, lib. 4, tit. 3 :
                                 <emph>De clandestina desponsatione.</emph></note></head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03.1">
                         <head>§ 1.</head>
                         <p> E<hi rend="sc">x cons. abe.</hi>
-                            <emph>Si quis</emph><note>Ex concilio arelatensi, cap. 1 : <emph>Si
+                            <emph>Si quis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03_note2">Ex concilio arelatensi, cap. 1 : <emph>Si
                                     quis</emph>, ibid.</note>. Note que quant deffense est de
                             mariage, la prove chiet sor l'ome.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03.2">
                         <head>§ 2.</head>
                         <p> A<hi rend="sc">lex.</hi> III. E<hi rend="sc">p</hi>. B<hi rend="sc">elvacensis.</hi>
-                            <emph>Quod nobis</emph><note>Alexander III, Belvacensi episcopo, cap.
+                            <emph>Quod nobis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03_note3">Alexander III, Belvacensi episcopo, cap.
                                 2 : <emph>Quod nobis</emph>, ibid.</note>. Li évesques de
                             Beauvez demenda la pape, s'il porroit fere grâce en mariage qui est fet
                             en repost ? La pape tint la demende à fole, et dit que itex que
@@ -745,7 +745,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">con. gen.</hi>
-                            <emph>Cum inhibicio</emph><note>Innocentius III, in Concilio generali,
+                            <emph>Cum inhibicio</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_03_note4">Innocentius III, in Concilio generali,
                                 cap. 4  : <emph>Cum inhibicio</emph>, ibid.</note>. L'en dit ci
                             cinq choses : au premer, deffant l'en mariage fet en repot. Enprès
                             commende l'en que se l'en velt fere mariage, l'en le doit bennir en
@@ -762,14 +762,14 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04">
                 <front>
-                    <head>IV. De esposalles de deus<note>Decret. Greg. IX, lib. 4, tit. 4 :
+                    <head>IV. De esposalles de deus<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note1">Decret. Greg. IX, lib. 4, tit. 4 :
                                 <emph>De sponsa duorum.</emph></note></head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">ugustinus de fide pactionis et consensus.</hi>
-                            <emph>Duobus</emph><note>Augustinus de fide pactionis et consensus, cap.
+                            <emph>Duobus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note2">Augustinus de fide pactionis et consensus, cap.
                                 1 : <emph>Duobus</emph>, ibid.</note>. Augustin dit que en deu
                             manières est foi, c'est à savoir, de mariage et de espossailles. Et se
                             aucun done foi de espossailles à une, et puis se marie o autre par
@@ -783,7 +783,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04.2">
                         <head>§ 2.</head>
                         <p> E<hi rend="sc">X</hi> B<hi rend="sc">roc. lib. xix.</hi>
-                            <emph>Accepisti</emph><note>Ex Brochardo libro xxx, cap. 2 :
+                            <emph>Accepisti</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note3">Ex Brochardo libro xxx, cap. 2 :
                                     <emph>Accepisti</emph>, ibid.</note>. Un par présent se maria à
                             une ; enprès une autre la prist. L'en dit cil qui doit retorner au
                             premier, et cil qui enprès la prist en face sa pénitence.</p>
@@ -792,7 +792,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04.3">
                         <head>§ 3.</head>
                         <p> A<hi rend="sc">lex.</hi>III. S<hi rend="sc">alent, ar.</hi>
-                            <emph>Licet</emph><note>Alexander III Salernitano archiepiscopo, cap.
+                            <emph>Licet</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note4">Alexander III Salernitano archiepiscopo, cap.
                                 3 : <emph>Licet</emph>, ibid.</note>. L'en dit ci que se aucun
                             se marie o aucune par présent, ne ne la f.... mie, et à une autre ausi
                             par présent se marie, et la f.... : ele retorna au premier, tot
@@ -803,7 +803,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem</hi>. J<hi rend="sc">anen. archi.</hi>
-                            <emph>Tua</emph><note>Idem Genuensi archiepiscopo, cap. 4
+                            <emph>Tua</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note5">Idem Genuensi archiepiscopo, cap. 4
                                     <emph>Tua</emph>, ibid.</note>. Aucun marié sont travallé de
                             parenté <pb n="191"/>que l'en dit qui est entre aus ; il apelent,
                             et endementières il se marient à autres. L'en dit que tel mariage doit
@@ -816,7 +816,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">nno.</hi> III, M<hi rend="sc">utin</hi>. E<hi rend="sc">piscop</hi>
-                            <emph>Tuas</emph><note>Innocentius III Mutinensi episcopo, cap. 5 :
+                            <emph>Tuas</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_04_note6">Innocentius III Mutinensi episcopo, cap. 5 :
                                     <emph>Tuas</emph>, Decret. Greg. IX, lib. 4, tit. 4.</note>. Tel
                             costume estoit en la cité de Mute, que se aucun se mariast o aucune par
                             parole de présent, et ele se maria o autre avant que cil l'eust f....,
@@ -829,7 +829,7 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05">
                 <front>
-                    <head>V. De condicions mises en mariage<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>V. De condicions mises en mariage<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note1">Decret. Greg. IX, lib. 4, tit.
                             5 : <emph>De conditionibus appositis in desponsatione vel in aliis
                                 contractibus</emph>.</note>.</head>
                 </front>
@@ -837,7 +837,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.1">
                         <head>§ 1.</head>
                         <p> E<hi rend="sc">x conc</hi>. A<hi rend="sc">fri.</hi>
-                            <emph>Quicumque</emph><note>Ex concilio Africano, cap. 1 :
+                            <emph>Quicumque</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note2">Ex concilio Africano, cap. 1 :
                                     <emph>Quicumque</emph>, ibid.</note>. Se mariage est fet soz
                             convenance mauvese, le mariage doit estre, et la convenance doit
                             remanoir.</p>
@@ -847,7 +847,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.2">
                         <head>§ 2.</head>
                         <p> G<hi rend="sc">regorius</hi> E<hi rend="sc">p</hi>. S<hi rend="sc">poliacen.</hi>
-                            <emph>Cum sit</emph><note>Gregorius episcopo Spoletano, cap. 2 :
+                            <emph>Cum sit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note3">Gregorius episcopo Spoletano, cap. 2 :
                                     <emph>Cum sit</emph>, ibid.</note>. Un franchi deus sers en tel
                             convenance qu'il seroient moines ; li un issi de l'aboïe : le
                             pape mende à un évesque qu'il le force de retorner.</p>
@@ -855,7 +855,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.3">
                         <head>§ 3.</head>
-                        <p> A<hi rend="sc">lex.</hi> III. <emph>De illis</emph><note>Alexander III
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>De illis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note4">Alexander III
                                 Panormitano archiepiscopo, cap. 3 : <emph>De illis</emph>,
                                 ibid.</note>. Note que ci a léal convenance : Se tu me dones
                             cent sous, je te prendrai.</p>
@@ -863,7 +863,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Verum.</emph><note>Idem, cap. 4 : <emph>Verum</emph>,
+                            <emph>Verum.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note5">Idem, cap. 4 : <emph>Verum</emph>,
                                 ibid.</note>Se aucun done aucun fié à yglise par tel convent qui est
                             entre aus, il ne porra pas rapeler le don, se la condicion n'est seguë.
                             Et ce que l'en done, se la condicion n'est tenue, puet estre rapelé.</p>
@@ -872,7 +872,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.5">
                         <head>§ 5.</head>
-                        <p> U<hi rend="sc">rb.</hi> III. <emph>Super eo</emph><note>Urbanus III,
+                        <p> U<hi rend="sc">rb.</hi> III. <emph>Super eo</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note6">Urbanus III,
                                 cap. 5 : <emph>Super eo</emph>, Decret. Greg. IX, lib. 4, tit.
                                 5.</note>. Un se maria o une issi : Je te prens, se mis pères
                             le velt. L'en dit que ce n'est rien, se li pères ne velt.</p>
@@ -881,7 +881,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.6">
                         <head>§ 6.</head>
-                        <p>I<hi rend="sc">nno.</hi> III. E<hi rend="sc">p</hi>. M<hi rend="sc">arsiten</hi>. <emph>Per tuas</emph><note>Innocentius III Masican.
+                        <p>I<hi rend="sc">nno.</hi> III. E<hi rend="sc">p</hi>. M<hi rend="sc">arsiten</hi>. <emph>Per tuas</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note7">Innocentius III Masican.
                                 episcopo, cap. 6 : <emph>Per tuas,</emph> ibid.</note>. Une
                             feme demendoit un bachelier, et disoit que il l'avoit esposée et
                             f.... ; li hom no niet pas, mès il disoit qu'il fût fet, s'il
@@ -903,7 +903,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05.7">
                         <head>§ 7.</head>
-                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Si condictiones</emph><note>Greg. IX,
+                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Si condictiones</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_05_note8">Greg. IX,
                                 cap. 7 : <emph>Si conditionis</emph>, ibid.</note>. L'en dit ci
                             que se convenance qui est contre la sustance do mariage i est mise, il
                             ne vaut rien ; aussi comme l'en dit : Je te prendrai dusqu'à
@@ -915,14 +915,14 @@
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06">
                 <pb n="193"/>
                 <front>
-                    <head>VI. Quex clerz puent fere mariage<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>VI. Quex clerz puent fere mariage<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note1">Decret. Greg. IX, lib. 4, tit.
                             6 : <emph>Qui clerici vel voventes matrimonium contrahere
                                 possunt.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.1">
                         <head>§ 1.</head>
-                        <p> A<hi rend="sc">lex.</hi> III. <emph>De diacono</emph><note>Alexander III
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>De diacono</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note2">Alexander III
                                 Remensi archiepiscopo, cap. 1 : <emph>De diacono</emph>,
                                 ibid.</note>. Un diacre se maria o une feme, et fist plere à un
                             diacre. Le pape dit que, s'il retorne à s'iglise ou humilité, l'en li
@@ -932,7 +932,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.2">
                         <head>§ 2.</head>
                         <p>I<hi rend="sc">dem</hi>. C<hi rend="sc">enomen</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>EX litterarum</emph><note>Idem Cenoman. episcopo, cap. 2 :
+                            <emph>EX litterarum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note3">Idem Cenoman. episcopo, cap. 2 :
                                     <emph>Ex literarum</emph>, ibid.</note>. Un soz-diacre se
                             maria ; le évesque le efforça forjurer sa feme : l'en dist que
                             il fist bien ; et s'il no volt otroier, et il viot entrer en
@@ -944,7 +944,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem</hi>. W<hi rend="sc">g</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Neminimus</emph><note>Idem Vigoriensi episcopo, cap. 3 :
+                            <emph>Neminimus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note4">Idem Vigoriensi episcopo, cap. 3 :
                                     <emph>Meminimus,</emph> ibid.</note>. Un fit profession en la
                             main d'un abé ou d'un évesque : l'en dit que s'il se marie, l'en le
                             doit forcer de retorner à religion, se le vou est sollempné ; s'il
@@ -955,7 +955,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">uc. episcopo.</hi>
-                            <emph>Consuluit</emph><note>Idem Lucensi episcopo, cap. 4 :
+                            <emph>Consuluit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note5">Idem Lucensi episcopo, cap. 4 :
                                     <emph>Consuluit</emph>, ibid.</note>. Une dame prist robe de
                             religion, ne n'i entra pas, ne ne fist profession ; et puis geta
                             l'abit, et se maria. L'en dit ci qu'ele remaingne à son mari ; car
@@ -965,7 +965,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Veniens</emph><note>Idem, cap. 5 : <emph>Veniens,</emph>
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note6">Idem, cap. 5 : <emph>Veniens,</emph>
                                 ibid.</note>. Une feme esposa un home par futur ; ele oït dire
                             que il estoit trop cruel, et par devant un hermite fist vou. Cil se
                             maria o une autre ; quant ele l'oï, ele se maria. Le pape dit que
@@ -976,7 +976,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.6">
                         <head>§ 6.</head>
-                        <p>I<hi rend="sc">dem</hi>, <emph>Rursus</emph><note>Cælestinus III, cap.
+                        <p>I<hi rend="sc">dem</hi>, <emph>Rursus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note7">Cælestinus III, cap.
                                 6 : <emph>Rursus</emph>, Decret., lib. 4, tit. 6.</note>. Un
                             voa chastée par simples paroles, et jura enprès que il l'aposeroit une
                             feme : l'en demende qu'en dit droiz ? Que il gart son vou, et
@@ -991,7 +991,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">nno.</hi>III, V<hi rend="sc">isconen. ET</hi> C<hi rend="sc">ol. episcopo.</hi>
-                            <emph>Insinuente</emph><note>Innocentius III Libonensi et Colimbriensi
+                            <emph>Insinuente</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_06_note8">Innocentius III Libonensi et Colimbriensi
                                 episcopis, cap. 7 : <emph>Insinuente</emph>, ibid.</note>. Une
                             feme disoit que, cum son mari fust mort, ele cremoit que l'en ne la
                             forçât marier à un de la cort le roi, et fist vou de chastée, et prist
@@ -1011,7 +1011,7 @@
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07">
                 <front>
                     <head>VII. De celi qui prist en mariage cele o qui il avoit fet
-                            avotire<note>Decret. Greg. IX, lib. 4, tit. 7 : <emph>De eo qui
+                            avotire<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note1">Decret. Greg. IX, lib. 4, tit. 7 : <emph>De eo qui
                                 duxit in matrimonium quam polluit per
                         adulterium.</emph></note>.</head>
                 </front>
@@ -1019,7 +1019,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">lex.</hi> III. <hi rend="sc">abb</hi>. S<hi rend="sc">ancti</hi> A<hi rend="sc">lbini.</hi>
-                            <emph>Propositum</emph><note>Alexander III abbati sancti Albani, cap.
+                            <emph>Propositum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note2">Alexander III abbati sancti Albani, cap.
                                 1 : <emph>Propositum</emph>, ibid.</note>. Un avoit feme, et
                             prist un autre que ne savoit pas qu'il eust feme ; quant la
                             première fut morte, il la volt lessier, et disoit que il l'avoit prise
@@ -1034,7 +1034,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.2">
                         <head>§ 2.</head>
                         <p>I<hi rend="sc">dem. abb. de</hi> F<hi rend="sc">ontibus.</hi>
-                            <emph>Significavit</emph><note>Idem Abbati de Fontibus, cap. 2 :
+                            <emph>Significavit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note3">Idem Abbati de Fontibus, cap. 2 :
                                     <emph>Significavit,</emph> Decret., lib. 4, tit. 7.</note>. Un
                             jura forciez que il esposeroit une feme ; enprès, quant il eschapa,
                             il se maria à un autre ; la première s'en plaint : l'en li
@@ -1049,7 +1049,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem, barenen. episcop.</hi>
-                            <emph>Super eo</emph><note>Idem Baranensi episcopo, cap. 3 :
+                            <emph>Super eo</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note4">Idem Baranensi episcopo, cap. 3 :
                                     <emph>Super hoc,</emph> ibid.</note>. Un, au vivant sa feme, se
                             maria o un autre : l'en demende savoir s'il la porroit avoir enprès
                             la mort ? L'en dit que non, se ele a porchecié la mort à la feme,
@@ -1058,7 +1058,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.4">
                         <head>§ 4.</head>
-                        <p> C<hi rend="sc">elsus</hi> III. <emph>Ex litterarum</emph><note>Clemens
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Ex litterarum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note5">Clemens
                                 III, cap. 4 : <emph>Ex litterarum,</emph> ibid.</note>. Un
                             lessa sa feme por avotire  ; cele entra en religion ; et il
                             prist un autre o qui il avoit fet son péchié douze anz au vivent cele
@@ -1073,7 +1073,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Cum huberet</emph><note>Idem, cap. 5 : <emph>Cum
+                            <emph>Cum huberet</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note6">Idem, cap. 5 : <emph>Cum
                                     haberet</emph>, ibid.</note>Il pose primes un fet qui avint, et
                             forme deus demendes : Un avoit sa prode feme, et fist avotire à un
                             autre, et il en fut tret en plet, et la forjura ; et au vivant sa
@@ -1091,7 +1091,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">episcopo</hi> S<hi rend="sc">poleten.</hi>
-                            <emph>Significasti</emph><note>Innocentius III episcopo Spoletano, cap.
+                            <emph>Significasti</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note7">Innocentius III episcopo Spoletano, cap.
                                 6 : <emph>Significasti,</emph> Decret, lib 4, tit. 7.</note>.
                             Un prist une putain et lessa sa feme ; il en fut ecomenié ;
                             quant sa feme fut morte, il la prist. L'en demende s'il poent remanoir
@@ -1104,7 +1104,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem</hi>. M<hi rend="sc">esenen. episcopo.</hi>
-                            <emph>Veniens</emph><note>Idem Messanensi capitulo, cap. 7 :
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note8">Idem Messanensi capitulo, cap. 7 :
                                     <emph>Veniens,</emph> ibid.</note>. Cum un se fut marié o une
                             feme, il la lessa, et se maria en une autre cité o une autre, qui rien
                             n'en savoit que cil eust feme ; et comme il retornast à la première
@@ -1118,7 +1118,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07.8">
                         <head>§ 8.</head>
                         <p> G<hi rend="sc">regorius</hi> IX, <hi rend="sc">fr.</hi>R. <emph>Si
-                                quis.</emph><note>Gregorius IX fratri R., cap. 8 : <emph>Si
+                                quis.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_07_note9">Gregorius IX fratri R., cap. 8 : <emph>Si
                                     quis,</emph> ibid.</note>. Qui, à vivent sa feme, fiance aucune
                             feme que il la prendra, se sa feme mort, et il pregne cele, l'en ne doit
                             pas dépécier le mariage, s'il ne la f.... au vivent sa feme.</p>
@@ -1127,14 +1127,14 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08">
                 <front>
-                    <head>VIII. Do mariage au meseaus<note>Decret. Greg. IX, lib. 4, tit. 8 :
+                    <head>VIII. Do mariage au meseaus<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08_note1">Decret. Greg. IX, lib. 4, tit. 8 :
                                 <emph>De conjugio leprosorum.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08.1">
                         <head>§ 1.</head>
                         <p>
-                            <emph>Pervenit</emph><note>Alexander III Cantuarensi archiepiscopo, cap.
+                            <emph>Pervenit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08_note2">Alexander III Cantuarensi archiepiscopo, cap.
                                 1 : <emph>Pervenit,</emph> ibid.</note>. Unes femes ne voloient
                             sigre lor mariz meseaus : l'en dit qu'eles séent amonestées qu'eles
                             seguent ; et s'il ne volent, eles devent estre forciés à estre
@@ -1146,7 +1146,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08.2">
                         <head>§ 2.</head>
                         <p>I<hi rend="sc">dem. bayonen. episcopo.</hi>
-                            <emph>Quoniam.</emph><note>Alexander III Bajonensi episcopo, cap.
+                            <emph>Quoniam.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08_note3">Alexander III Bajonensi episcopo, cap.
                                 2 : <emph>Quoniam,</emph> Decret., lib. 4, tit. 8</note>. L'en
                             dit ci que por lèpre ne doit l'en pas feme départir de son mari. Et l'en
                             dit ci que se le mesel (<emph>ne</emph>) se volt tenir chatement, ele se
@@ -1158,7 +1158,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08.3">
                         <head>§ 3.</head>
                         <p> U<hi rend="sc">rb.</hi>III, <hi rend="sc">ep</hi>. F<hi rend="sc">loriacen.</hi>
-                            <emph>Litteras</emph><note>Urbanus III, episcopo Florentino, cap.
+                            <emph>Litteras</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_08_note4">Urbanus III, episcopo Florentino, cap.
                                 3 : <emph>Literas,</emph> ibid.</note>. L'en dit ci que cele
                             est forçable à eschever le mariage, se si mariz devent mesel entretant
                             qu'il fut fiancé.</p>
@@ -1167,14 +1167,14 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09">
                 <front>
-                    <head>IX. Dou mariage as sers<note>Decret. Greg. IX, lib. 4, tit. 9 :
+                    <head>IX. Dou mariage as sers<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09_note1">Decret. Greg. IX, lib. 4, tit. 9 :
                                 <emph>De conjugio servorum.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">drianus papa</hi> S<hi rend="sc">ancte</hi> B<hi rend="sc">ur.</hi>
-                            <emph>Dignum</emph><note>Hadrianus Sancteburgensi archiepiscopo, cap.
+                            <emph>Dignum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09_note2">Hadrianus Sancteburgensi archiepiscopo, cap.
                                 1 : <emph>Dignum</emph>, ibid.</note>. L'en demandoit se sers
                             se poent marier contre la volenté lor seignor ? L'en dit que oïl,
                             ne ne doit l'en pas dépécier tex mariages, ne li seignor ne perdent pas
@@ -1184,7 +1184,7 @@
                         <head>§ 2.</head>
                         <p> A<hi rend="sc">lex</hi>. III, <hi rend="sc">preposito et priori
                                 mortar.</hi>
-                            <emph>Proposuit.</emph><note>Alexander III præposito et priori
+                            <emph>Proposuit.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09_note3">Alexander III præposito et priori
                                 Mortariensi, cap. 2 : <emph>Proposuit</emph>, ibid.</note>. G.
                             se marie o P., et enprès li met sus qu'il est cuvert : le pape dit
                             que, s'il la f.... puis qu'ele set qu'ele est serve, il doit estre
@@ -1197,7 +1197,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09.3">
                         <head>§ 3.</head>
-                        <p>I<hi rend="sc">dem</hi>. <emph>Licet</emph><note>Urbanus III Ariminensi
+                        <p>I<hi rend="sc">dem</hi>. <emph>Licet</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09_note4">Urbanus III Ariminensi
                                 episcopo, cap. 3  : <emph>Licet</emph>, ibid. </note>. Un se
                             maria o une ; cil estoit serf d'une abéïe, et por ce la feme en
                             voloit estre départie, si comme cele qui rien n'en savoit ; li hom
@@ -1208,7 +1208,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09.4">
                         <head>§ 4.</head>
-                        <p>I<hi rend="sc">nno.</hi> III. R. <emph>Ad nostram</emph><note>Innocentius
+                        <p>I<hi rend="sc">nno.</hi> III. R. <emph>Ad nostram</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_09_note5">Innocentius
                                 III H. episcopo, cap. 4 : <emph>Ad. nostram,</emph> Decret.,
                                 lib. 4, tit 9.</note>. Un cardineau désevra un d'une cuverte, dont
                             il ne savoit rien, quant il la prist. Le pape dit que si l'om, puis que
@@ -1221,13 +1221,13 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_10">
                 <front>
-                    <head>X. De cex qui sont nez de franc ventre<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>X. De cex qui sont nez de franc ventre<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_10_note1">Decret. Greg. IX, lib. 4, tit.
                             10 : <emph>De natis ex libero ventre.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_10.1">
                         <head>§ 1.</head>
-                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Indecens.</emph><note>Gregorius, cap.
+                        <p> G<hi rend="sc">reg.</hi> IX. <emph>Indecens.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_10_note2">Gregorius, cap.
                                 unic : <emph>Indecens,</emph>ibid.</note> Une serve se maria o
                             un serf d'une iglise ; enprès li sires à la serve la franchi, et le
                             mari remest cuvert. Il orent enfant : or vodrent li clerc à qui le
@@ -1243,13 +1243,13 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11">
                 <front>
-                    <head>XI. De cosinage espéritel<note>Decret. Greg. IX, lib. 4, tit. 11 :
+                    <head>XI. De cosinage espéritel<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note1">Decret. Greg. IX, lib. 4, tit. 11 :
                                 <emph>De cognatione spirituali</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.1">
                         <head>§ 1.</head>
-                        <p> A<hi rend="sc">lex</hi>. III. <emph>Utrum</emph><note>Alexander III
+                        <p> A<hi rend="sc">lex</hi>. III. <emph>Utrum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note2">Alexander III
                                 Salernitano archiepiscopo, cap. 1 : <emph>Utrum,</emph>
                                 ibid.</note>. Ticius tient sor fonz la fille Berte : ceste
                             fille ne se pot marier o nul des filz. Ces autres fiz et cez autres
@@ -1262,7 +1262,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.2">
                         <head>§ 2.</head>
                         <p><pb n="199"/>I<hi rend="sc">dem eidem.</hi>
-                            <emph>Si vir</emph><note>Alexander III Salernitano archiepiscopo, cap.
+                            <emph>Si vir</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note3">Alexander III Salernitano archiepiscopo, cap.
                                 2 : <emph>Si vir</emph>, Decret., lib. 4, tit. 11.</note>. L'en
                             dit ci que se hom ou feme lèvent enfanz de fonz, qui sont lor propres,
                             l'en ne la doit pas départir por ce, mès l'en doit amener à pénitence de
@@ -1276,7 +1276,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem</hi>. V<hi rend="sc">igilien</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Super eo</emph><note>Idem Vigiliensi episcopo, cap. 3 :
+                            <emph>Super eo</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note4">Idem Vigiliensi episcopo, cap. 3 :
                                     <emph>Super eo</emph>, ibid.</note>. L'en dit ci que de commun
                             droit fiz ou filles de compères se poent marier, for cil par qui le
                             compérage est fez. Mès cele ou nule des autres ne se doit marier, se ele
@@ -1289,7 +1289,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.4">
                         <head>§ 4.</head>
-                        <p> C<hi rend="sc">lemens</hi> III. <emph>Martinus</emph><note>Clemens III,
+                        <p> C<hi rend="sc">lemens</hi> III. <emph>Martinus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note5">Clemens III,
                                 cap. 4 : <emph>Martinus</emph>, ibid.</note>. Martin avoit
                             Berte à feme, et Lohier, Teberge ; Lohier tint le fiz Berte et
                             Martin ; quant Lohier et Berte furent mort, Martin prist Teberge à
@@ -1301,7 +1301,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Contracto</emph><note>Idem, cap. 5 : <emph>Contracto</emph>,
+                            <emph>Contracto</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note6">Idem, cap. 5 : <emph>Contracto</emph>,
                                 ibid.</note>. P. se maria o A. ; et quant il orent esté
                             ensemble deus anz, li cosin à la feme distrent que ele, avent que ele se
                             mariast, estoit commère P., et le fiz son mari, que il avoit eu de
@@ -1316,7 +1316,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">nno.</hi>III, <hi rend="sc">episcopo et ar. linconen.</hi>
-                            <emph>Veniens</emph><note>Innocentius III episcopo et archidiacono, cap.
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note7">Innocentius III episcopo et archidiacono, cap.
                                 6 : <emph>Veniens</emph>, Decret., lib. 4, tit. 11.</note>. Cum
                             un eust f.... une ribaude, que ce fet ne fut seuz, la feme prist le fiz
                             son ami qu'il avoit eu d'une autre, et le tint sor fonz. Cil hom emprès
@@ -1328,7 +1328,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem</hi>. M<hi rend="sc">agist. s. ca. herefodenen.</hi>
-                            <emph>Tua</emph><note>Idem magistro S. Canonico Herforden., cap.
+                            <emph>Tua</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note8">Idem magistro S. Canonico Herforden., cap.
                                 7 : <emph>Tua</emph>, ibid.</note>. L'en demende se cil qui est
                             nez devant compérage se pot marier o la fille son compère ou de la
                             commère ; ou s'il sunt commerz, s'il devent estre désevrez ;
@@ -1340,7 +1340,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11.8">
                         <head>§ 8.</head>
-                        <p> G<hi rend="sc">regorius</hi> IX. <emph>Ex litteris</emph><note>Gregorius
+                        <p> G<hi rend="sc">regorius</hi> IX. <emph>Ex litteris</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_11_note9">Gregorius
                                 IX, cap. 8 : <emph>Ex literis</emph>, ibid.</note>. Com une
                             feme demendast un home à mari, et deist que il l'avoit fiencée, et
                             enprès l'avoit f...., le plet entamé, li tesmoing receu et overt, li hom
@@ -1353,14 +1353,14 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_12">
                 <front>
-                    <head>XII. De cosinage léal<note>Decret. Greg. IX, lib. 4, tit. 12 :
+                    <head>XII. De cosinage léal<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_12_note1">Decret. Greg. IX, lib. 4, tit. 12 :
                                 <emph>De cognatione legali.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_12.1">
                         <head>§ 1.</head>
                         <p> N<hi rend="sc">icol. ad consult</hi>. B<hi rend="sc">asart</hi>.
-                                <emph>Si qua.</emph><note>Nicolaus ad consulta Bulgarorum, cap.
+                                <emph>Si qua.</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_12_note2">Nicolaus ad consulta Bulgarorum, cap.
                                 1 : <emph>Si qua</emph>, ibid.</note> Mis pères avoe aucune à
                             fille ; l'en demende savoir, se tant comme dure cest avoement, se
                             la puit prandre à feme ? L'en dit que non.</p>
@@ -1370,7 +1370,7 @@
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13">
                 <pb n="201"/>
                 <front>
-                    <head>XIII. De celi qui conuit la cosine sa feme<note>Decret. Greg. IX, lib. 4,
+                    <head>XIII. De celi qui conuit la cosine sa feme<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note1">Decret. Greg. IX, lib. 4,
                             tit. 13 : <emph>De eo qui cognovit consanguineam uxoris suœ vel
                                 sponsœ</emph>. — Dans le manuscrit, cette rubrique se trouve entre
                             les chap. 1 et 2 de ce titre ; nous l'avons rétablie à sa véritable
@@ -1380,7 +1380,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.1">
                         <head>§ 1.</head>
                         <p> E<hi rend="sc">x con. ap. mels.</hi>
-                            <emph>Si quis</emph><note>Ex concilio apud Metiam, cap. 1 :
+                            <emph>Si quis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note2">Ex concilio apud Metiam, cap. 1 :
                                     <emph>Si quis,</emph> ibid.</note>. Aucun f.... sa
                             fillastre : l'en dit que il n'aura, d'equi en avant, ne l'une ne
                             l'autre ; ne l'un ne l'autre, d'iqui en avant, ne se porra
@@ -1391,7 +1391,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.2">
                         <head>§ 2.</head>
                         <p> A<hi rend="sc">lex.</hi>III. P<hi rend="sc">ict</hi>. E<hi rend="sc">piscopo.</hi>
-                            <emph>Veniens</emph><note>Alexander III Pictaviensi episcopo, cap.
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note3">Alexander III Pictaviensi episcopo, cap.
                                 2 : <emph>Veniens</emph>, ibid.</note>. Aucun f.... la mère à
                             cele qu'il avoit esposée. La pape dit que, s'il ne f.... la fille, quant
                             il ara fete sa pénitence, par grâce se porra marier o autre ; et
@@ -1402,13 +1402,13 @@
                         <head>§ 3.</head>
                         <p>
                             <emph>De Illo</emph>. Le cas est plain. Note que l'en doit savoir se
-                            péchié est apert ou non.I<hi rend="sc">dem</hi><note>Idem, cap. 3 :
+                            péchié est apert ou non.I<hi rend="sc">dem</hi><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note4">Idem, cap. 3 :
                                     <emph>De illo,</emph> ibid.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.4">
                         <head>§ 4.</head>
                         <p> C<hi rend="sc">elsus.</hi>
-                            <emph>Trasmisse</emph><note>Cælestinus III, cap. 4 :
+                            <emph>Trasmisse</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note5">Cælestinus III, cap. 4 :
                                     <emph>Transmissœ,</emph> ibid.</note> Un, quant sa feme fut
                             morte, f.... sa fillastre ; et cum il eust pris avant une autre
                             feme, il tint cele fillastre apertemant. L'en demende qu'en dit
@@ -1422,7 +1422,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Super eo</emph><note>Idem, cap. 5 : <emph>Super eo,</emph>
+                            <emph>Super eo</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note6">Idem, cap. 5 : <emph>Super eo,</emph>
                                 ibid.</note>. Un se maria ou aucune, et enprès disoit qu'il avoit
                             f..... la cosine sa feme, avant qu'il la prist ; et la feme disoit
                             ce meisme, et li veisin. L'en demende se le mariage doit estre départi
@@ -1436,7 +1436,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">nno</hi>. P<hi rend="sc">reposito</hi> M<hi rend="sc">agdon.</hi>
-                            <emph>Discrecionem</emph><note>Innocentius III præposito Magdeburgensi,
+                            <emph>Discrecionem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note7">Innocentius III præposito Magdeburgensi,
                                 cap. 6  : <emph>Discretionem,</emph> Decret., lib. 4, tit.
                                 13.</note>. Un, une qu'il avoit esposée et f....., balla à son
                             cosin, à sa volenté et à (<emph>contre</emph>) la volenté à la feme, à
@@ -1454,7 +1454,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem</hi> B<hi rend="sc">issinen. ar.</hi>
-                            <emph>Fraternitati</emph><note>Idem Besuntinensi archiepiscopo, cap.
+                            <emph>Fraternitati</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note8">Idem Besuntinensi archiepiscopo, cap.
                                 7 : <emph>Fraternitati</emph>, ibid.</note>. Un se maria o une
                             de sept anz par espossalles, et la cochia. Enprès se maria o sa suer. Et
                             fut départi par l'évesque, et le pape le conferma.</p>
@@ -1462,7 +1462,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.8">
                         <head>§ 8.</head>
                         <p>I<hi rend="sc">dem</hi> E<hi rend="sc">piscopo</hi> G<hi rend="sc">usmeden.</hi>
-                            <emph>EX literis</emph><note>Le Coutumier répète ici les premiers mots
+                            <emph>EX literis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note9">Le Coutumier répète ici les premiers mots
                                 du § précédent : <emph>Un se maria o une de sept anz par
                                     esposalles</emph>. Vient ensuite l'indication des sources du §
                                 8, dont les termes véritables sont : Idem E<hi rend="sc">piscopo</hi> G<hi rend="sc">erundensi</hi>, cap. 8  :
@@ -1479,7 +1479,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.9">
                         <head>§ 9.</head>
                         <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">rch</hi>. M<hi rend="sc">ald.</hi>
-                            <emph>Veniens</emph><note>Idem archiepiscopo Magdeburgensi, cap.
+                            <emph>Veniens</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note10">Idem archiepiscopo Magdeburgensi, cap.
                                 9 : <emph>Veniens,</emph> ibid.</note>. Un jura qu'il prandroit
                             une à <pb n="203"/>feme qui n'avoit pas douze anz. Et cum le père à
                             l'espose l'eust mise en sa meson, il fist tant qu'il f.... la seror à
@@ -1496,7 +1496,7 @@
                         <head>§ 10.</head>
                         <p>I<hi rend="sc">dem</hi>. S<hi rend="sc">t</hi>. G<hi rend="sc">en.
                                 ar.</hi>
-                            <emph>Tue</emph><note>Idem archiepiscopo Strigonensi, cap. 10 :
+                            <emph>Tue</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note11">Idem archiepiscopo Strigonensi, cap. 10 :
                                     <emph>Tuœ,</emph> Decret., lib. 4, tit. 13.</note>. Aucun f....
                             la soror sa feme ; donc l'en demende s'il pot requerre sa feme que
                             ele le lest f......, ou se ele le requiert, s'il la f..... ? Et
@@ -1509,7 +1509,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13.11">
                         <head>§ 11.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Jordane</emph><note>Gregorius IX episcopo Pictaviensi, cap.
+                            <emph>Jordane</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_13_note12">Gregorius IX episcopo Pictaviensi, cap.
                                 11 : <emph>Jordanœ,</emph> ibid.</note>. Un esposa une qui
                             n'avoit pas quatorze anz ; et ayant qu'ele les eust, il la
                             f.... ; et enprès il la lessa, et se maria à sa mère, et la f....
@@ -1520,14 +1520,14 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14">
                 <front>
-                    <head>XIV. De cosinage et d'afinité<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>XIV. De cosinage et d'afinité<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note1">Decret. Greg. IX, lib. 4, tit.
                             14 : de <emph>Consanguinitate et affinitate.</emph></note></head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">lex</hi>. III C<hi rend="sc">assin. abbati.</hi>
-                            <emph>EX litteris</emph><note>Alexander III Cassiensi abbati, cap.
+                            <emph>EX litteris</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note2">Alexander III Cassiensi abbati, cap.
                                 1 : <emph>Ex literis</emph>, ibid.</note>. Un home enherra une
                             veve, et la f..... Et quant il la volt prandre, dui vindrent et distrent
                             que le premer mari à cele feme estoit cosin à cel home ou quatre genoil,
@@ -1544,7 +1544,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.2">
                         <head>§ 2.</head>
                         <p> U<hi rend="sc">rb.</hi> III V<hi rend="sc">ind. ar.</hi>
-                            <emph>Super eo</emph><note>Urbanus III Burdegalensi archiepiscopo, cap.
+                            <emph>Super eo</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note3">Urbanus III Burdegalensi archiepiscopo, cap.
                                 2 : <emph>Super eo,</emph> Decret., lib. 4, tit. 14.</note>. Un
                             esposa une pucele, et quant ele fut d'aage, ele requeroist que la
                             prist : et il disoit que puis que il l'esposa, qu'il avoit sa
@@ -1555,7 +1555,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.3">
                         <head>§ 3.</head>
                         <p> C<hi rend="sc">elsus</hi> III. <emph>Quod
-                                dilectio</emph><note>Cælestinus III, cap. 3 : <emph>Quod
+                                dilectio</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note4">Cælestinus III, cap. 3 : <emph>Quod
                                     dilectio,</emph> ibid.</note>. Poson que un soit loign do commun
                             père ou cinq ou sept genou, et li autre ou trois ou en deux : l'en
                             demende s'il se poent marier ? Et l'en dit que oïl. Li un et li
@@ -1567,7 +1567,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">nno.</hi> III, <hi rend="sc">ar. et ca</hi>. T<hi rend="sc">uron.</hi>
-                            <emph>De infidelïbus</emph><note>Innocentius III archiepiscopo et
+                            <emph>De infidelïbus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note5">Innocentius III archiepiscopo et
                                 capitulo Tiren., cap. 4 : <emph>de Infidelibus,</emph>
                                 ibid.</note>. L'en demende ci se hom et feme sont mescréant, s'il se
                             convertissent à la foi, et séent joint en degré de parenté qui est
@@ -1578,7 +1578,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem</hi> B<hi rend="sc">iasemen. ar.</hi>
-                            <emph>Quod super</emph><note>Idem Rosani, archiepiscopo, cap. 5 :
+                            <emph>Quod super</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note6">Idem Rosani, archiepiscopo, cap. 5 :
                                     <emph>Quod super,</emph> ibid.</note>. Li père et li fiz, li dui
                             cosin les deux cosines prenent à femes les deux cousines ; li autre
                             se marient dedanz lignage. Au premier respont la pape, que tot soent li
@@ -1593,7 +1593,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.6">
                         <head>§ 6.</head>
                         <p><pb n="205"/>I<hi rend="sc">dem.</hi>
-                            <emph>Quia</emph><note>Idem, cap. 6 : <emph>Quia,</emph> Decret.,
+                            <emph>Quia</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note7">Idem, cap. 6 : <emph>Quia,</emph> Decret.,
                                 lib. 4, tit. 14.</note>. Cum un chevalier se fust mariez ou une que
                             li teignoit ou cinq genou, il empétra indulgence de remanoir o lui, et
                             fist entendant que il avoit enfanz, cum il n'en eust eu que une fille
@@ -1603,7 +1603,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Tua nos</emph><note>Idem, cap. 7 : <emph>Tua nos,</emph>
+                            <emph>Tua nos</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note8">Idem, cap. 7 : <emph>Tua nos,</emph>
                                 ibid.</note>. L'en demende que garanz sofisent à mariage dépécier,
                             hoù il acontent les degrez d'oncle et de nevou, c'est de fiz de frère ou
                             de la seror, cum il ne sachent rien de frères, o de serors, ne de plus
@@ -1618,7 +1618,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.8">
                         <head>§ 8.</head>
                         <p>I<hi rend="sc">dem</hi>. T<hi rend="sc">ercius con. ge.</hi>
-                            <emph>Non debet</emph><note>Idem in Concilio generali, cap. 8 :
+                            <emph>Non debet</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note9">Idem in Concilio generali, cap. 8 :
                                     <emph>Non debet</emph>, ibid.</note>. L'en dit deus choses en ce
                             chapitre : l'en dit que la deffense de mariage (<emph>qui</emph>)
                             est en trois et an deus degrez d'afinité, et des enfanz receuz de segont
@@ -1633,7 +1633,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14.9">
                         <head>§ 9.</head>
                         <p> G<hi rend="sc">regorius</hi> IX, <hi rend="sc">ex</hi> B<hi rend="sc">rocardi.</hi>
-                            <emph>Vir qui</emph><note>Gregorius IX, cap. 9 : <emph>Vir,
+                            <emph>Vir qui</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_14_note10">Gregorius IX, cap. 9 : <emph>Vir,
                                     qui,</emph> ibid.</note>. L'en dit ci que se li hom est loing do
                             chief de parenté ou quart genou, d'une part, et la feme ou cinq,
                             d'autre, il se poent bien marier.</p>
@@ -1643,7 +1643,7 @@
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15">
                 <pb n="206"/>
                 <front>
-                    <head>XV. Des fruiz qui ne puent assembler<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>XV. Des fruiz qui ne puent assembler<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note1">Decret. Greg. IX, lib. 4, tit.
                             15, <emph>de Frigidis et maleficiatis et impotentia
                             coeundi.</emph></note>.</head>
                 </front>
@@ -1651,7 +1651,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.1">
                         <head>§ 1.</head>
                         <p>
-                            <emph>Accepisti</emph><note>Ex Brocardico, cap. 1 :
+                            <emph>Accepisti</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note2">Ex Brocardico, cap. 1 :
                                     <emph>Accepisti,</emph> ibid.</note>. Se hom et feme, puis qu'il
                             sont ensemble esté troiz anz (<emph>mois</emph>) et un enprès (<emph>an
                                 près</emph>), et il dient que li hom ne la pot f...., se l'en pot ce
@@ -1673,7 +1673,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.2">
                         <head>§ 2.</head>
                         <p> A<hi rend="sc">lex.</hi> III, A<hi rend="sc">nbianem. episcop.</hi>
-                            <emph>Quod sedem</emph><note>Alexander III Ambianensi episcopo, cap.
+                            <emph>Quod sedem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note3">Alexander III Ambianensi episcopo, cap.
                                 2 : <emph>Quod sedem,</emph> ibid.</note>. Un esposa une feme,
                             qui par rumpeure avoit perdu la c....., n'onques ne la f..... Cele,
                             porce que cil est meseaus, se velt à autre marier. Et l'en dit qu'ele se
@@ -1685,7 +1685,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.3">
                         <head>§ 3.</head>
                         <p>
-                            <emph>Ex literis</emph><note>Idem, cap. 3 : <emph>Ex
+                            <emph>Ex literis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note4">Idem, cap. 3 : <emph>Ex
                                     literis,</emph> ibid.</note>. Un se maria o une, et quant il la
                             volt f......, il ne pot ; et la feme en fut si malade que trop.
                             L'en dit que s'ele a tel vice de nature, ne n'en pot aver aide par
@@ -1695,7 +1695,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.4">
                         <head>§ 4.</head>
                         <p><pb n="207"/>I<hi rend="sc">dem.</hi>
-                            <emph>Consultacioni</emph><note>Lucius III, cap. 4 :
+                            <emph>Consultacioni</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note5">Lucius III, cap. 4 :
                                     <emph>Consultationi,</emph>, Décret., lib. 4, tit. 15.</note>.
                             L'en demende se l'en se pot marier o c.. estret, o se l'en le doit
                             départir s'il est conjont ? Et le pape ne respont pas à ceste
@@ -1705,7 +1705,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.5">
                         <head>§ 5.</head>
-                        <p> C<hi rend="sc">elsus</hi> III. <emph>Laudabilem</emph><note>Cælestinus
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>Laudabilem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note6">Cælestinus
                                 III, cap. 5 : <emph>Laudabilem,</emph> ibid.</note>. L'en
                             demende se feme se marie à home de froide complexion, combien l'en doit
                             atendre cele froidure ? Et l'en dit que tot séent divers li tens
@@ -1721,7 +1721,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">nno</hi>. A<hi rend="sc">utisid. e.</hi>
-                            <emph>Fraternitatis</emph><note>Innocentius III Altissiodorensi
+                            <emph>Fraternitatis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note7">Innocentius III Altissiodorensi
                                 episcopo, cap. 6 : <emph>Fraternitatis,</emph>, ibid.</note>.
                             Un hom fut départi de sa feme, qu'il ne la poet f......, et puis qu'il
                             fut prové qu'ele ne poet estre feme, si cum cele qui n'avoit point de
@@ -1749,7 +1749,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15.7">
                         <head>§ 7.</head>
-                        <p> H<hi rend="sc">onorius</hi> III. <emph>Litere</emph><note>Honorius III,
+                        <p> H<hi rend="sc">onorius</hi> III. <emph>Litere</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_15_note8">Honorius III,
                                 cap. 7 : <emph>Literœs</emph>, Decret., lib. 4, tit.
                             15.</note>. Une feme requéroit estre départie, devant juiges délégaz, de
                             son mari : car cum ele eust esté o lui huit anz, il ne la poet
@@ -1767,7 +1767,7 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16">
                 <front>
-                    <head>XVI. De mariage fet encontre l'entredit d'yglise<note>Decret. Greg. IX,
+                    <head>XVI. De mariage fet encontre l'entredit d'yglise<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16_note1">Decret. Greg. IX,
                             lib. 4, tit. 16, <emph>de Matrimonio contracto contra interdictum
                                 Ecclesiœ.</emph></note>.</head>
                 </front>
@@ -1775,7 +1775,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">lexander</hi> III, P<hi rend="sc">ad. episcopo</hi> XXV.
-                                <emph>Litere</emph><note>Alexander III Paduano episcopo, cap.
+                                <emph>Litere</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16_note2">Alexander III Paduano episcopo, cap.
                                 1 : <emph>Literœ</emph>, ibid.</note>. Cum une feme fust
                             esposée à un autre par présent, quant il fut mort, ele prist son
                             frère ; et cum li évesques li défendit qu'il ne se mariast ne à
@@ -1792,7 +1792,7 @@
                         <head>§ 2.</head>
                         <p><pb n="209"/>I<hi rend="sc">dem</hi>. B<hi rend="sc">atenen.
                                 episcopo.</hi>
-                            <emph>EX literis</emph><note>Alexander III Vigoriensi et Baron.
+                            <emph>EX literis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16_note3">Alexander III Vigoriensi et Baron.
                                 episcopis, cap. 3 : <emph>Ex literis</emph>, Decret., lib. 4,
                                 tit. 16.</note>Cum R. eust esposé une en la main son père, et enprès
                             se vosist allors marier, li arcevesque de Conturbere le li
@@ -1811,7 +1811,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>De Muliere</emph><note>Idem Paduano episcopo, cap. 3 :
+                            <emph>De Muliere</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_16_note4">Idem Paduano episcopo, cap. 3 :
                                     <emph>de Muliere,</emph> ibid.</note>. L'en dit que se sopcenos
                             de parenté se marient contre défense d'iglise, il devent estre départi
                             dusque l'en l'ait seu.</p>
@@ -1820,13 +1820,13 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17">
                 <front>
-                    <head>XVII. Qui sunt leax fez<note>Decret. Greg. IX, lib. 4, tit. 17 :
+                    <head>XVII. Qui sunt leax fez<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note1">Decret. Greg. IX, lib. 4, tit. 17 :
                                 <emph>Qui filit sint legitimi.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.1">
                         <head>§ 1.</head>
-                        <p> A<hi rend="sc">lex.</hi> III. <emph>Conquestus</emph><note>Alexander
+                        <p> A<hi rend="sc">lex.</hi> III. <emph>Conquestus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note2">Alexander
                                 III, cap. I : <emph>Conquestus</emph>, ibid.</note>. Un ot
                             enfanz de sa meschine ; il la prist à feme. Quant il fut morz, li
                             coisin voloient tolir as enfanz l'éritage au père, comme as
@@ -1837,7 +1837,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.2">
                         <head>§ 2.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Cum inter</emph><note>Idem, cap. 2 : <emph>Cum inter,</emph>
+                            <emph>Cum inter</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note3">Idem, cap. 2 : <emph>Cum inter,</emph>
                                 ibid.</note>. Un se maria à une, et prist à bénoiçon ; enprès
                             parenté fut prové entr'aus, et furent départi : l'en demende qu'en
                             dit droit des fiz engendrez avant le département ? L'en dit qu'il
@@ -1850,7 +1850,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Transmisse</emph><note>Alexander III Rothomagensi archiepiscopo,
+                            <emph>Transmisse</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note4">Alexander III Rothomagensi archiepiscopo,
                                 cap. 3  : <emph>Transmissœ,</emph> Decret, lib. 4, tit.
                                 17.</note>. Un qui avoit sa meschine, se maria, et norri un enfant
                             que l'en cuidet qui fut lor fiz ; et il le niéent, et disoent qu'il
@@ -1861,7 +1861,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem, exonen. abbati</hi> H<hi rend="sc">erefeidenen.</hi>
-                            <emph>Sator</emph><note>Idem Exoniensi episcopo et abbati Herfordensi,
+                            <emph>Sator</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note5">Idem Exoniensi episcopo et abbati Herfordensi,
                                 cap. 5  : <emph>Lator,</emph> ibid.</note>. Cum N. eust tret H.
                             son oncle en cause por sa partie de l'éritage, cil H. dist que le père
                             N. n'avoit pas esté nez de mariage ; et cum il eussent plédié
@@ -1876,7 +1876,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem. episcop</hi>. E<hi rend="sc">xonen.</hi>
-                            <emph>Tanta</emph><note>Idem Exon. episcopo, cap. 6 :
+                            <emph>Tanta</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note6">Idem Exon. episcopo, cap. 6 :
                                     <emph>Tanta,</emph> ibid.</note>. Se le fornicator se marie o la
                             damoisele dont il a eu enfanz, li enfant sont molleré par le mariage qui
                             vint enprès.</p>
@@ -1887,7 +1887,7 @@
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">ud. et</hi> W<hi rend="sc">ill.
                                 episcop.</hi>
-                            <emph>Tamen</emph><note>Idem London. et Vigorien. episcopis, cap.
+                            <emph>Tamen</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note7">Idem London. et Vigorien. episcopis, cap.
                                 7 : <emph>Causam</emph>, ibid.</note>Le pape manda à un juiges
                             que il feissent seisir R. de ses teneures, que sis aos avoit quant il se
                             mist à la voie d'aler otre-mer. Et por ce que li rois estoit irez que le
@@ -1900,7 +1900,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.7">
                         <head>§ 7.</head>
                         <p><pb n="211"/>I<hi rend="sc">dem. ep. et arch</hi>. V<hi rend="sc">incenen.</hi>
-                            <emph>Relatum</emph><note>Idem episcopo et archidiacono Vincentino, cap.
+                            <emph>Relatum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note8">Idem episcopo et archidiacono Vincentino, cap.
                                 8 : <emph>Perlatum</emph>, Decret, lib. 4, tit 17.</note>. Plet
                             estoit entre un de parenté ; le mari ala hors do païs ; la
                             feme ala devant l'évesque, et requist estre départie, que ele ne le poet
@@ -1917,7 +1917,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.8">
                         <head>§ 8.</head>
                         <p> C<hi rend="sc">elsus</hi>, E<hi rend="sc">bor. ar.</hi>
-                            <emph>Referente</emph><note>Cælestinus III Eboracensi archiepiscopo,
+                            <emph>Referente</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note9">Cælestinus III Eboracensi archiepiscopo,
                                 cap. 10 : <emph>Referente</emph>, ibid.</note>. Se aucun se
                             marie o la cosine sa feme, le mariage est nul, et doit estre
                             départi ; ne li enfant ne devent pas estre receu à l'éritage.</p>
@@ -1925,14 +1925,14 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.9">
                         <head>§ 9.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Pervenit</emph><note>Idem, cap. 11 : <emph>Pervenit</emph>,
+                            <emph>Pervenit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note10">Idem, cap. 11 : <emph>Pervenit</emph>,
                                 ibid.</note>. Une feme disoit que entre son père et sa mère avoit eu
                             léau mariage, et furent en bel estat dusque à la mort ; lor mariage
                             fut acusé enprès la mort : et qu'ele doit estre heir.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.10">
                         <head>§ 10.</head>
-                        <p>I<hi rend="sc">nno</hi>. III. <emph>Per tuas</emph><note>Innocentius III,
+                        <p>I<hi rend="sc">nno</hi>. III. <emph>Per tuas</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note11">Innocentius III,
                                 cap. 12 : <emph>Per tuas</emph>, ibid.</note>. Un ot un fiz
                             d'une qu'il tenoit si comme sa damoisele ; il la lessa, et prist
                             une autre, dont il ot enfanz ; et reconu qu'il avoit la premère
@@ -1954,7 +1954,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.11">
                         <head>§ 11.</head>
                         <p>I<hi rend="sc">dem nobili viro</hi> M<hi rend="sc">ontispessu.</hi>
-                            <emph>Per venerabilem</emph><note>Innocentais III, nobili viro Gu.
+                            <emph>Per venerabilem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note12">Innocentais III, nobili viro Gu.
                                 Montis Pessulani, cap. 13 : <emph>Per venerabilem</emph>,
                                 Decret, lib. 4, tit. 17.</note>. Li sires de Montpallier requéroit
                             le pape qu'il li aléautast ses fiz por estre ses heirs, et provoit à la
@@ -1981,7 +1981,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17.12">
                         <head>§ 12.</head>
                         <p>I<hi rend="sc">dem</hi>. H. <hi rend="sc">et</hi> R. <hi rend="sc">can</hi>. B<hi rend="sc">enenonen.</hi>
-                            <emph>Ex tenore</emph><note>Idem H. et R. canonicis Beneventanis, cap.
+                            <emph>Ex tenore</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note13">Idem H. et R. canonicis Beneventanis, cap.
                                 14 : <emph>Ex tenore</emph>, ibid.</note>. Une demendoit
                             l'éritage son mari par la reson de un enfant qu'ele avoit eu de lui.
                             L'en disoit contre lui que son mari avoit esté nez en mariage, car sis
@@ -1997,7 +1997,7 @@
                         <head>§ 13.</head>
                         <p><pb n="213"/>I<hi rend="sc">dem</hi> T<hi rend="sc">iberensi
                                 episcop.</hi>
-                            <emph>Gaudemus</emph><note>Idem episcopo Tibur., cap. 15 :
+                            <emph>Gaudemus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_17_note14">Idem episcopo Tibur., cap. 15 :
                                     <emph>Gaudemus</emph>, Decret., lib. 4, tit. 17.</note>. Enfanz
                             nez de mescréanz en mariage joint en trois ou en deux genou, enprès ce
                             qu'il sont converti, por le preu de l'iglise, devent estre tenu por
@@ -2007,7 +2007,7 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18">
                 <front>
-                    <head>XVIII. Qui puent acusser mariage<note>Decret. Greg. IX, lib. 4, tit.
+                    <head>XVIII. Qui puent acusser mariage<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note1">Decret. Greg. IX, lib. 4, tit.
                             18 : <emph>Qui matrimonium accusare possunt, vel contra illud
                                 testificari.</emph></note>.</head>
                 </front>
@@ -2015,7 +2015,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18.1">
                         <head>§ 1.</head>
                         <p> A<hi rend="sc">lex</hi>. III. <hi rend="sc">nomina. cen. e.</hi>
-                            <emph>Relatum</emph><note>Alexander III Parisiensi episcopo, cap.
+                            <emph>Relatum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note2">Alexander III Parisiensi episcopo, cap.
                                 1 : <emph>Relatum,</emph> ibid.</note>. Un hom por peor
                             d'omicide qu'il avoit fet en une cité, s'enfoï. Enprès vindrent uns qui
                             acusoent le mariage, et disoient que le père à la feme estoit père au
@@ -2025,7 +2025,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18.2">
                         <head>§ 2.</head>
-                        <p> C<hi rend="sc">elsus</hi> III. <emph>A nobis</emph><note>Clemens III,
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>A nobis</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note3">Clemens III,
                                 cap. 2 : <emph>A nobis</emph>, ibid.</note>. L'en demende ci se
                             l'en pot doner sentence en cause de mariage, se li garant ne dient rien
                             de parole, mès s'il estaient (<emph>escrivent</emph>) lor tesmoing par
@@ -2035,7 +2035,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18.3">
                         <head>§ 3.</head>
                         <p> C<hi rend="sc">elsus, papa.</hi>
-                            <emph>Videtur</emph><note>Idem papa Florentino episcopo, cap. 3 :
+                            <emph>Videtur</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note4">Idem papa Florentino episcopo, cap. 3 :
                                     <emph>Videtur</emph>, ibid.</note>. L'en dit ci que, en joindre
                             mariage, les tesmoinz as parenz devent estre plus tost receu que autres
                              : car il en sevent plus la vérité.</p>
@@ -2043,7 +2043,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18.4">
                         <head>§ 4.</head>
                         <p> I<hi rend="sc">dem.</hi>
-                            <emph>Insuper</emph><note>Idem, cap. 4 : <emph>Insuper</emph>,
+                            <emph>Insuper</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note5">Idem, cap. 4 : <emph>Insuper</emph>,
                                 ibid.</note>. Un se maria o une pucele qui n'estoit pas bone à
                             marier ; et quant ele fut d'aage, enprès quatre anz ou cinq, ele
                             dist, contre le mariage, que ele se maria contre sa volenté. Et l'en dit
@@ -2057,7 +2057,7 @@
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">nno</hi>. III, <hi rend="sc">arc preposito et priori</hi>
                                 S<hi rend="sc">ancte</hi> M.
-                                <emph>Significante</emph><note>Innocentius III archiepiscopo,
+                                <emph>Significante</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note6">Innocentius III archiepiscopo,
                                 præposito et priori Sanctæ Mariæ de Alban. Genuen., cap. 5 :
                                     <emph>Insuper,</emph> ibid.</note>. Un se maria ; enprès la
                             mère acusa le mariage sa fille, por avoir en aucun <pb n="214"/>denier : et l'en demendoit, tot ne valut rien son acusement, que
@@ -2067,7 +2067,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18.6">
                         <head>§ 6.</head>
                         <p>
-                            <emph>Cum in tua</emph><note>Innocentius III archiepiscopo, præposito et
+                            <emph>Cum in tua</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_18_note7">Innocentius III archiepiscopo, præposito et
                                 priori Sanctæ Mariæ de Alban. Genuen., cap. 6 : <emph>Cum in
                                     tua</emph>, Decret., lib. 4, tit. 18.</note>. Aucun volt un
                             mariage acuser, qui au tens qu'il fut banni en iglise n'i mist point de
@@ -2085,21 +2085,21 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19">
                 <front>
-                    <head>XIX. De désevremanz<note>Decret Greg. IX, lib. 4, tit. 19, <emph>de
+                    <head>XIX. De désevremanz<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note1">Decret Greg. IX, lib. 4, tit. 19, <emph>de
                                 Divortiis.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.1">
                         <head>§ 1.</head>
                         <p> E<hi rend="sc">x conc. ap</hi>. W<hi rend="sc">armation.</hi>
-                            <emph>Si mulier</emph><note>Ex concilio apud Wormatiam, cap. 1 :
+                            <emph>Si mulier</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note2">Ex concilio apud Wormatiam, cap. 1 :
                                     <emph>Si quœ mulier</emph>, ibid.</note>. Se aucune feme a
                             porchacée la mort son mari, einssi qu'il le sache, et il ocist aucun de
                             cez qui le guiètent, en soi deffendant, il la pot lessier.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.2">
                         <head>§ 2.</head>
-                        <p> A<hi rend="sc">lex</hi>. III. <emph>Quesivit</emph><note>Alexander III,
+                        <p> A<hi rend="sc">lex</hi>. III. <emph>Quesivit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note3">Alexander III,
                                 cap. 2 : <emph>Quœsivit</emph>, ibid.</note>. Un larron volt sa
                             feme forcier qu'ele soit larronesse : l'en demende se l'en pot por
                             ce départir le mariage ? L'en dit que oïl ; mès il remaindront
@@ -2112,7 +2112,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.3">
                         <head>§ 3.</head>
                         <p>I<hi rend="sc">dem</hi>. A<hi rend="sc">bienen. episcopo.</hi>
-                            <emph>Porro</emph><note>Idem, Ambianen. a. episcopo, cap. 3,
+                            <emph>Porro</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note4">Idem, Ambianen. a. episcopo, cap. 3,
                                     <emph>Porro</emph>, ibid.</note>. Un par s'autorité lessa sa
                             feme, por ce que ele estoit cosine sa feme, qui à tort avoit esté
                             morte : l'en dit qu'il la doit recevoir ; car il ne la dut pas
@@ -2124,7 +2124,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Significasti</emph><note>Alexander III, cap. 4 :
+                            <emph>Significasti</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note5">Alexander III, cap. 4 :
                                     <emph>Significasti</emph>, Decret., lib. 4, tit 19.</note>. Un
                             por avotire, par s'autorité, lessa sa feme ; et come ele soit en
                             avotire, ele requiert son mari par deus resons : por ce qu'il a
@@ -2136,7 +2136,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.5">
                         <head>§ 5.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Ex litteris</emph><note>Idem, cap. 5 : <emph>Ex
+                            <emph>Ex litteris</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note6">Idem, cap. 5 : <emph>Ex
                                     literis</emph>, ibid.</note>. Un évesque réconcilia sovent un
                             bacheler, qui avoit nom Guillerme, à sa feme ; enprès il l'acussa
                             de fornicacion, et ele reconut qu'ele l'avoit fet par povreté ; et
@@ -2150,7 +2150,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.6">
                         <head>§ 6.</head>
                         <p> U<hi rend="sc">rb</hi>. F<hi rend="sc">loriacen. episcopo.</hi>
-                            <emph>De illâ</emph><note>Urbanus III Florentino episcopo, cap. 6 :
+                            <emph>De illâ</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note7">Urbanus III Florentino episcopo, cap. 6 :
                                     <emph>De illa</emph>, ibid.</note>. Se li hom chiet en bogrerie,
                             la feme bone crestiene le lesse. Et l'en dit que, s'il sont endui
                             départi par jugement d'iglise, l'en ne doit pas forcier de retorner à
@@ -2160,7 +2160,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">nno</hi>. S<hi rend="sc">enen</hi>. E<hi rend="sc">piscop.</hi>
-                            <emph>Querito</emph><note>Innocentais III Ferrariensi episcopo, cap.
+                            <emph>Querito</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note8">Innocentais III Ferrariensi episcopo, cap.
                                 7 : <emph>Quanto</emph>, ibid.</note>. L'en demende se l'un des
                             mariz chiet en bogrerie, se l'un, au vivent de l'autre, se pot marier o
                             autre  ? Et le pape devise, et dit que, si l'un des bogres retorne
@@ -2181,7 +2181,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.8">
                         <head>§ 8.</head>
                         <p>I<hi rend="sc">dem</hi>. T<hi rend="sc">ibiacen. episcopo.</hi>
-                            <emph>Gaudemus</emph><note>Innocentius III Tiberiadensi episcopo, cap.
+                            <emph>Gaudemus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note9">Innocentius III Tiberiadensi episcopo, cap.
                                 8 : <emph>Gaudemus</emph>, Decret., lib. 4, tit. 19.</note>.
                             L'en demende premièrement se mescréanz convertiz sont en segont degré de
                             parenté marié, se l'en les i doit soffrir ? Et l'en dit que oïl,
@@ -2211,7 +2211,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19.9">
                         <head>§ 9.</head>
                         <p>I<hi rend="sc">dem</hi>. L<hi rend="sc">inonen. episcopo.</hi>
-                            <emph>Is qui</emph><note>Idem Livoniensi episcopo et eis qui cum ipso
+                            <emph>Is qui</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_19_note10">Idem Livoniensi episcopo et eis qui cum ipso
                                 sunt fratribus, cap. 9 : <emph>Deus, qui</emph>, ibid.</note>.
                             Unes genz avoient acostumé, <pb n="217"/>avant qu'il se convertissent,
                             prendre en mariage les femes lor frères. Li un ne se voloient convertir
@@ -2223,7 +2223,7 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20">
                 <front>
-                    <head>XX. De doere restablir après désevrement<note>Decret. Greg. IX, lib. 4,
+                    <head>XX. De doere restablir après désevrement<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note1">Decret. Greg. IX, lib. 4,
                             tit. 20 : <emph>de Donationibus inter virum et uxorem, et de dote
                                 post divortium restituenda.</emph></note>.</head>
                 </front>
@@ -2231,7 +2231,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.1">
                         <head>§ 1.</head>
                         <p> E<hi rend="sc">x. con</hi>. W<hi rend="sc">armiacen.</hi>
-                            <emph>Mulieres</emph><note>Ex concilie habito apud Wormatiam, cap.
+                            <emph>Mulieres</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note2">Ex concilie habito apud Wormatiam, cap.
                                 1 : <emph>Mulieres</emph>, ibid.</note>. L'en dit que se feme
                             est départie de son mari sanz sa colpe, ele doit avoir son doere.</p>
                         <p>Note : se mariage est rapelé, et le doaire, et quantque est doné par
@@ -2240,7 +2240,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.2">
                         <head>§ 2.</head>
                         <p> U<hi rend="sc">rb</hi>. III, <hi rend="sc">decano et ca. lexonen.</hi>
-                            <emph>Significavit</emph><note>Urbanus III decano, cantori et capitulo
+                            <emph>Significavit</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note3">Urbanus III decano, cantori et capitulo
                                 Lexon., cap. 2. : <emph>Significavit</emph>, ibid.</note>.
                             Quant lignage est prové, et le mariage est départi, li hom ne velt
                             rendre à la feme son doaire, ne rien qu'il éent conquis ensemble :
@@ -2249,7 +2249,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.3">
                         <head>§ 3.</head>
-                        <p> C<hi rend="sc">elsus</hi> III. <emph>De prudentia</emph><note>Clemens
+                        <p> C<hi rend="sc">elsus</hi> III. <emph>De prudentia</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note4">Clemens
                                 III, cap. 3 : <emph>de Prudentia</emph>, ibid.</note>. Cause de
                             mariage fut baillée à un juige qui a doné sentence, n'onques ne parla de
                             doaire : l'en demende qu'en dit droit ? Et l'en dit que cil
@@ -2263,7 +2263,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.4">
                         <head>§ 4.</head>
                         <p> C<hi rend="sc">elsus.</hi>
-                            <emph>Plerumque</emph><note>Clemens III, cap. 4 :
+                            <emph>Plerumque</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note5">Clemens III, cap. 4 :
                                     <emph>Plerumque</emph>, ibid</note>. Se par fornicacion ou par
                             sa volenté se départ de son mari, et fame enprès ne soit pas recordée,
                             et li hom more, l'en demende se ele pot son doere demender à coisins à
@@ -2275,7 +2275,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.5">
                         <head>§ 5.</head>
                         <p><pb n="218"/>I<hi rend="sc">nno.</hi> III. <emph>Et si
-                                necesse</emph><note>Innocentius III Compostel. archiepiscopo, et
+                                necesse</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note6">Innocentius III Compostel. archiepiscopo, et
                                 universis episcopis in regno Legionensi constitutis, cap. 5 :
                                     <emph>Et si necesse, Decret. lib. 4, tit. 20.</emph></note>. Uns
                             rois prist la fille au roi de Castele à feme, et li dona chastiaus en
@@ -2290,7 +2290,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.6">
                         <head>§ 6.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Nuper</emph><note>Idem archidiac. S. Andreæ in Scotia, cap.
+                            <emph>Nuper</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note7">Idem archidiac. S. Andreæ in Scotia, cap.
                                 6 : <emph>Nuper</emph>, ibid.</note>. Se l'en otroie à aucun
                             tenir aucune chose à sa vie, s'il otroie icele chose ou partie à aucune
                             en doaire, l'en demende, quant li hom sera mort, se la feme le pot
@@ -2309,7 +2309,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.7">
                         <head>§ 7.</head>
                         <p>I<hi rend="sc">dem. arch. et ar</hi>. J<hi rend="sc">anen.</hi>
-                            <emph>Per tuas</emph><note>Idem archiepiscopo et archidiac. Genuen.,
+                            <emph>Per tuas</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note8">Idem archiepiscopo et archidiac. Genuen.,
                                 cap. 7 : <emph>Per vestras</emph>, ibid.</note>. L'en dit
                             contre un home qui redemendoit le doere sa feme, que il avoit chacée de
                             soi, et qu'il avoit la vérité teue quant il empétra les letres, que l'en
@@ -2326,7 +2326,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20.8">
                         <head>§ 8.</head>
                         <p> G<hi rend="sc">regorius nonus.</hi>
-                            <emph>Donatio</emph><note>Gregorius IX, cap. 8 :
+                            <emph>Donatio</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_20_note9">Gregorius IX, cap. 8 :
                                     <emph>Donatio</emph>, Decret, lib. 4, tit. 20.</note>. Ceste
                             décrétale est devisée en deus parties : primes dit l'en que, se don
                             est fet entre home et feme en mariage, et li un en soit plus povre, le
@@ -2388,13 +2388,13 @@
             </text>
             <text xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22">
                 <front>
-                    <head>XXII. De segondes noces<note>Decret. Greg. IX, lib. 4, tit. 21 :
+                    <head>XXII. De segondes noces<note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note1">Decret. Greg. IX, lib. 4, tit. 21 :
                                 <emph>de Secundis nuptiis.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22.1">
                         <head>§ 1.</head>
-                        <p> A<hi rend="sc">lexander</hi> III. <emph>Capellanus</emph><note>Alexander
+                        <p> A<hi rend="sc">lexander</hi> III. <emph>Capellanus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note2">Alexander
                                 III, cap. 1 : <emph>Capellanum</emph>, ibid.</note>. Un
                             chapelain avoit fet bénoïçon de deus, qui segonde foiz estoient
                             mariez : l'en dit qu'il doit estre sospenduz de l'ofice et do
@@ -2405,7 +2405,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22.2">
                         <head>§ 2.</head>
                         <p> L<hi rend="sc">ucius.</hi>
-                            <emph>Dominus</emph><note>Lucius III universis Christianis in
+                            <emph>Dominus</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note3">Lucius III universis Christianis in
                                 captivitate Sarracenorum positis, cap. 2 :
                                 <emph>Dominus</emph>, ibid.</note>. L'en dit ci que feme ne se doit
                             pas marier, se ele n'est certaine de la mort son mari ; et s'ele se
@@ -2417,7 +2417,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22.3">
                         <head>§ 3.</head>
                         <p> U<hi rend="sc">rb</hi>. III. V<hi rend="sc">igilien. episcopo.</hi>
-                            <emph>Vir autem</emph><note>Urbanus III Vigiliensi episcopo, cap.
+                            <emph>Vir autem</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note4">Urbanus III Vigiliensi episcopo, cap.
                                 3 : <emph>Vir autem</emph>, ibid.</note>. L'en dit ci que haute
                             béneïçon n'est pas en segont mariage, que l'en ne face tort au
                             sacremant.</p>
@@ -2427,7 +2427,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22.4">
                         <head>§ 4.</head>
                         <p>I<hi rend="sc">dem.</hi>
-                            <emph>Super illa</emph><note>Idem Exonensi episcopo, cap. 4 :
+                            <emph>Super illa</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note5">Idem Exonensi episcopo, cap. 4 :
                                     <emph>Super illa</emph>, ibid.</note>. L'en demende se feme,
                             dedanz le tens qu'ele doit son mari plorer, se se pot marier sanz estre
                             mal renomée ? Et l'en dit que oï ; car demanois qu'il est
@@ -2436,7 +2436,7 @@
                     <div xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22.5">
                         <head>§ 5.</head>
                         <p><pb n="221"/>I<hi rend="sc">nno</hi>. III. P. <hi rend="sc">nobili
-                                mulieri</hi>. <emph>Cum secundum apostolum</emph><note>Innocentius
+                                mulieri</hi>. <emph>Cum secundum apostolum</emph><note xml:id="anonyme_LJP_l10_BNF_fr-2844_art_22_note6">Innocentius
                                 III P. nobili mulieri, cap. 5 : <emph>Cum secundum
                                     Apostolum,</emph> Decret., lib. 4, tit. 21.</note>. Quant le
                             mari fut mort, la feme demenda congié de soi marier, sanz encorre male

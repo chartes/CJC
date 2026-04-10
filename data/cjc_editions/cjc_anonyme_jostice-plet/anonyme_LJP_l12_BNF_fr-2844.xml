@@ -217,7 +217,7 @@
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01.28.1.9">
                         <head>§ {28.1.9}</head>
                         <div type="gp">
-                            <p>Ulpianus<note>Ulpianus] commençant par la lettrine <emph>P</emph>-
+                            <p>Ulpianus<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note1">Ulpianus] commençant par la lettrine <emph>P</emph>-
                                     dans le ms., distraction du rubricateur</note> dit : se
                                 aucuns a esté acusez et muert en prison ainz que il soit dampnez, si
                                 testamanz vaudra.</p>
@@ -241,7 +241,7 @@
                         <head>§ {28.1.12}</head>
                         <div type="gp">
                             <p>Julianus dit : li testamanz à cez qui sont mort en la poesté à
-                                lor ennemis<note>ennemis] <emph>enus</emph> dans le ms., corrigé
+                                lor ennemis<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note2">ennemis] <emph>enus</emph> dans le ms., corrigé
                                     d’après BR, cf. lat. <emph>qui in hostium potestate
                                         decesserint</emph></note> sont confermé par la loi que
                                 Cornelius fit, autresi comme se cil qui les firent ne fussent onques
@@ -291,7 +291,7 @@
                                 car ja soit ce que il ne poent fere testamant, neporquant il poent
                                 aquerre par testamant ou à aus ou à autres, si comme Marciaux dit. ¶
                                 {1} Li forsenez puent partir en testamant, ja soit ce que il que il
-                                ne puet fere testamant<note>testamant] <emph>testamant il ne puet
+                                ne puet fere testamant<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note3">testamant] <emph>testamant il ne puet
                                         fere testamant</emph> dans le ms. (répétition) ; à cet
                                     endroit, BR présentent un saut du même au même</note>. Il puet
                                 partir ou testamant por ce que il puet aquerre les testamanz, car
@@ -313,7 +313,7 @@
                                 pot pas fere testamant ; et s’il le fet, il ne vaut rien. Mes
                                 cil que il fist devant, ce vaudra ; il ne porra pas estre
                                 apelez à estre tesmoing do testamant ‹desque il ne puet fere
-                                    testament›<note>desque... testament] saut du même au même,
+                                    testament›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note4">desque... testament] saut du même au même,
                                     integré d’après BR, cf. lat. <emph>cum neque testamenti
                                         factionem habeat</emph></note>. ¶ {1} Se aucuns est dampnez
                                 que il eit fet libelle por diffamer [109rB] autrui, il est contenu
@@ -324,7 +324,7 @@
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01.28.1.19">
                         <head>§ {28.1.19}</head>
                         <div type="gp">
-                            <p>Modestinus dit : se li fiz ‹qui› est<note>fiz qui est] <emph>fiz
+                            <p>Modestinus dit : se li fiz ‹qui› est<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note5">fiz qui est] <emph>fiz
                                         est</emph> dans le ms., corrigé d’après BR</note> en bau, ou
                                 uns orfelins ou un serf, fet les tables de son testamant et il les
                                 seele, la possession de ses biens ne puet pas estre donee selonc cez
@@ -352,19 +352,19 @@
                                 ses freres estre tesmoinz. {3} Ce que nos avons dit de cez qui sont
                                 en bau, qui ne poent porter tesmoin en testamant, doit estre
                                 entenduz en toz tesmoinz de cez par qui aucunne chose est aquise.
-                                {4} Forsenez ne puet<note>puet] <emph>poent</emph> dans le ms.,
+                                {4} Forsenez ne puet<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note6">puet] <emph>poent</emph> dans le ms.,
                                     corrigé d’après BR, cf. lat. <emph>potest</emph></note> estre
                                 tesmoing de quoi il n’est ordinoires de sen pensee ; mes se la
                                 forsenerie l’entrelesse en aucun tens, lors puet estre
-                                tesmoing ; ‹et li testamenz›<note>Et li testamenz] intégré
-                                    d’après BR</note> que il parfist<note>parfist]
+                                tesmoing ; ‹et li testamenz›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note7">Et li testamenz] intégré
+                                    d’après BR</note> que il parfist<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note8">parfist]
                                         <emph>persist</emph> dans le ms., corrigé d’après BR, cf.
                                     lat. <emph>consummo</emph> « accomplir,
                                     parfaire »</note> devent la forssenerie veudra ; et la
                                 possessions des biens en porra estre demandee. ¶ {5} Je croi que cil
                                 qui est dampnez à rendre arrieres ce que il a pris en sa baillie ne
                                 pot estre tesmoing ou testamant, car il i est vee que il ne soit
-                                tesmoinz en nule cause. {6} Feme ‹ne› pot<note>ne pot]
+                                tesmoinz en nule cause. {6} Feme ‹ne› pot<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note9">ne pot]
                                         <emph>pot</emph> dans le ms., corrigé d’après BR, cf. lat.
                                         <emph>Mulier non poterit</emph></note> porter tesmoinz en
                                 testemant, mes en autres cas pot feme porter tesmoing. ¶ {7} Serf ne
@@ -383,12 +383,12 @@
                         <head>§ {28.1.21}</head>
                         <div type="gp">
                             <p>Cil meismes dist : li heir deivent estre nomé en apert si que
-                                l’en le<note>le] <emph>la</emph> dans le ms. corrigé d’après BR,
+                                l’en le<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note10">le] <emph>la</emph> dans le ms. corrigé d’après BR,
                                     « afin qu’ils soient entendus », cf. lat.
                                         <emph>Heredes palam ita, ut exaudiri possunt, nuncupandi
                                         sint</emph></note> puisse oïr ; il loest donc à celui
                                 qui fet son testamant que il les nomme ‹ou que il les escrive ;
-                                mes se il les nomme›<note>ou... nomme] saut du même au même, intégré
+                                mes se il les nomme›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note11">ou... nomme] saut du même au même, intégré
                                     d’après RB, cf. lat. <emph>licebit ergo testanti vel nuncupare
                                         heredes vel scribere : sed si nuncupat, palam
                                         debet</emph></note>, il les doit nomer apertement.
@@ -401,11 +401,11 @@
                                 testemant, l’en demande s’il la puet esclerier aprés ce que la
                                 sollenpnité do testamant est aconplie. Si comme se il avoit plusors
                                 sers et il en lessa .i., ne il n’esclera pas le quel il lessa ;
-                                ou se il lessa une chose<note>il lessa une chose] <emph>il les saune
+                                ou se il lessa une chose<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note12">il lessa une chose] <emph>il les saune
                                         la c.</emph> dans le ms., corrigé d’après RB, cf. lat.
                                         <emph>Titio legavit</emph></note> à Tyce et il avoit plusors
                                 amis qui avoent non Tyce ; ou s’il fu deceuz ou non ou el
-                                    seurnon<note>seurnon] seut non <emph>dans le ms</emph>., corrigé
+                                    seurnon<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note13">seurnon] seut non <emph>dans le ms</emph>., corrigé
                                     d’après RB, cf. lat. <emph>cognomen</emph></note> et il ne fut
                                 pas deceuz ou cors. Et ge cuit que il ne puet bien esclerer, que il
                                 ne done rien, ainz esclere à qui il l’a doné. ¶ Et s’il met aprés
@@ -414,19 +414,19 @@
                                 la chose que il lesse, l’en demande se il fet à droit. Et ge croi
                                 que il puet nomer la qualité de la chose ; car s’il ne la
                                 nomoit, il convendroit regarder ou as autres escritures ou à la
-                                costume à prodes homes ou à celes de region<note>region]
+                                costume à prodes homes ou à celes de region<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note14">region]
                                         <emph>religion</emph> dans le ms., cf. lat. <emph>ex
                                         consuetudine regionis</emph></note>. ¶ {2} Et testamanz en
                                 quoi tesmoing solent estre apelé por porter tesmoing, ‹il nos plest
                                 que cil qui i sont apelé por autre chose ne soient pas soffisant à
-                                porter tesmoign›<note>il nos... tesmoign] saut du même au même,
+                                porter tesmoign›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note15">il nos... tesmoign] saut du même au même,
                                     integré d’après RB</note>. Et ce doit estre issi entendu, que ja
                                 soit ce que il soient apelé por autre chose, neporquant, se il lor
                                 est dit ainz que l’en face le testamant que il soient comme
                                 tesmoinz, il poent por droit porter tesmoing. {3} Il convient fere
                                 testamant tot ensenble, si que il ne face en nu leu nule autre
                                 chose ; mes se l’en fet en aucunne ‹chose› qui apartiegne au
-                                testemant, li testamanz<note>testamanz] <emph>tesmoing</emph> dans
+                                testemant, li testamanz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note16">testamanz] <emph>tesmoing</emph> dans
                                     le ms., corrigé d’après RB, cf. lat. <emph>testamentum non
                                         vitiatur</emph></note> n’est pas failliz. Entre [109vB] lés
                                 et testamant n’a differance fors en ce que testamanz est fez
@@ -440,12 +440,12 @@
                                 une meisme poeté poons estre conté ou numbré des tesmoinz qui sont
                                 apelé au testamant. {1} Nos devon regarder la condicion des tesmoinz
                                 quant il seelent et non mie quant cil muert qui fet le testamant. Se
-                                il estoient ‹donc receu›<note>donc receu] <emph>done</emph> dans le
+                                il estoient ‹donc receu›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note17">donc receu] <emph>done</emph> dans le
                                     ms., intégré d’après RB, une confusion de tracée entre
                                         <emph>donc</emph>/<emph>done</emph> est probablement à la
                                     base de ce problème textuel</note> quant il seelerent le
                                 testamant, dou quel il pensent estre receu en tesmoing, chose qui
-                                puis soit avenue<note>avenue] <emph>aucunne</emph> dans le ms.,
+                                puis soit avenue<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note18">avenue] <emph>aucunne</emph> dans le ms.,
                                     corrigé d’après BR, cf. lat. <emph>si igitur cum signarent,
                                         tales fuerint, ut adhiberi possint, nihil nocet, si quid
                                         postea eis contigerit</emph></note> ne lor nuist point. ¶
@@ -461,13 +461,13 @@
                                 ait aucunne empreinte. {6} Il n’est nule dote que testamant ne
                                 puisse estre seelé par nuit. {7} L’en doit dire que les tables sont
                                 seelees ‹se li dras est seelez de quoi eles sont
-                                    covertes›<note>se... covertes] integré d’après RB</note>.</p>
+                                    covertes›<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note19">se... covertes] integré d’après RB</note>.</p>
                         </div>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01.28.1.23">
                         <head>§ {28.1.23}</head>
                         <div type="gp">
-                            <p>Se li testamanz<note>testamanz] <emph>tesmoing</emph> dans le ms.,
+                            <p>Se li testamanz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note20">testamanz] <emph>tesmoing</emph> dans le ms.,
                                     corrigé d’après BR, cf. lat. <emph>Si testamentum</emph></note>,
                                 que cil qui le fist resigna, est seelez de rechief des seaus à .ii.
                                 tesmoinz, il est parfez et vaut par le droit citeen, et par celi au
@@ -490,7 +490,7 @@
                                 premiers heirs et il mori ancois que il nommast les segonz, l’en ne
                                 doit pas dire que il ait fet son testamant mes que il l’a
                                 commoincié ; cil qui furent nommé ne seront donc pas
-                                    hoir<note>hoir] <emph>nommé</emph> dans le ms., corrigé d’après
+                                    hoir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_01_note21">hoir] <emph>nommé</emph> dans le ms., corrigé d’après
                                     RB, cf. lat. <emph>itaque primos heredes ex eo testamento non
                                         futuros</emph></note> por ce testamant. Et Labeo dit que
                                 c’est voirs se il est certaine chose que cil qui fist le testamant
@@ -576,7 +576,7 @@
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02.30.1">
                         <head>§ {30.1}</head>
                         <div type="gp">
-                            <p>Ulpians dit : lés et choses<note>et choses]
+                            <p>Ulpians dit : lés et choses<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note1">et choses]
                                         <emph>eschoses</emph> dans le ms., corrigé d’après BR</note>
                                 enjointes sont un en totes choses.</p>
                         </div>
@@ -603,12 +603,12 @@
                         <div type="gp">
                             <p>Cil meismes dit : se aucuns lesse un champ et il est deceuz ou
                                 non, cil que il vot nomer est deuz ; mes s’il fut deceuz ou
-                                cors do champ, cil qu’i mostra ou numma est deuz<note>deuz]
+                                cors do champ, cil qu’i mostra ou numma est deuz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note2">deuz]
                                         <emph>deceuz</emph> dans le ms., corrigé d’après RB</note>.
                                 Se aucuns voloit lessier robe et il escrit veselemente, et il
                                 cuidoit que veselemente fut contenue par non de robe, Papiniens
                                 escrit que la robe n’est pas deue ; autresi comme se aucuns quidoit
-                                que archeauz ou latons<note>latons] <emph>le tens</emph> dans le
+                                que archeauz ou latons<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note3">latons] <emph>le tens</emph> dans le
                                     ms., corrigé d’après RB, cf. lat. <emph>quemadmodum si quis
                                         putet auri appellatione electrum vel aurichalcum
                                         contineri</emph></note> fut contenuz par non d’or, ou que
@@ -634,7 +634,7 @@
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02.30.7">
                         <head>§ {30.7}</head>
                         <div type="gp">
-                            <p>Paulus dit : li sires puet refuser<note>refuser] <hi rend="i">demander refuser</hi> dans le ms.</note> le lés qui est
+                            <p>Paulus dit : li sires puet refuser<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note4">refuser] <hi rend="i">demander refuser</hi> dans le ms.</note> le lés qui est
                                 lessiez à son serf.</p>
                         </div>
                     </div>
@@ -648,7 +648,7 @@
                                 Proculus dit que ge ne le puis pas demander aprés por heritage. ¶
                                 {1} Se aucuns fist son testamant à Rome, quant il se moroit, il
                                 commanda dedanz les trois jorz que il fu morz que si hers rendist
-                                les sers que Seye avoit, li lés est fait<note>fait]
+                                les sers que Seye avoit, li lés est fait<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note5">fait]
                                         <emph>fers</emph> dans le ms., cf. lat. <emph>ratum esse
                                         legatum</emph> « le legs est ratifié,
                                     valable » ; R <emph>est serf</emph>, B <emph>est
@@ -737,7 +737,7 @@
                             <p>Ulpianus dit : quant un serf est lessiez simplement sanz nomer,
                                 l’en le doit garder que ce ne soit ne li meaudres ne li pires. Et
                                 ceste sentence est confermee par les letres as enpereors Sevoirs et
-                                Antonins, cil<note>cil] <emph>siez cil</emph> dans le ms., cf. lat.
+                                Antonins, cil<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_02_note6">cil] <emph>siez cil</emph> dans le ms., cf. lat.
                                         <emph>qui rescripserunt homine legato</emph></note> à qui il
                                 est lessiez ne pot pas choisir. ¶ {1} Se cil qui fist le testamant
                                 lessa .i. certain champ et il n’apert pas do quel il entendi, li
@@ -823,7 +823,7 @@
                         <p>L'en dit ci que home qui n'est d'aage de quinze anz, et feme à douze anz,
                             ne puet fere testament, tot soit-il sanz père et sanz mère. Et s'il a
                             quinze anz et plus, il puet fere testament. Home et feme qui n'est an
-                            son droit, ne puet fere testament<note>Dig., lib. 28, tit. 1, frag. 5,
+                            son droit, ne puet fere testament<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_03_note1">Dig., lib. 28, tit. 1, frag. 5,
                                 6, pr. : <emph>Qui testamenta facere
                             possunt</emph>.</note>.</p>
                         <p>Home ou feme puet doner en testament le quint de son heritage, et toz ses
@@ -1037,22 +1037,22 @@
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05.2">
                         <head>§ 2.</head>
-                        <p>Numbre donc les persones qui sont en chescun degré<note>Dig., lib 38,
+                        <p>Numbre donc les persones qui sont en chescun degré<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note1">Dig., lib 38,
                                 tit. 10, frag. 10, § 7-11 : <emph>de Gradibus, et affinibus, et
                                     nominibus corum</emph>.</note> :</p>
                         <p><pb n="226"/>Ou premier degré de lignage, en amontant, sont li pères et
                             la mère ; en avalant, li fiz et la fille ; et en ce degrié ne
-                            puet plus avoir<note>Dig., lib. 38, tit. 10, frag. 10, § 12.</note>.</p>
+                            puet plus avoir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note2">Dig., lib. 38, tit. 10, frag. 10, § 12.</note>.</p>
                         <p>Ou segont degré a deus (<emph>douze</emph>) persones : ce sont li
                             eol et le aole de par père, et cil de par la mère, en amontent ; en
                             avalant, li nevoz et la nièce, de par le fil et de par la fille ;
                             de travers, le frère de père ou de mère, ou de l'un et de l'autre ;
                             ausi la serors. Mès la diversité des frères ne croist pas le
                             numbre : car il n'a nule différence de par qui aucun soit mon
-                                frère<note>Ibid., frag. 10, § 13.</note>.</p>
+                                frère<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note3">Ibid., frag. 10, § 13.</note>.</p>
                         <p>Il pot avenir en ces qui sont de dos pères et de dos mères, que cil qui
                             est frère mon frère ne m'apartient pas, et cil qui est mon frère ne li
-                            apartient rien<note>Ibid., frag. 10, § 13.</note>.</p>
+                            apartient rien<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note4">Ibid., frag. 10, § 13.</note>.</p>
                         <p>Ou tierz degré sont contenues trente-deux persones par degrez, qui sont
                             entendues par quatre manières. Car li dur père à ma dues eiaus et
                                 (<emph>i</emph>) sont, et cil e ma (<emph>à mes</emph>) deus
@@ -1063,49 +1063,49 @@
                             maria à mon pére, et ele me enfanta, ge sui ton oncle, ou tu li miens.
                             Et autresi avient-il des femes, se l'une se marie au fiz à
                             l'autre : car li mâles qui en nest est oncle li un à l'autre, et
-                            les femes sont ausint<note>Ibid., frag. 10, § 14.</note>.</p>
+                            les femes sont ausint<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note5">Ibid., frag. 10, § 14.</note>.</p>
                         <p>Se li frère prant feme, et la sor se marie, et chascun a enfanz, li
                             enfant á la sor apéleront lor frère lor oncle, et cil au frère apèleront
-                            la sor ente<note>Ibid., frag. 10, § 14.</note>.</p>
+                            la sor ente<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note6">Ibid., frag. 10, § 14.</note>.</p>
                         <p>Li frères ma mère est mon oncle, autresi comme li frères mon père.</p>
                         <p>Se ge prant ta fille et tu la moie, li enfant masle qui nestront de noz,
                             seront oncle li un à l'autre ; et la femeles seront ausi l'une à
                             l'autre  ; et por cele meisme reson seront li mâle oncle au
-                            femeles, et les femeles ausi au mâles<note>Ibid., frag. 10, §
+                            femeles, et les femeles ausi au mâles<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note7">Ibid., frag. 10, §
                             14.</note>.</p>
                         <p>La sor mon père est ma tante, et la sor ma mère. L'en doit savoir que li
                             fill el les filles au frère et a la seror n'ont pas espéciau non de <pb n="227"/>lignage, ausi comme li frères et la serors au père et à la
                             mère, en (<emph>ains</emph>) sont nomez fiz ou filles au frére ou à la
-                            seror, si comme l'en verra enprès que il avient en autres<note>Dig.,
+                            seror, si comme l'en verra enprès que il avient en autres<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note8">Dig.,
                                 lib. 38, tit. 10, frag. 10, § 14.</note>.</p>
                         <p>Li enfant au nevoz ou à la nièce sont entendu en quatre manières :
                             car il descent nevo de nevo de par le fil, ou de nevo de par la filie,
                             ou de la mère (<emph>nièce</emph>), de par l'un ou de par
-                                l'autre<note>Ibid., frag. 10, § 14, <emph>in
+                                l'autre<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note9">Ibid., frag. 10, § 14, <emph>in
                             fine</emph>.</note>.</p>
                         <p>Ou quart degré sont contenues quatre-vingts persones. Li beseaus mon père
                             qui est entenduz en huit manières : car il puet estre de par mon
                             père ou de par ma mère ; et si comme nos avons dit, totes les
                             parties devent estre entendues en deus manières ; et autresi la
                             beseole mon père. Et autresi sont dobles totes les persones pardevers
-                                lui<note>Ibid., frag. 10, § 15.</note>.</p>
+                                lui<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note10">Ibid., frag. 10, § 15.</note>.</p>
                         <p>Li frères mon eau est mon grant oncle, et cil nous est entenduz en quatre
                             manières : car il puet estre frères à l'eol de par le père, ou à
                             celi de par la mère. Cil qui est mon grant oncle est oncles mon père ou
                             a ma mère. Ma grant ante est la suer mon eau ou m'aole ; et autresi
                             estele entendue en deus manières, si comme nos avon devant dit ; et
                             por ce il sont entendues quatre persones. Et autresi cele qui est ante
-                            mon père ou ma mère<note>Ibid., frag. 10, § 15.</note>.</p>
+                            mon père ou ma mère<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note11">Ibid., frag. 10, § 15.</note>.</p>
                         <p>Ma grant ante est la sor mon eol ou ma eole ; et autresi est-ele
                             entendue en deus manières, si comme nos avon dit ; et por ce i sont
                             entendues quatre persones. Et autresi cele qui est ante mon père ou ma
                             mère, pardevers sa mère, est ma grant ante. Li frère me eole est mon
                             grant oncle, et contient quatre persones ; et cil est mon grant
                             oncle qui est oncles mon père ou à ma mère, pardevers son père, ou
-                            pardevers sa mère<note>Ibid., frag. 10, § 15.</note>.</p>
+                            pardevers sa mère<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note12">Ibid., frag. 10, § 15.</note>.</p>
                         <p>La sor ma eole est ma grant tante, et contient quatre persones par la
                             reson que nos avons mostré devant. Et cele qui est tante mon père ou ma
-                            mère, pardevers la soe mère, est ma grant tante<note>Ibid., frag. 19, §
+                            mère, pardevers la soe mère, est ma grant tante<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note13">Ibid., frag. 19, §
                                 15.</note>.</p>
                         <p>En ce meisme degré sont cil qui sont apelé cosin germain et coisines
                             germaines : ce sont cil qui nessent de deus frères et de deus
@@ -1116,10 +1116,10 @@
                             selon ce que nos avons devant dit ; car lignages puet venir
                             pardevers lo père ou pardevers la mère. Et autresi la fille à l'oncle ou
                             à la tante pot estre entendue en deus manières, por cele meisme
-                                reson<note>Dig., lib. 38, tit. 10, frag. 10, § 15.</note>.</p>
+                                reson<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note14">Dig., lib. 38, tit. 10, frag. 10, § 15.</note>.</p>
                         <p>Et se la seror et li nevoz et la nièce sont entendu chescun en deus
                             menières, si contendront-eles (<emph>seize</emph>) persones, se l'en
-                            entent que eles se doblent<note>Ibid.</note>.</p>
+                            entent que eles se doblent<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note15">Ibid.</note>.</p>
                         <p>Ou quint degré sont contenues <hi rend="sc">xxxiii</hi> (<emph>cent
                                 quatre-vingt-quatre</emph>) persones. Car li pères mon beseol, qui
                             est beseol mon père, et eol mon eol, contient <hi rend="sc">xxvi</hi>
@@ -1129,7 +1129,7 @@
                             la femeles contienent ces <hi rend="sc">vi</hi>
                                 (<emph>seize ?</emph>) persones. Et ausi comme les persones se
                             doblent pardevers le père, ausi se doblent-eles pardevers la mere,
-                            ensint com nos avons dit devant<note>Ibid., frag. 10, § 16.</note>.</p>
+                            ensint com nos avons dit devant<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note16">Ibid., frag. 10, § 16.</note>.</p>
                         <p>L'en ne pot venir à celi de qui l'en enquiert, fors par totes ces
                             persones de qui il nez ; et généraument de totes les persones que
                             il convient conter, chescune doit estre contée par quatre, selonc ce que
@@ -1143,7 +1143,7 @@
                             beseau à celui de qui l'en enquiert le lignage : (<emph>si</emph>)
                             contient <hi rend="sc">xxxii</hi> persones, que il convient totes
                             dobler, selonc ce que nos avon dit devant as autres degrez, si que l'en
-                            aist <hi rend="sc">lx. iiii</hi><note>Ibid., frag. 10, § 17.</note>. Li
+                            aist <hi rend="sc">lx. iiii</hi><note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note17">Ibid., frag. 10, § 17.</note>. Li
                             frères à celui éau est li tierz grant oncles : si contient seize
                             persones, et autresi convient-il que eles se doblent. Li frères à la
                             quarte eole est autresi li trez granz grant oncles, et contient autresi
@@ -1151,7 +1151,7 @@
                             convient-il de toz cez qui sont en <pb n="229"/>sixte degré, ou en
                             montant, ou en avalant, ou de travers, si que chascune des persones qui
                             i seront soient contées en deus manières : c'est pardevers le masle
-                            et pardevers la femele<note>Dig., lib. 38, tif. 10, frag. 10, §
+                            et pardevers la femele<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note18">Dig., lib. 38, tif. 10, frag. 10, §
                                 17.</note>.</p>
                         <p>Ou <hi rend="sc">vii</hi> degré sunt contenues M et <hi rend="sc">xxiii</hi> persones. En ce degré sont li pères et la mère au quart
                             eol et à la quarte eole, qui contient <hi rend="sc">c</hi> et <hi rend="sc">xxviii</hi> persones ; et chascune de cez personnes a
@@ -1159,11 +1159,11 @@
                             montant, ou en avalant, ou de travers, devent estre contées dobles,
                             selonc le générau enseignement que nos avons devant mis. Et por ce que
                             il a grant ennui et pou de profist en conter chacune persone par son
-                            nom, nos en pason ostre briemant<note>Ibid., frag. 10, § 18.</note>.</p>
+                            nom, nos en pason ostre briemant<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note19">Ibid., frag. 10, § 18.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05.3">
                         <head>§ 3.</head>
-                        <p>Adam<note>Gaius, frag. 1, 3, ibid.</note> dit : Li uns des degriez
+                        <p>Adam<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note20">Gaius, frag. 1, 3, ibid.</note> dit : Li uns des degriez
                             de lignage sont en montant, et li autre en avalant, et li autre de
                             travers. Cil en montant sont li pères et la mère ; et en avalant,
                             sont li fil et les filles ; de travers, li frères et les serors, et
@@ -1173,7 +1173,7 @@
                             vienent enprés. Aucun de cez qui vienent de travers poent partir à cez
                             qui vienent en montant. Mès l'en doit savoir que quant l'en enquiert
                             d'éritage ou de possession des biens, tuit cil qui sont de un meisme
-                            degré ne doivent pas partir ensemble<note>Ibid., frag. 1, pr.,§ 1,
+                            degré ne doivent pas partir ensemble<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note21">Ibid., frag. 1, pr.,§ 1,
                                 2.</note>.</p>
                         <p>Le premer degré en montent sont li pères et les mères ; en avalant,
                             li fiz et les filles. Au segont degré, en montent, sunt li eol et les
@@ -1181,7 +1181,7 @@
                             frères et les sors. Au tierz degré, en montant, sont li beseol et les
                             beseoles ; en avalant, li enfant au nevoz et à la nièce ; de
                             travers, li enfant au frère et à la seror, et li oncles et les tantes
-                            pardevers le père et pardevers la mère<note>Ibid., frag. 1, §
+                            pardevers le père et pardevers la mère<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note22">Ibid., frag. 1, §
                                 3-5.</note>.</p>
                         <p>Ou quart degré, en montant, et en avalant, et de travers, sunt li enfant
                             a cez qui sunt do tierz degré ; à icest meisme degré de travers
@@ -1189,7 +1189,7 @@
                             sont cil qui nessent des deus frères et des deus serors.</p>
                         <p>Ou quint degré, en montant, et en avalant, et de travers, sont li <pb n="230"/>enfanz à ces do quart ; et si sont en ce degré li
                             frère et la seror au beseol et à la beseole, et li cosin après
-                                germain<note>Dig., lib. 38, tit. 10, frag. 1, § 6, 7.</note>.</p>
+                                germain<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note23">Dig., lib. 38, tit. 10, frag. 1, § 6, 7.</note>.</p>
                         <p>Ou siste degré, en montant, et en avalant, et de travers, sont li enfant
                             a cez qui sont dou quint.</p>
                         <p>Ou <hi rend="sc">vii</hi>, sont li enfant à cez qui sont au siste. Por ce
@@ -1198,11 +1198,11 @@
                             dobles ; car quant nos disons li aol et li beseol, nos entendons de
                             ce qui sont pardevers père, ou pardevers mère ; car quant nos dison
                             nevoz et nèices, nos entendon cez qui viennent des fiz, et cez qui
-                            vienent des filles<note>Ibid., frag. 3.</note>.</p>
+                            vienent des filles<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note24">Ibid., frag. 3.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05.4">
                         <head>§ 4.</head>
-                        <p>Adam<note>Modestinus, ibid., frag. 4.</note> dit : Quant l'en
+                        <p>Adam<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_05_note25">Modestinus, ibid., frag. 4.</note> dit : Quant l'en
                             enquiert de nature de lignage, l'en ne passe pas légièrement le setième
                             degré ; car nature ne soffre pas que aucun vive tant que cil degré
                             soit passez. L'en apele coisins ces qui sont d'une meisme racine. Et
@@ -1253,12 +1253,12 @@
                         <p>Adam dit : L'en doit savoir que héritage et garde vient par droiture
                             de lignage au plus prochein, pardevers père ou pardevers mère, à cele
                             partie don la chose mot ; et li baillis li done la possession des
-                                biens<note>Dig., lib. 38, tit. 10, frag. 10, pr. : <emph>de
+                                biens<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_06_note1">Dig., lib. 38, tit. 10, frag. 10, pr. : <emph>de
                                     Gradibus, et affinibus</emph>.</note>.</p>
                         <p>Nos apelons coisins toz cez que la loi apèle parenz de par père ou de par
                             mère. Et tuit cil rachètent de escheete, et de ball. Droiture de lignage
                             apartient as hers. Nessence de lignée vient par femes ; et cil sont
-                            frère qui sont nez de une mère, et non pas de un père<note>Ibid., frag,
+                            frère qui sont nez de une mère, et non pas de un père<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_06_note2">Ibid., frag,
                                 10, § 6.</note> ; et sont apelé à l'éritage à la mère, à tost
                             le héritage do premier mariage ; et li segont a conquez et a
                             l'escheete do segont mariage ; et les avenues qui vienent do
@@ -1266,7 +1266,7 @@
                             l'énéence. Et en montent et en avalent, n'a pas rachez. Et tuit cil qui
                             sont de un père, jà soit ce que il soit de diverses mères, sont frère de
                             père. Li droiz apèle toz pères et mères, jusques au tierz genol, c'est
-                            au tierz ael ; et d'iqui en avant sont apelé greignors<note>Ibid.,
+                            au tierz ael ; et d'iqui en avant sont apelé greignors<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_06_note3">Ibid.,
                                 frag. 7.</note></p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_06.3">
@@ -2015,7 +2015,7 @@
             </text>
             <text xml:id="anonyme_LJP_l12_BNF_fr-2844_art_16">
                 <front>
-                    <head>XVI. De la possession des biens do mariage et de la feme<note>Dig. lib.
+                    <head>XVI. De la possession des biens do mariage et de la feme<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_16_note1">Dig. lib.
                             38, tit. 2 : <hi rend="i">Unde vir et uxor</hi>.</note>.</head>
                 </front>
                 <body>
@@ -2077,7 +2077,7 @@
             </text>
             <text xml:id="anonyme_LJP_l12_BNF_fr-2844_art_18">
                 <front>
-                    <head>XVIII. Quant la possession des biens est donée segont les lois<note>Dig.,
+                    <head>XVIII. Quant la possession des biens est donée segont les lois<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_18_note1">Dig.,
                             lib. 38, tit. 14 : <emph>Ut ex legibus senatusve consultis bonorum
                                 possessio detur.</emph></note>.</head>
                 </front>
@@ -2090,14 +2090,14 @@
                                 <pb n="245"/>einsint la donrai-ge à celui qui la demendera, par la
                             reson de ce qu'ele mot de cele partie don il est do lignage, et par là
                             où il puet estre hers : car la possessions des biens ne li
-                            apartient pas autrement<note>Dig., lib. 38, tit. 14, frag.
+                            apartient pas autrement<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_18_note2">Dig., lib. 38, tit. 14, frag.
                             1.</note>.</p>
                     </div>
                 </body>
             </text>
             <text xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19">
                 <front>
-                    <head>XIX. Quele ordre doit estre gardée en la possession des biens<note>Ibid.,
+                    <head>XIX. Quele ordre doit estre gardée en la possession des biens<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note1">Ibid.,
                             tit. 15 : <emph>Quis ordo in possessionibus
                         servetur.</emph></note>.</head>
                 </front>
@@ -2122,7 +2122,7 @@
                             biens, estoit morz sanz fere testament, et puis li vint uns mesages qui
                             disoit que il n'estoit pas morz, ou que il avoit fet testament, et
                             insint commeince-il à doter se la possessions des biens li apartenoit ou
-                            non : li termes en quoi il dota ne li sera pas contez<note>Ibid.,
+                            non : li termes en quoi il dota ne li sera pas contez<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note2">Ibid.,
                                 frag. 2, pr.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19.2">
@@ -2130,23 +2130,23 @@
                         <p>Et autresint se il ne pot pas pleinement demender la possession des
                             biens, ainz le convient aler as plez, puis que il sot que cil fut morz
                             sanz fere testament : li jorz en quoi il en pleida ne li doivent
-                            pas estre contez<note>Ibid., frag. 2, § 1.</note></p>
+                            pas estre contez<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note3">Ibid., frag. 2, § 1.</note></p>
                         <p>Li tens en quoi li prévoz ne pot pas tenir les plez, por ce que il estoit
                             enbesoignez de commune besoignes, ou de privées, ne li doit pas estre
-                                contez<note>Ibid., frag. 2, § 2..</note></p>
+                                contez<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note4">Ibid., frag. 2, § 2..</note></p>
                         <p><pb n="246"/>Et se li prévoz estoit en une autre cité, cil à qui la
                             possession des biens apartient ne doit pas atendre que il veigne là où
                             il est, enz doit aler à lui, se il est dedanz vingt liues près de
-                                li<note>Dig., lib. 38, tit. 15, frag. 2, § 3.</note>.</p>
+                                li<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note5">Dig., lib. 38, tit. 15, frag. 2, § 3.</note>.</p>
                         <p>Se li enfes qui est encore au ventre sa mère doit estre mis en la
                             possession des biens, et li doit l'en doner de terme non pas tant
                             solement trente jors, mès tant que li enfes soit nez ; car se il
                             nest as trente jors, il doit avoir la possession des biens
-                                maintenant<note>Ibid., frag. 2, § 4.</note>.</p>
+                                maintenant<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note6">Ibid., frag. 2, § 4.</note>.</p>
                         <p><ref target="http://josticeetplet.huma-num.fr/items/show/6">Geufroi de la
                                 Chapele</ref> dit que l'en ne doit pas atendre le san que cil ont
                             qui ne dotent rien, mès celui que aucuns puet avoir, ou par lui ou par
-                            autres, por demender consoil à plus sage que il n'est<note>Ibid., frag.
+                            autres, por demender consoil à plus sage que il n'est<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note7">Ibid., frag.
                                 2, § 5.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19.3">
@@ -2154,7 +2154,7 @@
                         <p><ref target="http://josticeetplet.huma-num.fr/items/show/4">Johen li
                                 Monoiers</ref> dit : Se li pères set que la possessions des
                             biens soit achaete à son fiz, et li fiz ne le fet (<emph>set</emph>)
-                            pas, li sens au père ne nuist pas au fiz<note>Ibid., frag.
+                            pas, li sens au père ne nuist pas au fiz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note8">Ibid., frag.
                             3.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19.4">
@@ -2163,37 +2163,37 @@
                                 Beaumont</ref> dit : Se tu estoes sosmis à celui qui fut fet
                             heirs o toi, ou tu receus la possessions des biens, et ton compoignon ne
                             la volt demender : l'en entent qu'ele t'est tote donée, et il
-                            n'aura pas poer de demender la<note>Ibid., frag. 4, pr.</note>.</p>
+                            n'aura pas poer de demender la<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note9">Ibid., frag. 4, pr.</note>.</p>
                         <p>Li fiz a un an de terme à demender la possession des biens, non pas tant
                             solement quant il la demende comme fiz, mès quant il la demende comme
                             paranz. Et autresint quant li pères a franchi son fiz, jà soit ce que il
                             demende la possessions des biens comme patrons, neporquant il a un an de
-                            terme au demender la<note>Ibid., frag. 4, § 1.</note>.</p>
+                            terme au demender la<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_19_note10">Ibid., frag. 4, § 1.</note>.</p>
                     </div>
                 </body>
             </text>
             <text xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20">
                 <front>
-                    <head>XX. Des propres heirs<note>Ibid., tit. 16 : <emph>de Suis et
+                    <head>XX. Des propres heirs<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note1">Ibid., tit. 16 : <emph>de Suis et
                                 legitimis heredibus.</emph></note>.</head>
                 </front>
                 <body>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.1">
                         <head>§ 1.</head>
                         <p>Guillermes, évesques d'Orliens, dit que cil mort proprement sanz fere
-                            testament, qui pot fere testament, et ne le fist pas<note>Ibid., frag.
+                            testament, qui pot fere testament, et ne le fist pas<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note2">Ibid., frag.
                                 1, pr.</note>.</p>
                         <p>Et se le héritage à celui qui fist son testamenz n'est pas receuz, ou se
                             testamenz est roz ou voins, l'en dira proprement que il est morz sanz
                             fere testament. Mès l'en ne dit pas proprement que cil qui ne pot fere
                                 <pb n="247"/>testament, soit morz sans fere testament, si comme cil
                             qui a moins de quatorze anz, ou li forsenez, ou cil qui a (<emph>à
-                                qui</emph>) l'aministracion de ses biens est deffendue<note>Dig.,
+                                qui</emph>) l'aministracion de ses biens est deffendue<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note3">Dig.,
                                 lib. 38, tit. 16, frag. 1, pr.</note>.</p>
                         <p>Nos devon entendre que cil qui muert en cheitivoisons, mort sanz
                             testament ; car, segont la loi que li rois Phelipe fist, ses
                             éritages eschiet à cez à qui il escheist se il fust morz en la
-                                cité<note>Ibid.</note>.</p>
+                                cité<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note4">Ibid.</note>.</p>
                         <p>L'en puet demander, savoir mon, se cil qui est conceuz et nez de cele en
                             qui franchise fut lessie, que l'en a de léal mariage, est propres heirs
                             son père ? Et por ce que il nos plet que il ait naturez frans, ge
@@ -2207,24 +2207,24 @@
                             autresint comme celui qui nest en chestivoisons, et s'en revient ou son
                             père et o sa mère, se sis pères est donc franchiz après la demore, il
                             recevra le fiz en sa poeste ; et se il mort avant, l'en doit dire
-                            que li fiz sera son propre heir<note>Ibid., frag. 1, § 1.</note>.</p>
+                            que li fiz sera son propre heir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note5">Ibid., frag. 1, § 1.</note>.</p>
                         <p>Nos devons entendre propres heirs les fiz ou les filles
-                                naturés<note>Ibid., frag. 1,§ 2.</note>.</p>
+                                naturés<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note6">Ibid., frag. 1,§ 2.</note>.</p>
                         <p>Aucune foiz avient que li propre heirs est forclos, et que la borse le
                             roi a l'éritage, si comme quant li père est dampnez d'aucun griés
                             criminel ; et por ce n'a pas li fiz droiture en sa
-                                chose<note>Ibid., frag. 1, § 3.</note>.</p>
+                                chose<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note7">Ibid., frag. 1, § 3.</note>.</p>
                         <p>Adam dit : Se li fiz lesse à estre hoirs, tuit li nevo et totes les
                             nièces qui sont decenduees d'ans, vienent en son leu ; et ce vient
                             par naturel droiture. Se aucuns est pris et menez en chetivesons, et il
-                            mort, ses fiz et ses filles sont si heir<note>Ibid., frag. 1, §
+                            mort, ses fiz et ses filles sont si heir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note8">Ibid., frag. 1, §
                                 4.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.2">
                         <head>§ 2.</head>
                         <p>Enprès cez qui sont en la poeste au mort, sont apelé li coisin. Casius
                             apèle cez coisins qui sont joint par sanc ; et ce est
-                                voirs<note>Ibid., frag. 1, § 9, 10.</note>.</p>
+                                voirs<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note9">Ibid., frag. 1, § 9, 10.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.3">
                         <head>§ 3.</head>
@@ -2232,29 +2232,29 @@
                             joint par sanc. Et l'en doit ce issi entendre, se il n'en i a nul, ne
                             l'en n'est en apparence que il n'en i eist nul. Car se aucuns pot nestre
                             qui soit joint au mort par sanc, ou il puet revenir de chestivoisons, li
-                            parenz pardevers le père sont empoechié<note>Dig., lib. 38, tit. 16,
+                            parenz pardevers le père sont empoechié<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note10">Dig., lib. 38, tit. 16,
                                 frag. 2, pr. 1.</note>.</p>
                         <p>Enprès cez qui sont joint comme par sanc, ne (<emph>me</emph>) sont lor
                             enfant plus prochein, et ge aus, si comme li frère mon père, qui est mon
-                            oncles, et plusors autres persones<note>Ibid., frag. 2, § 1.</note>.</p>
+                            oncles, et plusors autres persones<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note11">Ibid., frag. 2, § 1.</note>.</p>
                         <p>Héritage eschiet au plus prochein parant de la partie dom la chose mot,
                             fors en fiez, où les femelles ne prennent rien, se eles ne sont plus
                             procheines. Et s'il i a plusors de un meisme degré, il sont tuit apelé,
                             si comme s'il i a deus oncles, et li uns d'aus a lessié un fiz, et li
                             autre deus, et lor père soit mort, li héritages sera partiz en trois, et
-                            aura chescun le tierz<note>Ibid., frag. 2, § 2.</note>.</p>
+                            aura chescun le tierz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note12">Ibid., frag. 2, § 2.</note>.</p>
                         <p>Ne il n'a point de différence se aucuns est sos (<emph>seul</emph>), ou
                             voc (<emph>avec</emph>) autres ; car cil est li plus procheins qui
                             n'a nul par devant lui, et cil est li plus lointiens après cui nus ne
                             vient ; et se aucuns est sos, il est li plus procheins et li plus
-                                lointeins<note>4 Ibid., frag. 2, § 4.</note>.</p>
+                                lointeins<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note13">4 Ibid., frag. 2, § 4.</note>.</p>
                         <p>Aucune foiz avient que nos recevon à l'éritage autre que celui qui estoit
                             li plus procheins de celui qui est morz, si comme se il fist son
-                            testament à un estrange<note>Ibid., frag. 2, § 5.</note>.</p>
+                            testament à un estrange<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note14">Ibid., frag. 2, § 5.</note>.</p>
                         <p>Nos quéron le plus prochein, non pas celui qui estoit li plus procheins
                             quant il mori, mès quant il fut certoine chose que il estoit morz. Nos
                             apelâmes le plus prochein de lui par lignage ; et se il le refuse,
-                            nos i apelons le plus prochein après<note>Ibid., frag. 2, §
+                            nos i apelons le plus prochein après<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note15">Ibid., frag. 2, §
                             6.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.4">
@@ -2262,7 +2262,7 @@
                         <p>Cil moismes dit : Se cil qui a esté franchiz est morz sans fere
                             testament, il est voirs que li héritages eschiet à ses propres heirs, ou
                             à ses parenz frans ; et s'il n'en i a nul fors que sers, la chose
-                            eschiet en la borse le roi<note>Ibid., frag. 3, pr.</note>.</p>
+                            eschiet en la borse le roi<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note16">Ibid., frag. 3, pr.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.5">
                         <head>§ 5.</head>
@@ -2276,7 +2276,7 @@
                             propre heir, ne la possession des biens comme coisins ; car il
                             apèle à la possession des biens celui qui estoit quant il morut, de qui
                             li héritages movoit, ou qui fut conceuz à sa vie. Car l'en puet dire en
-                            une manière que cil est qui est conceuz<note>Dig., lib. 38, tit. 16,
+                            une manière que cil est qui est conceuz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note17">Dig., lib. 38, tit. 16,
                                 frag. 6, 7.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.6">
@@ -2284,13 +2284,13 @@
                         <p>Li baillis promet la possession des biens, par non de lignage, à cez qui
                             estoient li plus prochein de mort ou tens que il morut. Car cez que l'en
                             apèle par costume nevoz, cez qui sont conceuz après la mort lor eol,
-                            n'est pas proprement apelez nevoz, mès par usage<note>Ibid., frag. 8,
+                            n'est pas proprement apelez nevoz, mès par usage<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note18">Ibid., frag. 8,
                                 pr.</note>.</p>
                         <p>Se aucuns lessa sa feme grosse et il avoit sa mère et sa sor, et sa mère
                             morut au vivent sa feme, et après ce sa feme ot un enfant mort :
                             l'éritage apartient à sa sor tote seule, par la lois. Car il est
                             certaine chose que sa mère morut, en ce que li héritages n'apartenoit
-                            pas à lui segont la lois<note>Ibid., frag. 8, § 1.</note>.</p>
+                            pas à lui segont la lois<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note19">Ibid., frag. 8, § 1.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.7">
                         <head>§ 7.</head>
@@ -2299,19 +2299,19 @@
                             lois, et l'un et l'autre lessèrent à recevoir l'éritage, et furent
                             empoechiez ou par mort ou par aucune reson, lor partie eschiet as autres
                             qui la recevront, jà soit ce que il more ainz que il li eschée ; et
-                            s'il muert enprès, il apartient à son heir<note>Ibid., frag.
+                            s'il muert enprès, il apartient à son heir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note20">Ibid., frag.
                             9.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.8">
                         <head>§ 8.</head>
-                        <p>Li fiz est li plus procheins parenz au père<note>Ibid., frag.
+                        <p>Li fiz est li plus procheins parenz au père<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note21">Ibid., frag.
                             12.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.9">
                         <head>§ 9.</head>
                         <p>Il n'est pas besoing que li propres heirs reçoive maintenant l'éritage au
                             père ou à la mère ; car, quant il eschiet, il sont mointenant heir
-                            par droit<note>Ibid., frag. 14.</note>.</p>
+                            par droit<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20_note22">Ibid., frag. 14.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_20.10">
                         <head>§ 10.</head>
@@ -2326,7 +2326,7 @@
                 <pb n="250"/>
                 <front>
                     <head>XXI. Ci titres est do consoil guillerme, évesque de la cité
-                            d'orliens<note>Dig., lib. 38, tit. 17 : <emph>Ad senatus-consultum
+                            d'orliens<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note1">Dig., lib. 38, tit. 17 : <emph>Ad senatus-consultum
                                 Tertullianum et Orphitianum.</emph>.</note></head>
                 </front>
                 <body>
@@ -2336,56 +2336,56 @@
                             comme se il est nez puis que l'en a demoré à doner à la feme franchise
                             qui li fut lessié, et se il fut nez puis que sa mère fut franchie, jà
                             soit ce que il fut conceuz en servage, il sera receuz en son héritage,
-                            segont les lois<note>Ibid., frag. 1, § 3.</note>.</p>
+                            segont les lois<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note2">Ibid., frag. 1, § 3.</note>.</p>
                         <p>Se li fiz fut conceuz en chetivesons, et il (<emph>i</emph>) fut nez, et
                             il en revient ou sa mère, il sera receuz à l'éritage par ce consoill. Et
                             se li fiz estoit frans quant sa mère fut morte, et il fut ramenez en
                             servage ainz que il receust l'éritage, li héritages ne vient pas à lui
                             par ce consoill, neis se il fut puis franchiz, se il n'a restrinction
-                                (<emph>restitution</emph>) par le bénéfice le roi<note>Ibid., frag.
+                                (<emph>restitution</emph>) par le bénéfice le roi<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note3">Ibid., frag.
                                 1, § 3, 4.</note>.</p>
                         <p>Et se li fiz est trez dou ventre sa mère puis qu'ele est morte, l'en doit
                             dire qu'ele (<emph>qu'il</emph>) aura son héritage, et pot demender la
-                            possession des biens<note>Ibid., frag. 1, § 5.</note>.</p>
+                            possession des biens<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note4">Ibid., frag. 1, § 5.</note>.</p>
                         <p>Cil qui est dampnez de crime capital, si comme des cinq granz meffez, si
                             comme de murtre, de rat, d'omicide, de traïson, ne pot demender
-                            l'éritage sa mère ne son père<note>Ibid., frag. 1, § 6.</note>.</p>
+                            l'éritage sa mère ne son père<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note5">Ibid., frag. 1, § 6.</note>.</p>
                         <p>Amenuissement de chief qui vient sauf son chetel, sauf la cité, ne nuit
-                            rien à avoir l'éritage<note>Ibid., frag. 1, § 8.</note>.</p>
+                            rien à avoir l'éritage<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note6">Ibid., frag. 1, § 8.</note>.</p>
                         <p>Se cele qui est moite avet un prochein parent et un fiz, et tandis com li
                             fiz se consoloit de recevoir l'éritage, li procheins parenz morut, et
                             après le fiz refusa l'éritage : l'en demende se li fiz ou coisin
                             aura l'éritage ? Et l'en respont que li plus près paranz le doit
-                                avoir<note>Ibid., frag. 1, § 11.</note>.</p>
+                                avoir<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note7">Ibid., frag. 1, § 11.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21.2">
                         <head>§ 2.</head>
                         <p>Cil meismes dit : Se la mère a esté franchie, o ele est naturelment
                             franche, ele aura le prou de ce consoill, qui donne au père ou à la mère
                             l'éritage à ses fiz. Nos apelons fiz ou filles cez qui sont nez de léal
-                                mariage<note>Ibid., frag. 2, pr., § 1.</note>.</p>
+                                mariage<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note8">Ibid., frag. 2, pr., § 1.</note>.</p>
                         <p><pb n="251"/>Mè se li fiz et la fille avoit plus de vingt-cinq anz, et le
                                 (<emph>se</emph>) s'offrirent à vandre por estre parçoner do pris,
                             et il sont puis franchi, la mère ne pot pas chalongier l'éritage, selonc
                             droit  ; car elle lesse à estre lor mère, et issint le dit li
-                            évesque Guillerme<note>Dig., lib. 38, tit. 17, frag. 2, § 2.</note>.</p>
+                            évesque Guillerme<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note9">Dig., lib. 38, tit. 17, frag. 2, § 2.</note>.</p>
                         <p>Et se ele conçut un fil en servage, et ele enfante puis qu'ele est
                             franchie, ele sera receue à l'éritage à son héritage
                             (<emph>fils</emph>), segont le droit. Autresint est-il, s'ele conçut
-                            quant ele estoit serve, et enprès fut franche<note>Ibid., frag. 2, §
+                            quant ele estoit serve, et enprès fut franche<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note10">Ibid., frag. 2, §
                                 3.</note>.</p>
                         <p>Et s'ele estoit franche quant ele conçut, e après fut amenée en servage
                             ele enfanta, et puis fut franchie, ele sera receue à son héritage,
-                            segont droit<note>Ibid.</note>.</p>
+                            segont droit<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note11">Ibid.</note>.</p>
                         <p>Et se ele estoit grosse quant ele fut franchie, l'en doit dire que ce li
                             doit valoir ; et ele sera receue à l'éritage son fil qui fut nez en
                             servage, si comme si franchise li fut lessie, et l'en demora à doner li,
                             et ele enfanta dedanz ce ; ou s'ele estoit en chestivoisons, et li
                             enfes s'en revint avoc (<emph>avec</emph>) li, hons (<emph>ou</emph>)
-                            s'ele enfanta puis qu'ele fut rachetée<note>Ibid.</note>.</p>
+                            s'ele enfanta puis qu'ele fut rachetée<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note12">Ibid.</note>.</p>
                         <p>Se la possession des biens est donée à un forsené, et il muert ainz que
                             il reviengne en son sen, et il let la possession des biens, ce ne nuira
-                            riens à la mère ne au père au mort<note>Ibid., frag. 2, § 11, <emph>in
+                            riens à la mère ne au père au mort<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note13">Ibid., frag. 2, § 11, <emph>in
                                     fine</emph>.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21.3">
@@ -2397,14 +2397,14 @@
                         <head>§ 4.</head>
                         <p>Cil do premier mariage (<emph>auront</emph>) quanquez ele avoit au jor
                             qu'à li assembla, et qu'ele conquist, et qui li avint, et qui li eschet,
-                            dom (<emph>dont</emph>) ele ert sésie au jor<note>Ibid., frag.
+                            dom (<emph>dont</emph>) ele ert sésie au jor<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note14">Ibid., frag.
                             4.</note>. Cil do segont mariage auront les escheetes et les conquez, et
                             cez qui seront ou segont mariage avenuz ; et issit en consiuance,
                             par toz les mariages. Et vet ausi de vilenages. Et li droiz de l'ostel
                             le roi i apela toz les enfanz iuiement à l'éritage lor mère. Do père vet
                             autrement des fiz, en la cité d'Orliens ; mès de vilenages vet
                             ausint comme nos avons devant dit.</p>
-                        <p><emph>De fiez</emph><note>L'intercalation de ce mot dans le texte n'est
+                        <p><emph>De fiez</emph><note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note15">L'intercalation de ce mot dans le texte n'est
                                 point justifiée par un changement de matière, au moins depuis le §
                                 4.</note>. — Li premers enfant de celui auront la moistié de
                             quanquez il a au jor qu'il se marie, par la reson do doere lor mère. De
@@ -2454,24 +2454,24 @@
                             paranz l'ait receu. Car les paroles qui sont dites, se un des fiz ne
                             reçoit l'éritage, ces paroles s'étendent molt ; et por ce qu'eles
                             s'atendent, il se puet repentir jusque un an ; car la possession au
-                            fiz pot estre demendée jusques à un an<note>Dig., lib. 38, tit. 17,
+                            fiz pot estre demendée jusques à un an<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note16">Dig., lib. 38, tit. 17,
                                 frag. 6, § 1.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21.10">
                         <head>§ 10.</head>
                         <p>Il est contenu en l'establissemant au prévoz, que li héritage à la mère,
-                            qui mort sanz testament, apartient as enfanz<note>Ibid., frag.
+                            qui mort sanz testament, apartient as enfanz<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note17">Ibid., frag.
                             9.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21.11">
                         <head>§ 11.</head>
                         <p>Cil muert sanz testament qui ne fet point de testament, ou qui ne le fet
                             pas par droit ; ou quant cil que il avoit fet par droit est roz ou
-                            vains ; ou se nus n'est heirs par ce testament<note>Instit., lib.
+                            vains ; ou se nus n'est heirs par ce testament<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note18">Instit., lib.
                                 3, tit. 1, pr. : <emph>de Hereditatibus quœ ab intestato
                                     deferuntur.</emph></note>.</p>
                         <p><pb n="253"/>Li héritages à cez qui morent sanz testament apartienent à
-                            lor fiz et à lor filles, et à lor coisinance<note>Instit., lib. 3, tit.
+                            lor fiz et à lor filles, et à lor coisinance<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note19">Instit., lib. 3, tit.
                                 1, pr., § 1.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21.12">
@@ -2483,7 +2483,7 @@
                             solement léal, mès qui furent devant nez, qui donèrent le commoincement
                             do léal nom à cez qui vindrent après. Et nos avons juigié que ce soit
                             tenable, se li enfant sont en garde (<emph>engendré</emph>) ou nez après
-                                ce<note>Ibid., § 2.</note> ; et soient apelez à l'éritage do
+                                ce<note xml:id="anonyme_LJP_l12_BNF_fr-2844_art_21_note20">Ibid., § 2.</note> ; et soient apelez à l'éritage do
                             père et de la mère, et ait quant as choses espérités, et non as
                             temporés.</p>
                     </div>

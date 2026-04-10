@@ -121,7 +121,7 @@
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01">
 				<pb n="1"/>
 				<front>
-					<head>I. De jotice et de plet<note>Dig., lib. 1, tit. 1, <hi rend="i">de
+					<head>I. De jotice et de plet<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note1">Dig., lib. 1, tit. 1, <hi rend="i">de
 								Justitia et jure</hi>.</note>.</head>
 				</front>
 				<body>
@@ -135,7 +135,7 @@
 							de tricherie, et ce que l'en doit fere de ce que n'est pas à fere ;
 							et convoitons ce à fere, non pas por paor de paine solemant, mès por
 							atente de loier ; et convoitons veraie filosofie, non mie
-								fause<note>Ibid., frag. 1 ; pr. et § 1.</note>.</p>
+								fause<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note2">Ibid., frag. 1 ; pr. et § 1.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.2">
 						<head>§ 2.</head>
@@ -147,7 +147,7 @@
 						<p>
 							<pb n="2"/>Droiz privez est partiz en trois : il est cuilli de
 							naturel commandemant, de vilains ou de borjois de citez, ou de
-								chevaliers<note>Dig., lib. 1, tit. 1, frag. 1, § 2.</note>.</p>
+								chevaliers<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note3">Dig., lib. 1, tit. 1, frag. 1, § 2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.3">
 						<head>§ 3.</head>
@@ -156,7 +156,7 @@
 							descent jeointure de mâle et de fumele, que nos apelons mariage, et
 							engendremant de meismes, et la noreture que nature enseigne ; et
 							nos veons bestes sauvages et autres bestes jostisier soi par ce
-								droit<note>Ibid., § 3.</note>.</p>
+								droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note4">Ibid., § 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.4">
 						<head>§ 4.</head>
@@ -164,12 +164,12 @@
 							droit naturel ; quar celui droit naturel apartient à totes bêtes,
 							et celui droit de gent solemant as homes communs est : ausi comme
 							nos obéissons à nos parenz par le commandemant nostre
-								Seignor<note>Ibid., § 2.</note>.</p>
+								Seignor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note5">Ibid., § 2.</note>.</p>
 						<p>Droiz s'acorde que nos ostains force et enjure, se l'eu la nos fet. Que
 							se aucuns fet riens por deffendre son cors, l'on li otroie qu'il face
 							par droit ; et com nature aist establi entre nos un cosinage loial,
 							desloial chose est que nus homs face conchiemant, ne barat à
-								autre<note>Ibid., frag. 3.</note>.</p>
+								autre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note6">Ibid., frag. 3.</note>.</p>
 						<p>Franchises sunt establies de droit de genz, et franchise est dom de
 							franchise ; car tant comme aucun est en servage, il est soz
 							main ; et se il est franchiz, il est hors dou pooir son mestre. Et
@@ -178,12 +178,12 @@
 							l'an ne savoit riens de franchise ; mès enprès ce que droiz de genz
 							trova cuvertage, enprès fu trovée franchise. Et com toz fussent homes
 							par nom, par droit de genz, trois menières de genz commençarent à
-							estre : frans, et sers, et franchi<note>Ibid., frag. 4.</note>.</p>
+							estre : frans, et sers, et franchi<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note7">Ibid., frag. 4.</note>.</p>
 						<p>Et de cest droit de genz furent establies batailles et genz
 							devisées ; et li règne et le seignories ; chans, vignes, prez,
 							mesons furent fetes ; marchez, venençons, loages, aloemant, gages,
 							obligemant sunt establies, estre (<emph>outre</emph>) unes autres qui
-							furent establies des droiz des citez<note>Ibid., frag. 5.</note>.</p>
+							furent establies des droiz des citez<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note8">Ibid., frag. 5.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.5">
 						<head>§ 5.</head>
@@ -192,7 +192,7 @@
 							ajoustons aucune chose en droit commun, nos fesons droit propre, c'est à
 							savoir droit de cité. Et cil droiz est escriz ou saint escrit de <pb n="3"/>Rome, si comme François l'usent. Droiz de citez est qui est
 							fez par le pueple et par les seignors et par l'autorité des princes
-							sages ; et cil droiz est par le commun profit<note>Dig., lib. 1,
+							sages ; et cil droiz est par le commun profit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note9">Dig., lib. 1,
 								tit. 1, frag. 6 et 7, pr., plus, quelques mots vers la fin du § 1 de
 								ce dernier fragment, dont <emph>Cil droiz est par le commun
 									profit</emph>, paraissent être une traduction.</note>.</p>
@@ -201,7 +201,7 @@
 							establissoit por soi, cil est propres droiz de cité. Et ce que naturel
 							raisons establist en totes genz, ce est gardé ausi comme partout ;
 							et est apelez cil droiz, droiz de genz, qu'avisés totes genz en
-								usent<note>Ibid., frag. 9.</note>.</p>
+								usent<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note10">Ibid., frag. 9.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.6">
 						<head>§ 6.</head>
@@ -210,7 +210,7 @@
 						<p>Li commendemant de droit son tiel : vivre honestemant, ne fere mal à
 							nul, rendre à chascun sa chose. Fè ce que tu voudras que l'en sache.</p>
 						<p>Le sen de droit est de savoir ou avoir les quenoissences des choses dou
-							ciel et de la terre, et de tort et de droit<note>Ibid., frag.
+							ciel et de la terre, et de tort et de droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note11">Ibid., frag.
 							10.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.7">
@@ -225,7 +225,7 @@
 							l'en i fet ; lequel leu nos poons issit dire que là où li prévost
 							siet, sauve la digneté et sauve la costume as serganz, celui leu puet
 							estre apelé droit. Aucune foiz apele l'en droit, besoing : si comme
-							droit en aucune chose ou par lignage ou par affinité<note>Ibid., frag.
+							droit en aucune chose ou par lignage ou par affinité<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note12">Ibid., frag.
 								11 et 12.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01.8">
@@ -244,14 +244,14 @@
 						<p>Il nos est avis, et mestier est, que nos mostrons l'orgine de droit et
 							les préos.</p>
 						<p>Com nos somes aperceu que li pueples fut sanz certaine loi et sanz
-							certain droit, nous feimes cest presciens ordeneemant<note>Dig., lib. 1,
+							certain droit, nous feimes cest presciens ordeneemant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_01_note13">Dig., lib. 1,
 								tit. 2, frag. 1, 2, pr. et § 1.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02">
 				<front>
-					<head>II. De lois et de longue tenue<note>Dig., lib. 1, tit. 3, <hi rend="hi">de
+					<head>II. De lois et de longue tenue<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note1">Dig., lib. 1, tit. 3, <hi rend="hi">de
 								Legibus, senatusconsultis et longa consuetudine.</hi></note>.
 					</head>
 				</front>
@@ -265,12 +265,12 @@
 							sovant.</p>
 						<p>Por un quas, se il avient aucune foiz, n'establist l'en mie droit ;
 							mès l'en doit plustost amener droit à ce qui avient sovant qu'à ce qui
-							po avient<note>Ibid., frag. 1, 3, 4 et 5.</note>.</p>
+							po avient<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note2">Ibid., frag. 1, 3, 4 et 5.</note>.</p>
 						<p>Loi a tel vertu qu'ele condampne, ele deffent, ele suefre, ele dampne les
-								mausfétors<note>Ibid., frag. 7.</note>.</p>
+								mausfétors<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note3">Ibid., frag. 7.</note>.</p>
 						<p>A toutes les foiz que aucune chose est fete por grever la loi, ce qui est
-							fet ne vaut riens<note>Ibid., frag. 25 (?).</note>.</p>
-						<p>Droit ne sont pas por chascun espéciaument, mès por toz<note>Ibid., frag.
+							fet ne vaut riens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note4">Ibid., frag. 25 (?).</note>.</p>
+						<p>Droit ne sont pas por chascun espéciaument, mès por toz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note5">Ibid., frag.
 								8.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02.2">
@@ -281,14 +281,14 @@
 							l'en retiengne ce que avient aucune foiz plus sovent, et por ce doit
 							l'en <pb n="5"/>establir plus certainement de ce qui fut establi au
 							commencement, par déclarement ou par establissement de bon
-								prince<note>Dig., lib. 1, tit. 3, frag. 9, 10, 11.</note>.</p>
+								prince<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note6">Dig., lib. 1, tit. 3, frag. 9, 10, 11.</note>.</p>
 						<p>Tuit li article ne puent pas estre chascun par soi en loiz ou en
 							establissemanz ; mès quant lor sentence est aparissanz en aucun
 							quas, cil qui est juges doit jugier de chose semblable, semblable ;
-							et ensint en doit l'en fere droit<note>Ibid., frag. 12.</note>.</p>
+							et ensint en doit l'en fere droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note7">Ibid., frag. 12.</note>.</p>
 						<p>Uns metres dit que toutes les foiz que une chose ou autre est amenée en
 							loi, bone chose est de sostenir, ou par apelement ou par certaine
-							juridicion, les choses qui tendent à un meisme profit<note>Ibid., frag.
+							juridicion, les choses qui tendent à un meisme profit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note8">Ibid., frag.
 								13.</note>.</p>
 						<p>Ce que est receu contre reison de droit, ne doit pas estre tenu.</p>
 						<p>Nos ne devons pas siure rigle de droit en ce que [est] establi contre
@@ -312,7 +312,7 @@
 							entendu dou tens qui est à venir.</p>
 						<p>L'en ne doit pas apeluer ce que est certainement apelué.</p>
 						<p>Vilene chose est, se l'en n'a toute la loi bien veue, de jugier ou de
-							respondre por un petit de la loi, si l'en l'a veue<note>Ibid., frag.
+							respondre por un petit de la loi, si l'en l'a veue<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note9">Ibid., frag.
 								14-24.</note>.</p>
 						<p>Nule reson de droit ne de bonté ne sueffre que nos menains à cruauté,
 							contre le profit au pueple, ce que est establi por le profit.</p>
@@ -329,7 +329,7 @@
 						<p>L'en fait boisdie à la loi quant l'en fet ce que ele deffent ou ce que
 							ele ne veaut pas.</p>
 						<p>Li princes n'est pas sus la loi, mès la loi est sus le prince ; quar
-							il li donèrent tiel privilige comme il avoient<note>Dig., lib. 1, tit.
+							il li donèrent tiel privilige comme il avoient<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note10">Dig., lib. 1, tit.
 								3, frag. 25-31. — Voy. sur le dernier principe, relativement au
 								pouvoir du prince, le Decret. Gratian., ; part. dist. 9, c. 2,
 								dont la pensée paraît plus conforme au précepte du ms. que le frag.
@@ -350,21 +350,21 @@
 							la costume, que par aus, que par lor choses, que par lor fez, est-il
 							tenu et gardé à droit que les lois soient abatues par désacostumance,
 							non pas solemant par l'aide de celui qui fet la loi, mès par le taire et
-							par le consentement de toz<note>Ibid., frag. 32.</note>.</p>
+							par le consentement de toz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note11">Ibid., frag. 32.</note>.</p>
 						<p>Longe costume seaut estre gardée por droit et por loi en choses qui ne
-							sunt pas escrites<note>Ibid., frag. 33.</note>.</p>
+							sunt pas escrites<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note12">Ibid., frag. 33.</note>.</p>
 						<p>Quant aucuns requenoist cotume de cité ou de province, ge di que l'en
 							doit savoir se cele costume a esté confermée en jugement
-								contredit<note>Ibid., frag. 34.</note>.</p>
+								contredit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note13">Ibid., frag. 34.</note>.</p>
 						<p><pb n="7"/>Cil droiz de costume est de si grant autorité et est si loez,
-							qu'il ne est pas mestiers qu'il soit mis en escrit<note>Dig., lib. 1,
+							qu'il ne est pas mestiers qu'il soit mis en escrit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note14">Dig., lib. 1,
 								tit. 3, frag. 36.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02.5">
 						<head>§ 5.</head>
 						<p>Se l'en demande que viot dire la loi : premièrement doit l'en voir
 							de quel droit la cité a usé çà arières en cest quas ; quar costume
-							fet bien entendre la loi<note>Ibid., frag. 37.</note>.</p>
+							fet bien entendre la loi<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note15">Ibid., frag. 37.</note>.</p>
 						<p>Loys rois dit que costume doit valoir loi : quant aucune doutance
 							ist de la loi, ele doit avoir l'autorité des choses qui tozjorz sunt
 							jugies. Ce qu'est amené avant par folie, sanz reson au comancement, et
@@ -374,7 +374,7 @@
 							confirma.</p>
 						<p>Tot droit parmaint ou au gaagnier ou eu garder ou eu perdre ; si
 							comme aucuns fet que aucune chose soit soe, ou que il garde sa chose, ou
-							que il la met hors de sa main, ou que il la pert<note>Ibid., frag.
+							que il la met hors de sa main, ou que il la pert<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note16">Ibid., frag.
 								38-41.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02.6">
@@ -398,7 +398,7 @@
 							pot ce fere par loi et par costume. Et l'en deffent que ce ne soit fet,
 							c'uns telz dons seit fez por fere domaige à autrui et par covoitisse, et
 							est fet contre bones mors.</p>
-						<p>Costume qui est doumageuse à juridiciun ne puet tenir<note>L'esprit de ce
+						<p>Costume qui est doumageuse à juridiciun ne puet tenir<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note17">L'esprit de ce
 								§ semble emprunté aux principes du Droit canonique sur la Coutume.
 								Voy. surtout les ch. 1, 9, 10, 11 du tit. 4, liv. 1 des Décrét, de
 								Grég. IX.</note>.</p>
@@ -411,7 +411,7 @@
 							et ce voloit fere por loi et por costume. L'en deffent que ce ne soit
 							fet, car lonctens tenir mauvese coutume ne apetize pas péchié, ainz le
 							croist ; et trespassemant de bone costume amène péril de perdurable
-								salu<note>Decret. Greg. IX, lib. 1, tit. 4, c. 11</note>.</p>
+								salu<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note18">Decret. Greg. IX, lib. 1, tit. 4, c. 11</note>.</p>
 						<p>Uns fit marchié à un autre par paroles acordées ; li acheterres
 							demanda son marchié, li autres dit que, pour ce que il i a paumée, est
 							marchié par cotume ; et il n'i ot point de paumée : que por ce
@@ -424,7 +424,7 @@
 							oïr pleider pour juger. L'en deffent que ce ne soit fet, mès de plus
 							sages homes de tot le païs face l'en jugeors.</p>
 						<p>Entent que l'en ne doit pas fol ne musart apeler à nul jugemant, ne à
-							doner consoil<note>Ibid., c. 2, 3.</note>.</p>
+							doner consoil<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02_note19">Ibid., c. 2, 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_02.8">
 						<head>§ 8.</head>
@@ -463,7 +463,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03">
 				<front>
-					<head>III. D'establissemanz<note>Dig., lib. 1, tit. 4, <hi rend="i">de
+					<head>III. D'establissemanz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note1">Dig., lib. 1, tit. 4, <hi rend="i">de
 								Constitutionibus principum.</hi></note>.</head>
 				</front>
 				<body>
@@ -478,31 +478,31 @@
 							persones, qui ne sont pas tretes en exemple, fors en la personne ;
 							quar ce que li princes a octroié à aucun por son servise, ou s'il punist
 							aucun ou s'il fet bien à aucun, ce ne vet pas à autre persone que à
-							celui, ne n'est pas establissemant<note>Ibid., frag. 1.</note>.</p>
+							celui, ne n'est pas establissemant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note2">Ibid., frag. 1.</note>.</p>
 						<p>Quant l'en veaut ou que l'en doit establir noveles choses, l'en doit
 							vooir s'eles sont profetables avant que l'en lest celui droit qui
-							longemant a esté nen juel<note>Ibid., frag. 2.</note>.</p>
+							longemant a esté nen juel<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note3">Ibid., frag. 2.</note>.</p>
 						<p><pb n="10"/>Nos devons apeler le bienfet le roi plenièrement
-							establissement, celui bienfet qui ist de sa débonèretié<note>Dig., lib.
+							establissement, celui bienfet qui ist de sa débonèretié<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note4">Dig., lib.
 								1, tit. 4, frag. 3.</note>.</p>
 						<p>Tot le droit que nos usons apartient as persones ou as choses ou as
 							demandes. Comme toz droiz soit establi por home, nos dirons premièrement
 							de l'estat as genz, et enprès, par ordre, si comme la chose le soffre,
-							des prochains et des paranz<note>Ibid., tit. 5, frag. 1 et
+							des prochains et des paranz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note5">Ibid., tit. 5, frag. 1 et
 							2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03.2">
 						<head>§ 2.</head>
 						<p>Li rois commande que les droiturères choses seient de toz gardées, et
 							segont s'autorité doit li juges jugier. Ne nus ne doit ovrer de son sen,
-							ne de son propre engin<note>Ici commence une série de maximes empruntées
+							ne de son propre engin<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note6">Ici commence une série de maximes empruntées
 								aux Décret. de Grég. IX, liv. 1, tit. 2,<hi rend="i">de
 									Constitutionibus.</hi></note>.</p>
-						<p>Loi dit G.<note><emph>Gregorius.</emph></note> : que avent que li
+						<p>Loi dit G.<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note7"><emph>Gregorius.</emph></note> : que avent que li
 							establissemant seit fet, cil qui fet encontre, la trespase : or dit
 							l'en que la constitucions ne regarde pas le tans qui est passez, mès
 							regarde le tans qui est à venir ; ne nus n'est liez de
-							constitucion, juqu'ele soit à lui venue<note>Decret. Greg., lib. 1, tit.
+							constitucion, juqu'ele soit à lui venue<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note8">Decret. Greg., lib. 1, tit.
 								2, c. 2.</note>.</p>
 						<p>Li apostre dit que il ne savet pas que covoitie fût péchié, se la loi ne
 							deist : Tu ne covoiteras pas. Ces paroles espont Augustins
@@ -510,13 +510,13 @@
 							qui de li ausi vant. Ausint quant aucune chose est otroïe ou deffandue,
 							tot ce est otroïé ou deffendu qui ensi vant de li ; quar quant la
 							loi dit : Tu ne covoiteras, a (<sic>sic</sic>, elle) deffant toz
-							maus ; car covoitise est racine de toz maus<note>Ibid, c. 3,
+							maus ; car covoitise est racine de toz maus<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note9">Ibid, c. 3,
 								4.</note>.</p>
 						<p>Salamon dit en paraboles, et Géroismes l'espont, et dit essi que cil
 							s'apoie à son san, qui ce que li plest à dire ou à fere met devant les
 							establissemant à sages. Et ce est pris en maie senefiance ; don
 							l'en deffent que li tesmoin n'ajote riens dou leur à lor
-								tesmoin<note>Ibid., c. 5.</note>.</p>
+								tesmoin<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note10">Ibid., c. 5.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03.3">
 						<head>§ 3.</head>
@@ -528,7 +528,7 @@
 							leur parz des rantes, et li autre aloient encontre par l'establissemant,
 							la cause fut portée devant le roi ; et li rois cassa
 							l'establissement, et <pb n="11"/>commende que tot viegne en
-							partie ; et de costume tuit devez estre parel<note>Decret. Greg.,
+							partie ; et de costume tuit devez estre parel<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note11">Decret. Greg.,
 								lib. 1, tit. 2, c. 6.</note>.</p>
 						<p>Enten : constitucion ne puet estre ou tort de ceaux qui sont à
 							venir, et encore est-ce rigle, que ce que chascuns establist de dreit en
@@ -545,7 +545,7 @@
 							sanz la volenté le roi, fussent nules ; que establissemens fete de
 							clers de fié ne vaut riens ; ne ne puet mestre clers fié en main
 							d'iglise sanz la volentei le roi ; et constitucion, s'ele est fete
-							encontre, ne le puet deffendre<note>Ibid., c. 7.</note>.</p>
+							encontre, ne le puet deffendre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note12">Ibid., c. 7.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03.5">
 						<head>§ 5.</head>
@@ -567,7 +567,7 @@
 							il sot qu'il avoent longuemant usé de cele costume ; il commende
 							qu'il en usent par la grâce qu'il lor en fet ; car tout fust-il
 							establi et eussent privilége dou roi, il ont fet en usent contre ce, et
-							qui fet contre son prince il i pert<note>Ibid., c. 9.</note>.</p>
+							qui fet contre son prince il i pert<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note13">Ibid., c. 9.</note>.</p>
 						<p>Li bochier de Estampes establirent entre eus qu'il n'iroent jamès <pb n="12"/>fondre aüné chiés les cordouaniers de Estampes, com meintes
 							feiz il i avoient alé. Li rois deffent que tiel establissement ne durt,
 							et se li bouchier sanz establissement ne veulent aler chiés les
@@ -577,7 +577,7 @@
 							durt et que li per soient arière mis, com la dignité de la jostise ne
 							puet estre amenuisie sanz le roi ; et plus sevent en un jugement
 							douze sage homes que quatre ; et qui fort lie fort
-								deslie<note>Decret. Greg., lib. 1, tit. 2, c. 12 ?</note>.</p>
+								deslie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note14">Decret. Greg., lib. 1, tit. 2, c. 12 ?</note>.</p>
 						<p>Li thalemelier d'une vile avoient un mestre par qui il se jostisient par
 							le commendement le roi. Li thalamelier et lor mestre establirent :
 							quiconques forferoit et iroit encontre les articles qu'il aveient
@@ -587,7 +587,7 @@
 							voloient recevoir à lor choses. Li reis sot ce, et abast cest
 							establissement, et commende que nus n'et tant forfet, si vient à
 							amendement, qu'il ne seit receu à esmandant de ce qu'il a
-								forfet<note>Ibid., c. 11.</note>.</p>
+								forfet<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note15">Ibid., c. 11.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03.7">
 						<head>§ 7.</head>
@@ -595,8 +595,8 @@
 							dou leu ; mès à requeste de bones genz, li sires a la
 							demande ; et s'ele est niée, li sires puet fere enquerre de sa
 							autorité et par sa queste fere le amander.</p>
-						<p>Li rois, par le consel<note>Le ms. porte <emph>paletons
-								sel.</emph></note> de ses barons, fist tel establissement<note>Voy.
+						<p>Li rois, par le consel<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note16">Le ms. porte <emph>paletons
+								sel.</emph></note> de ses barons, fist tel establissement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_03_note17">Voy.
 								Établissements de Saint-Louis, liv. 1, ch. 85, et le chapitre 26,
 								tit. 40, liv. 5, de <emph>Verborum significatione,</emph> dans les
 								Décrét, de Grég. IX.</note> : quant l'en ara soupecenos un home
@@ -629,7 +629,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04">
 				<front>
-					<head>IV. D'empétremanz<note>Decret. Greg., lib. 1, tit. 3, <hi rend="i">de
+					<head>IV. D'empétremanz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note1">Decret. Greg., lib. 1, tit. 3, <hi rend="i">de
 								Rescriptis.</hi></note>.</head>
 				</front>
 				<body>
@@ -640,7 +640,7 @@
 							de la cause Pierre et Estiene, apiau ôté. Perre, par achoison de
 							s'indulgence, apela. L'eu demande se l'en doit obéir à son apel, et l'on
 							dit que non, puisque la cause fut commisez sanz apeau ; quar
-							espécial commandemant apetice le général<note>Ibid., c. 1.</note>.</p>
+							espécial commandemant apetice le général<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note2">Ibid., c. 1.</note>.</p>
 						<p>Johans empétra letres dou roi ou meor d'Arraz, en ceste forme, que se il
 							savet que cele teneure don il fesoit mention à letres fust soie, que il
 							l'en meist en saisine. Quant ce fust prové, li meres l'en mist en
@@ -654,12 +654,12 @@
 							la sentance au meor soit tenue.</p>
 						<p>Antent : quant les letres sunt empétrées malicieusement et teue
 							vérité, et ne font mencion de prumères, eles ne valent
-								riens<note>Decret. Greg., lib. 1, tit. 3, cap. 2, <emph>de
+								riens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note3">Decret. Greg., lib. 1, tit. 3, cap. 2, <emph>de
 									Rescriptis.</emph></note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.2">
 						<head>§ 2.</head>
-						<p>Deus choses sunt dites en cest chapitre<note>Ibid., c. 3.</note> :
+						<p>Deus choses sunt dites en cest chapitre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note4">Ibid., c. 3.</note> :
 							que se aucuns enpètre letres sus aucunes causes, en aucunes guises, et
 							ses averseres sor celes causes, autres letres, (<emph>en</emph>) autre
 							guisse, (<emph>a</emph>) empétrées, la secunde letres ne valent, se eles
@@ -678,7 +678,7 @@
 							estre troblez, mès qu'il face diligemment l'afere que l'en li mande, ou
 							il s'acuse (<emph>excuse</emph>) cortoisement ; li roffist
 								(<emph>li rois soffrist ?</emph>) bénignement que li baillis ne
-							le feist, si com l'en li avet fet entendent fausement<note>Ibid., c.
+							le feist, si com l'en li avet fet entendent fausement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note5">Ibid., c.
 								5.</note>.</p>
 						<p>Enten que la parole le roi ne porte pas à hine, et de toutes choses
 							convient rendre reison ; ne ne souffist pas dire cause, s'ele ne
@@ -691,14 +691,14 @@
 							qu'il fust diens (<emph>doyen</emph>). L'en demende qu'en die droit ? Et
 							l'en respont que li diens n'est pas tenuz à respondre par tex
 							letres ; ne rescrit ne vaut riens en tel quas, s'il ne fet mention
-							de la digneté<note>Ibid., c. 6.</note>.</p>
+							de la digneté<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note6">Ibid., c. 6.</note>.</p>
 						<p>Li rois mande as borgois de Saint-Liz que il li receussent un home à
 							borgois et à frère en lor commune. Et quant il orent receues les letres
 							le roi, respondirent que ce n'iere mie à aus à fere, mès au meors et <pb n="15"/>as pers. Com cil alast au meor et as pers et portast le
 							mandement, il distrent que l'en ne lor mandoit riens par cez letres. Li
 							rois dit : com il refusent ses mandemenz, qu'il firent tort ;
 							comme il fussent borjois de la vile et eussent poer de ce fere, aus seus
-							deusent fere le commandement<note>Decret. Greg., lib. 1, tit. 3, c.
+							deusent fere le commandement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note7">Decret. Greg., lib. 1, tit. 3, c.
 								7.</note>. Entent que ignorance deffet chief et prince, et
 							commendement à vile fet, retorne sor le meor et sor les pers.</p>
 					</div>
@@ -706,7 +706,7 @@
 						<head>§ 4.</head>
 						<p>Aucuns qui ot granz richeces s'esforce à travaillier poures genz par les
 							letres le roi, en queles letres nule mention n'est fete de lor dignité.
-							L'en dit ci<note>Ibid., c. 8.</note> que tex letres sunt nules. Enten que
+							L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note8">Ibid., c. 8.</note> que tex letres sunt nules. Enten que
 							tex letres empétrées, teue vérité rent letres mauveses.</p>
 						<p>Uns hom enpétra letres contre Perre, par qui autorité cil Perres fut tret
 							en plet. Perres dit que il avoit letres premères de que les segondes ne
@@ -714,7 +714,7 @@
 							letres par tricherie ou par négligence, il ne doit pas estre acussez
 								(<emph>excusé</emph>) s'il puet avoir son juge ; et quant il ne
 							puet avoir son juge, les segondes sont vielles et les premères
-								valent<note>Ibid., c. 9.</note>. Enten : letres sont
+								valent<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note9">Ibid., c. 9.</note>. Enten : letres sont
 							perdurables, se l'en n'en laisse à user par malice ; et l'en ne
 							doit pas sor les parties corre, se le juges est aucune foiz
 							empêchiez.</p>
@@ -728,7 +728,7 @@
 							letres sont nules ; et se la rasure est en tel leu qu'ele ne soit
 							domageuse à l'aversaire, bien la puet l'en recevoir. Enten : por
 							rasure est dampnez li estrumanz ; et quant la rasure n'est
-							domageuse, l'en n'i doit pas metre force<note>Ibid., c
+							domageuse, l'en n'i doit pas metre force<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note10">Ibid., c
 							11 ?</note>.</p>
 						<p>Deus viles de communes plaidoent devant un baillif de la juridicion dom
 							il estoit contens. Li baillis aida à l'une des viles. Cil qui demandoit
@@ -756,14 +756,14 @@
 							tuit i soent. Mès li uns seuls ne puet connoistre, et s'il est
 							empêchiez, il doit mander son essoine par certain mesage ; et se il
 							non mande, il mesfet, ne l'en ne puet la juridicion tenir sanz
-								li<note>Decret. Greg. IX, lib. 1, tit. 3, c. 13.</note>.</p>
+								li<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note11">Decret. Greg. IX, lib. 1, tit. 3, c. 13.</note>.</p>
 						<p>Uns hons empètre unes letres et empètre unes autres letres à un autre
 							juge sor ce mismes quas. L'en demande : liquex juges doit
 							quenoistre, ou li premers ou li darreniers ? Et li rois dit :
 							se li derrenier font mencion des premères en rapelant, li darreniers
 							doit quenoistre ; et s'il i a contenz, il doit estre ostez par
 							arbitres esleuz d'une partie et d'autre : c'est en la première
-								part<note>Ibid., c. 14.</note>. En la segonde, demande l'en se il a
+								part<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note12">Ibid., c. 14.</note>. En la segonde, demande l'en se il a
 							ensint ès letres : Ge me plain de cestui et de plusors autres,
 							saver se plusors autres puent estre somons et enplédié ? Et l'en
 							dit que non ; s'eles ne font mencion des premières en rapelant.</p>
@@ -774,7 +774,7 @@
 							de tex, et d'uns et d'autres, de tex choses, et d'unes autres ;
 							souz ceste forme, entendent travailler dignes persones. Dont li rois
 							establist que, por acheison de tes letres, plus digne persone ne soit
-							traveillé. Ou segunt leu<note>Decret. Greg. IX, lib. 1, tit. 3, c.
+							traveillé. Ou segunt leu<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note13">Decret. Greg. IX, lib. 1, tit. 3, c.
 								15.</note>, dit l'en : se aucuns a letres dou roi où il ait mis
 							plus autres persones, non mie por eus ploidier, mès por ce qu'il puisse
 							traveller menors persones ; li rois dit que l'en ne doit mie
@@ -798,7 +798,7 @@
 							tenuz de respondre devant le segont, se l'en ne siet la première
 							juridicion estre rapelée ; et deux letres et deux juridicions
 							empétrées sor un meisme quas en boisdie, ne valent riens, se l'une ne
-							fet mencion de l'autre<note>Ibid., c. 16.</note>.</p>
+							fet mencion de l'autre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note14">Ibid., c. 16.</note>.</p>
 						<p>Li rois escrit as chenoines Seint-Aignan d'Orliens que il un poure clerc
 							receussent à chenoine par sa prière, et à fère (<emph>frère</emph>) en
 							lor ynglise ; et li chapitres se mervella mout, com li rois lor
@@ -809,7 +809,7 @@
 							fust riches clerz, il poeient bien savoir que tex letres estoient
 							empétrées par fauseté. Don li rois lor mande que quant il recevront ses
 							letres, se eles ne sont empétrées sanz fauseté et san teue vérité, qu'il
-							facent sa prière<note>Ibid., c. 17.</note>.</p>
+							facent sa prière<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note15">Ibid., c. 17.</note>.</p>
 						<p><pb n="18"/>Enten que se clerc empètre letres que l'en le porvoie comme
 							poure clerc, et il ait soufizanz bénéfices, les letres sont empétrées
 							par fauseté, ne ne valent riens.</p>
@@ -826,7 +826,7 @@
 							tenor des premères letres, ensint que se par l'autorité des premières
 							letres soient alé avant droitemant, que ce soit establi ; se ce
 							non, qu'il soit rapelé en noient. Et si com il dit desus, auge avant ou
-							plet sor le principau, et sor les accessors, apiau ôté<note>Decret.
+							plet sor le principau, et sor les accessors, apiau ôté<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note16">Decret.
 								Greg. IX, lib. 1, tit. 3, c. 18.</note>.</p>
 						<p>Enten que les paroles le roi n'ajostent riens en ses escriz contraire
 							droit commun. Et ansint com cause principau est envaie sans apeau,
@@ -849,7 +849,7 @@
 							letres, li baillis en tel quas ne doit pas aler avant ou plet, ne mès en
 							tel menière que il oet la vérité des parties apelées par devant
 							soi ; en cest quas, la reison qui moveroit li reis doit moveir le
-								baillif<note>Ibid., c. 20.</note>.</p>
+								baillif<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note17">Ibid., c. 20.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.8">
 						<head>§ 8.</head>
@@ -858,7 +858,7 @@
 							fit pas ès letres mencion de son covant ou de l'iglyse. L'en demende se
 								<pb n="19"/>il puet ? Et li rois dit que oïl, com li abés soit
 							tenuz de son office de procurer les afferes de son convant, ne ne s'en
-							puet deffendre par apeau qu'il ne reponge<note>Decret. Greg. IX, lib. 1
+							puet deffendre par apeau qu'il ne reponge<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note18">Decret. Greg. IX, lib. 1
 								tit, 3, c. 21.</note>.</p>
 						<p>Entan que par letres enpétrées solement contre abé, meismes de la cause
 							de convant, il puet estre plédiez ; et pot plédier l'abé s'il a
@@ -880,7 +880,7 @@
 							mencion des premères.</p>
 						<p>Enten que qui hors ist de la forme des letres, ne fet riens ; et qui
 							empètre letres teue vérité, ne fet riens sanz fere mencion des
-								premères<note>Ibid., c. 22.</note>.</p>
+								premères<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note19">Ibid., c. 22.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.10">
 						<head>§ 10.</head>
@@ -891,14 +891,14 @@
 							demande qu'en die droit ? Et l'en respont que se dedenz l'an,
 							puisqu'il puet avoir ses juges, et lesse à user de ses letres, enprès
 							l'an il porra estre convenuz par les segondes, bien ne facent-eles
-							mencion des premères<note>Ibid., c. 23.</note>.</p>
+							mencion des premères<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note20">Ibid., c. 23.</note>.</p>
 						<p>Enten : qui laisse à usser de ses letres outre cors de l'an, pert le
 							profit, et puet estre plédiez par les segondes, tout ne facent-eles
 							mencion des premères.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.11">
 						<head>§ 11.</head>
-						<p>Ceste loi<note>Ibid., c. 24.</note> est départie en trois parties :
+						<p>Ceste loi<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note21">Ibid., c. 24.</note> est départie en trois parties :
 							l'en dit en la première que aucuns juges dou roi mande au provost qu'il
 							pregne dou celui à un ; et uns autres juges dou roi mande qu'il ne
 							pregne riens. L'en demande <pb n="20"/>qu'en est de droit ? Et l'en
@@ -916,7 +916,7 @@
 						<p>En la segonde partie, l'en dit que li provoz doit garder qu'il ne die
 							qu'il dout de fere le commandement, comme il soit certains ;
 								(<emph>et qu'il soit certain</emph>) de fere le, comme il en
-								dout<note>Le texte dont cet alinéa paraît vouloir être une
+								dout<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note22">Le texte dont cet alinéa paraît vouloir être une
 								traduction, dit : « <emph>... ne vel ad declinandum
 									mandatum dubitare te dicas, ubi dubitandum non est ; vel
 									etiam ad exequendum te asseras esse certum, ubi certus esse non
@@ -934,24 +934,24 @@
 						<head>§ 12.</head>
 						<p>Robert empétra unes letres dou roi contre P. son aversaire, qui détenoit
 							un héritage que cil Robert disoit qu'il avet eue par tres-changie
-									persone<note><emph>Per interpositam personam.</emph></note>. A
+									persone<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note23"><emph>Per interpositam personam.</emph></note>. A
 							la parfin, cil P., por ce qu'il fu somons plusors foiz, ne vout venir
 							devant les juges, et li fruit de cel héritage furent mis en autre main.
 							Et com la soie chose li fust retenue, li rois mist ès letres de la
 							recréance jor et leu, que sis averseres fust par devant le roi. Et cil
-							Pierres rest le jor et le leu des letres<note>Diem et locum in litteris
+							Pierres rest le jor et le leu des letres<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note24">Diem et locum in litteris
 								illis radens.</note>, et escrit, ou leu de la rasure, que li fruit
 							qui estoient en autrui main li fussent baillié ; et cele male
 							fauseté il reconnuit par devant le juge. Li rois dit, quant il <pb n="21"/>requenut ce, qu'il ere fauseres ; l'en le devoit metre
 							en poine corporel. Car letres où il i apert rasures, li moz de la rasure
 							done et tout (<emph>damnent tout ?,</emph> c'est-à-dire
-								<emph>infirment tout</emph>), et les letres ne valent riens<note>Il
+								<emph>infirment tout</emph>), et les letres ne valent riens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note25">Il
 								faut sous-entendre, puisque <emph>les lettres ne valent rien,</emph>
 								qu'elles ne profiteront pas, malgré la falsification, à l'adversaire
 								de Pierre ; partant <emph>Robert n'aura pas pour cela
 									l'héritage ; car</emph>...</note> ; quar qui blâme
 							autrui à ce qu'il i a baillié fausses letres, por ce ne se loie-il
-								pas<note>Decret. Greg. IX, lib. 1, tit. 3, c. 25.</note>.</p>
+								pas<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note26">Decret. Greg. IX, lib. 1, tit. 3, c. 25.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.13">
 						<head>§ 13.</head>
@@ -964,7 +964,7 @@
 							se aucuns est despollez et requiert estre resaisiz, il ne souffist pas
 							tant solemant de dire qu'il ait esté despolliez, einz covient dire cause
 							por quoi ; letres empétrées, teue vérité, ne valent
-								riens<note>Ibid., c. 26.</note>.</p>
+								riens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note27">Ibid., c. 26.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.14">
 						<head>§ 14.</head>
@@ -977,43 +977,43 @@
 							bénéfice, ne qu'il soit pouvres clers, qui est soustenuz en tel
 							vicarie ; et li rois n'a pas acostumé demander en non de pouvre
 							clerc quant il est riches, se fauseté ne li est fete
-								entendanz<note>Ibid., c. 27.</note>.</p>
+								entendanz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note28">Ibid., c. 27.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.15">
 						<head>§ 15.</head>
-						<p>Cil chapitres<note>Ibid., c. 28.</note> est devisez en deux
+						<p>Cil chapitres<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note29">Ibid., c. 28.</note> est devisez en deux
 							parties : en la première l'en dit que cil qui demende enpètre
-							aucunes foiz letres as juges mult lonctans<note>Lointains.</note>, qu'il
+							aucunes foiz letres as juges mult lonctans<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note30">Lointains.</note>, qu'il
 							puissent travaller son aversaire de travail et despans ; l'en
 							establist que nus ne puisse travaller autre hors de la châtelerie, s'il
-							ne font mencion de cest establissement<note>Il faut sous-entendre, après
+							ne font mencion de cest establissement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note31">Il faut sous-entendre, après
 								ces mots <emph>s'il</emph> (si les lettres) <emph>ne font mencion de
 									cest establissement,</emph> des mots équivalents à
 								ceux-ci : « pour en faire l'objet d'une dérogation
 								spéciale. »</note>.</p>
 						<p>En la segonde partie, l'en dit que aucuns enpètrent letres, et quant <pb n="22"/>aucun est travaillez, si les li baillent, ou à celi qui
 							demende, qu'il ne soit travallez, ou por fere travaillier son
-								aversaire<note>Il s'agit des personnes qui obtiennent subrepticement
+								aversaire<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note32">Il s'agit des personnes qui obtiennent subrepticement
 								des lettres de <emph>juridiction ou de constitution de juges,</emph>
 								afin de contraindre le demandeur ou le défendeur à se racheter par
 								une somme d'argent, des inconvénients de procédures incertaines et
 								incommodes.</note>. Li rois establist ci que ces letres ne valent
 							riens, se eles ne sont enpétrées de espéciau commendemant au seignor qui
-							est chief de la chose<note>Le chef immédiat des personnes dont il
+							est chief de la chose<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note33">Le chef immédiat des personnes dont il
 								s'agit.</note> ; se ce n'est de teles persones qui soient si
 							dignes qu'eles (<emph>ne</emph>) doient avoir procurator en tex
-								choses<note>Le texte dont cet alinéa paraît être un extrait,
+								choses<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note34">Le texte dont cet alinéa paraît être un extrait,
 								dit : <emph>Nisi forte de illis personis extitterit, a quibus
 									non decet exigi de jure mandatum ;</emph> à moins qu'il ne
 								s'agisse de ces personnes dont la dignité est telle qu'elles n'ont
 								pas besoin d'être autorisées (à l'obtention des lettres) par une
 								décision (<emph>mandatum, espéciau commendemant</emph>) de leur chef
 								immédiat.</note>.</p>
-						<p>Enten que cil est lointains<note>Juge sous-entendu.</note> qui est hors
+						<p>Enten que cil est lointains<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note35">Juge sous-entendu.</note> qui est hors
 							de la chastelerie ; et torz ne doit pas netre de là d'où devent
 							naistre li droit ; et letres sont bones en partie et en partie
 							non ; et ascordemant des parties puet bien relâchier la dureté de
-								droit<note>Ce brocard correspond à une proposition du texte que le
+								droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note36">Ce brocard correspond à une proposition du texte que le
 								Coutumier a omise dans le premier alinéa, extrait du chap. 28. A
 								propos de cet établissement, qui, selon le Coutumier, défend
 								« que nul ne puisse travailler autre hors de la
@@ -1022,7 +1022,7 @@
 									impetratœ</emph> (litteræ). » Le Coutumier n'a pas rapporté
 								cette exception à la règle générale, et cependant il s'y
 								réfère.</note> ; et plez deivent mauz estre apetizez que
-								creuz<note>Observation analogue à la précédente. Le Coutumier n'a
+								creuz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note37">Observation analogue à la précédente. Le Coutumier n'a
 								pas rapporté dans son texte imité cette maxime du chap. 28 :
 									<emph>Lites restringendœ sunt potins quam
 							laxandœ.</emph></note> ; et sanz espéciau commendement, letres ne
@@ -1037,7 +1037,7 @@
 							héritage fors de la châtelerie où le héritage séoit. L'en demande qu'en
 							dit droiz ? Et l'en respont que l'en ne doit pas respondre hors de
 							la chastelerie d'où li fez muet, por oster achoison de traval ; et
-							aucuns demande jostice por la chose que l'en tient<note>Decret. Greg.
+							aucuns demande jostice por la chose que l'en tient<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note38">Decret. Greg.
 								IX, lib. 1, tit. 3, c. 29.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.17">
@@ -1047,9 +1047,9 @@
 							enpétra unes autres letres dou roi en cele forme, et mande au baillif
 							que s'il aloent encontre, qu'il pregne dou leur. Et com l'en eust pris
 							doù leur por les deux prévendes, il apelèrent au roi. Li rois commande
-							que l'en assie<note>Assigne.</note> bénéfice à celi qui premers présenta
+							que l'en assie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note39">Assigne.</note> bénéfice à celi qui premers présenta
 							les letres le roi, et qu'il lor rande les lor choses, et que li autres
-							clerz se teise<note>Decret. Greg. IX, lib. 1, tit. 3, c. 30.</note>.</p>
+							clerz se teise<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note40">Decret. Greg. IX, lib. 1, tit. 3, c. 30.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.18">
 						<head>§ 18.</head>
@@ -1057,7 +1057,7 @@
 							plusors ynglises, et aucunes foiz, quant il sunt receuz en ces ynglises,
 							bien i aient-il bénéfices, travaillent autres ynglises pour aus recevoir
 							par autres letres qui sont enpétrées do roi qui ne font mencion des
-								premères<note>Ibid., c. 32.</note>. Li rois commande qu'il se
+								premères<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note41">Ibid., c. 32.</note>. Li rois commande qu'il se
 							tiengnent au premer bénéfice, se lor letres ne font mencion des
 							premères.</p>
 					</div>
@@ -1074,7 +1074,7 @@
 							teue, tex letres ne fussent mie eues. L'autre partie monstra unes letres
 							enpétrées dernièrement [« en coi il estoit contenu cez dist
 							encontre com li plez fust devant le roi, et fust entanmez, et sor ce
-							envoia la cause au baillif »]<note>Pour trouver un sens à ce § il
+							envoia la cause au baillif »]<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note42">Pour trouver un sens à ce § il
 								faut supprimer les mots placés entre [ ].</note> : ci n'ot
 							vérité teue ne fauseté fete entendant, porquoi il ne doivent pas
 							laissier aut avant en la cause. Et com li baillif dit par interloqutoire
@@ -1091,7 +1091,7 @@
 							Et l'en respont que les derrenières letres ne rapelent pas les premères,
 							com il ne soit pas bele chose, ne droit ne souffre pas, que li rois
 							rapele son jugemant ou son mandement, s'il n'i a droite cause et bone
-								raison<note>Decret. Greg. IX, lib. 1, tit. 3, c. 33.</note>.</p>
+								raison<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note43">Decret. Greg. IX, lib. 1, tit. 3, c. 33.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.20">
 						<head>§ 20.</head>
@@ -1099,7 +1099,7 @@
 							le porveist ; et en celes letres n'avoit nule amonestacion. Li abés
 							ne le vost ; li baillis prist del sien. L'en demande qu'en die
 							droit ? Et l'en respont que li baillis fist tort, com il n'avoit
-							commendemant de ce fere, ne n'estoit amonesteor ne juges<note>Ibid., c.
+							commendemant de ce fere, ne n'estoit amonesteor ne juges<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note44">Ibid., c.
 								37.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.21">
@@ -1109,7 +1109,7 @@
 							chargié de la prière le roi. Li évesques respondi qu'il avoit receu un
 							autre au mandement le roi, et celui ne vost recevoir à chenoine. Dreit
 							dit qu'il puet ce fere, com li rois n'ait sor lui en tel chose que
-								prière<note>Ibid., c. 38.</note>.</p>
+								prière<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note45">Ibid., c. 38.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.22">
 						<head>§ 22.</head>
@@ -1121,7 +1121,7 @@
 							débonaireté, ne raison ne suefre pas que li abés soit grevez en tex
 							choses, ne ses mostiers ; et que se il n'i est grevez, qu'il la
 							doint au clerc ; et se il est grevez, bien en face son
-								preu<note>Ibid., c. 39 et 40.</note>.</p>
+								preu<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note46">Ibid., c. 39 et 40.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.23">
 						<head>§ 23.</head>
@@ -1136,10 +1136,10 @@
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04.24">
 						<head>§ 24.</head>
 						<p>Por ce que mult eussent (<emph>usent</emph>) diversement de letres, por
-							ce <pb n="25"/>establi l'en premièremant en cest chapitre<note>Decret.
+							ce <pb n="25"/>establi l'en premièremant en cest chapitre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note47">Decret.
 								Greg. IX, lib. 1, tit. 3, c. 43.</note> : que se aucuns enpètre
 							letres en son non, et cil les baille à autres qui aient autiel
-									non<note><emph>Eodem nomine.</emph></note>, qu'il en puisse
+									non<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_04_note48"><emph>Eodem nomine.</emph></note>, qu'il en puisse
 							travaler cels qu'il voudra : et cil qui les baille et cil qui les
 							praut, devent perdre le profit des letres, et estre dampné eu despans et
 							en paine.</p>
@@ -1157,7 +1157,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05">
 				<front>
-					<head>V. De postulacions<note>Ce titre est extrait du titre 5, <hi rend="i">De
+					<head>V. De postulacions<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note1">Ce titre est extrait du titre 5, <hi rend="i">De
 								postulatione prœlatorum,</hi> au livre <hi rend="sc">I</hi><hi rend="sup">er</hi> des Décrétales de Grégoire IX.</note>.</head>
 				</front>
 				<body>
@@ -1174,7 +1174,7 @@
 							meres, ne ne poet. A ce, la partie au meor de Crépi respondi et dist
 							que, bien eust-il celui receté, il ne savet pas que il fust forsbeniz.
 							Et li autre dient encontre que forbenissemanz, qui est fez en
-							généralité, ne porte pas acussacion<note>Excuse d'ignorance.</note>.
+							généralité, ne porte pas acussacion<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note2">Excuse d'ignorance.</note>.
 							L'en demande qu'en die droit ? Et l'en respont : quant il fu
 							forbeniz en général, il ne convint pas que il fu dist à chescun ;
 							car générau forbenissemanz amoine commune seue. Don li rois quasse sa
@@ -1182,7 +1182,7 @@
 							que l'en n'ait achesun de forbenissemant receter ; l'autre por ce
 							que l'en ne puet pas à chascun dire tel forbenissemant ; l'autre si
 							est, por ce qu'il requenuit qu'il l'avet receté, mais il non sevet pas
-							que il fust forbeniz<note>Decret. Greg. IX, lib. 1, tit. 5, c.
+							que il fust forbeniz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note3">Decret. Greg. IX, lib. 1, tit. 5, c.
 							1.</note>.</p>
 						<p>Quant la postulacions fut quassée, que li borgois de Conpeingne avéent
 							fet dou meor de Crespi, li baillis qui estoit lors, les manda en la
@@ -1195,7 +1195,7 @@
 							avoient requis persone non digne à lor esciant, et estoit doné le pooir
 							ès autres ; tot fussent-il pou, il avoient plus sain conseil quant
 							il eslurent le borgois de la vile : li rois le lor fet, et conferme
-								l'eslection<note>Ibid., ?. 2.</note>.</p>
+								l'eslection<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note4">Ibid., ?. 2.</note>.</p>
 						<p>Enten que cil qui eslisent persone non digne à lor esciant, perdent le
 							pooir d'eslire, et est donez à la menor partie.</p>
 					</div>
@@ -1218,7 +1218,7 @@
 							li rois n'a mie acostumé tel requeste recevoir en descorde, com requête
 							doivent plus estre célébrées de grâce que de droit. Don li rois manda à
 							cez borgois <pb n="27"/>qu'il eslisent à meor persone convenable, ou par
-							élection ou par requeste, ou par persone nomée<note>Decret. Greg. IX,
+							élection ou par requeste, ou par persone nomée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note5">Decret. Greg. IX,
 								lib. 1, tit. 5, c. 3.</note>.</p>
 						<p>Enten que li juges puet dire ce que faut as parties ; et gregnor
 							bien est avant le menor, et commun profit est avant le privé, et otroi
@@ -1236,7 +1236,7 @@
 							apelé de grâce. Et com les parties fussent devant le roi, ne li rois ne
 							fust pas certains de ce, il commende que se li borgois vuelent tenir lor
 							requeste, que cil soit meres, et s'il i avint contredit, que les parties
-							venissent à cort ; et se li borgois<note><emph>De la ville qui est
+							venissent à cort ; et se li borgois<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note6"><emph>De la ville qui est
 									delez Sens</emph> (voir plus haut).</note> lessoent lor
 							contredit, et la ville tenissent lor requeste, feissent autel ; et
 							se li borgois contredissoient et la vile ne quidast avoir droit, il
@@ -1248,7 +1248,7 @@
 							de la Vile-Nove à estre maior de Senz ; et nus de ceus de la vile
 							qui requéroient premièrement à estre (<emph>à l'</emph>) élection, ne
 							s'i acordèrent, fors que un. Et li rois, por le descorde qui fut en la
-							vile, et por ce qu'il avoient fet contre l'ordreit de droit<note>Contre
+							vile, et por ce qu'il avoient fet contre l'ordreit de droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note7">Contre
 								l'ordre de droit ?</note>, et por le péril qu'il i sot, ne
 							reçut mie lor requeste ; et lor manda que, s'il ne porvoient à lor
 							vile dedenz quarante jors, o l'asentement des borgois dou vilage, s'il
@@ -1260,7 +1260,7 @@
 							à lor acort cels qui avoient esleu l'autre, et envoerient au roi de lor
 							borgois por avoir miséricorde de lor requeste. Et li rois, por ce qu'il
 							sot qu'il orent fet segont la forme dou commendement, lor ostroia lor
-								requeste<note>Decret. Greg. IX, lib. 1, tit. 5, c. 4.</note>.</p>
+								requeste<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note8">Decret. Greg. IX, lib. 1, tit. 5, c. 4.</note>.</p>
 						<p>Enten que requeste est plus de grâce que de dreit ; et se li rois
 							outroie aucuns fez aucune chose, de sa débonaireté, il ne fet pas
 							tort ; et esleuz ne doit pas estre esleuz, mès requis ; et
@@ -1270,7 +1270,7 @@
 						<p>Enten que par requeste nul droit n'est conquis à celui que l'en requiert
 							; et par procurator qu'il a plenier poer de son seignor, sunt entendues
 							les persones présentes, et quanque est fet par aus, est ferme, ausint
-							com se li seignor fussent présenz<note>Ces maximes ou brocards que le
+							com se li seignor fussent présenz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note9">Ces maximes ou brocards que le
 								coutumier extrait de la discussion précédente, semblent se
 								rapporter, en même temps qu'au chapitre 4 ci-dessus cité, au
 								chapitre 5 dont notre manuscrit ne présente aucune espèce de
@@ -1284,14 +1284,14 @@
 							quassa le esliction, por ce que esliz esleuz ne puet estre esleuz, mès
 							requis ; et qui eslit home où il n'a poer, l'eslection ne vaut
 							riens : c'est à entendre home qui n'est de lor
-								juridiction<note>Decret. Greg. IX, lib. 1, tit. 5, c. 6.</note>.</p>
+								juridiction<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_05_note10">Decret. Greg. IX, lib. 1, tit. 5, c. 6.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06">
 				<front>
 					<head>VI. D'eslections, et de cels que l'en doit eslire, et des choses que l'en
-						doit faire par eslectton<note>Ce titre est extrait du titre 6, <hi rend="i">De electione et electi potestate,</hi> au livre <hi rend="sc">I</hi><hi rend="sup">er</hi> des Decrétales de Grégoire
+						doit faire par eslectton<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note1">Ce titre est extrait du titre 6, <hi rend="i">De electione et electi potestate,</hi> au livre <hi rend="sc">I</hi><hi rend="sup">er</hi> des Decrétales de Grégoire
 						IX.</note>.</head>
 				</front>
 				<body>
@@ -1312,7 +1312,7 @@
 						<p>Aucuns qui voloit estre meres, enpétra letres dou roi, que l'en se
 							consentist en lui fere meor. L'en dit ci que tel persone doit estre
 							refusée ; issint que s'il se repent, que n'en soit nus en droit, ne
-							en amende<note>Decret. Greg. IX, lib. 1, tit. 6, c. 2.</note>.</p>
+							en amende<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note2">Decret. Greg. IX, lib. 1, tit. 6, c. 2.</note>.</p>
 						<p>Enten que les venes proières ne sont pas tenables, ne recevables ;
 							et qui prie por soi d'avoir dignité, l'en doit entendre qu'il le fait
 							plus por la digneté avoir que por le salu de s'arme (<emph>son
@@ -1322,7 +1322,7 @@
 						<head>§ 3.</head>
 						<p>L'en dit ci que quant aucuns est esleuz segont droit, l'en doit enquerre
 							de lui et de s'âme et de ses mors, là ù il converse ; quar là le
-							set l'en miauz<note>Ibid., c. 3.</note>.</p>
+							set l'en miauz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note3">Ibid., c. 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.4">
 						<head>§ 4.</head>
@@ -1332,7 +1332,7 @@
 							doie.</p>
 						<p>Enten que par le confermemant le roi, est entendu plenier poer ; et
 							por niant demande, qui ne rient ce qu'il doit. Et li reis ne veaut riens
-							establir que l'en ne puisse et dée soffrir<note>Ibid., cap.
+							establir que l'en ne puisse et dée soffrir<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note4">Ibid., cap.
 							4.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.5">
@@ -1342,7 +1342,7 @@
 							puis guères qu'il fust esleuz un des douze pers de la commune. L'en
 							demande se s'eslections doit estre confermée, et l'en dit que oïl, s'il
 							n'a esté esleuz de tex qui fere ne le porent, et s'il n'i a chose autre
-							qui empêche s’élection<note>Ibid., cap. 5.</note>.</p>
+							qui empêche s’élection<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note5">Ibid., cap. 5.</note>.</p>
 						<p>Entent : quant aucuns a esté folement contre aucune vile et il vient
 							à esmendement, et il est receuz en la compaignie de la vile, et recovrez
 							toz les droiz qu'il avet por ce perduz.</p>
@@ -1357,12 +1357,12 @@
 							partie et de la plus seine veit avant.</p>
 						<p>Enten : aucun est establiz por ce qu'il est à venir ; et
 							eslections de <pb n="30"/>pape fete de deux parz, et la tierce se
-							descorde, est tenue por bone<note>Decret. Greg. IX, lib. 1, tit. 6, c.
+							descorde, est tenue por bone<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note6">Decret. Greg. IX, lib. 1, tit. 6, c.
 								6.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.7">
 						<head>§ 7.</head>
-						<p>Premèrement<note>Ibid., c. 7.</note>, l'en doit requerre trois choses en
+						<p>Premèrement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note7">Ibid., c. 7.</note>, l'en doit requerre trois choses en
 							celui qui est esleuz c'est à savoir dreit aage, honesté de bones mors,
 							escience convenable. Por ce, establist l'en, premers, que nus ne doit
 							estre esleuz an juridicion ou tenir, s'il n'a vingt anz passez, et qu'il
@@ -1372,7 +1372,7 @@
 						<p>Enprès, il dit que nus ne doit estre apelez en menors offices, c'est à
 							entendre estre pers, s'il n'a ausi vingt anz.</p>
 						<p>Enprès, l'en dit que se aucuns ont esleuz contre ceste forme, il devent
-							perdre poïr d'eslire en eslection portée au roi<note>Peut-être convient
+							perdre poïr d'eslire en eslection portée au roi<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note8">Peut-être convient
 								il de rétablir ainsi ces mots : « <emph>et</emph>
 								l'élection <emph>doit être</emph> portée au roi ; » dans
 								ce sens, que le roi pourvoira par une nomination directe au défaut
@@ -1390,7 +1390,7 @@
 							sor le baillif de la terre, et promistrent qu'il recevroient à meor
 							celui dom il les porverroit. Don li rois mande que cil soient parforcé à
 							recevoir meor celui que li baillis lor a porveu, se la persone est
-								convenable<note>Decret. Greg. IX, lib. 1, tit. 6, c. 8.</note>.</p>
+								convenable<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note9">Decret. Greg. IX, lib. 1, tit. 6, c. 8.</note>.</p>
 						<p>Enten que l'en puet bailler à quatre poer d'eslire ; et un puet
 							estre por toz en eslection ; et bien se mete l'en généraument en
 							aus, l'en doit entendre, tant qu'il doie eslire convenable persone.</p>
@@ -1400,7 +1400,7 @@
 						<p>Uns meres, avant qu'il fust confermez, aministra les choses de la méerie.
 							Li rois commenda que tot soit rapelé, quanque il fist davant ce qu'il
 							fust confermez, et qu'il remaigne en la merci le roi ; quar avant,
-							il ne puet ce fere<note>Ibid., c. 9</note>.</p>
+							il ne puet ce fere<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note10">Ibid., c. 9</note>.</p>
 						<p><pb n="31"/>Enten : devant confirmacion, ne puet-il aministrer des
 							choses de sa merie.</p>
 					</div>
@@ -1413,7 +1413,7 @@
 							celui vos présentez au roi. Et li rois quasse l'une eslection et
 							l'autre, et outroie as borgois poïr d'acorder aus d'autre persone
 							convenable, en tiel menière que la bone renomée des premiers esleuz en
-							soit bien gargée<note>Decret. Greg. IX, lib. 1, tit 6, c.
+							soit bien gargée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note11">Decret. Greg. IX, lib. 1, tit 6, c.
 							10.</note>.</p>
 						<p>Enten que la premère eslection non quassée, l'en ne doit pas fere autre
 							enprès ; quar eslection fete ne doit pas estre quassée sanz
@@ -1422,7 +1422,7 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.11">
 						<head>§ 11.</head>
-						<p>L'en dit ci<note>Ibid., c. 11.</note> que li baillis ou celui que li rois
+						<p>L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note12">Ibid., c. 11.</note> que li baillis ou celui que li rois
 							establira de sa bone volenté, doit conformer eslit.</p>
 						<p>Enten que aucuns puet fere par autre ce qu'il ne puet ne ne veaut fere de
 							soi.</p>
@@ -1430,7 +1430,7 @@
 							autre vile, où il ala ester. L'en demende se cele eslections doit estre
 							confermée ? Et l'en dit que oïl, se la premère eslections ne fust
 							quassée por le vice de sa persone, mès par la menière de
-								esliction<note>Ibid., c. 12.</note>.</p>
+								esliction<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note13">Ibid., c. 12.</note>.</p>
 						<p>Enten : se vice est provez une foiz en menière de barre, ce
 							n'empêche pas autre foiz eslection ; et s'empêchiez est sanz la
 							menière de l'eslection, li esliz est empêchiez en tel ynglise ou en
@@ -1443,7 +1443,7 @@
 							retrovèrent nul en la vile qu'il peussent prandre à meor ; et
 							requéroient un borgois d'une autre vile à meor, qui avoit esté de bone
 							vie et de bon renom. Li baillis le lor bailla ; et il le
-							présentèrent le roi, et li rois conferme cest ordenement<note>Ibid., c.
+							présentèrent le roi, et li rois conferme cest ordenement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note14">Ibid., c.
 								13.</note>.</p>
 						<p>Enten que borgois qui vienent (<emph>vivent</emph>) dissoluement et qui
 							dépiècent et dégastent les biens de la vile, ne sont pas por ce desposez
@@ -1460,7 +1460,7 @@
 							diligence mete l'en en ce, jusque l'en ait porveu à la ville ; et
 							quant ce sera fet, s'il est costume que l'en requière la volenté dou
 							prévost et que l'en requière la confirmacion dou roi, soient
-								requises<note>Decret. Greg. IX, lib. 1, tit. 6, c. 14.</note>.</p>
+								requises<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note15">Decret. Greg. IX, lib. 1, tit. 6, c. 14.</note>.</p>
 						<p>Enten que costume ne vaut riens contre la franchise de la vile, et
 							ellection doit estre fete là où li esliz doit estre, et ce que la plus
 							sene partie de la vile fet, toute la vile le fet.</p>
@@ -1473,7 +1473,7 @@
 							meres ne les poit forcer sanz espéciau commendement de la pape ? Li
 							rois commende qu'il soient forcié à amender le torfet qu'il ont fet,
 							come il ne soient mie queroné fors por tolir autrui son
-								droit<note>Ibid., c. 15.</note>.</p>
+								droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note16">Ibid., c. 15.</note>.</p>
 						<p>Enten : meor puet fere amender forfet par sa juridiction, et clerc
 							qui fet querone por tolir autrui son droit et por achever
 								(<emph>eschever</emph>) ses meffez, ne doit pas avoir privilége de
@@ -1486,7 +1486,7 @@
 							li meres avoit oï les contens, et que Perres avoit fete pez pardevant le
 							meor, et avet resiné à sa esliction, et li meres avet confermé Johan. Li
 							rois sot par bones genz que ces choses devant dites furent veres, et loe
-							le fet au meor<note>Ibid., c. 16 (?).</note>.</p>
+							le fet au meor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note17">Ibid., c. 16 (?).</note>.</p>
 						<p>Enten : meor puet quenoistre dou droit de l'eslection des pers, et
 							bone pez fete devant le meor doit estre tenable.</p>
 					</div>
@@ -1495,7 +1495,7 @@
 						<p>Une ville estoit vuide de meor. Li borgois eslurent un borgois de la vile
 							; et cil esliz, avant qu'il fust confermez dou roi, tint juridiction <pb n="33"/>et dona sentence en jugement contredit ; et d'autre
 							part il n'ert pas sages de sciance ; et por ce li rois quasse se
-							élection, et quanque est fet por lui est néant<note>Decret. Greg. IX,
+							élection, et quanque est fet por lui est néant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note18">Decret. Greg. IX,
 								lib. 1, tit 6, c. 17.</note>.</p>
 						<p>Enten que esliz à meor ou à per ne doit aministrer jusqu'il soit
 							confermez, et se il aministre, s'eslection est quassée.</p>
@@ -1511,7 +1511,7 @@
 							eslection ; et demandèrent lo roi savoir se li lontain devent estre
 							atendu ? Et li rois respont qu'il eslisent, et quant auuront esleu,
 							qu'il li présentent l'esliction, et il la confermera comme
-								rois<note>Ibid., c. 18.</note>.</p>
+								rois<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note19">Ibid., c. 18.</note>.</p>
 						<p>Enten que (<emph>qu'en</emph>) eslection de meor, de borgois tant
 							lonctens (<emph>lointains</emph>) ne devent pas estre atendu ; car
 							demore est moult sospeceneuse et domageuse en eslection ; et aucun
@@ -1519,7 +1519,7 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.18">
 						<head>§ 18.</head>
-						<p>L'en dit ci<note>Ibid., c. 19.</note>que quant li borgois furent tuit
+						<p>L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note20">Ibid., c. 19.</note>que quant li borgois furent tuit
 							ensemble por eslire, li uns apela que l'eslection ne fust fete ; et
 							com il se fust issuz de là où il s'estoient assemblié, li autre eslurent
 							un sergant le roi. Et comme il fussent devant le roi, li apeleor
@@ -1557,7 +1557,7 @@
 							aparne (<emph>épargne ?</emph>) moult à la vile, (<emph>en lui
 								permettant</emph>) qu'il puisse eslire un autre ; et s'il
 							eussent autre esleu avant qu'il receussent ceste sentence, li rois
-							quasse cele eslection<note>Decret. Greg. IX, lib. 1, tit. 6, c.
+							quasse cele eslection<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note21">Decret. Greg. IX, lib. 1, tit. 6, c.
 								20.</note>.</p>
 						<p>Enten que l'en ne doit pas bastart eslire ; et nus n'est contraint
 							de prover sou crime quant il le quenoist en tel quas ; et li rois
@@ -1584,7 +1584,7 @@
 							confermez, et bien se soient li autre mis au baillif por ce meor ;
 							quar il ne poient lessier la première eslection ; et se li esliz ne
 							s'i vout consentir, si soit l'eslections confermée, s'il est
-								sains<note>Décret. Greg. IX, lib. 1, tit. 6, c. 21.</note>.</p>
+								sains<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note22">Décret. Greg. IX, lib. 1, tit. 6, c. 21.</note>.</p>
 						<p>Enten que por petite maladie n'est esliz quassez ; et là où la mere
 							partie s'i acorde et se tient, là dit l'en que est la vile ; et
 							aucuns qui n'est pas présent puet estre esleuz ; et li borgois ne
@@ -1609,7 +1609,7 @@
 							autres juges, en tel forme, que si Johanz, au tens qu'il fust esleus,
 							n'iert sofisanz, qu'il confermassent Pierre ; se que non, qu'il
 							confermassent Johan et quassassent l'autre, et lou feissent tenir por
-								meor<note>Ibid., c 22.</note>.</p>
+								meor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note23">Ibid., c 22.</note>.</p>
 						<p>Enten que droit d'eslire est gardé en eslection, et se le numbre est
 							d'une part et d'autre yves (<emph>égal</emph>), la dignité sormonte ; et
 							la règle dit que l'ofice dou juge n'est pas solement metre en seisine,
@@ -1628,9 +1628,9 @@
 							avoent perdu lor poer d'eslire, et ert retorné à cels qui eslirent le
 							borgois, bien fussent-il pou. Li juge de avantage reçurent les tesmoinz
 							de çà et de là, et lor reisons, et quassa la requeste dou meor et
-							conferment l'eslection des borgois<note>Decret. Greg. IX, lib. 1, tit.
+							conferment l'eslection des borgois<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note24">Decret. Greg. IX, lib. 1, tit.
 								6, c. 23.</note>.</p>
-						<p>En la seconde part<note>Ibid., c. 23.</note>, l'en dit que cil confermez
+						<p>En la seconde part<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note25">Ibid., c. 23.</note>, l'en dit que cil confermez
 							alast à cort por mercier le roi, et l'autre partie apela au roi, et dist
 							deus choses sor l'eslection : l'une fut, que enprès apel fust
 							esleuz ; l'autre, qu'il fu esleuz de pou de genz. Et contre le
@@ -1662,7 +1662,7 @@
 							rois que, por ce que la partie qui n'avet riens forfet avet apelée
 							l'autre à fere l'eslection seconde, et cele <pb n="37"/>eslection avet
 							été treite de toz ; dun li rois juga que tot fussent receu à
-							l'eslection, et que l'eslection fust tenue<note>Decret. Greg. IX, lib.
+							l'eslection, et que l'eslection fust tenue<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note26">Decret. Greg. IX, lib.
 								1, tit. 6, c. 25. — Le coutumier omet de dire que le roi infirme la
 								seconde élection, et qu'il en ordonne une troisième, laquelle peut
 								avoir lieu avec le concours de tous, le pouvoir d'élire n'ayant été
@@ -1679,7 +1679,7 @@
 						<p>Come li rois feist enqueste en la vile de Pontoise, trois borgois de la
 							vile requistrent trois choses dou meor, por quex trois choses il ne se
 							porent consentir à sa eslection, et por quoi il avoit perdue à avoir la
-							maerie de Roan<note>Ibid., c. 26.</note>.</p>
+							maerie de Roan<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note27">Ibid., c. 26.</note>.</p>
 						<p>Enten que requenoissance de forfet fete hors jugement, ausin comme
 							confessions, nuist ; et qui eslit à esciant non digne persone, pert
 							le poir d'eslire.</p>
@@ -1691,13 +1691,13 @@
 							estre meres ; et que se eslections n'estoit pas fete segont
 							droit ; et qu'il n'estoit pas borgois de la vile, com de costume
 							nus n'ert borgois s'il n'avoit esté an et jorz. Des deus premières
-								choses<note>Le sens demande : <emph>des deux dernières
+								choses<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note28">Le sens demande : <emph>des deux dernières
 									choses.</emph></note> l'en ne fust pas certains : de ce
 							qu'il n'avoist pas esté en la vile an et jor, et de ce qu'il n'ert pas
 							borgois encore ; et de ce qu'il iert symoniax, l'en fut
 							certains ; et (<emph>l'on</emph>) mende que l'eslection soit
 							quassée, et qu'il s'asemblent et qu'il aillent eslire dedenz quarante
-								jors<note>Decret. Greg. IX, lib. 1, tit. 6, c. 26</note>.</p>
+								jors<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note29">Decret. Greg. IX, lib. 1, tit. 6, c. 26</note>.</p>
 						<p>Enten : qui n'est borgois de la vile, ne puet estre esleuz en
 							discorde.</p>
 					</div>
@@ -1708,9 +1708,9 @@
 							de quatre qui i devoient estre à l'eslection ; et contre la
 							persone, disoient l'en qu'il avoient aministré et que l'en avoit apelé
 							au roi, et sor ce, l'en avoit esleu. A tout ce l'en respont que le
-							nomemant de trois choses<note>Il s'agit de <emph>personnes</emph> et non
+							nomemant de trois choses<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note30">Il s'agit de <emph>personnes</emph> et non
 								de <emph>choses</emph>.</note> ne li nuit pas à s'eslection, à celz
-							qui furent nomez<note>Il faut entendre ainsi cet argument : La
+							qui furent nomez<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note31">Il faut entendre ainsi cet argument : La
 								nomunation des trois personnes n'a pu ; empêcher l'élection
 								d'avoir lieu, <emph>car elle n 'a conféré aucun droit</emph> aux
 								trois personnes qui ont été nommées.</note> ; <pb n="38"/>et
@@ -1718,10 +1718,10 @@
 							simple nomemant, mès droite eslection doie estre présentée au roi. Et si
 							li averseres ne voudrent venir, ne ne porrent, l'eslection ne doit pas
 							estre enpêchié por ce, s'il n'i furent, si autre nuisance n'i avoit. Et
-							s'il i furent lessié à apeler par despit<note><emph>Despit</emph> doit
+							s'il i furent lessié à apeler par despit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note32"><emph>Despit</emph> doit
 								être pris ici pour mépris, de <emph>despicere</emph>.</note>,
 							l'ellection est nule, se les parties ne s'acordent par bone
-								pez<note>Decret. Greg. IX, lib. 1, tit. 6, c. 28.</note>.</p>
+								pez<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note33">Decret. Greg. IX, lib. 1, tit. 6, c. 28.</note>.</p>
 						<p>Enten que plus nuist en ellection le despit d'un que contredit de
 							moz ; que par noméement de persone, n'a chil qui est nonmez nul
 							droiz.</p>
@@ -1731,11 +1731,11 @@
 						<p>Com une vile fust sanz meor, po des borgois de la vile eslirent
 							Robert ; li autre pluisor eslurent Geffroi, qui ne vost pas estre
 							meres en discorde. Cil qui eslurent Geffroi apelèrent au roi, que li
-							autre n'éleussent sanz le mere<note><emph>Mere (major)</emph>,
+							autre n'éleussent sanz le mere<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note34"><emph>Mere (major)</emph>,
 								c'est-à-dire sans le consentement de la <emph>plus grande</emph>
 								partie de la ville.</note> consentement de la vile. L'autre partie
 							eslut Robert, et apela que l'en ne feist riens contre l'eslection ;
-							et c'est la première partie<note>Decret. Greg. IX, lib. 1, tit. 6, c.
+							et c'est la première partie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note35">Decret. Greg. IX, lib. 1, tit. 6, c.
 								29.</note>. Enten : en la seconde partie, dit l'en que la
 							greignor partie de la vile eslurent Geffroi contre l'apiau, après
 							l'apeau et avant que la première eslection fust quassée. Quant li rois
@@ -1758,11 +1758,11 @@
 							por une persone, li autre dui s'i acordoient. Il avint que li troi
 							eslurent le meor de Saint-Liz, et mistrent leur requeste <pb n="39"/>en
 							la volenté le roi, et la puplièrent au commun ; et li autre dui
-							eslurent le borgois de la vile<note>Il faut sous-entendre que les deux
+							eslurent le borgois de la vile<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note36">Il faut sous-entendre que les deux
 								électeurs dissidents procèdent à leur nouvelle élection avec le
 								concours d'un certain nombre de bourgeois.</note>, et apelèrent li
 							troi que l'en ne feist riens contre aus : et c'est la première
-								partie<note>Decret. Greg. IX, lib. 1, tit 6, c. 30.</note>.</p>
+								partie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note37">Decret. Greg. IX, lib. 1, tit 6, c. 30.</note>.</p>
 						<p>En la segonde partie, disoit l'en por les borgois : que cum cil
 							esliseor se descordassent, li borgois lor ostèrent le pooir d'eslire, et
 							por ce que li troi apelé ne vindrent as borgois, li borgois eslurent un
@@ -1775,14 +1775,14 @@
 							poir d'eslire ; et le chapitre ne poet pas rapeler, come il avoient
 							jà esleu, et li troi s'acordoient à une persone.</p>
 						<p>En la quarte partie, quasse li rois le eslection as borgois de la vile,
-							non mie por le vice as borgois<note>Non pas à cause d'un défaut
+							non mie por le vice as borgois<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note38">Non pas à cause d'un défaut
 								intrinsèque chez les bourgeois de la Rochelle à procéder à
 								l'élection de leur maire, mais à cause de la validité de la première
 								élection faite par les cinq personnages auxquels, d'un commun
 								accord, on en avait délégué le pouvoir. </note>, et mende que l'en
 							enquière de la requeste au meor de Senz-Liz, et s'il est profetable à
 							estreper (<emph>extirper</emph>) par la trecherie de la Rochele, qu'il
-							soit mères de la vile<note>Ces derniers mots voudraient signifier qu'un
+							soit mères de la vile<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note39">Ces derniers mots voudraient signifier qu'un
 								des motifs pour lesquels le roi confirme la première élection, celle
 								du maire de Senlis, est que ce personnage était capable de corriger
 								la Rochelle, de quelques abus qui s'y étaient introduits :
@@ -1810,7 +1810,7 @@
 							demende se l'eslections doit estre quassée, ou que l'en doit
 							estre ? Et l'en respont com il ne devent eslire sans congié, et il
 							eslurent, il firent ce qu'il ne devoient pas fere ; et qui fet ce
-							qu'il ne doit pas fere, en tiel quas il ne fet riens<note>Le § 29 paraît
+							qu'il ne doit pas fere, en tiel quas il ne fet riens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note40">Le § 29 paraît
 								imité de la note <emph>y</emph>, sous le chap. 30 des Décrétales de
 								Grégoire IX. — On trouve dans le testament de Philippe-Auguste,
 								avant son départ pour la Terre Sainte (1190), des régles dont la
@@ -1824,7 +1824,7 @@
 							disoent, segont droit qu'il le devoient eslire, et segunt costume. Li
 							rois commende que la eslections que li meres fist, soit quassée, com de
 							droit naturel l'eslections apartiene as borgois de lor pars eslire et de
-							lor meor<note>Decret. Greg. IX, lib. 1, tit. 6, c. 31.</note>.</p>
+							lor meor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note41">Decret. Greg. IX, lib. 1, tit. 6, c. 31.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.31">
 						<head>§ 31.</head>
@@ -1842,7 +1842,7 @@
 							nomez, seroit tenu por meor ; ne li esliseor ne gardoient pas bien
 							la forme qui lor fust baillié, ançois eslurent Renaut à poi de cels de
 							la vile, dunt la vile fust gabée ; et disoient que Renauz ne fu mie
-							esleuz segont <pb n="41"/>naturel reison<note>Les adversaires de
+							esleuz segont <pb n="41"/>naturel reison<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note42">Les adversaires de
 								l'élection de Renaud reprochent aux trois électeurs commis d'avoir
 								arrêté leur choix sur une personne que ne leur désignaient pas les
 								suffrages de la majorité de la ville. Or, les trois électeurs
@@ -1851,24 +1851,24 @@
 							commende que li contradiseor jurent que par malice ne diront riens
 							contre l'eslection ; et li esliseor jurent ausin qu'il diront
 							vérité quant de ces borgois se consentirent à l'eslection
-									Renaut<note><emph>Quant</emph>.... combien de ces bourgeois ont
+									Renaut<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note43"><emph>Quant</emph>.... combien de ces bourgeois ont
 								participé à l'élection de Renaud.</note> ; et se li troi ou li
 							dui de cels qui eslirent, dient que la mere partie des borgois si s'en
 							consentist, li contrediseor ne soient plus oï. Et cum lor prueve ne soit
 							pas soffisant en chascun d'aus, l'en dit que l'eslection Renaut soit
 							quassée.</p>
-						<p>En la fin, l'en dist que Pierres, borgois de cele vile<note>Un des
+						<p>En la fin, l'en dist que Pierres, borgois de cele vile<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note44">Un des
 								adversaires de l'élection de Renaud.</note>, perde cent mars comme
 							il se obliga, que li esliz ert trop jouenes, com (<emph>quoique</emph>)
 							li baillis deit par droit qu'il avoit droit aage ; et la sentence
 							pasoit jà en chose jugée, com (<emph>puisque</emph>) l'en n'eust pas
-							apelé devant le roi dedenz les huit jorz<note>Decret. Greg. IX, lib. 1,
+							apelé devant le roi dedenz les huit jorz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note45">Decret. Greg. IX, lib. 1,
 								tit. 6, c. 32.</note>.</p>
 						<p>Enten que tot ne puisse pas li baillis lâchier droit sus aage d'aucun,
 							donques ne puet-il pas doner sentence. Et se vile est sanz meor, persone
 							digne puet estre esleus, non pas la plus digne ; et vaut le
 							eslection. Et cil qui propose barre, doit jurer que par malice ne la
-							dit. Et qui est sengles<note><emph>Sengles</emph>, traduction imitée de
+							dit. Et qui est sengles<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note46"><emph>Sengles</emph>, traduction imitée de
 									<emph>singularis. Voix d'un, voix de nun</emph>, disaient nos
 								aïeux ; <emph>Institutes coutumières</emph> de Loisel, livre v,
 								titre v, règle x.</note> en son tesmoin, n'est creuz. Et santance
@@ -1883,11 +1883,11 @@
 							et uns autres d'aillors fust nommez des deus. L'en demende laquele
 							eslection dut avant valoir ? et l'en dit à droit que cele qui fust
 							nomée des quatre, se il (<emph>si l'élu</emph>) se consentoit à
-							eslection, et se autre chose n'empeschoit<note>Decret. Greg. IX, lib. 1
+							eslection, et se autre chose n'empeschoit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note47">Decret. Greg. IX, lib. 1
 								x, tit. 6, c. 33,</note>.</p>
 						<p><pb n="42"/>Enten que quant poer est donez à aucuns d'eslire, il puent
 							eslire aucuns d'aus ; et por ce, s'il [ne] puet se eslire, il
-								[ne]<note>Le sens exige la suppression des deux négations placées
+								[ne]<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note48">Le sens exige la suppression des deux négations placées
 								entre [ ].</note> se puet bien consentir en eslection qui est fete de
 							lui.</p>
 					</div>
@@ -1902,7 +1902,7 @@
 							rois respont, que cil baillis ne fut pas esliseor ne quenesseor ;
 							mès il fut dénunceor : quar il dénonça la persone Phelippe
 							convenable, non pas Pierre, par maintes reisons.</p>
-						<p>En la seconde<note>Seconde partie du chapitre 34 des Décrétales de
+						<p>En la seconde<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note49">Seconde partie du chapitre 34 des Décrétales de
 								Grégoire IX, dont ce qui précède est pour le Coutumier la première
 								partie. — Ce chapitre est relatif à l'élection de l'empereur
 								d'Allemagne. Un légat du pape (1208), entre deux personnages sur
@@ -1942,7 +1942,7 @@
 							eslection et l'autre : cele dou fiz au meor, por ce que li droiz de
 							l'eslection porroit périr en ce, por ce qu'il fu filz de l'autre
 							meor ; l'autre, por ce qu'elle fut fete de la menor
-								partie<note>Decret. Greg. IX, lib. 1, tit. 6, c. 34, <emph>in
+								partie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note50">Decret. Greg. IX, lib. 1, tit. 6, c. 34, <emph>in
 									fine</emph>. Le pape établit ce grand principe issu de l'égalité
 								chrétienne : « <emph>Imperium non ex successione, sed ex
 									electione debetur</emph>. »</note>.</p>
@@ -1953,14 +1953,14 @@
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.35">
 						<head>§ 35.</head>
 						<p>Come l'en contençoit sor l'eslection de un meor, l'en dit que l'eslection
-							soit quassée, por ce que li borgois de deus jornées d'iqui<note><emph>De
+							soit quassée, por ce que li borgois de deus jornées d'iqui<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note51"><emph>De
 									là.</emph></note>ne furent pas semons ; et lor done l'en
-							poer d'eslire<note>On doit procéder à une nouvelle élection.</note>, et
+							poer d'eslire<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note52">On doit procéder à une nouvelle élection.</note>, et
 							ce que la greignors partie et la plus saine establira, soit gardée.</p>
 						<p>Enten que pis vaut, en eslection, le despit d'un que contredit de
 							mouz ; et cil qui est à deus jornées est apelez (<emph>à
 								être</emph>) présens, et ce que li greignor et li meillor font, doit
-							estre gardé<note>Decret. Greg. IX, lib. 1, tit. 6, c. 35.</note>.</p>
+							estre gardé<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note53">Decret. Greg. IX, lib. 1, tit. 6, c. 35.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.36">
 						<head>§ 36.</head>
@@ -1971,7 +1971,7 @@
 							autres qui ert somons, vint au jor qui li fu mis, et dist que li autre
 							avoient perdu le poer d'eslire, com il avoient despit qu'il avoient
 							esleu sanz lui, et avoient tresté l'eslection avant qu'il fust
-								morz<note>Les bourgeois avaient traité de l'élection avant la mort
+								morz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note54">Les bourgeois avaient traité de l'élection avant la mort
 								du maire, en appelant un des leurs qui était absent, et en lui
 								assignant surtout un jour fixe pour l'élection.</note>, et avoient
 							esleu avant qu'il fust enterrez ; et eslut Bernart. Et com les parties
@@ -1980,7 +1980,7 @@
 							quassée ; et la seconde, por trois causes : por ce qu'ele fut
 							fete avant que li meres fust enseveliz, et por ce que cil borgois fu
 							despiz, et por ce qu'il fu trétié de ellection avant sa
-								mort<note>Decret. Greg. IX, lib. 1, tit. 6, c. 36..</note>.</p>
+								mort<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note55">Decret. Greg. IX, lib. 1, tit. 6, c. 36..</note>.</p>
 						<p><pb n="44"/>Enten que quant la première ellection n'est quassée, l'en ne
 							doit pas autre fere ; et quant meres est morz et n'est pas enterrez
 							n'est pas bele chose de eslire meor ; et plus nuist en eslection le
@@ -1993,7 +1993,7 @@
 							de la vile, por ce qu'il le feissent meor. Et le fisent borgois, et
 								(<emph>le</emph>) fisent meor, et le présentèrent le roi. Et li rois
 							sot ces choses, et quasse l'eslection por ce que ele ne fust pas fete de
-								droit<note>Decret. Greg. IX, lib. x, tit, 6, c. 38.</note>.</p>
+								droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note56">Decret. Greg. IX, lib. x, tit, 6, c. 38.</note>.</p>
 						<p>Enten : nus ne se doit loer en tel quas.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.38">
@@ -2004,7 +2004,7 @@
 							le eslections ne vaut riens, com cele qui est fete de non digne persone,
 							ne l'en ne doit pas tel home honerer. Mès s'il est hors de son païs por
 							autres menuz forfez, le eslection vaut, com tel ne doit pas estre
-								deshonoret<note>Ibid., c. 39.</note>.</p>
+								deshonoret<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note57">Ibid., c. 39.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.39">
 						<head>§ 39.</head>
@@ -2020,7 +2020,7 @@
 							digne, soit quassé et la requeste et l'eslections. Et se la mere partie
 							ou toz eslisent à escient non digne, qu'il perdent por ce le poer
 							d'eslire, et s'il est dignes, en cest quas soit confermée
-								l'eslections<note>Ibid., c. 40.</note>.</p>
+								l'eslections<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note58">Ibid., c. 40.</note>.</p>
 						<p>Enten que quant aucuns est esleuz, l'en doit enquere de sa vie à cels
 							environ cui il a conversé. Et si li numbres des requéreors est au double
 							plus granz que li numbres des eliseors, la requeste doit valoir.</p>
@@ -2029,11 +2029,11 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.40">
 						<head>§ 40.</head>
-						<p>L'en dit en cest chapitre<note>Decret. Greg. IX, lib. 1, tit. 6, c
+						<p>L'en dit en cest chapitre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note59">Decret. Greg. IX, lib. 1, tit. 6, c
 								41.</note> que citez ne chasteaus ne doit pas estre plus de quarante
 							jorz sanz meor, ne plus de huit jorz sans pers.</p>
 						<p>Enten que se dedenz celui jor ou tens n'est fete le eslection, li poer
-							d'eslire est portez au roi ; et li rois li doit porver<note>Le roi
+							d'eslire est portez au roi ; et li rois li doit porver<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note60">Le roi
 								doit pourvoir au besoin d'un maire nouveau.</note>. Et lonc tens ne
 							doit pas nuire à cels qui n'ont poer d'eslire ; et aucuns d'autre
 							vile ne soit pas esleuz en la vile, tant com l'en truisse persone
@@ -2041,7 +2041,7 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.41">
 						<head>§ 41.</head>
-						<p>L'en dit ci<note>Decret. Greg. IX, lib. 1, tit. 6, c. 42.</note> trois
+						<p>L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note61">Decret. Greg. IX, lib. 1, tit. 6, c. 42.</note> trois
 							choses : La premère, si est que, se vile est sanz meor, et tuit cil
 							sont présent qui vuelent, et doivent, et puent bien fere le ellection,
 							trois d'aus soient esleuz, qui enquiergent la volenté de chascun. Et
@@ -2054,7 +2054,7 @@
 							ellection, s'il n'est si lonctans (<emph>lointain</emph>) en tiel leu
 							don il ne puisse pas venir ; et lors à un des borgois de la vile
 							porra bailler son fet.</p>
-						<p>En la tierce partie, dit l'en que élection fete en repost<note>En
+						<p>En la tierce partie, dit l'en que élection fete en repost<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note62">En
 								cachette.</note> ne vaut riens ; que quant ele sera fete, si
 							soit dite sollempnement.</p>
 						<p>Enten que ci baille l'en droite forme d'eslire ; et se aucuns apèle
@@ -2064,7 +2064,7 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.42">
 						<head>§ 42.</head>
-						<p>L'en dit ci<note>Decret Greg. IX, lib. 1, tit. 6, c. 43. — Le chapitre 43
+						<p>L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note63">Decret Greg. IX, lib. 1, tit. 6, c. 43. — Le chapitre 43
 								statue sur une élection ecclésiastique, favorisée par le pouvoir
 								temporel, et que le pouvoir spirituel se hâte de déclarer nulle avec
 								l'ardeur d'un grand zèle. Le § 41 du Coutumier, au contraire, traite
@@ -2084,11 +2084,11 @@
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.43">
 						<head>§ 43.</head>
-						<p>L'en dit trois choses en cest chapitre<note>Decret. Greg. IX, lib. 1,
+						<p>L'en dit trois choses en cest chapitre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note64">Decret. Greg. IX, lib. 1,
 								tit. 6, c. 44.</note> : l'en dit premièrement que se aucuns est
 							esliz, cil à qui le confermement apartient doit examiner la menière de
 							eslection et la persone de l'eslit ; quar se par négligence est
-									aauciez<note><emph>Exhaussé, élevé.</emph></note> home de poure
+									aauciez<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note65"><emph>Exhaussé, élevé.</emph></note> home de poure
 							escience, ou qui n'est pas d'ahage, ou qui n'est pas de bone vie, soit
 							geté fors. Et s'il est seu que cil aient ce fet par malice, qu'il soient
 							puni en la volenté le roi.</p>
@@ -2106,7 +2106,7 @@
 						<p>Quant la vile de Bapaumes fu sans meor, li borgois despendirent moult en
 							eslection. L'en demande d'on l'en doit ce paier ? et l'en respont
 							que des biens dou commun de la vile doivent estre renduz les despans qui
-							furent fet en eslection<note>Decret Greg. IX, lib. 1, tit. 6, c.
+							furent fet en eslection<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note66">Decret Greg. IX, lib. 1, tit. 6, c.
 								45.</note>.</p>
 						<p>Enten que li despans que l'en fet renables en eslection, doivent estre
 							paez des biens dou commun.</p>
@@ -2117,9 +2117,9 @@
 							confermer. Li rois, quant il ot enquis de la chose, quassa
 							l'eslection ; quar emprès ce que l'en sot la volenté de chascuns,
 							ne fut pas fete
-							demenois<note><emph>Incessamment.</emph></note> l'eslection ; et por ce
+							demenois<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note67"><emph>Incessamment.</emph></note> l'eslection ; et por ce
 							que, avant que l'eslection fust fete, requesirent la volonté de
-								l'eslit<note>Decret. Greg. IX, lib, 1, tit. 6, c. 46.</note>.</p>
+								l'eslit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note68">Decret. Greg. IX, lib, 1, tit. 6, c. 46.</note>.</p>
 						<p><pb n="47"/>Enten que eslection est quassée, quant l'en eslit niscement.
 							Et le consentement de celui que l'en doit eslire ne doit pas estre
 							requis jusque l'eslection soit fete.</p>
@@ -2134,7 +2134,7 @@
 							maires Guillaumes et li borgois de la vile lor avoient ostroié qu'il
 							auroient voiz en eslection dou meor de cele vile ; dont li rois
 							tint ceste raison por nule, et empose sor ce tésir à cez
-								chevaliers<note>Decret. Greg. IX, lib. 1, tit. 6, c. 47.</note>.</p>
+								chevaliers<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note69">Decret. Greg. IX, lib. 1, tit. 6, c. 47.</note>.</p>
 						<p>Enten que borgois ne puet pas aliéner la chose de la commune sanz le
 							commandement le roi, ne mestre seignorie sur le droit commun.</p>
 					</div>
@@ -2148,7 +2148,7 @@
 							fete de la mere partie, et porce qu'il ne puplièrent et tindrent por
 							meor après le apiau. Et l'eslection Guillaume fu quassé emprès,
 								(<emph>porce</emph>) qu'ele fut fete enprès ceste que n'estoiet pas
-							encore quassée<note>Ibid., c. 48.</note>.</p>
+							encore quassée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note70">Ibid., c. 48.</note>.</p>
 						<p>Enten que en eslection apèle l'en la mere partie dou chapitre, et cele
 							mere partie qui est entendue de tost le chapitre.</p>
 					</div>
@@ -2164,7 +2164,7 @@
 							l'autre (<emph>la mere</emph>) partie de la vile, ne ne fust pas trové
 							que le chapelain ne li clerc deussent eslire de droit, ains fut fete
 							l'eslection contre la forme d'eslire, et despollent les esliseors ceste
-							feiz d'eslire<note>Ibid., c. 50.</note>.</p>
+							feiz d'eslire<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note71">Ibid., c. 50.</note>.</p>
 						<p><pb n="48"/>Enten que aucun puent estre en eslection por
 							requérance ; et double foiz fete, une chose amoine costume, bien
 							n'i soit-ele pas receue, ne par lonctens maintenue ; et l'en doit
@@ -2177,7 +2177,7 @@
 							en main de clerc, et mende à cele vile que cele convenance ne soit
 							guardée, et mande qu'il aient poer d'eslire celui qui sera profitables à
 							la vile, et ensint qu'il le dénoncent au patron et à autres, s'il i ont
-								droit<note>Decret . Greg. IX, lib. 1, tit. 6, c. 51.</note>.</p>
+								droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note72">Decret . Greg. IX, lib. 1, tit. 6, c. 51.</note>.</p>
 						<p>Enten que covenenz fet d'eslire meor, fete o clers, ne vaut riens, se ele
 							n'est fete par la volenté le roi.</p>
 					</div>
@@ -2199,7 +2199,7 @@
 							eslection. Et cil afere fust renvoiez de chief au roi, porce qu'il ne
 							fust pas prové que le conseil à l'autre fust requis en tens
 							convenable ; il quassent cele eslection, non pas por la persone ;
-							mès por la menière d'eslire<note>Ibid., c. 52.</note>.</p>
+							mès por la menière d'eslire<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note73">Ibid., c. 52.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.51">
 						<head>§ 51.</head>
@@ -2217,7 +2217,7 @@
 							ert fete dou meins, enprès la premère eslections, qui ne fut pas
 							quassée. Dont li roi mande au ballif, que se Guillaume est sages et
 							convenables, qu'il conferme se eslection, et que l'autre soit nule, si
-							que non, qu'il conferment Robert<note>Decret Greg. IX, lib. 1, tit. 6,
+							que non, qu'il conferment Robert<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note74">Decret Greg. IX, lib. 1, tit. 6,
 								c. 53.</note>.</p>
 						<p>Enten que por faute d'escience aucuns pert dignité.</p>
 					</div>
@@ -2240,7 +2240,7 @@
 							soutement ou sagement, ne laira pas li rois qu'il ne face enquerre de
 							son afere ; et s'il est tex qu'il le doie estre, bien le
 							soit ; et s'il est tex qu'il ne le doie estre, quassez
-								soit<note>Ibid., c. 54.</note>.</p>
+								soit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note75">Ibid., c. 54.</note>.</p>
 						<p>Enten que en eslection n'afiert pas bataille ; mès prove par
 							tesmoinz et enqueste. Et li rois puet enquerre de la menière de
 							l'eslection et de la vie de l'eslit et de ses mors, et se aucuns eslit
@@ -2251,7 +2251,7 @@
 						<p>Li borgois d'une vile recevoient les clers de costume, à eslire
 							meor ; li rois deffent qu'il n'i soient receu dès ore en
 							avant ; et <pb n="50"/>s'en eslit qu'il i soient, que l'eslection
-							soit nule, bien i ait costume encontre<note>Decret. Greg. IX, lib. 1, c.
+							soit nule, bien i ait costume encontre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note76">Decret. Greg. IX, lib. 1, c.
 								56.</note>.</p>
 						<p>Enten que l'eslection fete de clers, des choses laies, ne valent
 							riens.</p>
@@ -2259,7 +2259,7 @@
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.54">
 						<head>§ 54.</head>
 						<p>Antan que quant li borgois d'une vile sont en descort d'eslire, l'en les
-							puet contraindre d'eslire : li quas est toz aperz<note>Ibid., c.
+							puet contraindre d'eslire : li quas est toz aperz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note77">Ibid., c.
 								58. 2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06.55">
@@ -2268,13 +2268,13 @@
 							qu'il fust pers, et par son seu. L'en dit ci que nus ne li en puet fere
 							grâce fors le roi. Autre chose fust, s'il l'eust eue par symonie en tel
 							menière qu'il ne seust ; et légièrement poit lors avoir
-								miséricorde<note>Ibid., c. 59.</note>.</p>
+								miséricorde<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_06_note78">Ibid., c. 59.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07">
 				<front>
-					<head>VII. De translacions<note>Les quatre premiers paragraphes de ce titre sont
+					<head>VII. De translacions<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note1">Les quatre premiers paragraphes de ce titre sont
 							extraits du titre 7, <hi rend="i">de Translatione episcopi</hi>, au
 							livre I des Décret de Grég. IX, § 1. 4.</note></head>
 				</front>
@@ -2290,14 +2290,14 @@
 							n'a son congié. Don il soupent le baillif de confermer et de translater
 							meor, et deffent à touz autres baillis qu'il ne le facent, se longe
 							costume ne le done, qui ait esté jugie en jugement
-								contredit<note>Decret. Greg., IX, lib. 1, tit. 7, c. 1.</note>.</p>
+								contredit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note2">Decret. Greg., IX, lib. 1, tit. 7, c. 1.</note>.</p>
 						<p>Enten que li rois a de cels espéciau privilége ; et ostement de
 							meor, et tresportement de meor à meor, seulement apartient au roi de
 							droit naturel.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07.2">
 						<head>§ 2.</head>
-						<p>Li rois dit ci<note>Ibid., c. 2.</note> que li meor ne puent estre
+						<p>Li rois dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note3">Ibid., c. 2.</note> que li meor ne puent estre
 							condempné de lor baillif sanz le roi. Meres ne puet estre ostez ne
 							remuez que par le roi. Et se li meres est confermez, il ne puet lessier
 							sa vile, se par le roi ne le fet, et par confermement est entendus qu'il
@@ -2337,14 +2337,14 @@
 							apenséement, en ce il deivent estre puni. Li rois lor toust le poir
 							d'eslire à cete foiz, et dit que cil meres ne retort pas à sa premère
 							merie, qu'il lessa por orguil, ne ne retiegne la seconde, qu'il conveta
-							par avarice<note>Decret. Greg. IX, lib. 1, tit. 7, c 3.</note>.</p>
+							par avarice<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note4">Decret. Greg. IX, lib. 1, tit. 7, c 3.</note>.</p>
 						<p>Enten que por mal exemple doit aucun estre puniz, que l'en n'ait acheson
 							de fere mal, et doit l'en celui punir en ce leu meismes où il a
 							péchié.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07.4">
 						<head>§ 4.</head>
-						<p><pb n="52"/>Il<note>Le pape Innocent III, auteur de la décrétale d'après
+						<p><pb n="52"/>Il<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note5">Le pape Innocent III, auteur de la décrétale d'après
 								laquelle ce § a été composé.</note> parle de celui meor meismes, qui
 							se voloit escuser par une indulgence que li rois Phelippes li avoit
 							doné, qu'il se poet acroistre en son règne en toutes les choses où il
@@ -2355,7 +2355,7 @@
 							seignor. Que quant indulgence li fu donée, ele li fu donée en bone
 							foi ; et quant il amenuisoit la digneté son seignor, il fet de bone
 							foi male foi. Et dit li rois que ensi doit l'en examiner requeste, comme
-							l'en fet eslection<note>Decret. Greg. IX, lib. 1, tit. 7, c.
+							l'en fet eslection<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note6">Decret. Greg. IX, lib. 1, tit. 7, c.
 							4.</note>.</p>
 						<p>Enten, par cete lestre et par tout le titre, que eslis ne puet par lor
 							autorité lessier lor leu et aler à autre, et les paroles des letres
@@ -2373,7 +2373,7 @@
 							celui metre, qui le reporta, qu'il covre ce fet, ainz que li rois l'ait
 							reprochié ; et s'il i avenoit que li rois i eust reproche, ou le
 							metre honte, il viaut meaus que li metre ait honte qu'il ait
-								reproche<note>Cette maxime et la suivante sont extraites du titre 8
+								reproche<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note7">Cette maxime et la suivante sont extraites du titre 8
 								: <emph>de Auctoritate et usu pallii</emph>, au livre 1 des Décret.
 								de Grég. IX.</note>.</p>
 						<p>Enten que en confermement est entendu plenier poeir ; ofice de meor
@@ -2390,7 +2390,7 @@
 							s'il ne le done ; et il a plenier poer en tot, c'est à entendre
 							poer de prodome ; et li autre si n'ont que partie de poer, quar il
 							ne sont apelé qu'en partie de la cure, non pas en plenier
-								poer<note>Decret. Greg. IX, lib. 1, tit. 8, c. 4. — On doit
+								poer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note8">Decret. Greg. IX, lib. 1, tit. 8, c. 4. — On doit
 								remarquer ici que le Coutumier, toujours favorable à l'extension du
 								pouvoir royal, considère la juridiction seigneuriale comme une
 								délégation partielle de l'autorité du roi. — Il est aussi important
@@ -2406,7 +2406,7 @@
 							rois li montre en meintes menières qu'il ne pooit pas ce fere, et qui ne
 							poet pas lessier la cure dou gouvernement, et li met avant exemples de
 							chevalier, ne qu'il ne doit pas lessier chevalerie, jusque il ait vencue
-							la batalle<note>Cette maxime et la suivante sont extraites du titre
+							la batalle<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note9">Cette maxime et la suivante sont extraites du titre
 								9 : de <emph>Renuntiatione</emph>, au livre 1 des Décrét, de
 								Grég. IX.</note>.</p>
 						<p>Enten que granz est chevalerie de juridicion ; et ce qu'il est
@@ -2424,11 +2424,11 @@
 							partie de la vile, ce li doit valoir ; et c'est voirs, se
 							roisonable chose n'est mise encontre ; et se aucuns jure qu'il ne
 							demandera pas aucune seignorie, il ne jura pas, s'en la li done, qu'il
-							ne la reçoive<note>Decret. Greg. IX, lib. 1, tit. 9, c. 2.</note>.</p>
+							ne la reçoive<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note10">Decret. Greg. IX, lib. 1, tit. 9, c. 2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07.9">
 						<head>§ 9.</head>
-						<p>Li rois dit ci<note>Ibid., c. 10.</note> que nus esliz confermez ne puet
+						<p>Li rois dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_07_note11">Ibid., c. 10.</note> que nus esliz confermez ne puet
 							lesser sa juridiction, se n'est par persécucion, ou par volenté le
 							roi ; et i pose quatre quas : li premiers est febleté de
 							cors ; li segont par faute d'escience ; li tiers par symonie
@@ -2439,7 +2439,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08">
 				<front>
-					<head>VIII. De droit de persone<note>Extrait du titre 5 : <hi rend="i">de
+					<head>VIII. De droit de persone<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note1">Extrait du titre 5 : <hi rend="i">de
 								Statu hominum</hi>, au livre 1 du Digeste.</note>.</head>
 				</front>
 				<body>
@@ -2450,17 +2450,17 @@
 							premièrement de l'estat as genz, et emprès por ordre, si comme la chose
 							le suefre.</p>
 						<p>La bone devise de droit des persones, des gens, est tele que tot homes ou
-							il sont franc ou serf<note>Dig. lib. 1, frag. 1, 3.</note>. Franchie est
+							il sont franc ou serf<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note2">Dig. lib. 1, frag. 1, 3.</note>. Franchie est
 							naturex poers que chascuns puet fere sa volenté, se droit ou force ne le
 							défent. Servages est droit de genz, par quel aucuns est, contre nature,
 							sougiez à aucune seignorie. Serf est apelé de servage que droit suefre,
 							et de ce que li empereor et li roi soloient commander vendre les
-							prisons, et qu'il fussent gardé sans tuer les<note>Ibid., frag.
+							prisons, et qu'il fussent gardé sans tuer les<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note3">Ibid., frag.
 								4.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08.2">
 						<head>§ 2.</head>
-						<p>Li serf ont une condicion<note>Le Coutumier, qui traduit ici le droit
+						<p>Li serf ont une condicion<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note4">Le Coutumier, qui traduit ici le droit
 								romain, paraît méconnaître le droit de son époque, pour ce qui
 								concerne le servage. Beaumanoir a écrit, au contraire :
 									<emph>Et ceste manière de gent</emph> (les serfs) <emph>ne sont
@@ -2478,7 +2478,7 @@
 							feme serve enceinte et amprès est franche, et emprès est serve ou chacie
 							de la cité, et ele enfente, se cil enfes est frans ou sers ? et
 							l'en quide qu'il doit nestre frans ; et li sofit à celi qui est ou
-							ventre, qu'il ait eu franche mère en icel tens<note>Dig. lib. 1, frag.
+							ventre, qu'il ait eu franche mère en icel tens<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note5">Dig. lib. 1, frag.
 								5.</note>. Cil qui est ou ventre doit estre gardé ausint com cil qui
 							est nez, à toutes les foiz que l'en parle dou preu de l'enfant :
 							l'en le doit fere, tout ne valle-il <pb n="55"/>riens à autre, quant il
@@ -2486,12 +2486,12 @@
 							s'eles sunt fetes mauvesement, et an meins leus de nos droit est peor la
 							condicion as femes que as homes. L'en demande à qui l'en doit compaigner
 							hermofronditus, qui ot nature d'ome et de fame ? et ge
-							respons : à la partie d'om il i a plus<note>Dig., lib. 1, frag. 7,
+							respons : à la partie d'om il i a plus<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note6">Dig., lib. 1, frag. 7,
 								8, 9, 10.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08.3">
 						<head>§ 3.</head>
-						<p>L'en dit ci<note>Ibid. frag. 11, 12.</note> que si li enfes qui est nez
+						<p>L'en dit ci<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note7">Ibid. frag. 11, 12.</note> que si li enfes qui est nez
 							au vivant au père, et riens n'en sot, a(<emph>est</emph>) droit fis. Car
 							seue chose est que enfes puet estre parfet en sept mois, par l'autoreté
 							Ypocras, qui fu sages hom ; et por ce doit l'en croire que cil qui
@@ -2500,7 +2500,7 @@
 								(<emph>s'enfuit</emph>), por ce n'est-il pas franc. Cil qui naissent
 							contre nature, est menière de bestes, (<emph>ne</emph>) ne sont pas
 							conté ou les frans ; et cil qui nest ou plus membres que n'est
-							coutume, sera conté o les frans<note>Ibid. frag. 13, 14. — Le Coutumier
+							coutume, sera conté o les frans<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note8">Ibid. frag. 13, 14. — Le Coutumier
 								traduit <emph>liberi</emph>, enfants, par <emph>frans</emph>, ou
 								libres.</note>.</p>
 					</div>
@@ -2520,7 +2520,7 @@
 							Johana enfantoit deus enfanz et emprès deus becons ; l'en ne puet
 							pas dire que l'un et l'autre soit frans ; mès celui qui nest
 							derrenier tant solemant est frans, et ceste chose apartient plus à fet
-							que à droit<note>Dig. lib. 1, frag. 15, 16.</note>.</p>
+							que à droit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note9">Dig. lib. 1, frag. 15, 16.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08.5">
 						<head>§ 5.</head>
@@ -2532,7 +2532,7 @@
 							et li bastart fiz la mère. Se aucuns est forsenez, il ne pert pas por ce
 							sa dignité, ains li remaint sa chose. Home franc qui se vendi, franchi
 							après, ne retorne pas en son estat qu'il renia, ains est de la condicion
-							as serfs franchis<note>Dig. lib. 1, frag. 18, 19, 20, 21.</note>.</p>
+							as serfs franchis<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note10">Dig. lib. 1, frag. 18, 19, 20, 21.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08.6">
 						<head>§ 6.</head>
@@ -2545,7 +2545,7 @@
 							mariage, sige sa mère, se la loi ne li fet grâce. Nos devons celi tenir
 							à franc (<emph>noble</emph>), qui est par sentance franc
 								(<emph>noble</emph>), tout ait-il esté franchi : quar chose
-							jugé ert receue por vérité<note>Ibid. frag. 22, 23, 24, 25.</note>. Cil
+							jugé ert receue por vérité<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note11">Ibid. frag. 22, 23, 24, 25.</note>. Cil
 							qui sont en ventre, par droit de cité, sont tenu por nez : quar il
 							ont lor héritages ; et se feme grosse est prisse d'anemis, ce qui
 							est né de lui est frans, quar la condicions dou père et de la mère ne
@@ -2555,7 +2555,7 @@
 							Autretel est que franchi soit en autretel droit comme sont cil qui ont
 							patron, tant com li fiz au patron met à nestre. Patron ne puet fere
 							noble celi qui dit qui a esté franchiz par avoiement que li patrons
-								face<note>Ibid., frag. 26, 27.</note>.</p>
+								face<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note12">Ibid., frag. 26, 27.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08.7">
 						<head>§ 7.</head>
@@ -2564,7 +2564,7 @@
 							tans ; et se li pères est serf et la mère est franche, et ele
 							enfante, li enfes sera la métié frans et sers ; et segont la
 							costume des Berriuns, ne part au roi fors Sente-Croiz et
-								Sent-Ainan<note>Établissements de Saint-Louis, II, 31.</note>. Et se
+								Sent-Ainan<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note13">Établissements de Saint-Louis, II, 31.</note>. Et se
 							serf et serve de deus seignories ont enfant, li enfant sont de deus
 							segnories.</p>
 					</div>
@@ -2577,7 +2577,7 @@
 							la conduction li soit niée, ara-il en ce batalle ? oïl, se la chose
 							qui <pb n="57"/>retint ou serf est tele qu'il en doi batalle issir. Et
 							li demanderres se puet-il changier, ne li apelieres ? oïl, s'il i a
-							essoine parant, et se n'est parant, non<note>Voy. Ordonnance de 1260,
+							essoine parant, et se n'est parant, non<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_08_note14">Voy. Ordonnance de 1260,
 								art. 7, 10, 12 ; et Établissements de Saint-Louis, I, 5. Voy.
 								aussi Desfontaines, <emph>Conseil</emph>, ch. 22, et Ordonnance de
 								Philippe IV, de 1306.</note>.</p>
@@ -2586,7 +2586,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09">
 				<front>
-					<head>IX. De la devise de droit de persones<note>Extrait du tit. 6 : <hi rend="i">de his qui sui vel alieni juris sunt</hi>, au livre I du
+					<head>IX. De la devise de droit de persones<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note1">Extrait du tit. 6 : <hi rend="i">de his qui sui vel alieni juris sunt</hi>, au livre I du
 							Digeste.</note>.</head>
 				</front>
 				<body>
@@ -2604,8 +2604,8 @@
 								de Beaumont</ref>, chevaliers de France, le establi et dit :
 							Cil qui aucit son serf sanz cause, ne doit pas meins estre puniz que
 							s'il avoit ocis autrui serf. Et la constitucion <ref target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
-								Beaumont</ref> atempre la cruauté as seignors<note>Dig., lib. 1,
-								tit. 6, frag. 1.</note>. Se sires est cruex<note>Le Coutumier
+								Beaumont</ref> atempre la cruauté as seignors<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note2">Dig., lib. 1,
+								tit. 6, frag. 1.</note>. Se sires est cruex<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note3">Le Coutumier
 								emprunte ces tempéraments d'esclavage à la constitution d'Antonin.
 								On en pourrait induire que les seigneurs, à une certaine époque, ont
 								exercé le droit de vie et de mort sur leurs serfs. Mais Beaumanoir
@@ -2620,11 +2620,11 @@
 							à ces sers qui s'enfuiront de lor seignors ; et se tu truives que
 							l'en les ait outre menez ou par fain ou par injure, commende que li serf
 							soit hors de son poïr, et tot l'amende-il, ne doit-il pas avoir le serf,
-							s'il n'a sa cruauté atemprée<note>Ibid., frag. 2.</note>.</p>
+							s'il n'a sa cruauté atemprée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note4">Ibid., frag. 2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09.2">
 						<head>§ 2.</head>
-						<p>Et ci dit li rois que nos enfanz sont en notre poer<note>On ne doit pas
+						<p>Et ci dit li rois que nos enfanz sont en notre poer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note5">On ne doit pas
 								prendre dans son sens strict le mot <emph>poer</emph> : il ne
 								paraît pas que l'autorité paternelle en France ait jamais eu les
 								caractères de la <emph>patria potestas. « Droit de puissance
@@ -2638,7 +2638,7 @@
 							aient quatorze anz passez, et les mères les ont ausit. Quar cil qui naît
 							de moi et de ma feme est en mon poer, et cil qui nest de mon fil et de
 							sa feme, est mis niés et ma nièce, et lor enfanz sunt en mon
-								poer<note>Dig., lib. 1, tit. 6, frag. 3, 4.</note>.</p>
+								poer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note6">Dig., lib. 1, tit. 6, frag. 3, 4.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09.3">
 						<head>§ 3.</head>
@@ -2668,7 +2668,7 @@
 							certaine chose est que li maris n'ait pas géu à sa feme par aucune
 							espace de tens, ou par maladie ou par autre cause, ou par foibleté, ou
 							s'il est tel qu'il ne puet engendrier, cil qui est nez en sa meson, tot
-							le sachent li voisin, n'est pas sis fiz<note>Ibid., frag. 6.</note>.</p>
+							le sachent li voisin, n'est pas sis fiz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note7">Ibid., frag. 6.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09.5">
 						<head>§ 5.</head>
@@ -2677,7 +2677,7 @@
 							aucuns enfens ne soit ou poer son père, si n'an vint en quas qui
 							issent ; et s'il n'en isent, il i remainent. Et se li pères et la
 							mère son desvé, li enfant sont en son poer, ensint que li
-								enfant<note>Dig., lib. 1, tit. 6, frag. 8.</note> ; et li
+								enfant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note8">Dig., lib. 1, tit. 6, frag. 8.</note> ; et li
 							desvez et la desvée seront an la mère (<emph>main ?</emph>) au
 							curator, por le conseau dou juge. Quar le père et la mère devet avoir
 							preu en son enfant, par le droit de la norreture que il ot fet an aus et
@@ -2694,13 +2694,13 @@
 							fiz : quar la cause de norrir l'enfant ne fet nul tort à la mère.
 							Fiz naturel, qui sont hors de bail, ne retorne pas ou poer lor père
 							contre lor volenté ; non pas solement naturel fiz, mès tot autre,
-							et fiz et filles<note>Ibid., frag. 9, 10, 11.</note>.</p>
+							et fiz et filles<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_09_note9">Ibid., frag. 9, 10, 11.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10">
 				<front>
-					<head>X. D'avoemenz<note>Dig., lib. 1, tit. 7 : <hi rend="i">de
+					<head>X. D'avoemenz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note1">Dig., lib. 1, tit. 7 : <hi rend="i">de
 								Adoptionibus et emancipationibus et aliis modis quibus patria
 								potestas solvitur</hi>.</note>.</head>
 				</front>
@@ -2713,28 +2713,28 @@
 							commandemant au prince, et cete menière d'avoiemant est prise :
 							quar l'en doit de celi savoir, qui avoie : si viaut que cil soit
 							hers en ses choses, et se cil qui est à avoer, est priez qu'il le
-								vuelle<note>Ibid., frag. 2, pr.</note>. Nos avoions par le
+								vuelle<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note2">Ibid., frag. 2, pr.</note>. Nos avoions par le
 							commendement à l'Ordenaire, cels qui sont ou poer au père, si com filz
 							ou fille, ou qui sont en plus basse ligne, si com nevou ou nièce, ou
 							plus bas. Et cil avoiement est communs à tés persones, à cels qui ne
 							puent engendrer, comme acoillez, et autres persones qui n'ont nul
-								enfant<note>Ibid., frag. 2, pr. et § 1.</note> ; et cil puent
+								enfant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note3">Ibid., frag. 2, pr. et § 1.</note> ; et cil puent
 							fere oir en lor choses, en lor lige poesté <pb n="60"/>et ou lit de la
 							maladie ? non, fors au quint des choses qui li vindrent de par ses
 							ancessors, puet l'en doner à avoé : ses achosestes
 								(<emph>acquestes</emph>) et ses mobles puet-il doner ?
 							oïl ; et se aucuns hons est mis avoez, et il ait enfanz, il et li
-							enfes sont en son poer<note>Dig., lib. 1, tit. 7, frag. 2, § 2.</note>.
+							enfes sont en son poer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note4">Dig., lib. 1, tit. 7, frag. 2, § 2.</note>.
 							Se aucuns qui est au poer son père ou son avoé, est esleuz à meor, ou en
 							aucune dignité, segure chose est qu'il se puet metre hors de
-								bau<note>Ibid., frag. 3.</note>.</p>
+								bau<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note5">Ibid., frag. 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.2">
 						<head>§ 2.</head>
 						<p>Li Ordenaires puet metre hors de sa main fiz, filles et doner les en
 							avoemanz. L'en demende à cels qui sont en lor poer qui vuelent estre
 							avoé, si le vuelent, et se aucuns les avoie, l'en doit regarder la
-							volenté de l'un et de l'autre, ou par otroi ou par contredit<note>Ibid.,
+							volenté de l'un et de l'autre, ou par otroi ou par contredit<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note6">Ibid.,
 								frag. 4, 5.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.3">
@@ -2744,7 +2744,7 @@
 							avoement est fet, n'est pas méter d'avoir l'autorité de tous celx qui
 							sont dou parenté. Commendé a esté droit par <ref target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
 								Beaumont</ref> que autorité de tutor ne soit pas requise en
-								avoement<note>Ibid., frag. 6, 7, 8.</note>.</p>
+								avoement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note7">Ibid., frag. 6, 7, 8.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.4">
 						<head>§ 4.</head>
@@ -2756,7 +2756,7 @@
 							droit ne faut guières, quant li poers à celi qui avoie est feniz, il n'i
 							remaint riens de l'anciene matère, et en la parfin la dignité au père
 							qu'il conquist, est chaète quant i faut. Quant aucun a esté avouez, et
-							il s'an ist, il renonce à tot ses droiz<note>Dig., lib. 1, tit. 7, frag.
+							il s'an ist, il renonce à tot ses droiz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note8">Dig., lib. 1, tit. 7, frag.
 								9, 10, 11, 12, 13, 14.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.5">
@@ -2764,9 +2764,9 @@
 						<p>Se aucun avoie aucun, l'en doit regarder quel persone l'avoe. Quar plus
 							doit estre riches cil qui a avoé, de celui que l'en avoe, et i deit l'en
 							regarder aage, et doit l'en aider as menors qu'il ne soient déceu en tés
-							choses, ne ne doit l'en pas fere de grant menor<note>Ibid., frag. 15, §
+							choses, ne ne doit l'en pas fere de grant menor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note9">Ibid., frag. 15, §
 								2, 3.</note>. L'avoement a leu en iceles persones où nature ou droit
-							le puet soffrir<note>Ibid., frag. 16.</note>. L'en ne doit pas sofrir
+							le puet soffrir<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note10">Ibid., frag. 16.</note>. L'en ne doit pas sofrir
 							que cil qui ara le bau ou la cure d'aucun, l'avot : quar il semble
 							qu'il le face porce qu'il ne vuille rendre conte des <pb n="61"/>choses ; et encore doit l'en anquerre, qui n'et (<emph>qu'il
 								n'ait</emph>) vilenes convenances entre l'autre et celui qu'il
@@ -2776,7 +2776,7 @@
 							l'orfelin, et fere de sa mesnie ; emprès de quel aage cil set, qui
 							l'orfelin veaut avoir, por amer(<emph>esmer, estimer</emph>), s'il doie
 							plus entendre à faire enfans à sei, que à penser de cels qu'il a pris de
-								mesnie<note>Dig., lib. 1, tit. 7, frag. 17.</note>.</p>
+								mesnie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note11">Dig., lib. 1, tit. 7, frag. 17.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.6">
 						<head>§ 6.</head>
@@ -2787,7 +2787,7 @@
 							que ses choses ne apeticent. L'en ne doute pas que li avoueur ne doie
 							doner segurté de rendre les choses à l'avoé et à cels à qui eles
 							apartienent, segont ce que l'en verra. Et se ceste caucion est obliée,
-							le (<emph>avoé</emph>) a bone caucion contre l'avoeor<note>Ibid., frag.
+							le (<emph>avoé</emph>) a bone caucion contre l'avoeor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note12">Ibid., frag.
 								17 in fine et 19.</note>. Ceste caucion a leu, se l'orfelins est
 							morz dedanz quatorze anz, et ausint le devez-vos entendre de l'orfeline,
 							si com </p>
@@ -2802,7 +2802,7 @@
 							avoient issi enfes qu'il fust ses niès, ausint com fiz de son fiz de sa
 							feme, je quist que ce ne porroit pas estre. Mès fiz que ge ai conquis en
 							mon servage, doit estre en mon poer, quant il est de ma feme
-								esposée<note>Ibid, tit. 7, frag. 41, 43, 44 et 46.</note>. L'en
+								esposée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note13">Ibid, tit. 7, frag. 41, 43, 44 et 46.</note>. L'en
 							demende se aucuns disoit qui fut avoiez heir à un autre en ses choses,
 							et fut fet par devant l'Ordena ire, savoir s'il seroit tenu ? et
 							l'en dit : s'il estoit fet en cor qu'il portât recort, qu'il seroit tenu
@@ -2817,7 +2817,7 @@
 							savoir se li heir l'avoeor rendront les choses as ers à l'avoé ? et
 							l'en dit que oïl, segont ce que cil li fist et qu'il li pot fere. L'en
 							demende se cil qui n'a quatorze anz puet avoir (<emph>avoer</emph>)
-							autre ? et l'en dit que non<note>Ibid., frag. 20, 21 et
+							autre ? et l'en dit que non<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note14">Ibid., frag. 20, 21 et
 							22</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.7">
@@ -2827,7 +2827,7 @@
 							de conoissance. Ne ma mère ne li est pas aole : car cil qui sont de
 							ma mesnie ne me sunt que de quenoissance, et cil ne puet prendre ma
 							fille à feme, se li juges ne li consent. Cil qui n'est pas présens, et
-							cil qui se descorde ne puet estre avoez<note>Ibid., frag. 23 et
+							cil qui se descorde ne puet estre avoez<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note15">Ibid., frag. 23 et
 								24.</note>. Nus ne puet avoer autre qui ait père ou mère, sanz la
 							volenté au père ou à la mère.</p>
 					</div>
@@ -2847,7 +2847,7 @@
 						<p><ref target="http://josticeetplet.huma-num.fr/items/show/3">Johan de
 								Beaumont</ref> dit itex paroles : Ce que tu déserres et deit
 							enpétrier, li juges esmeront que tex i saient apelé qui contrediront le
-							confermement d'avoiement, que l'en ne face tort à nului<note>Dig., lib.
+							confermement d'avoiement, que l'en ne face tort à nului<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note16">Dig., lib.
 								1, tit. 7, frag. 32, 35, 39.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.9">
@@ -2856,7 +2856,7 @@
 							poer, sont an mon poer ; et quant li pères est mors, la nature de
 							l'obligacion ne me done pas que li enfant soient en mon poer. Acoillié,
 							si fet d'aucun son er, il le puet fere, ne son vice de ce qu'il est
-							acoilliez ne li est pas empeschement<note>Ibid., frag. 40.</note>.</p>
+							acoilliez ne li est pas empeschement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note17">Ibid., frag. 40.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10.10">
 						<head>§ 10.</head>
@@ -2871,7 +2871,7 @@
 							avoient issi enfes qu'il fust ses niès, ausint com fiz de son fiz de sa
 							feme, je quist que ce ne porroit pas estre. Mès fiz que ge ai conquis en
 							mon servage, doit estre en mon poer, quant il est de ma feme
-								esposée<note>Ibid, tit. 7, frag. 41, 43, 44 et 46.</note>. L'en
+								esposée<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_10_note18">Ibid, tit. 7, frag. 41, 43, 44 et 46.</note>. L'en
 							demende se aucuns disoit qui fut avoiez heir à un autre en ses choses,
 							et fut fet par devant l'Ordenaire, savoir s'il seroit tenu ? et
 							l'en dit : s'il estoit fet en cor qu'il portât recort, qu'il seroit tenu
@@ -2886,7 +2886,7 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11">
 				<front>
-					<head>XI. De haute devise des choses<note>Dig. lib. 1, tit. 8 : <hi rend="i">de
+					<head>XI. De haute devise des choses<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note1">Dig. lib. 1, tit. 8 : <hi rend="i">de
 								Divisione rerum et qualitate.</hi></note>.</head>
 				</front>
 				<body>
@@ -2910,7 +2910,7 @@
 							tochier, ausint comme home, deners : quar le droit d'éritage et
 							d'usage et de obligacion est sans cors, c'est-à-dire l'en ne puet
 							tochier. Et en tex numbres sont les droiz de teneoires, de citez et de
-							viles, et l'en apele ce servises<note>Ibid., frag. 1.</note>.</p>
+							viles, et l'en apele ce servises<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note2">Ibid., frag. 1.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11.2">
 						<head>§ 2.</head>
@@ -2918,7 +2918,7 @@
 							par autre menière, et autres choses sont à nul et autres à chascun, que
 							chascuns conquiert par diverses choses. Et celes choses sont communes
 							par droit naturel, si comme est l'air, le aue contraint et la mer, et
-							por ce li rivage de la mer<note>Ibid., frag, 2.</note>.</p>
+							por ce li rivage de la mer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note3">Ibid., frag, 2.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11.3">
 						<head>§ 3.</head>
@@ -2926,7 +2926,7 @@
 							gravele, que nos truvon, sont nôtres. Donques nus n'est défenduz d'aler
 							à la rive de la mer, por achoison de poechier, en tel menière <pb n="64"/>qu'il ne face por ce viles ne maisons ou rivage : quar a
 								(<emph>elles</emph>) ne seroient pas communes ausit com la mer, et
-							c'et atabli de pescheors<note>Dig., lib. 1, tit. 8, frag. 3, 4.</note>.
+							c'et atabli de pescheors<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note4">Dig., lib. 1, tit. 8, frag. 3, 4.</note>.
 							Li rois Phelippe et la reine Blanche dit : Tuit flueve, tuit port à
 							bau prou (<emph>à peu près</emph>) sont communes. Blanche dit : li
 							huages (<emph>usages</emph>) des rivages est communes par le droit de
@@ -2939,14 +2939,14 @@
 								Beaumont</ref> dit : Li seignor puent iqui fere solement meisons, et
 							an sont segnor tant com li adefice dure, et quant il faut, si retorne
 							tot en l'ancieine menière. Et se aucuns i fet mesons sanz commendemant,
-							ele sera au segnor<note>Ibid., frag. 4, § ult. ; frag. 5 et 6
+							ele sera au segnor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note5">Ibid., frag. 4, § ult. ; frag. 5 et 6
 								pr.</note>. Unes choses sont communes à toz, et non pas à chascun
 							par soi, si comme sunt moters, temples, chapeles communes as citez. Ne
 							serf de communes des citez n'est pas propres à chascun par soi, mès à
 							toz ; et por ce li rois escrit droit, que se li serf commun
 							fesoient chose qu'il ne deussent, l'en la puet communément tormenter,
 							non pas chascun por soi. Et por ce n'est pas mestiers que li franc home
-							de la cité<note>Ibid., frag. 6, § 1.</note> quierge congié au commun,
+							de la cité<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note6">Ibid., frag. 6, § 1.</note> quierge congié au commun,
 							s'il tret an plet aucuns des citiens.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11.4">
@@ -2960,7 +2960,7 @@
 							cimentière, maugré toz, puet l'en enterrier, et en autrui leu puet l'en
 							lo cors metre, se li sires se consant et li leus est religieus, tot an
 							pait-il amprès au segnor. Et acordée chose est que li leus est
-							religieus, si com li rois l'ont tesmoignié<note>Ibid., frag. 6 et
+							religieus, si com li rois l'ont tesmoignié<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note7">Ibid., frag. 6 et
 								7.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11.5">
@@ -2979,7 +2979,7 @@
 							sentence. — Nos apelons propremant saintes choses, qui ne sont ne
 							saintes ne dessaintes ; mès sont confermées par consécracion.
 							Ausint com sont les lois, qui sunt apoïes et tenues par confermement.
-							C'est saint ce qu'est confermé, tot ne soit-il sacrié<note>Dig. lib. 1,
+							C'est saint ce qu'est confermé, tot ne soit-il sacrié<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note8">Dig. lib. 1,
 								tit. 8, frag. 8 et 9.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11.6">
@@ -2991,13 +2991,13 @@
 						<head>§ 7.</head>
 						<p>Se aucuns viole les murs de la cité por i mal fere, il doit estre puniz à
 							la volenté le roi. Li citien des viles ne deivent issir hors de la cité
-							par allors que par les portes<note>Ibid., frag. 10 et 11.</note>.</p>
+							par allors que par les portes<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_11_note9">Ibid., frag. 10 et 11.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12">
 				<front>
-					<head>XII. De dignités<note>Ce titre n'est pas séparé du précédent, dans le
+					<head>XII. De dignités<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12_note1">Ce titre n'est pas séparé du précédent, dans le
 							manuscrit ; mais la différence des matières exigeait cette
 							séparation. L'intitulé que nous donnons à ce nouveau titre est justifié
 							par le texte même.</note>.</head>
@@ -3010,7 +3010,7 @@
 							port tesmoin, qui a esté ostez d'estre baillif par son forfet, ne n'a
 							pas recovrée sa digneté qu'il avoit devant : quar la loi que li
 							sage home firent le deffent. — Blanche dit : Qui n'est dignes de
-							petite digneté, n'est pas digne de la grant<note>Dig. lib. 1, tit. 9,
+							petite digneté, n'est pas digne de la grant<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12_note2">Dig. lib. 1, tit. 9,
 									<hi rend="i">de Senatoribus,</hi> frag. 2 et 4.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12.2">
@@ -3031,7 +3031,7 @@
 							se li pères pert la dignité avant que soit conceuz, l'en demende s'il
 							est fiz de baillif ? et l'en dit que non ; mès il est nevou à
 							baillif. Et meauz est que la digneté à son aïol li valle, que la perte
-							de son père li nuise<note>Dig. lib. 1, tit. 9, frag. 5-7.</note>.</p>
+							de son père li nuise<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12_note3">Dig. lib. 1, tit. 9, frag. 5-7.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12.3">
 						<head>§ 3.</head>
@@ -3056,13 +3056,13 @@
 						<head>§ 5.</head>
 						<p>Nos devons tenir cest gentil et noble, qui de aol et de bésaol sont
 							gentil et noble ; et cels puent dire sentence comme
-								noble<note>Ibid., frag. 8, 9, 11, 12.</note>.</p>
+								noble<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_12_note4">Ibid., frag. 8, 9, 11, 12.</note>.</p>
 					</div>
 				</body>
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_13">
 				<front>
-					<head>XIII. De l'ofice au conte<note>Extrait du tit. X : <hi rend="i">de
+					<head>XIII. De l'ofice au conte<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_13_note1">Extrait du tit. X : <hi rend="i">de
 								Officio consulis,</hi> au liv. 1 du Digeste.</note>.</head>
 				</front>
 				<body>
@@ -3137,14 +3137,14 @@
 			</text>
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17">
 				<front>
-					<head>XVII. De l'ofice au prévost<note>Ce titre n'est pas séparé du précédent,
+					<head>XVII. De l'ofice au prévost<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17_note1">Ce titre n'est pas séparé du précédent,
 							dans le manuscrit.</note>.</head>
 				</front>
 				<body>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17.1">
 						<head>§ 1.</head>
 						<p><pb n="68"/>Il convient parler briefmant de l'ofice au prévost qui tient
-							les plez, et dom an vint le commencement<note>Digeste, liv. 1, tit. 2,
+							les plez, et dom an vint le commencement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17_note2">Digeste, liv. 1, tit. 2,
 								frag. 1 pr. : <emph>de Officio prœfecti
 							prœtorio.</emph></note>.</p>
 					</div>
@@ -3157,7 +3157,7 @@
 							l'en puisse d'aus apeler au baillif. Et vout l'en que tex persones
 							fussent apelées en tel dignité par lor san (<emph>sens</emph>) et par
 							lor loiauté, et qu'il seusent jugier par lor sapience et ne poussent
-							plus jugier mès que li prince devent fere<note>Ibid., frag. 1, § 1,
+							plus jugier mès que li prince devent fere<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17_note3">Ibid., frag. 1, § 1,
 									<emph>in fine.</emph></note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_17.3">
@@ -3191,7 +3191,7 @@
 
 		  <text xml:id="anonyme_LJP_l01_BNF_fr-2844_art_18">
 				<front>
-					<head>XVIII. De l'ofice au meor<note>Ce titre ne se trouve pas dans le corps du
+					<head>XVIII. De l'ofice au meor<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_18_note1">Ce titre ne se trouve pas dans le corps du
 							manuscrit ; mais il a été ajouté en marge du titre concernant
 							l'office de prévôt.</note>.</head>
 				</front>
@@ -3242,7 +3242,7 @@
 							cruauté, ou par dureté, ou par félonie, que l'en les contraigne à fere
 							contre nature : conchiement montré au baillif, il en fera droit, et
 							deffendra les sers, qu'il ne soient forcé à fere riens contre
-								nature.<note>Dig. lib. 1, tit. 12 : <hi rend="i">de Officio
+								nature.<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19_note1">Dig. lib. 1, tit. 12 : <hi rend="i">de Officio
 									prœfecti urbi.</hi></note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19.3">
@@ -3259,7 +3259,7 @@
 							les chastiera segont la querele : quar itel menetères doivent estre
 							puniz. Ou s'il encuse son seignor ou s'il fet conspiracion contre li, ou
 							qu'il le descovre contre ses anemis, li baillif doit envaer tel home en
-								essil<note>Ibid., frag. 1, § 9 et 10.</note>.</p>
+								essil<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19_note2">Ibid., frag. 1, § 9 et 10.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19.5">
 						<head>§ 5.</head>
@@ -3268,13 +3268,13 @@
 							garder le repos dou pueple ; et que, se li prévolz (<emph>li
 								baillis ?</emph>) envoie aucun en essil, il le puet envoier
 							hors dou réaume. Et commenda li rois que fussent acussez devant le
-							baillif, qui tienent mauvèses compaignies ensenble<note>Ibid., frag. 1,
+							baillif, qui tienent mauvèses compaignies ensenble<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19_note3">Ibid., frag. 1,
 								§ 11-14.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19.6">
 						<head>§ 6.</head>
 						<p>Se li baillis est hors des bonnes de sa baillie, il ne puet jugier ;
-							mès il puet commender<note>Ibid., frag. 3.</note>.</p>
+							mès il puet commender<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19_note4">Ibid., frag. 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_19.7">
 						<head>§ 7.</head>
@@ -3328,14 +3328,14 @@
 							qu'il vient : et bien puent aler prandre maufessant aucunes foiz
 							privéement. — Cil qui ont juridicion feront bien et corteisie, s'il font
 							savoir le jor qu'il doivent venir. Et quant il a antré en la cité, il
-							doit antrer par la grant porte et la grant rue de la cité<note>Dig. lib.
+							doit antrer par la grant porte et la grant rue de la cité<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note1">Dig. lib.
 								1, tit. 16, frag. 4 : <emph>de Officio proconsulis et
 									legati</emph>.</note>. — L'en deffent que quant cil qui ont
 							juridicion ne pregnent fors petit don, com viandes à passer le jor, ou
 							joiaus, et si petit que nus preudom ne set ameuz à fere mauvesté por si
 							petit don. Et li proverbes dit issit : Ne totes choses ne toz tens
 							ne passe, qui aucuns dons ne prent ; mès petites choses doit l'en
-								prandre<note>Ibid., frag. 6, § 3.</note>.</p>
+								prandre<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note2">Ibid., frag. 6, § 3.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.3">
 						<head>§ 3.</head>
@@ -3348,7 +3348,7 @@
 							faille riens. Et s'il i a riens commencié, qui soit à eschiver
 								(<emph>achever</emph>) au meauz que l'en porra, et doit amonester
 							cels qui s'entrametent des ovres de bien fere ; et s'il ont mestier
-							d'aide, il lor doit doner<note>Ibid., frag. 7.</note>.</p>
+							d'aide, il lor doit doner<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note3">Ibid., frag. 7.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.4">
 						<head>§ 4.</head>
@@ -3371,7 +3371,7 @@
 							feble : et ce apartient à la cure de cez qui ont juridiction que,
 							se aucuns est si otrageus et si maus, que nus ne ose estre avoquaz
 							contre lui, lequel office de avoquas est à toz, cil qui a juridicion i
-							doit metre conseil<note>Dig. lib. 1, tit. 16, frag. 9 § 2-5.</note>. —
+							doit metre conseil<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note4">Dig. lib. 1, tit. 16, frag. 9 § 2-5.</note>. —
 							Et doivent deffendre tôtes et forces, et vencons et plévines, meismement
 							celes où l'en ne paie riens ; et doit-on encore
 								(<emph>deffendre</emph>) que nus ne gaaint de mauvèse menière :
@@ -3383,7 +3383,7 @@
 							chose que l'en ne doive, ne ne doivent pas sostenir mauvèses
 							marcheandises, ne ne doit pas soffrir que l'en punisse cels qui ne l'ont
 							forfet, et doivent encore porveoir que nus ne face tort as bones
-								genz<note>Ibid., tit. 18 : <emph>de Officio
+								genz<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note5">Ibid., tit. 18 : <emph>de Officio
 								prœsidis</emph>.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.5">
@@ -3398,7 +3398,7 @@
 							prison, et issint le commende li rois. Et li rois dit que l'en se devoit
 							prendre garde au desvé qui tue son père, s'il l'avet fet en bon sen ou
 							en desverie ; et s'il l'avet fet en bon sen, il le doit
-								comparer<note>Dig. lib. 1, tit. 18, frag. 13.</note> — Et se tu sés
+								comparer<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note6">Dig. lib. 1, tit. 18, frag. 13.</note> — Et se tu sés
 							certainement que il l'ait fet en forsenerie, qu'il ne sache qu'il face
 							toz jorz, et qu'il n'entende riens, n'en i ait point de sopeçon contre
 							lui, tu porras en une feintise estramper sa paine, quar il est assez
@@ -3418,7 +3418,7 @@
 							facent mal, mès qu'il ne facent mal à autres.</p>
 						<p>Et se li desvé font chose qu'il ne doivent, l'en doit par droit metre lor
 							colpes sor cels qui les doivent garder, comme il face tel fet par
-							mauvèse garde<note>Ibid., frag. 14.</note>.</p>
+							mauvèse garde<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note7">Ibid., frag. 14.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.6">
 						<head>§ 6.</head>
@@ -3433,7 +3433,7 @@
 							n'apartient pas à fere qu'il motre par dehors ce qu'il panse. Et il doit
 							rendre droit si bèlement, que droit ne <pb n="74"/>périsse entre ses
 							mains. — Se cil qui a juridicion la veaut lessier, il ne puet sans le
-								roi<note>Dig. lib. 1, tit. 18, frag. 19, 20.</note>.</p>
+								roi<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note8">Dig. lib. 1, tit. 18, frag. 19, 20.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.7">
 						<head>§ 7.</head>
@@ -3444,14 +3444,14 @@
 							mande n'a poïe qu'en ce que l'en li mende. — Cil qui a juridiction de
 							mendement n'a riens propre ; mès il use dou poir à celui qui le
 							mende. — Et si dient li grant seignor que la juridiction passe à celi à
-							qui l'en mande<note>Ibid., tit. 21 : <emph>de Officio ejus cui
+							qui l'en mande<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note9">Ibid., tit. 21 : <emph>de Officio ejus cui
 									mandata est jurisdictio</emph>.</note>.</p>
 					</div>
 					<div xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21.8">
 						<head>§ 8.</head>
 						<p>A toutes les foiz que aucuns use de mendement, il ne fet riens por soi,
 							fors por celi qui le li mende, à toutes les foiz qu'il use dou
-								mandement<note>Ibid., frag. 3.</note>. — Serf ne bastart ne doivent
+								mandement<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note10">Ibid., frag. 3.</note>. — Serf ne bastart ne doivent
 							pas avoir juridiction, se li rois ne lor fet grâce : quar tex genz
 							ne doivent pas estre honorez.</p>
 					</div>
@@ -3459,7 +3459,7 @@
 						<head>§ 9.</head>
 						<p>Cil qui a juridiction ne doit pas jugier sols, mès assez de sages
 							genz ; et s'il ne se puent acorder en trois jors, cil qui a la
-							juridicion jugera par la plus saine partie<note>Ibid., tit. 22 :
+							juridicion jugera par la plus saine partie<note xml:id="anonyme_LJP_l01_BNF_fr-2844_art_21_note11">Ibid., tit. 22 :
 									<emph>de Officio adsessorum</emph>.</note>.</p>
 					</div>
 				</body>
