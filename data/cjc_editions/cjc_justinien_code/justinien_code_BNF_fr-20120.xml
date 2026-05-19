@@ -1,37 +1,44 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_BNF_fr-20120">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Traduction 1 du Code de Justinien</title>
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Traduction 1 du Code de Justinien</title>
         <author>Anonyme (trad.)</author>
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
-          <persName xml:id="FD">Frédéric Duval</persName>
-        </principal>
-        <principal>
-          <persName xml:id="GP">Graziella Pastore</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
+        <principal xml:id="GP" ref="https://www.idref.fr/181597640 https://data.bnf.fr/en/ark:/12148/cb18147756h">Graziella Pastore</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
+        <publisher>École nationale des chartes - PSL</publisher>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">Paris, Bibliothèque nationale de France, fr. 20120 (K)</witness>
-          <witness>Paris, Bibliothèque nationale de France, français 496 (G)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="K" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 20120</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 496</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
+      <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>
-        <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
@@ -40,11 +47,11 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dct:title"/>
             <citeStructure match="p[label]" use="@xml:id" unit="rubric">
-              <citeData use="if (label) then substring-after(substring-before(label[1], ']'), '[') else concat('[', substring-after(./@xml:id, 'code.'), ']')" property="dc:title"/>
+              <citeData use="if (label) then substring-after(substring-before(label[1], ']'), '[') else concat('[', substring-after(./@xml:id, 'code.'), ']')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>

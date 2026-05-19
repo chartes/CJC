@@ -1,28 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l1_BNF_fr_1933">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Li Codes an romanz, livre 1</title>
-        <!-- <author> (traduction du Codi en langue d'oïl)</author> -->
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 1</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="VM">Viola Mariotti</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="VM" ref="https://www.idref.fr/260452939 https://data.bnf.fr/fr/ark:/12148/cb18218621c">Viola Mariotti</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
         <p>Cette édition a été réalisée grâce au financement d'un contrat de recherche postdoctorale du LabEx Hastec (2018-2019).</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="H" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
-          <witness xml:id="G">Paris, Bibliothèque nationale de France, français 1070 (G). Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="H" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 1933</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>français 1070 (Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.)</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -30,7 +38,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
       <creation>
-        <date notBefore="1270" notAfter="1300">Dernier tiers du XIIIe siècle</date>
+        <date notBefore="1270" notAfter="1299">1270/1299</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -40,30 +48,30 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="head" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="subpart">
-            <citeData use="head" property="dc:title"/>
+            <citeData use="head" property="dct:title"/>
             <citeStructure match="div[@xml:id]" use="@xml:id" unit="subpart">
-              <citeData use="head" property="dc:title"/>
+              <citeData use="head" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="head" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
       </refsDecl>
       <tagsDecl>
-        <rendition></rendition>
+        <rendition/>
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change></change>
+      <change/>
     </revisionDesc>
   </teiHeader>
   <text>

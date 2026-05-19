@@ -1,43 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_institutes_BNF_fr-1064">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Les Institutes de Justinien</title>
+           <title ref="http://catalogue.bnf.fr/ark:/12148/cb13736009z https://portail.biblissima.fr/fr/ark:/43093/oedatacadd4a0e3921175d46cb9a2fdbfae6dcc3fcbbc3">Les Institutes de Justinien</title>
            <author>Anonyme (trad.)</author> 
-           <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-           <principal ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
-             <persName xml:id="FD">Frédéric Duval</persName>
-            </principal>
+           <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+           <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
             <respStmt>
                <resp>Création et première phase d'encodage</resp>
                <persName xml:id="LI">Lucence Ing</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits
+           <date>2026</date>
+           <publisher>École nationale des chartes - PSL</publisher>
+           <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+           <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits
                en ancien français.</p>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <editor>Société d'histoire du droit</editor>
-               <editor xml:id="ed">Félix Olivier-Martin</editor>
-               <date>1935</date>
-            </bibl>
-            <listWit>
-               <head>Edition d'après le témoin C, mais le corrigeant. Encodage restituant la version
-                  du manuscrit</head>
-              <witness xml:id="C" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78171t https://gallica.bnf.fr/ark:/12148/btv1b8452541q https://portail.biblissima.fr/ark:/43093/mdata8053f0cbef24d1c6349c47c8818679a9b59e070f">Paris, Bibliothèque nationale de France, français 1064</witness>
-            </listWit>
+           <bibl>Félix Olivier-Martin (éd.), <title>Les Institutes de Justinien en français: traduction anonyme du XIIIe siècle</title>, Paris, 1935</bibl>
+           <msDesc>
+             <msIdentifier xml:id="C" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78171t https://gallica.bnf.fr/ark:/12148/btv1b8452541q https://portail.biblissima.fr/ark:/43093/mdata8053f0cbef24d1c6349c47c8818679a9b59e070f">
+               <settlement>Paris</settlement>
+               <repository>Bibliothèque nationale de France</repository>
+               <idno>fr 1064</idno>
+             </msIdentifier>
+           </msDesc>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
+        <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
          <langUsage>
             <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
          </langUsage>
-         <creation>
-           <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-         </creation>
       </profileDesc>
       <encodingDesc>
          <projectDesc>
@@ -45,9 +43,9 @@
          </projectDesc>
         <refsDecl>
           <citeStructure match="/TEI[1]/text[1]/body[1]/div[@xml:id]" use="@xml:id" unit="liber">
-            <citeData use="normalize-space(head)" property="dc:title"/>
+            <citeData use="normalize-space(head)" property="dct:title"/>
             <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-              <citeData use="normalize-space(head)" property="dc:title"/>
+              <citeData use="normalize-space(head)" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </refsDecl>

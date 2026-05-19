@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l7_BNF_fr_1933">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Li Codes an romanz, livre 7</title>
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 7</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="VM">Viola Mariotti</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="VM" ref="https://www.idref.fr/260452939 https://data.bnf.fr/fr/ark:/12148/cb18218621c">Viola Mariotti</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="H" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="H" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 1933</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>français 1070 (Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.)</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -27,7 +37,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
       <creation>
-        <date notBefore="1270" notAfter="1300">Dernier tiers du XIIIe siècle</date>
+        <date notBefore="1270" notAfter="1299">1270/1299</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -37,21 +47,21 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="head" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (head/label) then substring-after(substring-before(head[1]/label[1], ']'), '[') else head/seg/text()" property="dc:title"/>
+            <citeData use="if (head/label) then substring-after(substring-before(head[1]/label[1], ']'), '[') else head/seg/text()" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
       </refsDecl>
       <tagsDecl>
-        <rendition></rendition>
+        <rendition/>
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change></change>
+      <change/>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -76,7 +86,7 @@
         </div>
         <div xml:id="justinien_codi_l7_BNF_fr_1933.7.4">
           <head type="rubric"><label>[7.4]</label> Ici dit se .ii. home ou plusour ont .i. ser communal, que .i. des seignours li puet doner francheté contre la volanté de toz les autres .iii.<note resp="#VM">Dans l’éd. Fitting, rubrique III. <hi rend="i">Si duo habent seruum communem, unus potest dare libertatem contra uoluntatem alterius</hi>.</note></head>
-          <p xml:id="justinien_codi_l7_BNF_fr_1933.7.4.1"><label>[7.4.1]</label><pb n="f. 73v"/><hi rend="b">S</hi>e dui home ou plus de .ii. ont .i. ser communal et .i. de ces li vuet doner franchise ou à sa vie ou à sa mort, bien le <app><lem wit="#H"><subst><del rend="expunction"></del><add>puet faire</add></subst></lem></app>, ancore ne le vueillent li autre, an tel maniere que li compaignon sunt destroint de vandre la lor part à celui qui vuet doner franchise au ser communal. Et doit doner as compaignons le pris par tel part com il ont au ser. Et se li compagnon ne vuelent panre la part del pris, cil qui franchit le ser doit seignier le pris et mettre <app><lem wit="#H"><choice><sic>et mettre</sic><corr resp="VM"/></choice></lem></app> an l’eglise, autresi com li compaignon sunt destroit de vandre le ser communal à celui qui le vuet franchir, et cil qui vuet franchir le ser <app type="palaeographic"><lem resp="#VM">est</lem><rdg wit="#H">et</rdg></app> destrainz ausimant que il le franchisse <app><lem wit="#H"><del rend="overstrike">pour ce que</del></lem></app> puis que il l’achate pour ce. Mais se ciz sers <app><lem wit="#H"><add place="above">a</add></lem></app> <foreign xml:lang="occ">peculi</foreign>, iciz <foreign xml:lang="occ">peculis</foreign> doit estre communax des seignours par tel part com il ont ou ser. ¶</p>
+          <p xml:id="justinien_codi_l7_BNF_fr_1933.7.4.1"><label>[7.4.1]</label><pb n="f. 73v"/><hi rend="b">S</hi>e dui home ou plus de .ii. ont .i. ser communal et .i. de ces li vuet doner franchise ou à sa vie ou à sa mort, bien le <app><lem wit="#H"><subst><del rend="expunction"/><add>puet faire</add></subst></lem></app>, ancore ne le vueillent li autre, an tel maniere que li compaignon sunt destroint de vandre la lor part à celui qui vuet doner franchise au ser communal. Et doit doner as compaignons le pris par tel part com il ont au ser. Et se li compagnon ne vuelent panre la part del pris, cil qui franchit le ser doit seignier le pris et mettre <app><lem wit="#H"><choice><sic>et mettre</sic><corr resp="VM"/></choice></lem></app> an l’eglise, autresi com li compaignon sunt destroit de vandre le ser communal à celui qui le vuet franchir, et cil qui vuet franchir le ser <app type="palaeographic"><lem resp="#VM">est</lem><rdg wit="#H">et</rdg></app> destrainz ausimant que il le franchisse <app><lem wit="#H"><del rend="overstrike">pour ce que</del></lem></app> puis que il l’achate pour ce. Mais se ciz sers <app><lem wit="#H"><add place="above">a</add></lem></app> <foreign xml:lang="occ">peculi</foreign>, iciz <foreign xml:lang="occ">peculis</foreign> doit estre communax des seignours par tel part com il ont ou ser. ¶</p>
           <p xml:id="justinien_codi_l7_BNF_fr_1933.7.4.2"><label>[7.4.2]</label> Li pris dou ser doit estre tex an cest cas, ou soit que il est malles ou soit que elle est fame : se il ne a nesun art, doit estre prisiez .xx. souz et non plus, se il a mains de .x. anz ; mais se il a moins de .x. anz, ne doit estre prisiez .xxx. souz, se il non est notaires ou meges. Mais s’il est notaires, doit estre prisiez .l. souz ; et se il est meges, doit estre prisiez .lx. souz. Et se il est chastrez et non a nul art et il est plus granz de .x. anz, doit estre prisiez .lxx. souz ; et se cil chastrez est manres de .x. anz, doit estre prisiez .xxx. souz et non plus, ou soit que il ait art ou soit que non.</p>
         </div>
         <div xml:id="justinien_codi_l7_BNF_fr_1933.7.5">

@@ -1,5 +1,4 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_tres-libri_BNF-22970">
   <teiHeader>
@@ -7,10 +6,8 @@
          <titleStmt>
             <title>Tres libri</title>
            <author>Anonyme (trad.)</author>
-           <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-           <principal>
-             <persName xml:id="LD">Lucien Dugaz</persName>
-           </principal>
+           <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+           <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
          </titleStmt>
         <editionStmt n="1">
           <p>2025, première édition électronique</p>
@@ -19,14 +16,14 @@
          <publicationStmt>
             <date>2025</date>
             <idno/>
-            <publisher>École nationale des chartes – PSL</publisher>
+            <publisher>École nationale des chartes - PSL</publisher>
             <address>
                <addrLine>65, rue de Richelieu</addrLine>
                <addrLine>75002 Paris</addrLine>
                <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
                <addrLine>https://www.chartes.psl.eu/</addrLine>
             </address>
-            <availability status="restricted">
+            <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
                <p><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/></p>
             </availability>
          </publicationStmt>
@@ -46,7 +43,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
       <creation>
-        <date notBefore="1300" notAfter="1320">début du XIV<hi rend="sup">e</hi> siècle</date>
+        <date notBefore="1300" notAfter="1320">1300/1320</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -56,11 +53,11 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/seg/text()" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]/seg/text()" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>

@@ -1,42 +1,45 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_montpellier_BIM_H-81">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Traduction 2 du Code de Justinien</title>
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Traduction 2 du Code de Justinien</title>
         <author>Anonyme (trad.)</author>
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">
-          <persName xml:id="FD">Frédéric Duval</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
+        <publisher>École nationale des chartes - PSL</publisher>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness facs="https://portail.biblissima.fr/fr/ark:/43093/mdata670812e428f794adbbabe94a15ab39fdfd6075c4">Montpellier, bibliothèque interuniversitaire de médecine, H 81 (C)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="C" source="https://portail.biblissima.fr/fr/ark:/43093/mdata670812e428f794adbbabe94a15ab39fdfd6075c4">
+            <settlement>Montpellier</settlement>
+            <repository>bibliothèque interuniversitaire de médecine</repository>
+            <idno>H 81</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>
-        <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-      </creation>
+      <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
     </profileDesc>
     <encodingDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dc:title"/>
+            <citeData use="if (contains(head[1], '[')) then substring-after(substring-before(head[1], ']'), '[') else head[1]//text()" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>

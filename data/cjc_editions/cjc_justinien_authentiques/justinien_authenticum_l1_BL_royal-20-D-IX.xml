@@ -1,5 +1,4 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_authenticum_l1_BL_royal-20-D-IX">
   <teiHeader>
@@ -7,29 +6,40 @@
       <titleStmt>
         <title>Traduction 1 des Authentiques, Liber primus</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="LD">Lucien Dugaz</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="LD" ref="https://www.idref.fr/195638638 https://data.bnf.fr/fr/ark:/12148/cb17078485t">Lucien Dugaz</principal>
       </titleStmt>
       <publicationStmt>
-        <p> Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
+        <date>2026</date>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="O" facs="https://portail.biblissima.fr/fr/ark:/43093/mdataa8fc84625ad4fb47dbd2200b2d724c27a538dcc7">London, British Library, Royal 20.D.IX</witness>
-          <witness xml:id="F">Paris, Bibliothèque nationale de France, fr. 22970 (F)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="O" source="https://portail.biblissima.fr/fr/ark:/43093/mdataa8fc84625ad4fb47dbd2200b2d724c27a538dcc7">
+            <settlement>London</settlement>
+            <repository>British Library</repository>
+            <idno>Royal 20.D.IX</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="F" source="https://portail.biblissima.fr/fr/ark:/43093/mdata23d818d8e3319ce2c28e027815380169e5642aa8 https://gallica.bnf.fr/ark:/12148/btv1b8447870r">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 22970</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
-      <langUsage>
-        <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
-      </langUsage>
       <creation>
-        <date notBefore="1200" notAfter="1300">3e quart du XIII<hi>e</hi> siècle</date>
+        <date notBefore="1250" notAfter="1275">1250/1275</date>
       </creation>
+      <langUsage>
+        <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
+      </langUsage>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
@@ -38,17 +48,17 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/front[1]" use="default" unit="part">
-          <citeData use="head[1]" property="dc:title"/>
+          <citeData use="head[1]" property="dct:title"/>
           <citeStructure match="div" use="default" unit="subpart">
-            <citeData use="head[1]" property="dc:title"/>
+            <citeData use="head[1]" property="dct:title"/>
           </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="default" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>

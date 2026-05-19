@@ -1,35 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-197">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Traduction 2 du Digeste de Justinien</title>
+        <title ref="https://www.idref.fr/085889695 https://www.wikidata.org/wiki/Q838526 https://data.bnf.fr/fr/ark:/12148/cb13736027w https://portail.biblissima.fr/ark:/43093/oedata25dbe0754d506f6764cc2bbe1e3d16377a736fda">Traduction 2 du Digeste de Justinien</title>
         <author>Anonyme (trad.)</author>
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="IR">Irene Reginato</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="IR" ref="https://www.idref.fr/20437443X https://data.bnf.fr/fr/ark:/12148/cb18046228g">Irene Reginato</principal>
       </titleStmt>
       <publicationStmt>
-        <p> Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>        
-          <witness facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48506z https://portail.biblissima.fr/fr/ark:/43093/mdata7951573fc432ba6cafd83dd7698d7f193e223062">Paris, Bibliothèque nationale de France, fr. 197</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48506z https://portail.biblissima.fr/fr/ark:/43093/mdata7951573fc432ba6cafd83dd7698d7f193e223062">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 197</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
+      <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
       <langUsage>
-        <language ident="fra"> Texte en ancien français, traduit d'après le latin.</language>
+        <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>
-        <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
@@ -38,17 +39,17 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/front[1]" use="dots" unit="part">
-          <citeData use="head[1]" property="dc:title"/>
+          <citeData use="head[1]" property="dct:title"/>
           <citeStructure match="div" use="default" unit="subpart">
-            <citeData use="head[1]" property="dc:title"/>
+            <citeData use="head[1]" property="dct:title"/>
           </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
@@ -73,14 +74,12 @@
           formes du verbe <hi rend="i">pouoir</hi>.</p>
         <p> La séparation des mots tend à régulariser les formes sur les habitudes modernes. Nous
           soudons les relatifs composés (ex. <hi rend="i">lequel</hi>) mais nous écrivons séparément
-          <hi rend="i">toz jorz</hi> en tant qu’étape préliminaire à la forme soudée moderne <hi
-            rend="i">toujours</hi>. L’apostrophe suit la norme moderne et a été employé pour
+          <hi rend="i">toz jorz</hi> en tant qu’étape préliminaire à la forme soudée moderne <hi rend="i">toujours</hi>. L’apostrophe suit la norme moderne et a été employé pour
           distinguer <hi rend="i">qui</hi> pronom relatif de <hi rend="i">qu'i</hi> conjonction plus
           pronom sujet réduit de <hi rend="i">il</hi> à <hi rend="i">i.</hi></p>
         <p> La ponctuation et les majuscules suivent les normes modernes.</p>
         <p> La lettre capitale est réservée uniquement aux noms propres de personne, de lieu et de
-          peuple, alors que les institutions (<hi rend="i">senat</hi>) et les titres juridiques (<hi
-            rend="i">empereeur, prevost</hi>) sont écrits avec une minuscule. Les chiffres romains
+          peuple, alors que les institutions (<hi rend="i">senat</hi>) et les titres juridiques (<hi rend="i">empereeur, prevost</hi>) sont écrits avec une minuscule. Les chiffres romains
           simples ont été transcrits en minuscules encadrées par deux points. On a gardé le numéral
           <hi rend="i">.i.</hi> sans le transformer en article indéfini.</p>
         <p> Le système des accents suit un compromis entre l’orientation conservatrice habituelle,
@@ -93,9 +92,7 @@
           l’aide d’accents aigus placés sur les mots lexicaux ou sur les termes ayant plus de
           contenu sémantique : le substantif <hi rend="i">lés</hi>, par exemple, porte l’accent pour
           se distinguer de l’article défini pluriel <hi rend="i">les</hi>, et il en va de même pour
-          l’adjectif <hi rend="i">seür</hi> (pour le différencier de la préposition <hi rend="i"
-            >seur</hi>), pour le participé passé <hi rend="i">né</hi> et la préposition <hi rend="i"
-              >dés</hi> ; un accent aigu est enfin ajouté à <hi rend="i">pés</hi>, ‘paix’. L’usage du tréma est lui aussi soumis à la nécessité de
+          l’adjectif <hi rend="i">seür</hi> (pour le différencier de la préposition <hi rend="i">seur</hi>), pour le participé passé <hi rend="i">né</hi> et la préposition <hi rend="i">dés</hi> ; un accent aigu est enfin ajouté à <hi rend="i">pés</hi>, ‘paix’. L’usage du tréma est lui aussi soumis à la nécessité de
           favoriser la compréhension : il n’est pas ajouté aux formes verbales <hi rend="i">eust,
             deust, feussent, veu...</hi>, mais il est employé sur des formes qui ont conservé
           l’hiatus en français moderne, comme les formes des verbes <hi rend="i">oïr, enfoïr</hi> et
@@ -134,8 +131,7 @@
           mouche et présentent une lettrine. Le texte critique est fidèle à cette présentation et
           les édite en italique. En outre, il est intéressant de remarquer que plusieurs paragraphes
           débutent par un E majuscule indiquant la conjonction <hi rend="i">et</hi>, alors que la
-          forme sans ‹-t› final est presque inexistante à l’intérieur du texte. L’emploi de ces <hi
-            rend="i"> E</hi> majuscules en correspondance d’une position hiérarchique plus
+          forme sans ‹-t› final est presque inexistante à l’intérieur du texte. L’emploi de ces <hi rend="i"> E</hi> majuscules en correspondance d’une position hiérarchique plus
           importante en fait donc des signes importants dans la structuration du texte de la part du
           copiste : ils ont donc été conservés dans leur forme initiale.</p>
       </div>
@@ -164,31 +160,25 @@
             <seg rend="i" type="lemme" xml:lang="lat"><hi rend="b"> C</hi>ui <choice>
               <sic source="#ms">jurisdicio</sic>
               <corr resp="#ed">jurisdictio</corr>
-            </choice><note resp="editor">jurisdictio] jurisdicio <hi rend="i"
-              >ms.</hi></note>.</seg><hi rend="b"> C</hi>il à qui jurisdicion est donnee, il semble
+            </choice><note resp="editor">jurisdictio] jurisdicio <hi rend="i">ms.</hi></note>.</seg><hi rend="b"> C</hi>il à qui jurisdicion est donnee, il semble
             que les choses li sont otroiees sanz coi la jurisdicion ne puet estre maintenue.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.3"><label>[2.1.3]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>mperium.</seg>
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.3"><label>[2.1.3]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>mperium.</seg>
             <hi rend="b"> C</hi>onmandemenz est ou purs ou meslez. Purs conmandemenz est avoir la
             poesté de glaive à prendre venchance des mauvés hommes : et ce apele l’en poesté.
             Conmandemenz meslez est quant il a jurisdicion, et ce est en donner possession de biens.
             Et si est jurisdicion congiez de donner juge.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.4"><label>[2.1.4]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b">I</hi>ubere.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.4"><label>[2.1.4]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">I</hi>ubere.</seg><hi rend="b">
               C</hi>omander que caution soit donnee par stipulacion et metre en possession apartient
             plus à conmandement que à jurisdicion.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.5"><label>[2.1.5]</label><hi rend="b"> J</hi>ulians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> M</hi>ore</seg>.<hi rend="b"> I</hi>l
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.5"><label>[2.1.5]</label><hi rend="b"> J</hi>ulians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> M</hi>ore</seg>.<hi rend="b"> I</hi>l
             a eissi esté ordené par les anciens que cil puisse demander jurisdicion, qui l’a par son
             propre droit, et non pas par autrui benefice.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.6"><label>[2.1.6]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>t quia.</seg>
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.6"><label>[2.1.6]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>t quia.</seg>
             <hi rend="b"> Q</hi>uant jurisdicion n’est pas donnee à aucun par le prince, ne la loi ne
             li donne pas mes ele conferme la juris<cb n="23d"/>dicion qui li est mandee. E por ce, se
             cil qui manda jurisdicion muert ainz que cil à qui il la manda conmainst à user en, Labeo
             dit que li mandemenz est failliz, autresi comme en autres causes.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.7"><label>[2.1.7]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i quis.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.7"><label>[2.1.7]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i quis.</seg><hi rend="b">
               S</hi>e aucuns corront par tricherie ce qui estoit proposé en blanc<note resp="editor">
                 La Traduction 3 (<hi>ms. F</hi>) donne : « en parchemin ou en autre matiere ».</note> ou
             en chartre, ou en autre matiere por cause de pardurable jurisdicion, et non pas
@@ -221,11 +211,9 @@
             li autres li conmanda par tricherie, cil qui le conmanda i est tenuz. E se li uns et li
             autres le fist par tricherie, il i sont ambedui tenu, quer se pluseur <cb n="24a"/> le
             font ou corrumpent il i sont tuit tenu.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.8"><label>[2.1.8]</label><hi rend="b"> G</hi>aius dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> A</hi>deo.</seg><hi rend="b"> S</hi>i
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.8"><label>[2.1.8]</label><hi rend="b"> G</hi>aius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> A</hi>deo.</seg><hi rend="b"> S</hi>i
             que il ne soffit pas que li uns en suefre la paine.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.9"><label>[2.1.9]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i familia.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.9"><label>[2.1.9]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i familia.</seg><hi rend="b">
               S</hi>e la mesniee à aucun corront ce qui est escrit, il n’est pas autresi comme en
             larrecin, que action ne soit pas donnee contre les autres, se li sires en <choice>
               <sic source="#ms">vel</sic>
@@ -238,19 +226,16 @@
             doit ci secorre au seigneur. Mes l’en puet dire que, se il porchacierent par tricherie que
             .i. autres le corrompist, ce ne fu pas .i. conseill mes pluseurs.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.10"><label>[2.1.10]</label><hi rend="b"> U</hi>lpians dit :
-            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>ui jurisdicion.</seg><hi
-              rend="b"> C</hi>il qui a jurisdicion ne doit dire droit ne à lui ne à sa fame ne à ses
+            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>ui jurisdicion.</seg><hi rend="b"> C</hi>il qui a jurisdicion ne doit dire droit ne à lui ne à sa fame ne à ses
             enfanz ne à cels que il a franchiz ne as autres que il a o lui.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.1.11"><label>[2.1.11]</label><hi rend="b"> G</hi>aius dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i idem.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.1.11"><label>[2.1.11]</label><hi rend="b"> G</hi>aius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i idem.</seg><hi rend="b">
               S</hi>e dui homme pledent ensemble par pluseurs actions de coi la quantité de chascune
             soit tele que ele apartiegne bien à la jurisdicion au juge, mes quant eles sont totes
             assemblees eles passent la quantité qui apartient à sa jurisdicion, il plot à Sabin et à
             Cassi[us] et à Pele<note resp="editor"><hi rend="i">« Pegaso » dans le texte
               latin.</hi></note> que l’en en puisse pledier par devant lui ; et ceste sentence est
             confermee par les letres à l’empeeur Antonin. ¶ <label>[1]</label>
-            <seg type="lemme" xml:lang="lat" rend="i"> Quid si mutue.</seg> ¶ E se chascuns a ac<cb
-              n="24b"/>tion contre l’autre et li uns demande meneur quantité et li autres graigneur,
+            <seg type="lemme" xml:lang="lat" rend="i"> Quid si mutue.</seg> ¶ E se chascuns a ac<cb n="24b"/>tion contre l’autre et li uns demande meneur quantité et li autres graigneur,
             cil qui demande la meneur doit pledier par devant cel meisme juge que il ne soit en la
             volenté à la usaire de pledier par devant lui. ¶ <label>[2]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Si una.</seg> ¶ Se une action est commune à
@@ -270,8 +255,7 @@
             en jugement et puet estre ajugiee à .i. E à ce s’acordent Cassius et Pegasus, et la leur
             sentence est la plus provable.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.12"><label>[2.1.12]</label><hi rend="b"> U</hi>lpians dit :
-            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> M</hi>agistratibus.</seg><hi
-              rend="b"> I</hi>l ne loist pas as mestres des garnisons à tormenter sers, mes .i. petiz
+            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> M</hi>agistratibus.</seg><hi rend="b"> I</hi>l ne loist pas as mestres des garnisons à tormenter sers, mes .i. petiz
             chastiemenz ne leur est pas veez.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.13"><label>[2.1.13]</label>
             <hi rend="b"> S</hi>i meismes dit : <seg type="lemme" xml:lang="lat" rend="i">
@@ -285,16 +269,14 @@
             ou li autre qui governent les contrees, ne pueent pas conmander que l’en juge au jor que
             il doivent estre sanz baillie.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.14"><label>[2.1.14]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > E</hi>st receptum.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>st receptum.</seg>
             <hi rend="b"> I</hi>l a esté receu, et de cest droit usons nos, que se aucuns se <choice>
               <sic source="#ms">sormet</sic>
               <corr resp="#ed">soumet</corr>
             </choice><note resp="editor">soumet] sormet <hi rend="i">ms.</hi></note> à la jurisdicion
             de graigneur de lui ou d’egal, cil puet dire droit et por lui et contre lui.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.15"><label>[2.1.15]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>i per errorem.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i per errorem.</seg>
             <hi rend="b"> S</hi>e uns prevoz est requis por .i. autre par erreur, <cb n="24c"/> ce qui
             sera fet ne vaudra rien ; ne cil ne doit pas estre oïz, qui dit que les parties se
             consentirent el prevost, quer si comme Julians escrist, cil ne se consentent pas qui font
@@ -313,23 +295,19 @@
               <choice>
                 <sic source="#ms"> Precor</sic>
                 <corr resp="#ed"><hi rend="b"> P</hi>retor</corr>
-              </choice><note resp="editor"> Pretor] Precor <hi rend="i">ms.</hi></note></seg><hi
-                rend="b"> A</hi>utresi comme li prevoz puet donner tote sa jurisdicion, la puet il
+              </choice><note resp="editor"> Pretor] Precor <hi rend="i">ms.</hi></note></seg><hi rend="b"> A</hi>utresi comme li prevoz puet donner tote sa jurisdicion, la puet il
             donner seur certaines persones ou à une cause tant seulement ; meesmement quant il a
             droite acheson que il reçut devant la baillie.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.18"><label>[2.1.18]</label><hi rend="b"> C</hi>alistratus
-            dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i convenerit.</seg><hi
-              rend="b"> S</hi>e il a esté mis en covenant que uns autres prevoz soit juges que cil qui
+            dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i convenerit.</seg><hi rend="b"> S</hi>e il a esté mis en covenant que uns autres prevoz soit juges que cil qui
             a la jurisdicion, et aucuns mue sa volenté ainz que l’en aille à lui, il n’est pas
             contrainz de tenir soi à cele covenance.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.1.19"><label>[2.1.19]</label><hi rend="b"> U</hi>lpians dit :
-            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> C</hi>um quedam.</seg><hi
-              rend="b"> U</hi>ne pucele pleda par devant le juge desoz qui il estoit et fu condempnee,
+            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> C</hi>um quedam.</seg><hi rend="b"> U</hi>ne pucele pleda par devant le juge desoz qui il estoit et fu condempnee,
             et puis se maria à .i. homme qui estoit sozmis à la jurisdicion à .i. autre prevost : l’en
             demandoit se la sentence au premier juge doit estre menee à execucion. E je dis que oïl,
             por ce que la sentence avoit esté avant donnee. E se ce avenoit puis que li plez seroit
-            conmenciez et ainz que la sentence fust donnee, je quideroie ce meisme, et que li pre<cb
-              n="24d"/>miers juges peust donner sentence. ¶ <seg type="lemme" xml:lang="lat">
+            conmenciez et ainz que la sentence fust donnee, je quideroie ce meisme, et que li pre<cb n="24d"/>miers juges peust donner sentence. ¶ <seg type="lemme" xml:lang="lat">
                 Quotiens.</seg> ¶ <label>[1]</label> Totes les foiz que l’en demande de la quantité qui
             apartient à jurisdicion, l’en doit prendre garde combien l’en demande, et non pas combien
             l’en doit.</p>
@@ -341,11 +319,9 @@
             chose qui n’apartient pas à sa jurisdicion.</p>
         </div>
         <div xml:id="justinien_digeste_BNF_fr-197.2.2.0">
-          <head>[2.2.0 Quod quisque iuris in alterum statuerit, ut ipse eodem iure utatur] <seg
-            type="rubric"> Que chascun use en soi du droit que il establist contre
+          <head>[2.2.0 Quod quisque iuris in alterum statuerit, ut ipse eodem iure utatur] <seg type="rubric"> Que chascun use en soi du droit que il establist contre
             autre.</seg></head>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.2.1"><label>[2.2.1]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> H</hi>oc edictum.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.2.1"><label>[2.2.1]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> H</hi>oc edictum.</seg><hi rend="b">
               C</hi>ist banissemenz a tres grant loiauté, ne nus ne s’en doit endaignier par droit.
             Qui se corrocera se li droiz que il dit à autres est diz à lui, ou cil que il fet dire ? ¶
             <seg type="lemme" xml:lang="lat"> Qui magistratum.</seg> ¶ <label>[1]</label> Qui a
@@ -354,8 +330,7 @@
               <sic source="#ms">sie</sic>
               <corr resp="#ed">si</corr>
             </choice><note resp="editor">si] sie <hi rend="i">ms</hi></note> que il suefre que ce
-            vaille en sa persone qui li fu avis que estoit droiz en autrui persone. ¶ <seg
-              type="lemme" xml:lang="lat" rend="i"> Hec autem.</seg> ¶ <label>[2]</label> Nos <choice>
+            vaille en sa persone qui li fu avis que estoit droiz en autrui persone. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Hec autem.</seg> ¶ <label>[2]</label> Nos <choice>
                 <sic source="#ms">pernons</sic>
                 <corr resp="#ed">prenons</corr>
               </choice>
@@ -373,13 +348,11 @@
             droit entre cels seur qui il n’a point de jurisdicion, ce ne vaille rien ; et por ce que
             la sentence n’est nule, <cb n="25a"/> nos creons que cist banissemenz cesse, quer que puet
             nuire li efforcemenz quant li torz fez n’a point deffent ?</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.2.2"><label>[2.2.2]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> H</hi>oc edicto.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.2.2"><label>[2.2.2]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> H</hi>oc edicto.</seg><hi rend="b">
               L</hi>a tricherie au juge doit estre punie par cest banissement, quer se droiz est
             autrement que il ne deust par la folie à l’assesseur, ce ne doit pas nuire au bailli mes à
             l’assesseur.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.2.3"><label>[2.2.3]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i quis <choice>
+          <p xml:id="justinien_digeste_BNF_fr-197.2.2.3"><label>[2.2.3]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i quis <choice>
               <sic source="#ms">iniqum</sic>
               <corr resp="#ed">iniqu[u]m.</corr>
             </choice>
@@ -427,8 +400,7 @@
             <seg type="lemme" xml:lang="lat" rend="i"> Ex hac.</seg> ¶ Julians quide que ce qui a esté
             paié ne puet pas estre demandé arriere par ceste cause, quer la cause naturel remaint, qui
             defendroit que l’en ne demandast arriere.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.2.4"><label>[2.2.4]</label><hi rend="b"> G</hi>aius dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>llud.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.2.4"><label>[2.2.4]</label><hi rend="b"> G</hi>aius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>llud.</seg><hi rend="b">
               L</hi>i prevoz escepte par droit, se aucuns n’a fet contre lui por ce que il avoit fet
             aucune de cez choses, que li baillis n’enchiee en la paine de cest banissement quant il
             s’entremet de defendre le, ou cil qui plede quant il en velt user del benefice.</p>
@@ -436,12 +408,10 @@
         <div xml:id="justinien_digeste_BNF_fr-197.2.3.0">
           <head>[2.3.0 Si quis ius dicenti non obtemperaverit.] <seg type="rubric"> Se aucuns n’obeïst
             à celui qui dit droit.</seg></head>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.3.1"><label>[2.3.1]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> O</hi>mnibus.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.3.1"><label>[2.3.1]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> O</hi>mnibus.</seg><hi rend="b">
               I</hi>l est otroié à toz baillis, solonc la droiture de leur poesté, que il defendent
             lor jurisdicion par jugement de paine. ¶ <label>[1]</label>
-            <seg type="lemme" xml:lang="lat" rend="i"> Is videtur.</seg> ¶ Il semble que cil <cb
-              n="25c"/> n’a pas obeï au juge, qui n’a pas fet la derreniere chose qui li fu conmandee
+            <seg type="lemme" xml:lang="lat" rend="i"> Is videtur.</seg> ¶ Il semble que cil <cb n="25c"/> n’a pas obeï au juge, qui n’a pas fet la derreniere chose qui li fu conmandee
             par la jurisdicion, si comme se aucuns ne sofri pas que chose movable fust chalengiee
             contre lui, et il soffri bien que ele en fu menee ou portee. E se il refusa les choses qui
             vindrent aprés, il semble que il n’i obeï pas. ¶ <label>[2]</label> Si procurateurs ou tes
@@ -455,15 +425,13 @@
         </div>
         <div xml:id="justinien_digeste_BNF_fr-197.2.4.0">
           <head>[2.4.0 De in ius vocando.] <seg type="rubric"> D’apeler en droit.</seg></head>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.4.1"><label>[2.4.1]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> In</hi> ius vocare.</seg>
+          <p xml:id="justinien_digeste_BNF_fr-197.2.4.1"><label>[2.4.1]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> In</hi> ius vocare.</seg>
             <choice>
               <sic source="#ms">peler</sic>
               <corr resp="#ed"><hi rend="b"> A</hi>peler</corr>
             </choice><note resp="editor"> Apeler] peler <hi rend="i">ms.</hi></note> en droit est
             apeler por cause d’esprover le droit.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.4.2"><label>[2.4.2]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>n ius.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.4.2"><label>[2.4.2]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>n ius.</seg><hi rend="b">
               I</hi>l ne covient pas apeler en droit le conseillier ne le prevost ne les viscontes, ne
             les autres baillis qui ont poesté et qui pueent chastier aucun, ne celui qui o commun
             chevauche por la cause commune. E si ne doit pas estre apelez en droit cil qui espose
@@ -471,8 +439,7 @@
             chose aucuns maine caus[e] par devant le prevost, ne celui qui maine enfoïr aucun de sa
             mesniee ou qui fet au mort ce que droiz est.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.3"><label>[2.4.3]</label><hi rend="b"> C</hi>alistratus dit :
-            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">[V]</hi>el qui cadaver.</seg><hi
-              rend="b"> O</hi>u celui qui convoie cors mort. E il semble <cb n="25d"/> que ce est
+            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">[V]</hi>el qui cadaver.</seg><hi rend="b"> O</hi>u celui qui convoie cors mort. E il semble <cb n="25d"/> que ce est
             prové par l’escrit as sainz freres.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.4"><label>[2.4.4]</label>
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
@@ -497,8 +464,7 @@
             li autre sont <choice>
               <sic source="#ms">aplege</sic>
               <corr resp="#ed">apelé</corr>
-            </choice><note resp="editor">apelé] aplegé <hi rend="i">ms. Corr. d’après le lat. <seg
-              rend="eleve">« superiores maiores dici »</seg>.</hi></note> graigneur ou <choice>
+            </choice><note resp="editor">apelé] aplegé <hi rend="i">ms. Corr. d’après le lat. <seg rend="eleve">« superiores maiores dici »</seg>.</hi></note> graigneur ou <choice>
                 <sic source="#ms">en ceiseur</sic>
                 <corr resp="#ed">enceiseur</corr>
               </choice><note resp="editor">enceiseur] en ceiseur <hi rend="i">ms.</hi></note>. Pomponius
@@ -508,26 +474,22 @@
             E si comme Sevoirs disoit, ce ne doit pas estre entendu d’icels enfanz tant seulement qui
             sont né de loial mariage, quer li filz qui est nez de porchaz n’apelera pas sa mere en
             droit.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.4.5"><label>[2.4.5]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>uia semper.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.4.5"><label>[2.4.5]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>uia semper.</seg><hi rend="b">
               Q</hi>uer la mere est toz jorz certaine, jasoit ce que cele a eu l’enfant de porchaz.
             Cil est peres que li mariages mostre.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.6"><label>[2.4.6]</label><hi rend="b"> I</hi>l meismes dit :
-            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> P</hi>arentes.</seg><hi rend="b"
-              > N</hi>us ne puet apeler en droit son pere ne sa mere naturels, quer l’en doit garder à
+            <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> P</hi>arentes.</seg><hi rend="b"> N</hi>us ne puet apeler en droit son pere ne sa mere naturels, quer l’en doit garder à
             toz peres et à totes meres une meisme reverence.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.7"><label>[2.4.7]</label><hi rend="b"> I</hi>l meismes dit :
             <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> M</hi>atris.</seg><hi rend="b">
               I</hi>l apelera en droit sanz <cb n="26a"/> nule paine le pere et la mere à son pere
             adoptif, quer il ne li sont rien, quer il est del lignage à cels tant seulement de qui il
             descendi.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.4.8"><label>[2.4.8]</label><hi rend="b"> U</hi>lpians dit : <seg
-            type="lemme" xml:lang="lat" rend="i">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.4.8"><label>[2.4.8]</label><hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i">
             <choice>
               <sic source="#ms"> Adaptivum</sic>
               <corr resp="#ed"><hi rend="b"> A</hi>doptivum</corr>
-            </choice><note resp="editor"> Adoptivum] Adaptivum <hi rend="i"
-              >ms.</hi></note></seg>.<hi rend="b"> A</hi>ucuns ne puet pas apeler en droit son pere
+            </choice><note resp="editor"> Adoptivum] Adaptivum <hi rend="i">ms.</hi></note></seg>.<hi rend="b"> A</hi>ucuns ne puet pas apeler en droit son pere
             adoptif tantdis comme il est en sa poesté ; et ce est plus por la droiture de la poesté
             que por le conmandement au prevost, se ce n’est filz qui ait chatel conquis par
             chevalerie, quer lors li est il otroié quant la cause est conneue. Mes son pere naturel ne
@@ -549,8 +511,7 @@
             Julians escrit le contrere, et pluseur loent la sentence Julian ; et solonc ce avendra il
             que li patrons sera apelez en droit et ses filz n’i sera pas apelez, comme cil qui est
             innocenz.</p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.4.9"><label>[2.4.9]</label><hi rend="b"> P</hi>aulus dit : <seg
-            type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>s quoque.</seg><hi rend="b">
+          <p xml:id="justinien_digeste_BNF_fr-197.2.4.9"><label>[2.4.9]</label><hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>s quoque.</seg><hi rend="b">
               C</hi>il qui franchist aucun por ce que il li fu enjoint <cb n="26b"/> ne doit pas estre
             apelez en droit, jasoit ce que il i est apelez por franchir le.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.10"><label>[2.4.10]</label><hi rend="b"> U</hi>lpians dit :
@@ -665,8 +626,7 @@
             prevost apartiegne à cest cas, quer il ne semble pas que cil qui baille libelle au prince
             ou au prevost apeaut en droit son patron.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.16"><label>[2.4.16]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > Q</hi>uesitum.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>uesitum.</seg>
             <hi rend="b"> L</hi>’en demande se cil qui a .i. orfelin en garde puet apeler en droit,
             sanz l’otroi au prevost, sa patrone el non de l’orfelin.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.17"><label>[2.4.17]</label>
@@ -728,12 +688,10 @@
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
               I</hi>n eum.</seg>
             <hi rend="b">J</hi>ugemenz de .xl. deniers d’or est donnez contre celui qui fera contre
-            cez choses, mes il n’est pas donnez à loier ne contre l’oir ne puis que li anz est <cb
-              n="27c"/> passez.</p>
+            cez choses, mes il n’est pas donnez à loier ne contre l’oir ne puis que li anz est <cb n="27c"/> passez.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.4.25"><label>[2.4.25]</label>
             <hi rend="b"> M</hi>arcians<note resp="editor"><hi rend="i"><hi rend="sc"> « Modestinus
-              »</hi> dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat"
-                rend="i"><hi rend="b"> S</hi>i sine.</seg>
+              »</hi> dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i sine.</seg>
             <hi rend="b"> S</hi>e tel qui a esté franchiz apele son patron en droit sanz empetrer
             pardon del banissement, se li patrons s’en plaint, il <choice>
               <sic source="#ms">paira</sic>
@@ -761,8 +719,7 @@
             est de sa jurisdicion. ¶ <label>[1]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Si quis.</seg> ¶ Se aucuns est apelez en droit
             por droite cause par devant juge avenant, il sera puniz par paine de chatel par la
-            jurisdicion au juge, mes l’en doit espernier à la rudece des hommes. ¶ <seg type="lemme"
-              xml:lang="lat" rend="i"> Item.</seg> ¶ E se li aversaires ne pert rien en ce que cel
+            jurisdicion au juge, mes l’en doit espernier à la rudece des hommes. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Item.</seg> ¶ E se li aversaires ne pert rien en ce que cel
             tens li prevoz quite la paine, si comme se il estoit jorz de foire.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.5.3"><label>[2.5.3]</label>
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
@@ -785,8 +742,7 @@
             necessaires. Illeque conmande il que il soit pris quels que il soit, si comme por son pere
             et por son patron.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.6.2"><label>[2.6.2]</label>
-            <hi rend="b"> C</hi>alistratus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-              rend="b"> I</hi>tem.</seg>
+            <hi rend="b"> C</hi>alistratus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>tem.</seg>
             <hi rend="b"> E</hi> por la patrone et por ses enfanz, et por la fame au patron, et por sa
             bru, quer lors est il conmandé que li pleges soit pris quels que il soit, et jugemenz de
             .L. deniers d’or apartient <choice>
@@ -814,8 +770,7 @@
             <hi rend="b"> L</hi>i prevoz proposa cest banissement por refrener par poor de paine cels
             qui retienent par force cels qui sont apelé en droit. <label>[1]</label> E Pomponius
             escrit que el non del serf qui ce fet en doit estre renduz jugemenz por le meffet au serf,
-            se il ne le fist par le seu son seigneur ; quer lors recevra li sires le jugement <cb
-              n="28a"/> sanz abandonner le serf à soffrir la paine de son meffet. ¶ <label>[2]</label>
+            se il ne le fist par le seu son seigneur ; quer lors recevra li sires le jugement <cb n="28a"/> sanz abandonner le serf à soffrir la paine de son meffet. ¶ <label>[2]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Offilius.</seg> ¶ Offilus quide que cist
             banissemenz n’ait pas lieu se la persone qui ne pot estre apelee en droit est retenue, si
             comme li peres et li patrons et les autres persones. E il me semble que ceste sentence est
@@ -906,8 +861,7 @@
                 <choice>
                   <sic source="#ms"> Patisclatio</sic>
                   <corr resp="#ed"><hi rend="b"> S</hi>atisdatio</corr>
-                </choice><note resp="editor"> Satisdatio] Patisclatio <hi rend="i"
-                  >ms.</hi></note>.</seg>
+                </choice><note resp="editor"> Satisdatio] Patisclatio <hi rend="i">ms.</hi></note>.</seg>
             <hi rend="b"> P</hi>levine que l’en apele satisdacion est autresi apelee comme
             satisfaction, quer autresi comme nos disons que nos fesons satisfaction à celui à qui nos
             aemplissons sa volenté, disons nos que nos donnons assez à nostre aversaire quant nos li
@@ -916,8 +870,7 @@
           <p xml:id="justinien_digeste_BNF_fr-197.2.8.2"><label>[2.8.2]</label>
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
               F</hi>ideiussor.</seg>
-            <hi rend="b"> I</hi>l est conmandé que li pleges qui est donnez d’estre à droit [...]<note
-              resp="editor"><hi rend="i"> La Trad. 3 (ms. F) donne : « Li prevolz dist : Se aucuns
+            <hi rend="b"> I</hi>l est conmandé que li pleges qui est donnez d’estre à droit [...]<note resp="editor"><hi rend="i"> La Trad. 3 (ms. F) donne : « Li prevolz dist : Se aucuns
                 apele en droit son patron ou sa patronne ou lor peres ou lor enfanz, ou celui que ses
                 patrons a en sa poesté, ou la feme son patron ou le mari à sa patronne, l’en doit
                 prendre tel plege comme il porront doner d’estre à droit ».</hi></note> riches non pas
@@ -960,12 +913,10 @@
               S</hi>i decesserit.</seg>
             <hi rend="b"> S</hi>e cil muert, qui donna plege d’estre à droit, li prevoz ne doit pas
             conmander que li pleges l’amaint avant. E se il le conmande par ignorance, ou il muert
-            puis son conmandement devant le jor que il doit estre amenez avant ou il pert la <cb
-              n="29a"/> cité, l’en en puet pledier profitablement.</p>
+            puis son conmandement devant le jor que il doit estre amenez avant ou il pert la <cb n="29a"/> cité, l’en en puet pledier profitablement.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.8.5"><label>[2.8.5]</label>
             <hi rend="b"> P</hi>aulus<note resp="editor"><hi rend="i">« <hi rend="sc"> Gaius</hi> »
-              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-                rend="b"> S</hi>i vero.</seg>
+              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i vero.</seg>
             <hi rend="b"> S</hi>e aucuns <choice>
               <sic source="#ms"/>
               <corr resp="#ed">qui</corr>
@@ -1057,8 +1008,7 @@
             ne donna caucion là où il velt aler.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.8.9"><label>[2.8.9]</label>
             <hi rend="b"> P</hi>aulus<note resp="editor"><hi rend="i">« <hi rend="sc"> Gaius</hi> »
-              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-                rend="b"> A</hi>rbitrio.</seg>
+              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> A</hi>rbitrio.</seg>
             <hi rend="b"> Q</hi>uant arbitre sont establi par devant qui plege doivent estre prové, se
             il semble as parties que il jugent malement, il loist à apeler d’els autresi comme de
             juges.</p>
@@ -1079,8 +1029,7 @@
             conmences puis à pledier en par mon conmandement, li plege que tu en preis i sont
             tenu.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.8.12"><label>[2.8.12]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > I</hi>nter.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>nter.</seg>
             <hi rend="b"> T</hi>uit s’acordent que cil qui est fez oirs soz condicion et porsiet
             l’eritage doit donner caucion à celui qui est establiz à estre oirs aprés lui de rendre
             l’eritage se la condicion faut, et cil qui est establiz à estre oirs aprés lui puet
@@ -1088,8 +1037,7 @@
             quer li prevoz selt conmander por aucune cause que paine soit mise ainz que la condicion
             aviegne et ainz que li jorz soit venuz de demander l’eritage.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.8.14"><label>[2.8.14]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>i filius.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i filius.</seg>
             <hi rend="b"> S</hi>e li filz qui est en baill defent <choice>
               <sic source="#ms">sont</sic>
               <corr resp="#ed">son</corr>
@@ -1221,8 +1169,7 @@
             pramesse.</p>
         </div>
         <div xml:id="justinien_digeste_BNF_fr-197.2.10.0">
-          <head>[2.10.0 De eo per quem factum erit quominus quis in iudicio sistat.] <seg
-            type="rubric"> De celui par qui il sera fet que aucuns ne viegne à
+          <head>[2.10.0 De eo per quem factum erit quominus quis in iudicio sistat.] <seg type="rubric"> De celui par qui il sera fet que aucuns ne viegne à
             jugement.</seg></head>
           <p xml:id="justinien_digeste_BNF_fr-197.2.10.1"><label>[2.10.1]</label>
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
@@ -1264,8 +1211,7 @@
             en la tricherie au serf. E se li sers le fet sanz la volenté au seignor, Sabins dit que
             action doit estre donnee por le meffet au serf, ne li fez au serf ne doit pas nuire au
             seigneur, fors en tant que il le pert, jasoit ce que il n’i a rien meffet. </p>
-          <p xml:id="justinien_digeste_BNF_fr-197.2.10.3"><label>[2.10.3]</label> ¶ <seg type="lemme" xml:lang="lat"
-            rend="i"><hi rend="b"> E</hi>x hoc.</seg> ¶ <hi rend="b"> A</hi>ction seur le fet
+          <p xml:id="justinien_digeste_BNF_fr-197.2.10.3"><label>[2.10.3]</label> ¶ <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>x hoc.</seg> ¶ <hi rend="b"> A</hi>ction seur le fet
             apartient par cest <cb n="31c"/> banissement contre celui qui a fet par tricherie que
             aucuns qui est apelez en droit <choice>
               <sic source="#ms">n</sic>
@@ -1276,8 +1222,7 @@
             seignorie de la chose, ou il est delivrez de l’action. <label>[1]</label> Mes se cil qui
             fet par tricherie que aucuns ne vient pas à jugement n’a de coi paier, il sera droiz que
             action de marcheandise apartiegne contre le defendeeur, que il ne gaaint por autrui
-            tricherie, et que li demanderres n’i ait damage. ¶ <seg type="lemme" xml:lang="lat"
-              rend="i"> Sed et si.</seg> ¶ <label>[2]</label> Mé[s] se cil à qui la paine fu pramise
+            tricherie, et que li demanderres n’i ait damage. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Sed et si.</seg> ¶ <label>[2]</label> Mé[s] se cil à qui la paine fu pramise
             fu empeechiez par la tricherie Tyce et cil qui la pramist par la tricherie Meve que il ne
             vienent à jugement, li uns et li autres pledera par action seur le fet contre celui par
             qui tricherie il fu empeechiez que il ne fust à jugement. <label>[3]</label> Mes se li uns
@@ -1292,12 +1237,10 @@
             paine.</p>
         </div>
         <div xml:id="justinien_digeste_BNF_fr-197.2.11.0">
-          <head>[2.11.0 Si quis cautionibus in iudicio sistendi causa factis non obtemperaverit.] <seg
-            type="rubric"> Se aucuns n’obeïst as caucions que il donna d’estre à droit.</seg></head>
+          <head>[2.11.0 Si quis cautionibus in iudicio sistendi causa factis non obtemperaverit.] <seg type="rubric"> Se aucuns n’obeïst as caucions que il donna d’estre à droit.</seg></head>
           <p xml:id="justinien_digeste_BNF_fr-197.2.11.1"><label>[2.11.1]</label>
             <hi rend="b"> G</hi>aius<note resp="editor"><hi rend="i">« <hi rend="sc"> Paulus</hi> »
-              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-                rend="b"> V</hi>icena.</seg>
+              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> V</hi>icena.</seg>
             <hi rend="b"> L</hi>i prevoz conmande que .xx. mile pas soient conté à chascun jor, sanz
             le jor qui est establiz en coi il covient que en soit à jugement, quer tiels contes d’erre
             n’est greveus ne à l’une partie ne à l’autre.</p>
@@ -1336,8 +1279,7 @@
             l’en secort à celui qui est empeechiez par tampeste ou par force d’eaue que il ne vient
             pas à jugement, doit estre entendu quel tampeste que ce soit, ou de mer ou de terre. E nos
             devons entendre tel tampeste qui toille à errer ou à nagier. <label>[7]</label> Force
-            d’eaue puet estre neis sanz tampeste. Nos entendons force d’eaue se la grandeur de l’e<cb
-              n="32b"/>aue fet l’empeechement, ou se li ponz est depechiez, ou se il n’i a nule nef.
+            d’eaue puet estre neis sanz tampeste. Nos entendons force d’eaue se la grandeur de l’e<cb n="32b"/>aue fet l’empeechement, ou se li ponz est depechiez, ou se il n’i a nule nef.
             <label>[8]</label> Neporquant, se aucuns se peust estre gardez d’enchaier en la tempeste
             ou en la force de l’eaue se il se fust enceis mis à la voie et il fust passez en tens
             covenable et il estreça si le tens, li doit valoir cele excepcion ? Ce covendra il jugier
@@ -1361,8 +1303,7 @@
             que ele a empli tot le lieu où il devoit estre à droit, ou aucune meschance d’aventure a
             destruit tot le lieu, ou se cil qui i venoit n’i pooit estre sanz perill, excepcion li est
             donnee par bien et par loiauté. <label>[9]</label> E autresi à celui qui fu retenuz par
-            justice quant il venoit à jugement, se il fu <cb n="32c"/> retenuz sanz sa tricherie. <hi
-              rend="b">Q</hi>uer se il le porchaça où il en donna cause, ceste excepcion ne li vaudra
+            justice quant il venoit à jugement, se il fu <cb n="32c"/> retenuz sanz sa tricherie. <hi rend="b">Q</hi>uer se il le porchaça où il en donna cause, ceste excepcion ne li vaudra
             pas, mes à celui nuira sa tricherie qui fist que il fust retenuz. Mes se .i. hom qui n’a
             point de justise le retint, ceste excepcion ne li vaudra en nule maniere.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.11.3"><label>[2.11.3]</label>
@@ -1388,8 +1329,7 @@
             que il est en lieus ou en garde de chevaliers, il sera en tel cause que il use
             d’excepcion. ¶ <label>[3]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Preterea.</seg> ¶ E se aucuns n’i vient pas por
-            ce que il est empeechiez par la mort à aucun de sa mesniee, excepcion li doit <cb n="32d"
-            /> estre donnee. ¶ <label>[4]</label>
+            ce que il est empeechiez par la mort à aucun de sa mesniee, excepcion li doit <cb n="32d"/> estre donnee. ¶ <label>[4]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Idem.</seg> ¶ <hi rend="b">E</hi> se aucuns est
             el servage à ses anemis et il lesse por ce avenir à jugement, excepcion li doit aidier.
             L’en demande se il puet estre mis en covenant que, se aucuns pramet à venir en jugement et
@@ -1555,8 +1495,7 @@
             en cort. <label>[1]</label> Mes se li prevoz les i apele ou par ignorance ou por autre
             chose et il i vienent de leur gré, se il donne sentence tant comme il sont present et il
             pledent de leur gré, la sentence vaudra, jasoit ce que il ne fist pas à droit que il les i
-            apela. Mes quant il s’en voudrent aler, se il donna sentence comme il n’estoient pas <cb
-              n="34b"/> present, l’en porra dire que la sentence n’est de nule valeur, quer il ne
+            apela. Mes quant il s’en voudrent aler, se il donna sentence comme il n’estoient pas <cb n="34b"/> present, l’en porra dire que la sentence n’est de nule valeur, quer il ne
             covient pas que li fez au prevost abate le droit. La sentence sera donc quassee sanz apel.
             ¶ <label>[2]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Si excipiuntur.</seg> ¶ Mes certaines causes en
@@ -1568,8 +1507,7 @@
             es paroles de l’establissement. Mes aprés ce que la constetacion est fete, se li uns ou li
             autres refuse à pledier, li establissemenz otroie le delaiement.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.12.2"><label>[2.12.2]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > E</hi>adem.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>adem.</seg>
             <hi rend="b"> P</hi>ar ceste meisme reson qui fu recitee el senat, li empereres Marc fet
             que li prevoz soit requis d’autres choses en jorz foiriez, si comme por ce que defendeeur
             ou procureeur soient donné à orfelins, que li office soient changié, que les excusacions à
@@ -1584,8 +1522,7 @@
             les peres et les patrons, ou de recevoir heritage soupeçonneus, ou que cruels torz fez
             soit proisiez par estre veuz, ou que franchise qui fu enjointe soit donnee.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.12.3"><label>[2.12.3]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>olet.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>olet.</seg>
             <hi rend="b"> D</hi>roiz selt estre diz el tens de messons et de vendenges des choses qui
             pueent perir par tens ou par mort ou par larrecin ou par damage ou par cruel tort fet ou
             par feu ou par perill d’eaue ou meson chaete ou par nef prise par force ou par autres
@@ -1604,15 +1541,12 @@
             <hi rend="b"> L</hi>i bailli ont à costume le jor devant les kalendes de genvier que il ne
             dient droit ne il ne sont en lieu que l’en puisse avenir à els.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.12.6"><label>[2.12.6]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>i feriatis.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i feriatis.</seg>
             <hi rend="b"> S</hi>e l’en juge à jorz de foire, il est establi par la loi que l’en ne
             juge en cez jorz fors par la volenté des parties. E se aucune chose est jugiee contre ce,
-            nus ne doit fere ce qui est jugié, ne paier le, ne cil que l’en requerra cele chose ne <cb
-              n="34d"/> contraingne nul de fere ce qui sera jugié.</p>
+            nus ne doit fere ce qui est jugié, ne paier le, ne cil que l’en requerra cele chose ne <cb n="34d"/> contraingne nul de fere ce qui sera jugié.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.12.7"><label>[2.12.7]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > O</hi>ratione.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> O</hi>ratione.</seg>
             <hi rend="b"> I</hi>l est contenu en l’establissement à l’empereeur Marc que dilaction ne
             soit pas donnee plus d’une foiz por aporter avant instrumenz. Mes por le preu à cels qui
             pledent quant la cause est conneue, dilaction selt estre donnee une autre foiz por aporter
@@ -1633,8 +1567,7 @@
             nuiz et el jor qui est el mileu, est autresi comme se il fust fet en chascune <choice>
               <sic source="#ms">entre</sic>
               <corr resp="#ed">eure</corr>
-            </choice><note resp="editor">eure] entre <hi rend="i">ms. Corr. d’après le lat. <seg
-              rend="eleve">« quasi quavis hora lucis actum esset ».</seg></hi></note> del jor.</p>
+            </choice><note resp="editor">eure] entre <hi rend="i">ms. Corr. d’après le lat. <seg rend="eleve">« quasi quavis hora lucis actum esset ».</seg></hi></note> del jor.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.12.9"><label>[2.12.9]</label>
             <hi rend="b"> U</hi>lpians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
               D</hi>ivus.</seg>
@@ -1676,8 +1609,7 @@
             <label>[4]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Edenda.</seg> ¶ Totes les choses doivent estre
             mostrees que aucuns velt dire par devant le juge ; neporquant il ne doit pas estre
-            contrainz de mostrer les in<cb n="35b"/>strumenz de coi il velt user. ¶ <seg type="lemme"
-              xml:lang="lat" rend="i"> Edere.</seg> ¶ Il ne semble pas que cil mostre l’action, qui ne
+            contrainz de mostrer les in<cb n="35b"/>strumenz de coi il velt user. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Edere.</seg> ¶ Il ne semble pas que cil mostre l’action, qui ne
             mostre tote la covenance. ¶ <label>[5]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Eis.</seg> ¶ L’en secort à celui qui por aage
             ou por rudece ou por feblece de nature ou por autre droite cause ne mostre pas l’action
@@ -1741,8 +1673,7 @@
             transcrit. ¶ <label>[1]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Cogentur.</seg> ¶ Li oir au notaire seront
             contraint de mostrer les instrumenz. E se il a pluseurs oirs et li .i. les a, il seus sera
-            contrainz de mostrer les. Mes se tuit les ont et uns requiert que il li soient mo<cb
-              n="35d"/>stré, tuit doivent estre contraint de mostrer les, quer se .i. des plus chaitis
+            contrainz de mostrer les. Mes se tuit les ont et uns requiert que il li soient mo<cb n="35d"/>stré, tuit doivent estre contraint de mostrer les, quer se .i. des plus chaitis
             les mostra si que l’en puisse par droit doter se il furent mostré, li autre les doivent
             mostrer ou fere leur souscripcions à ce que li .i. en a fet. Autresi sera il se pluseur
             sont notaire à qui l’en demande que il mostrent .i. instrument ; quer se pluseur
@@ -1825,8 +1756,7 @@
           <p xml:id="justinien_digeste_BNF_fr-197.2.13.8"><label>[2.13.8]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> Q</hi>uant l’en demande à notaire que il
             mostre instrumenz, il est puniz quant il lesse par tricherie à mostrer les. Mes de sa
-            corpe ne respondra il pas se ele n’est prochaine à tricherie. ¶ <seg type="lemme"
-              xml:lang="lat"> Dolo.</seg> ¶ Cil lesse par tricherie à mostrer, qui mostre
+            corpe ne respondra il pas se ele n’est prochaine à tricherie. ¶ <seg type="lemme" xml:lang="lat"> Dolo.</seg> ¶ Cil lesse par tricherie à mostrer, qui mostre
             malicieu[se]ment ou qui ne mostre rien. ¶ <label>[1]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Is autem.</seg> ¶ Cil qui enchiet en cest
             banissement paie ce que je ai perdu en ce que il ne me mostre l’instrument lors que li
@@ -1847,8 +1777,7 @@
             <label>[1]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Nichil.</seg> ¶ Il n’a point de force se li
             oirs ou li peres ou li sires au notaire sont de cele meisme profession, quer dés que il
-            vienent el lieu et en la droiture au notaire, il doivent user de ses parties. ¶ <seg
-              type="lemme" xml:lang="lat" rend="i"> Is autem.</seg> ¶ Il ne semble pas que cil à qui
+            vienent el lieu et en la droiture au notaire, il doivent user de ses parties. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Is autem.</seg> ¶ Il ne semble pas que cil à qui
             li notaires lessa ses instrumenz soit contenuz en cest nombre, quer en cez paroles est
             entenduz cil qui est oirs par droit ne plus que se il li eust donnez tant comme il estoit
             vis. Ne li oirs n’i sera pas tenuz quant il ne les porsiet, ne il n’a lessié par tricherie
@@ -1935,8 +1864,7 @@
             covenance est generals et apartient à totes les choses en coi cil qui ont à fere li .i. à
             l’autre se consentent por fere marchié ou transaction ; quer, autresi comme l’en dit que
             cil s’assenblent qui de divers lieus sont concuilli en .i., autresi s’assemblent cil qui
-            de divers movemenz de corage se consentent en une sentence. ¶ <seg type="lemme"
-              xml:lang="lat" rend="i"> Adeo.</seg> ¶ Li nons de covenance est si generals que l’en dit
+            de divers movemenz de corage se consentent en une sentence. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Adeo.</seg> ¶ Li nons de covenance est si generals que l’en dit
             que obligemenz n’est nus se il n’a en soi covenance ou par chose ou paroles, quer
             obligemenz qui est fez par paroles n’est nus se il n’a en soi consentement. Mes aucunes
             covenances reçoivent autre nom, si comme d’achat, de loage, de gage, de stipulacion.</p>
@@ -1986,8 +1914,7 @@
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.6"><label>[2.14.6]</label>
             <hi rend="b"> P</hi>aulus dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
               L</hi>egitima.</seg>
-            <hi rend="b"> L</hi>oial covenance est cele qui est confermee par aucune [...]<note
-              resp="editor"><hi rend="i"> Saut du même au même, cf. la Traduction 3 (ms. F) :</hi>
+            <hi rend="b"> L</hi>oial covenance est cele qui est confermee par aucune [...]<note resp="editor"><hi rend="i"> Saut du même au même, cf. la Traduction 3 (ms. F) :</hi>
               « Covenance fete par loi est cele qui est confermee par aucune loi, et por ce avient il
               aucune foiz que action n’est de covenant ou que ele est ostee par loi ou par le conseill
               au senat ». <hi rend="i">Latin :</hi> Legitima conventio est quae lege aliqua
@@ -2257,8 +2184,7 @@
             <hi rend="b"> L</hi>i covenanz au defendeeur vaut à l’orfelin si comme Julians escrit.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.16"><label>[2.14.16]</label>
             <hi rend="b">J</hi>ulians<note resp="editor"><hi rend="i">« <hi rend="sc"> Ulpianus</hi> »
-              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-                rend="b"> S</hi>i cum emptore.</seg>
+              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i cum emptore.</seg>
             <hi rend="b"> S</hi>e covenanz est fez o l’achateeur d’un heritage et cil qui le vendi le
             demande, excepcion de tricherie li nuist, quer dés que li empereres Pius escrist que
             profitables actions doivent estre donnees à l’achateeur de l’eritage, li deteurs de
@@ -2363,27 +2289,22 @@
               <choice>
                 <sic source="#ms"> Si de iussoris</sic>
                 <corr resp="#ed"><hi rend="b"> F</hi>ideiussoris</corr>
-              </choice><note resp="editor"> Fideiussoris] Si de iussoris <hi rend="i"
-                >ms.</hi></note></seg>. <hi rend="b"> L</hi>a covenance au plege ne vaudra rien au
+              </choice><note resp="editor"> Fideiussoris] Si de iussoris <hi rend="i">ms.</hi></note></seg>. <hi rend="b"> L</hi>a covenance au plege ne vaudra rien au
             deteur, quer ce n’est de rien ses preuz que li denier ne soient pas demandé au deteur ; ne
             au plege ne vaudra il pas, quer ce n’est en nule maniere ses <choice>
               <sic source="#ms">preust</sic>
               <corr resp="#ed">preuz</corr>
-            </choice><note resp="editor">preuz] preust <hi rend="i">ms. Corr. d’après le lat. « <seg
-              rend="eleve"> Immo nec confideiussoribus proderit ».</seg></hi></note>. ¶ <seg
-                type="lemme" xml:lang="lat" rend="i"> Cum alio.</seg> ¶ Covenance qui est fete o autre
+            </choice><note resp="editor">preuz] preust <hi rend="i">ms. Corr. d’après le lat. « <seg rend="eleve"> Immo nec confideiussoribus proderit ».</seg></hi></note>. ¶ <seg type="lemme" xml:lang="lat" rend="i"> Cum alio.</seg> ¶ Covenance qui est fete o autre
             vaut, mes ce est quant ele vaut principalment à celui qui l’a fete par celui à qui
             excepcion en est donnee, si comme il est en celui qui a pramis une chose et en cels qui
             sont obligié por lui.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.24"><label>[2.14.24]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>ed si fideiussor.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>ed si fideiussor.</seg>
             <hi rend="b"> M</hi>es se li pleges a pramis à paier autresi comme se il deust la dete, en
             cest cas est il tenuz por deteur, et il semble que li covenanz qui est fez o lui soit fez
             o le deteur.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.25"><label>[2.14.25]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > I</hi>n duobus.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>n duobus.</seg>
             <hi rend="b"> L</hi>abeo dit que quant dui <cb n="41a"/> ont pramis une chose qui sont
             compaignon, li covenanz personels que li uns fet n’apartient pas à l’autre, autresi comme
             il ne passe pas à l’oir. Mes jasoit ce que li covenanz au plege ne vaille pas au deteur,
@@ -2405,16 +2326,13 @@
             pueent pas renoveler l’obligement. Et ce est voir. Ce meisme doit l’en dire en .ii. à qui
             une chose est pramise. ¶ <label>[1]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Si cum reo.</seg> ¶ Se covenance est fete à
-            certain tens o .i. deteur, ele ne vaut outre le terme ne au deteur ne à son plege. ¶ <seg
-              type="lemme" xml:lang="lat" rend="i">
+            certain tens o .i. deteur, ele ne vaut outre le terme ne au deteur ne à son plege. ¶ <seg type="lemme" xml:lang="lat" rend="i">
               <choice>
                 <sic source="#ms"> Quod sinum</sic>
                 <corr resp="#ed"> Quod si sine</corr>
-              </choice><note resp="editor"> Quod si sine] Quod sinum <hi rend="i"
-                >ms.</hi></note>.</seg> ¶ E se li deteurs a fet covenant non pas en sa persone, mes que
+              </choice><note resp="editor"> Quod si sine] Quod sinum <hi rend="i">ms.</hi></note>.</seg> ¶ E se li deteurs a fet covenant non pas en sa persone, mes que
             rien ne soit demandé au plege, aucun quident que ce ne vaille rien au plege, jasoit ce que
-            ce est li preuz au deteur. Je ai apris que l’exception vaut au plege, quer chose n’est <cb
-              n="41b"/> pas autresi à qui a aucun par franche persone, comme nos voions que l’en
+            ce est li preuz au deteur. Je ai apris que l’exception vaut au plege, quer chose n’est <cb n="41b"/> pas autresi à qui a aucun par franche persone, comme nos voions que l’en
             conseille à celui qui a fet covenant. E de cest droit usons nos. ¶ <label>[2]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Pactus.</seg> ¶ Cil qui avoit fet covenant que
             il ne demanderoit pas une chose fist puis covenant que il la demanderoit : li premiers
@@ -2561,13 +2479,11 @@
               <choice>
                 <sic source="#ms"> Auns</sic>
                 <corr resp="#ed"><hi rend="b"> A</hi>vus</corr>
-              </choice><note resp="editor"> Avus] Auns <hi rend="i">ms.</hi></note></seg>. <hi
-                rend="b"> L</hi>i aiels pramist doere el non de sa niece que il avoit de son fill, et
+              </choice><note resp="editor"> Avus] Auns <hi rend="i">ms.</hi></note></seg>. <hi rend="b"> L</hi>i aiels pramist doere el non de sa niece que il avoit de son fill, et
             fist covenant que li doeres ne fust demandez ne à lui ne à son fill. Se li doeres est
             demandez à celui qui est oirs o le fill, il ne sera pas defenduz par excepcion de la
             covenance, mes li filz en usera par droit. Quer il est otroié que l’en conselt à son oir,
-            ne à rien ne tout que l’en ne porvoie à .i. des oirs tant seulement se il est <cb n="42d"
-            /> sez oirs, sanz donner conseill as autres<note resp="editor"> Se li doeres ... as
+            ne à rien ne tout que l’en ne porvoie à .i. des oirs tant seulement se il est <cb n="42d"/> sez oirs, sanz donner conseill as autres<note resp="editor"> Se li doeres ... as
               autres] <hi rend="i">Syntaxe complexe. Le texte latin donne : « ...filius vero
                 exceptione conventionis recte utetur. quippe heredi consuli concessum est nec quicquam
                 obstat uni tantum ex heredibus providere si heres factus sit, ceteris autem non
@@ -2583,8 +2499,7 @@
             refusee par covenant, ne plus que aucuns puet dire que il ne velt pas que aucuns soit ses
             filz.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.35"><label>[2.14.35]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > T</hi>res fratres.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> T</hi>res fratres.</seg>
             <hi rend="b"> T</hi>roi frere, Tyces et Meves et Sey, departirent entre els .i. heritage
             qui estoit communs à els, et en firent letres en coi il distrent que il avoient departi
             l’eritage leur pere et que rien n’i estoit remés à departir. Mes aprés ce, dui des freres,
@@ -2613,8 +2528,7 @@
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.37"><label>[2.14.37]</label>
             <hi rend="b"> P</hi>apirius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
               I</hi>mperator.</seg>
-            <hi rend="b"> L</hi>i empereeur Antonius et Sevoirs escristrent que li procurer<cb n="43a"
-            />res ne puet pas quiter au deteur à la chose commune les deniers que il doit, et cil qui
+            <hi rend="b"> L</hi>i empereeur Antonius et Sevoirs escristrent que li procurer<cb n="43a"/>res ne puet pas quiter au deteur à la chose commune les deniers que il doit, et cil qui
             furent quité as Philipois doivent estre rapelé.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.38"><label>[2.14.38]</label>
             <hi rend="b"> P</hi>apinians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b">
@@ -2649,14 +2563,12 @@
             <label>[3]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Pater.</seg> ¶ Li peres qui pramist doere por
             sa fille fist covenant que, se sa fille moroit el mariage aprés ce que il seroit morz, une
-            partie de doere remaindroit à son frere qui seroit son oir. Se la fille a puis enfanz <cb
-              n="43b"/> de son mari et leur aiels les fet oirs en son testament, cele covenance vaudra
+            partie de doere remaindroit à son frere qui seroit son oir. Se la fille a puis enfanz <cb n="43b"/> de son mari et leur aiels les fet oirs en son testament, cele covenance vaudra
             par excepcion de tricherie, quer li covenanz fu fez por donner conseill as oirs. Et el
             tens en coi li peres n’ot pas autres filz, il semble que ses derreniers jugemenz fu de
             conseillier à son frere.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.41"><label>[2.14.41]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>i intra.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i intra.</seg>
             <hi rend="b"> S</hi>e tu me paies dedenz cel jor une partie de ma <choice>
               <sic source="#ms">dete</sic>
               <corr resp="#ed">dote</corr>
@@ -2665,8 +2577,7 @@
             deteurs n’a pas action à demander quitance, neporquant il est certaine chose que exception
             li apartient.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.42"><label>[2.14.42]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > I</hi>nter.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>nter.</seg>
             <hi rend="b"> E</hi>ntre le deteur et le creancier ot tel covenant que li creanciers ne
             paieroit pas les ventes del champ qui li fu bailliez en gage, ainz covendroit que li
             deteurs les paiast. Je di que <choice>
@@ -2691,8 +2602,7 @@
             autresi comme li autre creancier. E je di que li defenderres qui apela les autres
             creanciers à avoir tiels parties se doit tenir apaié de cele meisme partie.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.45"><label>[2.14.45]</label>
-            <hi rend="b"> H</hi>ermogenians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-              rend="b"> D</hi>iuisionis.</seg>
+            <hi rend="b"> H</hi>ermogenians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> D</hi>iuisionis.</seg>
             <hi rend="b"> S</hi>e covenanz qui est fez quant l’en part ne prent force par baillier les
             choses ou par stipulation, il ne porra pas valoir à donner action ne plus que nuz
             covenanz.</p>
@@ -2755,8 +2665,7 @@
             vaille, quer ce n’est pas mals se aucuns est trez en cause por tant sanz plus à coi ses
             richeces soffisent.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.50"><label>[2.14.50]</label>
-            <hi rend="b"> I</hi>l meismes <cb n="44a"/> dit : <seg type="lemme" xml:lang="lat"
-              rend="i"><hi rend="b"> N</hi>on impossibile.</seg>
+            <hi rend="b"> I</hi>l meismes <cb n="44a"/> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> N</hi>on impossibile.</seg>
             <hi rend="b">J</hi>e ne croi pas que ce soit impossibile, es marchiez de chose bailliee en
             garde et de chose prestee et es semblables, que cil covenanz i soit mis : « Que ne faces
             mon serf larron ne fuitif », ce est : « Que tu ne l’escommueves que il deviegne lerres ou
@@ -2775,8 +2684,7 @@
             perdue l’action que tu avoies contre ton deteur, ne il cele que il avoit contre le
             suen.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.52"><label>[2.14.52]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > E</hi>pistula.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> E</hi>pistula.</seg>
             <hi rend="b"> L</hi>a letre por coi aucuns reconnoist que aucuns est oirs o lui ne li
             dorra nule demande contre celui qui porsiet les choses de l’eritage. <label>[1]</label>
             Mes <choice>
@@ -2804,8 +2712,7 @@
                 postulabatur ».</seg></hi></note> à paier la pardurablement : il fu respondu que
             cele requeste ne devoit estre receue ne par nul droit ne par loiauté.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.53"><label>[2.14.53]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>umptus.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>umptus.</seg>
             <hi rend="b"> I</hi>l est honeste chose à celui qui plede que il apetice les despens ; mes
             il ne loist pas à fere covenant que la quantité qui i est despendue ne soit pas rendue o
             loiaus usures, mes la moitié de ce qui a esté donné por cel plet. </p>
@@ -2825,14 +2732,12 @@
             li sers fet aprés ce covenant que il la deman<cb n="44c"/>dera, il sera receuz à demander
             la par le benefice del covenant que li sers fist.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.56"><label>[2.14.56]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > S</hi>i conuenerit.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> S</hi>i conuenerit.</seg>
             <hi rend="b"> S</hi>e il fu mis en covenant que li sires ne demanderoit rien au coutiveeur
             et il i ot droite cause de fere la covenance, por ce ne remaindra pas que li coutiverres
             ne puissent demander au seigneur.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.57"><label>[2.14.57]</label>
-            <hi rend="b"> F</hi>lorencius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > Q</hi>ui in futurum.</seg>
+            <hi rend="b"> F</hi>lorencius dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>ui in futurum.</seg>
             <hi rend="b"> I</hi>l semble que cil qui reçut de son deteur les usures del tens à venir
             li covenança sanz dire que il ne demanderoit sa dete devant que li tens seroit passez de
             coi il avoit eu les usures. ¶ <label>[1]</label>
@@ -2841,8 +2746,7 @@
             que une chose ne te soit pas demandee, mes oirs la te <choice>
               <sic source="#ms">porrai</sic>
               <corr resp="#ed">porra</corr>
-            </choice><note resp="editor">porra] porrai <hi rend="i">ms. Corr. d’après le lat. <seg
-              rend="eleve">« heres meus ab omnibus vobis petitionem habebit ».</seg></hi></note>
+            </choice><note resp="editor">porra] porrai <hi rend="i">ms. Corr. d’après le lat. <seg rend="eleve">« heres meus ab omnibus vobis petitionem habebit ».</seg></hi></note>
             demander à ton oir.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.58"><label>[2.14.58]</label>
             <hi rend="b"> N</hi>eracius dit : <seg type="lemme" xml:lang="lat" rend="i">
@@ -2873,8 +2777,7 @@
             covenanz à els meismes puisse nostre condicion estre amendee.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.14.60"><label>[2.14.60]</label>
             <hi rend="b"> P</hi>apinians<note resp="editor"><hi rend="i">« <hi rend="sc">
-              Papirius</hi> » dans le texte latin.</hi></note> dit : <seg type="lemme"
-                xml:lang="lat" rend="i"><hi rend="b"> I</hi>mperator.</seg>
+              Papirius</hi> » dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> I</hi>mperator.</seg>
             <hi rend="b"> L</hi>i empereres Antoines escrist à <choice>
               <sic source="#ms"> Cassi</sic>
               <corr resp="#ed"> Cassius</corr>
@@ -2912,8 +2815,7 @@
               <sic source="#ms">meis</sic>
               <corr resp="#ed">meismes</corr>
             </choice>
-            <note resp="editor">meismes] meis <hi rend="i">ms.</hi></note> dit : <seg type="lemme"
-              xml:lang="lat" rend="i"><hi rend="b"> T</hi>ransactum.</seg>
+            <note resp="editor">meismes] meis <hi rend="i">ms.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> T</hi>ransactum.</seg>
             <hi rend="b"> L</hi>’en puet entendre transaction non pas tant seulement se il i a en
             stipulation, mes se covenanz en a esté fez.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.15.3"><label>[2.15.3]</label>
@@ -2982,8 +2884,7 @@
             vaille à la norreture. E se aucune chose plus puet estre deue por cause de la norreture,
             ele soit paiee et ce qui est donné i soit conté.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.15.8"><label>[2.15.8]</label>
-            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"
-              > C</hi>um alimenta.</seg>
+            <hi rend="b"> I</hi>l meismes dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> C</hi>um alimenta.</seg>
             <hi rend="b"> P</hi>or ce que, quant norreture estoit lessiee, cil à qui ele estoit
             lessiee en feissent legierement transaction et se tenissent apaiez d’avoir en presentement
             .i. poi de chose, li empereres Marc fist, par .i. establissement qui fu recitez el senat,
@@ -3064,10 +2965,8 @@
             p[re]vost à enquerre, ne il n’en doit pas estre negligenz ne donner la. E se il n’enquiert
             de totes les choses que li establissemenz conmande, ce est de la cause et de la maniere et
             des persones à cels qui font <cb n="46c"/> la transaction, jasoit ce que il a enquis
-            d’aucunes choses que la transaction est vaine, <label>[18]</label> mes [...]<note
-              resp="editor">
-              <hi rend="i">Om. de la traduction de « praeses provinciae ». Cf. texte latin : <seg
-                rend="eleve">« Sed nec mandare ex hac causa iurisdictionem vel praeses provinciae vel
+            d’aucunes choses que la transaction est vaine, <label>[18]</label> mes [...]<note resp="editor">
+              <hi rend="i">Om. de la traduction de « praeses provinciae ». Cf. texte latin : <seg rend="eleve">« Sed nec mandare ex hac causa iurisdictionem vel praeses provinciae vel
                 praetor poterit ».</seg></hi></note> ne li prevoz ne puet baillier à autre sa
             jurisdicion seur ce. ¶ <label>[19]</label>
             <seg type="lemme" xml:lang="lat" rend="i"> Transactiones.</seg> ¶ Transactions de norreture
@@ -3090,8 +2989,7 @@
             en est fez plus riches, il est droiz que l’en li puisse demander arriere ce en coi il en
             est fez plus riches, quer il ne doit pas estre riches d’autrui damage. ¶
             <label>[23]</label>
-            <seg type="lemme" xml:lang="lat" rend="i"> Si in annos.</seg> ¶ Se une certai<cb n="46d"
-            />ne quantité est lessiee à aucun à paier chascun an si comme salaires d’an en an ou
+            <seg type="lemme" xml:lang="lat" rend="i"> Si in annos.</seg> ¶ Se une certai<cb n="46d"/>ne quantité est lessiee à aucun à paier chascun an si comme salaires d’an en an ou
             usuaires, transaction en porra estre fete sanz le prevost. Mes se uns usuaires petiz est
             lessiez en lieu de norreture, je di que la transaction qui en sera fete sanz le prevost ne
             sera de nule valeur. ¶ <label>[24]</label>
@@ -3165,8 +3063,7 @@
             l’escriture que il savoit lors.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.15.13"><label>[2.15.13]</label>
             <hi rend="b"> E</hi>lius<note resp="editor"><hi rend="i">« <hi rend="sc"> Aemilius</hi> »
-              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-                rend="b"> N</hi>ulli.</seg>
+              dans le texte latin.</hi></note> dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> N</hi>ulli.</seg>
             <hi rend="b"> I</hi>l ne loist à nul des procurateurs au prince que il face transaction
             sanz le consell au prince.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.15.14"><label>[2.15.14]</label>
@@ -3188,8 +3085,7 @@
             mieldres conselz est que la stipulation soit fete soz paine, quer se li covenanz est
             depeciez par aventure, la paine puet estre demandee par la stipulation.</p>
           <p xml:id="justinien_digeste_BNF_fr-197.2.15.16"><label>[2.15.16]</label>
-            <hi rend="b"> H</hi>ermogenians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi
-              rend="b"> Q</hi>ui fidem.</seg>
+            <hi rend="b"> H</hi>ermogenians dit : <seg type="lemme" xml:lang="lat" rend="i"><hi rend="b"> Q</hi>ui fidem.</seg>
             <hi rend="b"> C</hi>il qui a rompu la foi de transaction qui fu fete par droit ne sera pas
             tant seule<cb n="47c"/>ment mis arriere par excepcion, ainz sera contrainz de paier la
             paine, se il n’a contre le covenant, se ele fu mise en la stipulacion.</p>

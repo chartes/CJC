@@ -1,12 +1,11 @@
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anonyme_LJP_l10_BNF_fr-2844">
     <teiHeader>
         <fileDesc>
             <titleStmt>
               <title>Li livres de jostice et de plet 10</title>
               <author>Anonyme (trad.)</author>
-              <principal xml:id="GP">
-                <persName>Graziella Pastore</persName>
-              </principal>
+              <principal xml:id="GP" ref="https://www.idref.fr/181597640 https://data.bnf.fr/en/ark:/12148/cb18147756h">Graziella Pastore</principal>
                 <funder>École nationale des chartes</funder>
                 <respStmt>
                     <name xml:id="MH">Mathilde Henriquet</name>
@@ -18,7 +17,7 @@
             </editionStmt>
             <extent/>
             <publicationStmt>
-                <publisher>École nationale des chartes</publisher>
+                <publisher>École nationale des chartes - PSL</publisher>
                 <address>
                     <addrLine>65, rue de Richelieu</addrLine>
                     <addrLine>75002 Paris</addrLine>
@@ -27,8 +26,8 @@
                     <addrLine>recherche@enc.sorbonne.fr</addrLine>
                 </address>
                 <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
-                <date>2015</date>
-                <availability status="restricted">
+                <date when="2015">2015</date>
+                <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
                     <p>L'École nationale des chartes met à disposition cette ressource électronique
                         structurée, protégée par le code de la propriété intellectuelle sur les
                         bases de données (L341-1), selon les termes de la licence Creative
@@ -68,26 +67,27 @@
                 <idno type="URI">http://elec.enc.sorbonne.fr</idno>
                 <idno type="vol"/>
             </seriesStmt>
-            <sourceDesc>
-              <bibl facs="https://gallica.bnf.fr/ark:/12148/bpt6k6257058f">
-                    <abbr>Li livres de jostice et de plet</abbr>
-                    <title>Li livres de jostice et de plet, publié pour la première fois d’après le
-                        manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
-                        glossaire des mots hors d’usage par P. Chabaille</title>
-                    <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date when="1850">1850</date>
-                </bibl>
-              <listWit>
-                <witness facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125305c https://gallica.bnf.fr/ark:/12148/btv1b9059006z https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">Paris, Bibliothèque nationale de France, fr. 2844</witness>
-              </listWit>
-            </sourceDesc>
+          <sourceDesc>
+            <bibl source="https://gallica.bnf.fr/ark:/12148/bpt6k6257058f">
+              <title>Li livres de jostice et de plet, publié pour la première fois d’après le
+                manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
+                glossaire des mots hors d’usage par P. Chabaille</title>
+              <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date when="1850">1850</date>
+            </bibl>
+            <msDesc>
+              <msIdentifier source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125305c https://gallica.bnf.fr/ark:/12148/btv1b9059006z https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">
+                <settlement>Paris</settlement>
+                <repository>Bibliothèque nationale de France</repository>
+                <idno>fr. 2844</idno>
+              </msIdentifier>
+            </msDesc>
+          </sourceDesc>
         </fileDesc>
       <profileDesc>
         <langUsage>
           <language ident="fra">Texte en ancien français</language>
         </langUsage>
-        <creation>
-          <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-        </creation>
+        <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
       </profileDesc>
       <encodingDesc>
             <projectDesc>
@@ -97,11 +97,11 @@
             </projectDesc>
           <refsDecl>
             <citeStructure match="/TEI[1]/text[1]/group[1]" use="dots" unit="liber">
-              <citeData use="head" property="dc:title"/>
+              <citeData use="head" property="dct:title"/>
               <citeStructure match="text" use="@xml:id" unit="part">
-                <citeData use="string-join(front/head/text())" property="dc:title"/>
+                <citeData use="string-join(front/head/text())" property="dct:title"/>
                 <citeStructure match="body/div" use="default" unit="rubric">
-                  <citeData use="head" property="dc:title"/>
+                  <citeData use="head" property="dct:title"/>
                 </citeStructure>
               </citeStructure>
             </citeStructure>

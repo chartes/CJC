@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l4_BNF_fr_1933">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Li Codes an romanz, livre 4</title>
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 4</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="VM">Viola Mariotti</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="VM" ref="https://www.idref.fr/260452939 https://data.bnf.fr/fr/ark:/12148/cb18218621c">Viola Mariotti</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="H" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="H" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 1933</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>français 1070 (Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.)</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -27,7 +37,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
       <creation>
-        <date notBefore="1270" notAfter="1300">Dernier tiers du XIIIe siècle</date>
+        <date notBefore="1270" notAfter="1299">1270/1299</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -37,21 +47,21 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="head" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="if (contains(label[1], '[') ) then substring-after(substring-before(label[1], ']'), '[') else label[1]" property="dc:title"/>
+              <citeData use="if (contains(label[1], '[') ) then substring-after(substring-before(label[1], ']'), '[') else label[1]" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
       </refsDecl>
       <tagsDecl>
-        <rendition></rendition>
+        <rendition/>
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
-      <change></change>
+      <change/>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -690,7 +700,7 @@
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.6"><label>[4.72.6]</label>Tout ce que nous avons dit desoure comment il doit <app><lem wit="#H"><choice><sic>paié</sic><corr resp="#VM">paier</corr></choice></lem></app> le cens est voirs quant ne fu pas acordé antr’aus an quel mesure devoit estre paiez li cens. Iciz convanz doit estre tenuz se an fu faiz escriz. ¶</p>
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.7"><label>[4.72.7]</label>Se la chose que on done à cens, ce est an fief, si com nous avons dit desoure, est afolee jusques à moitié, pour ce n’an doit <app><lem wit="#H">pa<del rend="expunction">i</del>s</lem></app> paier mains de cens, se ce ne fu dit an convenant. Mais se la chose est affolee outre la moitié, on n’an puet demander le cens, fors par tel partie com est remex de la chose, s’il n’i ot autre convant. ¶</p>
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.8"><label>[4.72.8]</label>Iciz hons qui tient aucune chose à cens, ce est an fief, si com est dit desoure, se il viaut vandre ou doner an ancune maniere ou angaigier cel droit que il a an la chose, bien an puet selonc le convenant que il fist an seignour de cui ere <app><lem wit="#H"><choice><sic>ere</sic><corr resp="VM"/></choice></lem></app> la chose quant il la reçuit, se li convanz fu escriz. Mais se li convenanz ne fu escriz, ou se il fu escriz et li escriz n’apareust, iciz qui tient la chose doit aller dau seignor de la chose et doit li dire qu’il viaut vandre le droit qu’il i a, et doit li dire le pris que on l’an vuet doner. Se li sires li an vuet doner autretant com .i. autres, il li doit laissier avant que a .i. autre home. Mais se li sires ne le viaut acheter, ou se il le viaut et ne l’an viaut autretant doner com .i. autres, il doit estre jusques à .ii. mois qu’il ne vande icelui droit, et au chief de .ii. mois doit dire autre voie au seignour que il viaut vandre cel droit. Et se li sires ne l’an viaut doner autretant com .i. autres, puet le vander cui que il viaut, puis que seront passé li .ii. mois, ja soit ce que ne le vueille li sires de la chose, mais que cil à cui il vuet doner la chose ne soit tex persone qu’il soit veez à avoir. ¶</p>
-          <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.9"><label>[4.72.9]</label>Quant cil qui tient la chose d’autrui par fief la vant à autre, ou il l’aliene an quelque maniere que ce soit, se il l’aliene selonc ce qui est dit desoure, li sires de la chose devroit mettre an tenoison de la chose celui home à cui elle est vandue ou alienee, et il an devroit avoir pour ce la cinquante part, ce est de .l. souz .xii. deniers de ce que il a son droit vandu. Mais se il ne vant son droit, fors que il l’aliene an aucune maniere, iciz droiz devra estre esmez, et selonc ce an devra li sires avoir la cinquanteme part de ce que ert esmé à ce droit. Et il le doit recevoir an la tenoison par soi meisme et non par son mesaige, fors se il ne li mande par lettres que il antroit an sa tenoison, et sour tot ce le soit sourescrire an la <app><lem wit="#H"><subst><del rend="expunction">chose</del><add >chartre</add></subst></lem></app> qui serar faite de ce contrait. ¶</p>
+          <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.9"><label>[4.72.9]</label>Quant cil qui tient la chose d’autrui par fief la vant à autre, ou il l’aliene an quelque maniere que ce soit, se il l’aliene selonc ce qui est dit desoure, li sires de la chose devroit mettre an tenoison de la chose celui home à cui elle est vandue ou alienee, et il an devroit avoir pour ce la cinquante part, ce est de .l. souz .xii. deniers de ce que il a son droit vandu. Mais se il ne vant son droit, fors que il l’aliene an aucune maniere, iciz droiz devra estre esmez, et selonc ce an devra li sires avoir la cinquanteme part de ce que ert esmé à ce droit. Et il le doit recevoir an la tenoison par soi meisme et non par son mesaige, fors se il ne li mande par lettres que il antroit an sa tenoison, et sour tot ce le soit sourescrire an la <app><lem wit="#H"><subst><del rend="expunction">chose</del><add>chartre</add></subst></lem></app> qui serar faite de ce contrait. ¶</p>
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.10"><label>[4.72.10]</label>Se li sires ne viaut recevoir an la tenoison cel home qui a gaaignié le droit de la chose de cel home qui la tenoit an fief, et il sera par .ii. mois aprés que li sera dit, bien le porra mettre an tenoison cil qui li vaut ou qui l’aliene par autre maniere. ¶</p>
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.11"><label>[4.72.11]</label><app><lem resp="#VM">Se cil hons qui tient une chose à cens, ce est <foreign xml:lang="occ">amphiteosim</foreign>, la vande ou la aliene an autre guise que il ne doit, pert tout le droit qu'il avoit an la chose.</lem><rdg wit="#H"/><witDetail wit="#H">Saut du même au même.</witDetail></app></p>
           <p xml:id="justinien_codi_l4_BNF_fr_1933.4.72.12"><label>[4.72.12]</label>Se cil hons qui tient une chose de moi an fief pert la tenoisons par aucune maniere, il la puet demander de touz homes par raison, et de moi meismes de cui est la chose la puet demander, s’il m’a paié le cens ou il le viaut paier, ja soit ce qu’il tiegne la chose de moi, ce est <foreign xml:lang="lat">possidet</foreign> de moi, ce est an mon nom, et ou autant que je aie la tenoison, mais a droit an la chose par quoi il la puet demander à toz homes qui la tient.</p>

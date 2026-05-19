@@ -1,56 +1,76 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-20118">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Traduction 3 du Digeste de Justinien</title>
+        <title ref="https://www.idref.fr/085889695 https://www.wikidata.org/wiki/Q838526 https://data.bnf.fr/fr/ark:/12148/cb13736027w https://portail.biblissima.fr/ark:/43093/oedata25dbe0754d506f6764cc2bbe1e3d16377a736fda">Traduction 3 du Digeste de Justinien</title>
         <author>Anonyme (trad.)</author>
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="IR">Irene Reginato</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="IR" ref="https://www.idref.fr/20437443X https://data.bnf.fr/fr/ark:/12148/cb18046228g">Irene Reginato</principal>
       </titleStmt>
       <publicationStmt>
-        <p> Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="F" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78499p https://gallica.bnf.fr/ark:/12148/btv1b84557828 https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca"> Paris, Bibliothèque nationale de France, fr. 20118 (F)</witness>
-          <witness xml:id="E"> Paris, Bibliothèque nationale de France, fr. 495 (E)</witness>
-          <witness xml:id="A"> Bruxelles, Bibliothèque royale de Belgique, 9234 (A)</witness>
-          <witness xml:id="B"> Leiden, Universiteitsbibliotheek, Meijers fr. 3 (B)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="F" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78499p https://gallica.bnf.fr/ark:/12148/btv1b84557828 https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 20118</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="E" source="https://portail.biblissima.fr/fr/ark:/43093/mdataace17dc78fb4401a53338851e0c8f2cc231c82cb https://gallica.bnf.fr/ark:/12148/btv1b84471866">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 495</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="A">
+            <settlement>Bruxelles</settlement>
+            <repository>Bibliothèque royale de Belgique</repository>
+            <idno>9234</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="B">
+            <settlement>Leiden</settlement>
+            <repository>Universiteitsbibliotheek</repository>
+            <idno>Meijers fr. 3</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
+      <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
-      <creation>
-        <date notBefore="1200" notAfter="1300">XIIIe siècle</date>
-      </creation>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
-        <p> Transcription du manuscrit Paris, Bibliothèque nationale de France, fr. 20118, avec
+        <p>Transcription du manuscrit Paris, Bibliothèque nationale de France, fr. 20118, avec
           correction par les autres témoins et par conjecture.</p>
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/front[1]" use="dots" unit="part">
-          <citeData use="head[1]" property="dc:title"/>
+          <citeData use="head[1]" property="dct:title"/>
           <citeStructure match="div" use="default" unit="subpart">
-            <citeData use="head[1]" property="dc:title"/>  
+            <citeData use="head[1]" property="dct:title"/>  
           </citeStructure>
         </citeStructure>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+          <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p[@xml:id]" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>

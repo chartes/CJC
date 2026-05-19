@@ -1,25 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../teipub/xsl/tei2html.xsl"?>
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l3_BNF_fr_1933">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Li Codes an romanz, livre 3</title>
+        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 3</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866	https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier (0482-0565)</author>
-        <principal>
-          <persName xml:id="VM">Viola Mariotti</persName>
-        </principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <principal xml:id="VM" ref="https://www.idref.fr/260452939 https://data.bnf.fr/fr/ark:/12148/cb18218621c">Viola Mariotti</principal>
       </titleStmt>
       <publicationStmt>
+        <date>2026</date>
+        <publisher>École nationale des chartes - PSL</publisher>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
       </publicationStmt>
       <sourceDesc>
-        <listWit>
-          <witness xml:id="H" facs="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">Paris, Bibliothèque nationale de France, fr. 1933 (H)</witness>
-        </listWit>
+        <msDesc>
+          <msIdentifier xml:id="H" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>fr. 1933</idno>
+          </msIdentifier>
+        </msDesc>
+        <msDesc>
+          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+            <settlement>Paris</settlement>
+            <repository>Bibliothèque nationale de France</repository>
+            <idno>français 1070 (Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.)</idno>
+          </msIdentifier>
+        </msDesc>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -27,7 +37,7 @@
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
       <creation>
-        <date notBefore="1270" notAfter="1300">Dernier tiers du XIIIe siècle</date>
+        <date notBefore="1270" notAfter="1299">1270/1299</date>
       </creation>
     </profileDesc>
     <encodingDesc>
@@ -38,27 +48,27 @@
       </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="liber">
-          <citeData use="head" property="dc:title"/>
+          <citeData use="head" property="dct:title"/>
           <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dc:title"/>
+            <citeData use="substring-after(substring-before(head[1]/label[1], ']'), '[')" property="dct:title"/>
             <citeStructure match="p" use="@xml:id" unit="rubric">
-              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dc:title"/>
+              <citeData use="substring-after(substring-before(label[1], ']'), '[')" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </citeStructure>
       </refsDecl>
       <tagsDecl>
-        <rendition></rendition>
+        <rendition/>
       </tagsDecl>
     </encodingDesc> 
     <revisionDesc>
-      <change></change>
+      <change/>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
       <div xml:id="justinien_codi_l3_BNF_fr_1933.3">
-        <head ><seg type="book" n="3">Livre 3</seg></head>
+        <head><seg type="book" n="3">Livre 3</seg></head>
         <div xml:id="justinien_codi_l3_BNF_fr_1933.3.1">
           <head type="rubric"><label>[3.1]</label><pb n="f. 15r"/>Ici dit des jugemanz et de ces homes qui puent doner jugemant sanz fermance et ci commance li tierz livre.</head>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.1.1"><label>[3.1.1]</label><hi rend="b">P</hi>uis<note resp="#VM">Lettre ornée de 6 lignes de haut.</note> que nous avons dit desoure de celles choses qui sunt besoignables es jugemanz, si com est <app><lem wit="#H"><foreign xml:lang="lat"><choice><sic>edendo</sic><corr resp="VM">de edendo</corr></choice></foreign></lem></app>, c’est de manifester à autre par quel raison il le vuet mettre an plait, et de juis <app><lem wit="#H"><foreign xml:lang="lat"><choice><sic>vocato</sic><corr resp="VM">vocando</corr></choice></foreign></lem></app>, c’est de clamer home an plait, et puis que nous avons dit des arbitres, c’est de celles persones qui reçoivent <app><lem wit="#H"><subst><del rend="expunction">persones</del><add>fermances</add></subst></lem></app> del plait ne il n’en ont autre juridition, c’est autre poesté, or redisons ci aprés de celles persones qui ont poesté <app><lem wit="#H"><choice><sic>qui ont pouoir</sic><corr resp="VM"/></choice></lem></app> de destraindre homes an plait qui facent raisons li uns à l’autre, et puet doner jugemant sanz autres affermances. Mais cil desoure est apelez arbitres et ciz desouz est apelez juges. ¶</p>
@@ -85,7 +95,7 @@
           <head type="rubric"><label>[3.5]</label>Ici dit quel office doit avoir li juges.</head>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.5.1"><label>[3.5.1]</label><hi rend="b">L</hi>i offices dou juge doit estre tex qu’il doit oïr la cause et puis doit destraindre les parties que vienent à plait. Et doit lor souvant demander se il vuellent mais nule riens dire an plait. Et puis que ce sera fait, doit esmer la chose, c’est doit esgarder quex droiz et  quex seures a iceste chose. Et puis qu’il avra coneu le droit de ceste chose doit doner la santance escrite an la presance d’ambedeus les parties.</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.5.2"><label>[3.5.2]</label>Mais tex foiz est que li juges puet doner santance ancor n’i soient ambedeus les parties, si com est an ces cas. ¶ Se li une des parties, c’est li auctors qui demande, ne vuet venir à plait puis qu’il est commanciez et puis qu’il est clamez an juge, et li juges le fait au reu savoir, li juges doit tramettre unes lettres
-            <app><lem wit="#H"><subst><del rend="expunction">au juge</del><add>à l'auctor</add></subst></lem></app> qu’il viegne an plait. Et se il ne vient à chief de .xxx. jorz, il li antrametra unes autres, et se il ne vient par celles darrennes ne il n’envoie à plait nul home pour faire le plait pour lui, il doit avoir aloignemant pour .i. an, et li juges doit fenir le plait an presance de l’autre partie, selonc ce que raisons commande. Mais se il vient à plait avant que passoit li anz, il ne devra estre oïz an plait tant que li reus avra totes les lissions qu’il a faites el plait selonc mesure. Et ne se doit plus partir del plait tant qu’il soit feniz, et se il <app ><lem wit="#H"><del rend="expunction">ne</del></lem></app> s’an partoit et l’anz passoit, il pert tote sa raison et son demant qu’il avoit fait. ¶</p>
+            <app><lem wit="#H"><subst><del rend="expunction">au juge</del><add>à l'auctor</add></subst></lem></app> qu’il viegne an plait. Et se il ne vient à chief de .xxx. jorz, il li antrametra unes autres, et se il ne vient par celles darrennes ne il n’envoie à plait nul home pour faire le plait pour lui, il doit avoir aloignemant pour .i. an, et li juges doit fenir le plait an presance de l’autre partie, selonc ce que raisons commande. Mais se il vient à plait avant que passoit li anz, il ne devra estre oïz an plait tant que li reus avra totes les lissions qu’il a faites el plait selonc mesure. Et ne se doit plus partir del plait tant qu’il soit feniz, et se il <app><lem wit="#H"><del rend="expunction">ne</del></lem></app> s’an partoit et l’anz passoit, il pert tote sa raison et son demant qu’il avoit fait. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.5.3"><label>[3.5.3]</label>Mais se li reus, c’est cil de cui fu faiz li clains, est defaillanz et ne vient puis que li plaiz iert commanciez, li juges le doit faire querre et dire qu’il viegne à plait, et se il n’i vient, li juges le doit mander par .iii. paires de lettres qu’il viegne à plait, ou li doit mander unes soles lettres esquex il li doit mander, se il ne vient, qu’il fera le plait, et qu’il an donra jugemant, et issi fenit le plait. Mais quant li juges trametra les lettres ne les doit mander tant que passoit l’anz de .vi. mois outre le commandemant del plait. Et s’il est ansin requis, com est dit, et ne vient à plait, li juges doit conoistre del plait liquex des parties a meillour droit et meillour raison, si que i devra estre li autre partie, et selonc ce qu’il conoitra qui a meillour raison, doit doner santance, et cil ancontre cui sera donee la santance ne s’en puet plus rancurer. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.5.4"><label>[3.5.4]</label><pb n="f. 16r"/> Mais se li juges ne puet conoitre la raison del plait pour ce qu’il dit ansin ala et passera .iii. anz outre le commandemant del plait, toz li plaiz est desouz et totes les fermances d’ambedeus parz, ansi com se li plaiz ne fust commanciez. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.5.5"><label>[3.5.5]</label>Ice que dient <app><lem wit="#H"><choice><sic>li home maint</sic><corr resp="#VM">maint home</corr></choice></lem></app> qu’on puet demander missions avant jugemant quant li plaiz est aloigniez par la  colpe de l’une partie, non est nesune raisons que dites, ancore celle partie par cui li plaiz ne fu tenuz sera araisonee, ansinc com est dit desoure an l’autre titre, car adonc puet estre demandee la missions à celui par cui colpe fu li plaiz destorbez.</p>
@@ -116,7 +126,7 @@
         </div>
         <div xml:id="justinien_codi_l3_BNF_fr_1933.3.9">
           <head type="rubric"><label>[3.9]</label>Ici dit de cel home qui demande plus qu’il ne doit demander.<note resp="#VM">Dans l’éd. Fitting, rubrique XI. <hi rend="i">De plus peticionibus</hi>.</note></head>
-          <p xml:id="justinien_codi_l3_BNF_fr_1933.3.9.1"><label>[3.9.1]</label><hi rend="b">À</hi> la foiz avient que cil qui se claimme demande plus qu’on ne li doit, et il le set bien, c’est par mal angin, ou il le fait pour ce qu’il ne le set, n’en doit avoir nule paigne et bien puet consegre droiture. ¶ Mais se il set qu’à son esciant demande plus qu’on ne li doit, et se vuet repantir avant que li plaiz soit commanciez, ausimant n’en doit avoir nule paigne. Mais s’il vuet perseverer an icelle coutume, c’est an icel mal angin et an icelle felonnie autant que li plaiz soit commanciez, si doit avoir tel paigne que <app ><lem wit="#H"><del rend="expunction">ne</del></lem></app> doit solemant perdre la
+          <p xml:id="justinien_codi_l3_BNF_fr_1933.3.9.1"><label>[3.9.1]</label><hi rend="b">À</hi> la foiz avient que cil qui se claimme demande plus qu’on ne li doit, et il le set bien, c’est par mal angin, ou il le fait pour ce qu’il ne le set, n’en doit avoir nule paigne et bien puet consegre droiture. ¶ Mais se il set qu’à son esciant demande plus qu’on ne li doit, et se vuet repantir avant que li plaiz soit commanciez, ausimant n’en doit avoir nule paigne. Mais s’il vuet perseverer an icelle coutume, c’est an icel mal angin et an icelle felonnie autant que li plaiz soit commanciez, si doit avoir tel paigne que <app><lem wit="#H"><del rend="expunction">ne</del></lem></app> doit solemant perdre la
             <app><lem wit="#H">q<del rend="expunction">ue</del>uerelle</lem></app> qu’il à tort requiert, mais ausimant ce qu’il demande à droit, et tot ce doit dire li juges.</p>
         </div>
         <div xml:id="justinien_codi_l3_BNF_fr_1933.3.10">
@@ -138,7 +148,7 @@
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.2"><label>[3.12.2]</label>Li plait doivent estre fait devant celles persones qui ont juridition, c’est poestez, si com sunt li presides ou li pretor.</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.3"><label>[3.12.3]</label>Mais li auctors totes hores, quant il demande aucune chose <app><lem wit="#H"><add place="interlinear">à</add></lem></app> autre, il doit aller devant le juge del reu. Et non est mie destrainz li reus de plaidoier devant la poesté de l’auctor, mais que an cest cas qui dit nomeemant si com est faiz li contraiz, car c’est voirs se je fais .i. marché à autre, si com est se je achat de lui aucune chose ou nous feismes compaignie ansamble, ou il ot convant d’estre à moi tant que à .i. termine, et cil qui est reus doit respondre et plaidoier là où fu faiz li negoces et la convenance.</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.4"><label>[3.12.4]</label>Si com est se il fait malfait, car adonc le puet
-            <app ><lem wit="#H"><del rend="expunction">on</del></lem></app> mettre an plait  cil qui se claimme devant icel juge où cui pouoir il a fait icel malfait, ancor ne soit il de son pouoir. ¶ Ancor iciz hons qui se rancure de malfait si se puet clamer de celui qui a fait ice an toz leus où il le puet trouver. ¶</p>
+            <app><lem wit="#H"><del rend="expunction">on</del></lem></app> mettre an plait  cil qui se claimme devant icel juge où cui pouoir il a fait icel malfait, ancor ne soit il de son pouoir. ¶ Ancor iciz hons qui se rancure de malfait si se puet clamer de celui qui a fait ice an toz leus où il le puet trouver. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.5"><label>[3.12.5]</label>Tex persones sunt qui ne sunt des<pb n="f. 17v"/>traintes d’aler devant l’amperaour si com aucuns hons se claimme, si com sunt <foreign xml:lang="lat">pupilli</foreign> et veves et autres persones pietables. Et celles persones ne sunt destraintes se elles ne vuelent, car ce qui est ordené à lor preu ne doit torner à lor damaige, mais se il se claimme d’aucun home, il le puet bien mener devant l’amperaour pour plaidoier. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.6"><label>[3.12.6]</label>Icil home qui sunt mis an plait par crime, si com est d’azultere ou de omecide, et puet on estre convenuz devant celui juge où cui pouoir il sunt trouvé. ¶ Isi dit el paragraiffe de home qui a fait larrecin ou omecide : il doit estre an plait devant le juge an cui pouoir il a fait. Et se on ne li treuve, si le puet l’on apeler là où il tourne, ansinc est de crime ou d’omicide. ¶</p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.12.7"><label>[3.12.7]</label>Si est plaiz de possession, devant tel juge doit estre fait li plaiz an cui pouoir est la tenoison.</p>
@@ -157,7 +167,7 @@
         </div>
         <div xml:id="justinien_codi_l3_BNF_fr_1933.3.14">
           <head type="rubric"><label>[3.14]</label>Ici dit quex est la falcide.<note resp="#VM">Dans l’éd. Fitting, rubrique XVI. <hi rend="i">De falcidia quam pater et mater et alie superiores persone coguntur dimittere filiis.</hi></note></head>
-          <p xml:id="justinien_codi_l3_BNF_fr_1933.3.14.1"><label>[3.14.1]</label><hi rend="b">L</hi>a falcide que les peres ou les meres ou les autres souverainnes <!-- VM : NOTE DE LECTURE <note resp="#VM"><hi rend="i">souverainnes</hi> souligné à la mine de plomb (ou à l'encre bleue).</note>--> persones sunt destraintes de laissier à lor anfant, c’est la tierce part de celle partie que li apartanroit, se cil de cui herité est li plaiz est morz ains qu’il n’eust fait nul testament ne nul ordemant, si <app><lem resp="#VM">com</lem><rdg wit="#H"/></app> est an icel example. Se .i. hons vient à mort et il a .ii. anfanz et il ne ait autre avoir ou honor mais que .xxx. livres, il doit laissier à ces anfanz la tierce part de tot ce qu’il a, ce sunt .x. livres, et an tel maniere avra chascuns .c. souz, c’est la tierce part de .xv. livres des biens dou pere vanront à chascun .ii., se lor peres est morz sanz testament. Et cestes .x. livres doivent estre parties egalmant.<handShift ></handShift></p>
+          <p xml:id="justinien_codi_l3_BNF_fr_1933.3.14.1"><label>[3.14.1]</label><hi rend="b">L</hi>a falcide que les peres ou les meres ou les autres souverainnes <!-- VM : NOTE DE LECTURE <note resp="#VM"><hi rend="i">souverainnes</hi> souligné à la mine de plomb (ou à l'encre bleue).</note>--> persones sunt destraintes de laissier à lor anfant, c’est la tierce part de celle partie que li apartanroit, se cil de cui herité est li plaiz est morz ains qu’il n’eust fait nul testament ne nul ordemant, si <app><lem resp="#VM">com</lem><rdg wit="#H"/></app> est an icel example. Se .i. hons vient à mort et il a .ii. anfanz et il ne ait autre avoir ou honor mais que .xxx. livres, il doit laissier à ces anfanz la tierce part de tot ce qu’il a, ce sunt .x. livres, et an tel maniere avra chascuns .c. souz, c’est la tierce part de .xv. livres des biens dou pere vanront à chascun .ii., se lor peres est morz sanz testament. Et cestes .x. livres doivent estre parties egalmant.<handShift/></p>
           <p xml:id="justinien_codi_l3_BNF_fr_1933.3.14.2"><label>[3.14.2]</label>Ce qui est dit desoure, <app><lem resp="#VM">que</lem><rdg wit="#H"/></app> li peres et li mere et li aivis et li aivie doivent à lor mort laissier à chascun de lor anfanz la tierce partie de ce que li escharroit des biens del mort se il fu morz sanz testament, c’est voir quant il n’an a mais que .iiii. anfanz ou mains. Mais se il sunt plus de .iiii., chascuns doit avoir des choses del mort la moitié de tout ce que li morz avoit quant il vint à mort.</p>
         </div>
         <div xml:id="justinien_codi_l3_BNF_fr_1933.3.15">
