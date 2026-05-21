@@ -6,11 +6,11 @@
          <titleStmt>
            <title ref="http://catalogue.bnf.fr/ark:/12148/cb13736009z https://portail.biblissima.fr/fr/ark:/43093/oedatacadd4a0e3921175d46cb9a2fdbfae6dcc3fcbbc3">Les Institutes de Justinien</title>
            <author>Anonyme (trad.)</author> 
-           <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+           <author ref="https://www.idref.fr/027770591 https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
            <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
             <respStmt>
                <resp>Création et première phase d'encodage</resp>
-               <persName xml:id="LI">Lucence Ing</persName>
+               <persName xml:id="LI" ref="https://www.idref.fr/275195643 https://orcid.org/0000-0002-8742-3000">Lucence Ing</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
