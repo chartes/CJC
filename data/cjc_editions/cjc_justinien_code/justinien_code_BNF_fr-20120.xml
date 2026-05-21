@@ -6,7 +6,7 @@
       <titleStmt>
         <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Traduction 1 du Code de Justinien</title>
         <author>Anonyme (trad.)</author>
-        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+        <author ref="https://www.idref.fr/027770591 https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
         <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
         <principal xml:id="GP" ref="https://www.idref.fr/181597640 https://data.bnf.fr/en/ark:/12148/cb18147756h">Graziella Pastore</principal>
       </titleStmt>

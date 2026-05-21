@@ -6,7 +6,7 @@
          <titleStmt>
             <title>Tres libri</title>
            <author>Anonyme (trad.)</author>
-           <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
+           <author ref="https://www.idref.fr/027770591 https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
            <principal xml:id="FD" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</principal>
          </titleStmt>
         <editionStmt n="1">
