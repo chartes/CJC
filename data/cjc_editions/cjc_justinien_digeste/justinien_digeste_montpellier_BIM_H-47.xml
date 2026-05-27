@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_montpellier_BIM_H-47">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_montpellier_BIM_H-47">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,8 +16,8 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier source="https://portail.biblissima.fr/fr/ark:/43093/mdata7372583506e94b44e1dc22ee9e43189ce639d2a9">
+        <msDesc source="https://portail.biblissima.fr/fr/ark:/43093/mdata7372583506e94b44e1dc22ee9e43189ce639d2a9">
+          <msIdentifier>
             <settlement>Montpellier</settlement>
             <repository>Bibliothèque interuniversitaire</repository>
             <idno>section Médecine, H 47</idno>

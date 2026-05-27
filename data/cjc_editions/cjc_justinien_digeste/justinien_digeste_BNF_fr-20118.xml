@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-20118">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-20118">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,15 +15,15 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier xml:id="F" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78499p https://gallica.bnf.fr/ark:/12148/btv1b84557828 https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78499p https://gallica.bnf.fr/ark:/12148/btv1b84557828 https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca">
+          <msIdentifier xml:id="F">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 20118</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier xml:id="E" source="https://portail.biblissima.fr/fr/ark:/43093/mdataace17dc78fb4401a53338851e0c8f2cc231c82cb https://gallica.bnf.fr/ark:/12148/btv1b84471866">
+        <msDesc source="https://portail.biblissima.fr/fr/ark:/43093/mdataace17dc78fb4401a53338851e0c8f2cc231c82cb https://gallica.bnf.fr/ark:/12148/btv1b84471866">
+          <msIdentifier xml:id="E">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 495</idno>

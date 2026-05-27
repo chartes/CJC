@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_BNF_fr-20119">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_BNF_fr-20119">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -25,15 +23,15 @@
             <idno>fr. 20119 (J)</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier source="https://portail.biblissima.fr/fr/ark:/43093/mdata5b1fadf4dcdbc5c1d708f054ffdbc64d02d5f4d8 https://gallica.bnf.fr/ark:/12148/btv1b90095388">
+        <msDesc source="https://portail.biblissima.fr/fr/ark:/43093/mdata5b1fadf4dcdbc5c1d708f054ffdbc64d02d5f4d8 https://gallica.bnf.fr/ark:/12148/btv1b90095388">
+          <msIdentifier>
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 198 (E)</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier source="https://gallica.bnf.fr/ark:/12148/btv1b10720758h?rk=21459;2">
+        <msDesc source="https://gallica.bnf.fr/ark:/12148/btv1b10720758h?rk=21459;2">
+          <msIdentifier>
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 200 (F)</idno>

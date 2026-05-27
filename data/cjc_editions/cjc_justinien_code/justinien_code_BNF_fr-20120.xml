@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_BNF_fr-20120">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_BNF_fr-20120">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,15 +16,15 @@
         <publisher>École nationale des chartes - PSL</publisher>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier xml:id="K" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+          <msIdentifier xml:id="K">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 20120</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">
+          <msIdentifier xml:id="G">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 496</idno>

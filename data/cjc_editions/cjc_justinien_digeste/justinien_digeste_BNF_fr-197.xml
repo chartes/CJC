@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-197">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_BNF_fr-197">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,8 +15,8 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48506z https://portail.biblissima.fr/fr/ark:/43093/mdata7951573fc432ba6cafd83dd7698d7f193e223062">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc48506z https://portail.biblissima.fr/fr/ark:/43093/mdata7951573fc432ba6cafd83dd7698d7f193e223062">
+          <msIdentifier>
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 197</idno>

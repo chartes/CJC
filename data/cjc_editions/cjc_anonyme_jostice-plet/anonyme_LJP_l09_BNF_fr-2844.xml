@@ -1,5 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anonyme_LJP_l09_BNF_fr-2844">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anonyme_LJP_l09_BNF_fr-2844">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -74,8 +73,8 @@
                 glossaire des mots hors d’usage par P. Chabaille</title>
               <pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date when="1850">1850</date>
             </bibl>
-            <msDesc>
-              <msIdentifier source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125305c https://gallica.bnf.fr/ark:/12148/btv1b9059006z https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">
+            <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125305c https://gallica.bnf.fr/ark:/12148/btv1b9059006z https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">
+              <msIdentifier>
                 <settlement>Paris</settlement>
                 <repository>Bibliothèque nationale de France</repository>
                 <idno>fr. 2844</idno>

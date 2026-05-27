@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_giessen_945">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_code_giessen_945">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,15 +15,15 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier xml:id="A" source="https://portail.biblissima.fr/fr/ark:/43093/mdata080191e96bc63cd0aa8fc68e402994f1b918e841">
+        <msDesc source="https://portail.biblissima.fr/fr/ark:/43093/mdata080191e96bc63cd0aa8fc68e402994f1b918e841">
+          <msIdentifier xml:id="A">
             <settlement>Giessen</settlement>
             <repository>Universitätsbibliothek</repository>
             <idno>945</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier xml:id="H" source="https://gallica.bnf.fr/ark:/12148/btv1b9059383s?rk=150215;2">
+        <msDesc source="https://gallica.bnf.fr/ark:/12148/btv1b9059383s?rk=150215;2">
+          <msIdentifier xml:id="H">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 497</idno>

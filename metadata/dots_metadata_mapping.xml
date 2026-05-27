@@ -1,84 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dots:metadataMap 
-  xmlns:dts="https://dtsapi.org/context/v1.0.json"
-  xmlns:dots="https://github.com/chartes/dots/" 
-  xmlns:dct="http://purl.org/dc/terms/" 
-  xmlns:schema="https://schema.org/"
-  xmlns:html="http://www.w3.org/1999/xhtml"
-  >
+<dots:metadataMap xmlns:dots="https://github.com/chartes/dots/" xmlns:dts="https://dtsapi.org/context/v1.0.json" xmlns:dct="http://purl.org/dc/terms/" xmlns:schema="https://schema.org/" xmlns:html="http://www.w3.org/1999/xhtml">
   <dots:mapping>
-    <!-- Métadonnées de collection -->
-    <!-- 1. Identification de la ressource -->
-    <!-- Métadonnées de collection -->
-    <dct:title scope="collection" format="tsv" source="./collection.csv" value="title"/>
-    <dct:identifier scope="collection" source="./collection.csv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
-    <dct:creator scope="collection"  format="tsv" source="./collection.csv" value="author"/>
-    <dct:language scope="collection" resourceId="all">fr</dct:language>
-    <description scope="collection" format="tsv" source="./collection.csv" value="description"/>
-    <dct:publisher scope="collection" resourceId="all">École nationale des chartes - PSL</dct:publisher>
-    <dct:issued scope="collection" resourceId="all">2026</dct:issued>
-    <dct:license scope="collection" resourceId="all">https://creativecommons.org/licenses/by-nc-sa/4.0/</dct:license>
-    <dct:rights scope="collection" resourceId="all">© École nationale des chartes - PSL</dct:rights>
-    
-    <!-- Métadonnées de document -->
+    <dct:title scope="collection" source="./collection.csv" value="title"/>
+    <dct:creator scope="collection" source="./collection.csv" value="author"/>
+    <dct:publisher scope="collection" source="./collection.csv" value="publisher"/>
+    <dct:issued scope="collection" source="./collection.csv" value="date"/>
+    <dct:description scope="collection" source="./collection.csv" value="description"/>
+    <schema:name scope="collection" source="./collection.csv" value="title"/>
+    <schema:author scope="collection" source="./collection.csv" type="object">
+      <dots:objectProperty name="@type" resourceId="all">schema:Person</dots:objectProperty>
+      <dots:objectProperty name="@id" value="author_idref_ppn"/>
+      <dots:objectProperty name="name" value="author"/>
+      <dots:objectProperty name="sameAs" value="author_bnf_ark"/>
+    </schema:author>
+    <schema:publisher scope="collection" source="./collection.csv" type="object">
+      <dots:objectProperty name="@type" resourceId="all">schema:Organization</dots:objectProperty>
+      <dots:objectProperty name="@id" value="publisher_link"/>
+      <dots:objectProperty name="name" value="publisher"/>
+    </schema:publisher>
+    <schema:datePublished scope="collection" source="./collection.csv" value="date"/>
+    <schema:description scope="collection" source="./collection.csv" value="description"/>
+    <dots:shortTitle scope="collection" source="./collection.csv" value="short_title"/>
     <dct:title scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
-    <dct:identifier scope="document" xpath="/TEI/@xml:id" prefix="https://dev.chartes.psl.eu/elec/cjc/document/"/>
-    <dct:publisher scope="document" resourceId="all">École nationale des chartes – PSL</dct:publisher>
-    <dct:isVersionOf scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title/tokenize(@ref)" type="array"/>
     <dct:creator scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author"/>
-    <dct:issued scope="document" xpath="/TEI/teiHeader[1]/fileDesc[1]/publicationStmt[1]/date[1]"/>
+    <dct:created scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[not(@type)]"/>
+    <dct:isVersionOf scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title/@ref" type="array"/>
+    <dct:language scope="document" xpath="/TEI/teiHeader/profileDesc/langUsage/language/@ident" type="array"/>
     <dct:contributor scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/principal | /TEI/teiHeader/fileDesc/titleStmt/editor"/>
-    <dct:created scope="document" xpath="/TEI/teiHeader//profileDesc/creation/date"/>
+    <dct:source scope="document" xpath="for $ms in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier return concat($ms/settlement, ', ', $ms/repository, ', ', $ms/idno)"/>
+    <dct:source scope="document" xpath="/TEI/teiHeader/fileDesc/sourceDesc/bibl"/>
+    <dct:publisher scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/publisher"/>
+    <dct:issued scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/date/@when"/>
+    <dct:bibliographicalCitation xpath="if (/TEI/teiHeader/fileDesc/titleStmt/editor or /TEI/teiHeader/fileDesc/titleStmt/principal) then concat( string-join(/TEI/teiHeader/fileDesc/titleStmt/node()[name() = 'editor' or name() = 'principal'], ', '), ' (éd.), ', /TEI/teiHeader/fileDesc/titleStmt/title[1], ', ', /TEI/teiHeader/fileDesc/publicationStmt/publisher, ', ', /TEI/teiHeader/fileDesc/publicationStmt/date, '. [En ligne : https://dev.chartes.psl.eu/elec/cjc/document/', /TEI/@xml:id, ']')"/>
+    <dct:description scope="document" xpath="/TEI/teiHeader/encodingDesc/projectDesc/p"/>
     <dct:license scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence/@target"/>
-    <dct:language scope="document" xpath="/TEI/teiHeader/profileDesc/langUsage/language/@ident"/>
-    <dct:coverage scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[@type]"/>
-    <dct:rights scope="document" xpath="concat('© ', /TEI/teiHeader/fileDesc/publicationStmt/publisher)"/>
-    <dct:source scope="document" xpath="for $ms in /TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier return concat($ms/settlement, ', ', $ms/repository, if ($ms/idno) then (', ', $ms/idno))"/>
-    <dct:source scope="document" xpath="//sourceDesc//bibl"/>
-    <description scope="document" xpath="/TEI/teiHeader//projectDesc/p, /TEI/teiHeader/fileDesc/titleStmt/title[2]"/>
-    <dct:bibliographicalCitation scope="document" xpath="concat(
-      if (/TEI/teiHeader/fileDesc/titleStmt/editor or /TEI/teiHeader/fileDesc/titleStmt/principal)
-      then concat(
-      string-join(/TEI/teiHeader/fileDesc/titleStmt/node()[name() = 'editor' or name() = 'principal'], ', '),
-      ' (éd.), '
-      ),
-      /TEI/teiHeader/fileDesc/titleStmt/title[1],
-      ', ',
-      /TEI/teiHeader/fileDesc/publicationStmt/publisher,
-      ', ',
-      /TEI/teiHeader/fileDesc/publicationStmt/date,
-      '. [En ligne : https://dev.chartes.psl.eu/elec/cjc/document/',
-      /TEI/@xml:id,
-      ']'
-      )"/>
-    <dct:relation scope="document" format="tsv" source="./document.csv" value="relation" prefix="https://dev.chartes.psl.eu/elec/" type="array"/><!-- Attention: en prod, changer le prefix -->
-    <dct:subject scope="document" xpath="/teiHeader//textClass/keywords/term/@key"/>
-    <download scope="document" xpath="/TEI/@xml:id" prefix="https://dev.chartes.psl.eu/dots/api/dts/document?resource="/><!-- Attention: en prod, changer le prefix -->
-    
-    <!-- Métadonnées schema -->
-    <schema:type scope="document" resourceId="all">Book</schema:type> <!-- cas problématique à revoir -->
+    <dct:rights scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence"/>
+    <dct:identifier scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/idno"/>
+    <dct:relation scope="document" source="./document.csv" value="subjectOf" prefix="https://dev.chartes.psl.eu/elec/"/>
+    <dct:relation scope="document" source="./document.csv" value="about" prefix="https://dev.chartes.psl.eu/elec/"/>
+    <schema:type scope="document" resourceId="all">Book</schema:type>
+    <schema:name scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
+    <schema:author scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author[@ref]" type="object">
+      <dots:objectProperty name="@type" resourceId="all">schema:Person</dots:objectProperty>
+      <dots:objectProperty name="@id" xpath="let $refs := tokenize(@ref) return $refs[1]"/>
+      <dots:objectProperty name="name" xpath="."/>
+      <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@ref), 2)"/>
+    </schema:author>
+    <schema:dateCreated scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[not(@type)]"/>
     <schema:exampleOfWork scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[@ref]" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:CreativeWork</dots:objectProperty>
       <dots:objectProperty name="@id" xpath="let $refs := tokenize(@ref) return $refs[1]"/>
       <dots:objectProperty name="name" xpath="."/>
       <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@ref), 2)"/>
     </schema:exampleOfWork>
-    <schema:creator scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author[@ref]" type="object">
-      <dots:objectProperty name="@type" resourceId="all">schema:Person</dots:objectProperty>
-      <dots:objectProperty name="@id" xpath="let $refs := tokenize(@ref) return $refs[1]"/>
-      <dots:objectProperty name="name" xpath="."/>
-      <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@ref), 2)"/>
-    </schema:creator>
+    <schema:inLanguage scope="document" xpath="/TEI/teiHeader/profileDesc/langUsage/language/tokenize(@ident)" type="array"/>
     <schema:editor scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/editor[@ref] | /TEI/teiHeader/fileDesc/titleStmt/principal[@ref]" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:Person</dots:objectProperty>
       <dots:objectProperty name="@id" xpath="let $refs := tokenize(@ref) return $refs[1]"/>
       <dots:objectProperty name="name" xpath="."/>
       <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@ref), 2)"/>
     </schema:editor>
-    <schema:isBasedOn scope="document" xpath="/TEI/teiHeader/fileDesc/sourceDesc/msDesc/msIdentifier[@source]" type="object">
+    <schema:isBasedOn scope="document" xpath="/TEI/teiHeader/fileDesc/sourceDesc/msDesc[@source]" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:CreativeWork</dots:objectProperty>
       <dots:objectProperty name="@id" xpath="let $sources := tokenize(@source) return $sources[1]"/>
-      <dots:objectProperty name="name" xpath="concat(./settlement, ', ', ./repository, ', ', ./idno)"/>
+      <dots:objectProperty name="name" xpath="concat(./msIdentifier/settlement, ', ', ./msIdentifier/repository, ', ', ./msIdentifier/idno)"/>
       <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@source), 2)"/>
     </schema:isBasedOn>
     <schema:isBasedOn scope="document" xpath="/TEI/teiHeader/fileDesc/sourceDesc/bibl[@source]" type="object">
@@ -87,55 +71,26 @@
       <dots:objectProperty name="name" xpath="."/>
       <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@source), 2)"/>
     </schema:isBasedOn>
-    <schema:publisher scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/publisher" type="object">
-      <dots:objectProperty name="@type" resourceId="all">schema:Organization</dots:objectProperty>
-      <dots:objectProperty name="@id" resourceId="all">https://www.chartes.psl.eu/</dots:objectProperty>
-      <dots:objectProperty name="name" xpath="."/>
-    </schema:publisher>
-    <schema:citation scope="document" xpath="concat(
-      if (/TEI/teiHeader/fileDesc/titleStmt/editor or /TEI/teiHeader/fileDesc/titleStmt/principal)
-      then concat(
-      string-join(/TEI/teiHeader/fileDesc/titleStmt/node()[name() = 'editor' or name() = 'principal'], ', '),
-      ' (éd.), '
-      ),
-      /TEI/teiHeader/fileDesc/titleStmt/title[1],
-      ', ',
-      /TEI/teiHeader/fileDesc/publicationStmt/publisher,
-      ', ',
-      /TEI/teiHeader/fileDesc/publicationStmt/date,
-      '. [En ligne : https://dev.chartes.psl.eu/elec/cjc/document/',
-      /TEI/@xml:id,
-      ']'
-      )"/>
-    <schema:dateCreated scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[not(@type)]"/>
-    <schema:datePublished scope="document" xpath="/TEI/teiHeader[1]/fileDesc[1]/publicationStmt[1]/date[1]"/>
-    <schema:inLanguage scope="document" xpath="/TEI/teiHeader/profileDesc/langUsage/language/@ident"/>
-    <schema:license scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence"/>
-    <schema:name scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
-    <schema:subjectOf scope="document" format="tsv" source="./document.csv" type="object">
-      <dots:objectProperty name="@id" value="subjectOf" prefix="https://dev.chartes.psl.eu/elec/"/>
-    </schema:subjectOf>
-    <schema:about scope="document" format="tsv" source="./document.csv" type="object">
-      <dots:objectProperty name="@id" value="about"  prefix="https://dev.chartes.psl.eu/elec/"/>
-    </schema:about>
-    <schema:temporalCoverage scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[@type]"/>
+    <schema:datePublished scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/date"/>
+    <schema:creditText scope="document" xpath="if (/TEI/teiHeader/fileDesc/titleStmt/editor or /TEI/teiHeader/fileDesc/titleStmt/principal) then concat( string-join(/TEI/teiHeader/fileDesc/titleStmt/node()[name() = 'editor' or name() = 'principal'], ', '), ' (éd.), ', /TEI/teiHeader/fileDesc/titleStmt/title[1], ', ', /TEI/teiHeader/fileDesc/publicationStmt/publisher, ', ', /TEI/teiHeader/fileDesc/publicationStmt/date, '. [En ligne : https://dev.chartes.psl.eu/elec/cjc/document/', /TEI/@xml:id, ']')"/>
+    <schema:description scope="document" xpath="/TEI/teiHeader/encodingDesc/projectDesc/p"/>
+    <schema:license scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence/@target"/>
     <schema:encoding scope="document" xpath="/TEI/@xml:id" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:MediaObject</dots:objectProperty>
       <dots:objectProperty name="encodingFormat" resourceId="all">application/tei+xml</dots:objectProperty>
       <dots:objectProperty name="contentUrl" xpath="concat('https://dev.chartes.psl.eu/dots/api/dts/document?resource=', .)"/>
     </schema:encoding>
-   <schema:encoding scope="document" xpath="/TEI/@xml:id" type="object">
-     <dots:objectProperty name="@type" resourceId="all">schema:MediaObject</dots:objectProperty>
+    <schema:encoding scope="document" xpath="/TEI/@xml:id" type="object">
+      <dots:objectProperty name="@type" resourceId="all">schema:MediaObject</dots:objectProperty>
       <dots:objectProperty name="encodingFormat" resourceId="all">text/html</dots:objectProperty>
-     <dots:objectProperty name="contentUrl" xpath="concat('https://dev.chartes.psl.eu/dots/api/dts/document?resource=', ., codepoints-to-string(38), 'mediaType=html')"/>
+      <dots:objectProperty name="contentUrl" xpath="concat('https://dev.chartes.psl.eu/dots/api/dts/document?resource=', ., codepoints-to-string(38), 'mediaType=html')"/>
     </schema:encoding>
-    
-    
-    
-    <!-- Métadonnées de fragment -->
-    <dct:title scope="fragment" format="tsv" source="./institutes_metadata.csv" value="title"/>
-    <dct:isVersionOf scope="fragment" format="tsv" source="./align_textes.csv" value="relation1" type="array"/>
-    <dct:isVersionOf scope="fragment" format="tsv" source="./align_textes.csv" value="relation2" type="array"/>
-    <dct:isVersionOf scope="fragment" format="tsv" source="./align_textes.csv" value="relation3" type="array"/>
+    <schema:subjectOf scope="document" source="./document.csv" type="object">
+      <dots:objectProperty name="@id" value="subjectOf" prefix="https://dev.chartes.psl.eu/elec/"/>
+    </schema:subjectOf>
+    <schema:about>
+      <dots:objectProperty name="@id" value="about" prefix="https://dev.chartes.psl.eu/elec/"/>
+    </schema:about>
+    <download xmlns="http://www.tei-c.org/ns/1.0" scope="document" xpath="let $id := /TEI/@xml:id return concat('api/dts/document?resource=', $id)" prefix="https://dev.chartes.psl.eu/dots/"/>
   </dots:mapping>
 </dots:metadataMap>

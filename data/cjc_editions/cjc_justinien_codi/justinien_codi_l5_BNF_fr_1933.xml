@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l5_BNF_fr_1933">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_codi_l5_BNF_fr_1933">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -16,15 +14,15 @@
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier xml:id="H" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
+          <msIdentifier xml:id="H">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>fr. 1933</idno>
           </msIdentifier>
         </msDesc>
-        <msDesc>
-          <msIdentifier xml:id="G" source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+        <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc42220k">
+          <msIdentifier xml:id="G">
             <settlement>Paris</settlement>
             <repository>Bibliothèque nationale de France</repository>
             <idno>français 1070 (Manuscrit de contrôle. Il contient une version abrégée de la traduction française du Codi.)</idno>

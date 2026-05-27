@@ -1,6 +1,4 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_KBR_9234">
+<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="../../teipub/xsl/tei2html.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="justinien_digeste_KBR_9234">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -17,8 +15,8 @@
           ancien français.</p>
       </publicationStmt>
       <sourceDesc>
-        <msDesc>
-          <msIdentifier source="https://portail.biblissima.fr/ark:/43093/mdata532f483e5faa76fb0e343ddc526ab3e70512b447">
+        <msDesc source="https://portail.biblissima.fr/ark:/43093/mdata532f483e5faa76fb0e343ddc526ab3e70512b447">
+          <msIdentifier>
             <settlement>Bruxelles</settlement>
             <repository>Bibliothèque Royale</repository>
             <idno>ms. 9234</idno>
