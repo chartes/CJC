@@ -1,4 +1,5 @@
-<?xml-model href="http://localhost:8080/dots/schema/cartulaires.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anonyme_LJP_l01_BNF_fr-2844">
+<?xml-model href="http://localhost:8080/dots/schema/acte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anonyme_LJP_l01_BNF_fr-2844">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -16,7 +17,9 @@
 			</editionStmt>
 			<extent/>
 			<publicationStmt>
-				<publisher>École nationale des chartes - PSL</publisher>
+			  <date>2015</date>
+			  <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
+				<publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
 				<address>
 					<addrLine>65, rue de Richelieu</addrLine>
 					<addrLine>75002 Paris</addrLine>
@@ -24,8 +27,6 @@
 					<addrLine>http://enc.sorbonne.fr/</addrLine>
 					<addrLine>recherche@enc.sorbonne.fr</addrLine>
 				</address>
-				<idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
-				<date when="2015">2015</date>
 				<availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
 					<p>L'École nationale des chartes met à disposition cette ressource électronique
 						structurée, protégée par le code de la propriété intellectuelle sur les
@@ -66,12 +67,15 @@
 				<idno type="URI">http://elec.enc.sorbonne.fr</idno>
 				<idno type="vol"/>
 			</seriesStmt>
+		  <notesStmt>
+		    <note type="citation">Graziella Pastore (éd.), Li livres de jostice et de plet 1, École nationale des chartes – PSL, 2015.</note>
+		  </notesStmt>
 			<sourceDesc>
 			  <bibl source="https://gallica.bnf.fr/ark:/12148/bpt6k6257058f">
 					<title>Li livres de jostice et de plet, publié pour la première fois d’après le
 						manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
 						glossaire des mots hors d’usage par P. Chabaille</title>
-					<pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date when="1850">1850</date>
+					<pubPlace>Paris</pubPlace>, <publisher>Firmin Didot Frères</publisher>, <date>1850</date>
 				</bibl>
 			  <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125305c https://gallica.bnf.fr/ark:/12148/btv1b9059006z https://portail.biblissima.fr/fr/ark:/43093/mdata6832afd8815fea22c6df8169d489e885399a6b4a">
 			    <msIdentifier>
@@ -82,12 +86,6 @@
 			  </msDesc>
 			</sourceDesc>
 		</fileDesc>
-	  <profileDesc>
-	    <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
-	    <langUsage>
-	      <language ident="fra">Texte en ancien français</language>
-	    </langUsage>
-	  </profileDesc>
 		<encodingDesc>
 			<projectDesc>
 				<p>L’édition numérique reproduit fidèlement la partie éditée par P.-N. Rapetti,
@@ -106,10 +104,16 @@
 		    </citeStructure>
 		  </refsDecl>
 		</encodingDesc>
-		<revisionDesc>
-			<change when="2016-11" who="GP">Mise à jour du fichier</change>
-			<change when="2015-07" who="MH">Création du fichier</change>
-		</revisionDesc>
+	  <profileDesc>
+	    <creation><date>1200/1299</date></creation>
+	    <langUsage>
+	      <language ident="fra">Texte en ancien français</language>
+	    </langUsage>
+	  </profileDesc>
+	  <revisionDesc>
+	    <change when="2016-11" who="GP">Mise à jour du fichier</change>
+	    <change when="2015-07" who="MH">Création du fichier</change>
+	  </revisionDesc>
 	</teiHeader>
 	<text>
 		<front>

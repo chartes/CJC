@@ -13,7 +13,7 @@
         <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
-        <publisher>École nationale des chartes - PSL</publisher>
+        <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
       </publicationStmt>
       <sourceDesc>
         <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc91539v https://gallica.bnf.fr/ark:/12148/btv1b8455783p https://portail.biblissima.fr/fr/ark:/43093/mdatac259316060a8646fa44ebff91da261ec6d6932e0">

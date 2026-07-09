@@ -9,7 +9,7 @@
       </titleStmt>
       <publicationStmt>
         <date>2026</date>
-        <publisher>École nationale des chartes - PSL</publisher>
+        <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
         <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p>
         <p>Cette édition a été réalisée grâce au financement d'un contrat de recherche postdoctorale du LabEx Hastec (2018-2019).</p>
