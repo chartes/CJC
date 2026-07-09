@@ -2,9 +2,10 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-              <title>Li livres de jostice et de plet 5</title>
+              <title ref="http://elec.enc.sorbonne.fr/cjc/anonyme_LJP_l05_BNF_fr-2844">Li livres de jostice et de plet 5</title>
+        <title type="short">Li livres de jostice et de plet 5</title>
               <author>Anonyme (trad.)</author>
-              <principal xml:id="GP" ref="https://www.idref.fr/181597640 https://data.bnf.fr/en/ark:/12148/cb18147756h">Graziella Pastore</principal>
+              <principal xml:id="GP" ref="https://data.bnf.fr/en/ark:/12148/cb18147756h https://www.idref.fr/181597640">Graziella Pastore</principal>
                 <funder>École nationale des chartes</funder>
                 <respStmt>
                     <name xml:id="MH">Mathilde Henriquet</name>
@@ -18,15 +19,14 @@
             <publicationStmt>
                 <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
                 <address>
-                    <addrLine>65, rue de Richelieu</addrLine>
-                    <addrLine>75002 Paris</addrLine>
-                    <addrLine>tél. : +33 (0)1 55 42 75 00</addrLine>
-                    <addrLine>http://enc.sorbonne.fr/</addrLine>
-                    <addrLine>recherche@enc.sorbonne.fr</addrLine>
-                </address>
-                <idno>http://elec.enc.sorbonne.fr/josticeetplet/</idno>
-                <date when="2015">2015</date>
-                <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence>
+          <addrLine>65, rue de Richelieu</addrLine>
+          <addrLine>75002 Paris</addrLine>
+          <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
+          <addrLine>https://www.chartes.psl.eu/</addrLine>
+        </address>
+                <idno>http://elec.enc.sorbonne.fr/cjc/anonyme_LJP_l05_BNF_fr-2844</idno>
+                <date>2015</date>
+                <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)</licence>
                     <p>L'École nationale des chartes met à disposition cette ressource électronique
                         structurée, protégée par le code de la propriété intellectuelle sur les
                         bases de données (L341-1), selon les termes de la licence Creative
@@ -64,9 +64,12 @@
             <seriesStmt>
                 <title>Éditions en ligne de l'École des chartes</title>
                 <idno type="URI">http://elec.enc.sorbonne.fr</idno>
-                <idno type="vol"/>
+                <idno type="vol">17bis</idno>
             </seriesStmt>
-          <sourceDesc>
+          <notesStmt>
+        <note type="citation">Graziella Pastore (éd.), Li livres de jostice et de plet 5, École nationale des chartes – PSL, 2015.</note>
+      </notesStmt>
+        <sourceDesc>
             <bibl source="https://gallica.bnf.fr/ark:/12148/bpt6k6257058f">
               <title>Li livres de jostice et de plet, publié pour la première fois d’après le
                 manuscrit unique de la Bibliothèque nationale par [P.N.] Rapetti, avec un
@@ -81,11 +84,18 @@
               </msIdentifier>
             </msDesc>
           </sourceDesc>
-        </fileDesc>
+    </fileDesc>
       <profileDesc>
         <langUsage>
           <language ident="fra">Texte en ancien français</language>
         </langUsage>
+      <textClass>
+        <keywords>
+          <term type="temporalCoverage">
+            <date notBefore="1200" notAfter="1299">1200/1299</date>
+          </term>
+        </keywords>
+      </textClass>
         <creation><date notBefore="1200" notAfter="1299">1200/1299</date></creation>
       </profileDesc>
       <encodingDesc>

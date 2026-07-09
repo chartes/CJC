@@ -2,11 +2,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><hi rend="i">Institutiones</hi>, Justinianus I.</title>
+        <title ref="http://elec.enc.sorbonne.fr/cjc/justinien_institutiones_notice"><hi rend="i">Institutiones</hi>, Justinianus I.</title>
+        <title type="short">Institutiones, Justinianus I.</title>
         <title type="sub">Notice descriptive concernant l’ensemble des traductions médiévales en français et en occitan des <hi rend="i">Institutiones</hi>, Justinianus I</title>
-        <author key="Duval, Frédéric (1972-....)" ref="https://www.idref.fr/096268247 http://data.bnf.fr/ark:/12148/cb136157348">Frédéric Duval</author>
+        <author key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</author>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
       </titleStmt>
+      <extent/>
       <editionStmt>
         <edition>École nationale des chartes</edition>
         <respStmt>
@@ -32,13 +34,24 @@
       </editionStmt>
       <publicationStmt>
         <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
-        <date when="2018">2018</date>
-        <idno>https://github.com/chartes/miroir/raw/master/xml/manuscrits_juridiques/institutiones.xml</idno>
-        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <address>
+          <addrLine>65, rue de Richelieu</addrLine>
+          <addrLine>75002 Paris</addrLine>
+          <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
+          <addrLine>https://www.chartes.psl.eu/</addrLine>
+        </address>
+        <date>2018</date>
+        <idno>http://elec.enc.sorbonne.fr/cjc/justinien_institutiones_notice</idno>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)</licence></availability>
       </publicationStmt>
       <seriesStmt>
         <title>Miroir des classiques</title>
-      </seriesStmt>
+      <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+        <idno type="vol">17bis</idno>
+        </seriesStmt>
+      <notesStmt>
+        <note type="citation">Frédéric Duval (éd.), Institutiones, Justinianus I., École nationale des chartes – PSL, 2018.</note>
+      </notesStmt>
       <sourceDesc>
         <bibl source="http://catalogue.bnf.fr/ark:/12148/cb13736009z https://portail.biblissima.fr/fr/ark:/43093/oedatacadd4a0e3921175d46cb9a2fdbfae6dcc3fcbbc3"><author>Justinianus I</author>, <title>Institutiones</title></bibl>
       </sourceDesc>
@@ -53,8 +66,18 @@
       <langUsage>
         <language ident="fr"/>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="temporalCoverage">
+            <date when="2018">2018</date>
+          </term>
+        </keywords>
+      </textClass>
     </profileDesc>
     <encodingDesc>
+      <projectDesc>
+        <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
+      </projectDesc>
       <refsDecl>
         <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
           <citeData use="head" property="dct:title"/>

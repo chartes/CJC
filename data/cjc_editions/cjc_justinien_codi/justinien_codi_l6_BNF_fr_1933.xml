@@ -2,16 +2,33 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title ref="http://catalogue.bnf.fr/ark:/12148/cb15916554c https://www.wikidata.org/wiki/Q735763 https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 6</title>
+        <title ref="https://www.wikidata.org/wiki/Q735763 http://catalogue.bnf.fr/ark:/12148/cb15916554c https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 6</title>
+        <title type="short">Li Codes an romanz, livre 6</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
-        <principal xml:id="VM" ref="https://www.idref.fr/260452939 https://data.bnf.fr/fr/ark:/12148/cb18218621c">Viola Mariotti</principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier</author>
+        <principal xml:id="VM" ref="https://data.bnf.fr/fr/ark:/12148/cb18218621c https://www.idref.fr/260452939">Viola Mariotti</principal>
       </titleStmt>
+      <extent/>
       <publicationStmt>
         <date>2026</date>
+        <idno>http://elec.enc.sorbonne.fr/cjc/justinien_codi_l6_BNF_fr_1933</idno>
         <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
-        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <address>
+          <addrLine>65, rue de Richelieu</addrLine>
+          <addrLine>75002 Paris</addrLine>
+          <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
+          <addrLine>https://www.chartes.psl.eu/</addrLine>
+        </address>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)</licence></availability>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en ancien français dans le répertoire en ligne Miroir des classiques.</p></publicationStmt>
+      <seriesStmt>
+        <title>Éditions en ligne de l'École des chartes</title>
+        <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+        <idno type="vol">17bis</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="citation">Viola Mariotti (éd.), Li Codes an romanz, livre 6, École nationale des chartes – PSL, 2026.</note>
+      </notesStmt>
       <sourceDesc>
         <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc484678 https://gallica.bnf.fr/ark:/12148/btv1b100233850 https://portail.biblissima.fr/fr/ark:/43093/mdataec499b5add0d984c7c2ff6ec493d0a680cfc59f4">
           <msIdentifier xml:id="H">
@@ -33,6 +50,13 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après l'occitan.</language>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="temporalCoverage">
+            <date notBefore="1270" notAfter="1299">1270/1299</date>
+          </term>
+        </keywords>
+      </textClass>
       <creation>
         <date notBefore="1270" notAfter="1299">1270/1299</date>
       </creation>

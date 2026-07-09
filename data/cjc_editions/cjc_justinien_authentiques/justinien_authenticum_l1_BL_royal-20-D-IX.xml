@@ -2,18 +2,35 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Traduction 1 des Authentiques, Liber primus</title>
+        <title ref="http://elec.enc.sorbonne.fr/cjc/justinien_authenticum_l1_BL_royal-20-D-IX">Traduction 1 des Authentiques, Liber primus</title>
+        <title type="short">Traduction 1 des Authentiques, Liber primus</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866 https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://data.bnf.fr/fr/ark:/12148/cb12055108q">Justinien Ier</author>
-        <principal xml:id="LD" ref="https://www.idref.fr/195638638 https://data.bnf.fr/fr/ark:/12148/cb17078485t">Lucien Dugaz</principal>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier</author>
+        <principal xml:id="LD" ref="https://data.bnf.fr/fr/ark:/12148/cb17078485t https://www.idref.fr/195638638">Lucien Dugaz</principal>
       </titleStmt>
+      <extent/>
       <publicationStmt>
         <date>2026</date>
-        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</licence></availability>
+        <idno>http://elec.enc.sorbonne.fr/cjc/justinien_authenticum_l1_BL_royal-20-D-IX</idno>
+        <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)</licence></availability>
         <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
+        <address>
+          <addrLine>65, rue de Richelieu</addrLine>
+          <addrLine>75002 Paris</addrLine>
+          <addrLine>tél.: +33 (0)1 55 42 75 00</addrLine>
+          <addrLine>https://www.chartes.psl.eu/</addrLine>
+        </address>
         <p>Projet pour l'édition électronique d'un corpus des premiers textes de droit traduits en
           ancien français.</p>
       </publicationStmt>
+      <seriesStmt>
+        <title>Éditions en ligne de l'École des chartes</title>
+        <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+        <idno type="vol">17bis</idno>
+      </seriesStmt>
+      <notesStmt>
+        <note type="citation">Lucien Dugaz (éd.), Traduction 1 des Authentiques, Liber primus, École nationale des chartes – PSL, 2026.</note>
+      </notesStmt>
       <sourceDesc>
         <msDesc source="https://portail.biblissima.fr/fr/ark:/43093/mdataa8fc84625ad4fb47dbd2200b2d724c27a538dcc7">
           <msIdentifier xml:id="O">
@@ -38,6 +55,13 @@
       <langUsage>
         <language ident="fra">Texte en ancien français, traduit d'après le latin.</language>
       </langUsage>
+      <textClass>
+        <keywords>
+          <term type="temporalCoverage">
+            <date notBefore="1250" notAfter="1275">1250/1275</date>
+          </term>
+        </keywords>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <projectDesc>
