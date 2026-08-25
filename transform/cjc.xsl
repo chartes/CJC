@@ -11,14 +11,16 @@
 
   <xsl:strip-space elements="tei:app tei:lem tei:rdg tei:rdgList tei:choice tei:sic tei:corr tei:abbr tei:expan tei:orig tei:reg tei:subst"/>
 
-  <xsl:template match="tei:body" priority="10">
+  <!-- Apparats critiques désormais gérés par tei2html.xsl. Les règles CJC
+       suivantes sont désactivées afin de laisser gagner l'import générique. -->
+  <xsl:template match="tei:body[false()]" priority="10">
     <xsl:apply-imports/>
     <xsl:call-template name="cjc-endnotes">
       <xsl:with-param name="scope" select="."/>
     </xsl:call-template>
   </xsl:template>
 
-  <xsl:template match="dts:wrapper">
+  <xsl:template match="dts:wrapper[false()]">
     <div class="dts-content">
       <xsl:apply-templates/>
       <xsl:call-template name="cjc-endnotes">
@@ -135,7 +137,7 @@
       </xsl:if>
   </xsl:template>
 
-  <xsl:template match="tei:app" priority="10">
+  <xsl:template match="tei:app[false()]" priority="10">
     <xsl:variable name="gid" select="generate-id()"/>
     <xsl:apply-templates select="tei:lem/node()"/>
     <a class="noteref app-ref" href="#fn-app-{$gid}" id="ref-app-{$gid}">
@@ -145,7 +147,7 @@
     </a>
   </xsl:template>
 
-  <xsl:template match="tei:choice" priority="10">
+  <xsl:template match="tei:choice[false()]" priority="10">
     <xsl:variable name="gid" select="generate-id()"/>
     <xsl:choose>
       <xsl:when test="tei:corr">
@@ -168,7 +170,7 @@
     </a>
   </xsl:template>
 
-  <xsl:template match="tei:note[not(@place='margin')][not(ancestor::tei:app)][not(ancestor::tei:choice)]" priority="10">
+  <xsl:template match="tei:note[false()]" priority="10">
     <xsl:variable name="gid" select="generate-id()"/>
     <a class="noteref note-ref" href="#fn-note-{$gid}" id="ref-note-{$gid}">
       <sup>
