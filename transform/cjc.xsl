@@ -146,6 +146,41 @@
     </xsl:choose>
   </xsl:template>
 
+  <!-- Titres : modèle head de hteiml repris à l'identique, sauf le plafond. hteiml testait « $level > 7 » et
+       sortait donc des <h7> pour les div profondes des notices (HTML s'arrête à h6 ; dots-vue :
+       « Failed to resolve component: h7 »). -->
+  <xsl:template match="tei:head">
+    <xsl:param name="level" select="count(ancestor::tei:*) - 2"/>
+    <xsl:variable name="name">
+      <xsl:choose>
+        <xsl:when test="normalize-space(.) = ''"/>
+        <xsl:when test="parent::tei:front | parent::tei:text | parent::tei:back ">h1</xsl:when>
+        <xsl:when test="$level &lt; 1">h1</xsl:when>
+        <xsl:when test="$level &gt; 6">h6</xsl:when>
+        <xsl:otherwise>h<xsl:value-of select="$level"/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$name != ''">
+      <xsl:apply-templates select="tei:pb"/>
+      <xsl:element name="{$name}" namespace="http://www.w3.org/1999/xhtml">
+        <xsl:call-template name="atts">
+          <xsl:with-param name="class"><xsl:value-of select="../@type"/></xsl:with-param>
+        </xsl:call-template>
+        <xsl:apply-templates select="node()[local-name()!='pb']"/>
+        <xsl:if test="not(following-sibling::*[1][self::tei:head]) and $format != $epub2 and $format != $epub3">
+          <a class="bookmark">
+            <xsl:attribute name="href">
+              <xsl:for-each select="ancestor::tei:div[1]">
+                <xsl:call-template name="href"/>
+              </xsl:for-each>
+            </xsl:attribute>
+            <xsl:text> §</xsl:text>
+          </a>
+        </xsl:if>
+      </xsl:element>
+    </xsl:if>
+  </xsl:template>
+
   <!-- Leçon retenue : hteiml la fait toujours précéder d'une espace insécable, qui doublait le blanc
        déjà présent dans le texte (« sunt  majors », Codi). Espace seulement si le texte précédent
        finit sur un caractère (ni blanc ni apostrophe). -->
