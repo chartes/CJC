@@ -140,11 +140,10 @@
       <xsl:when test="@resp='editor'">
         <xsl:number count="tei:note[@resp=$resp][not(cjc:var(.))]" format="I" level="any" from="/"/>
       </xsl:when>
-      <xsl:when test="@resp">
-        <xsl:number count="tei:note[@resp=$resp][not(cjc:var(.))]" level="any" from="/"/>
-      </xsl:when>
+      <!-- 2026-10-29 : notes signées (@resp="#FD", "#HB"…, notices) dans la même suite que les autres : hteiml les
+           numérotait à part (« 31, 32, 33, 2, 34… »). Seules les notes de l'éditeur gardent leur suite propre. -->
       <xsl:otherwise>
-        <xsl:number count="tei:note[not(@resp) and not(@rend) and not(parent::tei:div) and not(parent::tei:notesStmt) and not(parent::tei:app) and not(cjc:var(.))]" level="any" from="/"/>
+        <xsl:number count="tei:note[not(@resp = 'editor') and not(@rend) and not(parent::tei:div) and not(parent::tei:notesStmt) and not(parent::tei:app) and not(cjc:var(.))]" level="any" from="/"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -376,6 +375,12 @@
       </xsl:attribute>
       <xsl:apply-templates select="$retenue/node()"/>
     </span>
+  </xsl:template>
+
+  <!-- 2026-10-29 : <seg type="title"> = titre (rubrique) d'un chapitre du manuscrit, cité dans une note ou un incipit,
+       pas un titre d'ouvrage : hteiml lui donnait la classe « title », que html.css met en italique. -->
+  <xsl:template match="tei:seg[@type = 'title']" priority="5">
+    <span class="titre-ms"><xsl:apply-templates/></span>
   </xsl:template>
 
   <!-- Titres : modèle head de hteiml repris à l'identique, sauf le plafond. hteiml testait « $level > 7 » et
