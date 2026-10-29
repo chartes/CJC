@@ -120,7 +120,7 @@
     <xsl:variable name="hasformat" select="@rend != '' and boolean(translate(substring-before(concat(@rend, ' '), ' '), '1AaIi', '') = '')"/>
     <xsl:choose>
       <xsl:when test="self::tei:app or self::tei:note[cjc:var(.)]">
-        <xsl:number count="tei:app | tei:note[cjc:var(.)]" format="a" level="any" from="/"/>
+        <xsl:number count="tei:app[tei:lem] | tei:note[cjc:var(.)]" format="a" level="any" from="/"/>
       </xsl:when>
       <xsl:when test="@n">
         <xsl:value-of select="@n"/>
@@ -167,16 +167,16 @@
     <!-- for notes by pages -->
     <xsl:param name="pb" select="$cont//tei:pb[@n][not(@ed)]"/>
     <xsl:variable name="notes">
-      <xsl:if test="$app or $cont//tei:note[cjc:var(.)]">
+      <xsl:if test="$cont//tei:app[tei:lem] or $cont//tei:note[cjc:var(.)]">
         <xsl:variable name="apparatus">
           <xsl:choose>
             <xsl:when test="$cont">
-              <xsl:for-each select="$cont // (tei:app | tei:note[cjc:var(.)])">
+              <xsl:for-each select="$cont // (tei:app[tei:lem] | tei:note[cjc:var(.)])">
                 <xsl:call-template name="note-inline"/>
               </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:for-each select="$cont // (tei:app | tei:note[cjc:var(.)])">
+              <xsl:for-each select="$cont // (tei:app[tei:lem] | tei:note[cjc:var(.)])">
                 <xsl:call-template name="note-inline"/>
               </xsl:for-each>
             </xsl:otherwise>
@@ -381,6 +381,31 @@
        pas un titre d'ouvrage : hteiml lui donnait la classe « title », que html.css met en italique. -->
   <xsl:template match="tei:seg[@type = 'title']" priority="5">
     <span class="titre-ms"><xsl:apply-templates/></span>
+  </xsl:template>
+
+  <!-- 2026-10-29 — LEÇONS CITÉES DANS LES NOTICES. Dans les notices, <app> sans <lem> (847 cas, aucun dans les
+       éditions) ne fait pas apparat : il cite des leçons dans le texte (« Fautes communes AFL : Auth. 81.pr
+       desordeneement AFL / desanorrement O / lat. inornatum »). hteiml le remplaçait par un appel en lettre et
+       renvoyait les leçons en pied de page (« [a] s'oppose à [b] »). Rendu en ligne : chaque leçon suivie de ses
+       sigles en italique, leçons séparées par « / », leçon latine sans témoin précédée de « lat. ». -->
+  <xsl:template match="tei:app[not(tei:lem)]" priority="30">
+    <span class="lecons">
+      <xsl:for-each select="tei:rdg">
+        <xsl:if test="position() &gt; 1"><xsl:text> / </xsl:text></xsl:if>
+        <xsl:choose>
+          <xsl:when test="not(@wit) and starts-with(@xml:lang, 'la')">
+            <xsl:text>lat. </xsl:text><i class="lecon"><xsl:apply-templates/></i>
+          </xsl:when>
+          <xsl:otherwise>
+            <span class="lecon"><xsl:apply-templates/></span>
+            <xsl:if test="normalize-space(@wit)">
+              <xsl:text> </xsl:text>
+              <i class="sigles"><xsl:value-of select="string-join(for $w in tokenize(normalize-space(@wit), ' ') return substring-after($w, '#'), '')"/></i>
+            </xsl:if>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </span>
   </xsl:template>
 
   <!-- Titres : modèle head de hteiml repris à l'identique, sauf le plafond. hteiml testait « $level > 7 » et
