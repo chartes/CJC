@@ -927,6 +927,20 @@
     </span>
   </xsl:template>
 
+  <!-- 2026-10-29 — LIENS SANS CIBLE. 77 <persName ref="???"> (traducteurs anonymes des notices, en attente d'autorité) :
+       hteiml en faisait un lien <a href="???" target="_blank">, qui ouvrait une page d'erreur. Nom rendu sans lien. -->
+  <xsl:template match="tei:persName[@ref][not(matches(normalize-space(@ref), '^(https?:|#)'))]" priority="5">
+    <xsl:variable name="h"><xsl:next-match/></xsl:variable>
+    <xsl:for-each select="$h/node()">
+      <xsl:choose>
+        <xsl:when test="self::*:a">
+          <span><xsl:copy-of select="@class | @property"/><xsl:copy-of select="node()"/></span>
+        </xsl:when>
+        <xsl:otherwise><xsl:copy-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+
   <!-- ==== 4. MÉCANISMES COMMUNS ==== -->
   <!-- (aucun) -->
 </xsl:transform>
