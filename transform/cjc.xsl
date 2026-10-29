@@ -5,7 +5,10 @@
   xmlns:tei="http://www.tei-c.org/ns/1.0"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:bib="urn:elec:bibliographie"
-  exclude-result-prefixes="tei xs bib">
+  xmlns:cjc="urn:elec:cjc"
+  xmlns:exslt="http://exslt.org/common"
+  xmlns:epub="http://www.idpf.org/2007/ops"
+  exclude-result-prefixes="tei xs bib cjc exslt epub">
   <!-- CJC (Corpus Juris Civilis) : surcharge de hteiml, réécrite le 28/10/2026 en partant du rendu
        hteiml nu (la feuille précédente ne gardait plus que des modèles désactivés). Une seule feuille
        pour les 48 ressources : éditions (Jostice et plet, Code, Codi, Digeste, Authentiques,
@@ -116,8 +119,8 @@
     <xsl:variable name="resp" select="@resp"/>
     <xsl:variable name="hasformat" select="@rend != '' and boolean(translate(substring-before(concat(@rend, ' '), ' '), '1AaIi', '') = '')"/>
     <xsl:choose>
-      <xsl:when test="self::tei:app">
-        <xsl:number count="tei:app" format="a" level="any" from="/"/>
+      <xsl:when test="self::tei:app or self::tei:note[cjc:var(.)]">
+        <xsl:number count="tei:app | tei:note[cjc:var(.)]" format="a" level="any" from="/"/>
       </xsl:when>
       <xsl:when test="@n">
         <xsl:value-of select="@n"/>
@@ -135,15 +138,244 @@
         <xsl:number count="tei:note[@type='app']" format="a" level="any" from="/"/>
       </xsl:when>
       <xsl:when test="@resp='editor'">
-        <xsl:number count="tei:note[@resp=$resp]" format="I" level="any" from="/"/>
+        <xsl:number count="tei:note[@resp=$resp][not(cjc:var(.))]" format="I" level="any" from="/"/>
       </xsl:when>
       <xsl:when test="@resp">
-        <xsl:number count="tei:note[@resp=$resp]" level="any" from="/"/>
+        <xsl:number count="tei:note[@resp=$resp][not(cjc:var(.))]" level="any" from="/"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:number count="tei:note[not(@resp) and not(@rend) and not(parent::tei:div) and not(parent::tei:notesStmt) and not(parent::tei:app)]" level="any" from="/"/>
+        <xsl:number count="tei:note[not(@resp) and not(@rend) and not(parent::tei:div) and not(parent::tei:notesStmt) and not(parent::tei:app) and not(cjc:var(.))]" level="any" from="/"/>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <!-- 2026-10-29 — APPARAT CRITIQUE DES ÉDITIONS. Hors du Codi, les éditions n'ont pas d'<app> : les
+       variantes sont des <note> (« de P.] de Persie F » : lemme fermé par un crochet ; Code : notes
+       place="bottom", leçons et faits de copie). Demande de Maxime : « c'est de l'apparat, pas des notes ».
+       Une telle note est rendue comme une variante : appel en lettre, entrée dans p.apparatus, hors du
+       décompte et de la liste des notes. Les notices (aucune note de cette forme) ne sont pas touchées. -->
+  <xsl:function name="cjc:var" as="xs:boolean">
+    <xsl:param name="n" as="element()"/>
+    <xsl:sequence select="exists($n/self::tei:note) and not($n/@type = 'citation') and not($n/parent::tei:app)
+      and not($n/ancestor::tei:teiHeader)
+      and ($n/@place = 'bottom' or matches(normalize-space(string-join($n//text(), '')), '^[^\[\]]{1,150}\]'))"/>
+  </xsl:function>
+  <xsl:template match="tei:note[cjc:var(.)]" mode="fn" priority="30"/>
+  <!-- Pied de notes de hteiml repris, avec les notes-variantes dans l'apparat et hors des notes. -->
+  <xsl:template name="footnotes">
+    <!-- children from which find notes -->
+    <xsl:param name="cont" select="*"/>
+    <!-- for notes by pages -->
+    <xsl:param name="pb" select="$cont//tei:pb[@n][not(@ed)]"/>
+    <xsl:variable name="notes">
+      <xsl:if test="$app or $cont//tei:note[cjc:var(.)]">
+        <xsl:variable name="apparatus">
+          <xsl:choose>
+            <xsl:when test="$cont">
+              <xsl:for-each select="$cont // (tei:app | tei:note[cjc:var(.)])">
+                <xsl:call-template name="note-inline"/>
+              </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:for-each select="$cont // (tei:app | tei:note[cjc:var(.)])">
+                <xsl:call-template name="note-inline"/>
+              </xsl:for-each>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$apparatus != ''">
+          <p class="apparatus">
+            <xsl:copy-of select="$apparatus"/>
+          </p>
+        </xsl:if>
+      </xsl:if>
+      <!--
+      <xsl:for-each select="$cont //tei:*[@rend='note']">
+        <xsl:sort select="local-name()"/>
+        <xsl:call-template name="fn"/>
+      </xsl:for-each>
+      -->
+      <xsl:choose>
+        <xsl:when test=" $pb">
+          <!-- notes before the first pb, via the note-pb key (notes with no preceding pb) -->
+          <xsl:variable name="notes1" select="key('note-pb', '')[not(cjc:var(.))]"/>
+          <xsl:if test="$notes1">
+            <div class="page">
+              <xsl:for-each select="$notes1[@resp = 'author'][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+              <xsl:for-each select="$notes1[@resp = 'editor'][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+              <xsl:for-each select="$notes1[not(@resp) or (@resp != 'editor' and @resp != 'author')][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+            </div>
+          </xsl:if>
+          <xsl:for-each select="$pb">
+            <xsl:variable name="notes4page">
+              <!-- notes abc ? @n and translate(@n, 'abcdefghijklmnopqrstuvwxyz-.', '') -->
+              <xsl:for-each select="key('note-pb', generate-id())[not(cjc:var(.))][@resp = 'author'][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+              <xsl:for-each select="key('note-pb', generate-id())[not(cjc:var(.))][@resp = 'editor'][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+              <xsl:for-each select="key('note-pb', generate-id())[not(cjc:var(.))][not(@resp) or (@resp != 'editor' and @resp != 'author')][not(@place = 'margin')]">
+                <xsl:call-template name="note"/>
+              </xsl:for-each>
+            </xsl:variable>
+            <xsl:if test="$notes4page != ''">
+              <div class="page">
+                <div class="b note-page">
+                  <xsl:call-template name="a"/>
+                </div>
+                <xsl:copy-of select="$notes4page"/>
+              </div>
+            </xsl:if>
+          </xsl:for-each>
+        </xsl:when>
+        <!-- handle notes by split sections ? -->
+        <xsl:when test="$cont and function-available('exslt:node-set')">
+          <xsl:apply-templates select="exslt:node-set($cont)" mode="fn">
+            <xsl:with-param name="resp">author</xsl:with-param>
+          </xsl:apply-templates>
+          <xsl:apply-templates select="exslt:node-set($cont)" mode="fn">
+            <xsl:with-param name="resp">editor</xsl:with-param>
+          </xsl:apply-templates>
+          <xsl:apply-templates select="exslt:node-set($cont)" mode="fn"/>
+        </xsl:when>
+        <!-- !! especially not efficient -->
+        <xsl:when test="$cont">
+          <xsl:for-each select="$cont //tei:note[not(cjc:var(.))]">
+            <xsl:sort select="@place|@resp"/>
+            <xsl:call-template name="fn"/>
+          </xsl:for-each>
+        </xsl:when>
+        <xsl:when test="key('id', 'note-footseq')">
+          <xsl:apply-templates select="*" mode="fn"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="*" mode="fn">
+            <xsl:with-param name="resp">author</xsl:with-param>
+          </xsl:apply-templates>
+          <xsl:apply-templates select="*" mode="fn">
+            <xsl:with-param name="resp">editor</xsl:with-param>
+          </xsl:apply-templates>
+          <xsl:apply-templates select="*" mode="fn"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$notes != ''">
+      <xsl:variable name="el">
+        <xsl:choose>
+          <xsl:when test="$format=$epub2">div</xsl:when>
+          <xsl:otherwise>section</xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:element name="{$el}" namespace="http://www.w3.org/1999/xhtml">
+        <xsl:attribute name="class">footnotes</xsl:attribute>
+        <xsl:if test="$format = $epub3">
+          <xsl:attribute name="epub:type">footnotes</xsl:attribute>
+        </xsl:if>
+        <!--
+        <hr class="footnotes" width="30%"/>
+        -->
+        <xsl:copy-of select="$notes"/>
+      </xsl:element>
+    </xsl:if>
+  </xsl:template>
+  <!-- Entrée d'apparat (modèle de hteiml repris) : la ponctuation finale (« . ») va DANS l'entrée. hteiml
+       la mettait après, hors du span ; le bloc commun met chaque entrée sur sa ligne (display: block) :
+       le point isolé faisait une ligne presque vide entre deux variantes (Tancrède, notice). -->
+  <xsl:template name="note-inline">
+    <!-- identifiant de la note -->
+    <xsl:variable name="id">
+      <xsl:call-template name="id"/>
+    </xsl:variable>
+    <xsl:variable name="text">
+      <xsl:for-each select="text()">
+        <xsl:value-of select="normalize-space(.)"/>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="html">
+      <xsl:choose>
+        <xsl:when test="$text='' and count(*)=1 and tei:p">
+          <span class="note" id="{$id}">
+            <xsl:if test="$format = $epub3">
+              <xsl:attribute name="epub:type">note</xsl:attribute>
+            </xsl:if>
+            <xsl:call-template name="noteback">
+              <xsl:with-param name="class"/>
+            </xsl:call-template>
+            <xsl:text>, </xsl:text>
+            <xsl:apply-templates select="*/node()"/>
+          </span>
+        </xsl:when>
+        <xsl:when test="$text='' and *[1][self::tei:p]">
+          <div class="note" id="{$id}">
+            <p class="noindent">
+              <xsl:call-template name="noteback"/>
+              <xsl:apply-templates select="*[1]/node()"/>
+            </p>
+            <xsl:apply-templates select="*[position() &gt; 1]"/>
+          </div>
+        </xsl:when>
+        <xsl:otherwise>
+          <span class="note" id="{$id}">
+            <xsl:call-template name="noteback">
+              <xsl:with-param name="class"/>
+            </xsl:call-template>
+           <xsl:apply-templates/>
+          </span>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:if test="$html != ''">
+      <!-- regarder si la ligne est déjà ponctuée avant d'ajouter un point -->
+      <xsl:variable name="norm" select="normalize-space($html)"/>
+      <xsl:variable name="last" select="substring($norm, string-length($norm))"/>
+      <xsl:variable name="ponct"><xsl:choose>
+        <!-- block -->
+        <xsl:when test="count(*) &gt; 1 and $text='' "/>
+        <!-- Déja ponctué -->
+        <xsl:when test="$last=',' or $last=';' or $last='.'">
+          <xsl:text> </xsl:text>
+        </xsl:when>
+        <xsl:otherwise>. </xsl:otherwise>
+      </xsl:choose></xsl:variable>
+      <xsl:for-each select="$html/node()">
+        <xsl:choose>
+          <xsl:when test="self::*">
+            <xsl:copy>
+              <xsl:copy-of select="@* | node()"/>
+              <xsl:value-of select="normalize-space($ponct)"/>
+            </xsl:copy>
+          </xsl:when>
+          <xsl:otherwise><xsl:copy-of select="."/></xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:if>
+  </xsl:template>
+  <!-- 2026-10-29 — INSTITUTES (fr. 1064). « Le projet a pour but de donner la leçon de C » (teiHeader) : chaque
+       <choice> réunit la leçon de C (sic source="#C"), celle de l'édition Olivier-Martin (sic resp="#ed") et parfois
+       une correction (corr). hteiml ne connaît pas deux <sic> dans un <choice> : il les sortait tous les deux,
+       barrés. Comme hteiml pour sic/corr : la leçon retenue dans le texte (la correction, sinon C), les autres en
+       infobulle avec leur origine. -->
+  <xsl:template match="tei:choice[count(tei:sic) &gt; 1 or (tei:sic[@source = '#C'] and not(tei:corr))]" priority="30">
+    <xsl:variable name="retenue" select="(tei:corr, tei:sic[@source = '#C'], *)[1]"/>
+    <span class="choice">
+      <xsl:attribute name="title">
+        <xsl:for-each select="* except $retenue">
+          <xsl:value-of select="if (@source = '#C') then 'C' else if (@resp = '#ed') then 'éd. Olivier-Martin'
+            else if (@resp = '#ned') then 'correction' else translate(string((@source, @resp)[1]), '#', '')"/>
+          <xsl:text> : </xsl:text>
+          <xsl:value-of select="if (normalize-space(.) = '') then 'om.' else normalize-space(.)"/>
+          <xsl:if test="position() != last()"> ; </xsl:if>
+        </xsl:for-each>
+      </xsl:attribute>
+      <xsl:apply-templates select="$retenue/node()"/>
+    </span>
   </xsl:template>
 
   <!-- Titres : modèle head de hteiml repris à l'identique, sauf le plafond. hteiml testait « $level > 7 » et
