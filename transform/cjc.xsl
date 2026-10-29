@@ -157,7 +157,9 @@
     <xsl:param name="n" as="element()"/>
     <xsl:sequence select="exists($n/self::tei:note) and not($n/@type = 'citation') and not($n/parent::tei:app)
       and not($n/ancestor::tei:teiHeader)
-      and ($n/@place = 'bottom' or matches(normalize-space(string-join($n//text(), '')), '^[^\[\]]{1,150}\]'))"/>
+      and ($n/@place = 'bottom' or matches(normalize-space(string-join($n//text(), '')), '^[^\[\]]{1,150}\]')
+           (: notices : leçon suivie de ses sigles, « Tient valet [P-] », « … [HL+] », « … [L hypométrique ; P+] » :)
+           or matches(normalize-space(string-join($n//text(), '')), '\[[^\[\]]*([A-Z]{1,6}\s*[+\-]|hypométrique|hypermétrique|rime)[^\[\]]*\]\s*\.?$'))"/>
   </xsl:function>
   <xsl:template match="tei:note[cjc:var(.)]" mode="fn" priority="30"/>
   <!-- Pied de notes de hteiml repris, avec les notes-variantes dans l'apparat et hors des notes. -->
