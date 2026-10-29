@@ -120,7 +120,9 @@
     <xsl:variable name="hasformat" select="@rend != '' and boolean(translate(substring-before(concat(@rend, ' '), ' '), '1AaIi', '') = '')"/>
     <xsl:choose>
       <xsl:when test="self::tei:app or self::tei:note[cjc:var(.)]">
-        <xsl:number count="tei:app[tei:lem] | tei:note[cjc:var(.)]" format="a" level="any" from="/"/>
+        <!-- 2026-10-29 : une variante emboîtée dans le lemme d'une autre (Codi, 4 cas) n'a pas d'appel propre :
+             elle est décrite dans l'entrée de la variante qui la contient (sa lettre venait en double). -->
+        <xsl:number count="tei:app[tei:lem][not(ancestor::tei:app)] | tei:note[cjc:var(.)]" format="a" level="any" from="/"/>
       </xsl:when>
       <xsl:when test="@n">
         <xsl:value-of select="@n"/>
@@ -153,13 +155,31 @@
        place="bottom", leçons et faits de copie). Demande de Maxime : « c'est de l'apparat, pas des notes ».
        Une telle note est rendue comme une variante : appel en lettre, entrée dans p.apparatus, hors du
        décompte et de la liste des notes. Les notices (aucune note de cette forme) ne sont pas touchées. -->
+  <!-- 2026-10-29 (relecture de toutes les ressources) : règle élargie aux variantes restées en notes, mesurées
+       ressource par ressource sur le rendu servi :
+       - notices : note faite d'un seul <app> sans lemme dont une leçon au moins a son témoin (« xii B / lat. duodecim »,
+         « s'accordent A / OF / lat. convenerit » : leçons des autres témoins sur un mot du spécimen) ; la note qui ne
+         donne que le latin (« lat. per eum locum ») reste une note ;
+       - Authentiques : lemme abrégé par « [...] » avant le crochet (« Et nos [...] penser] Més desci… F », 24 cas) ;
+       - éditions (hors description de manuscrit) : faits de copie (« n exponctué après nus », Code de Montpellier ;
+         « Ms. : hoi exp. après fait », Codi, sauf lettrines et renvois aux éditions Fitting/Derrer ; « Répété ms. »,
+         « sur grattage », Digeste) et leçons suivies de leurs sigles (« reüser AHI », « se om. AHIL », Code de Giessen).
+       Restent des notes : sources, renvois au latin, remarques de l'éditeur, descriptions. -->
   <xsl:function name="cjc:var" as="xs:boolean">
     <xsl:param name="n" as="element()"/>
+    <xsl:variable name="t" select="normalize-space(string-join($n//text(), ''))"/>
     <xsl:sequence select="exists($n/self::tei:note) and not($n/@type = 'citation') and not($n/parent::tei:app)
       and not($n/ancestor::tei:teiHeader)
-      and ($n/@place = 'bottom' or matches(normalize-space(string-join($n//text(), '')), '^[^\[\]]{1,150}\]')
+      and ($n/@place = 'bottom' or matches($t, '^([^\[\]]|\[(\.\.\.|…)\]){1,200}\]')
            (: notices : leçon suivie de ses sigles, « Tient valet [P-] », « … [HL+] », « … [L hypométrique ; P+] » :)
-           or matches(normalize-space(string-join($n//text(), '')), '\[[^\[\]]*([A-Z]{1,6}\s*[+\-]|hypométrique|hypermétrique|rime)[^\[\]]*\]\s*\.?$'))"/>
+           or matches($t, '\[[^\[\]]*([A-Z]{1,6}\s*[+\-]|hypométrique|hypermétrique|rime)[^\[\]]*\]\s*\.?$')
+           (: notices : note faite des seules leçons d'un app sans lemme :)
+           or ($n/tei:app/tei:rdg[@wit] and matches(normalize-space(string-join($n/text(), '')), '^(\[[^\]]*\])?\s*\.?$'))
+           or (not($n/ancestor::tei:msDesc) and (
+                 matches($t, 'exponctu|^R[ée]p[ée]t[ée] ms|sur grattage')
+                 or (matches($t, '^Ms\.? ?:') and not(matches($t, 'lettrine|Dans l')))
+                 or (matches($t, '^[^.;:\[\]]{1,120}\s(om\.\s)?[A-Z]{1,6}(\([^)]*\))?([A-Z]{1,6}(\([^)]*\))?)*\s*\.?$')
+                     and not(matches($t, '\s[IVXLC]{2,}\.?$|d.après|manque|dans'))))))"/>
   </xsl:function>
   <xsl:template match="tei:note[cjc:var(.)]" mode="fn" priority="30"/>
   <!-- Pied de notes de hteiml repris, avec les notes-variantes dans l'apparat et hors des notes. -->
@@ -169,16 +189,16 @@
     <!-- for notes by pages -->
     <xsl:param name="pb" select="$cont//tei:pb[@n][not(@ed)]"/>
     <xsl:variable name="notes">
-      <xsl:if test="$cont//tei:app[tei:lem] or $cont//tei:note[cjc:var(.)]">
+      <xsl:if test="$cont//tei:app[tei:lem][not(ancestor::tei:app)] or $cont//tei:note[cjc:var(.)]">
         <xsl:variable name="apparatus">
           <xsl:choose>
             <xsl:when test="$cont">
-              <xsl:for-each select="$cont // (tei:app[tei:lem] | tei:note[cjc:var(.)])">
+              <xsl:for-each select="$cont // (tei:app[tei:lem][not(ancestor::tei:app)] | tei:note[cjc:var(.)])">
                 <xsl:call-template name="note-inline"/>
               </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:for-each select="$cont // (tei:app[tei:lem] | tei:note[cjc:var(.)])">
+              <xsl:for-each select="$cont // (tei:app[tei:lem][not(ancestor::tei:app)] | tei:note[cjc:var(.)])">
                 <xsl:call-template name="note-inline"/>
               </xsl:for-each>
             </xsl:otherwise>
@@ -327,7 +347,10 @@
             <xsl:call-template name="noteback">
               <xsl:with-param name="class"/>
             </xsl:call-template>
-           <xsl:apply-templates/>
+            <xsl:choose>
+              <xsl:when test="self::tei:app"><xsl:call-template name="cjc-app-entree"/></xsl:when>
+              <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+            </xsl:choose>
           </span>
         </xsl:otherwise>
       </xsl:choose>
@@ -358,6 +381,104 @@
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
+  <!-- 2026-10-29 — ENTRÉE D'APPARAT DU CODI (seuls <app> à lemme du corpus, 1 000 cas). hteiml recopiait le lemme
+       tel qu'il est balisé dans le texte : « majors] : major[…] H » (deux séparateurs), « Omis » pour une lacune, et,
+       quand la variante est décrite DANS le lemme (correction, exponctuation, ajout : 630 cas sans <rdg>), une entrée
+       qui ne disait rien (« fermances. »). Entrée refaite : lemme tel qu'on le lit] leçons et sigles (« om. » si vide) ;
+       sinon ce que montre le manuscrit (« persones exponctué, fermances ajouté H », « edendo H »). -->
+  <xsl:function name="cjc:sigles" as="xs:string">
+    <xsl:param name="w"/>
+    <xsl:sequence select="string-join(tokenize(normalize-space(translate(string($w), ',#', '  ')), ' '), '')"/>
+  </xsl:function>
+  <xsl:template name="cjc-app-entree">
+    <xsl:variable name="app" select="."/>
+    <xsl:variable name="lemme"><xsl:apply-templates select="tei:lem/node()" mode="cjc-lecon"/></xsl:variable>
+    <xsl:variable name="wit" select="cjc:sigles(tei:lem/@wit)"/>
+    <xsl:if test="normalize-space(string($lemme)) != ''">
+      <span class="lem"><xsl:copy-of select="$lemme"/></span>
+    </xsl:if>
+    <xsl:variable name="parties" as="element()*">
+      <xsl:for-each select="tei:rdg | tei:witDetail">
+        <xsl:choose>
+          <xsl:when test="self::tei:witDetail">
+            <span class="witDetail"><xsl:apply-templates mode="cjc-lecon"/></span>
+          </xsl:when>
+          <xsl:otherwise>
+            <span class="rdg">
+              <xsl:choose>
+                <xsl:when test="normalize-space(.) = '' and not(.//tei:gap)"><i>om.</i></xsl:when>
+                <xsl:otherwise><xsl:apply-templates mode="cjc-lecon"/></xsl:otherwise>
+              </xsl:choose>
+              <xsl:if test="cjc:sigles(@wit) != ''"><xsl:text> </xsl:text><i class="wit"><xsl:value-of select="cjc:sigles(@wit)"/></i></xsl:if>
+            </span>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+      <xsl:for-each select="tei:lem//(tei:choice[tei:sic | tei:orig] | tei:subst | tei:del[not(parent::tei:subst)] | tei:add[not(parent::tei:subst)] | tei:app)[ancestor::tei:app[1] is $app]">
+        <xsl:choose>
+          <xsl:when test="self::tei:app">
+            <span class="sous-app"><xsl:call-template name="cjc-app-entree"/></span>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:variable name="desc">
+              <xsl:choose>
+                <xsl:when test="self::tei:choice">
+                  <xsl:apply-templates select="(tei:sic, tei:orig)[1]/node()" mode="cjc-lecon"/>
+                  <xsl:if test="$wit != ''"><xsl:text> </xsl:text><i class="wit"><xsl:value-of select="$wit"/></i></xsl:if>
+                  <xsl:if test="tei:corr and normalize-space(tei:corr) = ''"><xsl:text>, supprimé par l’éditeur</xsl:text></xsl:if>
+                </xsl:when>
+                <xsl:when test="self::tei:subst">
+                  <xsl:apply-templates select="tei:del" mode="cjc-modif"/>
+                  <xsl:text>, </xsl:text>
+                  <xsl:apply-templates select="tei:add" mode="cjc-modif"/>
+                  <xsl:if test="$wit != ''"><xsl:text> </xsl:text><i class="wit"><xsl:value-of select="$wit"/></i></xsl:if>
+                </xsl:when>
+                <xsl:when test="normalize-space(.) != ''">
+                  <xsl:apply-templates select="." mode="cjc-modif"/>
+                  <xsl:if test="$wit != ''"><xsl:text> </xsl:text><i class="wit"><xsl:value-of select="$wit"/></i></xsl:if>
+                </xsl:when>
+              </xsl:choose>
+            </xsl:variable>
+            <xsl:if test="normalize-space(string($desc)) != ''">
+              <span class="rdg"><xsl:copy-of select="$desc"/></span>
+            </xsl:if>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:for-each select="$parties">
+      <xsl:if test="position() &gt; 1">
+        <xsl:value-of select="if (@class = 'witDetail') then ' : ' else ' ; '"/>
+      </xsl:if>
+      <xsl:copy-of select="."/>
+    </xsl:for-each>
+  </xsl:template>
+  <!-- Ce que fait le copiste : « persones exponctué », « la ajouté dans l’interligne ». -->
+  <xsl:template match="tei:del" mode="cjc-modif">
+    <xsl:apply-templates mode="cjc-lecon"/>
+    <xsl:value-of select="if (@rend = 'expunction') then ' exponctué' else if (@rend = 'overstrike') then ' biffé' else ' supprimé'"/>
+  </xsl:template>
+  <xsl:template match="tei:add" mode="cjc-modif">
+    <xsl:apply-templates mode="cjc-lecon"/>
+    <xsl:value-of select="if (@place = ('above', 'interlinear')) then ' ajouté dans l’interligne' else if (@place = 'margin') then ' ajouté en marge' else ' ajouté'"/>
+  </xsl:template>
+  <!-- Leçon telle qu'on la lit (lemme ou leçon d'un témoin) : correction retenue, ajouts gardés, suppressions ôtées,
+       sans appel ni infobulle. -->
+  <xsl:template match="*" mode="cjc-lecon"><xsl:apply-templates mode="cjc-lecon"/></xsl:template>
+  <xsl:template match="text()" mode="cjc-lecon"><xsl:value-of select="."/></xsl:template>
+  <xsl:template match="tei:choice" mode="cjc-lecon">
+    <xsl:apply-templates select="(tei:corr, tei:reg, tei:expan, *)[1]/node()" mode="cjc-lecon"/>
+  </xsl:template>
+  <xsl:template match="tei:subst" mode="cjc-lecon"><xsl:apply-templates select="tei:add" mode="cjc-lecon"/></xsl:template>
+  <xsl:template match="tei:del | tei:note | tei:witDetail | tei:handShift | tei:lacunaStart | tei:lacunaEnd" mode="cjc-lecon"/>
+  <xsl:template match="tei:app" mode="cjc-lecon"><xsl:apply-templates select="tei:lem" mode="cjc-lecon"/></xsl:template>
+  <xsl:template match="tei:gap" mode="cjc-lecon">[…]</xsl:template>
+  <xsl:template match="tei:foreign | tei:hi[@rend = 'i']" mode="cjc-lecon"><i><xsl:apply-templates mode="cjc-lecon"/></i></xsl:template>
+  <!-- Variante emboîtée : dans le texte, sa leçon retenue seulement (son entrée est dans celle qui la contient). -->
+  <xsl:template match="tei:app[tei:lem][ancestor::tei:app]" priority="30">
+    <xsl:apply-templates select="tei:lem"/>
+  </xsl:template>
+
   <!-- 2026-10-29 — INSTITUTES (fr. 1064). « Le projet a pour but de donner la leçon de C » (teiHeader) : chaque
        <choice> réunit la leçon de C (sic source="#C"), celle de l'édition Olivier-Martin (sic resp="#ed") et parfois
        une correction (corr). hteiml ne connaît pas deux <sic> dans un <choice> : il les sortait tous les deux,
@@ -445,6 +566,12 @@
     </xsl:if>
   </xsl:template>
 
+  <!-- 2026-10-29 : note dans une référence (Digestum vetus, « Bien qu'elles aient fait l'objet… ») : hteiml l'écrivait
+       en ligne ET la listait en pied de page sans appel (note 747 orpheline) ; appel ordinaire. -->
+  <xsl:template match="tei:bibl/tei:note" priority="5">
+    <xsl:call-template name="noteref"/>
+  </xsl:template>
+
   <!-- Leçon retenue : hteiml la fait toujours précéder d'une espace insécable, qui doublait le blanc
        déjà présent dans le texte (« sunt  majors », Codi). Espace seulement si le texte précédent
        finit sur un caractère (ni blanc ni apostrophe). -->
@@ -467,6 +594,39 @@
   </xsl:template>
 
   <!-- ==== 3. PROPRE AU PROJET ==== -->
+  <!-- 2026-10-29 — ABRÉVIATIONS DÉVELOPPÉES (spécimens des notices, 10 000 <expan>). hteiml mettait le mot entier entre
+       crochets (« [p<ins>ar</ins>tie] »), ce qui se confondait avec les repères [1], [pr.] et les restitutions. Les notices
+       comptent les lettres développées « en caractères italiques » (coefficient d'abréviation, notice de Tancrède) :
+       mot sans crochets, lettres développées en italique. -->
+  <xsl:template match="tei:expan[not(parent::tei:choice)]" priority="5">
+    <xsl:apply-templates/>
+  </xsl:template>
+  <xsl:template match="tei:ex" priority="5">
+    <i class="ex"><xsl:apply-templates/></i>
+  </xsl:template>
+
+  <!-- 2026-10-29 — SUBDIVISIONS NUMÉROTÉES EN LISTE. Code, Digeste, Tres libri et spécimens des notices mettent
+       plusieurs subdivisions dans un même <p> (« [pr.] … [1] … [2] … [3.1] … », 3 400 repères en cours de
+       paragraphe) : un bloc illisible. Demande de Maxime : « faut avoir une liste ». Chaque repère <label>[…]</label>
+       ouvre une ligne (un <p class="repere">, repère en tête) ; ce qui précède le premier repère (rubrique) garde sa
+       ligne. Les <p> qui commencent déjà par leur repère (Codi, Authentiques) prennent la même forme.
+       Hors description de manuscrit (« <label>Écriture</label> »). -->
+  <xsl:function name="cjc:repere" as="xs:boolean">
+    <xsl:param name="l" as="node()"/>
+    <xsl:sequence select="exists($l/self::tei:label[matches(normalize-space(.), '^[^\[]{0,2}\[.*$')])"/>
+  </xsl:function>
+  <!-- Code de Giessen : le repère est parfois porté par un <seg xml:id> qui l'ouvre (8 cas) ; même traitement. -->
+  <xsl:template match="tei:p[not(ancestor::tei:msDesc | ancestor::tei:teiHeader)][tei:label[cjc:repere(.)] | tei:seg[*[1][cjc:repere(.)]]]" priority="5">
+    <xsl:variable name="p" select="."/>
+    <xsl:for-each-group select="node()[self::* or normalize-space() or preceding-sibling::node()[self::* or normalize-space()]]"
+      group-starting-with="tei:label[cjc:repere(.)] | tei:seg[*[1][cjc:repere(.)]]">
+      <p class="{if (current-group()[1][self::tei:label or self::tei:seg]) then 'noindent repere' else 'noindent'}">
+        <xsl:if test="position() = 1 and $p/@xml:id"><xsl:attribute name="id" select="$p/@xml:id"/></xsl:if>
+        <xsl:apply-templates select="current-group()"/>
+      </p>
+    </xsl:for-each-group>
+  </xsl:template>
+
   <!-- Description de manuscrit d'une notice (msDesc sous un div) : hteiml en faisait un seul
        paragraphe en italique, texte brut. Rendu par rubriques : cote, contenu, description
        matérielle, histoire, bibliographie (module commun). -->
