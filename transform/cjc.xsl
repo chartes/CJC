@@ -845,6 +845,12 @@
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
+  <!-- 2026-10-29 — FOLIOTATION PAR COLONNES. Treize éditions (Authentiques, Code, Digeste, Institutes, Tres libri) n'ont
+       aucun <pb> : leur foliotation est dans <cb n="6a"/>, « 1ra » (folio, recto/verso, colonne), 1 449 repères. hteiml
+       n'affiche pas les <cb> : toute la foliotation de ces éditions était perdue. Même repère que les folios. -->
+  <xsl:template match="tei:cb[normalize-space(@n)]" priority="5">
+    <span class="pb cb" id="cb{normalize-space(@n)}">[f. <xsl:value-of select="normalize-space(@n)"/>]</span>
+  </xsl:template>
 
   <!-- ==== 4. MÉCANISMES COMMUNS ==== -->
   <!-- (aucun) -->
