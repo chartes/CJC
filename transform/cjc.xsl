@@ -831,6 +831,21 @@
   <!-- Changements de main, début et fin de lacune (Codi, l. 3) : jalons sans texte (hteiml les signalait en rouge). -->
   <xsl:template match="tei:handShift | tei:lacunaStart | tei:lacunaEnd" priority="2"/>
 
+  <!-- 2026-10-29 — REPÈRES DE FOLIO SANS IMAGE (relecture de Maxime, Codi : « folio 4 → pourquoi c'est un lien
+       cliquable »). Aucun <pb> du corpus n'a de @facs : hteiml en faisait un lien vers lui-même (href="#pbf. 4r"),
+       qui n'ouvrait rien. Repère simple (span), même texte, même identifiant (les liens « #pbf. 4r » arrivent toujours). -->
+  <xsl:template match="tei:pb[not(@facs)]" priority="5">
+    <xsl:variable name="h"><xsl:next-match/></xsl:variable>
+    <xsl:for-each select="$h/node()">
+      <xsl:choose>
+        <xsl:when test="self::*:a">
+          <span><xsl:copy-of select="@class | @id"/><xsl:value-of select="."/></span>
+        </xsl:when>
+        <xsl:otherwise><xsl:copy-of select="."/></xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+
   <!-- ==== 4. MÉCANISMES COMMUNS ==== -->
   <!-- (aucun) -->
 </xsl:transform>
