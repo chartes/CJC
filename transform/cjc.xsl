@@ -852,6 +852,56 @@
     <span class="pb cb" id="cb{normalize-space(@n)}">[f. <xsl:value-of select="normalize-space(@n)"/>]</span>
   </xsl:template>
 
+  <!-- 2026-10-29 — INSTITUTES (fr. 1064) : TEXTE TOKÉNISÉ (88 525 <w>, 10 075 <pc>). Relecture de Maxime (« quand on
+       survole, normal ? ») : les blancs de mise en forme entre les mots s'ajoutaient à l'espace que hteiml met devant
+       chaque <w> (deux espaces entre les mots), et la ponctuation, les apostrophes étaient détachées (« mort , »,
+       « n ' est »). Espacement refait d'après les jetons : une espace entre deux jetons, sauf devant . , ) ] et après
+       une apostrophe ou une parenthèse ouvrante ; espace insécable devant ; : ? ! (typographie française). -->
+  <xsl:function name="cjc:jeton-texte" as="xs:string">
+    <xsl:param name="t" as="element()"/>
+    <xsl:sequence select="normalize-space(string-join(
+      (if ($t/self::tei:choice) then cjc:retenue($t) else $t)//text()[not(ancestor::tei:del)], ''))"/>
+  </xsl:function>
+  <xsl:function name="cjc:retenue" as="element()?">
+    <xsl:param name="c" as="element()"/>
+    <xsl:sequence select="($c/tei:corr, $c/tei:reg, $c/tei:expan, $c/tei:sic[@source = '#C'], $c/*)[1]"/>
+  </xsl:function>
+  <xsl:function name="cjc:espace-avant" as="xs:string">
+    <xsl:param name="t" as="element()"/>
+    <!-- jeton précédent qui a du texte (une leçon retenue peut être vide : « C : om. ») -->
+    <xsl:variable name="prec" select="($t/preceding-sibling::*[self::tei:w or self::tei:pc or self::tei:choice][cjc:jeton-texte(.) != ''])[last()]"/>
+    <xsl:variable name="avant" select="if ($prec) then cjc:jeton-texte($prec) else ''"/>
+    <xsl:variable name="moi" select="cjc:jeton-texte($t)"/>
+    <xsl:sequence select="
+      if (not($prec) or $moi = '' or $avant = '') then ''
+      else if (cjc:point-ouvrant($t)) then ' '
+      else if (cjc:point-ouvrant($prec)) then ''
+      else if (matches($avant, '[''’(\[]$')) then ''
+      else if (matches($moi, '^[.,)\]''’…]')) then ''
+      else if (matches($moi, '^[;:?!]')) then '&#160;'
+      else ' '"/>
+  </xsl:function>
+  <!-- Nombres en chiffres romains entre points (« des .xii. tablez ») : le premier point s'ouvre sur le nombre. -->
+  <xsl:function name="cjc:point-ouvrant" as="xs:boolean">
+    <xsl:param name="t" as="element()"/>
+    <xsl:variable name="suite" select="$t/following-sibling::*[self::tei:w or self::tei:pc][position() &lt;= 2]"/>
+    <xsl:sequence select="exists($t/self::tei:pc[normalize-space() = '.'])
+      and matches(string($suite[1]/self::tei:w), '^\s*[ivxlcdmIVXLCDM]+\s*$')
+      and normalize-space($suite[2]/self::tei:pc) = '.'"/>
+  </xsl:function>
+  <xsl:template match="text()[not(normalize-space())][../tei:w or ../tei:pc]" priority="5"/>
+  <xsl:template match="tei:w | tei:pc" priority="5">
+    <xsl:value-of select="cjc:espace-avant(.)"/>
+    <xsl:apply-templates/>
+  </xsl:template>
+  <!-- <lb/> des Institutes (125, épars, dont 41 dans un mot : « emper<lb/>eor ») : hteiml en faisait un <br>, qui coupait
+       la prose et les mots au hasard. Fin de ligne du manuscrit marquée d'un trait discret, sans retour à la ligne.
+       Ailleurs (incipit et titres de reliure des notices, titres des Tres libri), le <br> est voulu : inchangé. -->
+  <xsl:template match="tei:lb[ancestor::tei:p[.//tei:w]]" priority="5">
+    <xsl:if test="not(parent::tei:w) and preceding-sibling::*[1][self::tei:w or self::tei:pc]"><xsl:text> </xsl:text></xsl:if>
+    <span class="lb-ms" title="fin de ligne du manuscrit">|</span>
+  </xsl:template>
+
   <!-- ==== 4. MÉCANISMES COMMUNS ==== -->
   <!-- (aucun) -->
 </xsl:transform>
