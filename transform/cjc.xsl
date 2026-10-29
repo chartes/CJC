@@ -368,11 +368,13 @@
         </xsl:when>
         <xsl:otherwise>. </xsl:otherwise>
       </xsl:choose></xsl:variable>
+      <!-- 2026-10-29 (relecture de Maxime, app5 du Codi l. 3 : « espace ») : le blanc qui termine l'entrée (retour à la
+           ligne du TEI avant </note>, 32 entrées : « damediex O / AFL . ») n'est pas recopié devant le point ajouté. -->
       <xsl:for-each select="$html/node()">
         <xsl:choose>
           <xsl:when test="self::*">
             <xsl:copy>
-              <xsl:copy-of select="@* | node()"/>
+              <xsl:copy-of select="@* | node()[not(position() = last() and self::text() and normalize-space(.) = '')]"/>
               <xsl:value-of select="normalize-space($ponct)"/>
             </xsl:copy>
           </xsl:when>
@@ -534,15 +536,25 @@
   <!-- Titres : modèle head de hteiml repris à l'identique, sauf le plafond. hteiml testait « $level > 7 » et
        sortait donc des <h7> pour les div profondes des notices (HTML s'arrête à h6 ; dots-vue :
        « Failed to resolve component: h7 »). -->
-  <xsl:template match="tei:head">
-    <xsl:param name="level" select="count(ancestor::tei:*) - 2"/>
+  <!-- 2026-10-29 (relecture de Maxime, critères d'édition du Codi : « titres : homogénéiser, h1 puis h2 à h6 ») :
+       hteiml compte TOUS les ancêtres TEI (moins 2) ; dans un fragment DoTS le compte dépend de l'enveloppe : les
+       sections de premier rang d'un <front> sortaient en h1 comme le titre de la page (13 h1 sur la page), et une
+       div sans titre faisait sauter un niveau. Niveau = nombre de sections titrées qui contiennent le titre, plus un
+       dans le corps d'un texte dont le titre est dans le <front> : le titre de la page en h1, ses sections en h2,
+       puis h3… -->
+  <!-- Même règle dans cid.xsl. -->
+  <!-- Titres de figure, de tableau, de liste et de distribution : modèles de hteiml (la feuille du corpus passerait devant). -->
+  <xsl:template match="tei:head[not(parent::tei:figure | parent::tei:table | parent::tei:list | parent::tei:castGroup)]">
+    <xsl:param name="level"/><!-- passé par le modèle div de hteiml (ancêtres + 1) : ignoré -->
+    <xsl:variable name="niveau" select="count(ancestor::*[tei:head[normalize-space()]])
+      + (if (not(ancestor::tei:front) and ancestor::*[tei:front/tei:head[normalize-space()]]) then 1 else 0)"/>
     <xsl:variable name="name">
       <xsl:choose>
         <xsl:when test="normalize-space(.) = ''"/>
         <xsl:when test="parent::tei:front | parent::tei:text | parent::tei:back ">h1</xsl:when>
-        <xsl:when test="$level &lt; 1">h1</xsl:when>
-        <xsl:when test="$level &gt; 6">h6</xsl:when>
-        <xsl:otherwise>h<xsl:value-of select="$level"/></xsl:otherwise>
+        <xsl:when test="$niveau &lt; 1">h1</xsl:when>
+        <xsl:when test="$niveau &gt; 6">h6</xsl:when>
+        <xsl:otherwise>h<xsl:value-of select="$niveau"/></xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
     <xsl:if test="$name != ''">
