@@ -483,24 +483,8 @@
 
   <!-- 2026-10-29 — INSTITUTES (fr. 1064). « Le projet a pour but de donner la leçon de C » (teiHeader) : chaque
        <choice> réunit la leçon de C (sic source="#C"), celle de l'édition Olivier-Martin (sic resp="#ed") et parfois
-       une correction (corr). hteiml ne connaît pas deux <sic> dans un <choice> : il les sortait tous les deux,
-       barrés. Comme hteiml pour sic/corr : la leçon retenue dans le texte (la correction, sinon C), les autres en
-       infobulle avec leur origine. -->
-  <xsl:template match="tei:choice[count(tei:sic) &gt; 1 or (tei:sic[@source = '#C'] and not(tei:corr))]" priority="30">
-    <xsl:variable name="retenue" select="(tei:corr, tei:sic[@source = '#C'], *)[1]"/>
-    <span class="choice">
-      <xsl:attribute name="title">
-        <xsl:for-each select="* except $retenue">
-          <xsl:value-of select="if (@source = '#C') then 'C' else if (@resp = '#ed') then 'éd. Olivier-Martin'
-            else if (@resp = '#ned') then 'correction' else translate(string((@source, @resp)[1]), '#', '')"/>
-          <xsl:text> : </xsl:text>
-          <xsl:value-of select="if (normalize-space(.) = '') then 'om.' else normalize-space(.)"/>
-          <xsl:if test="position() != last()"> ; </xsl:if>
-        </xsl:for-each>
-      </xsl:attribute>
-      <xsl:apply-templates select="$retenue/node()"/>
-    </span>
-  </xsl:template>
+       une correction (corr). Leçon retenue dans le texte (la correction, sinon C), les autres en infobulle : voir
+       « INFOBULLES DES <choice> » en section 3 (modèle commun à tout le corpus). -->
 
   <!-- 2026-10-29 : <seg type="title"> = titre (rubrique) d'un chapitre du manuscrit, cité dans une note ou un incipit,
        pas un titre d'ouvrage : hteiml lui donnait la classe « title », que html.css met en italique. -->
@@ -900,6 +884,47 @@
   <xsl:template match="tei:lb[ancestor::tei:p[.//tei:w]]" priority="5">
     <xsl:if test="not(parent::tei:w) and preceding-sibling::*[1][self::tei:w or self::tei:pc]"><xsl:text> </xsl:text></xsl:if>
     <span class="lb-ms" title="fin de ligne du manuscrit">|</span>
+  </xsl:template>
+
+  <!-- 2026-10-29 — INFOBULLES DES <choice> (relecture de Maxime, Institutes). hteiml écrivait l'attribut brut et les
+       blancs du TEI (« #C : ⏎ est ⏎ ») et rien quand la leçon rejetée est vide. Infobulle refaite : d'où vient chaque
+       leçon non retenue (« C », « éd. Olivier-Martin », sigles des témoins sans #), « om. » si elle est vide, et, si le
+       texte donne une correction, qui l'a faite ou d'après quoi. -->
+  <xsl:function name="cjc:origine" as="xs:string">
+    <xsl:param name="b" as="element()"/>
+    <xsl:param name="institutes" as="xs:boolean"/>
+    <xsl:variable name="src" select="normalize-space(replace(replace(replace(string($b/@source),
+      '#?[Aa]nte correctionem', 'avant correction'), '#?[Pp]ost correctionem', 'après correction'), '#', ''))"/>
+    <xsl:sequence select="
+      if ($institutes) then
+        (if ($b/@source = '#C' and $b/@resp = '#ed') then 'C lu par l’éd. Olivier-Martin'
+         else if ($b/@source = '#C') then 'C'
+         else if ($b/@resp = '#ed' or $b/@source = '#ed') then 'éd. Olivier-Martin'
+         else if ($b/@resp = '#ned') then 'lecture rejetée'
+         else 'autre leçon')
+        || (if ($b/@cert = 'low') then ' (lecture douteuse)' else '')
+      else if ($b/self::tei:orig) then 'graphie du ms.'
+      else if ($src = 'ms') then 'ms.'
+      else if ($src != '') then $src
+      else 'ms.'"/>
+  </xsl:function>
+  <xsl:template match="tei:choice[tei:sic or tei:orig][tei:corr or tei:reg or count(tei:sic) &gt; 1]" priority="30">
+    <xsl:variable name="institutes" select="exists(.//tei:w)"/>
+    <xsl:variable name="retenue" select="cjc:retenue(.)"/>
+    <xsl:if test="$institutes"><xsl:value-of select="cjc:espace-avant(.)"/></xsl:if>
+    <span class="choice">
+      <xsl:attribute name="title">
+        <xsl:value-of select="string-join(for $b in (* except $retenue) return
+          concat(cjc:origine($b, $institutes), ' : ', if (cjc:jeton-texte($b) = '') then 'om.' else cjc:jeton-texte($b)), ' ; ')"/>
+        <xsl:if test="$retenue/self::tei:corr">
+          <xsl:value-of select="if ($institutes and $retenue/@resp = '#ed') then ' — corrigé d’après l’éd. Olivier-Martin'
+            else if ($institutes and $retenue/@resp = '#ned') then ' — corrigé par les éditeurs'
+            else if (normalize-space($retenue/@source)) then concat(' — corrigé d’après ', cjc:origine($retenue, false()))
+            else ' — corrigé par l’éditeur'"/>
+        </xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates select="$retenue/node()"/>
+    </span>
   </xsl:template>
 
   <!-- ==== 4. MÉCANISMES COMMUNS ==== -->
