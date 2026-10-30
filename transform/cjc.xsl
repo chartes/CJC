@@ -846,6 +846,14 @@
     <xsl:sequence select="normalize-space(string-join(
       (if ($t/self::tei:choice) then cjc:retenue($t) else $t)//text()[not(ancestor::tei:del)], ''))"/>
   </xsl:function>
+  <!-- 2026-10-30 : texte d'une leçon de plusieurs jetons pour l'infobulle, espacé comme le texte (« l'empereeur »,
+       et non « l ' empereeur » avec les blancs du TEI). -->
+  <xsl:function name="cjc:lecon-texte" as="xs:string">
+    <xsl:param name="b" as="element()"/>
+    <xsl:variable name="jetons" select="$b/(tei:w | tei:pc | tei:choice)"/>
+    <xsl:sequence select="if (count($jetons) &lt; 2) then cjc:jeton-texte($b)
+      else normalize-space(string-join(for $t in $jetons return concat(cjc:espace-avant($t), cjc:jeton-texte($t)), ''))"/>
+  </xsl:function>
   <xsl:function name="cjc:retenue" as="element()?">
     <xsl:param name="c" as="element()"/>
     <xsl:sequence select="($c/tei:corr, $c/tei:reg, $c/tei:expan, $c/tei:sic[@source = '#C'], $c/*)[1]"/>
@@ -915,7 +923,7 @@
     <span class="choice">
       <xsl:attribute name="title">
         <xsl:value-of select="string-join(for $b in (* except $retenue) return
-          concat(cjc:origine($b, $institutes), ' : ', if (cjc:jeton-texte($b) = '') then 'om.' else cjc:jeton-texte($b)), ' ; ')"/>
+          concat(cjc:origine($b, $institutes), ' : ', if (cjc:lecon-texte($b) = '') then 'om.' else cjc:lecon-texte($b)), ' ; ')"/>
         <!-- 2026-10-30 (relecture) : on signale la correction sans dire qui l'a faite. -->
         <xsl:if test="$retenue/self::tei:corr"><xsl:text> — correction</xsl:text></xsl:if>
       </xsl:attribute>
