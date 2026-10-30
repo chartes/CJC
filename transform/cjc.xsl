@@ -879,11 +879,11 @@
     <xsl:apply-templates/>
   </xsl:template>
   <!-- <lb/> des Institutes (125, épars, dont 41 dans un mot : « emper<lb/>eor ») : hteiml en faisait un <br>, qui coupait
-       la prose et les mots au hasard. Fin de ligne du manuscrit marquée d'un trait discret, sans retour à la ligne.
+       la prose et les mots au hasard. 2026-10-30 (relecture) : fin de ligne non affichée, comme d'usage en édition ; dans un
+       mot rien, entre deux mots une espace.
        Ailleurs (incipit et titres de reliure des notices, titres des Tres libri), le <br> est voulu : inchangé. -->
   <xsl:template match="tei:lb[ancestor::tei:p[.//tei:w]]" priority="5">
     <xsl:if test="not(parent::tei:w) and preceding-sibling::*[1][self::tei:w or self::tei:pc]"><xsl:text> </xsl:text></xsl:if>
-    <span class="lb-ms" title="fin de ligne du manuscrit">|</span>
   </xsl:template>
 
   <!-- 2026-10-29 — INFOBULLES DES <choice> (relecture de Maxime, Institutes). hteiml écrivait l'attribut brut et les
@@ -916,12 +916,8 @@
       <xsl:attribute name="title">
         <xsl:value-of select="string-join(for $b in (* except $retenue) return
           concat(cjc:origine($b, $institutes), ' : ', if (cjc:jeton-texte($b) = '') then 'om.' else cjc:jeton-texte($b)), ' ; ')"/>
-        <xsl:if test="$retenue/self::tei:corr">
-          <xsl:value-of select="if ($institutes and $retenue/@resp = '#ed') then ' — corrigé d’après l’éd. Olivier-Martin'
-            else if ($institutes and $retenue/@resp = '#ned') then ' — corrigé par les éditeurs'
-            else if (normalize-space($retenue/@source)) then concat(' — corrigé d’après ', cjc:origine($retenue, false()))
-            else ' — corrigé par l’éditeur'"/>
-        </xsl:if>
+        <!-- 2026-10-30 (relecture) : on signale la correction sans dire qui l'a faite. -->
+        <xsl:if test="$retenue/self::tei:corr"><xsl:text> — correction</xsl:text></xsl:if>
       </xsl:attribute>
       <xsl:apply-templates select="$retenue/node()"/>
     </span>
