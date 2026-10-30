@@ -590,6 +590,11 @@
   </xsl:template>
 
   <!-- ==== 3. PROPRE AU PROJET ==== -->
+  <!-- 2026-10-30 : réclames (fw type="catchword", 10, Codi) : elles se lisaient comme du texte (« [f. 18v] .II. par ques
+       il puet demander doner tel mari… ») ; marquées « [réclame : …] », en gris (CSS). -->
+  <xsl:template match="tei:fw[@type = 'catchword']" priority="20">
+    <span class="reclame" title="Réclame en bas de page du manuscrit">[réclame : <xsl:apply-templates/>]</span>
+  </xsl:template>
   <!-- 2026-10-29 — ABRÉVIATIONS DÉVELOPPÉES (spécimens des notices, 10 000 <expan>). hteiml mettait le mot entier entre
        crochets (« [p<ins>ar</ins>tie] »), ce qui se confondait avec les repères [1], [pr.] et les restitutions. Les notices
        comptent les lettres développées « en caractères italiques » (coefficient d'abréviation, notice de Tancrède) :

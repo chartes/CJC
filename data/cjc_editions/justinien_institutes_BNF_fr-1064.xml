@@ -65,9 +65,9 @@
          </projectDesc>
         <refsDecl>
           <citeStructure match="/TEI[1]/text[1]/body[1]/div[@xml:id]" use="@xml:id" unit="liber">
-            <citeData use="normalize-space(head)" property="dct:title"/>
+            <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic or ancestor::orig or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
             <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-              <citeData use="normalize-space(head)" property="dct:title"/>
+              <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic or ancestor::orig or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </refsDecl>
