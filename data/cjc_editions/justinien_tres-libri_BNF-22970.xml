@@ -2,11 +2,11 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title ref="http://elec.enc.sorbonne.fr/cjc/justinien_tres-libri_BNF-22970">Tres libri</title>
+            <title ref="https://elec.chartes.psl.eu/cjc/justinien_tres-libri_BNF-22970">Tres libri</title>
         <title type="short">Tres libri</title>
            <author>Anonyme (trad.)</author>
-           <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier</author>
-           <principal xml:id="FD" ref="http://data.bnf.fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</principal>
+           <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://www.idref.fr/027770591">Justinien Ier</author>
+           <principal xml:id="FD" ref="https://www.wikidata.org/wiki/Q28777003 https://data.bnf.fr/fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</principal>
          </titleStmt>
         <editionStmt n="1">
           <p>2025, première édition électronique</p>
@@ -14,7 +14,7 @@
         <extent/>
          <publicationStmt>
             <date>2025</date>
-            <idno>http://elec.enc.sorbonne.fr/cjc/justinien_tres-libri_BNF-22970</idno>
+            <idno>https://elec.chartes.psl.eu/cjc/justinien_tres-libri_BNF-22970</idno>
             <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
             <address>
           <addrLine>65, rue de Richelieu</addrLine>
@@ -28,7 +28,7 @@
          </publicationStmt>
          <seriesStmt>
             <title>Éditions en ligne de l'École des Chartes</title>
-            <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+            <idno type="URI">https://elec.chartes.psl.eu</idno>
             <idno type="vol">17bis</idno>
          </seriesStmt>
          <notesStmt>
@@ -76,6 +76,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Liens d'autorité des responsables (titleStmt) complétés et ordonnés Wikidata, BnF, Biblissima+, IdRef (2 éléments, identifiants interrogés le 17/11) ; adresses ÉLEC de l'en-tête passées de http://elec.enc.sorbonne.fr/ à https://elec.chartes.psl.eu/ (3). Aucune modification du texte édité.</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
       <change/>
     </revisionDesc>

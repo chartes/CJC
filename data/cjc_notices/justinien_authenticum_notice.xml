@@ -2,10 +2,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title ref="http://elec.enc.sorbonne.fr/cjc/justinien_authenticum_notice"><hi rend="i">Authenticum</hi>, Justinianus I.</title>
+        <title ref="https://elec.chartes.psl.eu/cjc/justinien_authenticum_notice"><hi rend="i">Authenticum</hi>, Justinianus I.</title>
         <title type="short">Authenticum, Justinianus I.</title>
         <title type="sub">Notice descriptive concernant l'ensemble des traductions médiévales en français et en occitan de l'<hi rend="i">Authenticum</hi>, Justinianus I</title>
-        <author key="Duval, Frédéric (1972-....)" ref="http://data.bnf.fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</author>
+        <author key="Duval, Frédéric (1972-....)" ref="https://www.wikidata.org/wiki/Q28777003 https://data.bnf.fr/fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</author>
         <sponsor>Équipement d'excellence Biblissima</sponsor>
       </titleStmt>
       <extent/>
@@ -65,12 +65,12 @@
           <addrLine>https://www.chartes.psl.eu/</addrLine>
         </address>
         <date>2018</date>
-        <idno>http://elec.enc.sorbonne.fr/cjc/justinien_authenticum_notice</idno>
+        <idno>https://elec.chartes.psl.eu/cjc/justinien_authenticum_notice</idno>
         <availability status="restricted"><licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)</licence></availability>
       </publicationStmt>
       <seriesStmt>
         <title>Miroir des classiques</title>
-      <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+      <idno type="URI">https://elec.chartes.psl.eu</idno>
         <idno type="vol">17bis</idno>
         </seriesStmt>
       <notesStmt>
@@ -118,6 +118,7 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Liens d'autorité des responsables (titleStmt) complétés et ordonnés Wikidata, BnF, Biblissima+, IdRef (1 éléments, identifiants interrogés le 17/11) ; adresses ÉLEC de l'en-tête passées de http://elec.enc.sorbonne.fr/ à https://elec.chartes.psl.eu/ (3). Aucune modification du texte édité.</change>
       <change when="2026-11-17">Découpage des pages dots-vue : niveau le plus bas renommé « section » (niveau d'édition de dots-vue) ; premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; 4 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 11 renvois internes qui changent de page deviennent des liens relatifs (justinien_authenticum_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>

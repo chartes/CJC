@@ -5,13 +5,13 @@
         <title ref="https://www.wikidata.org/wiki/Q735763 http://catalogue.bnf.fr/ark:/12148/cb15916554c https://data.bnf.fr/fr/ark:/12148/cb15916554c https://portail.biblissima.fr/ark:/43093/oedata729b352fc86b7d89bf2ed592e44b03ff90409ea4">Li Codes an romanz, livre 9</title>
         <title type="short">Li Codes an romanz, livre 9</title>
         <author>Anonyme (trad.)</author> 
-        <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier</author>
+        <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://www.idref.fr/027770591">Justinien Ier</author>
         <principal xml:id="VM" ref="https://data.bnf.fr/fr/ark:/12148/cb18218621c https://www.idref.fr/260452939">Viola Mariotti</principal>
       </titleStmt>
       <extent/>
       <publicationStmt>
         <date>2026</date>
-        <idno>http://elec.enc.sorbonne.fr/cjc/justinien_codi_l9_BNF_fr_1933</idno>
+        <idno>https://elec.chartes.psl.eu/cjc/justinien_codi_l9_BNF_fr_1933</idno>
         <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
         <address>
           <addrLine>65, rue de Richelieu</addrLine>
@@ -24,7 +24,7 @@
       </publicationStmt>
       <seriesStmt>
         <title>Éditions en ligne de l'École des chartes</title>
-        <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+        <idno type="URI">https://elec.chartes.psl.eu</idno>
         <idno type="vol">17bis</idno>
       </seriesStmt>
       <notesStmt>
@@ -83,6 +83,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Liens d'autorité des responsables (titleStmt) complétés et ordonnés Wikidata, BnF, Biblissima+, IdRef (1 éléments, identifiants interrogés le 17/11) ; adresses ÉLEC de l'en-tête passées de http://elec.enc.sorbonne.fr/ à https://elec.chartes.psl.eu/ (2). Aucune modification du texte édité.</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
       <change/>
     </revisionDesc>
