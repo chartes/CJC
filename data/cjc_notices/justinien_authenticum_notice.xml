@@ -103,13 +103,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="head" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traductions">
             <citeData use="head" property="dct:title"/>
             <citeStructure match="div" use="@xml:id" unit="traduction">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div" use="@xml:id" unit="état">
+              <citeStructure match="div" use="@xml:id" unit="section">
                 <citeData use="head" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -118,12 +118,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : niveau le plus bas renommé « section » (niveau d'édition de dots-vue) ; premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; 4 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 11 renvois internes qui changent de page deviennent des liens relatifs (justinien_authenticum_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="authenticum" type="presentation">
         <head>Authenticum</head>
         <p>L’activité législative de Justinien n’a pas cessé avec la seconde édition du <title>Code</title> (534). Jusqu’à sa mort en 565, Justinien promulgua de nouvelles constitutions, des <title xml:lang="lat">Novellae</title> (<title>Novelles</title> en français), visant à compléter, voire à corriger les solutions apportées par le droit classique rapportées par le <title>Digeste</title> et les constitutions du <title>Codex</title>. Justinien prenait ainsi acte des mutations du droit et de la société.</p>
         <p>Concernant pour la plupart les régions orientales de l’empire, les <title xml:lang="lat">Novellae</title> ont généralement été rédigées en grec, même si quelques-unes l’ont été en latin ou ont connu une double rédaction. C’est sans doute suite à l’application du droit de l’empire à l’Italie reprise aux Goths (554) que des collections de <title xml:lang="lat">Novellae</title> furent confectionnées. Justinien avait en effet déclaré que les constitutions impériales promulguées depuis la seconde édition du <title>Code</title> devaient s’appliquer.</p>
@@ -161,7 +162,7 @@
         <listWit>
           <head>Conspectus siglorum</head>
           <witness xml:id="A">
-            <ref target="#fr_498">
+            <ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#fr_498">
               <msDesc corresp="#fr_498">
                 <msIdentifier>
                   <country>France</country>
@@ -174,7 +175,7 @@
             </ref>
           </witness>
           <witness xml:id="F">
-            <ref target="#fr_22970">
+            <ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#fr_22970">
               <msDesc corresp="#fr_22970">
                 <msIdentifier>
                   <country>France</country>
@@ -189,7 +190,7 @@
             </ref>
           </witness>
           <witness xml:id="L">
-            <ref target="#kbr_10467">
+            <ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#kbr_10467">
               <msDesc corresp="#kbr_10467">
                 <msIdentifier>
                   <country>Belgique</country>
@@ -204,7 +205,7 @@
             </ref>
           </witness>
           <witness xml:id="O">
-            <ref target="#bl_royal20">
+            <ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#bl_royal20">
               <msDesc corresp="#bl_royal20">
                 <msIdentifier>
                   <country>Angleterre</country>
@@ -224,7 +225,7 @@
           <p>La traduction y est plus « cibliste » que « sourcière ». Elle se préoccupe surtout des éléments de droit susceptibles de s’appliquer à la société médiévale. Ainsi, les <hi rend="i">realia romana</hi> sans équivalent à l’époque de la traduction sont souvent résumées, synthétisées voire supprimées (cf. la liste des processions et spectacles que doivent présider les consuls, Auth. 34.1). Des institutions romaines sont assimilées à des équivalents médiévaux (<q xml:lang="lat">Nullus igitur eam egredi praesumat, nec si vehementer idoneus sit, nec si nostrorum sit iudicum, nec si maximae curiae aut nullae administrationi praesit</q> traduit en <quote>Nus n’empraigne donc a passer la qui que il soit ou juges ou curiax ou baillis</quote>). La terminologie juridique romaine et certains de ses concepts essentiels ne font pas l’objet d’une attention très soutenue, notamment quand ils sont trop étrangers aux systèmes juridique et politique en vigueur : <q xml:lang="lat">sacra lex</q> traduit par <quote>loy</quote> (34.1), <q xml:lang="lat">dispositio</q> rendu par <quote>ordenement</quote> (34.2.4), <q xml:lang="lat">imperator lex animata</q> (34.2.4) non traduit.</p>
           <p>De manière générale, les précisions qui paraissent superflues au traducteur ont tendance à disparaître. La langue de la traduction est également « cibliste », au sens où elle ne démarque ni la syntaxe ni le lexique latins. Dans la traduction de Auth. 34, le seul latinisme est <quote>descripcion</quote>, traduction de <foreign xml:lang="lat">descriptio</foreign> (34.2.4) au sens de « copie ». Faute de comprendre le terme latin et donc d’en proposer un équivalent français, le traducteur a peut-être choisi de calquer formellement le mot-source. Il ne faudrait toutefois pas penser que ces « infidélités » au texte latin soient l’effet d’un traducteur négligent. C’est l’application scrupuleuse d’un projet de traduction qui conduit à cette déperdition d’informations jugées inutiles : après l’omission de la liste des manifestations publiques présidées par les consuls, la traduction omet soigneusement les références à ces manifestations dans la suite de l’Auth. 34, preuve d’un travail soigné.</p>
           <list type="listMs">
-            <item><ref target="#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
+            <item><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
           </list>
         </div>
         <div type="soustraduction" xml:id="traduction_2" n="I.2">
@@ -234,7 +235,7 @@
             <head>Etat traductif 1</head>
             <p>L’état traductif 1 est conservé seulement dans <hi rend="i">O</hi> pour l’Auth. 86 et peut-être les Auth. 11 et 66 (f. 131c-133b).</p>
             <list type="listMs">
-              <item><ref target="#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
+              <item><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
             </list>
           </div>
           <div type="etat_traductif" xml:id="trad_2_etat_2">
@@ -242,7 +243,7 @@
             <p>L’état traductif 2, qui révise l’état traductif 1, nous est transmis par <hi rend="i">O</hi> à partir de l’Auth. 83.12 et au moins jusqu’à l’Auth. 132 comprise. On ne peut exclure que les Auth. 11 et 66, qui précèdent l’Auth. 86, appartiennent à l’état traductif 2. On notera aussi que l’état traductif 2 présente une traduction de l’Auth. 105, omise dans l’état traductif 3.</p>
             <p>L’état traductif 2 est plus fidèle à sa source que l’état traductif 1. Il précède clairement l’état traductif 3 qui en est un remaniement visant à plus de rigueur dans la transposition linguistique et à une modernisation linguistique.</p>
             <list type="listMs">
-              <item><ref target="#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
+              <item><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#bl_royal20"><hi rend="b">O</hi> London, British Libr., Royal 20.D.IX</ref></item>
             </list>
           </div>
           <div type="etat_traductif" xml:id="trad_2_etat_3">
@@ -251,7 +252,7 @@
             <p>Le contexte de rédaction de cette version anonyme est malaisé à reconstituer. Le manuscrit <hi rend="i">O</hi> présente l’état traductif 3 pour les Auth.1-17 et 47-83.11. Contrairement à <hi rend="i">AF</hi>, <hi rend="i">O</hi> n’omet donc pas l’Auth. 5. Ce témoin, qui date du troisième quart du 13<hi rend="sup">e</hi> s., fournit un <hi rend="i">terminus ad quem</hi> qui ne demande qu’à être précisé. Il est probable que <hi rend="i">O</hi> a été copié alors que la ou les révision(s) des états traductifs précédents n’étai(en)t pas encore achevée(s). En tout cas, l’état traductif 3 procède d’une révision de l’état 2 avec recours au texte-source latin.</p>
             <p>L’état traductif 3 est plus « sourcier » que l’état traductif 2. Il fait preuve d’un souci d’exactitude bien plus prononcé à l’égard des réalités juridiques et institutionnelles antiques, mais il est difficile de savoir si ce phénomène est dû à une meilleure connaissance de ces réalités ou bien à un projet de traduction qui refuse l’assimilation généralisée de l’Antiquité au monde médiéval, considérant qu’il s’agit de deux sociétés bien distinctes. Quoi qu’il en soit, la fidélité plus marquée à l’original tend à confirmer que cette version est la plus récente.</p>
             <p>L’état traductif 3 conserve les <hi rend="i">realia romana</hi>, qu’il s'efforce de rendre en français médiéval sans abuser de calques ou d’emprunts. Ainsi, en Auth. 34.1, le passage traitant des processions et spectacles présidés par les consuls est conservé, de même que les précisions sur les mesures d’or (Auth. 34.2.1). Cette version recourt bien davantage aux latinismes que la traduction 1 (<q xml:lang="lat">superfluus</q> rendu par <quote>superflue</quote> [34.2.2] ; <q xml:lang="lat">aequalitas</q> par <quote>egalté</quote> [34.2.3] ; <q xml:lang="lat">dispositio</q> par <quote>disposicion</quote> [34.2.4]). La syntaxe est également plus proche du latin. De manière générale, cet état traductif rend chaque mot latin, afin d’éviter une perte d’information à l’occasion du transfert linguistique.</p>
-            <div type="tradition_texte">
+            <div xml:id="trad_2_etat_3_tradition-textuelle" type="tradition_texte">
               <head>Tradition textuelle</head>
               <div type="temoins">
                 <head>Groupement des témoins</head>
@@ -406,27 +407,27 @@
                   <eTree type="hypothetical">
                     <label>α</label>
                     <eLeaf type="extant">
-                      <label><ref target="#fr_498">A</ref></label>
+                      <label><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#fr_498">A</ref></label>
                     </eLeaf>
                     <eTree type="hypothetical">
                       <label>β</label>
                       <eLeaf type="extant">
-                        <label><ref target="#fr_22970">F</ref></label>
+                        <label><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#fr_22970">F</ref></label>
                       </eLeaf>
                       <eLeaf type="extant">
-                        <label><ref target="#kbr_10467">L</ref></label>
+                        <label><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#kbr_10467">L</ref></label>
                         <ptr type="contamination" target="#o"/>
                       </eLeaf>
                     </eTree>
                     <eLeaf type="extant" xml:id="o">
-                      <label><ref target="#bl_royal20">O</ref></label>
+                      <label><ref target="justinien_authenticum_notice?refId=trad_2_etat_3_manuscrits#bl_royal20">O</ref></label>
                     </eLeaf>
                   </eTree>
                 </eTree>
                 <p>On notera que le stemma de la traduction des <title xml:lang="lat">Tres libri</title>, transmise par <hi rend="i">OAF</hi>, est identique à celui de l’état traductif 3 des <title>Authentiques</title>. Le stemma n’indique pas que l’on dispose de deux états du texte, l’un fourni par <hi rend="i">OAF</hi>, qui livre des leçons voisines, l’autre par <hi rend="i">L</hi> qui offre une version modernisée de la traduction à partir d’un texte dégradé. Au vu des extraits collationnés, <hi rend="i">F</hi> pourrait être le manuscrit à privilégier pour étudier le texte en l’absence d’édition et pour servir de base à une future édition. A côté de <hi rend="i">A</hi>, <hi rend="i">O</hi> devra être pris en considération dans les parties qu’il transmet, parce qu’il permet de remonter plus haut dans la tradition.</p>
               </div>
             </div>
-            <div type="manuscrit">
+            <div xml:id="trad_2_etat_3_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Bruxelles, Bibl. royale de Belgique, 10467</head>
@@ -8865,7 +8866,7 @@
             </div>
           </div>
         </div>
-        <div type="deperdita" n="I.3">
+        <div xml:id="françaises_manuscrits-perdus" type="deperdita" n="I.3">
           <head>Manuscrits perdus</head>
           <p><bibl>Gilles Ménage, dans ses <title>Observations sur la langue française</title>, Paris, 1675, t. I, p. 8-9</bibl>, décrit un in-folio sur vélin appartenant à son ami <persName role="possesseur" key="Louis Nublé">Louis Nublé</persName> (1603-1686), qui contenait la traduction des <title>Institutes</title>, des <title>Authentiques</title> et des <title xml:lang="lat">Tres libri</title>. Le volume s’ouvrait par une table des <title>Institutes</title>, des <title>Authentiques</title> et des <title xml:lang="lat">Tres Libri</title>. D’après les quelques citations de Ménage, la traduction des <title>Institutes</title> est bien la traduction en prose éditée par F. Olivier Martin (cf. <bibl><title>Les Institutes de Justinien en français: traduction anonyme du XIII<hi rend="sup">e</hi> siècle</title>, Paris, 1935, p. VIII et XXXII</bibl>).</p>
           <p>A ces trois traductions avait été ajoutée d’une autre main une traduction des <title xml:lang="lat">Libri feudorum</title>, copiée en 1292, d’après le colophon que rapporte Ménage : <quote>En l'an de grace mil .cc. iiii.xx. et xii<lb/>Le jour de Feste Saint Michel<lb/>Le translata Mestre Michel<lb/>Et Perrot de la Magdeleine<lb/>De l'escriture en ot la peine</quote>. La copie des trois premiers textes serait donc antérieure à cette date.</p>

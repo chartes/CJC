@@ -78,13 +78,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="string-join(head//text())" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dct:title"/>
             <citeStructure match="div" use="@xml:id" unit="état">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div" use="@xml:id" unit="état">
+              <citeStructure match="div" use="@xml:id" unit="section">
                 <citeData use="head" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -93,12 +93,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; dernier niveau de citeStructure renommé « section » (même unit que le niveau au-dessus) ; 5 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 4 renvois internes qui changent de page deviennent des liens relatifs (justinien_infortiatum_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="infortiatum" type="presentation">
         <head>Infortiatum</head>
         <p>Dès le 12<hi rend="sup">e</hi> siècle, le <title>Digeste</title> est transmis en trois volumes comprenant respectivement le <title xml:lang="lat">Digestum Vetus</title> (D. 1-24.2), l’<title xml:lang="lat">Infortiatum</title> (D. 24.3-38) et le <title xml:lang="lat">Digestum novum</title> (D. 39-50). L’<title xml:lang="lat">Infortiatum</title> (ou <title>Infortiat</title> en français) est lui-même divisé en deux parties dénommées <title xml:lang="lat">Infortiatum</title> (D. 24.3-35.2.81) et <title xml:lang="lat">Tres partes</title> (D. 35.2.82-38.3).</p>
         <listBibl>
@@ -116,7 +117,7 @@
         <p>Cette traduction anonyme nous est transmise par deux témoins:
           <listWit>
             <witness xml:id="B">
-              <ref target="#bordeaux_354">
+              <ref target="justinien_infortiatum_notice?refId=tradition_directe_manuscrit_liste#bordeaux_354">
                 <msDesc corresp="#bordeaux_354">
                   <msIdentifier>
                     <country>France</country>
@@ -132,7 +133,7 @@
               </ref>
             </witness>
             <witness xml:id="R">
-              <ref target="#rouen_794">
+              <ref target="justinien_infortiatum_notice?refId=tradition_directe_manuscrit_liste#rouen_794">
                 <msDesc corresp="#rouen_794">
                   <msIdentifier>
                     <country>France</country>
@@ -149,7 +150,7 @@
           </listWit>
           La tradition directe est complétée par le témoignage indirect et très partiel du <title>Livre de jostice et de plet</title>, qui compile la traduction de l’<title>Infortiat</title>. D’après le ms Paris, Bibl. nat. de Fr., fr. 2844, témoin unique du <title>Livre de jostice et de plet</title> (abrégé LJP), la traduction de l’<title>Infortiat</title> date au plus tard des années 1260.</p>
         <p>La traduction est à la fois précise et compréhensible, voire élégante. La maîtrise des concepts du droit romain apparaît nettement à la pertinence des solutions de traduction adoptées. Tout en évitant les latinismes syntaxiques et lexicaux, la traduction rend au mieux la substance du texte-source. Cette réussite incontestable tend à faire penser que le ou les traducteurs n’en étaient pas à leur coup d’essai et qu’ils possédaient une solide expérience en matière de droit romain énoncé en français.</p>
-        <div type="tradition_texte">
+        <div xml:id="fr_anonyme_tradition-du-texte" type="tradition_texte">
           <head>Tradition du texte</head>
           <p>NB : Pour une présentation détaillée, on se reportera à <bibl>Pastore-Duval</bibl> [à paraître].</p>
           <p>De nombreux accords sémantiques entre le texte-source et <hi rend="i">R</hi> contre <hi rend="i">B</hi> permettent de conclure avec certitude que <hi rend="i">R</hi> n’a pas été copié sur <hi rend="i">B</hi>, en particulier en cas d’omission dans <hi rend="i">B</hi>. Les collations établissent également que <hi rend="i">R</hi> et <hi rend="i">B</hi> sont indépendants et remontent à un ancêtre commun. Enfin, deux erreurs conjonctives communes à <hi rend="i">BR</hi> et au <title>Livre de jostice et de plet</title> prouvent qu’aucun des trois témoins ne remonte à l’original, mais qu’ils descendent tous trois d’un archétype commun.</p>
@@ -164,10 +165,10 @@
                 <eTree type="hypothetical">
                   <label>α</label>
                   <eLeaf type="extant">
-                    <label><ref target="#bordeaux_354">B</ref></label>
+                    <label><ref target="justinien_infortiatum_notice?refId=tradition_directe_manuscrit_liste#bordeaux_354">B</ref></label>
                   </eLeaf>
                   <eLeaf type="extant">
-                    <label><ref target="#rouen_794">R</ref></label>
+                    <label><ref target="justinien_infortiatum_notice?refId=tradition_directe_manuscrit_liste#rouen_794">R</ref></label>
                   </eLeaf>
                 </eTree>
                 <eTree type="hypothetical" xml:id="ljp">
@@ -192,9 +193,9 @@
         </div>
         <div type="soustraduction" xml:id="tradition_directe">
           <head>Tradition directe</head>
-          <div type="manuscrit">
+          <div xml:id="tradition_directe_manuscrit" type="manuscrit">
             <head>Manuscrit</head>
-            <div type="listMs">
+            <div xml:id="tradition_directe_manuscrit_liste" type="listMs">
               <head>Liste</head>
               <div>
                 <head/><!-- xml:id="bordeaux_354" corresp="http://medium-avance.irht.cnrs.fr/ark:/63955/md28nc583300" -->
@@ -1941,7 +1942,7 @@
         </div>
         <div type="soustraduction" xml:id="tradition_indirecte">
           <head>Tradition indirecte</head>
-          <div type="manuscrit">
+          <div xml:id="tradition_indirecte_manuscrit" type="manuscrit">
             <head>Manuscrit</head>
             <list type="listMs">
               <item corresp="http://gallica.bnf.fr/ark:/12148/btv1b9059006z" xml:id="Ljp"><ref target="digestum_vetus.xml#fr_2844">Livre de Jostice et de Plet</ref></item>

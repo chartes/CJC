@@ -79,13 +79,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="head" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dct:title"/>
             <citeStructure match="div" use="@xml:id" unit="état">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div" use="@xml:id" unit="état">
+              <citeStructure match="div" use="@xml:id" unit="section">
                 <citeData use="if (head/title) then head/title else string-join(head/text())" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -94,12 +94,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; dernier niveau de citeStructure renommé « section » (même unit que le niveau au-dessus) ; 17 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 14 renvois internes qui changent de page deviennent des liens relatifs (justinien_institutiones_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="institutiones" type="presentation">
         <head>Institutiones</head>
         <p>Comme la lecture du <title>Code</title> et du <title>Digeste</title> étaient trop complexes pour des étudiants commençant l’étude du droit, Justinien commanda la rédaction d’un bref manuel d’introduction, rédigé sous la direction de Tribonien, professeur de droit à Constantinople et déjà maître d’oeuvre du
           <title>Digeste</title>, en collaboration avec Théophile et Dorothée. Plus simple que le <title>Digeste</title>, plus théorique que le <title>Code</title>, regorgeant de définitions, les <title xml:lang="lat">Institutiones</title> (<title>Institutes</title> en français) suivent le plan des <title xml:lang="lat">Institutiones</title> de Gaius, rédigées quatre siècles plus tôt, mais elles en actualisent le contenu conformément à la codification en cours. Publiées le 21 novembre 533, soit un mois avant le <title>Digeste</title>, les <title xml:lang="lat">Institutiones</title> entrèrent en vigueur le 30 décembre 533.</p>
@@ -123,7 +124,7 @@
           <bibl>F. Macino, <title>Sulle tracce delle Istituzioni di Giustiniano nell’alto medioevo : I manoscritti dal VI al XII secolo</title>, Vatican, 2008</bibl>
         </listBibl>
       </div>
-      <div type="traductions">
+      <div xml:id="traductions-des-institutiones" type="traductions">
         <head>Traductions des <title>Institutiones</title></head>
         <div type="traduction" xml:id="fr_anonyme" n="I.1">
           <head>Traduction en prose</head>
@@ -139,9 +140,9 @@
           <p>La traduction donne une <q>image fidèle du manuel de Justinien</q> (<bibl>Olivier-Martin, p. xix</bibl>). Le traducteur s’est montré aussi bon juriste que bon latiniste et prosateur. Aidé de gloses, qu’il insère parfois dans son texte, le traducteur rend le texte-source sans céder aux latinismes, mais en s’efforçant toujours de rendre la lettre du latin. Quand il s’en écarte, c’est surtout par souci de clarté. L’absence d’autre traduction des
             <title>Institutes</title> jusqu’à la fin du Moyen Age et l’ample succès de cette version prouvent qu’elle s’imposa comme une réussite. La langue et le contenu des <title xml:lang="lat">Institutiones</title> étaient, il est vrai, bien plus faciles à rendre en français que pour les autres parties du <title xml:lang="lat">Corpus juris civilis</title>, mais il était également aisé d’entreprendre le remaniement d’un traduction moins longue que le
             <title>Code</title> ou le <title>Digeste</title>, dont on compte plusieurs versions françaises. Tout au plus remarque-t-on une modernisation linguistique systématique dans le ms Bruxelles, Bibl. royale 10467 accompagné de l’insertion dans le corps du texte des incipits latins des paragraphes.</p>
-          <div type="tradition_texte">
+          <div xml:id="fr_anonyme_tradition-textuelle" type="tradition_texte">
             <head>Tradition textuelle</head>
-            <div type="listWit">
+            <div xml:id="fr_anonyme_tradition-textuelle_conspectus-siglorum" type="listWit">
               <head>Conspectus siglorum</head>
               <p>
                 <listWit>
@@ -162,7 +163,7 @@
               <p>
                 <listWit>
                   <witness xml:id="B">
-                    <ref target="#fr_1063">
+                    <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#fr_1063">
                       <msDesc corresp="#fr_1063">
                         <msIdentifier>
                           <country>France</country>
@@ -178,7 +179,7 @@
               <p>
                 <listWit>
                   <witness xml:id="C">
-                    <ref target="#fr_1064">
+                    <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#fr_1064">
                       <msDesc corresp="#fr_1064">
                         <msIdentifier>
                           <country>France</country>
@@ -194,7 +195,7 @@
               <p>
                 <listWit>
                   <witness xml:id="D">
-                    <ref target="#fr_1065">
+                    <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#fr_1065">
                       <msDesc corresp="#fr_1065">
                         <msIdentifier>
                           <country>France</country>
@@ -209,7 +210,7 @@
               </p>
               <p><listWit>
                 <witness xml:id="E">
-                  <ref target="#fr_1928">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#fr_1928">
                     <msDesc corresp="#fr_1928">
                       <msIdentifier>
                         <country>France</country>
@@ -237,7 +238,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="G">
-                  <ref target="#stomer_439">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#stomer_439">
                     <msDesc corresp="#stomer_439">
                       <msIdentifier>
                         <country>France</country>
@@ -251,7 +252,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="H">
-                  <ref target="#montpellier_h316">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#montpellier_h316">
                     <msDesc corresp="#montpellier_h316">
                       <msIdentifier>
                         <country>France</country>
@@ -265,7 +266,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="I">
-                  <ref target="#montpellier_h373">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#montpellier_h373">
                     <msDesc corresp="#montpellier_h373">
                       <msIdentifier>
                         <country>France</country>
@@ -279,7 +280,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="K">
-                  <ref target="#glasgow_hunter63">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#glasgow_hunter63">
                     <msDesc corresp="#glasgow_hunter63">
                       <msIdentifier>
                         <country>Ecosse</country>
@@ -321,7 +322,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="N">
-                  <ref target="#orleans_393">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#orleans_393">
                     <msDesc corresp="#orleans_393">
                       <msIdentifier>
                         <country>France</country>
@@ -349,7 +350,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="P">
-                  <ref target="#institutes_perdu13">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_deperditasont-ici-reprises-la-nu#institutes_perdu13">
                     <msDesc corresp="#institutes_perdu13">
                       <msIdentifier>
                         <country>France</country>
@@ -363,7 +364,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="Q">
-                  <ref target="#institutes_perdu12">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_deperditasont-ici-reprises-la-nu#institutes_perdu12">
                     <msDesc corresp="#institutes_perdu12">
                       <msIdentifier>
                         <country>France</country>
@@ -377,7 +378,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="R">
-                  <ref target="#princeton_kane_ms49">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#princeton_kane_ms49">
                     <msDesc corresp="#princeton_kane_ms49">
                       <msIdentifier>
                         <country>Etats-Unis</country>
@@ -391,7 +392,7 @@
               </listWit></p> 
               <p><listWit>
                 <witness xml:id="S">
-                  <ref target="#washington_i71">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_copies-existantes#washington_i71">
                     <msDesc corresp="#washington_i71">
                       <msIdentifier>
                         <country>Etats-Unis</country>
@@ -405,7 +406,7 @@
               </listWit></p>
               <p><listWit>
                 <witness xml:id="T">
-                  <ref target="#leiden_bpl3201">
+                  <ref target="justinien_institutiones_notice?refId=tradition_directe_fragment#leiden_bpl3201">
                     <msDesc corresp="#leiden_bpl3201">
                       <msIdentifier>
                         <country>Pays-Bas</country>
@@ -418,9 +419,9 @@
                 </witness>
               </listWit></p>   
             </div>
-            <div><head>Étude de la tradition</head><p><bibl><author>F. Olivier-Martin</author> (p. xxxviii-xl)</bibl> a étudié la tradition des
+            <div xml:id="fr_anonyme_tradition-textuelle_etude-de-la-tradition"><head>Étude de la tradition</head><p><bibl><author>F. Olivier-Martin</author> (p. xxxviii-xl)</bibl> a étudié la tradition des
               <title>Institutes</title> en prose qu’il a résumée sous forme d’un stemma à trois branches. L’examen mériterait d’être repris à nouveaux frais, car Olivier-Martin, intéressé par l’établissement du texte, néglige les témoins tardifs dont il fait les descendants de témoins proches antérieurs. Etant donné le nombre de manuscrits et les lacunes de certains, il n’a pas été possible d’aboutir à une vision synthétique et complète de la tradition. Tout au plus pouvons-nous préciser certaines relations à l’intérieur d’une tradition qui semble par ailleurs contaminée :</p></div>            
-            <div type="temoins"><head>Les témoins</head><!-- LG 26/06/2019 head vide suggeré par FD le 18/06/2019 -->  <list type="temoins">
+            <div xml:id="fr_anonyme_tradition-textuelle_les-temoins" type="temoins"><head>Les témoins</head><!-- LG 26/06/2019 head vide suggeré par FD le 18/06/2019 -->  <list type="temoins">
               <item><label>Groupe <hi rend="i">ABD</hi></label>
                 <p><hi rend="i">ABD</hi> présentent des fautes communes : Inst. 2.20 est copié dans ces trois témoins sans solution de continuité avec Inst. 2.19 ; <app>
                   <rdg wit="#C #E #F #G #I #L #N #M">que il se donna a</rdg>
@@ -539,7 +540,7 @@
               </item>
             </list>
               <p>Le tableau de la tradition présenté par F. Olivier-Martin est donc largement à reprendre. Toutefois, le choix de <hi rend="i">C</hi> comme base de son édition, à défaut de <hi rend="i">R</hi> qu’il reste à examiner, reste parfaitement justifié.</p></div>
-            <div type="listBibl">
+            <div xml:id="fr_anonyme_tradition-textuelle_bibliographie" type="listBibl">
               <head>Bibliographie</head>
               <bibl><author>Félix Olivier-Martin</author>, <title>Les <title>Institutes</title> de Justinien en français: traduction anonyme du XIII<hi rend="sup">e</hi> siècle</title>, Paris, 1935</bibl>
               <bibl>Claudio Galderisi (dir.), <title>Translations médiévales: Cinq siècles de traductions en français au Moyen Âge (XI<hi rend="sup">e</hi>-XV<hi rend="sup">e</hi> siècles)</title>, Turnhout, 2011, vol. 2, t. I, n° 356, p. 638-639 [notice de Stefania Cerrito]</bibl>
@@ -547,7 +548,7 @@
           </div>
           <div type="soustraduction" n="I.1.1" xml:id="tradition_directe">
             <head>Tradition directe</head>
-            <div type="listMs">
+            <div xml:id="tradition_directe_copies-existantes" type="listMs">
               <head>Copies existantes</head>
               <div xml:id="kbr_10467">
                 <head>Bruxelles, kbr 10467 (sigle L)</head>
@@ -7265,7 +7266,7 @@
                 </msDesc>
               </div>
             </div>
-            <div type="msFrag">
+            <div xml:id="tradition_directe_fragment" type="msFrag">
               <head>Fragment</head>
               <div type="listMs">
                 <head>Ms. T</head><!--  xml:id="leiden_bpl3201" -->
@@ -7359,7 +7360,7 @@
                 </div>
               </div>
             </div>
-            <div type="deperdita">
+            <div xml:id="tradition_directe_deperditasont-ici-reprises-la-nu" type="deperdita">
               <head>Deperdita<note n="239">Sont ici reprises la numérotation des manuscrits perdus adoptée par F. Olivier-Martin ainsi que, pour la plupart des items, la présentation qu’il en fait.</note></head>
               <p xml:id="institutes_perdu1">1. Dans l’inventaire des biens meubles de la reine <persName role="possesseur" key="Clémence de Hongrie">Clémence de Hongrie</persName>, rédigé en 1328, mention :
                 <quote>Item, une Institute en françois, presié XVI s.</quote> (Paris, Bibl. nat. de Fr., Clairambault 471, f. 33). Le ms a été acheté par la reine <persName role="possesseur" key="Jeanne d'Evreux">Jeanne d’Evreux</persName> (cf. <bibl>Léopold Delisle, <title>Le cabinet...</title>, t. I, p. 12</bibl>) avant qu’on en perde la trace. (F. Olivier-Martin, p. xxi-xxii).</p>
@@ -7443,7 +7444,7 @@
           </dateline>
           <p>Les <title xml:lang="lat">Institutiones</title> ont été traduites en quelque 24.000 octosyllabes à rime plate. D’après le prologue et l’épilogue, la traduction a été rédigée par <persName role="traducteur">Richard d’Annebault</persName> (Calvados, cant. Cabourg, arr. Lisieux; à ne pas confondre avec l’actuel Appeville-Annebaut, dans l’Eure, où le nom des seigneurs d’Annebault a été ajouté à celui de leur seigneurie d’Appeville lors de son érection en baronnie en 1549) en 1280 à l’intention de Bertrand de Chaufepié (<quote>Bertran a nom de Schalphepié</quote>), un jeune gascon dont on lui a confié l’éducation. La traduction est conçue comme un <foreign xml:lang="lat">accessus</foreign> au latin : en la consultant avant d’aller en cours, si possible en regard du texte latin, l’élève comprendra mieux la version originale et les commentaires de ses maîtres. Quant au choix des vers, il s’explique pour des raisons mnémotechniques.</p>
           <p>La traduction en vers des <title>Institutes</title> est d’une grand affinité stylistique avec la traduction en vers de la <title xml:lang="lat">Summa de legibus Normannie in curia laicali</title> par Guillaume Chapu, dont elle est proche chronologiquement, géographiquement et culturellement. Il importe de noter que ces deux textes sont les seules traductions françaises en vers connues d’un texte juridique au 13<hi rend="sup">e</hi> s.</p>
-          <div type="tradition_texte">
+          <div xml:id="annebault_tradition-textuelle" type="tradition_texte">
             <head>Tradition textuelle</head>
             <p>Dans sa thèse et dans les articles qu’elle a consacrés à la traduction en vers des <title>Institutes</title>, Claire-Hélène Lavigne a privilégié le manuscrit (<hi rend="i">L</hi>) à l’imprimé (<hi rend="i">P</hi>). Le manuscrit a, en effet, l’avantage d’être le témoin le plus ancien et de présenter un texte à première vue plus complet, puisque l’imprimé ampute le prologue du traducteur et ne présente pas d’épilogue.</p>
             <p>Ces deux omissions sont cohérentes et volontaires puisqu’elles gomment le contexte dans lequel a pris place la traduction : les noms du destinataire et du traducteur, la date, fort ancienne au moment de l’impression, sans compter quelques topoï qui avaient certainement vieilli à la fin du 15<hi rend="sup">e</hi> s. L’exemple fameux de Vérard montre assez comment le remaniement de prologues ou l’écriture de nouveaux prologues est un dispositif commercial répandu et efficace. Les passages omis du prologue et de l’épilogue étaient d’ailleurs incompatibles avec le titre vendeur choisi par l’imprimeur, qui faisait cas d’une révision de la traduction : <title>C’est le livre des institutions des drois appellé Institute translaté de latim en françois &amp; corrigé en diligence par plusieurs docteurs et souverains legistes</title> (f. A2a). Une omission de ces éléments paratextuels pourrait remonter à la tradition manuscrite, mais on attendrait alors une omission complète du prologue, plutôt que la suppression limitée aux éléments susceptibles de nuire à la commercialisation du livre.</p>
@@ -7513,7 +7514,7 @@
               <bibl>Claudio Galderisi (dir.), <title>Translations médiévales: Cinq siècles de traductions en français au Moyen Âge (XI<hi rend="sup">e</hi>-XV<hi rend="sup">e</hi> siècles)</title>, Turnhout, 2011, vol. 2, t. I, n° 356, p. 639 [notice de Stefania Cerrito]</bibl>
             </listBibl>
           </div>
-          <div type="manuscrit" corresp="ARK_manuscrit">
+          <div xml:id="annebault_manuscrit" type="manuscrit" corresp="ARK_manuscrit">
             <!-- LG 26/06/2019 corresp dans div ok TEI, non schéma -->
             <head>Manuscrit</head>
             <!--  xml:id="harley_4477" -->
@@ -8145,7 +8146,7 @@
                 </listBibl>
               </additional>
             </msDesc>
-            <div type="edition">
+            <div xml:id="annebault_manuscrit_edition" type="edition">
               <head>Édition</head>
               <p><supplied resp="#FD"><hi rend="i">P</hi>- indique que la leçon de <hi rend="i">P</hi> est inférieure à celle de
                 <hi rend="i">L</hi> ; <hi rend="i">P</hi>+ qu’elle lui est supérieure.</supplied></p>
@@ -9171,7 +9172,7 @@
             </div>
             <!--</div>-->
           </div>
-          <div type="imprime">
+          <div xml:id="annebault_le-livre-des-institutions-des-dr" type="imprime">
             <head><bibl>
               <title>Le Livre des Institutions des drois appelé Institute</title>, <pubPlace>Paris</pubPlace>, <publisher>Antoine Caillaut</publisher>, <date notBefore="1485-01-01" notAfter="1486-12-31"><hi rend="i">ca</hi> 1486.</date>
             </bibl></head>
@@ -9772,7 +9773,7 @@
                 </listBibl>
               </additional>
             </msDesc>
-            <div type="edition">
+            <div xml:id="annebault_le-livre-des-institutions-des-dr_edition" type="edition">
               <head>Édition</head>
               <div type="edition" n="1">
                 <head>Prologue</head>
@@ -10239,11 +10240,11 @@
       <div type="traduction" xml:id="azon">
         <head>Azon, <title>Summa Institutionum</title></head>
         <p>Une traduction anonyme de la <title xml:lang="lat">Summa Institutionum</title>, qui complète la traduction de la <title>Somme Acé</title>, nous est transmise par deux manuscrits :</p>
-        <div type="listMs">
+        <div xml:id="azon_paris-bnf-fr-22969" type="listMs">
           <head>Paris, BNF, fr. 22969</head>
           <p><ref target="http://gallica.bnf.fr/ark:/12148/btv1b84478693">http://gallica.bnf.fr/ark:/12148/btv1b84478693</ref></p>
         </div>
-        <div type="listMs">
+        <div xml:id="azon_vatican-bav-reg-lat-1063" type="listMs">
           <head>Vatican, BAV, Reg. lat. 1063</head>
           <p><ref target="http://medium-avance.irht.cnrs.fr/ark:/63955/md935138m22g">http://medium-avance.irht.cnrs.fr/ark:/63955/md935138m22g</ref></p>
         </div>            

@@ -83,13 +83,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="head" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dct:title"/>
             <citeStructure match="div" use="@xml:id" unit="état">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div" use="@xml:id" unit="état">
+              <citeStructure match="div" use="@xml:id" unit="section">
                 <citeData use="head" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -98,12 +98,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; dernier niveau de citeStructure renommé « section » (même unit que le niveau au-dessus) ; 8 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 2 renvois internes qui changent de page deviennent des liens relatifs (justinien_digestus-vetus_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="digestum" type="presentation">
         <head>Digestum</head>
         <p>Le <title>Digeste</title> (<title xml:lang="lat">Digesta</title> ou <title xml:lang="lat">Codex juris</title> en latin ; <title xml:lang="lat">Pandectae</title> en latin et <title>Pandectes</title> en français d’après le grec) est la partie la plus ambitieuse de la codification justinienne, car ses auteurs ne purent s’appuyer, comme pour le <title>Codex</title>, sur des précédents. Par la constitution <title xml:lang="lat">Deo auctore</title> (15 décembre 530), Justinien chargeait Tribonien et ses collaborateurs de préparer une grande anthologie de la jurisprudence, autrement dit du <foreign xml:lang="lat">jus</foreign> (alors que le <title>Code</title> avait compilé les <foreign xml:lang="lat">leges</foreign>).</p>
         <p>Il s’agissait de <q> fournir aux juges et aux plaideurs des solutions fermes et uniformes, présentées selon un plan méthodique</q> (<bibl>Humbert 2007, p. 480</bibl>) en partant d’une documentation énorme, allant du 2<hi rend="sup">e</hi> s. av. J.-C. au 3<hi rend="sup">e</hi> s. après J.-C. D’après Justinien, les fragments de jurisprudence classique sélectionnés et classés dans le
@@ -135,7 +136,7 @@
           <bibl>C. M. Radding et A. Ciaralli, <title>The corpus iuris civilis in the Middle Ages: Manuscripts and Transmission from the Sixth Century to the Juristic Revival</title>, Leidon-Boston, 2007, p. 169-210</bibl>
           
         </listBibl>
-        <div>
+        <div xml:id="digestum_digestum-vetus">
           <head><title xml:lang="lat">Digestum vetus</title></head>
           <p>Le <title xml:lang="lat">Digestum vetus</title> est la première partie du
             <title>Digeste</title> médiéval sous sa forme vulgate. Il commence au début du premier livre pour s’interrompre en D. 24.2. Dans les plus anciens manuscrits, le
@@ -184,7 +185,7 @@
               <bibl>G. Giordanengo, <title level="a">Livres de jostice et de plet (Li)</title>, dans P. Arabeyre, J.-L. Halpérin et J. Krynen (dir.),
                 <title>Dictionnaire historique des juristes français (XII<hi rend="sup">e</hi>-XX<hi rend="sup">e</hi> siècle)</title>, Paris, 2015, p. 669-670</bibl>
             </listBibl>
-            <div type="manuscrit">
+            <div xml:id="traduction_1_paris-bibl-nat-de-fr-fr-2844" type="manuscrit">
               <head>Paris, Bibl. nat. de Fr., fr. 2844</head>
               <msDesc xml:id="fr_2844" source="http://gallica.bnf.fr/ark:/12148/btv1b9059006z"><!-- type="biblissima" -->
                 <msIdentifier>
@@ -2361,7 +2362,7 @@
             <p>Cette traduction a probablement été conçue pour être utilisée de pair avec le texte latin, qu’elle venait éclairer. Un dispositif de repérage permet un passage aisé d’une langue à l’autre : des <foreign xml:lang="lat">incipit</foreign> latins sont ainsi donnés, non seulement au début de chaque fragment, mais au seuil de paragraphes découpés au sein des fragments. La consultation simultanée du latin et du français est également facilitée par une traduction <foreign xml:lang="lat">verbum ad verbum</foreign>. Toutefois, si un mot latin est généralement rendu par un mot français (parfois accompagné d’un déterminant), la traduction, loin de multiplier les calques lexicaux, a plutôt cherché des équivalents largement lexicalisés en français. Les calques syntaxiques sont ici très nombreux (conservation du passif plutôt que recours à des constructions impersonnelles ; conservation d’ablatifs absolus et surtout) et l’ordre des mots latins est très souvent préservé, permettant ainsi une lecture parallèle.</p>
             <p>Ce projet de traduction a contraint le(s) traducteur(s) à rendre en français l’ensemble du texte latin, même dans ses passages les plus difficiles, tout en les contraignant à ne pas intégrer de gloses explicatives, qui auraient éloigné la syntaxe française de la syntaxe latine. Texte et glose sont bien séparés, comme l’atteste la copie de gloses en français (proches de la glose ordinaire) en marge des titres suivants (D. 12-13.4.9 et D. 23-24.2).</p>
             <p>Une traduction identique de la <title xml:lang="lat">Constitutio omnem</title> se trouve dans le ms Paris, Bibl. nat. de Fr., fr. 197 (traduction 2) et dans le ms Paris, Bibl. nat. de Fr., fr. 20118 (trad. 3), alors qu’elle est absente des autres témoins complets. Une étude des procédés traductifs permettrait peut-être de savoir à quelle traduction assigner ce passage, qui témoigne d’une circulation des versions françaises en un même milieu.</p>
-            <div type="manuscrit">
+            <div xml:id="traduction_2_paris-bibl-nat-de-fr-fr-197" type="manuscrit">
               <head>Paris, Bibl. nat. de Fr., fr. 197</head>
               <msDesc xml:id="fr_197" source="http://archivesetmanuscrits.bnf.fr/ead.html?id=FRBNFEAD000048506"><!--type="biblissima"-->
                 <msIdentifier>
@@ -3601,7 +3602,7 @@
             <p>La traduction 3, anonyme, pourrait dater du 3<hi rend="sup">e</hi> quart du 13<hi rend="sup">e</hi> s., date de son témoin le plus ancien. Il s’agit d’un remaniement de la traduction 2, sans préjuger d’éventuelle(s) version(s) intermédiaire(s) entre l’état présenté par le ms Paris, Bibl. nat. de Fr., fr. 197 et la traduction 3.</p>
             <p>Contrairement à la traduction 2, la traduction 3 est conçue pour une lecture autonome du latin. Sa syntaxe est bien moins calquée sur le latin, notamment en ce qui concerne l’ordre des mots et les structures participiales. Elle se rapproche nettement de la syntaxe d’un texte composé directement en français.</p>
             <p>La traduction 3 se caractérise également par la correction de faux-sens et de contresens présents dans la traduction 2, par une cohésion textuelle renforcée au moyen d’explicitations (notamment des référents), de redondances et d’amplifications. Elle se signale par un discours plus compréhensible et plus interprétatif, exploitant les gloses latines et n’hésitant pas à faire l’économie de séquences d’interprétation difficile en latin et ne présentant aucune utilité à l’époque de la traduction.</p>
-            <div type="tradition_texte">
+            <div xml:id="traduction_3_tradition-textuelle" type="tradition_texte">
               <head>Tradition textuelle</head>
               <div type="tradition_soustraduction" xml:id="tradition_directe">
                 <head>Tradition directe</head>
@@ -8669,7 +8670,7 @@
             <p>La traduction 4, anonyme comme les deux précédentes, date au plus tard de la seconde moitié du 13<hi rend="sup">e</hi> s. (date de son unique témoin). D’après plusieurs régionalismes lexicaux, elle pourrait être originaire de l’ouest du domaine d’oïl et peut-être même de l’Orléanais (cf.
               <quote>besaine</quote> f. 118c, <quote>pechoi</quote> f. 214c).</p>
             <p>Les solutions de traduction, tant lexicales que syntaxiques, montrent que cette version est indépendante des précédentes. Grâce à une syntaxe libérée de son modèle, elle est adaptée à une lecture indépendante du latin (contrairement à la trad. 2). Elle se démarque par son lexique latinisant, notamment lorsqu’il s’agit de rendre en français les institutions romaines. Son point de vue sur l’Antiquité est distancié et elle ne cherche pas à assimiler le droit romain à la situation contemporaine de la traduction. L’utilisation des gloses perce dans cette traduction, qui est précise et fidèle à sa source.</p>
-            <div type="manuscrit">
+            <div xml:id="traduction_4_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Montpellier, bibl. interuniversitaire, section Médecine, H 47</head>
@@ -9914,7 +9915,7 @@
               <div>
                 <head>Source</head>
                 <list type="listMs">
-                  <item><ref target="#kbr_9234">Bruxelles, Bibl. royale de Belgique, 9234 (de D. 3.1 à D. 4.6)</ref></item>
+                  <item><ref target="justinien_digestus-vetus_notice?refId=traduction_3_tradition-textuelle#kbr_9234">Bruxelles, Bibl. royale de Belgique, 9234 (de D. 3.1 à D. 4.6)</ref></item>
                 </list>
               </div>
             </div>
@@ -9928,10 +9929,10 @@
               <date notBefore="1310" notAfter="1325-12-31"><hi rend="i">ca</hi> 1310-1325</date>
             </dateline>
             <p>La traduction 5 est partielle (D. 2.8-2.15). On ne sait s’il s’agit d’une traduction plus ample dont la tradition ne nous a conservé qu’une partie ou s’il s’agit d’une traduction qui n’a jamais concerné que la partie finale de D. 2. Quoi qu’il en soit, cette traduction ne s’inscrit dans aucune des traditions traductives précédentes, dont elle se distingue à la fois par le lexique et la syntaxe. Anonyme comme les précédentes, sa date est difficile à fixer puisque le seul <hi rend="i">terminus ad quem</hi> dont on dispose est la date assez tardive (<hi rend="i">ca</hi> 1310-1325) de son témoin unique, le ms Bruxelles, Bibl. royale, 9234.</p>
-            <div type="manuscrit">
+            <div xml:id="traduction_5_source" type="manuscrit">
               <head>Source</head>
               <list type="listMs">
-                <item><ref target="#kbr_9234">Bruxelles, Bibl. royale de Belgique, 9234 (de D. 2.8 à la fin de D.2)</ref></item>
+                <item><ref target="justinien_digestus-vetus_notice?refId=traduction_3_tradition-textuelle#kbr_9234">Bruxelles, Bibl. royale de Belgique, 9234 (de D. 2.8 à la fin de D.2)</ref></item>
               </list>
             </div>
           </div>
@@ -9944,7 +9945,7 @@
           <listBibl>
             <bibl>P. Weimar, <title level="a">Zur Entstehung der Azoschen Disgestensumme</title>, dans J. A. Ankum, J. E. Spruit et F. B. J. Wubbe (éd.), <title>Satura Roberto Feenstra</title>, Fribourg, 1985, p. 371-392</bibl>
           </listBibl>
-          <div type="manuscrit">
+          <div xml:id="summulae_digestorum_sources" type="manuscrit">
             <head>Sources</head>
             <list type="listMs">
               <item xml:id="fr_22969" corresp="http://gallica.bnf.fr/ark:/12148/btv1b84478693"><ref target="codex.xml#fr_22969">Paris, BNF, fr. 22969</ref></item>

@@ -74,13 +74,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="head" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dct:title"/>
             <citeStructure match="div" use="@xml:id" unit="état">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div" use="@xml:id" unit="état">
+              <citeStructure match="div" use="@xml:id" unit="section">
                 <citeData use="if (head) then head else list/head" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -89,12 +89,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; dernier niveau de citeStructure renommé « section » (même unit que le niveau au-dessus) ; 17 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 24 renvois internes qui changent de page deviennent des liens relatifs (justinien_codex_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="codex-529-2e-ed-534" type="presentation">
         <head>Codex (529, 2e éd. 534)</head>
         <p>Le <title>Code</title> de Justinien (<title xml:lang="lat">Codex Iustinianus</title>, <title xml:lang="lat">Codex constitutionum</title> ou encore <title xml:lang="lat">Codex legum</title>) est un recueil de constitutions impériales, générales ou particulières (rescrits), dont les plus anciennes remontent à Hadrien et les plus récentes à Justinien. L’objectif de la compilation était de mettre à jour le <title>Code théodosien</title> (438), partiellement périmé par la quantité de constitutions publiées pendant un siècle. Il devait donc se substituer aux codes antérieurs, grégorien, hermogénien et théodosien dont il s’inspirait. Pour ce faire, les compilateurs furent amenés à opérer des choix au sein des travaux de leurs prédécesseurs, à interpoler les constitutions anciennes pour les mettre au goût du jour et enfin à en ajouter de nouvelles. Cette première entreprise de codification lancée par Justinien fut confiée en 528 à une commission de dix membres et le <title xml:lang="lat">Novus Iustinianus codex</title> fut publié dès le 7 avril 529. La première version du <title>Code</title> de Justinien fut très vite remplacée par une seconde édition publiée le 16 novembre 534, qui nous est seule parvenue. Le contenu de la première édition nous est connu par le fragment d’un index, par lequel on sait qu’elle contenait la loi des citations, autrement dit que Justinien, en 529, n’avait pas encore conçu le projet de sélectionner lui-même les <hi rend="i">jura</hi>, autrement dit de rédiger le <title>Digeste</title>. A l’issue de la compilation du <title>Digeste</title> et des <title xml:lang="lat">Institutiones</title>, les lacunes du <title>Code</title> et ses divergences avec le travail de codification accompli en 4 ans conduisirent naturellement à la confection de la nouvelle édition. Recueil officiel, le <title>Code</title> réunit des textes qui <q>font foi devant les tribunaux et doivent être cités sous la forme que leur ont donnée les rédacteurs</q> (<bibl>Gaudemet 2002, p. 464</bibl>).</p>
         <p>Le <title>Code</title> de 534 est divisé en 12 livres (unités matérielles plus qu’intellectuelles) subdivisés en 766 titres. La matière s’y répartit grosso modo de la façon suivante : droit ecclésiastique (C. 1.1-13) ; sources du droit (C. 1.14-23) ; droit d’asile (C. 1.24-25) ; agents impériaux (C. 1.26-57) ; procédure (C. 2) ; droit privé (C. 3-8) ; droit pénal (C. 9) ; droit administratif et fiscal (C. 10-12). A l’intérieur de chaque titre, les quelque 4650 constitutions sont présentées dans l’ordre chronologique de leur adoption, comme dans les codes antérieurs.</p>
@@ -127,7 +128,7 @@
             <head>Traduction 1</head>
             <dateline><date notBefore="1253" notAfter="1258">avant <hi rend="i">ca</hi> 1253-1258</date></dateline>
             <p>La traduction 1 est plus éloignée du texte latin du <title xml:lang="lat">Codex</title> que les traductions 2 et 3. Elle est antérieure au <title>Conseil</title> de Pierre de Fontaines (<hi rend="i">ca</hi> 1253-1258), qui la cite à plusieurs reprises (cf. <bibl>Pierre Petot, <title level="a">Pierre de Fontaines et le droit romain</title>, dans <title>Etudes d’histoire du droit canonique dédiées à Gabriel Le Bras</title>, Paris, 1965, p. 955-964</bibl>).</p>
-            <div type="tradition_texte">
+            <div xml:id="française_1_tradition-textuelle" type="tradition_texte">
               <head>Tradition textuelle</head>
               <listWit>
                 <head>Conspectus siglorum</head>
@@ -9486,7 +9487,7 @@
             <dateline><date notBefore="1250" notAfter="1275">troisième quart du 13<hi rend="sup">e</hi> s.</date></dateline>
             <p>La traduction 2 révise la traduction 1, même s’il n’est pas certain qu’elle disposait de l’état textuel qui nous a été conservé. En effet, la traduction 2 ne connaît pas <quote>thorax</quote> (C. 2.7.14) et <quote>gesta</quote> (C. 2.7.17, C. 2.7.11.2) alors que ces substantifs sont compris par toutes les autres traductions, y compris la traduction 1. En cas d’incompréhension, la traduction 2 a tendance à omettre le segment problématique.</p>
             <p>La traduction 2 ne peut être postérieure au troisième quart du 13<hi rend="sup">e</hi> s., date à la fois du témoin unique qui nous l’a conservée et des plus anciens témoins de la traduction 3, qui en dérive.</p>
-            <div type="manuscrit">
+            <div xml:id="française_2_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Montpellier, bibl. interuniversitaire, section Médecine, H 81</head>
@@ -11424,11 +11425,11 @@
             <dateline><date notBefore="1250" notAfter="1274">3<hi rend="sup">e</hi> quart du 13<hi rend="sup">e</hi> s. au plus tard</date></dateline>
             <p>La traduction 3, associée à une traduction partielle de la glose d’Accurse, est la plus aboutie et a dû être considérée comme telle, puisqu’elle n’a pas été reprise (à ce que l’on sache) et a fait l’objet d’une édition. Elle présente la version sémantiquement la plus proche du latin, tout en s’efforçant de ménager la langue-cible. A ce titre, la structuration syntaxique de traduction 2, souvent latinisante, a été revue afin de parvenir à un texte plus clair et plus accessible en français. On notera aussi que la traduction 3 présente quelques latinismes absents des versions précédentes.</p>
             <p>D’après ses deux plus anciens témoins (Paris, Bibl. nat. de Fr., fr. 198 et Paris, Bibl. nat. de Fr., fr. 20119), la traduction 3 date au plus tard du 3<hi rend="sup">e</hi> quart du 13<hi rend="sup">e</hi> s.</p>
-            <div type="tradition_texte">
+            <div xml:id="française_3_tradition-textuelle" type="tradition_texte">
               <head>Tradition textuelle</head>
               <listWit>
                 <witness xml:id="E">
-                  <ref target="#fr_198">
+                  <ref target="justinien_codex_notice?refId=française_3_manuscrits#fr_198">
                     <msDesc corresp="#fr_198">
                       <msIdentifier>
                         <country>France</country>
@@ -11441,7 +11442,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="F">
-                  <ref target="#fr_200">
+                  <ref target="justinien_codex_notice?refId=française_3_manuscrits#fr_200">
                     <msDesc corresp="#fr_200">
                       <msIdentifier>
                         <country>France</country>
@@ -11454,7 +11455,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="J">
-                  <ref target="#fr_20119">
+                  <ref target="justinien_codex_notice?refId=française_3_manuscrits#fr_20119">
                     <msDesc corresp="#fr_20119">
                       <msIdentifier>
                         <country>France</country>
@@ -11579,7 +11580,7 @@
               </app>). Il est impossible de savoir d’après C. 2.7 et les rubriques si <hi rend="i">E</hi> dérive de <hi rend="i">J</hi>. La seule erreur de <hi rend="i">J</hi> absente de <hi rend="i">E</hi> peut avoir été corrigée par conjecture. Peu importe à ce stade, puisque toute édition du texte devra s’appuyer sur <hi rend="i">J</hi> et enregistrer les variantes de <hi rend="i">E</hi>. Il importait en revanche (en vertu de l’adage
                 <foreign xml:lang="lat">recentiores non deteriores</foreign>) de vérifier si <hi rend="i">J</hi> ne présentait pas un texte plus fautif que <hi rend="i">E</hi>.</p>
             </div>
-            <div type="manuscrit">
+            <div xml:id="française_3_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Paris, Bibl. nat. de Fr., fr. 198</head>
@@ -15426,11 +15427,11 @@
               <quote>province</quote>), mais tend parfois à transformer le <title>Code</title> en une <foreign xml:lang="lat">continuatio titulorum</foreign>, en une suite de <foreign xml:lang="lat">casus</foreign> et de paraphrases de lois. Nombreux sont les paragraphes du texte original omis. Pour plus de clarté, chaque titre s’ouvre par une présentation du sujet traité et beaucoup se concluent par des citations des <title>Authentiques</title> venant compléter le <title>Code</title>.</p>
             <p>On pourrait certes se demander si cette traduction-compilation-abréviation (très légère) est bien l’oeuvre d’un traducteur et si elle ne traduit pas un texte-source latin de même type, aujourd’hui non-identifié.</p>
             <p>La traduction 4 n’est pas postérieure au troisième quart du 13<hi rend="sup">e</hi> s., date du manuscrit de Giessen et sans doute du manuscrit Paris, Bibl. nat. de Fr., fr. 497. Elle n’est donc pas très éloignée chronologiquement de la première tradition traductive, même si certains choix lexicaux latinisants tendraient à la situer en aval. Ses deux plus anciens témoins conservés sont sans doute d’origine parisienne, mais cela ne suffit pas à nous éclairer sur l’origine de la traduction même.</p>
-            <div type="tradition_texte">
+            <div xml:id="française_4_tradition-textuelle" type="tradition_texte">
               <head>Tradition textuelle</head>
               <listWit>
                 <witness xml:id="A">
-                  <ref target="#giessen_945">
+                  <ref target="justinien_codex_notice?refId=française_4_manuscrits#giessen_945">
                     <msDesc corresp="#giessen_945">
                       <msIdentifier>
                         <country>Allemagne</country>
@@ -15445,7 +15446,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="H">
-                  <ref target="#fr_497">
+                  <ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_497">
                     <msDesc corresp="#fr_497">
                       <msIdentifier>
                         <country>France</country>
@@ -15460,7 +15461,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="I">
-                  <ref target="#fr_1934">
+                  <ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_1934">
                     <msDesc corresp="#fr_1934">
                       <msIdentifier>
                         <country>France</country>
@@ -15475,7 +15476,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="L">
-                  <ref target="#fr_20121">
+                  <ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_20121">
                     <msDesc corresp="#fr_20121">
                       <msIdentifier>
                         <country>France</country>
@@ -15490,7 +15491,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="M">
-                  <ref target="#bsg_484">
+                  <ref target="justinien_codex_notice?refId=française_4_manuscrits#bsg_484">
                     <msDesc corresp="#bsg_484">
                       <msIdentifier>
                         <country>France</country>
@@ -16358,22 +16359,22 @@
                         <label>ω</label>
                         <eTree type="extant">
                           <eLeaf type="extant">
-                            <label><ref target="#fr_497">H</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_497">H</ref></label>
                           </eLeaf>
                           <eTree type="extant">
-                            <label><ref target="#fr_20121">L</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_20121">L</ref></label>
                             <eLeaf type="extant">
-                              <label><ref target="#bsg_484">M</ref></label>
+                              <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#bsg_484">M</ref></label>
                             </eLeaf>
                           </eTree>
                         </eTree>
                         <eTree type="hypothetical">
                           <label>α</label>
                           <eLeaf type="extant">
-                            <label><ref target="#fr_1934">I</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_1934">I</ref></label>
                           </eLeaf>
                           <eLeaf type="extant">
-                            <label><ref target="#giessen_945">A</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#giessen_945">A</ref></label>
                           </eLeaf>
                         </eTree>
                       </eTree>
@@ -16381,25 +16382,25 @@
                         <label>ω</label>
                         <eTree type="hypothetical">
                           <eLeaf type="extant">
-                            <label><ref target="#fr_497">H</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_497">H</ref></label>
                           </eLeaf>
                           <eTree type="hypothetical">
                             <label>β</label>
                             <eLeaf>
-                              <label><ref target="#fr_20121">L</ref></label>
+                              <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_20121">L</ref></label>
                             </eLeaf>
                             <eLeaf>
-                              <label><ref target="#bsg_484">M</ref></label>
+                              <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#bsg_484">M</ref></label>
                             </eLeaf>
                           </eTree>
                         </eTree>
                         <eTree type="hypothetical">
                           <label>α</label>
                           <eLeaf type="extant">
-                            <label><ref target="#fr_1934">I</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#fr_1934">I</ref></label>
                           </eLeaf>
                           <eLeaf type="extant">
-                            <label><ref target="#giessen_945">A</ref></label>
+                            <label><ref target="justinien_codex_notice?refId=française_4_manuscrits#giessen_945">A</ref></label>
                           </eLeaf>
                         </eTree>
                       </eTree>
@@ -16418,7 +16419,7 @@
                 <bibl>Hans van de Wouw, <title level="a">Quelques remarques sur les versions françaises médiévales des textes de droit romain</title>, dans Aquilino José Iglesia Ferreirós (éd.), <title>El Dret Comú i Catalunya: actes del IIIer Simposi Internacional, Barcelona, 5-7 de novembre de 1992</title>, Barcelone, 1993, p. 139-150</bibl>
               </listBibl>
             </div> 
-            <div type="manuscrit">
+            <div xml:id="française_4_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Giessen, Universitätsbibliothek, 945</head>
@@ -26187,7 +26188,7 @@
               <bibl>A. Gouron, <title level="a">L’auteur du <title>Codi</title></title>, dans <title>Tijdschrift voor Rechtsgeschiedenis</title>, t. 70, 2002, p. 1-20 (= reprint dans A. Gouron, <title>Pionniers du droit occidental au Moyen Age</title>, Londres, 2006, XI)</bibl>
               <bibl>J. Kabatek, <title>Die bolognesische Renaissance und der Ausbau romanischer Sprachen : juristische Diskurstraditionen und Sprachentwicklung in Südfrankreich und Spanien im 12. und 13. Jahrhundert</title>, Tübingen, 2005 (Beihefte z. ZRP, 321)</bibl>
             </listBibl>
-            <div type="manuscrit">
+            <div xml:id="codi_occitan_manuscrits" type="manuscrit">
               <head>Manuscrits</head>
               <div>
                 <head>Paris, Bibl. nat. de Fr., fr. 1932</head>
@@ -33461,7 +33462,7 @@
                 </div>
               </div>
             </div>
-            <div type="manuscrit">
+            <div xml:id="codi_occitan_fragments" type="manuscrit">
               <head>Fragments</head>
               <div>
                 <head>Agen, Arch. dép. du Lot-et-Garonne, B1</head>
@@ -33647,7 +33648,7 @@
                 </div>
               </div>
             </div>
-            <div type="deperdita">
+            <div xml:id="codi_occitan_manuscrits-perdus" type="deperdita">
               <head>Manuscrits perdus</head>
               <list type="deperdita">
                 <item xml:id="codi_martin_daragon"><title type="nom_ms">Manuscrit ayant appartenu à la bibliothèque de Martin d’Aragon</title><p><bibl>H. Suchier, <title>Manuscrits perdus de la Somme provençale du Code de Justinien</title>, Toulouse, 1894, p. 6</bibl>, a signalé une copie listée dans l’inventaire de la bibliothèque de <persName role="possesseur" key="Martin d'Aragon">Martin d’Aragon</persName> (mort en 1410), f. 18 : n°131 <quote>Item un altre appellat Codi en tholoza scrit en pergamins ab posts de fust e cuberta de cuyro vermell sens tancadors, lo qual comença en vermello: « De summa trinitate » e en lo negre: « De totes les cosas », e faneix: « Antequam mors sequatuur amen »</quote>.</p>
@@ -33672,7 +33673,7 @@
             <p>On conserve trois manuscrits du Codi en français :
               <listWit>
                 <witness xml:id="f">
-                  <ref target="#fr_1069">
+                  <ref target="justinien_codex_notice?refId=version_longue#fr_1069">
                     <msDesc corresp="#fr_1069">
                       <msIdentifier>
                         <country>France</country>
@@ -33687,7 +33688,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="g">
-                  <ref target="#fr_1070">
+                  <ref target="justinien_codex_notice?refId=version_abregee#fr_1070">
                     <msDesc corresp="#fr_1070">
                       <msIdentifier>
                         <country>France</country>
@@ -33700,7 +33701,7 @@
                   </ref>
                 </witness>
                 <witness xml:id="h">
-                  <ref target="#fr_1933">
+                  <ref target="justinien_codex_notice?refId=version_longue#fr_1933">
                     <msDesc corresp="#fr_1933">
                       <msIdentifier>
                         <country>France</country>
@@ -33722,15 +33723,15 @@
             <eTree type="hypothetical" xml:id="stemma4">
               <label>ω</label>
               <eLeaf type="extant">
-                <label><ref target="#fr_1069">F</ref></label>
+                <label><ref target="justinien_codex_notice?refId=version_longue#fr_1069">F</ref></label>
               </eLeaf>
               <eTree type="hypothetical">
                 <label>α</label>
                 <eLeaf type="extant">
-                  <label><ref target="#fr_1070">G</ref></label>
+                  <label><ref target="justinien_codex_notice?refId=version_abregee#fr_1070">G</ref></label>
                 </eLeaf>
                 <eLeaf type="extant">
-                  <label><ref target="#fr_1933">H</ref></label>
+                  <label><ref target="justinien_codex_notice?refId=version_longue#fr_1933">H</ref></label>
                 </eLeaf>
               </eTree>
             </eTree>
@@ -37732,7 +37733,7 @@
                 </div>
               </div>
             </div>
-            <div type="deperdita">
+            <div xml:id="codi_française_manuscrits-perdus" type="deperdita">
               <head>Manuscrits perdus</head>
               <list type="deperdita">
                 <item xml:id="codi_fr_martin_daragon"> <title type="nom_ms">Manuscrit ayant appartenu à la bibliothèque de Martin d’Aragon (mort en 1410)</title>
@@ -37763,7 +37764,7 @@
               <head>Edition</head>
               <bibl>L. Royer et A. Thomas, <title level="a">La Somme du Code. Texte dauphinois de la région de Grenoble, publié d’après un manuscrit du XIIIe siècle appartenant à la bibliothèque du château d’Uriage</title>, dans <title>Notices et extraits des manuscrits de la Bibliothèque nationale et autres bibliothèques</title>, t. XLII, Paris, 1929</bibl>
             </listBibl>
-            <div type="manuscrit">
+            <div xml:id="codi_francoprovencal_grenoble-bibl-num-ms-8874-reserv" type="manuscrit">
               <head>Grenoble, bibl. num., ms. 8874 réserve (3688)</head>
               <msDesc xml:id="grenoble_8874" source="http://medium-avance.irht.cnrs.fr/ark:/63955/md3331980s9x"><!-- type="biblissima" -->
                 <msIdentifier>
@@ -38754,7 +38755,7 @@
               <bibl>H. Suchier, <title>Fünf neue Handschriften des provenzalischen Rechtsbuchs <title>Lo Codi</title></title>, Halle, 1899, p. 7</bibl>
               <bibl>F. Duval, <title level="a">Les avatars romans du <title>Codi</title> (1149-<hi rend="i">ca</hi> 1160)</title> [à paraître]</bibl>
             </listBibl>
-            <div type="manuscrit">
+            <div xml:id="codi_trad-occitan_paris-bibl-nat-de-fr-fr-2426" type="manuscrit">
               <head>Paris, Bibl. nat. de Fr., fr. 2426</head>
               <msDesc xml:id="fr_2426" source="http://gallica.bnf.fr/ark:/12148/btv1b9059989b"><!-- type="biblissima" -->
                 <msIdentifier>
@@ -38859,9 +38860,9 @@
         </div>
         <div type="tradition_traductive" xml:id="summa_azonis" n="II.2">
           <head><title>Summa Azonis</title></head>
-          <div type="manuscrit">
+          <div xml:id="summa_azonis_manuscrits" type="manuscrit">
             <head>Manuscrits</head>
-            <div>
+            <div xml:id="summa_azonis_manuscrits_bruxelles-bibl-royale-de-belgiqu">
               <head>Bruxelles, Bibl. royale de Belgique, mss 9251-9252</head>
               <msDesc xml:id="kbr_9251" source="ARK_manuscrit"><!-- type="biblissima" -->
                 <msIdentifier>
@@ -40226,7 +40227,7 @@
                 </additional>
               </msDesc>
             </div>
-            <div>
+            <div xml:id="summa_azonis_manuscrits_paris-bibl-nat-de-fr-fr-22969">
               <head>Paris, Bibl. nat. de Fr., fr. 22969</head>
               <msDesc xml:id="fr_22969" source="http://gallica.bnf.fr/ark:/12148/btv1b84478693"><!-- type="biblissima" -->
                 <msIdentifier>
@@ -43277,7 +43278,7 @@
                 </additional>
               </msDesc>
             </div>
-            <div>
+            <div xml:id="summa_azonis_manuscrits_vatican-bibl-apostolica-vaticana">
               <head>Vatican, Bibl. apostolica Vaticana, Reg. lat. 1063</head>
               <msDesc xml:id="bav_1063" source="http://medium-avance.irht.cnrs.fr/ark:/63955/md935138m22g"><!-- type="biblissima" -->
                 <msIdentifier>

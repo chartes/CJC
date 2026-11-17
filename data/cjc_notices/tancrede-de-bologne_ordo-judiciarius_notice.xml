@@ -67,13 +67,13 @@
         <p>Édition électronique du Corpus Juris Civilis, corpus de compilations et traductions médiévales françaises en lien avec le droit romain.</p>
       </projectDesc>
       <refsDecl>
-        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="part">
+        <citeStructure match="/TEI[1]/text[1]/body[1]/div" use="@xml:id" unit="notice">
           <citeData use="head" property="dct:title"/>
           <citeStructure match="div" use="@xml:id" unit="traduction">
             <citeData use="head" property="dct:title"/>
-            <citeStructure match="div" use="@xml:id" unit="état">
+            <citeStructure match="div" use="@xml:id" unit="section">
               <citeData use="head" property="dct:title"/>
-              <citeStructure match="div[head != '']" use="@xml:id" unit="état">
+              <citeStructure match="div[head != '']" use="@xml:id" unit="sous-section">
                 <citeData use="head" property="dct:title"/>
               </citeStructure>
             </citeStructure>
@@ -82,12 +82,13 @@
       </refsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Découpage des pages dots-vue : troisième niveau (feuille) renommé « section », quatrième (sans division titrée) « sous-section » ; premier niveau renommé « notice » (le type « part » des éditions reste le niveau d'édition, une notice se lit niveau par niveau) ; dernier niveau de citeStructure renommé « section » (même unit que le niveau au-dessus) ; 6 divisions citables reçoivent un xml:id (au lieu des rNNN de DoTS) ; 18 renvois internes qui changent de page deviennent des liens relatifs (tancrede-de-bologne_ordo-judiciarius_notice?refId=…).</change>
       <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
     </revisionDesc>
   </teiHeader>
   <text>
     <body>
-      <div type="presentation">
+      <div xml:id="ordo-judiciarius" type="presentation">
         <head>Ordo judiciarius</head>
         <p>Tancrède de Bologne, a écrit, entre 1214 et 1216, à la demande de ses
           <foreign xml:lang="lat">socii</foreign>, un <title xml:lang="lat">ordo judiciarius</title>, autrement dit un traité systématique ayant pour but d’exposer la doctrine et le développement du procès dans son ensemble, depuis l’introduction du libelle jusqu’à l’application des voies de recours susceptibles d’être exercées contre la sentence dès qu’elle a été prononcée. Son exposé se distingue par sa clarté, son ampleur et les connaissances qu’il révèle, tant en droit civil qu’en droit canonique. L’<title xml:lang="lat">ordo</title> de Tancrède s’inspire surtout de l’<title>Ordo « Invocato Christi nomine »</title> (peu avant 1198), auquel il ajoute une partie liminaire consacrée aux personnes impliquées dans le procès. Suivent trois autres parties : les actes introductifs et préparatoires du procès ; les actes qui constituent proprement le procès, de la <foreign xml:lang="lat">litiscontestatio</foreign> à la sentence ; enfin les actes qui terminent le procès et le suivent : sentence, exécution de la sentence, voies de recours exercées contre la sentence et contre son exécution.</p>
@@ -114,12 +115,12 @@
         </dateline>
         <p>La date précise de la traduction est inconnue. La seule indication explicite nous vient du ms de Tours, aujourd’hui détruit, qui rapportait en 1334 que l’<title xml:lang="lat">Ordo</title> avait été <quote>translaté (...) de latin en françays pour le noble Philippe, roy de France</quote>. Il peut s’agir de Philippe III (1270-1285), de Philippe IV (1285-1314), de Philippe V (1316-1322) ou de Philippe VI (1328-1350). Comme les plus anciens témoins semblent dater du dernier quart du 13e s. (Paris, Bibl. nat. de Fr., fr. 1073, fr. 1074 ; Metz, bibl. mun. 1196), il faut en rester à l’un des deux premiers souverains. Il est donc fort probable que la traduction soit postérieure à la mort de saint Louis et qu’elle ait été confectionnée dans le dernier tiers du 13e s.</p>
         <p>Le texte-source de la traduction semble se rapprocher de la vulgate française, telle que la transmet l’édition strasbourgeoise de 1545. L’édition critique de Bergmann, en revanche, s’en éloigne très nettement. Compte tenu des incertitudes pesant sur le texte latin dont disposait le traducteur anonyme de l’<title>Ordo</title>, la traduction française se signale par un soigneux travail de vulgarisation. Le texte français évite d’ordinaire la répétition de principes énoncés sous une forme identique ou peu variante dans plusieurs sources en ne retenant qu’une seule citation. De même, lorsque deux décrétales sont alléguées, seule est retenue en français celle qui est citée (cf. II.1.3.1 et II.1.3.4). La lisibilité du texte auprès d’un public moins expert que les destinataires du texte latin est également assurée par le développement des références : <q xml:lang="lat">ut extra de for. comp. c. Cum sit generale</q> est rendu par ex. par <quote>ce avons nos en la descretale el titre « de cort avenant » qui commence « Cum sit generale »</quote>. Plus généralement, le style épuré et très concis du latin fait l’objet d’une amplification rhétorique, qui se traduit notamment par l’introduction de chevilles, de transitions, d’éléments narratifs, rompant avec la juxtaposition d’éléments techniques en latin. En est un bon exemple le remaniement de <q xml:lang="lat">Quis debeat esse judex ordinarius alicujus. Responsio.</q> en <quote>Or covient veoir qui puet estre juges ordinaires. a aucun. et je respoing. que...</quote> (II.1.2). Au final, le texte français, en renonçant aux redondances du latin et en gommant l’aspect technique du texte-source, donne accès à l’<title xml:lang="lat">Ordo</title> de Tancrède à un public plus large sans perte d’information importante. En ce sens, il s’inscrit dans la lignée vulgarisante de son texte-source, qui citait les textes allégués par Tancrède, alors que la version originale se contentait des références.</p>
-        <div type="tradition_texte">
+        <div xml:id="fr_anonyme_tradition-textuelle" type="tradition_texte">
           <head>Tradition textuelle</head>
          <p> <listWit>
             <head>Conspectus siglorum</head>
             <witness xml:id="A">
-              <ref target="#kbr_21227"><!-- Pour renvoyer à la notice -->
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#kbr_21227"><!-- Pour renvoyer à la notice -->
                 <msDesc corresp="#kbr_21227">
                   <msIdentifier>
                     <country>Belgique</country>
@@ -134,7 +135,7 @@
               </ref>
             </witness>
             <witness xml:id="B">
-              <ref target="#metz_1196">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#metz_1196">
                 <msDesc corresp="#metz_1196">
                   <msIdentifier>
                     <country>France</country>
@@ -149,7 +150,7 @@
               </ref>
             </witness>
             <witness xml:id="C">
-              <ref target="#marston_228">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#marston_228">
                 <msDesc corresp="#marston_228">
                   <msIdentifier>
                     <country>Etats-Unis</country>
@@ -163,7 +164,7 @@
                 </msDesc></ref>
             </witness>
             <witness xml:id="D">
-              <ref target="#fr_1073">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1073">
                 <msDesc corresp="#fr_1073">
                   <msIdentifier>
                     <country>France</country>
@@ -177,7 +178,7 @@
                 </msDesc></ref>
             </witness>
             <witness xml:id="E">
-              <ref target="#fr_1074">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1074">
                 <msDesc corresp="#fr_1074">
                   <msIdentifier>
                     <country>France</country>
@@ -192,7 +193,7 @@
               </ref>
             </witness>
             <witness xml:id="F">
-              <ref target="#fr_1075">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1075">
                 <msDesc corresp="#fr_1075">
                   <msIdentifier>
                     <country>France</country>
@@ -207,7 +208,7 @@
               </ref>
             </witness>
             <witness xml:id="G">
-              <ref target="#fr_25546">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_25546">
                 <msDesc corresp="#fr_25546">
                   <msIdentifier>
                     <country>France</country>
@@ -222,7 +223,7 @@
               </ref>
             </witness>
             <witness xml:id="H">
-              <ref target="#nafr_10046">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#nafr_10046">
                 <msDesc corresp="#nafr_10046">
                   <msIdentifier>
                     <country>France</country>
@@ -237,7 +238,7 @@
               </ref>
             </witness>
             <witness xml:id="I">
-              <ref target="#stomer_545">
+              <ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#stomer_545">
                 <msDesc corresp="#stomer_545">
                   <msIdentifier>
                     <country>France</country>
@@ -252,7 +253,7 @@
               </ref>
             </witness>
           </listWit></p>
-          <div type="temoins">
+          <div xml:id="fr_anonyme_tradition-textuelle_regroupement-des-temoins" type="temoins">
             <head>Regroupement des témoins</head>
             <p>La généalogie des manuscrits a été examinée à partir de la collation des rubriques et du titre II.1.</p>
             <list type="temoins">
@@ -618,23 +619,23 @@
                   <eTree type="hypothetical">
                     <label>α</label>
                     <eLeaf type="extant">
-                      <label><ref target="#fr_1075">F</ref></label>
+                      <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1075">F</ref></label>
                     </eLeaf>
                     <eLeaf type="extant">
-                      <label><ref target="#nafr_10046">H</ref></label>
+                      <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#nafr_10046">H</ref></label>
                     </eLeaf>
                   </eTree>
                   <eLeaf type="extant">
-                    <label><ref target="#fr_25546">G</ref></label>
+                    <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_25546">G</ref></label>
                   </eLeaf>
                 </eTree>
                 <eTree type="hypothetical">
                   <label>χ</label>
                   <eLeaf type="extant">
-                    <label><ref target="#metz_1196">B</ref></label>
+                    <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#metz_1196">B</ref></label>
                   </eLeaf>
                   <eLeaf type="extant">
-                    <label><ref target="#stomer_545">I</ref></label>
+                    <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#stomer_545">I</ref></label>
                     <ptr type="contamination" target="#e"/>
                   </eLeaf>
                 </eTree>
@@ -642,21 +643,21 @@
               <eTree type="hypothetical">
                 <label>ε</label>
                 <eLeaf type="extant" xml:id="e">
-                  <label><ref target="#fr_1074">E</ref></label>
+                  <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1074">E</ref></label>
                 </eLeaf>
                 <eTree type="hypothetical">
                   <label>δ</label>
                   <eTree type="hypothetical">
                     <label>γ</label>
                     <eLeaf type="extant">
-                      <label><ref target="#kbr_21227">A</ref></label>
+                      <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#kbr_21227">A</ref></label>
                     </eLeaf>
                     <eLeaf type="extant">
-                      <label><ref target="#marston_228">C</ref></label>
+                      <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#marston_228">C</ref></label>
                     </eLeaf>
                   </eTree>
                   <eLeaf type="extant">
-                    <label><ref target="#fr_1073">D</ref></label>
+                    <label><ref target="tancrede-de-bologne_ordo-judiciarius_notice?refId=fr_anonyme_manuscrit_copies-existantes#fr_1073">D</ref></label>
                   </eLeaf>
                 </eTree>
               </eTree>
@@ -668,9 +669,9 @@
             </listBibl>
           </div>
         </div>
-        <div type="manuscrit" n="I.1">
+        <div xml:id="fr_anonyme_manuscrit" type="manuscrit" n="I.1">
           <head>Manuscrit</head>
-          <div type="listMs">
+          <div xml:id="fr_anonyme_manuscrit_copies-existantes" type="listMs">
             <head>Copies existantes</head>
             <div corresp="ARK_manuscrit"><!-- xml:id="kbr_21227" -->
               <head/>
@@ -4930,7 +4931,7 @@
             </div>
           </div>
         </div>
-        <div type="deperdita" n="I.2">
+        <div xml:id="fr_anonyme_deperdita" type="deperdita" n="I.2">
           <head/>
           <list type="deperdita">
             <head>Manuscrits détruits</head>
