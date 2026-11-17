@@ -74,6 +74,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
       <change/>
     </revisionDesc>
   </teiHeader>
@@ -84,7 +85,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.1.0">
           <head>[2.1.0 De edendo]  <lb/><seg type="rubric">Cist titres est de fere
               sa demande et de monstrer les resons par coi l’en commande.</seg></head>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.1.1"><label>[2.1.1]</label><hi rend="b"> L</hi>i<note place="bottom"><hi rend="i">Lettre enluminée.</hi></note> empereres Pius dit à Amil. <hi rend="b">T</hi>u meismes regardes comment tu puisses prover que li denier te soient deu que tu
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.1.1"><label>[2.1.1]</label><hi rend="b"> L</hi>i<note n="a" place="bottom"><hi rend="i">Lettre enluminée.</hi></note> empereres Pius dit à Amil. <hi rend="b">T</hi>u meismes regardes comment tu puisses prover que li denier te soient deu que tu
             diz que tu baillas à garder. Quar ce par coi que tu requiers que cele contre qui tu pledes
             mete avant ses resons selt apartenir à l’office au juge por aucune cause necessaire.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.1.2"><label>[2.1.2]</label>
@@ -102,9 +103,9 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.1.4"><label>[2.1.4]</label>
             <hi rend="b">L</hi>i empereres Antonins dit à Epafrodit. <hi rend="b">C</hi>il qui velent
             acuser doivent avoir prueves, quar la reson de droit ne de loiauté n’octroie pas que
-            poesté soit donee à aucun<note place="bottom">i <hi rend="i">exponctué après</hi>
+            poesté soit donee à aucun<note n="b" place="bottom">i <hi rend="i">exponctué après</hi>
               aucun.</note> de regarder les instrumenz à son aversaire. E se li demanderres ne prueve,
-            cil qui est trez en <cb n="34c"/> cause ait gaaignié la cause, ja soit ce que il ne<note place="bottom">p <hi rend="i">exponctué après</hi> ne.</note> prueve rien.</p>
+            cil qui est trez en <cb n="34c"/> cause ait gaaignié la cause, ja soit ce que il ne<note n="c" place="bottom">p <hi rend="i">exponctué après</hi> ne.</note> prueve rien.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.1.5"><label>[2.1.5]</label>
             <hi rend="b">L</hi>i empereres Alixandres dit à Valentine. <hi rend="b">I</hi>l n’est pas
             novele chose que cil à qui denier sont demandé demant a vooir les resons au creancier, si
@@ -145,8 +146,8 @@
               <corr resp="#ed">se par que</corr>
             </choice>, se pardons de banissement n’est requis, li patrons ou la patrone ou leur pere
             ou leur enfanz ou leur oir, ja soit ce que il soient estrange, ne doivent pas estre trés
-            en cause par cels que il ont fran<cb n="34d"/>chi<note place="bottom"><hi rend="i">Réclame</hi> chi <hi rend="i">dans la marge inférieure.</hi></note> ne par leur
-            enfanz ; ne pardons ne soit pas<note place="bottom">dons <hi rend="i">exponctué après</hi>
+            en cause par cels que il ont fran<cb n="34d"/>chi<note n="a" place="bottom"><hi rend="i">Réclame</hi> chi <hi rend="i">dans la marge inférieure.</hi></note> ne par leur
+            enfanz ; ne pardons ne soit pas<note n="b" place="bottom">dons <hi rend="i">exponctué après</hi>
               pas.</note> donez en ceste chose as coutiveors des chans, porce que il ne sevent pas le
             le droit, quar onor est deue a tels persones par naturel reson. Porce que tu reconis donc
             que tu feis semondre le fil à ton patron sanz l’otroi au prevost, tu requiers folement que
@@ -154,7 +155,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.2.3"><label>[2.2.3]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient a Rozant. <hi rend="b">C</hi>il
             qui sont en la poesté leur peres ne pueent pas pledier a els. Se tu es donc hors de bail
-            et tu as demandé pardon<note place="bottom">par donc <hi rend="i">avec</hi> c <hi rend="i">exponctué</hi>.</note> del pardurable banissement, il ne t’est pas deveé à trere ton
+            et tu as demandé pardon<note n="c" place="bottom">par donc <hi rend="i">avec</hi> c <hi rend="i">exponctué</hi>.</note> del pardurable banissement, il ne t’est pas deveé à trere ton
             pere en cause. E ce meisme doit gardé en la persone à la mere.</p>
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.3.0">
@@ -162,7 +163,7 @@
               covenanz.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.1"><label>[2.3.1]</label><hi rend="b"> L</hi>i empereor Sevoirs et
             Antonins dient à Filin. <hi rend="b">C</hi>e qui estoit en doute par condition a esté finé
-            par convenance par bone reson. Porce que tu reconois donc que<note place="bottom">tu
+            par convenance par bone reson. Porce que tu reconois donc que<note n="a" place="bottom">tu
               reconois <hi rend="i">exponctué après</hi> que.</note> il fu requis a ton pere par
             paroles de chose enjointe en testament que, se il moroit sanz enfanz, il rendist l’eritage
             a Fronton son frere, li covenanz qui fu fez de rendre a Fronton la siste part de l’eritage
@@ -170,7 +171,7 @@
             departirent leur eritage si comme il vodrent, et que tes peres morut puis que tu fus
             nez.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.2"><label>[2.3.2]</label>
-            <hi rend="b">L</hi>i empereor Antonins<note place="bottom">dient <hi rend="i">exponctué
+            <hi rend="b">L</hi>i empereor Antonins<note n="b" place="bottom">dient <hi rend="i">exponctué
                 après</hi> Antonins.</note> et Sevoirs dient à Claudi. <hi rend="b">Q</hi>uant tu eus
             vendu ton heritage, se ti creancier murent leur accions contre les acheteors, et li
             acheteors les reçurent de leur gré, tu te puez bien deffendre par exception de covenant
@@ -224,8 +225,8 @@
             terre proisiee fu donee en doere, si comme une partie de l’instrument le mostre, tu puez
             avoir accion de vente, que li covenant soient gardé.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.12"><label>[2.3.12]</label>
-            <hi rend="b">C</hi>il meismes empereres dit à Facsle<note place="bottom"><hi rend="i">corrigé après l’écriture en</hi> facisle<hi rend="i"> par l’ajout d’un</hi> i<hi rend="i"> suscrit dans une encre brune plus claire que le corps du texte.</hi></note>.
-              <hi rend="b">L</hi>a reson de droit et de loiauté requier<note place="bottom">sic</note>
+            <hi rend="b">C</hi>il meismes empereres dit à Facsle<note n="c" place="bottom"><hi rend="i">corrigé après l’écriture en</hi> facisle<hi rend="i"> par l’ajout d’un</hi> i<hi rend="i"> suscrit dans une encre brune plus claire que le corps du texte.</hi></note>.
+              <hi rend="b">L</hi>a reson de droit et de loiauté requier<note n="d" place="bottom">sic</note>
             que li derrenier covenant soient gardé. E por ce, se la partie qui est contre toi s’as<cb n="35b"/>senti que ele n’useroit pas de la covenance qui fu premierement fete, et
             meesmement se ele le dist en cort, si comme tu proposes, il ne t’est pas deveé à metre
             avant l’accion qui avoit esté sus la premiere covenance.</p>
@@ -238,14 +239,14 @@
             covenant que tu diz que tes aversaires te pramist se il ne tenoit le covenant, se tu
             pledes por la paine, tu gaaigneras ou que li covenanz soit tenuz ou que la paine te soit
             rendue ; quar tu requiers por niant et contre la solempnel ordre que li bien à ton
-            aversaire te soient<note place="bottom">te soient <hi rend="i">répété.</hi></note>
+            aversaire te soient<note n="e" place="bottom">te soient <hi rend="i">répété.</hi></note>
             baillié.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.15"><label>[2.3.15]</label>
             <hi rend="b">L</hi>i empereor Valeris et Gallians dient à Valerian noble home. <hi rend="b">L</hi>i covenanz qui fu mis en l’instrument del doere, que se li peres moroit
             sa fille que il marioit fust oirs o son frere et eust de l’eritage autretant comme il, ne
             pot fere nul obligement ne tolir au pere franche poesté de fere testament.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.16"><label>[2.3.16]</label>
-            <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Diofant. <hi rend="b">P</hi>orce que tu proposes que li fil qui furent escrit<note place="bottom">escrit <hi rend="i">répété.</hi></note> oir el testament leur pere furent proié que cil qui
+            <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Diofant. <hi rend="b">P</hi>orce que tu proposes que li fil qui furent escrit<note n="f" place="bottom">escrit <hi rend="i">répété.</hi></note> oir el testament leur pere furent proié que cil qui
             morroit premierement rendist à l’autre sa partie de l’eritage, et tu affermes que il
             s’entrequiterent de ce donc il avoient esté proié, nus ne puet chalengier riens vers
             l’autre por cele proiere.</p>
@@ -257,7 +258,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.18"><label>[2.3.18]</label> Cil meisme empereor dient à Juil et à
             Heumil. <hi rend="b">S</hi>e vos provez que vostre creancier aient receu aucun de vos qui
             paia une partie de la dete por sa persone, quant vos en requeroiz le governeor de la
-            contree, il porverra par s’auctorité que li uns ne<note place="bottom">l <hi rend="i">exponctué après</hi> ne.</note> soit pas emplediez por l’autre.</p>
+            contree, il porverra par s’auctorité que li uns ne<note n="g" place="bottom">l <hi rend="i">exponctué après</hi> ne.</note> soit pas emplediez por l’autre.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.19"><label>[2.3.19]</label> Cil meisme empereor dient. <hi rend="b">J</hi>a soit ce que li escriz en coi il est compris que cil qui vivra plus longement
             ait les choses à l’autre ne mostre pas parfetement entre la menue gent senblance de don
             qui est fez por cause de mort, neporquant, porce que la volenté as chevaliers, qui est
@@ -269,7 +270,7 @@
             toz li gaainz des choses ton frere doit venir à toi par son jugement, qui est confermez
             par l’otroi des establissemenz as princes.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.25"><label>[2.3.25]</label>
-            <hi rend="b">C</hi>il meisme empereor dient<note place="bottom">à Eusebe <hi rend="i">exponctué après</hi> dient.</note> à Marcial. <hi rend="b">L</hi>es seignories des
+            <hi rend="b">C</hi>il meisme empereor dient<note n="h" place="bottom">à Eusebe <hi rend="i">exponctué après</hi> dient.</note> à Marcial. <hi rend="b">L</hi>es seignories des
             choses sont remuees par livrer les, et par estre en mis en sesine, et ne mie par nus
             covenanz.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.21"><label>[2.3.21]</label>
@@ -279,10 +280,10 @@
             cause de transsaccion, tu te puez deffendre par exception se tu es en sesine. Mes se tes
             aversaires tient, tu doiz entendre que nule action n’est vee à toi de cest covenant, se tu
             ne te porvoiz de metre i paine, ne il ne sera pas otroié à ton aversaire que il use de
-              la<note place="bottom">traison <hi rend="i">exponctué après</hi> la. </note>
+              la<note n="i" place="bottom">traison <hi rend="i">exponctué après</hi> la. </note>
             transsaccion, se il ne velt acomplir les choses qui furent covenanciees.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.22"><label>[2.3.22]</label>
-            <hi rend="b">C</hi>il meisme empereor dient à Archelaïe<note place="bottom"><hi rend="i">ou</hi> Archelage <hi rend="i"/>?</note>. <hi rend="b">L</hi>’aages de plus de .xxxv.
+            <hi rend="b">C</hi>il meisme empereor dient à Archelaïe<note n="j" place="bottom"><hi rend="i">ou</hi> Archelage <hi rend="i"/>?</note>. <hi rend="b">L</hi>’aages de plus de .xxxv.
             anz fera que li covenanz au procureor qui pramist que il recevroit mains que l’en ne
             devoit à cels que il avoit en garde ne leur nuise pas ; quar li deffendeor et li procureor
             qui se font paier de ce que l’en doit à cels que il ont en garde delivrent les detors et
@@ -321,7 +322,7 @@
             de l’exception de cort avenant por sa chevalerie ou por sa digneté ou por l’avantage de
             l’ordre de provoire, ja soit ce que l’en soloit douter savoir mon se il covenoit tenir ce
             qui estoit escrit, si que cil qui ce prametoit ne devoit pas aler contre son covenant, ou
-            se il devoit partir soi de ce qui estoit<note place="bottom">estoit <hi rend="i">répété et
+            se il devoit partir soi de ce qui estoit<note n="k" place="bottom">estoit <hi rend="i">répété et
                 exponctué.</hi></note> escrit et user de sa droiture, neporquant nos establisson que
             il ne loise à nul à aler contre ce que il a escrit ne à decevoir cels qui font marchié à
             lui. E se li convenant sont fet par le banissement au prevost qui ne sont pas contre les
@@ -329,7 +330,7 @@
             coi ne vaudroient donc li covenant qui sont fet en cest cas. Quar il a une autre ruile en
             l’ancian droit qui dit que tuit ont congié de quiter les choses qui ont esté establies por
             els. Tuit nostre juge gardent donc ce es plez, et ceste forme viegne as juges delegaz et
-            as arbitres qui sont esleu. E sachent que se il<note place="bottom">a <hi rend="i">exponctué après</hi> il.</note> la despisent, il feront que li plez sera sus els.</p>
+            as arbitres qui sont esleu. E sachent que se il<note n="l" place="bottom">a <hi rend="i">exponctué après</hi> il.</note> la despisent, il feront que li plez sera sus els.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.3.30"><label>[2.3.30]</label>
             <hi rend="b">C</hi>il meismes empereres dit à cel meisme prevost. <hi rend="b">U</hi>ne
             tel demande nos a esté demandee de l’avocacie de Cesaire, se deus persones ou plusors
@@ -348,7 +349,7 @@
             meurs soient en totes manieres bouté arriere, et que rien ne soit gardé de tels covenances
             se cil de qui heritage li covenanz est ne s’i assent et dure en sa volenté jusqu’à la
             mort ; quar lors sera ostee tote mauvese esperance et il leur loira a garder cez covenanz
-            par son seu et par son commandement. Ne<note place="bottom">se <hi rend="i">exponctué
+            par son seu et par son commandement. Ne<note n="m" place="bottom">se <hi rend="i">exponctué
                 après</hi> ne.</note> ce n’est pas repost es lois et es establissemenz qui ont esté
             devant ceste, ja soit ce que nos l’avons dit plus clerement. <label>[4]</label> E nos
             commandons que dons de tels choses ne engagemenz ne soient receu, ne nus autres marchiez
@@ -362,7 +363,7 @@
             <hi rend="b">L</hi>i empereres Antonins dit à Cecil. <hi rend="b">C</hi>ovenance ne
             transsaccion qui est fete o les uns des deffendeors ne des procureors ne puet pas aidier
             as autres es choses que il firent ou durent fere communement ou chascun par soi. Porce que
-            tu as donc eu<note place="bottom">n <hi rend="i">exponctué devant</hi> eu.</note> trois
+            tu as donc eu<note n="a" place="bottom">n <hi rend="i">exponctué devant</hi> eu.</note> trois
             procureeors, et as fet transaccion o les deus, il ne t’est pas deveé a pledier au tierz,
             mes que ce ne soit pas de ce donc tu feis transaccion o les autres.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.2"><label>[2.4.2]</label> Cil meismes empereres dit à Lutitace. <hi rend="b">P</hi>orce que tu proposes que tu feis o ta suer transaccion de ton heritage,
@@ -370,14 +371,14 @@
             plet de l’eritage, neporquant dés que la transaccion fu fete por poor del <cb n="36b"/>
             plet, l’en entent que li denier furent pramis par droit. E se tu eusses por ceste cause
             paié les deniers, tu ne les deusses pas demander arrieres ; e se tu ne l’eusses paiez, tu
-            en fusses<note place="bottom">paiez <hi rend="i">exponctué après</hi> fusses.</note> par
+            en fusses<note n="b" place="bottom">paiez <hi rend="i">exponctué après</hi> fusses.</note> par
             droit tretié en cause.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.3"><label>[2.4.3]</label>
             <hi rend="b">L</hi>i empereres Alixandres dit à Julian. <hi rend="b">P</hi>lede, o
             Geminian, porce que ses peres qui fu tes <choice>
               <sic source="#C">procurres</sic>
               <corr resp="#ed">procureres</corr>
-            </choice><note>seurpleus <hi rend="i">avec</hi> e <hi rend="i">exponctué</hi>.</note> fist
+            </choice><note n="c">seurpleus <hi rend="i">avec</hi> e <hi rend="i">exponctué</hi>.</note> fist
             tes besoignes. E se il nie par devant le juge que il n’est pas tenuz a toi par cele accion
             porce que transaccion en fu fete, et que paine i fu assignee, li juges enquera por
             l’endroit del jugement qui est de bone foi de combien de deniers la transaccion fu fete. E
@@ -385,9 +386,9 @@
             t’estoit deu de l’aministration de tes choses, il covendra que il te pait le seurplus.
             Quar ce qui fu mis en la transaccion ne monte pas autretant comme ce qui t’estoit deu.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.4"><label>[2.4.4]</label>
-            <hi rend="b">C</hi>il meismes empereres dit à Aminid<note place="bottom"> <hi rend="i">lecture incertaine étant donné le nombre de jambages</hi>.</note>. <hi rend="b">Q</hi>uant action de garder<note place="bottom">garde <hi rend="i">avec haste du</hi> d
+            <hi rend="b">C</hi>il meismes empereres dit à Aminid<note n="d" place="bottom"> <hi rend="i">lecture incertaine étant donné le nombre de jambages</hi>.</note>. <hi rend="b">Q</hi>uant action de garder<note n="e" place="bottom">garde <hi rend="i">avec haste du</hi> d
                 <hi rend="i">barrée</hi>.</note> a esté finee par transaccion par celui qui est en
-            aage, nule action<note place="bottom">de garde <hi rend="i">exponctué après</hi>
+            aage, nule action<note n="f" place="bottom">de garde <hi rend="i">exponctué après</hi>
               action.</note> ne li remaint fors de tricherie. Mes cele puet il movoir dedenz deus anz,
             se transaccion n’est fete especialment de tricherie.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.5"><label>[2.4.5]</label>
@@ -395,7 +396,7 @@
             reconois que tu feis transaccion o l’oir à celui qui fu jadis tes deffenderres, se tu
             estoies en aage quant tu la feis, tu requiers por nient que li covenant soient depecié.
             Quar ja soit ce que nul instrument n’en fu fet si comme tu proposes, neporquant se
-            certaineté est fete del covenant par ta reconoissance, escriture qui selt<note place="bottom">qui selt <hi rend="i">biffé.</hi></note> contenir les prueves de la chose
+            certaineté est fete del covenant par ta reconoissance, escriture qui selt<note n="g" place="bottom">qui selt <hi rend="i">biffé.</hi></note> contenir les prueves de la chose
             qui a esté fete n’est pas necessare.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.6"><label>[2.4.6]</label>
             <hi rend="b">C</hi>il meismes empereres dit. Porce que vos proposez que quant plez fu meuz
@@ -475,12 +476,12 @@
             avenant response, si nos envoie l’essample de la covenance, quar por ce entendions nos
             savoir mon se la covenance fu nue ou se il i ot mis paine et obligement de paroles ; quar
             se cez choses i furent mises, il sera aperte chose que nule demande d’eritage ne d’autre
-            chose ne sera avenant à cele qui plede o toi<note place="bottom"><hi rend="i">Suit un
+            chose ne sera avenant à cele qui plede o toi<note n="h" place="bottom"><hi rend="i">Suit un
                 paragraphe exponctué</hi> : Cil meisme empereor dient a Poince. Se tu veus avoir
               avenant response, si nos envoie l’essample.</note>.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.16"><label>[2.4.16]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Cecil. <hi rend="b">I</hi>l ne covient pas
-            recomencier par les<note place="bottom">les <hi rend="i">ajouté en marge avec signe
+            recomencier par les<note n="i" place="bottom">les <hi rend="i">ajouté en marge avec signe
                 d’insertion</hi>.</note> letres l’empereor les causes qui sont fenies par loiaus
             transactions.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.17"><label>[2.4.17]</label>
@@ -503,12 +504,12 @@
             doit pas estre prise ne loist il pas a fere transaction, fors el crime de fere fausse
             monoie.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.19"><label>[2.4.19]</label>
-            <hi rend="b">C</hi>il meisme empereor dient à Yrin. <hi rend="b">L</hi>i droit ne<note place="bottom">furent <hi rend="i">exponctué après</hi> ne.</note> sueffrent<note place="bottom">sueffrent <hi rend="i">ajouté dans la marge droite.</hi></note> pas que
+            <hi rend="b">C</hi>il meisme empereor dient à Yrin. <hi rend="b">L</hi>i droit ne<note n="j" place="bottom">furent <hi rend="i">exponctué après</hi> ne.</note> sueffrent<note n="k" place="bottom">sueffrent <hi rend="i">ajouté dans la marge droite.</hi></note> pas que
             li plet qui ont esté feni par transaction qui a esté fete par bone foi soient recommencié
             por instrument qui puis ait esté trovez. Mes se il est prové que il ait porchacié par
             barat la fin del plet, et que il eust ou par soi ou par autre sostrez les instrumenz par
             coi la verité peust estre provee, l’action remaint et l’exception de covenant est ostee
-            par replication de tricherie. Mes se ele est ja perie, tu<note place="bottom">p <hi rend="i">exponctué après</hi> tu <hi rend="i">en fin de ligne</hi>.</note> puez metre
+            par replication de tricherie. Mes se ele est ja perie, tu<note n="l" place="bottom">p <hi rend="i">exponctué après</hi> tu <hi rend="i">en fin de ligne</hi>.</note> puez metre
             avant action de tricherie tant seulement dedenz deus anz.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.20"><label>[2.4.20]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Irinee. <hi rend="b">I</hi>l nos plot par
@@ -519,7 +520,7 @@
             qui a plus de .xxv. anz.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.21"><label>[2.4.21]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Ginimian. <hi rend="b">P</hi>orce que il est
-            escrit que les choses qui sont donees ou retenues par transaccion soient à celui qui<note place="bottom">est <hi rend="i">exponctué</hi>.</note> les retient ou à qui eles sont
+            escrit que les choses qui sont donees ou retenues par transaccion soient à celui qui<note n="m" place="bottom">est <hi rend="i">exponctué</hi>.</note> les retient ou à qui eles sont
             donees autresi comme se il les eust achatees, l’en demande por niant le pris des choses
             qui sont fetes faintement, <cb n="37b"/> quer eles ne valent pas plus que se eles ne
             fussent pas fetes.</p>
@@ -534,7 +535,7 @@
             covenist avoir ce tretié tant comme la besoigne estoit entiere. Quar porce que tu proposes
             que li plez a ja esté finez par transaction et que tu as pramis à paier deniers, tu
             requiers à tort que action te soit donee porce que tu as paié que tu ne devoies pas. Quar
-            se tu n’eusses fet que pramettre lés<note place="bottom">les <hi rend="i">ajouté dans la
+            se tu n’eusses fet que pramettre lés<note n="n" place="bottom">les <hi rend="i">ajouté dans la
                 marge gauche</hi>.</note> et t’i fusses obligiez par paroles, si ne te peusses tu pas
             deffendre parce que tu ne deusses pas ce que tu eusses pramis.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.24"><label>[2.4.24]</label>
@@ -551,13 +552,13 @@
               <corr resp="#ed">vos</corr>
             </choice> le quitastes en dons et sanz nule condition ce que il vos devoit, les choses qui
             sont finees ne doivent pas estre restorees, porce que vos proposez que vos le feistes en
-            esperance d’avoir son heritage aprés lui et que il l’a doné<note>donee <hi rend="i">avec</hi> e <hi rend="i">final exponctué dans le ms.</hi></note> à autres.</p>
+            esperance d’avoir son heritage aprés lui et que il l’a doné<note n="o">donee <hi rend="i">avec</hi> e <hi rend="i">final exponctué dans le ms.</hi></note> à autres.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.26"><label>[2.4.26]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Dionisiade. <hi rend="b">I</hi>l est droiz
             bien seuz que li fil ne pueent estre fet serf por la transaction à la mere.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.27"><label>[2.4.27]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Caton. <hi rend="b">I</hi>l est aperte chose
-            que cil qui est sains par pensee<note place="bottom">o <hi rend="i">exponctué après</hi>
+            que cil qui est sains par pensee<note n="p" place="bottom">o <hi rend="i">exponctué après</hi>
               pensee.</note> puet bien fere transaction, ja soit que il soit malades par cors ; e por
             ce tu ne deusses pas requere que tes covenances fussent depeciees par coverture de ce que
             tu estoies malades quant tu les feis.</p>
@@ -584,7 +585,7 @@
             tes aversaires.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.31"><label>[2.4.31]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Procle. <hi rend="b">S</hi>e transaction a
-            esté fete d’une certaine chose<note place="bottom">chose certaine <hi rend="i">dans le ms.
+            esté fete d’une certaine chose<note n="q" place="bottom">chose certaine <hi rend="i">dans le ms.
                 avec signe indiquant de procéder à une inversion</hi>.</note> et il a esté mis en
             covenant que l’en ne demant rien plus, ja soit ce que il n’i a pas esté mis par non de ce,
             neporquant l’action remaint tote entiere des autres choses de coi la transaction ne fu pas
@@ -598,7 +599,7 @@
             furent jugiees.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.33"><label>[2.4.33]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Ruf. <hi rend="b">S</hi>e il fu mis en
-            covenant que uns chans frans o<note place="bottom">ou <hi rend="i">avec</hi> u <hi rend="i">exponctué dans le ms</hi>.</note> certaines bonnes te fust donez par cause de
+            covenant que uns chans frans o<note n="r" place="bottom">ou <hi rend="i">avec</hi> u <hi rend="i">exponctué dans le ms</hi>.</note> certaines bonnes te fust donez par cause de
             transaccion por une possession que tu demandoies, ne tu n’avoies pas en cel tens mains de
             .xxv. anz, ja soit ce que il soit prové que cele possession ait puis esté obligiee, ou que
             une partie en soit à un autre, neporquant <cb n="37d"/> li droit deffendent que li plez
@@ -615,7 +616,7 @@
               <sic source="#C">por</sic>
               <corr resp="#ed">pou</corr>
             </choice> nient de tricherie ne il n’est pas por ce tenuz a fere vos ses oirs se il ne
-            velt, quar nus<note>n <hi rend="i">exponctué après</hi> nus.</note> n’est contrainz par
+            velt, quar nus<note n="s">n <hi rend="i">exponctué après</hi> nus.</note> n’est contrainz par
             droit a acomplir pramesse de son heritage.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.4.35"><label>[2.4.35]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Ammoni. <hi rend="b">L</hi>a profession à
@@ -671,7 +672,7 @@
             <hi rend="b">L</hi>i empereres Anastaises dit à Thomas prevost d’Illire. Nos commandons
             que les transactions qui seront fetes ou qui ja ont esté fetes en totes les causes qui
             sont meues ou qui seront meues de ci en avant por condition de sers ou de coutiveors
-            soient gardees, se il n’avient que eles doient remaindre por aucun’autre<note place="bottom"><hi rend="i">cf.</hi> aucun’autre <hi rend="i">(2.46.2)</hi></note>
+            soient gardees, se il n’avient que eles doient remaindre por aucun’autre<note n="t" place="bottom"><hi rend="i">cf.</hi> aucun’autre <hi rend="i">(2.46.2)</hi></note>
             droiturel cause ne il n’apere pas que eles doient por ce cheoir que eles sont fetes de
             condition à sers ou à coutiveors.</p>
         </div>
@@ -679,8 +680,8 @@
           <head>[2.5.0 De calculi errore] <lb/><seg type="rubric">Cist titres
               est d’erreur de conte.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.5.1"><label>[2.5.1]</label>
-            <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Ario quart<note place="bottom">À Ario quart <hi rend="i">ajouté dans la marge gauche.</hi></note>. <hi rend="b">I</hi>l a sovent esté esta<cb n="38b"/>bli que error de conte d’où que ele
-            nesse, ou d’un<note place="bottom">uns <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi>.</note> marché ou de plusors, ne grieve de rien la verité. E por ce,
+            <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Ario quart<note n="a" place="bottom">À Ario quart <hi rend="i">ajouté dans la marge gauche.</hi></note>. <hi rend="b">I</hi>l a sovent esté esta<cb n="38b"/>bli que error de conte d’où que ele
+            nesse, ou d’un<note n="b" place="bottom">uns <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi>.</note> marché ou de plusors, ne grieve de rien la verité. E por ce,
             il est certains droiz que les choses qui ont esté contees plusors foiz puent estre contees
             tot de rechief se jugemenz ou transaction n’en a esté fete. Mes se tu prameis par error de
             conte une quantité de deniers autresi comme se tu la deusses, ja soit ce que tu ne la
@@ -699,7 +700,7 @@
             autres, ce ne leur est pas deffendu à fere.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.6.3"><label>[2.6.3]</label>
             <hi rend="b">L</hi>i empereres Gordians dit à Flavian. <hi rend="b">S</hi>e tu
-              covenanças<note place="bottom">covenances <hi rend="i">avec</hi> e <hi rend="i">exponctué et</hi> a <hi rend="i">suscrit.</hi></note> à doner à .i. avocat jusqu’à
+              covenanças<note n="a" place="bottom">covenances <hi rend="i">avec</hi> e <hi rend="i">exponctué et</hi> a <hi rend="i">suscrit.</hi></note> à doner à .i. avocat jusqu’à
             tant comme l’en puet doner à avocat, ce est à savoir jusqu’à .c. deniers d’or, et tu li
             prameis à rendre une autretel some autresi comme se il la t’eust prestee, ne tu ne la
             paias pas dedenz .ii. anz, tu es garniz d’avenant, exception de deniers qui ne furent pas
@@ -709,13 +710,13 @@
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Theodocian. <hi rend="b">A</hi>ucuns s’efforce por nient de revenir as plez qui sont finé por coverture de ce
             que li patrons de la cause n’i fu pas presenz.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.6.5"><label>[2.6.5]</label>
-            <hi rend="b">L</hi>i empereres Costentins dit à Heliade. [<hi rend="b">S</hi>]e<note place="bottom"><hi rend="i">pas de lettrine mais</hi> s <hi rend="i">d’attente.</hi></note> aucuns des avocaz sont trové que il aient mis granz dons par
+            <hi rend="b">L</hi>i empereres Costentins dit à Heliade. [<hi rend="b">S</hi>]e<note n="b" place="bottom"><hi rend="i">pas de lettrine mais</hi> s <hi rend="i">d’attente.</hi></note> aucuns des avocaz sont trové que il aient mis granz dons par
             devant bone renomee et aient pris par non d’avocaz certaine partie des causes que il
             prennent à deffendre o grief damage à celui qui est sires de la cause et o ravine, il nos
             plest que tuit cil qui demorront en tel cruelté soient del tot mis hors de la profession
             as avocaz.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.6.6"><label>[2.6.6]</label> Li empereor Valentins et Valeris dient à
-            Olibre le prevost. Quic<hi rend="i">on</hi>q<hi rend="i">ue</hi>s vodra estre avocaz<note place="bottom">avocaz et juges <hi rend="i">avec</hi> et juges <hi rend="i">exponctué
+            Olibre le prevost. Quic<hi rend="i">on</hi>q<hi rend="i">ue</hi>s vodra estre avocaz<note n="c" place="bottom">avocaz et juges <hi rend="i">avec</hi> et juges <hi rend="i">exponctué
                 dans le ms.</hi></note>, il ne soit pas en une meisme cause avocaz et juges, quar il
             covient avoir aucune difference entre les juges et les patrons des causes.
               <label>[1]</label> E sor totes choses, tuit li avocat aident en tel maniere à cels qui
@@ -727,15 +728,15 @@
             covertement. <label>[2]</label> En sor que tot nus avocat qui ait son salaire del comun ne
             face marchié ne covenance o celui que il li loira à prendre ; <label>[4]</label> ne nus ne
             face tençon à son esciant. <label>[5]</label> E en la cité de Rome, li enoré qui esliront
-            cest office aient congié de<note place="bottom">co <hi rend="i">exponctué après</hi>
+            cest office aient congié de<note n="d" place="bottom">co <hi rend="i">exponctué après</hi>
               de.</note> sostenir causes tant comme il vodront, en tel maniere que il ne le facent pas
             por vilain gaaig, ainz quierent par ce acroissement de leur loenge. Quar se il sont deceu
             par gaaig et par deniers, il seront nombré entre les plus vils, autresi comme bouté hors
             et forslignié. <label>[6]</label> Quiconque vodra donc estre avocaz de cels à qui nos
-            avons otroié que il le soient, sache<note place="bottom">sachent <hi rend="i">avec</hi>
+            avons otroié que il le soient, sache<note n="e" place="bottom">sachent <hi rend="i">avec</hi>
               ent <hi rend="i">exponctué</hi>.</note> que il avra tant comme il sera avocaz l’office
             que il enprant au commencement. Ne nus ne cuit que s’onor soit point amenuisiee porce que
-            il a<note place="bottom">la <hi rend="i">avec</hi> l <hi rend="i">exponctué</hi>.</note>
+            il a<note n="f" place="bottom">la <hi rend="i">avec</hi> l <hi rend="i">exponctué</hi>.</note>
             esleu l’office où il covient par force que il soit en estant et a lessié la droiture
             d’estre en seant.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.6.7"><label>[2.6.7]</label>
@@ -754,7 +755,7 @@
             mauvese cause et sera puniz porce que il a escharnie l’auctorité au juge.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.6.8"><label>[2.6.8]</label>
             <hi rend="b">L</hi>i empereor Leons et Anthemes dient à Nicostrate le prevost. <hi rend="b">N</hi>us ne viegne à la com<cb n="38d"/>peignie des avocaz ne en ta cort, ne el
-            jugement des contrees, ne par devant aucun autre juge se il<note place="bottom">n <hi rend="i">exponctué après</hi> il.</note> n’est enbeuz des misteres de la religion
+            jugement des contrees, ne par devant aucun autre juge se il<note n="g" place="bottom">n <hi rend="i">exponctué après</hi> il.</note> n’est enbeuz des misteres de la religion
             crestiane. E se aucune chose est fete ou essaiee contre ce par aucune maniere ou par aucun
             enging, li offices de ta hautece sostendra damage de .c. livres d’or por condempnement. E
             cil qui contre nostre establissement osera enprendre contre droit l’office d’avocation, et
@@ -791,7 +792,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.5"><label>[2.7.5]</label>
             <hi rend="b">L</hi>i empereor Theodoses et Valentins dient à Cyr. <hi rend="b">Q</hi>uant
             que nos avons doné et otroié par la <cb n="39a"/> largece de nostre corage as avocaz de la
-              noble<note place="bottom">cité <hi rend="i">exponctué après</hi> noble.</note> prevosté
+              noble<note n="a" place="bottom">cité <hi rend="i">exponctué après</hi> noble.</note> prevosté
             d’Orient por la reverence de leur estuides, sachent li patrons des causes qui sont en la
             prevosté de la cité que il leur est autresi otroié par cest present establissement.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.6"><label>[2.7.6]</label>
@@ -809,14 +810,14 @@
             d’Orient a.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.8"><label>[2.7.8]</label> Cil meisme empereor dient à Cyr le
             prevost. <hi rend="b">P</hi>orce que l’avocacion de la prevosté est enclose par le
-              nonbre<note place="bottom">nonble <hi rend="i">corr. en</hi> nonbre <hi rend="i">au
+              nonbre<note n="b" place="bottom">nonble <hi rend="i">corr. en</hi> nonbre <hi rend="i">au
                 moment de la copie</hi>.</note> de .c. et .l. avocaz qui ne doit pas estre amenuisiez
             ne creuz, nos commandons que cil qui de cele compeignie vendront à estre avocat de la
             borse l’empereor, soient gardé franc des laz de totes vils conditions o leur enfanz, quant
             que il fussent engendré e quant il avront lessié tele office. Et uns anz sera acompliz, il
             se partent de la compeignie as avocaz. E nos jujons que quant li avocat de ton haut siege
             conqueront par aucune maniere et par aucun tytre soit leur autresi comme chatex gaaigniez
-            par chevalerie, ne leur pere ne leur aiel de<note place="bottom">par <hi rend="i">exponctué entre</hi> aiel <hi rend="i">et</hi> de.</note> par <choice>
+            par chevalerie, ne leur pere ne leur aiel de<note n="c" place="bottom">par <hi rend="i">exponctué entre</hi> aiel <hi rend="i">et</hi> de.</note> par <choice>
               <sic source="#C">leur</sic>
               <corr resp="#ed">leu</corr>
             </choice> peres n’en aient nul preu, e totes cez choses soient tretes à l’avocation de la
@@ -859,7 +860,7 @@
             par cel establissement que il soient establi .l., et que leur non soient <cb n="39c"/>
             escrit en un roule, et que il aient office d’avocacie par devant le noble duc d’Egypte, et
             aident à cels qui les en requeront ; e li autre avocat qui sont outre le devant dit nombre
-            puissent maintenir causes par devant les autres juges de la cité d’Alissandre<note place="bottom">e li autre avocat qui sont outre le devant dit <hi rend="i">répété
+            puissent maintenir causes par devant les autres juges de la cité d’Alissandre<note n="d" place="bottom">e li autre avocat qui sont outre le devant dit <hi rend="i">répété
                 après</hi> Alissandre.</note> ; e li fil à cels qui seront establi soient esleu par
             devant les autres el lieu à cels qui morront. E quant li patron de la borse l’empereor
             lera son office aprés ce que il l’avra maintenu par deus anz, il soit onorez por son
@@ -891,8 +892,8 @@
             testament à ses oirs, qui que il soient, ou si enfant ou estrange, totes ses soudees de
             cel an dés que il avoit commencié à fere tel office.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.16"><label>[2.7.16]</label>
-            <hi rend="b">L</hi>i empereor Leons li Juenes et Zenons dient à Justin. <hi rend="b">À</hi> La senblance de .lxiiii.<note place="bottom">anz <hi rend="i">exponctué
-                après</hi> .lxiii.</note> avocaz de la grant prevosté, li .xv. sanz plus de<note place="bottom">c <hi rend="i">exponctué après</hi> de.</note> cels de ta cort qui
+            <hi rend="b">L</hi>i empereor Leons li Juenes et Zenons dient à Justin. <hi rend="b">À</hi> La senblance de .lxiiii.<note n="e" place="bottom">anz <hi rend="i">exponctué
+                après</hi> .lxiii.</note> avocaz de la grant prevosté, li .xv. sanz plus de<note n="f" place="bottom">c <hi rend="i">exponctué après</hi> de.</note> cels de ta cort qui
             orendroit tienent les premiers degrez aient icels meismes privileges de par vos aprés le
             patron de la borse l’empereor de coi li patron de la borse l’empereor et leur enfant sont
             garni.</p>
@@ -906,11 +907,11 @@
             contre els as ministres d’aucun office de cui il est certaine chose que ele faudra quant
             il avront acompli l’office d’estre avocat de la borse l’empereor. E quant cist dui en
             seront passé, cil qui requeront à estre assemblé as avocaz de ta cort, ne soient pas receu
-            se il ne<note place="bottom">n <hi rend="i">exponctué après</hi> ne.</note> mostrent en
+            se il ne<note n="g" place="bottom">n <hi rend="i">exponctué après</hi> ne.</note> mostrent en
             cort que il ne soient sozmis à nule vil condition. <label>[1]</label> E nos establissons
             que tuit li privilege qui ont esté otroié as avocaz de la prevosté d’Orient par le
             confermement as princes qui ont esté ça en arrieres, ou par celui à l’empereor Leon ou par
-            le nostre, apartiegnent sanz<note place="bottom">n <hi rend="i">exponctué en fin de ligne
+            le nostre, apartiegnent sanz<note n="h" place="bottom">n <hi rend="i">exponctué en fin de ligne
                 après</hi> sanz. <hi rend="i">Dans le ms, bout de ligne sous forme de lettres
                 exponctuées initiales du mot suivant en début de ligne. Dans d’autres mss, juste un
                 jambage exponctué.</hi></note> nule difference as avocaz de ton glorieus siege.</p>
@@ -919,14 +920,14 @@
           <head><seg type="rubric">Cist titres est des avocaz à divers juges.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.20"><label>[2.7.20]</label>
             <hi rend="b">L</hi>i empereres Anastaises dit à Eusebe mestre des offices. <hi rend="b">N</hi>os avons receu la requeste au noble conte des choses privees et au visconte d’Ase
-            por coi il firent savoir à noz<note place="bottom">nos <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi> remplacé en cours de copie par <hi rend="i">z.</hi></note>
+            por coi il firent savoir à noz<note n="a" place="bottom">nos <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi> remplacé en cours de copie par <hi rend="i">z.</hi></note>
             orilles que li avocat de sa cort avoient requis par commune requeste que, quant il
             avroient lessié l’office d’avocation, il eussent aucune dignité de par nos.
               <label>[1]</label> Nos commandons donc que quant il avront lessié le devant dit office
             si comme il a esté dit chascun de cels qui or sont qui <cb n="40a"/> de ci en avant seront
             en leur compeignie selonc le tens ait dignité de conte, si que il reçoivent el tens de
             leur repos le fruit des travaus que il ont trespassez et soient departi de la
-              multitude<note place="bottom">młtitude <hi rend="i">dans le ms</hi>. </note> as homes de
+              multitude<note n="b" place="bottom">młtitude <hi rend="i">dans le ms</hi>. </note> as homes de
             basse condition por la foi et por la loiauté que il ont mostré vers cels que il ont enpris
             à deffendre et soient asenblé par droit o les nobles homes.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.7.21"><label>[2.7.21]</label>
@@ -935,7 +936,7 @@
             ci en avant nestront, soient gardé o tot leur <choice>
               <sic source="#C">patremoine</sic>
               <corr resp="#ed">patmoine</corr>
-            </choice><note>patromoine<hi rend="i"> avec</hi> ro <hi rend="i">exponctué.</hi></note>
+            </choice><note n="c">patromoine<hi rend="i"> avec</hi> ro <hi rend="i">exponctué.</hi></note>
             quite et franc de tote basse condition. Quar il est certaine chose que ce a ja esté otroié
             par sainz establissemenz as avocaz de la grant prevosté d’Orient et à cels de la prevosté
             de la cité et il n’est pas doute que ne mie iceles poestez tant seulement mes cele de ton
@@ -946,7 +947,7 @@
             d’Orient ait par deus anz l’office d’estre patrons de la borse l’empereor et ait par cez
             deus anz les soudees qui li sont establies par commun assentement ; et quant li dui en
             seront trespassé, il lest l’office de l’avocation ; et la compeignie des devant diz
-              avocaz<note place="bottom">s <hi rend="i">exponctué après</hi> avocaz.</note> soit
+              avocaz<note n="d" place="bottom">s <hi rend="i">exponctué après</hi> avocaz.</note> soit
             ramenee au nombre de .xl. homes tant seulement ; en tel maniere que se il en i a plus que
             ja soient acompeignié à la compeignie des avocaz, il ne soient pas osté de l’office
             d’avocation ne nus autres n’i soit ajostez que il n’avigne que la compeignie des avocaz
@@ -1013,7 +1014,7 @@
             </choice> la prevosté de la contree de Syre. E si commandons que cil qui selonc le tens
             sera mestres d’els ait par deus anz l’office d’estre patrons de la borse l’empereor et ait
             par cez deus anz les soudees qui sont establies par commun assentement. Et quant cil dui
-              an<note place="bottom">en<hi rend="i"> exponctué</hi> et an <hi rend="i">suscrit mais
+              an<note n="e" place="bottom">en<hi rend="i"> exponctué</hi> et an <hi rend="i">suscrit mais
                 occ. de</hi> en <hi rend="i">supra au sens de « année » non corrigé.</hi></note>
             seront passé, il lest l’office d’avocacie, et la compeignie as devant diz avocaz soit
             ramenee jusqu’el nombre de .xx. homes tant seulement ; si que se il en i a aucun plus qui
@@ -1022,11 +1023,11 @@
             E cil qui avront lessié l’office d’estre patron de la borse l’empereor, si comme il a esté
             establi, puissent fere l’office d’avocat por els et por leur fames et por les peres et por
             les meres à leur fames et por leur gendres et por leur bruz et por leur propres enfanz et
-            por leur coutiveors et por lor<note place="bottom"><hi rend="i">la graphie</hi> lor, <hi rend="i">plutôt que</hi> leur, <hi rend="i">s’explique par l’insuffisance de place en
+            por leur coutiveors et por lor<note n="f" place="bottom"><hi rend="i">la graphie</hi> lor, <hi rend="i">plutôt que</hi> leur, <hi rend="i">s’explique par l’insuffisance de place en
                 fin de ligne</hi></note> sers qui à els apartienent ; <label>[2]</label> ne nos ne
             volons que leur mesons soient grevees por nule chose se ainsi est que il et tote leur
             mesniee vueillent estre en une seule meson et gaaignier icest avantage. <label>[3]</label>
-            En sor que tot, la maniere qui est escleriee soit gardee des deniers qui sont<note place="bottom">donné <hi rend="i">exponctué après</hi> sont.</note> doné <cb n="40d"/>
+            En sor que tot, la maniere qui est escleriee soit gardee des deniers qui sont<note n="g" place="bottom">donné <hi rend="i">exponctué après</hi> sont.</note> doné <cb n="40d"/>
             por semonses envers els et envers leur coutiveors et envers leur sers, ne congiez ne soit
             donez à nul de passer la devant dite mesure de demander deniers por semonses contre nul
             d’els. <label>[4]</label> Ne de ci en avant ne soit nus acompeigniez à la devant dite
@@ -1041,7 +1042,7 @@
             porent acomplir, nos volons que les soudees qui sont establies soient autresi bien gardees
             as oirs à cels qui ont une foiz esté apelé à estre patron de la borse l’empereor et n’ont
             pas acompli leur office porce que la mort les a devanciz comme à cels qui l’ont parfet ou
-            qui le parferont ; ne il ne soient pas contraint d’emprendre<note place="bottom">n
+            qui le parferont ; ne il ne soient pas contraint d’emprendre<note n="h" place="bottom">n
               exponctué <hi rend="i">après</hi> prendre.</note> malgré leur la cure d’aucun commun fet
             ne ne soient tormenté de nul servise se ce n’est par nostre especial auctorité. E si
             jujons que cil que l’en vodra empledier en aucune contree soient semons par les letres au
@@ -1055,7 +1056,7 @@
             <hi rend="b">L</hi>i empereres Antonins dit à Claudi. <hi rend="b">P</hi>orce que tu
             proposes que tu as menee la cause de la borse l’empereor, ja soit ce que tu nies que tu
             n’as pas receu ton salaire, neporquant obeis as covenanz ; quar il est deveé que cil qui
-            ont mené la<note place="bottom">c <hi rend="i">exponctué en fin de ligne après</hi>
+            ont mené la<note n="a" place="bottom">c <hi rend="i">exponctué en fin de ligne après</hi>
               la.</note> cause de la borse l’empereor ne doignent aide contre la borse l’empereor.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.8.2"><label>[2.8.2]</label>
             <hi rend="b">L</hi>i empereor Valleris et Gallians dient. <hi rend="b">T</hi>u puez assez
@@ -1063,16 +1064,16 @@
             lesses à recevoir la cause que tu tretas quant tu estoies avocaz de la borse
             l’empereor.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.8.3"><label>[2.8.3]</label>
-            <hi rend="b">L</hi>i empereres Constentins dit à Elian visconte d’Aufrique. <hi rend="b">L</hi>i avocaz de la borse l’empereor se<note place="bottom">g <hi rend="i">exponctué
+            <hi rend="b">L</hi>i empereres Constentins dit à Elian visconte d’Aufrique. <hi rend="b">L</hi>i avocaz de la borse l’empereor se<note n="b" place="bottom">g <hi rend="i">exponctué
                 en fin de ligne après</hi> se.</note> gart por poor de paine que il ne cele les preuz
             de la borse l’empereor et que il n’ost acuser à tort la menue gent por aucune cause el non
             de la borse l’empereor.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.8.4"><label>[2.8.4]</label>
             <cb n="41a"/>
             <hi rend="b">L</hi>i empereor Gracians et Valentins et Theodoses dient à Hammain conte des
-            choses privees. <hi rend="b">C</hi>il qui oent<note place="bottom">« Rationales privatae
+            choses privees. <hi rend="b">C</hi>il qui oent<note n="c" place="bottom">« Rationales privatae
               rei causis vel sacri aerarii praesidentes examen praesente fisci advocato suscipiant. »
-              (éd. Krüger).</note> le conte sont mestre de la chose privee et del saint<note place="bottom">prevost <hi rend="i">exponctué.</hi></note> tresor l’empereor ne
+              (éd. Krüger).</note> le conte sont mestre de la chose privee et del saint<note n="d" place="bottom">prevost <hi rend="i">exponctué.</hi></note> tresor l’empereor ne
             reçoivent jugement de nule cause qui apartiegne à leur office se li avocaz de la borse
             l’empereor n’est presenz.</p>
         </div>
@@ -1093,10 +1094,10 @@
             allegacions.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.9.3"><label>[2.9.3]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Ulpie. <hi rend="b">I</hi>l
-            ne covient pas rapeler par letres les besoignes qui sont finees par sentence<note place="bottom">sentences <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi>.</note>. E
+            ne covient pas rapeler par letres les besoignes qui sont finees par sentence<note n="a" place="bottom">sentences <hi rend="i">avec</hi> s <hi rend="i">exponctué</hi>.</note>. E
             les choses qui sont establies que l’erreur des avocaz ne nuise rien as pledeors ne te
             pueent rien valoir. Dés que tu proposes que tu fus en present, ne ne contredeis pas
-            apertement à la cause dedenz les trois premiers<note place="bottom">j <hi rend="i">exponctué en fin de ligne après</hi> premiers.</note> jorz, ne n’apelas pas aprés la
+            apertement à la cause dedenz les trois premiers<note n="b" place="bottom">j <hi rend="i">exponctué en fin de ligne après</hi> premiers.</note> jorz, ne n’apelas pas aprés la
             sentence se ce qui estoit jugié te desplesoit.</p>
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.10.0">
@@ -1113,12 +1114,12 @@
               <lb/><seg type="rubric">Cist titres est des causes par coi aucuns est mal
             renomez.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.1"><label>[2.11.1]</label>
-            <hi rend="b">L</hi>i empereres Sevoirs dit à Munual<note place="bottom"><hi rend="i">Correspond au lat.</hi> « Manilio ».</note>. <hi rend="b">L</hi>i damages de male
+            <hi rend="b">L</hi>i empereres Sevoirs dit à Munual<note n="a" place="bottom"><hi rend="i">Correspond au lat.</hi> « Manilio ».</note>. <hi rend="b">L</hi>i damages de male
             renomee ne t’est pas aportés porce seulement que tu as esté mis en chartre et liez par le
             commandement au juge.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.2"><label>[2.11.2]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Veran. <hi rend="b">C</hi>il qui avoit pris
-            par non de treüz plus que il ne devoit et a esté condempnez à rendre à doubles<note place="bottom">d. que ce <hi rend="i">avec</hi> que <hi rend="i">exponctué dans le
+            par non de treüz plus que il ne devoit et a esté condempnez à rendre à doubles<note n="b" place="bottom">d. que ce <hi rend="i">avec</hi> que <hi rend="i">exponctué dans le
                 ms.</hi></note> ce que il avoit pris plus que droit n’est pas <choice>
               <sic source="#C">dampner</sic>
               <corr resp="#ed">dampnez</corr>
@@ -1149,12 +1150,12 @@
             diffamez porce que il s’atient des biens son pere.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.8"><label>[2.11.8]</label>
             <hi rend="b">C</hi>il meismes empereres dit à Ulpie. <hi rend="b">S</hi>e tu as esté
-            condempnee de larrecin et tu n’a<note place="bottom">sic.</note> pas esté batue, tu as
+            condempnee de larrecin et tu n’a<note n="c" place="bottom">sic.</note> pas esté batue, tu as
             perdu ta renomee. Mes se la chose que autres enbla sanz ton seu a esté trovee sus toi, la
             dure sentence n’a <choice>
               <sic source="#C">pas</sic>
               <corr resp="#ed">post</corr>
-            </choice><note place="bottom">« <seg rend="eleve">non laesit existimationem tuam sententia
+            </choice><note n="d" place="bottom">« <seg rend="eleve">non laesit existimationem tuam sententia
                 durior » (éd. Krüger)</seg>.</note> amenuisié ta renomee.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.9"><label>[2.11.9]</label>
             <hi rend="b">C</hi>il meismes empereres dit à Let. <choice>
@@ -1210,15 +1211,15 @@
             plez est finez par serement, nus ne doute que li juges n’asoille ou condempne si comme il
             devra.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.19"><label>[2.11.19]</label>
-            <hi rend="b">L</hi>i empereor Chiers et Numerians dient à<note place="bottom">a <hi rend="i">ajouté et suscrit.</hi></note> Aristocreat. <hi rend="b">I</hi>l n’apert pas
-            que l’interlocutoire au prevost qui est contenue en tes proieres face<note place="bottom">facent <hi rend="i">avec</hi> ent <hi rend="i">exponctué.</hi></note> male renomee
-            celui de qui tu te plainz ; quar il<note place="bottom">n <hi rend="i">en fin de ligne
+            <hi rend="b">L</hi>i empereor Chiers et Numerians dient à<note n="e" place="bottom">a <hi rend="i">ajouté et suscrit.</hi></note> Aristocreat. <hi rend="b">I</hi>l n’apert pas
+            que l’interlocutoire au prevost qui est contenue en tes proieres face<note n="f" place="bottom">facent <hi rend="i">avec</hi> ent <hi rend="i">exponctué.</hi></note> male renomee
+            celui de qui tu te plainz ; quar il<note n="g" place="bottom">n <hi rend="i">en fin de ligne
                 exponctué après</hi> il.</note> n’est pas condempnez especialment por tort fet ne por
             force que il ait fete, ainz a esté amonestez <cb n="41d"/> par les paroles au prevost que
             il le tort a meilleur vie.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.20"><label>[2.11.20]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Fortuné. <hi rend="b">L</hi>’en doit tenir por mal renomez cels qui sont trop engrés usurier et demandent usure
-            des deniers qui ne sont deu fors por<note place="bottom">user <hi rend="i">exponctué
+            des deniers qui ne sont deu fors por<note n="h" place="bottom">user <hi rend="i">exponctué
                 après</hi> por.</note> usures.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.11.22"><label>[2.11.22]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Diomician. <hi rend="b">C</hi>il qui brise
@@ -1229,7 +1230,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.12.0">
           <head>[2.12.0 De procuratoribus]</head>
           <lb/>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.1"><label>[2.12.1]</label><note place="bottom"><hi rend="i">
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.1"><label>[2.12.1]</label><note n="a" place="bottom"><hi rend="i">
                 réserve incertaine avant cette constitution dans le ms.</hi></note>
             <hi rend="b">L</hi>i empereres Pius dit. <hi rend="b">C</hi>aution est demandee as
             procurateurs que ce sera estable que il feront totes les foiz que l’en doute, savoir mon
@@ -1267,7 +1268,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.6"><label>[2.12.6]</label>
             <hi rend="b">C</hi>il meismes empereres dit à Marcian. <hi rend="b">I</hi>l est bien seue
             chose que cil qui est acusez de commun crime ne puet pas recevoir deffendement d’autrui
-            cause devant que il se soit purgiez<note place="bottom">p[abr. <hi rend="i">ur</hi>]gie
+            cause devant que il se soit purgiez<note n="b" place="bottom">p[abr. <hi rend="i">ur</hi>]gie
                 <hi rend="i">dans le ms.</hi></note>
             <cb n="42a"/> del crime dont il est acusez.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.8"><label>[2.12.8]</label> Cil meismes empereres dit à Mansuet.
@@ -1276,8 +1277,8 @@
             contestation del plet ait esté fete.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.9"><label>[2.12.9]</label>
             <hi rend="b">C</hi>il meismes empereres dit à Sudi. <hi rend="b">L</hi>i chevalier pueent
-            bien deffendre leur causes sanz meffere à la descepline de chevalerie ; ne l’en ne<note place="bottom">p <hi rend="i">en fin de ligne exponctué après</hi> ne.</note> puet pas
-            dire que cil qui use des accions qui li ont esté donees por loial cause<note place="bottom">causes <hi rend="i">avec</hi> s <hi rend="i">exponctué.</hi></note> et
+            bien deffendre leur causes sanz meffere à la descepline de chevalerie ; ne l’en ne<note n="c" place="bottom">p <hi rend="i">en fin de ligne exponctué après</hi> ne.</note> puet pas
+            dire que cil qui use des accions qui li ont esté donees por loial cause<note n="d" place="bottom">causes <hi rend="i">avec</hi> s <hi rend="i">exponctué.</hi></note> et
             por honeste use d’autrui office. Quar ja soit ce que li plez soit commenciez par bone foi
             d’autrui persone, neporquant l’en ne doute pas que il ne demant sa chose ; e il seroit
             lede chose et desloial que ce fust deffendu à noz chevaliers.</p>
@@ -1355,16 +1356,16 @@
             <hi rend="b">L</hi>i empereres Costentins dit au concile de la contree d’Aufrique. <hi rend="b">L</hi>i mariz ait franche poesté d’estre procurators es choses sa fame sanz
             commandement se il done sollempnel caution que ele se tendra apaiee de ce que il fera et
             que il la deffendra se nus li demande rien. Quar les fames ne facent aucune chose contre
-            leur honesté par coverture de suivre les plez<note place="bottom">le plet <hi rend="i">corrigé en</hi> les plez <hi rend="i">avec ajout de</hi> s <hi rend="i">et
+            leur honesté par coverture de suivre les plez<note n="e" place="bottom">le plet <hi rend="i">corrigé en</hi> les plez <hi rend="i">avec ajout de</hi> s <hi rend="i">et
                 exponctuation de</hi> t.</note>, et que eles ne soient contraintes d’aler es
             assenblees des homes ne es jugemenz. <label>[1]</label> E se li mari reçoivent mandement
             de leur fames, il doivent fere ce sanz plus qui est contenu el mandement.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.22"><label>[2.12.22]</label>
-            <hi rend="b">C</hi>il meismes empereres dit à Basse le prevost. Quant<note place="bottom">Basse <hi rend="i">exponctué après</hi> quant.</note> procurator sont establi et il
+            <hi rend="b">C</hi>il meismes empereres dit à Basse le prevost. Quant<note n="f" place="bottom">Basse <hi rend="i">exponctué après</hi> quant.</note> procurator sont establi et il
             sont fet seignor de la cause parce que il ont fet la constestation del plet, cil qui les
             firent procurators n’aient pas pooir de rapeler leur mandement ne de porsuivre la cause se
             il n’i a mortel haine vers le procurator ou maladie ou autre cause necessaire ; quar
-              lors<note place="bottom">p <hi rend="i">exponctué après</hi> lors.</note> puet estre li
+              lors<note n="g" place="bottom">p <hi rend="i">exponctué après</hi> lors.</note> puet estre li
             plez bailliez à autre maugré leur.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.12.23"><label>[2.12.23]</label>
             <hi rend="b">L</hi>i empereres Julians dit à Segont le prevost. <choice>
@@ -1433,7 +1434,7 @@
             par commune sentence. <label>[2]</label> E se li puissant ne se sont pas assenti à ceste
             tricherie que leur chartres ou leur titres soient mis en autrui choses, si grant venchance
             soit prise de cels qui le firent, que il soient tormenté de plom et baillié à pardurables
-            tormenz de metal. <label>[3]</label> Quiconques sera donc semons por aucune<note place="bottom">chose <hi rend="i">exponctué après</hi> aucune.</note> cause, et avra
+            tormenz de metal. <label>[3]</label> Quiconques sera donc semons por aucune<note n="a" place="bottom">chose <hi rend="i">exponctué après</hi> aucune.</note> cause, et avra
             receu le titre de la semonse qui est fete sollempnelment, et metra avant le non d’autrui
             par letres ou par titres, il soit puniz par perte de la possession ou de la cause que il
             volt retenir ou conquere par tel barat. Ne il n’ait pas pooir de demander arrieres
@@ -1453,14 +1454,14 @@
             nons l’empereor sera escriz sera appropriez à la commune droiture.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.15.2"><label>[2.15.2]</label>
             <hi rend="b">L</hi>i empereor Theodoses et Valentins dient à Florenz le prevost. Nus n’ost
-            sanz le commandement à avenant<note place="bottom">a <hi rend="i">ajouté et
+            sanz le commandement à avenant<note n="a" place="bottom">a <hi rend="i">ajouté et
               suscrit.</hi></note> juge pendre les roiaus banieres ne metre titres en autrui choses
             qui que les tiegne, ne en quel maniere que il les tiegne, ja soit ce que il soit mostré
             que il ne soit pas sires ou que il les tiegne à tort ou que il les ait envaïes par son fol
             hardement. E se aucuns ose fere ce, se il est <cb n="43b"/> bas hom, il soit sozmis à
             tresgrief torment. <label>[1]</label> E se il est nobles hom ou curials ou chevaliers ou
             clers, nos jujons que il perde toz ses biens, et soit essilliez non pas tant seulement de
-            la cité de Rome ainz perde tote<note place="bottom">sa <hi rend="i">exponctué après</hi>
+            la cité de Rome ainz perde tote<note n="b" place="bottom">sa <hi rend="i">exponctué après</hi>
               tote.</note> franchise. E il covient que tuit li juge soient executeur de ceste loi.
               <label>[2]</label> E nos donons congié d’oster et de brisier cez titres et de rompre les
             banieres ne mie tant seulement à cels en qui grevance aucune tel chose est fete contre
@@ -1476,7 +1477,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.16.1"><label>[2.16.1]</label>
             <hi rend="b">L</hi>i empereres Probus dit à Octave. <hi rend="b">I</hi>l a sovent esté
             escrit que il ne covient pas devant la sentence emprendre signes es choses que autres
-            tendra. E por ce, tu les porras bien oster se il sont mis contre<note place="bottom">toi
+            tendra. E por ce, tu les porras bien oster se il sont mis contre<note n="a" place="bottom">toi
                 <hi rend="i">exponctué devant</hi> contre.</note> droit es choses ou es fruiz que tu
             tiens, si que quant seront osté, la cause qui est meue contre toi de ton office soit
             terminee.</p>
@@ -1576,7 +1577,7 @@
             pas par droite reson que la norreture que tu meis en tes filz te soit rendue, quar tu le
             feis porce que pitié de mere le requiert. Mes se tu as despendu aucune chose
             profitablement por amender leur choses, se tu mostres que tu ne le feis pas por maternel
-              amor<note place="bottom">m <hi rend="i">en fin de ligne exponctué après</hi>
+              amor<note n="a" place="bottom">m <hi rend="i">en fin de ligne exponctué après</hi>
               amor.</note> mes por corage de ravoir la, tu la puez conquere par action de besoignes
             fetes.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.18.12"><label>[2.18.12]</label>
@@ -1614,7 +1615,7 @@
             d’estrangier les choses a cele qui est ja preste que en aage.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.18.18"><label>[2.18.18]</label>
             <hi rend="b">C</hi>il meisme empereror dient à Pompon. <hi rend="b">B</hi>one foi amoneste
-            que usures soient rendues des despenses que l’en a fetes por fere autrui besoigne. Qe<note place="bottom">« <seg rend="eleve">quo iure contra eos etiam, quorum te necessitate
+            que usures soient rendues des despenses que l’en a fetes por fere autrui besoigne. Qe<note n="b" place="bottom">« <seg rend="eleve">quo iure contra eos etiam, quorum te necessitate
                 compulsum negotium gessisse proponis, per iudicium negotiorum gestorum
                 uteris »</seg><seg rend="eleve"> (éd. Krüger). On attendrait une forme verbale du
                 type</seg><seg rend="eleve"> useras.</seg></note> donc de cest droit par action de
@@ -1646,7 +1647,7 @@
             devant le franchissement et de celui qui fu aprés n’est si jointe que ele ne puisse estre
             desevree.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.18.23"><label>[2.18.23]</label>
-            <hi rend="b">C</hi>il meisme empereor dient à Theodore. Q<note place="bottom"><hi rend="i">Pas de lettrine mais lettre d’attente.</hi></note>uant autrui besoignes sont fetes,
+            <hi rend="b">C</hi>il meisme empereor dient à Theodore. Q<note n="c" place="bottom"><hi rend="i">Pas de lettrine mais lettre d’attente.</hi></note>uant autrui besoignes sont fetes,
             l’action n’est pas sus la chose mes contre la persone.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.18.22"><label>[2.18.22]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Guloge. <hi rend="b">C</hi>il qui font
@@ -1667,10 +1668,10 @@
             choses et por son preu, et puis li deffendist par tricherie et par barat que il ne s’en
             entremeist plus, si que il ne li rendist pas les despenses que il avroit fetes avant. Ne
             nos ne soffrons ce en nule maniere, mes dés le jor que li denoncemenz est venuz à lui, ou
-            par escriz<note place="bottom">escritz <hi rend="i">avec</hi> t <hi rend="i">exponctué</hi>.</note> ou sanz escriz, que il ne s’entremete plus de ses choses o le
+            par escriz<note n="d" place="bottom">escritz <hi rend="i">avec</hi> t <hi rend="i">exponctué</hi>.</note> ou sanz escriz, que il ne s’entremete plus de ses choses o le
             testemoine d’autres persones il n’ait nule action contre lui por nul amendement que il
             mete d’ileq en avant. Mes nos otroions bien que il ait action contre le seignor por
-              les<note place="bottom">deffenses <hi rend="i">exponctué après</hi> les.</note>
+              les<note n="e" place="bottom">deffenses <hi rend="i">exponctué après</hi> les.</note>
             despenses que il fist devant, se eles furent fetes profitablement.</p>
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.19.0">
@@ -1734,7 +1735,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.19.9"><label>[2.19.9]</label>
             <hi rend="b">C</hi>il meisme empereor dient à Himmode. <hi rend="b">I</hi>l ne covient pas
             prover poor par menaces ne par tesmoinz tant seulement mes par la cruelté del fet.</p>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.19.10"><label>[2.19.10]</label> [<hi rend="b">C</hi>]<note place="bottom"><hi rend="i">Pas de lettrine.</hi></note>il meisme empereor dient à
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.19.10"><label>[2.19.10]</label> [<hi rend="b">C</hi>]<note n="a" place="bottom"><hi rend="i">Pas de lettrine.</hi></note>il meisme empereor dient à
             Faustine. <hi rend="b">L</hi>i desirriers est engrés de celui qui requiert que la vente ou
             la pramesse qui fu fete soit rapelee porce que ele fu fete par poor de l’acusement qui là
             estoit mis avant ou qui i peust estre mis.</p>
@@ -1764,7 +1765,7 @@
             anz qui selt estre contez en action de tricherie ne te puet rien nuire en tant comme tu as
             esté, si comme tu diz, enbesoigniez por la chose commune. Mes li dui an commenceront à
             corre dés lors que tu seras delivrez des communs offices et avras poesté de metre avant la
-            devant dite<note place="bottom">poesté <hi rend="i">exponctué après</hi> dite.</note>
+            devant dite<note n="a" place="bottom">poesté <hi rend="i">exponctué après</hi> dite.</note>
             action.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.20.4"><label>[2.20.4]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Menandre. <hi rend="b">P</hi>orce que tu proposes que covenanz fu entre toi et celui que tu diz qui a pris ta
@@ -1797,7 +1798,7 @@
             contre li action de tricherie.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.20.8"><label>[2.20.8]</label>
             <hi rend="b">L</hi>i empereres Costentins dit à Simach vicaire. <hi rend="b">I</hi>l nos
-            semble bone chose que il ne covigne pas par force que action de tricherie soit meue<note place="bottom">meuee <hi rend="i">avec</hi> e <hi rend="i">exponctué.</hi></note> dés le
+            semble bone chose que il ne covigne pas par force que action de tricherie soit meue<note n="b" place="bottom">meuee <hi rend="i">avec</hi> e <hi rend="i">exponctué.</hi></note> dés le
             jor que aucuns set que tricherie a esté fete contre lui ne dedanz l’an, mes dedenz les
             premiers deus anz aprés ce que l’en set que la tricherie fu fete, ou que cil soit qui se
             plaint de la tricherie ou el païs ou hors se il n’est hors por le besoig de la chose
@@ -1826,7 +1827,7 @@
             tu avoies procureor quant tu fus essuz d’enfance ainz que tu eusses .xxv. anz et tu vendis
             tes choses, il ne covient pas garder cest marchié ; quar cil qui est dedenz aage et a
             procureor ne se devise point en tiels choses del forsené à qui procurerres est donez par
-            le prevost. Mes se tu estoies sanz<note place="bottom">le <hi rend="i">exponctué
+            le prevost. Mes se tu estoies sanz<note n="a" place="bottom">le <hi rend="i">exponctué
                 après</hi> sanz.</note> procureor quant tu feis cel marchié, il ne t’est pas deveé à
             demander enterigne restitution, se li tens qui est establiz n’est passez, ce est asavoir
             quatre anz aprés le loial aage.</p>
@@ -1851,7 +1852,7 @@
             por avoir enterigne restitution des oirs ton oncle qui tot engarde que tu quitas de
             l’aministration de tes choses quant il ot prové fausement que tu estoies en aage. Quar li
             offices de la garde et la prochaineté del lignage mostre que il ne deust pas estre en dote
-            de ton aage se ainsi<note place="bottom">n <hi rend="i">exponctué après</hi> ainsi.</note>
+            de ton aage se ainsi<note n="b" place="bottom">n <hi rend="i">exponctué après</hi> ainsi.</note>
             n’est que li tens soit passez qui est establiz à doner restitution.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.21.8"><label>[2.21.8]</label>
             <hi rend="b">L</hi>i empereor Honoires et Theodoses dient à Julian visconte d’Aufrique.
@@ -1881,7 +1882,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.23.0">
           <head>[2.23.0 De fideiussoribus minorum] <lb/><seg type="rubric">Des pleges à cels qui sont dedenz aage.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.23.1"><label>[2.23.1]</label>
-            <hi rend="b">L</hi>i empereor Sevoirs et Antonins dient à Nutor<note place="bottom"><hi rend="i">Correspond au</hi><hi rend="bg_FFFF00"><hi rend="i">lat.</hi>
+            <hi rend="b">L</hi>i empereor Sevoirs et Antonins dient à Nutor<note n="a" place="bottom"><hi rend="i">Correspond au</hi><hi rend="bg_FFFF00"><hi rend="i">lat.</hi>
               « Myroni</hi> ».</note>. <hi rend="b">P</hi>uis que tu as enterigne restitution par le
             benefice d’aage, tu n’es pas contrainz de rendre le peril de l’eschange à l’achateor à qui
             tu <cb n="45d"/> vendis une possession des biens qui furent ton pere ; mes cele chose ne
@@ -1989,7 +1990,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.27.2"><label>[2.27.2]</label>
             <hi rend="b">L</hi>i empereres Costentins dit au pueple. <hi rend="b">I</hi>l n’est pas
             dote que il n’ait esté confermé es establissemenz que enterigne restitution doit estre
-            donee à cels qui sont dedenz aage contre<note place="bottom">la vente <hi rend="i">exponctué après</hi> contre.</note> les ventes<note place="bottom"><hi rend="i">Le
+            donee à cels qui sont dedenz aage contre<note n="a" place="bottom">la vente <hi rend="i">exponctué après</hi> contre.</note> les ventes<note n="b" place="bottom"><hi rend="i">Le
                 passage qui va de</hi> les ventes [2.27.2] <hi rend="i">à</hi> contre la [2.28.1] <hi rend="i">est ajouté dans la marge droite, afin de corriger un saut-du-même-au-même.
                 Malheureusement, une partie de l’addition marginale a disparu suite à la rognure de la
                 marge. Les lettres et mots rétablis sont imprimés entre crochets et conjecturés à
@@ -2106,7 +2107,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.32.1"><label>[2.32.1]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Sostrie. <hi rend="b">L</hi>i
             deffendeor qui paient as procureors ce que il doivent de l’aministration que il ont eue
-            sont delivré à<note place="bottom">de <hi rend="i">exponctué et</hi> à <hi rend="i">suscrit.</hi></note> la maniere des autres <choice>
+            sont delivré à<note n="a" place="bottom">de <hi rend="i">exponctué et</hi> à <hi rend="i">suscrit.</hi></note> la maniere des autres <choice>
               <sic source="#C">deniers</sic>
               <corr resp="#ed">deteurs</corr>
             </choice>. Mes li benefices qui est otroiez el pardurable banissement puet estre requis,
@@ -2135,7 +2136,7 @@
             <hi rend="b">L</hi>i empereor Sevoirs et Antonins dient à Longin. <hi rend="b">C</hi>il
             qui sont dedenz aage ne sont pas secoru es crimes par aide de leur aage ; quar l’enfermeté
             del corage n’escuse pas les meurs as mauvés. Mes quant li meffez ne vient pas del corage
-            ainz vient par dehors, ce<note place="bottom">n <hi rend="i">exponctué après</hi>
+            ainz vient par dehors, ce<note n="a" place="bottom">n <hi rend="i">exponctué après</hi>
               ce.</note> n’est pas crimes, ja soit ce que paine de deniers en est enjointe. E por ce,
             pueent avoir en cest cas cil qui sont dedenz aage aide de restitution.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.34.2"><label>[2.34.2]</label>
@@ -2155,7 +2156,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.36.0">
           <head>[2.36.0 Si adversus fiscum]</head>
           <lb/>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.36.1"><label>[2.36.1]</label><note place="bottom">« Si adversus
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.36.1"><label>[2.36.1]</label><note n="a" place="bottom">« Si adversus
               fiscum » <hi rend="i">2.36.0 ; ni réserve ni rubrique.</hi></note>
             <cb n="47a"/>
             <hi rend="b">L</hi>i empereor Sevoirs et Antonins dient à Longin. <hi rend="b">S</hi>e
@@ -2201,7 +2202,7 @@
             <hi rend="b">L</hi>i empereor Sevoirs et Antonins dient à Florenz et à autres. <choice>
               <sic source="#C">Ne</sic>
               <corr resp="#ed">Se</corr>
-            </choice><note place="bottom"><hi rend="i">Dans le ms.</hi>, s <hi rend="i">d’attente</hi>
+            </choice><note n="a" place="bottom"><hi rend="i">Dans le ms.</hi>, s <hi rend="i">d’attente</hi>
               a été recouvert par un <hi rend="i">n</hi> peint en bleu.</note> vos ne vos meistes en
             l’eritage vostre pere, tesmoig ne sont pas necessaire por cele chose, quar la foi de la
             verité ne desirre pas aide de paroles. Mes <cb n="47b"/> se vos nos tenistes por oirs o
@@ -2229,7 +2230,7 @@
               necessaire.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.40.1"><label>[2.40.1]</label>
             <hi rend="b">L</hi>i empereres Valentins dit à Mutat. <hi rend="b">I</hi>l est contenu em
-              pluseurs<note place="bottom">leuz <hi rend="i">exponctué après</hi> pluseurs.</note> des
+              pluseurs<note n="a" place="bottom">leuz <hi rend="i">exponctué après</hi> pluseurs.</note> des
             escriz à mes sainz peres et es miens que il ne nuist point à cels qui ont mains de .xxv.
             anz, et meesmement à cels qui n’ont pas deffendeors ne procureors, se il ne vengent la
             mort leur pere qui a esté ocis.</p>
@@ -2243,7 +2244,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.40.4"><label>[2.40.4]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Stratonice. <hi rend="b">S</hi>e tes deffenderres qui n’avoit pas doné caucion por l’office del deffendement a
             pledié en jugement, la sentence qui fu donee contre lui ne pot point nuire à ta droiture,
-            ne les choses que il a fetes n’ont nule fermeté. Tu<note place="bottom">doiz <hi rend="i">exponctué après</hi> tu.</note> demandes donc por neant aide d’enterigne restitution,
+            ne les choses que il a fetes n’ont nule fermeté. Tu<note n="b" place="bottom">doiz <hi rend="i">exponctué après</hi> tu.</note> demandes donc por neant aide d’enterigne restitution,
             quar les choses qui furent fetes par celui qui ne pot pas avoir persone de loial
             aministreor sont vaines par droit.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.40.5"><label>[2.40.5]</label>
@@ -2304,7 +2305,7 @@
             tu t’esforças quant tu estoies dedenz aage de prover par veue de cors que tu estoies en
             aage et tu le feis por decevoir autrui, porce que la malice acomplist ce qui defaut à
             l’aage, il est establi par sainz establissemenz et par auctorité de letres que enterigne
-            restitution te soit devee. <label>[1]</label> Mes se ce fu fet par<note place="bottom">benefices <hi rend="i">exponctué après</hi> par.</note> le barat ou par la decevance à
+            restitution te soit devee. <label>[1]</label> Mes se ce fu fet par<note n="a" place="bottom">benefices <hi rend="i">exponctué après</hi> par.</note> le barat ou par la decevance à
             ton aversaire, li benefices te remaint par coi l’en selt secorre à cels qui sont dedenz
             aage quant leur cause est conneue. <label>[2]</label> Quant tu avras donc requis le
             prevost de la contree et il avra examiné la cause, se il trueve que il n’i eust point de
@@ -2368,7 +2369,7 @@
             .xxv. anz, en tel maniere que, quant il avront empetré pardon d’aage, il alleguent par els
             meismes le benefice au prince ; et pruevent ne mie tant seulement le nombre des devant diz
             anz, ainz amaignent avenanz tesmoins à prover leur meurs et la proece de leur corage et
-            l’onesté de leur vie. <label>[1]</label> E si establissons que les<note place="bottom">ir
+            l’onesté de leur vie. <label>[1]</label> E si establissons que les<note n="a" place="bottom">ir
                 <hi rend="i">exponctué après</hi> les.</note> fames qui sont loables par bones meurs
             et par sage pensee puissent empetrer pardon d’aage quant eles avront passé .xviii. anz ;
             mes nos ne les contraignons pas de mostrer soi en commun por la vergoigne des fames, ainz
@@ -2383,7 +2384,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.44.3"><label>[2.44.3]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Menne le prevost. <hi rend="b">N</hi>os
             commandons que cil qui ont empetré ou qui empetreront de ci en avant pardon d’aage par la
-            debonereté au prince ne puissent<note place="bottom">leur choses <hi rend="i">exponctué
+            debonereté au prince ne puissent<note n="b" place="bottom">leur choses <hi rend="i">exponctué
                 après</hi> puissent.</note> pas vendre ne engagier sanz jugement leur choses qui ne
             sont pas movables. Autresi comme cil qui n’ont pas empetré pardon d’aage ne les pueent ne
             vendre ne engagier sanz jugement, si que la condition à toz cels qui sont dedenz aage soit
@@ -2424,7 +2425,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.46.2"><label>[2.46.2]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Aquilian. <hi rend="b">P</hi>orce que tu proposes que tu as paié les choses que <cb n="48c"/> tu covenanças en
             la transaction, se tu vels pledier por ravoir les par enterigne restitution ou par
-              aucun’autre<note place="bottom"><hi rend="i">cf.</hi> aucun’autre <hi rend="i">(2.4.43)</hi></note> cause, il t’en covient requere le prevost de la contree en coi
+              aucun’autre<note n="a" place="bottom"><hi rend="i">cf.</hi> aucun’autre <hi rend="i">(2.4.43)</hi></note> cause, il t’en covient requere le prevost de la contree en coi
             cil que tu veus empledier ont leur mesons.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.46.3"><label>[2.46.3]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Jehan le prevost. <hi rend="b">P</hi>orce
@@ -2438,7 +2439,7 @@
             roial cité, ou es contrees, si que il apere que cil qui done le juge soit autresi comme se
             il ooit la cause et doint la restitution, e ainsi ne sera pas griés li examinemenz des
             causes. <label>[1]</label> Mes que aucuns ne traie le mendement de nostre establissement
-            si confusement que il cuit que il s’estende<note place="bottom">s’eistende <hi rend="i">avec</hi> i <hi rend="i">exponctué.</hi></note> as arbitres qui sont esleu par le
+            si confusement que il cuit que il s’estende<note n="b" place="bottom">s’eistende <hi rend="i">avec</hi> i <hi rend="i">exponctué.</hi></note> as arbitres qui sont esleu par le
             commun assentement des parties ou as juges delegaz que li juges donent qui n’ont nule
             jurisdition mes poesté de jugier tant seulement. Nos volons generalment que cil terminent
             tel manieres de causes qui sont mestre de certaine baillie qui a jurisdition ou cil qui
@@ -2455,7 +2456,7 @@
               rende qui a enterigne restitution.</seg></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.47.1"><label>[2.47.1]</label>
             <hi rend="b">L</hi>i empereres Alissandres dit à Tacian. <hi rend="b">A</hi>utresi comme
-            cil qui a enterigne restitution ne doit pas demorer en son damage, ne doit il pas<note place="bottom">il pas <hi rend="i">répété.</hi></note> demorer en gaaing. E por ce, il
+            cil qui a enterigne restitution ne doit pas demorer en son damage, ne doit il pas<note n="a" place="bottom">il pas <hi rend="i">répété.</hi></note> demorer en gaaing. E por ce, il
             doit rendre quant que est venu à lui ou par achat ou par vente ou par autre marchié.
               <label>[1]</label> Mes se cil qui a mains de .xxv. anz est pleges, l’action doit estre
             restoree à l’ancian deteur. <label>[2]</label> E quant cil qui est dedenz aage se met en
@@ -2481,7 +2482,7 @@
             demandee. E cil à qui la chose apartient s’entremetra de ce.</p>
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.50.0">
-          <head><label>[2.50.0]</label><note place="bottom">« De
+          <head><label>[2.50.0]</label><note n="a" place="bottom">« De
               restitutione militum et eorum qui rei publicae causa afuerunt » <hi rend="i">2.50.0 ;
                 réserve prévue et occupée par la rubrique précédente.</hi></note></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.1"><label>[2.50.2]</label>
@@ -2498,7 +2499,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.3"><label>[2.50.3]</label>
             <hi rend="b">C</hi>il meismes empereres dit à Flavi et à Aristomede chevaliers. <hi rend="b">I</hi>l est otroié à chalengier ce qui est porsis des biens à aucun el tens de
             sa chevalerie dedenz un an aprés ce que il lesse à estre hors del païs por le preu de la
-            chose commune, si que la longue tenue del tens que il a esté<note place="bottom">chevaliers <hi rend="i">exponctué après</hi> esté.</note> en chevalerie ne li nuise
+            chose commune, si que la longue tenue del tens que il a esté<note n="b" place="bottom">chevaliers <hi rend="i">exponctué après</hi> esté.</note> en chevalerie ne li nuise
             rien. Mes puis que li anz est passez, il ne covient pas amenuisier la droiture à celui qui
             porsiet.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.4"><label>[2.50.4]</label>
@@ -2514,7 +2515,7 @@
             qui sont en aage qui apartienent au titre d’enterigne restitution.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.6"><label>[2.50.6]</label>
             <hi rend="b">L</hi>i empereor Valentins et Gallians dient à Germain connestable. <hi rend="b">S</hi>e li oir à ton creancier vendirent tes possessions qui leur estoient <cb n="49a"/> obligier tant dementieres comme tu entendoies à chevalerie, tu porras requere
-            le prevost de la contree et empetrer enterigne restitution, et<note place="bottom">q <hi rend="i">exponctué après</hi> et.</note> quant la vente sera retrete, tu recevras les
+            le prevost de la contree et empetrer enterigne restitution, et<note n="c" place="bottom">q <hi rend="i">exponctué après</hi> et.</note> quant la vente sera retrete, tu recevras les
             possessions mes tu rendras ainçois la dete ou le pris se il est mendre que la dete.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.7"><label>[2.50.7]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Marne. <hi rend="b">I</hi>l
@@ -2525,7 +2526,7 @@
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.50.8"><label>[2.50.8]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Menne le prevost. <hi rend="b">N</hi>os
             establissons que à cels qui sont en garnison et en chevalerie aident li tens en coi il
-            sont en cele besoigne à eschiver<note place="bottom">eschiever <hi rend="i">avec</hi> e
+            sont en cele besoigne à eschiver<note n="d" place="bottom">eschiever <hi rend="i">avec</hi> e
                 <hi rend="i">exponctué</hi>.</note> exceptions et à avoir enterignes restitutions. E
             li autres tens en coi il sont hors de chevalerie et en autres lieus ou en leur mesons ne
             leur aident point à avoir cez privileges.</p>
@@ -2533,7 +2534,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.51.0">
           <head>[2.51.0 De uxoribus militum vel eorum qui rei publicae causa
             absunt]</head>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.51.1"><label>[2.51.1]</label><note place="bottom"><hi rend="i">réserve prévue mais pas de rubrique.</hi></note>
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.51.1"><label>[2.51.1]</label><note n="a" place="bottom"><hi rend="i">réserve prévue mais pas de rubrique.</hi></note>
             <hi rend="b">L</hi>i empereres Alixandres dit à Segon. <hi rend="b">I</hi>l est bien seue
             chose que l’en seult secorre as <choice>
               <sic source="#C">femes</sic>
@@ -2551,7 +2552,7 @@
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.52.0">
           <head>[2.52.0 De temporibus in integrum restitutionis tam minorum
             aliarumque personarum, quae restitui possunt, quam heredum eorum]</head>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.52.1"><label>[2.52.1]</label><note place="bottom"><hi rend="i">
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.52.1"><label>[2.52.1]</label><note n="a" place="bottom"><hi rend="i">
                 réserve prévue mais pas de rubrique.</hi></note>
             <hi rend="b">L</hi>i empereres Gordians dit à Prudent chevalier. <hi rend="b">T</hi>u puez
             demander en tot le tenz en coi tu es en chevalerie l’aide de restitution es choses en coi
@@ -2571,9 +2572,9 @@
             <hi rend="b">C</hi>il meismes <choice>
               <sic source="#C">doit</sic>
               <corr resp="#ed">dit</corr>
-            </choice> à Mutian chevalier. <hi rend="b">S</hi>e tu<note place="bottom">as <hi rend="i">exponctué après</hi> tu.</note> es dedenz les anz en coi aide d’enterigne restitution
+            </choice> à Mutian chevalier. <hi rend="b">S</hi>e tu<note n="b" place="bottom">as <hi rend="i">exponctué après</hi> tu.</note> es dedenz les anz en coi aide d’enterigne restitution
             est otroiee, ou tu donas en cel tens entente à chevalerie et fus en garnison, li benefices
-            de restitution qui est continuez ne sofferra pas que tu<note place="bottom">as <hi rend="i">exponctué après</hi> tu.</note> aies damage de tes choses.</p>
+            de restitution qui est continuez ne sofferra pas que tu<note n="c" place="bottom">as <hi rend="i">exponctué après</hi> tu.</note> aies damage de tes choses.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.52.4"><label>[2.52.4]</label>
             <cb n="49b"/>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Denise. <hi rend="b">T</hi>u
@@ -2589,17 +2590,17 @@
             sera aportee avant par devant avenant juge, et que l’aministration de sa chose qui sera
             otroiee, en tel maniere neporquant que aide d’enterigne restitution ne soit pas devee à
             cels qui sont mains de .xxv. anz des choses que il firent ainz que il empetrassent pardon
-            d’aage. <label>[1]</label> E se aucuns<note place="bottom">est <hi rend="i">exponctué
+            d’aage. <label>[1]</label> E se aucuns<note n="d" place="bottom">est <hi rend="i">exponctué
                 après</hi> aucuns.</note> qui est autresi dedenz aage, il ne li soit pas deveé à user
-            del benefice de restitution quant il avra passé le .xx. et sincquiesme<note place="bottom">ei <hi rend="i">exponctué après</hi> sincquiesme.</note> an de son aage dedenz le tens
+            del benefice de restitution quant il avra passé le .xx. et sincquiesme<note n="e" place="bottom">ei <hi rend="i">exponctué après</hi> sincquiesme.</note> an de son aage dedenz le tens
             qui est establiz. <label>[2]</label> E se cil qui est dedenz aage est oirs à aucun qui est
             en aage, il devra avoir à demander enterigne restitution et aterminer les causes autretant
             de tens comme il remanoit au mort à qui il est oirs ou de qui biens il a la possession en
             tant comme il apartient as causes que il a de par celui qui estoit en aage.
               <label>[3]</label> E quant cil qui est en aage a l’eritage à celui qui est dedenz aage,
-            se il est oirs par droit citean ou sanz<note place="bottom">ci <hi rend="i">exponctué
+            se il est oirs par droit citean ou sanz<note n="f" place="bottom">ci <hi rend="i">exponctué
                 après</hi> sanz.</note> testament ou par testament, il doit demander enterigne
-              restitution<note place="bottom">maintenir <hi rend="i">exponctué après</hi>
+              restitution<note n="g" place="bottom">maintenir <hi rend="i">exponctué après</hi>
               restitution.</note> maintenant que il vient à l’eritage es causes qui li apartienent de
             par celui qui estoit dedenz aage. E se il est oirs par droiture d’onore, li tens doit
             estre contez sanz nul amenuisement à terminer et à examiner la cause d’enterigne
@@ -2612,13 +2613,13 @@
             li tens de demander enterigne restitution sont gardé, se li demandierres requiert
             delaiement qui puisse estre compris dedenz le tens qui est establiz à avoir restitution,
             il covient lors que il soit donez qui que le demant quant les causes seront conneues.
-              <label>[1]</label> Mes se tiels delaiememz est demandez qui ne<note place="bottom">p <hi rend="i">exponctué après</hi> ne.</note> puisse estre compris dedenz le tens qui est
+              <label>[1]</label> Mes se tiels delaiememz est demandez qui ne<note n="h" place="bottom">p <hi rend="i">exponctué après</hi> ne.</note> puisse estre compris dedenz le tens qui est
             establiz si comme se il est demandez pres de la fin de cel tens, il covient que il soit
             deveez à celui qui demande, quar il estoit en sa volenté de movoir le plet si par tens que
             li delaiemenz que il demande peust estre enclos el remanant del tens qui est establiz. E
             se li deffenderres requiert l’aide de delaiement quant il avra mostré droite cause por coi
             il le requiert, nos establissons que il li soit <cb n="49c"/> donez sans nul enpeechement
-            de tens, quar il<note place="bottom">n <hi rend="i">exponctué après</hi> il.</note>
+            de tens, quar il<note n="i" place="bottom">n <hi rend="i">exponctué après</hi> il.</note>
             n’estoit pas en sa poesté quant ses aversaires vosist movoir plet contre li. Ele li doit
             donc estre donee, ja soit ce que ele s’entende outre le tens qui est establiz. E se li
             deffenderres enpetre cel delaiement, il n’est pas deveé au demandeor que il ne use à
@@ -2643,7 +2644,7 @@
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.53.0">
           <head>[2.53.0 Quibus ex causis maiores in integrum
-              restituuntur]<note place="bottom"><hi rend="i"> réserve prévue mais pas de
+              restituuntur]<note n="a" place="bottom"><hi rend="i"> réserve prévue mais pas de
               rubrique</hi>.</note></head>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.53.1"><label>[2.53.1]</label>
             <hi rend="b">L</hi>i empereres Antonins dit à Eutilian. <hi rend="b">S</hi>e tu fus hors
@@ -2659,7 +2660,7 @@
             cause.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.53.3"><label>[2.53.3]</label>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Procle connestable. <hi rend="b">L</hi>i commun droit secorent par l’office au juge à cels qui sont en aage es
-            marchiez qui sont de bone<note place="bottom">sont es bones foi <hi rend="i">corrigé par
+            marchiez qui sont de bone<note n="b" place="bottom">sont es bones foi <hi rend="i">corrigé par
                 l’ajout d’un</hi> d <hi rend="i">suscrit et par l’exponctuation de</hi> s <hi rend="i">final dans</hi> es <hi rend="i">et</hi> bones.</note> foi quant la cause est
             conneue.</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.53.4"><label>[2.53.4]</label>
@@ -2677,7 +2678,7 @@
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.54.0">
           <head>[2.54.0 De alienatione iudicii mutandi causa facta]</head>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.54.1"><label>[2.54.1]</label><note place="bottom"><hi rend="i">réserve prévue mais pas de rubrique.</hi></note>
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.54.1"><label>[2.54.1]</label><note n="a" place="bottom"><hi rend="i">réserve prévue mais pas de rubrique.</hi></note>
             <hi rend="b">L</hi>i empereor Dioclians et Maximians dient à Ertut. <hi rend="b">P</hi>orce que possessions engendre action sus la chose à celui qui la chalenge contre
             celui qui la tient, et que enterigne restitution est otroiee par le pardurable banissement
             quant la chose est estrangiee por muer le jugement, tu doiz entendre que se cil qui
@@ -2686,7 +2687,7 @@
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.55.0">
           <head>[2.55.0 De receptis]</head>
-          <p xml:id="justinien_code_montpellier_BIM_H-81.2.55.1"><label>[2.55.1]</label><note place="bottom"><hi rend="i">ni
+          <p xml:id="justinien_code_montpellier_BIM_H-81.2.55.1"><label>[2.55.1]</label><note n="a" place="bottom"><hi rend="i">ni
                 réserve ni rubrique.</hi></note>
             <hi rend="b">L</hi>i empereres Antonins dit à Neporciane. <hi rend="b">I</hi>l a sovent
             esté escrit que l’en ne puet apeler contre la sentence à l’arbistre qui a esté receuz par
@@ -2705,7 +2706,7 @@
             sa fille, qui pledera à toi por la paine qui fu establie en la compromission. Ne il ne te
             sera pas deveé à empledier ta fille por la cause de tricherie qui selt estre mise en
             compromission qui tele est : « Tu me promez que en ceste covenance n’avra point de
-            tricherie de par toi, e se tu i fez tricherie, tu paieras .x. souz<note place="bottom"><hi rend="i">abrégé</hi> sl. <hi rend="i">dans le ms.</hi></note> de paine ».</p>
+            tricherie de par toi, e se tu i fez tricherie, tu paieras .x. souz<note n="b" place="bottom"><hi rend="i">abrégé</hi> sl. <hi rend="i">dans le ms.</hi></note> de paine ».</p>
           <p xml:id="justinien_code_montpellier_BIM_H-81.2.55.4"><label>[2.55.4]</label>
             <hi rend="b">L</hi>i empereres Justinians dit à Demostene le prevost. <hi rend="b">Q</hi>ue parjures ne soit fez en eslire les arbitres o religion de serement et que
             congiez ne soit donez communement as desloiaus homes d’escharnir le jugement as arbitres,
@@ -2734,7 +2735,7 @@
             sentence à l’arbitre, nos ne volons pas que les paroles à une des parties ou au seul
             arbitre soient creues de ce. Quar se aucuns dit que seremenz a esté donez sanz juge et
             sanz le testemoine de l’escriture as parties, li ordenemenz del plet douteus qui avient
-            sovent entre les fous homes ne doint nule force as<note place="bottom">jugés <hi rend="i">exponctué après</hi> as.</note> choses jugiees. Mes en tiels cas tiegnent les choses
+            sovent entre les fous homes ne doint nule force as<note n="c" place="bottom">jugés <hi rend="i">exponctué après</hi> as.</note> choses jugiees. Mes en tiels cas tiegnent les choses
             que li ancian establirent d’eslire arbitres. <label>[6]</label> E quant li arbitres avra
             doné sa sentence, se aucuns i fet ceste subscription, je ne le contredi pas, ja soit ce
             que il n’i mete pas ceste parole. Je le veil et lo nos jujons que il soit contrainz de
@@ -2759,7 +2760,7 @@
             n’establissons pas tant seulement que exception de covenant soit engendree au defendeor <choice>
               <sic source="#C">me</sic>
               <corr resp="#ed">mes</corr>
-            </choice> que action de tenir<note place="bottom">est <hi rend="i">exponctué après</hi>
+            </choice> que action de tenir<note n="d" place="bottom">est <hi rend="i">exponctué après</hi>
               tenir.</note> ce qui est jugié soit otroié au demandeor par nostre loi, si que la
             sentence à l’arbitre puisse estre mandee <choice>
               <sic source="#C"/>
@@ -2797,7 +2798,7 @@
             et que eles reçoivent misent sus els, ou que eles soient patrones et oient les causes à
             cels que eles ont franchiz, neporquant nos establissons que eles soient departies de tote
             compeignie de juges, si que por ce se eles sont esleues à fere jugement ne soit enjointe
-            nule paine ne nule exception de covenant ne soit eue contre<note place="bottom">c <hi rend="i">exponctué après</hi> contre.</note> cels qui ne vodront tenir leur
+            nule paine ne nule exception de covenant ne soit eue contre<note n="e" place="bottom">c <hi rend="i">exponctué après</hi> contre.</note> cels qui ne vodront tenir leur
             jugement.</p>
         </div>
         <div xml:id="justinien_code_montpellier_BIM_H-81.2.56.0">
@@ -2875,7 +2876,7 @@
             del païs et il ordenne par aventure procurator ou aucuns vient avant qui le veille
             deffendre, il face le devant dit serement autresi comme se il n’osist pledier en sa propre
             persone, si que li demanderres soit presenz ou par soi ou par soffisant procurator ou sanz
-            lui se li juges<note place="bottom">velt <hi rend="i">exponctué après</hi> juges.</note>
+            lui se li juges<note n="a" place="bottom">velt <hi rend="i">exponctué après</hi> juges.</note>
             voit que ce soit biens. <label>[4]</label> Mes porce que nos doutons que aucuns misent
             d’aucune collusion et s’entrequitent cest serement et escharnissent par ce nostre
             establissement, nos establissons que tuit li juge, ja soit ce que il soient juge par
@@ -2887,21 +2888,21 @@
             commandement, ainz afferme sa persone en jugement par doner pleges, que li sires se tendra
             apaié de ce que il fera. Se il velt movoir le plet por une persone ou por aucune assenblee
             ou por ville ou por université, nos establissons que il doigne les pleges si comme il est
-            acostumé. Mes il<note place="bottom">n <hi rend="i">exponctué après</hi> il.</note>
-            n’aille pas avant el plet se il ne fet as<note place="bottom">p <hi rend="i">exponctué
+            acostumé. Mes il<note n="b" place="bottom">n <hi rend="i">exponctué après</hi> il.</note>
+            n’aille pas avant el plet se il ne fet as<note n="c" place="bottom">p <hi rend="i">exponctué
                 après</hi> as.</note> principaus persones fere le devant dit serement dedenz le tens
             que li juges establira par devant leur aversaire se il velt estre ou par devant son
             procurateur ou tot sanz lui. E cist seremenz soit fez par devant le deffendeor del lieu
             par celui por qui li plez est meuz ou par la graigneur partie et la plus covenable de
             l’université. <label>[6]</label> Mes se li demanderres ne velt fere le serement de verité
-            et ce est prové loialment, il ne loise pas à venir au<note place="bottom">p <hi rend="i">exponctué après</hi> au.</note> plet, ainz chiece de s’action comme desloiaus
+            et ce est prové loialment, il ne loise pas à venir au<note n="d" place="bottom">p <hi rend="i">exponctué après</hi> au.</note> plet, ainz chiece de s’action comme desloiaus
             pledierres et la loiauté as juges aille contre lui o sovraine deffense et le mete hors del
             jugement. <label>[7]</label> E se li deffenderes refuse à fere cest serement, il soit
             tenuz por reconnoissant en toz les chapistres qui sont contenu en la demande, et il loise
             au juge à doner sentence si comme la qalité de la chose li amonestera. <label>[8]</label>
             Ainsi seront amenuisié non pas tant seulement li plet mes li faus pledeors ; quar tuit
             savront bien que il leur covendra fere serement dés que il vendront es jugemenz ; e se
-              les<note place="bottom">p <hi rend="i">exponctué après</hi> les.</note>
+              les<note n="e" place="bottom">p <hi rend="i">exponctué après</hi> les.</note>
             <cb n="51b"/> principaus persones maintienent le plet par leur serement et li avocat font
             serement et li juge ont devant els les saintes Escritures quant il examinent les causes et
             quant il font leur jugement, que doit l’en croire autre chose fors que Dex est juges en
@@ -2910,7 +2911,7 @@
             et soit grant remedes de terminer les causes. <label>[9]</label> Mes nos volons es plez
             qui ne sont pas encor commenciez que li devant diz serement soit fez el commencement del
             plet. <label>[10]</label> E se l’en trueve aucune cause qui ja aient esté commenciees si
-            que la contestation del plet ait ja esté fete et les acostumees<note place="bottom">causes
+            que la contestation del plet ait ja esté fete et les acostumees<note n="f" place="bottom">causes
                 <hi rend="i">exponctué après</hi> acostumees.</note> cauteles aient esté donees en
             jugement, se l’une et l’autre partie est en present et demeure en une cité ou en un
             terroier, nos establissons que li devant diz seremenz ait lieu en tels plez, et que les

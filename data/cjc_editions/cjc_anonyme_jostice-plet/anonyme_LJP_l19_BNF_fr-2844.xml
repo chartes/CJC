@@ -117,6 +117,7 @@
           </refsDecl>
         </encodingDesc>
         <revisionDesc>
+      <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
             <change when="2016-11" who="GP">Mise à jour du fichier</change>
             <change when="2015-07" who="MH">Création du fichier</change>
         </revisionDesc>
@@ -654,7 +655,7 @@
                     </div>
                     <div xml:id="anonyme_LJP_l19_BNF_fr-2844_art_16.3">
                         <head>§ 3.</head>
-                        <p> Comment l'en doit ataindre home de coicier<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_16_note1">Voy. tit. 21
+                        <p> Comment l'en doit ataindre home de coicier<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_16_note1">Voy. tit. 21
                                 ci-dessous.</note>.</p>
                     </div>
                 </body>
@@ -794,7 +795,7 @@
             </text>
             <text xml:id="anonyme_LJP_l19_BNF_fr-2844_art_21">
                 <front>
-                    <head>XXI. De la division de coicier, et comment le en puet apeler<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_21_note1">Voy. le
+                    <head>XXI. De la division de coicier, et comment le en puet apeler<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_21_note1">Voy. le
                             titre XVI ci-dessus, § 2.</note>.</head>
                 </front>
                 <body>
@@ -896,35 +897,35 @@
                 <body>
                     <div xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24.1">
                         <head>§ 1.</head>
-                        <p> Comment l'en puet apeler home de force<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note1">Le § 1, à partir des
+                        <p> Comment l'en puet apeler home de force<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note1">Le § 1, à partir des
                                 mots : <emph>force si est</emph>... et le § 2, avec les
                                 variantes ci-dessous indiquées, sont répétés plus bas sous cette
                                 rubrique : <emph>De la division de force, et comment l'en en
                                     puet apeler.</emph> Voy. le titre <hi rend="sc">xxvii</hi>
                                 suivant, vers la fin.</note>. — Force si est quant aucuns prant
                             aucune chose d'aucun par force, sanz la volenté à celui qui ele est, et
-                            si que li poiers<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note2">Poers.</note> à celui qui prant la chose
-                                voinque<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note3">Vainque.</note> le poer à celui qui la chose est<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note4">A
+                            si que li poiers<note n="2" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note2">Poers.</note> à celui qui prant la chose
+                                voinque<note n="3" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note3">Vainque.</note> le poer à celui qui la chose est<note n="4" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note4">A
                                 celi qui est la chose.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24.2">
                         <head>§ 2.</head>
-                        <p> Uns hons si dit issit<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note5">Issint.</note> :
-                                Gaubert<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note6">Ajoutez : si.</note> a pris un mien sorcot en ma
-                            meson, et l'en a porté à force<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note7">Ajoutez : et ce je sé.</note>.
+                        <p> Uns hons si dit issit<note n="5" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note5">Issint.</note> :
+                                Gaubert<note n="6" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note6">Ajoutez : si.</note> a pris un mien sorcot en ma
+                            meson, et l'en a porté à force<note n="7" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note7">Ajoutez : et ce je sé.</note>.
                             Et s'il viaut dire que ce ne soit voirs, je sui prez de
-                                mostrer<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note8">Prover.</note> et de l'avérier<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note9">L'avérer.</note>
-                            contre son cors, si comme je devrai<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note10">Com je devré.</note>, comme
-                                home<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note11">Com hom.</note> qui a son essoine.</p>
-                        <p>Li autres fet encontre tel ni et tel deffensse<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note12">Deffanse.</note>
-                            comme il doit. L'en demende qu'an dit droit<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note13">Droiz.</note> ? Et
+                                mostrer<note n="8" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note8">Prover.</note> et de l'avérier<note n="9" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note9">L'avérer.</note>
+                            contre son cors, si comme je devrai<note n="10" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note10">Com je devré.</note>, comme
+                                home<note n="11" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note11">Com hom.</note> qui a son essoine.</p>
+                        <p>Li autres fet encontre tel ni et tel deffensse<note n="12" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note12">Deffanse.</note>
+                            comme il doit. L'en demende qu'an dit droit<note n="13" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note13">Droiz.</note> ? Et
                             l'en dit que cil est loissanz de prandre la prove, et dire que c'est
                             voirs, ou d'escondire par gage de bataille. Car en prover force reposte
-                            ne conviant pas garant<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note14">Convient point de garant.</note>, fors qu'il
-                            i ait chetel par quoi li gages i<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note15">I manque.</note> doie estre. Car
-                            force reposte ne seroit jamès provée, s'il i<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note16">Si.</note> convenoit
-                                traire<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note17">Trere garanz.</note> garant, dès qu'il die qu'il ait veu
-                            et seu<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note18">Les mots : <emph>dès qu'il</emph> et suivants,
+                            ne conviant pas garant<note n="14" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note14">Convient point de garant.</note>, fors qu'il
+                            i ait chetel par quoi li gages i<note n="15" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note15">I manque.</note> doie estre. Car
+                            force reposte ne seroit jamès provée, s'il i<note n="16" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note16">Si.</note> convenoit
+                                traire<note n="17" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note17">Trere garanz.</note> garant, dès qu'il die qu'il ait veu
+                            et seu<note n="18" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24_note18">Les mots : <emph>dès qu'il</emph> et suivants,
                                 manquent.</note>.</p>
                     </div>
                     <div xml:id="anonyme_LJP_l19_BNF_fr-2844_art_24.3">
@@ -1178,7 +1179,7 @@
                         <p>Antant que qui apèle de défaut par soi et par garanz doit estre oïz, ne
                             barre que l'en mete encontre ne doit valoir. Et miauz est droiz que cil
                             prove qui demende, que cil à qui l'en demende : car l'en ne doit
-                            pas négative prover, se l'en afirmative amplée<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_27_note1">Le manuscrit
+                            pas négative prover, se l'en afirmative amplée<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_27_note1">Le manuscrit
                                 présente ici une rubrique : <emph>De la division de force et
                                     comment l'en en puet apeler</emph>. Cette rubrique se compose de
                                 la répétition des § 1-2 du titre <hi rend="sc">xxiv</hi>, avec de
@@ -1251,7 +1252,7 @@
             </text>
             <text xml:id="anonyme_LJP_l19_BNF_fr-2844_art_30">
                 <front>
-                    <head>XXX. De tens passé enprès petiz forfez<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_30_note1"><hi rend="sc">xxx</hi> Dans le
+                    <head>XXX. De tens passé enprès petiz forfez<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_30_note1"><hi rend="sc">xxx</hi> Dans le
                             manuscrit, la première partie du titre <hi rend="sc">xxx</hi> forme le
                             dernier § du titre précédent. La rubrique <emph>de tens passé</emph>.
                             ... se trouve intercalée entre cette première partie et les mots
@@ -1498,7 +1499,7 @@
             </text>
             <text xml:id="anonyme_LJP_l19_BNF_fr-2844_art_37">
                 <front>
-                    <head>XXXVII. De forbannissemenz, et comment l'en doit forbannir<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_37_note1">Voy. plus
+                    <head>XXXVII. De forbannissemenz, et comment l'en doit forbannir<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_37_note1">Voy. plus
                             haut, liv. III, tit.<hi rend="sc">vi</hi>, le même texte avec quelques
                             variantes.</note>.</head>
                 </front>
@@ -1949,7 +1950,7 @@
                         <head>§ 14.</head>
                         <p> Genz qui sont pris à présan forfet, et amené présantement à jotice, vet
                             par enqueste, s'il le nie... Por ce que malice ne croisse, et por ce que
-                            l'en doit vengier les torfez que l'en fet à esciant<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_44_note1">Les mots
+                            l'en doit vengier les torfez que l'en fet à esciant<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_44_note1">Les mots
                                     <emph>Por ce que..... à esciant</emph>, semblent devoir être
                                 rapportés à la fin du § 12 ci-dessus.</note>.</p>
                     </div>
@@ -2224,7 +2225,7 @@
             </text>
             <text xml:id="anonyme_LJP_l19_BNF_fr-2844_art_49">
                 <front>
-                    <head>XLIX. De maus renomez<note xml:id="anonyme_LJP_l19_BNF_fr-2844_art_49_note1">Voy. Dig. lib. 3, tit. 2, § 1, frag. 1 ;
+                    <head>XLIX. De maus renomez<note n="1" xml:id="anonyme_LJP_l19_BNF_fr-2844_art_49_note1">Voy. Dig. lib. 3, tit. 2, § 1, frag. 1 ;
                                 <emph>De his qui notantur infamia.</emph></note>.</head>
                 </front>
                 <body>

@@ -76,6 +76,7 @@
       </tagsDecl>
     </encodingDesc>
     <revisionDesc>
+      <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
       <change/>
     </revisionDesc>
   </teiHeader>
@@ -141,7 +142,7 @@
                L’empereur Dyoclecians et Maximians dient : <choice>
                   <sic source="#ms"> Bour</sic>
                   <corr resp="#ed"> Pour</corr>
-               </choice><note resp="editor">pour] bour <hi rend="i">ms.</hi></note>
+               </choice><note n="a" resp="editor">pour] bour <hi rend="i">ms.</hi></note>
                ce que vous dites que vous avez esté acompaigniez à Autrus et à son filz à demander les arrierages qui estoient deuz à la bourse l’empereur et que il lor fu commandé que il ne demandassent fors unes certaines detes et que li perilz de demander les detes à la bourse l’empereur ne fu pas assemblez communement entre eulz et les autres qui furent nommez à recevoir les detes qui estoient deues à la borse l’empereur, ainz dites que la cure de cel office fu departie, ce ne se descorde pas de droit que satisfacion ne soit premierement faite des biens à ceus à la bourse l’empereur qui furent principaument establiz à demander les detes. Et s’il ne pueent tout rendre, cil qui i furent nommez soient traiz en cause aprés eulz. 
                <label>[1]</label> Cil qui reçoit conte de nos choses sievra donc l’ordre de droit et quant il avra premierement seisi les biens as receveurs et à ceus qui i furent nommez, se satisfacion n’est faite à la bourse l’empereur de toute la dete, il vous contraindra lors de paier la.
             </p>
@@ -211,7 +212,7 @@
                Li empereres Graciens dit : <choice>
                   <sic source="#ms"> Cous</sic>
                   <corr resp="#ed"> Tous</corr>
-               </choice><note resp="editor">cous] tous <hi rend="i">ms.</hi></note>
+               </choice><note n="a" resp="editor">cous] tous <hi rend="i">ms.</hi></note>
                 sachent que nuls n’a congié d’emprunter deniers de nos sainz dons.
                <label>[1]</label> Et se aucuns emprunte or sanz nostre auctorité de nostre tresor pour metre en son preu et il fet priveement cauption de rendre le comme deteurs, tous ses biens li soient toluz et il soit envoiez em perdurable eisill.
                <label>[2]</label> Et cil qui li baillera comme communs creanciers soit sozmis à capital torment. 
@@ -285,7 +286,7 @@
                Cil meismes dit : Cil ne puet avoir nule paour d’estre tenuz pour encuseur qui dist, quant les officiaus li metoient sus que il porseoit le champ ou la meson à la bourse l’empereur, que il ne le porseoit pas, mes uns autre.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.11.4"><label>[10.11.4]</label>
-               Les empereurs Chiers et Carius et Nimitiens<note resp="editor">Nimitiens] le texte latin donne <hi rend="i">Numerianus.</hi></note> dient à Caude : L’en est venu à ce par diverseté d’establissemenz que cil qui deffendent les causes à la chose commune ne sont pas tenuz par le crime d’encuseurs, quar tous sceivent bien que cil seulz sont desloiaus encuseurs qui encusent vers la bourse l’empereur.
+               Les empereurs Chiers et Carius et Nimitiens<note n="a" resp="editor">Nimitiens] le texte latin donne <hi rend="i">Numerianus.</hi></note> dient à Caude : L’en est venu à ce par diverseté d’establissemenz que cil qui deffendent les causes à la chose commune ne sont pas tenuz par le crime d’encuseurs, quar tous sceivent bien que cil seulz sont desloiaus encuseurs qui encusent vers la bourse l’empereur.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.11.5"><label>[10.11.5]</label>
                Li empereres Costantins dit à ceus des contrees : Nous commandons que tous les juges metent entente que il enjoingnent paine as encuseurs qui noncent aucuns eschoiemenz sanz l’avocat de la bourse l’empereur, quar il est apers drois que ce qui eschiet du patremoine à aucun doit selonc les loys et selonc l’ordre de droit estre chalengiez par les avocaz à la bourse l’empereur. 
@@ -353,7 +354,7 @@
                Li empereres Valeris et Valerians dient à Antioch[us] : Il convient que les detes soient rendues selonc ce que chascuns des hoirs a del heritage, mes cil seuls doit paier les annonnes qui tient les possessions et en reçoit les fruiz.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.16.3"><label>[10.16.3]</label>
-               Li empereres Docius<note resp="editor">Docius] le texte latin donne <hi rend="i">Decius</hi></note> dit : Les rentes ne suelent pas estre demandees as personnes, mes as choses, et pour ce li prevoz de la contree prouvera que tu ne soies pas trez en cause fors pour tant comme tu tiens des possessions.
+               Li empereres Docius<note n="a" resp="editor">Docius] le texte latin donne <hi rend="i">Decius</hi></note> dit : Les rentes ne suelent pas estre demandees as personnes, mes as choses, et pour ce li prevoz de la contree prouvera que tu ne soies pas trez en cause fors pour tant comme tu tiens des possessions.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.16.4"><label>[10.16.4]</label>
                Li empereres Costantins dit : <choice>
@@ -434,13 +435,13 @@
                Cil meismes empereres dit au pueple : Nuls de ceus qui doivent les treuz n’ait paour que li juges <choice>
                   <sic source="#ms"> perises</sic>
                   <corr resp="#ed"> pervers</corr>
-               </choice><note resp="editor">pervers] perises <hi rend="i">F</hi> peuses <hi rend="i">A</hi> vel a perversis vel ab iratis iudicibus <hi rend="i">texte latin</hi></note>
+               </choice><note n="a" resp="editor">pervers] perises <hi rend="i">F</hi> peuses <hi rend="i">A</hi> vel a perversis vel ab iratis iudicibus <hi rend="i">texte latin</hi></note>
                 ou correcié le mete en chartre, ou que il le bate de plommees ou de corgiees, ou que il le torment par aucun des tormenz qui ont esté trouvez par la crualté as juges, quant il paieront ce que il devront, quar chartre apartient à maufaiteurs et à ceus qui ont deservi paine. Et les officiaus qui meffirent contre ceste loy devront soffrir tel paine que il soient mis hors de lor office, 
                <label>[1]</label> et cil qui paient les treuz aillent tout asseur lez le prevost. Et se aucuns est si hors du sens humain que il tourt ceste indulgence à orgueill et à despit, il soit tenuz em prison aperte, si que il soit en veue de gent. 
                <label>[2]</label> <cb n="228b"/> Et se il se tient en cele desloialté, li officiaus viegne à ses choses et à tout son chatel et en praigne tant comme il en devoit, quar par ce que nous <choice>
                   <sic source="#F">om.</sic>
                   <corr resp="#A">[donnons] </corr>
-               </choice><note resp="editor">donnons] om. <hi rend="i">F</hi> donnons <hi rend="i">A</hi> Qua facultate praebita omnes fore credimus proniores ad solvenda ea, quae ad nostri usus exercitus pro communi salute poscuntur <hi rend="i">texte latin</hi></note>
+               </choice><note n="b" resp="editor">donnons] om. <hi rend="i">F</hi> donnons <hi rend="i">A</hi> Qua facultate praebita omnes fore credimus proniores ad solvenda ea, quae ad nostri usus exercitus pro communi salute poscuntur <hi rend="i">texte latin</hi></note>
                as officiaus cest congié, creons nous que tuit seront plus enclin à paier les choses qui nous sont deues à maintenir nostre ost pour le commun profit.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.19.3"><label>[10.19.3]</label>
@@ -460,7 +461,7 @@
                <label>[1]</label> Les juges qui soufferront donc que ceus des contrees soient atornez à recevoir les pour ceus qui i sont establiz <choice>
                   <sic source="#F">om.</sic>
                   <corr resp="#A">[li paieront]</corr>
-               </choice><note resp="editor">li paieront] om. <hi rend="i">F</hi> li paieront <hi rend="i">A</hi> Iudices itaque, qui provinciales passi fuerint opinatoribus delegari, eiusdem quantitatis duplex poena retinebit <hi rend="i">texte latin</hi></note>
+               </choice><note n="c" resp="editor">li paieront] om. <hi rend="i">F</hi> li paieront <hi rend="i">A</hi> Iudices itaque, qui provinciales passi fuerint opinatoribus delegari, eiusdem quantitatis duplex poena retinebit <hi rend="i">texte latin</hi></note>
                  .ii. tans que il n’a de rente par non de paine ; et les serjanz de chascun office seront envoiez en essill, se il metent en main d’autres ceus à qui il ont à coustume à demander lor rentes sollempnelment, quar il convient que les juges enquierent les deteurs et que les notaires voient loialment les no[n]s as deteurs et que les menistres ou les curiaus lor demandent ce que il doivent selonc l’ancienne coustume, si que quant toutes les rentes seront paiees, cil qui furent envoiez à recevoir les s’en reviegnent à lor 
                <cb n="228d"/> propres nombres quant li ans sera acompliz. 
                <label>[2]</label> Et s’il les i convient demorer aprés l’an, les juges et les officiaus soient contrainz de paier leur sanz nule demeure du leur propre ce que le lor doit mes en la contree, si que il puissent aprés ce demander à ceus qui le doivent. 
@@ -519,7 +520,7 @@
                Li empereres Graciens et Valentins et Theodoses dient à <choice>
                   <sic source="#F">Loliait</sic>
                   <corr resp="#A">Lolian</corr>
-               </choice><note resp="editor">Lolian] Loliait <hi rend="i">ms.</hi></note>
+               </choice><note n="a" resp="editor">Lolian] Loliait <hi rend="i">ms.</hi></note>
                  : Nous commandons que toute la somme de l’or et de l’argent et des autres choses qui sont paiees à nos bailliz par coustume soit aportee maintenant au tresor de la contree soz le seel as notaires et as autres qui en doivent estre curieus, selonc les commandemenz qui ont esté faiz avant, et soit bailliee as prevoz des tresors, si que d’iluec soit envoiez tout enterinement li nombres de tous tytres au conte de nos sains dons.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.23.2"><label>[10.23.2]</label> 
@@ -636,7 +637,7 @@
                Cil meismes empereurs dient à Leonce : Li droit ne deffendent pas que li curial qui ne sceivent nules letres ne parfacent lor offices.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.32.7"><label>[10.32.7]</label>
-               Cil<note resp="editor">10.32.7 et 10.32.8] paragraphes déplacés après 10.32.13 dans le <hi rend="i">ms.</hi></note> meismes empereurs dient à Diogenian : Jasoit ce que .ii. freres aient lor biens ensemble, pour ce ne remaint il pas que chascuns ne soit tenuz en son non as services citoiens.
+               Cil<note n="a" resp="editor">10.32.7 et 10.32.8] paragraphes déplacés après 10.32.13 dans le <hi rend="i">ms.</hi></note> meismes empereurs dient à Diogenian : Jasoit ce que .ii. freres aient lor biens ensemble, pour ce ne remaint il pas que chascuns ne soit tenuz en son non as services citoiens.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.32.8"><label>[10.32.8]</label>
                Cil meismes empereurs dient à Palatonian : La male renommee que tu doiz haïr te tolt l’ennour que tu avoies aquise et ne mie l’a<cb n="231d"/>venture des eulz que tu as perdus.
@@ -651,7 +652,7 @@
                Cil meismes empereurs dient à Maxime : Il est certaine chose que fame ne puet estre traite en cause pour son mari qui est curiaus.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.32.12"><label>[10.32.12]</label>
-               Cil<note resp="editor">10.32.12] paragraphe déplacé après 10.32.8 dans le <hi rend="i">ms.</hi></note> meismes empereurs dient à Zole : Il ne convient pas que cil qui sont mal renommez aient quitance de nul servise, quar ce apartient à previlege et non pas à male renommee.
+               Cil<note n="b" resp="editor">10.32.12] paragraphe déplacé après 10.32.8 dans le <hi rend="i">ms.</hi></note> meismes empereurs dient à Zole : Il ne convient pas que cil qui sont mal renommez aient quitance de nul servise, quar ce apartient à previlege et non pas à male renommee.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.32.13"><label>[10.32.13]</label>
                Cil meismes empereurs dient : Sentence à prevost ne aage de .L. anz ne maladie de poacre n’escuse pas homme de servise de court.
@@ -864,7 +865,7 @@
                <label>[1]</label> Quar quant vente est faite par jugement, nous jujons que il ne ceus qui achatent d’eulz n’i aient nul domage par nul achoison ne par nule personne, ne li jugemenz qui en <choice>
                   <sic source="#F">om.</sic>
                   <corr resp="#A">[a]</corr>
-               </choice><note resp="editor">a] om. <hi rend="i">ms.</hi> corr. d'après <hi rend="i">A</hi></note>
+               </choice><note n="a" resp="editor">a] om. <hi rend="i">ms.</hi> corr. d'après <hi rend="i">A</hi></note>
                esté faiz ne soit pas recitez ; mes quant li curial ou la greignor partie d’eulz avront raconté au juge la chose sanz nule malice et sanz le damage à ceus qui font les marchiez, la sentence au juge avenant soit donnee de confermer le marchié. 
             </p>
          </div>
@@ -879,12 +880,12 @@
                Cil meismes empereres dit : Il nous souvient que nous avons fait nouvelement une loy par quoi nous commandasmes que la court ait la quarte part des biens as curiaus qui mue<cb n="236c"/>rent o testament ou sanz testament, fors quant lor heritages eschiet à lor filz qui sont curials ; mes il y a pluseurs qui vuelent querre autresi comme achoison de corrompre tout le patremoine et chalengent partie de chascune chose et depiecent si toutes les choses que, quant il vuelent nuire à ceus qui sont lor parçonniers des choses qui lor sont lessiees, il perdent lor <choice>
                   <sic source="#ms"> dures</sic>
                   <corr resp="#ed"> droiz</corr>
-               </choice><note resp="editor">droiz] dures <hi rend="i">FA</hi> sua quoque iura praecipitent <hi rend="i">texte latin</hi></note>
+               </choice><note n="a" resp="editor">droiz] dures <hi rend="i">FA</hi> sua quoque iura praecipitent <hi rend="i">texte latin</hi></note>
                  meismes. 
                <label>[1]</label> Nous refrenons donc lor licence par nostre porveance et tolons as curials pooir de porprendre par lor auctorité les choses au mort. Et li hoirs à qui li heritages eschiet, ou sanz testament ou par aucune derreniere volenté, s’entremete que touz li patremoines soit departiz, si que toutes les choses soient parties par sort, ou que la court <choice>
                   <sic source="#F">choise</sic>
                   <corr resp="#A">choi[siss]se</corr>
-               </choice><note resp="editor">choisisse] choise <hi rend="i">ms.</hi></note>
+               </choice><note n="b" resp="editor">choisisse] choise <hi rend="i">ms.</hi></note>
                  la quarte part ou li hoirs les .iii. pars. 
                <label>[1a]</label> Et einsi n’avront li devant dit hoir et la court nul damage des choses que il avront en parçonnerie, quar ce est naturiex vices que l’en despise ce que l’en porsiet en parçonnerie o autres et que cil qui n’a pas tout cuit que il n’a rienz et que il sueffre que sa partie soit corrompue quant il a envie del autrui. 
                <label>[2]</label> Mes quant la quarte part des biens au mort doit estre offerte à la cort, nous otroions que les choses qui ne sont pas mouvables qui ne pueent pas legierement estre celees soient proisiees et departies par devant les curials, mes nous ne souffrons pas que les choses mouvables en l’instrument ou les autres droitures <cb n="236d"/> soient aportees avant ne pueploiees, ainz voulons que l’en croie les hoirs par lor serement quant il avront proisiees les choses dilijaument et il diront quiex chatiels il y a ne de quel pris, quar il n’est nule chose si dure ne si contraire à humanité comme pueploier les choses au mort et descouvrir sa povreté, ou faire envie as autres par ses richesces et à demander les detes.  
@@ -904,7 +905,7 @@
                <choice>
                   <sic source="#F">cural</sic>
                   <corr resp="#A">cur[i]al</corr>
-               </choice><note resp="editor">curial] cural <hi rend="i">ms.</hi></note>
+               </choice><note n="c" resp="editor">curial] cural <hi rend="i">ms.</hi></note>
                  qui muert. 
             </p>
             
@@ -974,7 +975,7 @@
                <label>[1]</label> M[e]z s’il est prouvé que tu aies pour autres resons ton manoir en la noble cité de Loon, mençonge ne te vaudra rienz que tu ne faces le servise de la cité.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.40.3"><label>[10.40.3]</label>
-               Li empereres Diocletiens et Maximiens dient<note resp="editor">Paragraphes 10.40.3 et 10.40.4 déplacés après 10.40.5 <hi rend="i">ms.</hi></note> : [Il] est voirs que cil qui demeurent el terrouer d’aucune cité comme cultiveurs ne sont pas contrainz à recevoir les servises ou les honneurs de cele cité.
+               Li empereres Diocletiens et Maximiens dient<note n="I" resp="editor">Paragraphes 10.40.3 et 10.40.4 déplacés après 10.40.5 <hi rend="i">ms.</hi></note> : [Il] est voirs que cil qui demeurent el terrouer d’aucune cité comme cultiveurs ne sont pas contrainz à recevoir les servises ou les honneurs de cele cité.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.40.4"><label>[10.40.4]</label>
                Cil meismes empereurs dient : Pour ce que vous dites que vous ne fustes pas nez en une cité et que vous n’i habitez pas, li communs droiz ne soufferra pas que vous soiez sozmis au servise de cele cité pour ce sans plus que vous i avez mesons ou possessions, jasoit ce que eles ont esté aquises du chatel à .i. curial.
@@ -1182,7 +1183,7 @@
                <label>[1]</label> Et se aucuns des juges fait contre ce, il paiera de son chatel .v. poiz d'or, et les officiaus et les curials qui mandent à execucion les choses qui lor sont malement com<cb n="241d"/>mandees paient autretant.
             </p>
             <p xml:id="justinien_tres-libri_BNF-22970.10.48.16"><label>[10.48.16]</label>
-               Cil meismes empereurs dient<note resp="editor">Le paragraphe 10.48.16 a été déplacé après la rubrique de 10.49.0 dans le <hi rend="i">ms.</hi></note> : Nous ostons des nobles personnes tous vilains servises et toutes toltes.
+               Cil meismes empereurs dient<note n="I" resp="editor">Le paragraphe 10.48.16 a été déplacé après la rubrique de 10.49.0 dans le <hi rend="i">ms.</hi></note> : Nous ostons des nobles personnes tous vilains servises et toutes toltes.
             </p>
             
          </div>
@@ -1339,7 +1340,7 @@
             <div xml:id="justinien_tres-libri_BNF-22970.10.58.0">
                <head>[10.58.0. De libertinis]<lb/>
                   
-                  <seg type="rubric"> Cest tytre est des filz à ceus qui ont esté franchiz<note resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms.</note>.</seg></head>
+                  <seg type="rubric"> Cest tytre est des filz à ceus qui ont esté franchiz<note n="a" resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms.</note>.</seg></head>
                <p xml:id="justinien_tres-libri_BNF-22970.10.58.1"><label>[10.58.1]</label>
                   Li empereurs Diocleciens et Maximiens dient : La condicion as filz à ceus qui ont esté franchiz ne puet pas donner quitance de servises citoiens, neïs en la cité en quoi il ont lor mesons.
                </p>
@@ -1347,7 +1348,7 @@
             <div xml:id="justinien_tres-libri_BNF-22970.10.59.0">
                <head>[10.59.0. De infamibus]<lb/>
                
-                  <seg type="rubric"> Cest tytre est des mals renommez<note resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms.</note>. </seg></head>
+                  <seg type="rubric"> Cest tytre est des mals renommez<note n="b" resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms.</note>. </seg></head>
                <p xml:id="justinien_tres-libri_BNF-22970.10.59.1"><label>[10.59.1]</label>
                   Li empereres Diocleciens et Maximiens dient : Les personnes mal renommees ne pueent user de nule des honneurs qui suelent estre donees as hommes d’enterine renommee, neporquant il n’ont pas quitance des services curiaus ou citoiens ; mes il convient que il facent satisfa<cb n="243d"/>cion des bailliees que il ont eues. 
                </p>
@@ -1542,7 +1543,7 @@
                   Cil meismes empereres dit : Se l’en aperçoit que aucuns de cels qui reçoivent les rentes l’empereur ou .i. des notaires ait fait aucun barat, quant il en sera convaincus <choice>
                      <sic source="#F">il</sic>
                      <corr resp="#A">[et] il</corr>
-                  </choice><note resp="editor">et il] il <hi rend="i">ms.</hi></note>
+                  </choice><note n="c" resp="editor">et il] il <hi rend="i">ms.</hi></note>
                    ne soit pas derechief apelez à cel office en quoi il a meffet, neïs se il en a empetré nos letres par celee requeste.
                </p>
                <p xml:id="justinien_tres-libri_BNF-22970.10.72.13"><label>[10.72.13]</label>
@@ -1552,7 +1553,7 @@
                   <choice>
                      <sic source="#F">om.</sic>
                      <corr resp="#A">[qui] </corr>
-                  </choice><note resp="editor">qui] om. <hi rend="i">ms.</hi></note>
+                  </choice><note n="d" resp="editor">qui] om. <hi rend="i">ms.</hi></note>
                     reçoivent l’or qui est donnez à l'empereur ne doivent avoir nule communité o ceus qui reçoivent les contes de nos rentes, et les juges des contrees seront puniz de paine de .v. livres d’or et li primaz des offices soufferront paine capital se ce n’est gardé.
                </p>
                <p xml:id="justinien_tres-libri_BNF-22970.10.72.14"><label>[10.72.14]</label>
@@ -1573,7 +1574,7 @@
                   Li empereur Diocleciens et Maximiens dient : [T]outes les foiz que doutance naist de la qualité de deniers, il nous plaist que uns homs loiaus et sages qui ne deçoive ne ne soit deceuz <choice>
                      <sic source="#F">de par ce</sic>
                      <corr resp="#A">departe</corr>
-                  </choice><note resp="editor">departe] de par ce <hi rend="i">ms.</hi></note>
+                  </choice><note n="e" resp="editor">departe] de par ce <hi rend="i">ms.</hi></note>
                     le contenz.
                </p>
                
@@ -1662,7 +1663,7 @@
                   <choice>
                      <sic source="#F">yver</sic>
                      <corr resp="#A">yvres</corr>
-                  </choice><note resp="editor">yvres] yver <hi rend="i">ms.</hi></note>
+                  </choice><note n="a" resp="editor">yvres] yver <hi rend="i">ms.</hi></note>
                   et les serjanz et les curiaus de lor cours <cb n="247c"/> perdent lor chatiex, et par desus ce les mariniers soient envoiez en essill se il est prouvé que il i aient fait aucun barat. 
                </p>
                <div xml:id="justinien_tres-libri_BNF-22970.11.3.0">
@@ -1899,7 +1900,7 @@
                      <choice>
                         <sic source="#F">l'ame</sic>
                         <corr resp="#A">l'am[ende]</corr>
-                     </choice><note resp="editor">l'amende] l'ame <hi rend="i">ms.</hi> corr. d'ap. <hi rend="i">A</hi> et le texte latin <hi rend="i">multam</hi></note>
+                     </choice><note n="b" resp="editor">l'amende] l'ame <hi rend="i">ms.</hi> corr. d'ap. <hi rend="i">A</hi> et le texte latin <hi rend="i">multam</hi></note>
                 qui a esté avant nommee li soit demandee par l’office as palasins et soit mise en nos sainz dons.
                      
                      
@@ -2012,7 +2013,7 @@
                      <seg type="rubric"> Cest tytre est de la cité de Baruth</seg></head>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.22.1"><label>[11.22.1]</label>
                      Li empereres Theodoses dit : Nous jujons que la cité de Baruch soit aornee du non et de la dignité d'estre mere des citez pour pluseurs causes droiturels, quar ele est ja coronnee par ses vertuz ; ele ait donc dignité d'estre mere des citéz, et la droiture à la cité de 
-                     Sur&gt;<note resp="editor">Sur] le texte latin donne <hi rend="i">Tyr</hi></note> n'en soit point amenuisiee, la cité de Sur soit mere de la contree par le benefice à nos ancesseurs et ceste par le nostre et eles aient une meisme dignité.
+                     Sur&gt;<note n="c" resp="editor">Sur] le texte latin donne <hi rend="i">Tyr</hi></note> n'en soit point amenuisiee, la cité de Sur soit mere de la contree par le benefice à nos ancesseurs et ceste par le nostre et eles aient une meisme dignité.
                   </p>
                   
                </div>
@@ -2226,7 +2227,7 @@
                <div xml:id="justinien_tres-libri_BNF-22970.11.38.0">
                   <head>[11.38.0.  Iniuncti muneris sumptus ad omnes collegas pertinere]<lb/>
                    
-                     <seg type="rubric"> Que les despens del office qui est enjoinz apartienent à tous les compaignons<note resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms. <hi rend="i">F</hi>.</note>
+                     <seg type="rubric"> Que les despens del office qui est enjoinz apartienent à tous les compaignons<note n="d" resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms. <hi rend="i">F</hi>.</note>
                      </seg></head>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.38.1"><label>[11.38.1]</label>
                      Li empereres Diocleciens dit : Por ce que tu proposes que tu fus establiz à faire .i. office o autres et que tes compaignons lessierent l’office et que tu le feis tout par toi, li prevoz porverra que, se tu i feis aucuns despenz à quoi les compaignons de cel office deüssent partir, il te rendront lor parties ; mes s’il aperçoit que tu aies esté lessiez tous seuls en l’office, il savra bien ce qui apartient à la commune justice.
@@ -2238,8 +2239,8 @@
                      <seg type="rubric"> De ceus qui sont trait en cause por l'office en quoi il <choice>
                            <sic source="#F">om.</sic>
                            <corr resp="#A">[sont] </corr>
-                     </choice><note resp="editor">sont] om. <hi rend="i"> F</hi> corr. d'après <hi rend="i">A</hi> de ceuls qui sont tret en cause pour en quoi il sont aministré</note>
-                        amenistré<note resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms. <hi rend="i">F</hi>.</note></seg></head>
+                     </choice><note n="e" resp="editor">sont] om. <hi rend="i"> F</hi> corr. d'après <hi rend="i">A</hi> de ceuls qui sont tret en cause pour en quoi il sont aministré</note>
+                        amenistré<note n="f" resp="editor">Rubrique] cette rubrique se trouve à la place de la suivante dans le ms. <hi rend="i">F</hi>.</note></seg></head>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.39.1"><label>[11.39.1]</label>
                      Li empereres Antonins dit : Se tu prestas des deniers à la chose commune et il sont perdus sanz tes coupes, il sousfist que tu rendes le chatel sanz les usures.
                   </p>
@@ -2350,7 +2351,7 @@
                      <choice>
                         <sic source="#ms"> selon</sic>
                         <corr resp="#ed"> Sanglant</corr>
-                     </choice><note resp="editor">Sanglant] selon <hi rend="i">FA</hi> corr. d'après le texte latin <hi rend="i">Cruenta spectacula</hi></note>
+                     </choice><note n="g" resp="editor">Sanglant] selon <hi rend="i">FA</hi> corr. d'après le texte latin <hi rend="i">Cruenta spectacula</hi></note>
                      gieu ne mortel ne nous plesent pas qu’il soient faiz el repoz et en l’uiseuse à nos citoiens, et pour ce deffendons nous du tout les gieus qui sont faiz o armes esmoulues. 
                   </p>
                </div>
@@ -2507,7 +2508,7 @@
                      Mes se aucuns le reçoit par bonne foy et il aperçoit aprés que il soit autrui, se ses sires l’en amonneste, ou par lui meismes ou par son procurateur, il li rende o tout son chatel et o toute sa ligniee. Et se il demeure à ce faire, il soit contrainz de paier pour lui tous les servises de tant de temps comme il a esté o lui par la porveance au prevost de la cité ou à celui de la contree, et si soit contrainz de rendre le selonc les establissemenz et selonc les paines qui <choice>
                         <sic source="#F">om.</sic>
                         <corr resp="#A">[y]</corr>
-                     </choice><note resp="editor">y] ajout d'après <hi rend="i">A</hi></note> 
+                     </choice><note n="h" resp="editor">y] ajout d'après <hi rend="i">A</hi></note> 
                      sont establies.
                      
                   </p>
@@ -2516,7 +2517,7 @@
                      <label>[1]</label> Et que les cultiveurs ne cuident que tiex effors remaignent sanz paine, por ce que l’en doit douter que les cultiveurs ne porpensent par barat 
                      <cb n="267b"/>
                      à prendre franchses fames et que lor condicion ne perisse petit et petit. Et nous establissons que se cultiveur fait aucune tel chose, ses sires ait franche poesté de chastier le avenanment, ou par lui ou par son procurateur ou par le gouverneur de la contree, et de 
-                     departir<note resp="editor">departir] partir le <hi rend="i">A</hi></note> de cele fame. Et s’il en est negligenz, sache que la perece li tornera à domage.
+                     departir<note n="i" resp="editor">departir] partir le <hi rend="i">A</hi></note> de cele fame. Et s’il en est negligenz, sache que la perece li tornera à domage.
                     </p>
                </div>
                <div xml:id="justinien_tres-libri_BNF-22970.11.49.0">
@@ -2536,7 +2537,7 @@
                      <choice>
                         <sic source="#F">vaincus</sic>
                         <corr resp="#A">[con]vaincus</corr>
-                     </choice><note resp="editor">convaincus] vaincus <hi rend="i">F</hi></note>
+                     </choice><note n="j" resp="editor">convaincus] vaincus <hi rend="i">F</hi></note>
                      que il demant plus que il ne souloit avoir, il li soit deffendu que il ne le face plus, et si rende tout premierement ce qu’il en a eu plus que droit.   
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.50.2"><label>[11.50.2]</label>
@@ -2549,7 +2550,7 @@
                      <choice>
                         <sic source="#F">soient</sic>
                         <corr resp="#A">loise</corr>
-                     </choice><note resp="editor">loise] soient <hi rend="i">F</hi></note>
+                     </choice><note n="k" resp="editor">loise] soient <hi rend="i">F</hi></note>
                      à nul des cultiveurs à vendre ne à estrangier en autre maniere aucune de ses choses sanz le seu au seigneur de la terre que il cultive, comment porra il par droit pledier contre la personne qui li puet deffendre qu’il ne face pas à sa volenté de sa chose propre et il a pooir d’aquerre tant seulement et ne mie d’estrangier sanz le seu au seigneur et sanz son congié ?
                      <label>[4]</label> Mes autresi comme nous cloons à tel maniere d’ommes la voie de pledier contre lor seigneurs et contre lor patrons es causes citoiennes et que il ne puissent parler contre eulz fors sanz plus es sordemandes en quoi les princes qui furent çà en arriere lor donnerent congié de plaindre soi de lor seigneurs, ne lor est il pas tolu a pledier contre eulz en cause criminal et pour le tort fet qui a esté fait à eulz et as leur vies que il ne les acusent de commun crime ?
                     </p>
@@ -2597,7 +2598,7 @@
                      Li empereres Leons dit : Se aucuns s’en fuit à la garantie d’aucune condicion aprés cest nostre establissement pour tolir les communs servises, ce qui est fait pour cele cau
                      <cb n="268b"/>
                      se par couverture de don ou de vente ou de loage ou d’aucun autre marchié n’ait nule fermeté, et les notaires qui oseront faire tiex instrumenz soient essilliez de tous lor biens pour ce que il oseront escrire tiex instrumenz à lor escient, et les viles et les possessions à ceus qui 
-                     s'enfuirent<note resp="editor">s’enfuirent] s’enfuiront <hi rend="i">A</hi></note>
+                     s'enfuirent<note n="l" resp="editor">s’enfuirent] s’enfuiront <hi rend="i">A</hi></note>
                      à tel garantie soient au commun.
                      <label>[1]</label> Et les personnes qui seront descouvertes que il les ont receuz en lor garanties ou les plus bas contre les communs profiz, se eles sont des plus nobles eles seront condampnees à paier .c. livres d’or et les moiennes perdront lor chatiex, et cil qui ont esté consentans et ont donné aide en tel fait soient puniz par autretel paine. 
                      <label>[2]</label> Et nous commandons que ceste forme vaille et soit mandee à execucion dés le temps que li empereres Marciens la pueploia, el dyocese de Trace et en Orient et en Egypte et en Pont et en Ase. 
@@ -2633,7 +2634,7 @@
                         <choice>
                            <sic source="#F">meures</sic>
                            <corr resp="#A">meitres</corr>
-                        </choice><note resp="editor">meitres] meures <hi rend="i">F</hi> vicaires <hi rend="i">O</hi></note>
+                        </choice><note n="m" resp="editor">meitres] meures <hi rend="i">F</hi> vicaires <hi rend="i">O</hi></note>
                         ne soit travailliez pour les detes 
                         <choice>
                            <sic source="#F">à l’autre</sic>
@@ -2674,7 +2675,7 @@
                         <corr resp="#A">ouelineeur</corr>
                      </choice>
                      les ont grevez et dient qu’il sont plus chargiez que il ne deussent aient pooir de monstrer lor 
-                     paie<note resp="editor">paie] plainte <hi rend="i">O</hi></note>
+                     paie<note n="n" resp="editor">paie] plainte <hi rend="i">O</hi></note>
                      en court, si que il pruevent ce qui est quite as autres par grace et mis sus eulz par barat, et il aient alegement de ce que il dient qui a esté mis sus eulz par vilain marchié pour deschargier en les autres, 
                      <label>[1]</label> et il ait .i. an de terme à acuser le 
                      <choice>
@@ -2930,7 +2931,7 @@
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.62.13"><label>[11.62.13]</label>
                      Cil meismes empereres dit : Nous commandons que il ne loise dés ci en avant à nul à ramener à privee droiture les champs de nostre patremoine ne ceus as marchiz ne les landes qui sont par la contree d’orient, comment que 
-                     chascuns<note resp="editor">chascuns] aucun <hi rend="i">A</hi></note> les demant, ou sauve la rente ou sanz la rente. Et cil qui bruiseront ceste loy soient puniz par paine de .L. livres d’or, c’est à savoir cil qui les demande et cil qui otroie qu’il soit receuz, jasoit ce que aucuns en aport avant nous letres sus deffenz.  
+                     chascuns<note n="o" resp="editor">chascuns] aucun <hi rend="i">A</hi></note> les demant, ou sauve la rente ou sanz la rente. Et cil qui bruiseront ceste loy soient puniz par paine de .L. livres d’or, c’est à savoir cil qui les demande et cil qui otroie qu’il soit receuz, jasoit ce que aucuns en aport avant nous letres sus deffenz.  
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.62.14"><label>[11.62.14]</label>
                      Li empereres Justiniens dit : Nous commandons que tuit cil qui en aucun diocese ou en aucune contree ou en aucune lande ont porsis par .xl. anz en pés les champs de nostre patremoine, o ceus as temples ou ceus d’aucune autre droiture, par aucun tytre ou sanz tytre, ou qui de ci en avant les porserront par l’espasse de .xl. anz, ne doutent que nule action en soit meue contre eulz, ne que il soient point travailliez pour la seignorie de ces champs ou de ces lieuz, 
@@ -3125,7 +3126,7 @@
                   <p xml:id="justinien_tres-libri_BNF-22970.11.69.1"><label>[11.69.1]</label>
                      Li empereres Zenons dit : Se un franc cultiveur ou une franche cultiverresse s’assemble par mariage à .i. ou à une des cultiverresses du demaine l’empereur, les enfanz qui sont nez de cele assemblee soient ajoinz as cultiveurs du demaigne l’empereur.
                      <label>[1]</label> Et se aucuns sers ou autrui cultiveur prent à fame des serves ou des cultiverresses du demaine l’empereur, ou autrui serve ou autrui 
-                     cultiverresse<note resp="editor">cultiverresse] cultiveour <hi rend="i">A</hi></note> se marie à serf ou à cultiveur du demaine l’empereur, nous establissons que les enfanz qui sont nez de tel conjunction aient la droiture des ancianes lois.
+                     cultiverresse<note n="p" resp="editor">cultiverresse] cultiveour <hi rend="i">A</hi></note> se marie à serf ou à cultiveur du demaine l’empereur, nous establissons que les enfanz qui sont nez de tel conjunction aient la droiture des ancianes lois.
                      
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.69.2"><label>[11.69.2]</label>
@@ -3235,7 +3236,7 @@
                      <label>[1]</label> Et s’il se contienent folement il convendra que lor nons soit raportez à ta hautece par les juges ordinaires si que droite venjance en soit prise.
                      </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.11.74.3"><label>[11.74.3]</label>
-                     Li empereres Theodoses dit<note resp="editor">11.74.3] Ce paragraphe se trouve au début de 11.75.0 dans le ms. <hi rend="i">F</hi></note> : Les possessions qui dés piece a sont en nostre chose privee et celes qui sont venues à nous des biens à ceus qui sont envoiez en essill soient si escusees des previleges que eles paient tout enterinement les annon
+                     Li empereres Theodoses dit<note n="q" resp="editor">11.74.3] Ce paragraphe se trouve au début de 11.75.0 dans le ms. <hi rend="i">F</hi></note> : Les possessions qui dés piece a sont en nostre chose privee et celes qui sont venues à nous des biens à ceus qui sont envoiez en essill soient si escusees des previleges que eles paient tout enterinement les annon
                      <cb n="260c"/>
                      nes et les rentes et les servises que eles doivent.
                      </p>
@@ -3531,7 +3532,7 @@
                <div xml:id="justinien_tres-libri_BNF-22970.12.9.0">
                   <head>[12.9.0. De magistris scriniorum]<lb/>
                
-                     <seg type="rubric"> Des mestres des aumaires<note resp="editor">12.9.0] Ce paragraphe est copié après [12.10.0] dans le manuscrit <hi rend="i">F</hi>.</note>
+                     <seg type="rubric"> Des mestres des aumaires<note n="a" resp="editor">12.9.0] Ce paragraphe est copié après [12.10.0] dans le manuscrit <hi rend="i">F</hi>.</note>
                       </seg></head>
                   <p xml:id="justinien_tres-libri_BNF-22970.12.9.1"><label>[12.9.1]</label>
                      Li empereur Archades et Honoires dient : Grant largesce de nostre benigne volenté doit estre donnee as nobles mestres de nos aumaires qui sont autresi conme asseur de nostre majesté. 
@@ -3541,9 +3542,9 @@
                      </p>
                </div>
                <div xml:id="justinien_tres-libri_BNF-22970.12.10.0">
-                <head>[12.10.0. De comitibus consistorianis]<lb/> <seg type="rubric"> Des contes du saint consistoire<note resp="editor">12.10.0] Ce paragraphe est copié avant [12.09.0] dans le manuscrit <hi rend="i">F</hi>.</note></seg></head>
+                <head>[12.10.0. De comitibus consistorianis]<lb/> <seg type="rubric"> Des contes du saint consistoire<note n="b" resp="editor">12.10.0] Ce paragraphe est copié avant [12.09.0] dans le manuscrit <hi rend="i">F</hi>.</note></seg></head>
                 <p xml:id="justinien_tres-libri_BNF-22970.12.10.1"><label>[12.10.1]</label>
-                           Li empereur Archades et Honoires dient<note resp="editor">12.10.1] Les paragraphes [12.10.1] et [12.10.2] sont intervertis dans le manuscrit <hi rend="i">F</hi>.</note> : Nous jujons generalment que cil qui ont deservi à estre apelez conte de nostre saint 
+                           Li empereur Archades et Honoires dient<note n="c" resp="editor">12.10.1] Les paragraphes [12.10.1] et [12.10.2] sont intervertis dans le manuscrit <hi rend="i">F</hi>.</note> : Nous jujons generalment que cil qui ont deservi à estre apelez conte de nostre saint 
                            <cb n="264d"/>
                            consistoire soient egals as nobles viscontes. 
                         </p>
@@ -3872,7 +3873,7 @@
                      <label>[1]</label> ne il ne grievent pas les <choice>
                         <sic source="#F">nos</sic>
                         <corr resp="#A">[nes]</corr>
-                     </choice><note resp="editor">nes] nos <hi rend="i">A</hi> naves <hi rend="i">texte latin</hi>.</note>
+                     </choice><note n="d" resp="editor">nes] nos <hi rend="i">A</hi> naves <hi rend="i">texte latin</hi>.</note>
                       des choses que il ne doient, ne ne reçoivent pas libelles ne contrestacions pour achoison du plet, ne il ne metent nul homme en chartre, ainz entendent à lor cures tant seulement. 
                      
                   </p>
@@ -4170,7 +4171,7 @@
                      <choice>
                         <sic source="#F">as tozides</sic>
                         <corr resp="#O">ars toz vis</corr>
-                     </choice><note resp="editor">ars toz vis] as tozides <hi rend="i">F</hi> à tous ites <hi rend="i">A</hi> ars toz vis <hi rend="i">O</hi> vivus amburatur <hi rend="i">latin</hi></note>
+                     </choice><note n="e" resp="editor">ars toz vis] as tozides <hi rend="i">F</hi> à tous ites <hi rend="i">A</hi> ars toz vis <hi rend="i">O</hi> vivus amburatur <hi rend="i">latin</hi></note>
                      </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.12.35.10"><label>[12.35.10]</label>
                      Ce paragraphe manque.
@@ -4287,7 +4288,7 @@
                      Cil meismes empereurs dient : Nous commandons que dés le mois du novembre en avant annonne soit donnee as chevaliers et as serjans du nouvel vin, quar la departie du viel ne puet pas estre faite sanz damage.
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.12.37.11"><label>[12.37.11]</label>
-                     Cil meismes empereurs dient<note resp="editor">12.37.11] Ce paragraphe a été copié avant [12.37.10] dans le manuscrit <hi rend="i">F</hi></note> : Cil qui reçoivent les annonnes as chevaliers n’aient nule communité o cens des contrees, mes l’en demant as dus ou as officials des contrees toute la somme de la dete qui soit toute paiee de dedenz l’an. 
+                     Cil meismes empereurs dient<note n="f" resp="editor">12.37.11] Ce paragraphe a été copié avant [12.37.10] dans le manuscrit <hi rend="i">F</hi></note> : Cil qui reçoivent les annonnes as chevaliers n’aient nule communité o cens des contrees, mes l’en demant as dus ou as officials des contrees toute la somme de la dete qui soit toute paiee de dedenz l’an. 
                   </p>
                   <p xml:id="justinien_tres-libri_BNF-22970.12.37.12"><label>[12.37.12]</label>
                      Ce paragraphe manque.

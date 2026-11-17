@@ -92,6 +92,9 @@
         </citeStructure>
       </refsDecl>
     </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -221,7 +224,7 @@
                           <locus from="1a"/>
                           <title type="sub">[D. 24.3]</title>
                           <title xml:lang="lat" resp="#FD">Soluto matrimonio dos quemadmodum petatur</title>
-                          <incipit>ge, quar li fruit de tout l’an sont conté ensenble. ¶ Se il est demoré <expan>p<ex>ar</ex></expan> la feme <expan>q<ex>ue</ex></expan> ele n’a receu son douere li mari i doit rendre ce qui est <expan>p<ex>er</ex>du</expan> par sa tricherie<note>Incomplet du début : commence au milieu du paragraphe D. 24.3.9.</note></incipit>
+                          <incipit>ge, quar li fruit de tout l’an sont conté ensenble. ¶ Se il est demoré <expan>p<ex>ar</ex></expan> la feme <expan>q<ex>ue</ex></expan> ele n’a receu son douere li mari i doit rendre ce qui est <expan>p<ex>er</ex>du</expan> par sa tricherie<note n="1">Incomplet du début : commence au milieu du paragraphe D. 24.3.9.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="5a"/>
@@ -303,7 +306,7 @@
                           <locus from="26b"/>
                           <title type="sub">[D. 26.8]</title>
                           <title xml:lang="lat" resp="#FD">De auctoritate et consensu tutorum et curatorum</title>
-                          <incipit>Ulpians dit : Ja soit de que ce est <pb n="f. 26c"/> une ruille du droit citoien que cil qui a .i. orfelin en garde ne puet donner auctorité a l’orfelin de fere nule chose de quoi li preus soit siens.<note>Ni réserve, ni rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Ja soit de que ce est <pb n="f. 26c"/> une ruille du droit citoien que cil qui a .i. orfelin en garde ne puet donner auctorité a l’orfelin de fere nule chose de quoi li preus soit siens.<note n="2">Ni réserve, ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="28a"/>
@@ -634,7 +637,7 @@
                         <msItem>
                           <locus from="150d"/>
                           <title type="sub">[D. 36.1]</title>
-                          <incipit><seg type="rubric">Cist tytres est del conseill au senat qui est apelez tertullians qui dit <expan>q<ex>ue</ex></expan> les <expan>actio<ex>n</ex>s</expan> de l’eritaige sivent l’eritaige .i.</seg><note>Incomplet : s’achève à la fin de D. 36.1.83.</note></incipit>
+                          <incipit><seg type="rubric">Cist tytres est del conseill au senat qui est apelez tertullians qui dit <expan>q<ex>ue</ex></expan> les <expan>actio<ex>n</ex>s</expan> de l’eritaige sivent l’eritaige .i.</seg><note n="3">Incomplet : s’achève à la fin de D. 36.1.83.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="bordeaux_354_trespartes_livre3">
@@ -655,7 +658,7 @@
                         <msItem>
                           <locus from="167c"/>
                           <title type="sub">[D. 36.4]</title>
-                          <incipit><seg type="rubric"><expan>Q<ex>ue</ex></expan> il loise a estre en possession por cause de lés ou de choses <expan>enjoi<ex>n</ex>tes</expan> .iii.</seg><note>Incomplet : s’achève avec le paragraphe D. 36.4.15</note></incipit>
+                          <incipit><seg type="rubric"><expan>Q<ex>ue</ex></expan> il loise a estre en possession por cause de lés ou de choses <expan>enjoi<ex>n</ex>tes</expan> .iii.</seg><note n="4">Incomplet : s’achève avec le paragraphe D. 36.4.15</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="bordeaux_354_trespartes_livre4">
@@ -706,7 +709,7 @@
                         <msItem>
                           <locus from="179d"/>
                           <title type="sub">[D. 37.8]</title>
-                          <incipit><seg type="rubric">D’<expan>a<ex>com</ex>pai<ex>n</ex>gn<ex>er</ex></expan> les neveuz au <expan>m<ex>or</ex>t</expan> a ses filz <expan>q<ex>ui</ex></expan> sont hors de baillie</seg><note>La rubrique est placée avant D. 37.9.10, qui précède immédiatement D. 37.8.1</note></incipit>
+                          <incipit><seg type="rubric">D’<expan>a<ex>com</ex>pai<ex>n</ex>gn<ex>er</ex></expan> les neveuz au <expan>m<ex>or</ex>t</expan> a ses filz <expan>q<ex>ui</ex></expan> sont hors de baillie</seg><note n="5">La rubrique est placée avant D. 37.9.10, qui précède immédiatement D. 37.8.1</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="181a"/>
@@ -743,7 +746,7 @@
                         <locus from="187b" to="205a"/>
                         <title type="section" xml:lang="fr">Livre V [= D. 38]</title>
                         <incipit xml:lang="fro"><seg type="rubric">Ci <expan>co<ex>m</ex>mence</expan> le quint livre de .iii. <expan>p<ex>ar</ex>s</expan>. Cest tytre est des jornees a <expan>ce<ex>us</ex></expan> qui sont franchiz .i.</seg><lb/>Ulpians dit : Li <expan>p<ex>re</ex>volz</expan> propose cest banissement por <expan>refren<ex>er</ex></expan> <expan>ce<ex>us</ex></expan> qui contralient <expan>fra<ex>n</ex>chise</expan></incipit>
-                        <explicit xml:lang="fro">...mes li enfes ne nest pas ou il nest morz ou li filz estoit en chetivoison dont il ne revint pas.<lb/><note>après un saut de 7 UR, d’une main médiévale postérieure à celle du copiste</note><seg type="rubric">Ci fine l’Enforsade en <expan>fra<ex>n</ex>çois</expan></seg></explicit>
+                        <explicit xml:lang="fro">...mes li enfes ne nest pas ou il nest morz ou li filz estoit en chetivoison dont il ne revint pas.<lb/><note n="6">après un saut de 7 UR, d’une main médiévale postérieure à celle du copiste</note><seg type="rubric">Ci fine l’Enforsade en <expan>fra<ex>n</ex>çois</expan></seg></explicit>
                         <msItem>
                           <locus from="187b"/>
                           <title type="sub">[D. 38.1]</title>
@@ -841,7 +844,7 @@
                     <objectDesc>
                       <supportDesc>
                         <support><material>Parchemin</material> (de qualité très médiocre : nombreux trous, brisets, coutures, préparation imparfaite)</support>
-                        <extent>205 f. <note>précédés et suivis d’1. f. de garde papier moderne ; France (Ile-de-France, Orléanais, Champagne occidentale), 1300-1325 (d’après la scripta, les initiales filigranées et l’écriture) ; <dimensions unit="mm">
+                        <extent>205 f. <note n="7">précédés et suivis d’1. f. de garde papier moderne ; France (Ile-de-France, Orléanais, Champagne occidentale), 1300-1325 (d’après la scripta, les initiales filigranées et l’écriture) ; <dimensions unit="mm">
                           <height quantity="255">255</height>
                           <width quantity="170">170</width>
                         </dimensions>. (justification : 198 x 140 mm.). Réglure à la mine de plomb (1-1-11/0/1-1/J) uniforme pour l’ensemble des cahiers : d’après le f. 99, (20 + 198 + 37 mm. [de haut en bas]) x (10 + 65 + 10 + 65 + 20 mm. [de la reliure vers la gouttière]). Trace de piqûres ayant servi à tracer la linéation dans la marge de gouttière ; piqûres pour le tracé des rectrices verticales en marges de tête et de queue. Copié sur 2 col., le ms compte de 50 (f. 44b) à 52 (f. 201a) lignes par col., soit une UR comprise entre 3,8 et 3,95 mm. pour le corps du texte. – foliotation moderne à l’encre en chiffres arabes, parfois doublée (avec une unité de décalage) d’une autre foliotation moderne en chiffres arabes à la mine de plomb ; titre courant : sur le f. verso, « L » rubriqué ; numéro du livre en capitales romaines bleues et rouges sur le recto. La numérotation des livres est continue de I à XIV avec quelques flottements entre les rubriques et les titres courants : le numéro XI comprend à la fois le livre 11 de l’<title>Infortiat</title> et le premier livre des
@@ -1050,7 +1053,7 @@
                           <locus from="18b"/>
                           <title type="sub">[D. 26.7]</title>
                           <title xml:lang="lat" resp="#FD">De administratione et periculo tutorum et curatorum qui gesserint vel non et de agentibus vel conveniendis uno vel pluribus</title>
-                          <incipit>Ulpians dit li deffenderres seult estre <expan>co<ex>n</ex>trainz</expan> hors d’ordre de fere les besoignes<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit li deffenderres seult estre <expan>co<ex>n</ex>trainz</expan> hors d’ordre de fere les besoignes<note n="8">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="26a"/>
@@ -1163,13 +1166,13 @@
                           <locus from="57c"/>
                           <title type="sub">[D. 28.7]</title>
                           <title xml:lang="lat" resp="#FD">De condicionibus institutionum</title>
-                          <incipit>Ulpians dit : Il nos plaist que instrucion qui est fete soz condicion qui ne puet avenir ou en aucune autre maniere ne soit pas quassee.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Il nos plaist que instrucion qui est fete soz condicion qui ne puet avenir ou en aucune autre maniere ne soit pas quassee.<note n="9">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="59b"/>
                           <title type="sub">[D. 28.8]</title>
                           <title xml:lang="lat" resp="#FD">De jure deliberandi</title>
-                          <incipit>Ulpians dit : Se serf est fez hoirs nos ne li dirons pas terme de conseillier soi de recevoir l’eritage mes a son seignor car li serf ne sont conté por riens en tel chose.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Se serf est fez hoirs nos ne li dirons pas terme de conseillier soi de recevoir l’eritage mes a son seignor car li serf ne sont conté por riens en tel chose.<note n="10">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_infortiatum_livre5">
@@ -1181,43 +1184,43 @@
                           <locus from="59d"/>
                           <title type="sub">[D. 29.1]</title>
                           <title xml:lang="lat" resp="#FD">De testamento militis</title>
-                          <incipit>Ulpians dit : Julius Cesar dona premierement a <expan>ch<ex>evalie</ex>rs</expan> pooir de fere testament mes cil otroiz est temporels...<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Julius Cesar dona premierement a <expan>ch<ex>evalie</ex>rs</expan> pooir de fere testament mes cil otroiz est temporels...<note n="11">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="62d"/>
                           <title type="sub">[D. 29.2]</title>
                           <title xml:lang="lat" resp="#FD">De adquirenda vel omittenda hereditate</title>
-                          <incipit>Paulus dit : Cil qui puet aquierre tout .i. heritage ne le puet pas despecier por recevoir en une partie.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Paulus dit : Cil qui puet aquierre tout .i. heritage ne le puet pas despecier por recevoir en une partie.<note n="12">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="68b"/>
                           <title type="sub">[D. 29.3]</title>
                           <title xml:lang="lat" resp="#FD">Testamenta quemadmodum aperiuntur inspiciantur et describantur</title>
-                          <incipit>Gaius dit : Li prevost promet <expan>q<ex>ue</ex></expan> il donra a toz cels qui voldront veoir <expan><ex>et</ex></expan> contre escrire les tables del testament por oïr et veoir les et d’escontrescrire.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Gaius dit : Li prevost promet <expan>q<ex>ue</ex></expan> il donra a toz cels qui voldront veoir <expan><ex>et</ex></expan> contre escrire les tables del testament por oïr et veoir les et d’escontrescrire.<note n="13">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="71a"/>
                           <title type="sub">[D. 29.4]</title>
                           <title xml:lang="lat" resp="#FD">Si quis omissa causa testamenti ab intestato vel alio modo possideat hereditatem</title>
-                          <incipit>Ulpians dit : Li prevost garantist la volenté as morz <expan><ex>et</ex></expan> va contre la malevoidie a cels qui lessent la cause del testament.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Li prevost garantist la volenté as morz <expan><ex>et</ex></expan> va contre la malevoidie a cels qui lessent la cause del testament.<note n="14">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="71a"/>
                           <title type="sub">[D. 29.5]</title>
                           <title xml:lang="lat" resp="#FD">De senatus consulto Silaniano et Claudiano quorum testamenta ne aperiantur</title>
-                          <incipit>Ulpians dit : Por ce <expan>q<ex>ue</ex></expan> nule meson ne puet estre seure se li serf ne sont contraint par peril de lor chief de garder lor seignors de privez <expan><ex>et</ex></expan> d’estanges...<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Por ce <expan>q<ex>ue</ex></expan> nule meson ne puet estre seure se li serf ne sont contraint par peril de lor chief de garder lor seignors de privez <expan><ex>et</ex></expan> d’estanges...<note n="15">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="73b"/>
                           <title type="sub">[D. 29.6]</title>
                           <title xml:lang="lat" resp="#FD">Si quis aliquem testari prohibuerit vel cogerit</title>
-                          <incipit>Ulpians dit : Se aucun est covoiteus d’avoir heritage sanz <expan>testame<ex>n</ex>t</expan> et il deffent que testament n’en soit fez ou il le fet raver malgré a celui qui le fist...<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Se aucun est covoiteus d’avoir heritage sanz <expan>testame<ex>n</ex>t</expan> et il deffent que testament n’en soit fez ou il le fet raver malgré a celui qui le fist...<note n="16">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="73c"/>
                           <title type="sub">[D. 29.7]</title>
                           <title xml:lang="lat" resp="#FD">De jure codicillorum</title>
-                          <incipit>Ulpians dit : Il a sovent escrit <expan><ex>et</ex></expan> establi <expan>q<ex>ue</ex></expan> se aucuns cuide fere testament...<note>Ni réserve ni rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Il a sovent escrit <expan><ex>et</ex></expan> establi <expan>q<ex>ue</ex></expan> se aucuns cuide fere testament...<note n="17">Ni réserve ni rubrique.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_infortiatum_livre6">
@@ -1229,7 +1232,7 @@
                           <locus from="74b"/>
                           <title type="sub">[D. 30.0]</title>
                           <title xml:lang="lat" resp="#FD">De legatis et fideicommissis</title>
-                          <incipit>Ulpians dit : Lés <expan><ex>et</ex></expan> choses enjointes sont oels en toutes choses.<note>Réserve prévue, mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Lés <expan><ex>et</ex></expan> choses enjointes sont oels en toutes choses.<note n="18">Réserve prévue, mais pas de rubrique.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_infortiatum_livre7">
@@ -1268,25 +1271,25 @@
                           <locus from="108a"/>
                           <title type="sub">[D. 33.2]</title>
                           <title xml:lang="lat" resp="#FD">De usu et de usu fructu et reditu et habitatione et operis per legatum vel fideicommissum datis</title>
-                          <incipit>Paulus dit : Ne usaiges ne usaires ne puet estre lessiez de voie ne de santier ne de charriere ne de doiz d’eve.<note>Ni réserve ni rubrique.</note></incipit>
+                          <incipit>Paulus dit : Ne usaiges ne usaires ne puet estre lessiez de voie ne de santier ne de charriere ne de doiz d’eve.<note n="19">Ni réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="111b"/>
                           <title type="sub">[D. 33.3]</title>
                           <title xml:lang="lat" resp="#FD">De servitute legata</title>
-                          <incipit>Paulus dit : Cil qui avoit .ii. fenestres joingnanz les lessa a .ii. <expan>ho<ex>m</ex>es</expan> a chascun la seue.<note>Ni réserve ni rubrique.</note></incipit>
+                          <incipit>Paulus dit : Cil qui avoit .ii. fenestres joingnanz les lessa a .ii. <expan>ho<ex>m</ex>es</expan> a chascun la seue.<note n="20">Ni réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="111c"/>
                           <title type="sub">[D. 33.4]</title>
                           <title xml:lang="lat" resp="#FD">De dote praelegata</title>
-                          <incipit>Ulpians dit : Quant doueres est lessiez a feme il est voirs <expan>q<ex>ue</ex></expan> ce meisme est elles qui est en l’<expan>actio<ex>n</ex></expan> de douere.<note>Ni réserve ni rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Quant doueres est lessiez a feme il est voirs <expan>q<ex>ue</ex></expan> ce meisme est elles qui est en l’<expan>actio<ex>n</ex></expan> de douere.<note n="21">Ni réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="113c"/>
                           <title type="sub">[D. 33.5]</title>
                           <title xml:lang="lat" resp="#FD">De optione vel electione legata</title>
-                          <incipit>Ulpians dit : Li empereres Pius escrist a Procle <expan>q<ex>ue</ex></expan> cil a qui li chois est lessiez des sers en puet eslire trois.<note>Réserve prévue mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Li empereres Pius escrist a Procle <expan>q<ex>ue</ex></expan> cil a qui li chois est lessiez des sers en puet eslire trois.<note n="22">Réserve prévue mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="114c"/>
@@ -1307,7 +1310,7 @@
                           <locus from="122a"/>
                           <title type="sub">[D. 33.9]</title>
                           <title xml:lang="lat" resp="#FD">De penu legata</title>
-                          <incipit>Ulpians dit : Uns homs commanda a son hoir qu’il donast chascun an a sa feme aucune certaine chose de sa despense.<note>Réserve prévue mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Uns homs commanda a son hoir qu’il donast chascun an a sa feme aucune certaine chose de sa despense.<note n="23">Réserve prévue mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="123a"/>
@@ -1334,7 +1337,7 @@
                           <locus from="130c"/>
                           <title type="sub">[D. 34.3]</title>
                           <title xml:lang="lat" resp="#FD">De liberatione legata</title>
-                          <incipit>Julians dit : L’en puet <expan>b<ex>ie</ex>n</expan> lessier a touz les deteurs ce qu’il doivent. Julius escrist <expan>q<ex>ue</ex></expan> se li creancier lessent au deteur la chose <expan>q<ex>ue</ex></expan> il li ont baillee en gages...<note>Sans réserve ni rubrique.</note></incipit>
+                          <incipit>Julians dit : L’en puet <expan>b<ex>ie</ex>n</expan> lessier a touz les deteurs ce qu’il doivent. Julius escrist <expan>q<ex>ue</ex></expan> se li creancier lessent au deteur la chose <expan>q<ex>ue</ex></expan> il li ont baillee en gages...<note n="24">Sans réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="134a"/>
@@ -1380,12 +1383,12 @@
                         <msItem>
                           <locus from="150a"/>
                           <title type="sub">[D. 35.2]</title>
-                          <incipit><seg type="rubric">De la loi qui retaille les lés</seg><note>S’achève aux trois quarts de D. 35.2.82.</note></incipit>
+                          <incipit><seg type="rubric">De la loi qui retaille les lés</seg><note n="25">S’achève aux trois quarts de D. 35.2.82.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_infortiatum_blanc">
                         <locus from="157v"/>
-                        <note>Blanc</note>
+                        <note n="26">Blanc</note>
                       </msItem>
                     </msItem>
                     <msItem n="2" xml:id="rouen_794_trespartes">
@@ -1405,7 +1408,7 @@
                         <msItem>
                           <locus from="161b"/>
                           <title type="sub">[D. 36.1]</title>
-                          <incipit><seg type="rubric">Cist titres est del <expan><ex>con</ex>seill</expan> au senat qui est apelez tertullians qui dit <expan>q<ex>ue</ex></expan> les actions de l’eritaige suivent l’eritaige</seg><note>Incomplet : s’achève à la fin de D. 36.1.83.</note></incipit>
+                          <incipit><seg type="rubric">Cist titres est del <expan><ex>con</ex>seill</expan> au senat qui est apelez tertullians qui dit <expan>q<ex>ue</ex></expan> les actions de l’eritaige suivent l’eritaige</seg><note n="27">Incomplet : s’achève à la fin de D. 36.1.83.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_trespartes_livre3">
@@ -1426,7 +1429,7 @@
                         <msItem>
                           <locus from="181a"/>
                           <title type="sub">[D. 36.4]</title>
-                          <incipit><seg type="rubric"><expan>Q<ex>ue</ex></expan> il loise a estre en poss estre en <expan>posessio<ex>n</ex></expan> por cause de lés ou de choses <expan>enjoi<ex>n</ex>tes</expan></seg><note>Incomplet : s’achève avec le paragraphe D. 36.4.15.</note></incipit>
+                          <incipit><seg type="rubric"><expan>Q<ex>ue</ex></expan> il loise a estre en poss estre en <expan>posessio<ex>n</ex></expan> por cause de lés ou de choses <expan>enjoi<ex>n</ex>tes</expan></seg><note n="28">Incomplet : s’achève avec le paragraphe D. 36.4.15.</note></incipit>
                         </msItem>
                       </msItem>
                       <msItem xml:id="rouen_794_trespartes_livre4">
@@ -1473,13 +1476,13 @@
                           <locus from="193d"/>
                           <title type="sub">[D. 37.8]</title>
                           <title xml:lang="lat" resp="#FD">De coniungendis cum emancipato liberis eius</title>
-                          <incipit><seg type="rubric">De metre feme grosse en <expan>posessio<ex>n</ex></expan> des <expan>b<ex>ie</ex>ns</expan></seg><note>Erreur dans la rubrique mais les paragraphes qui suivent correspondent bien au titre D. 37.8.</note></incipit>
+                          <incipit><seg type="rubric">De metre feme grosse en <expan>posessio<ex>n</ex></expan> des <expan>b<ex>ie</ex>ns</expan></seg><note n="29">Erreur dans la rubrique mais les paragraphes qui suivent correspondent bien au titre D. 37.8.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="195b"/>
                           <title type="sub">[D. 37.9]</title>
                           <title xml:lang="lat" resp="#FD">De ventre in possessionem mittendo et curatore eius</title>
-                          <incipit><seg type="rubric">Del banissement qui est apelez carbonians</seg><note>Erreur dans la rubrique mais les paragraphes qui suivent correspondent bien au titre D. 37.9.</note></incipit>
+                          <incipit><seg type="rubric">Del banissement qui est apelez carbonians</seg><note n="30">Erreur dans la rubrique mais les paragraphes qui suivent correspondent bien au titre D. 37.9.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="196d"/>
@@ -1495,13 +1498,13 @@
                           <locus from="202a"/>
                           <title type="sub">[D. 37.12]</title>
                           <title xml:lang="lat" resp="#FD">Si a parente quis manumissus sit</title>
-                          <incipit>Ulpians dit : Il qui ses peres met hors de sa poesté est autresi envers son <expan>p<ex>er</ex>e</expan> <expan><ex>com</ex>me</expan> cil qui est franchiz <expan>env<ex>er</ex>s</expan> son patron...<note>Sans réserve ni rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Il qui ses peres met hors de sa poesté est autresi envers son <expan>p<ex>er</ex>e</expan> <expan><ex>com</ex>me</expan> cil qui est franchiz <expan>env<ex>er</ex>s</expan> son patron...<note n="31">Sans réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="202b"/>
                           <title type="sub">[D. 37.13]</title>
                           <title xml:lang="lat" resp="#FD">De bonorum possessione ex testamento militis</title>
-                          <incipit>Ulpians dit : Il n’est mie doute <expan>q<ex>ue</ex></expan> les derrenieres volantez a cels qui font leur testament entre leur anemis <expan><ex>et</ex></expan> qui <expan>muere<ex>n</ex>t</expan> ne doient estre fermes.<note>Réserve prévue mais pas de rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Il n’est mie doute <expan>q<ex>ue</ex></expan> les derrenieres volantez a cels qui font leur testament entre leur anemis <expan><ex>et</ex></expan> qui <expan>muere<ex>n</ex>t</expan> ne doient estre fermes.<note n="32">Réserve prévue mais pas de rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="202c"/>
@@ -1527,7 +1530,7 @@
                           <locus from="213a"/>
                           <title type="sub">[D. 38.3]</title>
                           <title xml:lang="lat" resp="#FD">De libertis universitatium</title>
-                          <incipit>Ulpians dit : Li mestre des <expan>garniso<ex>n</ex>s</expan> ont pleniere droiture sor <expan>ce<ex>l</ex>s</expan> et sor seles qu’il ont franchi autresi <expan><ex>com</ex>me</expan> li autre patron.<note>Ni réserve ni rubrique.</note></incipit>
+                          <incipit>Ulpians dit : Li mestre des <expan>garniso<ex>n</ex>s</expan> ont pleniere droiture sor <expan>ce<ex>l</ex>s</expan> et sor seles qu’il ont franchi autresi <expan><ex>com</ex>me</expan> li autre patron.<note n="33">Ni réserve ni rubrique.</note></incipit>
                         </msItem>
                         <msItem>
                           <locus from="213b"/>
@@ -1606,7 +1609,7 @@
                     <objectDesc>
                       <supportDesc>
                         <support><material>Parchemin</material> (bonne qualité, même si grosse couture f. 82 ; trous f. 66, 86 ; brisets f. 63, 195...)</support>
-                        <extent>231 f. <note>précédés de 3 f. de garde papier moderne + 1 f. de garde parch. et suivis de 3 f. pap. moderne. F. non folioté après f. 12, 49, 50, 51, 106, 123, si bien que la foliotation moderne s’interrompt au f. 225 ; France (Ile-de-France), 1270-1300 ; <dimensions unit="mm">
+                        <extent>231 f. <note n="34">précédés de 3 f. de garde papier moderne + 1 f. de garde parch. et suivis de 3 f. pap. moderne. F. non folioté après f. 12, 49, 50, 51, 106, 123, si bien que la foliotation moderne s’interrompt au f. 225 ; France (Ile-de-France), 1270-1300 ; <dimensions unit="mm">
                           <height quantity="360">360</height>
                           <width quantity="250">250</width>
                         </dimensions>. (justification : 245 x 145 mm.). Réglure à la mine de plomb (1-1-11/0/1-1/J f. 2-93v ; 1-1-11/0/3-3-3/J f. 94-225v). Malgré la modification du schéma de réglure, la justification reste la même : d’après le f. 49, (26 + 245 + 89 mm. [de haut en bas]) x (36 + 66 + 13 + 66 + 69 mm. [de la reliure vers la gouttière]). Trace de piqûres pour le tracé des lignes verticales ainsi que pour la linéation (f. 195). Copié sur 2 col., le ms compte 50 lignes par col., soit une UR de 4,9 mm. pour le corps du texte. La linéation couvre l’entrecolonne. – Foliotation moderne ; titre courant : sur le f. verso, « L » rubriqué ; numéro du livre en capitales romaines bleues et rouges sur le recto. La numérotation des livres reprend à I avec les <title>Tres partes</title>.</note></extent>
@@ -1705,18 +1708,18 @@
                     <p xml:id="rouen_794-D.28.1.4"><label>[4]</label>
                       <hi rend="b">G</hi>aius dit. <hi rend="b">S</hi>e nos demandons se <expan>testam<ex>en</ex>t</expan> vaut : nos devons <expan>p<ex>re</ex>mierement</expan> <expan>enq<ex>ui</ex>erre</expan> se cil qui le fist avoit pooir de fere <expan>testame<ex>n</ex>t</expan>. Et aprés se il le fist selonc les rieules del droit citoien.</p>
                     <p xml:id="rouen_794-D.28.1.5"><label>[5]</label>
-                      <hi rend="b">G</hi>aius dit. <hi rend="b">V</hi>oions en <expan>q<ex>ue</ex>l</expan> aage li home ou les femes pueent avoir testament. Et il est voirs <expan>q<ex>ue</ex></expan> l’en doit entendre es homes tant <expan>q<ex>ue</ex></expan> il aient .xiiii. anz. <expan><ex>et</ex></expan> es femes tant <expan>q<ex>ue</ex></expan> eles aient .xv<note><app>
+                      <hi rend="b">G</hi>aius dit. <hi rend="b">V</hi>oions en <expan>q<ex>ue</ex>l</expan> aage li home ou les femes pueent avoir testament. Et il est voirs <expan>q<ex>ue</ex></expan> l’en doit entendre es homes tant <expan>q<ex>ue</ex></expan> il aient .xiiii. anz. <expan><ex>et</ex></expan> es femes tant <expan>q<ex>ue</ex></expan> eles aient .xv<note n="a"><app>
                         <rdg wit="#B">xii</rdg>
                         <rdg xml:lang="lat">duodecim</rdg>
-                      </app></note>. anz. Voions donc se il covient <pb n="f. 43a"/> <expan>q<ex>ue</ex></expan> aucuns aient passé . xiiii. anz a ce <expan>q<ex>ue</ex></expan> il <expan>puisse<ex>n</ex>t</expan><note><app>
+                      </app></note>. anz. Voions donc se il covient <pb n="f. 43a"/> <expan>q<ex>ue</ex></expan> aucuns aient passé . xiiii. anz a ce <expan>q<ex>ue</ex></expan> il <expan>puisse<ex>n</ex>t</expan><note n="b"><app>
                         <rdg wit="#B">puisse</rdg>
                         <rdg xml:lang="lat">possit</rdg>
-                      </app></note> fere testament ou se ce est assez <expan>q<ex>ue</ex></expan> aucuns<note><app>
+                      </app></note> fere testament ou se ce est assez <expan>q<ex>ue</ex></expan> aucuns<note n="c"><app>
                         <rdg wit="#B">que il les</rdg>
                       </app></note> les ait acompliz. si come se il fu nez es kalendes de genvier. <expan><ex>et</ex></expan> il fist testament a cel jor meismes au chief de .xiiii. anz. Et ge di <expan>q<ex>ue</ex></expan> li testamenz vaut. Et encor di ge plus <expan>q<ex>ue</ex></expan> se il le fist le jor devant les kalendes aprés la siste heure de la nuit li testamenz vaut. Car il semble ja <expan>q<ex>ue</ex></expan> il ait acompli le .xiiii.sieme an. sicome il plest a marceau.</p>
                     <p xml:id="rouen_794-D.28.1.6"><label>[6]</label>
                       <hi rend="b">G</hi>aius dit. <label>[6.pr.]</label>
-                      <hi rend="b">C</hi>il qui est en la poesté son pere n’a pas pooir de fere testament. Neis se li <expan>p<ex>er</ex>es</expan> li otroie. <label>[6.1]</label> li sorz <expan><ex>et</ex></expan> li muz ne pueent fere testament. Mes se aucuns amuist ou asourdist par maladie ou par aucune maladie<note><app>
+                      <hi rend="b">C</hi>il qui est en la poesté son pere n’a pas pooir de fere testament. Neis se li <expan>p<ex>er</ex>es</expan> li otroie. <label>[6.1]</label> li sorz <expan><ex>et</ex></expan> li muz ne pueent fere testament. Mes se aucuns amuist ou asourdist par maladie ou par aucune maladie<note n="d"><app>
                         <rdg wit="#B">m. ou par aucune aventure p.</rdg>
                         <rdg xml:lang="lat">aut quolibet alio casu</rdg>
                       </app></note> puis <expan>q<ex>ue</ex></expan> il a fet son testament. por ce n’est pas li testament quassez.</p>
@@ -1725,32 +1728,32 @@
                     <p xml:id="rouen_794-D.28.1.8"><label>[8]</label>
                       <hi rend="b">G</hi>aius dit <label>[8.pr.]</label>
                       <hi rend="b">L</hi>i testamenz <expan>q<ex>ue</ex></expan> aucuns fet tant come il est en la poesté a ses anemis ne vaut riens. Ja soit ce <expan>q<ex>ue</ex></expan> il reviegne.
-                      <label>[8.1]</label> Se la comune de feu ou d’eve est deffendue a aucun. li testamenz qu’il fist avant. ne cil <expan>q<ex>ue</ex></expan> il mist<note><app>
+                      <label>[8.1]</label> Se la comune de feu ou d’eve est deffendue a aucun. li testamenz qu’il fist avant. ne cil <expan>q<ex>ue</ex></expan> il mist<note n="e"><app>
                         <rdg wit="#B">il mit <hi rend="i">corr. à date plus récente dans l’interligne en</hi> fist</rdg>
                         <rdg xml:lang="lat">nec id quod postea fecerit</rdg>
-                      </app></note> <expan>ava<ex>n</ex>t</expan><note><app>
+                      </app></note> <expan>ava<ex>n</ex>t</expan><note n="f"><app>
                         <rdg wit="#B"><hi rend="i">corr. dans l’interligne à date récente en</hi> despuis</rdg>
                         <rdg xml:lang="lat">nec id quod postea fecerit</rdg>
                       </app></note> ne vaut riens. Car li bien <expan>q<ex>ue</ex></expan> il avoit <expan>q<ex>ua</ex>nt</expan> il fu <expan>da<ex>m</ex>pnez</expan> seront pueploié. ou il seront lessié a ses anemis. <label>[8.2]</label> Cil qui sont envoié en une isle en essil sont de cele meisme cause. <label>[8.3]</label> a qui la terre de lombardie <expan><ex>et</ex></expan> leur contree est <expan>deffe<ex>n</ex>due</expan>. retienent la droiture de fere <expan>testam<ex>en</ex>t</expan>. <label>[8.4]</label> Cil qui sont condampné a fer. ou a bestes. ou a metal perdent franchise. Et lor bien <expan>so<ex>n</ex>t</expan> pueploié. Et parce apert il <expan>q<ex>ue</ex></expan> il perdent le pooir de fere testament. ¶ <label>[9]</label> Se aucuns a esté acusez <expan><ex>et</ex></expan> il muert en prison ainz <expan>q<ex>ue</ex></expan> il soit <expan>da<ex>m</ex>pnez</expan> ses testamenz valdra.</p>
                     <p xml:id="rouen_794-D.28.1.10"><label>[10]</label>
                       <hi rend="b">P</hi>aulus dit <hi rend="b">C</hi>il qui a perdu les mains puet fere testament. ja soit ce <expan>q<ex>ue</ex></expan> il ne le puet escrire.</p>
                     <p xml:id="rouen_794-D.28.1.11"><label>[11]</label>
-                      <hi rend="b">U</hi>lpians dit. <hi rend="b">E</hi>staage ne puet fere <expan>testam<ex>en</ex>t</expan> se il ne li<note><app>
+                      <hi rend="b">U</hi>lpians dit. <hi rend="b">E</hi>staage ne puet fere <expan>testam<ex>en</ex>t</expan> se il ne li<note n="g"><app>
                         <rdg wit="#B">ne lor est</rdg>
                         <rdg xml:lang="lat">nisi eis permittitur</rdg>
                       </app></note> est otroié.</p>
                     <p xml:id="rouen_794-D.28.1.12"><label>[12]</label>
-                      <hi rend="b">U</hi>lpians<note><app>
+                      <hi rend="b">U</hi>lpians<note n="h"><app>
                         <rdg wit="#B">Julians d.</rdg>
                         <rdg xml:lang="lat">Julianus</rdg>
-                      </app></note> dit. <hi rend="b">L</hi>i testament a cels qui sont mort en la poesté a lor anemis sont confermé par la loi que cornelius fist. autresi come se cil qui les firent ne fussent <expan>onq<ex>ue</ex>s</expan> venu en la poesté a lor anemis sont confermé par la loi <expan>q<ex>ue</ex></expan> cornelius fist. autresi come se cil qui les <expan>fire<ex>n</ex>t</expan> ne fussent <expan>onq<ex>ue</ex>s</expan> venuz en la poesté a lor anemis. sont confermez par la loi <expan>q<ex>ue</ex></expan> cornelius <pb n="f. 43b"/> fist. autresi come se cil qui les firent ne fussent <expan>onq<ex>ue</ex>s</expan> venu en la poesté a lor anemis<note><app>
+                      </app></note> dit. <hi rend="b">L</hi>i testament a cels qui sont mort en la poesté a lor anemis sont confermé par la loi que cornelius fist. autresi come se cil qui les firent ne fussent <expan>onq<ex>ue</ex>s</expan> venu en la poesté a lor anemis sont confermé par la loi <expan>q<ex>ue</ex></expan> cornelius fist. autresi come se cil qui les <expan>fire<ex>n</ex>t</expan> ne fussent <expan>onq<ex>ue</ex>s</expan> venuz en la poesté a lor anemis. sont confermez par la loi <expan>q<ex>ue</ex></expan> cornelius <pb n="f. 43b"/> fist. autresi come se cil qui les firent ne fussent <expan>onq<ex>ue</ex>s</expan> venu en la poesté a lor anemis<note n="i"><app>
                         <rdg wit="#B">sont confermé... a lor anemis <hi rend="i">om.</hi></rdg>
-                      </app></note>. Et lor heritages apartient a cels de qui il <expan>fire<ex>n</ex>t</expan> lor hoirs. li sers de qui cil qui morut a<note><app>
+                      </app></note>. Et lor heritages apartient a cels de qui il <expan>fire<ex>n</ex>t</expan> lor hoirs. li sers de qui cil qui morut a<note n="j"><app>
                         <rdg wit="#B">m. en la</rdg>
                         <rdg xml:lang="lat">in hostium potestate</rdg>
-                      </app></note> la poesté a lor<note><app>
+                      </app></note> la poesté a lor<note n="k"><app>
                         <rdg wit="#B">a ses a.</rdg>
-                      </app></note> anemis fist son hoir sera franchiz <expan><ex>et</ex></expan> hoirs vueille ou ne vueille. Ja soit ce <expan>q<ex>ue</ex></expan> l’en ne dit pas proprement <expan>q<ex>ue</ex></expan> il soit hoirs necessaires. Car li filz a celui qui morut en la poesté a ses anemis<note><app>
+                      </app></note> anemis fist son hoir sera franchiz <expan><ex>et</ex></expan> hoirs vueille ou ne vueille. Ja soit ce <expan>q<ex>ue</ex></expan> l’en ne dit pas proprement <expan>q<ex>ue</ex></expan> il soit hoirs necessaires. Car li filz a celui qui morut en la poesté a ses anemis<note n="l"><app>
                         <rdg wit="#B">fist son hoir... anemis <hi rend="i">om.</hi></rdg>
                       </app></note> est obligiez a l’eritage malgré suen. Ja soit ce <expan>q<ex>ue</ex></expan> l’en ne puisse pas dire <expan>q<ex>ue</ex></expan> il soit propres hoirs dés <expan>q<ex>ue</ex></expan> il n’estoit en sa poesté <expan>q<ex>ua</ex>nt</expan> il morut.</p>
                     <p xml:id="rouen_794-D.28.1.13"><label>[13]</label>
@@ -1758,11 +1761,11 @@
                       <hi rend="b">C</hi>il qui sont pris de larrons pueent fere testament por ce <expan>q<ex>ue</ex></expan> il sont franc.
                       <label>[13.1]</label> Et cil qui muerent loiaument <expan>ent<ex>re</ex></expan> estranges genz pueent fere testament. ¶ <label>[13.2]</label> Se aucuns fu dampnez de crime capital. <expan><ex>et</ex></expan> il apela. <expan><ex>et</ex></expan> il morut ainz <expan>q<ex>ue</ex></expan> li apiaus fust examinez. ses testamenz vaut.</p>
                     <p xml:id="rouen_794-D.28.1.14"><label>[14]</label>
-                      <hi rend="b">P</hi>aulus dit. <hi rend="b">S</hi>e cil qui fu franchi el <expan>testam<ex>en</ex>t</expan> son seignor ne set pas <expan>q<ex>ue</ex></expan> ses sires soit morz. Et <expan>q<ex>ue</ex></expan> ses heritages ait esté receuz : il ne puet fere testament. Ja soit ce <expan>q<ex>ue</ex></expan> il soit franchiz hors d’autrui poesté. Car cil qui n’est pas <expan>certai<ex>n</ex>s</expan> de son estat ne puet fere<note><app>
+                      <hi rend="b">P</hi>aulus dit. <hi rend="b">S</hi>e cil qui fu franchi el <expan>testam<ex>en</ex>t</expan> son seignor ne set pas <expan>q<ex>ue</ex></expan> ses sires soit morz. Et <expan>q<ex>ue</ex></expan> ses heritages ait esté receuz : il ne puet fere testament. Ja soit ce <expan>q<ex>ue</ex></expan> il soit franchiz hors d’autrui poesté. Car cil qui n’est pas <expan>certai<ex>n</ex>s</expan> de son estat ne puet fere<note n="m"><app>
                         <rdg wit="#B">p. pas f.</rdg>
                       </app></note> certaine loi en son testament.</p>
                     <p xml:id="rouen_794-D.28.1.15"><label>[15]</label>
-                      <hi rend="b">U</hi>lpians dit. cil qui doutent de lor estat ou qui en sont en erreur ne pueent pas fere testament. si come<note><app>
+                      <hi rend="b">U</hi>lpians dit. cil qui doutent de lor estat ou qui en sont en erreur ne pueent pas fere testament. si come<note n="n"><app>
                         <rdg wit="#B">c. se li</rdg>
                         <rdg xml:lang="lat">ut divus Pius rescripsit</rdg>
                       </app></note> li empereres pius escrist.</p>
@@ -1773,7 +1776,7 @@
                       <hi rend="b">C</hi>il qui chiet en frenesie par maladie ne puet pas fere <expan>testam<ex>en</ex>t</expan> en cel tens.</p>
                     <p xml:id="rouen_794-D.28.1.18"><label>[18]</label>
                       <hi rend="b">U</hi>lpians dit. <label>[18.pr.]</label>
-                      <hi rend="b">C</hi>il qui ses choses sont deffendues par la loi ne puet pas fere <expan>testam<ex>en</ex>t</expan> : Et se il le fet il ne vaut riens. mes cil <expan>q<ex>ue</ex></expan> il fist devant cil vaudra. il ne porra pas estre apelez a estre tesmoinz de testament dés <expan>q<ex>ue</ex></expan> il ne puet fere testament. ¶ <label>[18.1]</label> Se aucuns est dampnez <expan>q<ex>ue</ex></expan> il ait fet libelle por diffamer<note><app>
+                      <hi rend="b">C</hi>il qui ses choses sont deffendues par la loi ne puet pas fere <expan>testam<ex>en</ex>t</expan> : Et se il le fet il ne vaut riens. mes cil <expan>q<ex>ue</ex></expan> il fist devant cil vaudra. il ne porra pas estre apelez a estre tesmoinz de testament dés <expan>q<ex>ue</ex></expan> il ne puet fere testament. ¶ <label>[18.1]</label> Se aucuns est dampnez <expan>q<ex>ue</ex></expan> il ait fet libelle por diffamer<note n="o"><app>
                         <rdg wit="#B">d. autrui il</rdg>
                         <rdg xml:lang="lat">ob carmen famosum</rdg>
                       </app></note>
@@ -1782,50 +1785,50 @@
                       <hi rend="b">M</hi>odestins dit. <hi rend="b">S</hi>e li filz qui est en bail ou uns orfelins ou uns sers fet les tables de son testament <expan><ex>et</ex></expan> il les seele : la possession de ses biens ne puet pas estre donee selonc cez tables ja soit ce <expan>q<ex>ue</ex></expan> cil qui estoit en bail en soit hors <expan>q<ex>ua</ex>nt</expan> il muert. <expan><ex>et</ex></expan> li orfelins ait passé .x. iiii. anz. <expan><ex>et</ex></expan> li sers soit <expan>fra<ex>n</ex>chiz</expan> car les tables del testament ne sont nules <expan>q<ex>ue</ex></expan> cil a fetes qui n’avoit pas pooir de fere testament.</p>
                     <p xml:id="rouen_794-D.28.1.20"><label>[20]</label>
                       <hi rend="b">U</hi>lpians dit <label>[20.pr.]</label>
-                      <hi rend="b">C</hi>il qui est fez hoirs en testament ne puet<note><app>
+                      <hi rend="b">C</hi>il qui est fez hoirs en testament ne puet<note n="p"><app>
                         <rdg wit="#B">p. pas e.</rdg>
                       </app></note> estre tesmoinz en cest testament. Mes il est <expan>autrem<ex>en</ex>t</expan> en celui a qui .i. lés est lessiez. <expan><ex>et</ex></expan> en celui qui est fez deffenderres. car cist pueent bien estre tesmoignz se <expan>aut<ex>re</ex></expan> chose ne lor tolt. si come s’il sont dedenz l’aage de .xiiii. anz. ou en la poesté a celui qui fist le testament. ¶ <label>[20.1]</label> la parole de testament ne doit pas estre raportee as enfanz tant solement. mes a celui <expan>q<ex>ue</ex></expan> aucuns a rachaté de ses anemis. ja soit ce <expan>q<ex>ue</ex></expan> il n’est pas sers. ainz est obligiez tant qu’il rende le pris. <label>[20.2]</label> Encontre ce puet l’en demander se li peres a celui qui fet testament del chatel <expan>q<ex>ue</ex></expan> il a conquis par <expan>ch<ex>evale</ex>rie</expan> puet estre <expan>tesmoi<ex>n</ex>z</expan> en son testament. Et marceaus escrist <expan>q<ex>ue</ex></expan> oïl bien. donc en puet ses freres estre tesmoinz. ¶ <label>[20.3]</label> Ce <expan>q<ex>ue</ex></expan> nos avons dit de cels qui sont en bail qui ne pueent porter tesmoign es <expan>testam<ex>en</ex>z</expan> doit estre entendu en toz testemoignes de cels par qui aucune chose est aquise. ¶
                       <label>[20.4]</label> forsenez ne puet estre tesmoinz dés <expan>q<ex>ue</ex></expan> il n’est ordenerres de sa pensee. mes se la forsenerie l’entrelesse en aucun tens lors puet il estre tesmoinz. Et li testamenz qu’il parfist devant la forsenerie vaudra. <expan><ex>et</ex></expan> la possession des biens en porra estre demandee. ¶ <label>[20.5]</label> Je croi <expan>q<ex>ue</ex></expan> cil qui est dampnez a rendre arriere ce <expan>q<ex>ue</ex></expan> il a pris en sa baillie ne peut estre tesmoinz en testament. Car il est veé <expan>q<ex>ue</ex></expan> il ne soit tesmoinz en vile cause ¶
-                      <label>[20.6]</label> Feme ne puet porter tesmoign en tes<pb n="f. 43d"/>tament<note><app>
+                      <label>[20.6]</label> Feme ne puet porter tesmoign en tes<pb n="f. 43d"/>tament<note n="q"><app>
                         <rdg wit="#B">car il est veé... en testament <hi rend="i">om.</hi></rdg>
                       </app></note> mes en autres cas puet feme porter <expan>tesmoi<ex>n</ex>g</expan>. sicome nos poons <expan>co<ex>m</ex>prendre</expan> par la loi <expan>q<ex>ue</ex></expan> julius fist des avoltires. qui desfent <expan>q<ex>ue</ex></expan> feme qui soit dampnee d’avoltire ne puisse porter <expan>tesmoi<ex>n</ex>g</expan>. ¶
                       <label>[20.7]</label> Serf ne puet porter <expan>tesmoi<ex>n</ex>g</expan> ne estre receuz par droit a nul sollempnel fet. car il n’a nule <expan><ex>com</ex>munité</expan> en droit citoien ¶
                       <label>[20.8]</label> li ancien <expan>distre<ex>n</ex>t</expan> <expan>q<ex>ue</ex></expan> cil qui sont apelez a fere <expan>testam<ex>en</ex>t</expan> por acomplir la sollempnité il doivent estre tant <expan>q<ex>ue</ex></expan> il soit toz parfez. <label>[20.9]</label> <expan>Neporq<ex>ua</ex>nt</expan> il ne covient pas <expan>q<ex>ue</ex></expan> il entendent les paroles. Einsi l’escrist li empereres marc a julian qui ne savoit pas parler en latin. car ce est assez se il reçoit le sens de la chose por quoi il i fu apelez. <label>[20.10]</label> Et se li tesmoign i sont amené ou detenu par force lor tesmoign ne vaut rien.</p>
                     <p xml:id="rouen_794-D.28.1.21"><label>[21]</label>
                       <hi rend="b">C</hi>il meismes dit. <label>[21.pr.]</label>
-                      <hi rend="b">L</hi>i hoir doivent estre <expan>no<ex>m</ex>mé</expan> en apert si <expan>q<ex>ue</ex></expan> l’en le puisse oïr. Il loist donc a celui qui fet son testament <expan>q<ex>ue</ex></expan> il les nomme ou que il les escrive. Mes se il les <expan>no<ex>m</ex>me</expan> il les doit <expan>no<ex>m</ex>mer</expan> apertement. apertement n’es<note><app>
+                      <hi rend="b">L</hi>i hoir doivent estre <expan>no<ex>m</ex>mé</expan> en apert si <expan>q<ex>ue</ex></expan> l’en le puisse oïr. Il loist donc a celui qui fet son testament <expan>q<ex>ue</ex></expan> il les nomme ou que il les escrive. Mes se il les <expan>no<ex>m</ex>me</expan> il les doit <expan>no<ex>m</ex>mer</expan> apertement. apertement n’es<note n="r"><app>
                         <rdg wit="#B">a. est p.</rdg>
-                      </app></note> pas en comun. mes si que il puisse estre oïz. <expan><ex>et</ex></expan> si ne covient pas <expan>q<ex>ue</ex></expan> tuit l’oient. mes cil qui i sont amené por estre <expan>tesmoi<ex>n</ex>g</expan>. Et se il i a plusors tesmoinz ce est assez <expan>q<ex>ue</ex></expan> li sollempnelx nombre l’oie. ¶ <label>[21.1]</label> Se <expan>aucu<ex>n</ex>s</expan> velt muer aucune chose puis <expan>q<ex>ue</ex></expan> il a fet son testament il li covient fere tout de rechief. ¶ Se aucuns <expan>no<ex>m</ex>me</expan> ou escrit aucune chose en son testament l’en <expan>dema<ex>n</ex>de</expan> se il la puet esclerier aprés ce <expan>q<ex>ue</ex></expan> la sollempnité del testament est acomplie. Si come se il avoit plusors sers <expan><ex>et</ex></expan> il en lessa .i. ne il n’esclera pas en son testament<note><app>
+                      </app></note> pas en comun. mes si que il puisse estre oïz. <expan><ex>et</ex></expan> si ne covient pas <expan>q<ex>ue</ex></expan> tuit l’oient. mes cil qui i sont amené por estre <expan>tesmoi<ex>n</ex>g</expan>. Et se il i a plusors tesmoinz ce est assez <expan>q<ex>ue</ex></expan> li sollempnelx nombre l’oie. ¶ <label>[21.1]</label> Se <expan>aucu<ex>n</ex>s</expan> velt muer aucune chose puis <expan>q<ex>ue</ex></expan> il a fet son testament il li covient fere tout de rechief. ¶ Se aucuns <expan>no<ex>m</ex>me</expan> ou escrit aucune chose en son testament l’en <expan>dema<ex>n</ex>de</expan> se il la puet esclerier aprés ce <expan>q<ex>ue</ex></expan> la sollempnité del testament est acomplie. Si come se il avoit plusors sers <expan><ex>et</ex></expan> il en lessa .i. ne il n’esclera pas en son testament<note n="s"><app>
                         <rdg wit="#B">en son testament <hi rend="i">om.</hi></rdg>
-                      </app></note> le <expan>q<ex>ue</ex>l</expan> il lessa. Ou s’il lessa une chose a tyce. <expan><ex>et</ex></expan> il avoit plusors amis qui avoient non tyce<note><app>
+                      </app></note> le <expan>q<ex>ue</ex>l</expan> il lessa. Ou s’il lessa une chose a tyce. <expan><ex>et</ex></expan> il avoit plusors amis qui avoient non tyce<note n="t"><app>
                         <rdg wit="#B">et il avoit... tyce <hi rend="i">om.</hi></rdg>
-                      </app></note>. Ou se il fu deceuz ou non ou el seurnon. <expan><ex>et</ex></expan> il ne fu pas deceuz el cors. Et ge croi <expan>q<ex>ue</ex></expan> il le puet bien esclerier. car il ne done riens. ainz esclere a qui il a doné. ¶ Et se il i met aprés aucune conoissance <expan><ex>et</ex></expan> il mostre ou par paroles ou par letres la <expan>so<ex>m</ex>me</expan> des lés. ou le non de celui a qui il le lesse. ou la <expan>q<ex>ua</ex>lité</expan> de la chose <expan>q<ex>ue</ex></expan> il lesse. l’en demande s’il fet a droit. Et ge croi que il puet bien <expan>no<ex>m</ex>mer</expan> la <expan>q<ex>ua</ex>lité</expan> de la chose. car s’il ne la <expan>no<ex>m</ex>moit</expan> il covendroit regarder ou as autres escritures. ou a la coutumace<note><app>
+                      </app></note>. Ou se il fu deceuz ou non ou el seurnon. <expan><ex>et</ex></expan> il ne fu pas deceuz el cors. Et ge croi <expan>q<ex>ue</ex></expan> il le puet bien esclerier. car il ne done riens. ainz esclere a qui il a doné. ¶ Et se il i met aprés aucune conoissance <expan><ex>et</ex></expan> il mostre ou par paroles ou par letres la <expan>so<ex>m</ex>me</expan> des lés. ou le non de celui a qui il le lesse. ou la <expan>q<ex>ua</ex>lité</expan> de la chose <expan>q<ex>ue</ex></expan> il lesse. l’en demande s’il fet a droit. Et ge croi que il puet bien <expan>no<ex>m</ex>mer</expan> la <expan>q<ex>ua</ex>lité</expan> de la chose. car s’il ne la <expan>no<ex>m</ex>moit</expan> il covendroit regarder ou as autres escritures. ou a la coutumace<note n="u"><app>
                         <rdg wit="#B">la costume as</rdg>
                         <rdg xml:lang="lat">ex consuetudine</rdg>
                       </app></note> as preudes homes. ou a cele de la re<pb n="f. 44a"/>gion. ¶ <label>[21.2]</label> Es testamenz en quoi <expan>tesmoi<ex>n</ex>g</expan> suelent estre apelé por porter <expan>tesmoi<ex>n</ex>g</expan> il nos plest <expan>q<ex>ue</ex></expan> cil qui i sont apelé por autre chose ne soient pas soffisant a porter <expan>tesmoi<ex>n</ex>g</expan>. <expan><ex>et</ex></expan> ce doit estre einsi entendu <expan>q<ex>ue</ex></expan> ja soit ce <expan>q<ex>ue</ex></expan> il i soient apelé por autre chose ne <expan>porq<ex>ua</ex>nt</expan> se il lor est dit ainz <expan>q<ex>ue</ex></expan> il <expan>face<ex>n</ex>t</expan> le testament <expan>q<ex>ue</ex></expan> il i soient come tesmoing il pueent par droit porter <expan>tesmoi<ex>n</ex>g</expan>. ¶
-                      <label>[21.3]</label> Il covient fere testament tout ensemble si <expan>q<ex>ue</ex></expan> il ne face el mileu nule autre chose. mes se l’en fet en mi<note><app>
+                      <label>[21.3]</label> Il covient fere testament tout ensemble si <expan>q<ex>ue</ex></expan> il ne face el mileu nule autre chose. mes se l’en fet en mi<note n="v"><app>
                         <rdg wit="#B">f. ennui a.</rdg>
                         <rdg xml:lang="lat">sed si aliquid pertinens ad testamentum faciat</rdg>
                       </app></note> aucune chose qui apartiegne au testament li testamenz n’est pas failliz.</p>
                     <p xml:id="rouen_794-D.28.1.22"><label>[22]</label>
                       <hi rend="b">C</hi>il meismes dit. <label>[22.pr.]</label>
-                      <hi rend="b">G</hi>e <expan><ex>et</ex></expan> mes peres <expan><ex>et</ex></expan> plusors autres qui sont en une meisme poesté poons estre conté el nombre des tesmoinz qui sont apelé a testament. ¶ <label>[22.1]</label> Nos devons regarder la condicion des tesmoinz <expan>q<ex>ua</ex>nt</expan> il seelent <expan><ex>et</ex></expan> ne mie <expan>q<ex>ua</ex>nt</expan> cil muert <expan>q<ex>ui</ex></expan> fet le testament. Se il estoient donc receu a tesmoign chose qui puis lor soit avenue ne lor nuist pas. ¶ <label>[22.2]</label> Se ge ai pris de celui qui fist le testament son anel <expan><ex>et</ex></expan> ge ai fet le testament seeler autretant vaut com<note><app>
+                      <hi rend="b">G</hi>e <expan><ex>et</ex></expan> mes peres <expan><ex>et</ex></expan> plusors autres qui sont en une meisme poesté poons estre conté el nombre des tesmoinz qui sont apelé a testament. ¶ <label>[22.1]</label> Nos devons regarder la condicion des tesmoinz <expan>q<ex>ua</ex>nt</expan> il seelent <expan><ex>et</ex></expan> ne mie <expan>q<ex>ua</ex>nt</expan> cil muert <expan>q<ex>ui</ex></expan> fet le testament. Se il estoient donc receu a tesmoign chose qui puis lor soit avenue ne lor nuist pas. ¶ <label>[22.2]</label> Se ge ai pris de celui qui fist le testament son anel <expan><ex>et</ex></expan> ge ai fet le testament seeler autretant vaut com<note n="w"><app>
                         <rdg wit="#B">com <hi rend="i">om.</hi></rdg>
                         <rdg xml:lang="lat">quasi</rdg>
-                      </app></note> se ge le seelasse. ¶ <label>[22.4]</label> Se aucuns des tesmoinz n’escrist pas son non el testament <expan><ex>et</ex></expan> il le seele autretant vaut come se il n’eust pas esté apelez a <expan>tesmoi<ex>n</ex>g</expan>. Et se il met son non si come plusor font il ne le seele pas. encor disons nos ce meismes. ¶ <label>[22.5]</label> L’en demande se l’en doit<note><app>
+                      </app></note> se ge le seelasse. ¶ <label>[22.4]</label> Se aucuns des tesmoinz n’escrist pas son non el testament <expan><ex>et</ex></expan> il le seele autretant vaut come se il n’eust pas esté apelez a <expan>tesmoi<ex>n</ex>g</expan>. Et se il met son non si come plusor font il ne le seele pas. encor disons nos ce meismes. ¶ <label>[22.5]</label> L’en demande se l’en doit<note n="x"><app>
                         <rdg wit="#B">se nos devons s.</rdg>
                       </app></note> seeler d’un anel tant solement. ou d’aucun autre signe. Et sanz doute li home seelent en diverses manieres. <sic>Me</sic> il est mielz <expan>q<ex>ue</ex></expan> aucuns puisse seeler de son anel tant solement qui ait aucune empriente ¶ <label>[22.6]</label> Il n’est nule doute <expan>q<ex>ue</ex></expan> testamenz ne puisse estre seelez par tuit. ¶ <label>[22.7]</label> l’en doit dire <expan>q<ex>ue</ex></expan> les tables sont seelees se li dras est seelez de quoi eles sont covertes. ¶ <label>[23]</label> Se li testamenz <expan>q<ex>ue</ex></expan> cil qui le fist resnia est seelez de rechief des seaus a .ii. tesmoinz il est parfez. <expan><ex>et</ex></expan> vaut par le droit citoien. <expan><ex>et</ex></expan> par cel au prevost.</p>
                     <p xml:id="rouen_794-D.28.1.24"><hi rend="b">F</hi>lorentins dit. <label>[24]</label>
                       <hi rend="b">A</hi>ucun pueent seeler .i. testament de plusor essamples. Et aucune foiz est ce necessaire chose. Si come <expan>q<ex>ua</ex>nt</expan> aucuns velt aler hors del païs <expan><ex>et</ex></expan> il velt porter o lui son testament. <expan><ex>et</ex></expan> lessier le en sa meson.</p>
                     <p xml:id="rouen_794-D.28.1.25"><pb n="f. 44b"/>
                       <label>[25]</label>
-                      <hi rend="b">J</hi>abolenus dit. <hi rend="b">S</hi>e cil qui fesoit son testament <expan>no<ex>m</ex>ma</expan> ses premiers hoirs. <expan><ex>et</ex></expan> il amui ainz que il <expan>no<ex>m</ex>mast</expan> le segont. l’en ne doit pas dire <expan>q<ex>ue</ex></expan> il ait fet son testament. mes <expan>q<ex>ue</ex></expan> il l’a comencié. <expan><ex>et</ex></expan><note><app>
+                      <hi rend="b">J</hi>abolenus dit. <hi rend="b">S</hi>e cil qui fesoit son testament <expan>no<ex>m</ex>ma</expan> ses premiers hoirs. <expan><ex>et</ex></expan> il amui ainz que il <expan>no<ex>m</ex>mast</expan> le segont. l’en ne doit pas dire <expan>q<ex>ue</ex></expan> il ait fet son testament. mes <expan>q<ex>ue</ex></expan> il l’a comencié. <expan><ex>et</ex></expan><note n="y"><app>
                         <rdg wit="#B">et <hi rend="i">om.</hi></rdg>
                       </app></note> Cil qui furent <expan>no<ex>m</ex>mé</expan> ne seront pas donc hoir par cel testament. Et labeo dist <expan>q<ex>ue</ex></expan> ce est voir se il est certaine chose <expan>q<ex>ue</ex></expan> cil qui fist le <expan>testame<ex>n</ex>t</expan> volsist fere plus d’oirs <expan><ex>et</ex></expan> ge croi que ce soit li droiz entendemenz.</p>
                     <p xml:id="rouen_794-D.28.1.26"><label>[26]</label>
                       <hi rend="b">G</hi>aius dit. <expan><hi rend="b">Q</hi><ex>ua</ex>nt</expan> il est comandé en la loi <expan>q<ex>ue</ex></expan> aucuns n’ait pas pooir de fere <expan>testam<ex>en</ex>t</expan> ce est a dire <expan>q<ex>ue</ex></expan> ses testamenz ne soit pas receuz. <expan><ex>et</ex></expan> si come aucun cuident <expan>q<ex>ue</ex></expan> n’en ne port tesmoign.</p>
                     <p xml:id="rouen_794-D.28.1.27"><label>[27]</label>
-                      <hi rend="b">C</hi>elsus dit. <hi rend="b">L</hi>abeo saluz a <expan>cels<ex>us</ex></expan><note><app>
+                      <hi rend="b">C</hi>elsus dit. <hi rend="b">L</hi>abeo saluz a <expan>cels<ex>us</ex></expan><note n="z"><app>
                         <rdg wit="#B">L. demande saluz a cels</rdg>
                         <rdg xml:lang="lat">Domitius Labeo Celso suo salutem</rdg>
                       </app></note> Je te demant se cil doit estre contez el <expan>no<ex>m</ex>bre</expan> des tesmoinz qui fu amenez a escrire le testament. <expan><ex>et</ex></expan> puis le seela <expan>q<ex>ua</ex>nt</expan> il l’ot <expan>esc<ex>ri</ex>t</expan>. Celsus mande a labeo. Ou ge n’entent pas <expan>q<ex>ui</ex></expan> cil est de qui tu demandes ou ta demande est fole. de douter se aucuns doit mielz estre tesmoinz. <expan>q<ex>ue</ex></expan> cil qui escrist les tables del testament.</p>
@@ -1833,18 +1836,18 @@
                       <hi rend="b">M</hi>odestins dist. <hi rend="b">I</hi>l n’est pas deveé <expan>q<ex>ue</ex></expan> autrui serf ne puisse escrire <expan>testame<ex>n</ex>t</expan> par le comandement a celui qui le fet.</p>
                     <p xml:id="rouen_794-D.28.1.29"><label>[29]</label>
                       <hi rend="b">P</hi>aulus dit. <label>[29.pr.]</label>
-                      <hi rend="b">P</hi>or l’escriture qui estoit apareilliee a fere testament ne puet<note><app>
+                      <hi rend="b">P</hi>or l’escriture qui estoit apareilliee a fere testament ne puet<note n="aa"><app>
                         <rdg wit="#B">p. pas l.</rdg>
                       </app></note> lés estre demandé se li testamenz ne fu parfez.</p>
                     <p xml:id="rouen_794-D.28.1.30"><label>[30]</label>
-                      <hi rend="b">C</hi>il meismes dit. <hi rend="b">I</hi>l covient <expan>q<ex>ue</ex></expan> <expan>chascu<ex>n</ex>s</expan> des <expan>tesmoi<ex>n</ex>z</expan> qui sont apelé a <expan>testame<ex>n</ex>t</expan> fere<note><app>
+                      <hi rend="b">C</hi>il meismes dit. <hi rend="b">I</hi>l covient <expan>q<ex>ue</ex></expan> <expan>chascu<ex>n</ex>s</expan> des <expan>tesmoi<ex>n</ex>z</expan> qui sont apelé a <expan>testame<ex>n</ex>t</expan> fere<note n="ab"><app>
                         <rdg wit="#B">a fere testament</rdg>
                       </app></note> escrive en son propre cyrogrefe qui li testamenz est <expan>q<ex>ue</ex></expan> il a seelé.</p>
                   </div>
                   <div type="edition" n="3" xml:id="rouen_794.D.38">
                     <head>D. 38.11-15</head>
                     <p n="3" xml:id="rouen_794-D.38.11"><label>[D. 38.11]</label>
-                      <seg type="rubric">Coment li mariz <expan><ex>et</ex></expan> sa feme sont li hoir l’uns de<note><app>
+                      <seg type="rubric">Coment li mariz <expan><ex>et</ex></expan> sa feme sont li hoir l’uns de<note n="ac"><app>
                         <rdg wit="#B">u. a l’a.</rdg>
                       </app></note> l’autre</seg>
                       <label>[1]</label>
@@ -1853,7 +1856,7 @@
                     <p n="3" xml:id="rouen_794-D.38.12"><label>[D. 38.12]</label>
                       <seg type="rubric">De l’heritage as anciens chevaliers</seg>
                       <label>[1]</label>
-                      <hi rend="b">M</hi>arceaus dit <hi rend="b">P</hi>aulus <expan><ex>et</ex></expan> meandres escrivent<note><app>
+                      <hi rend="b">M</hi>arceaus dit <hi rend="b">P</hi>aulus <expan><ex>et</ex></expan> meandres escrivent<note n="ad"><app>
                         <rdg wit="#B">m. escristrent</rdg>
                         <rdg xml:lang="lat">scribunt</rdg>
                       </app></note> <expan>q<ex>ue</ex></expan> l’en doit otroier au <expan>ch<ex>evalie</ex>r</expan> qui a deservi a estre puniz <expan>p<ex>ar</ex></expan> paine capital : <expan>q<ex>ue</ex></expan> il face testament. Et se il est puniz li <expan>b<ex>ie</ex>n</expan> <expan>ap<ex>ar</ex>tiennent</expan> a ses parenz sanz <expan>testam<ex>en</ex>t</expan> se einssi est qu’il soit puniz por mesfet de <expan>ch<ex>evale</ex>rie</expan> <expan><ex>et</ex></expan> ne mie por commun.</p>
@@ -1864,7 +1867,7 @@
                       <pb n="f. 220c"/>
                       <seg type="rubric">A qui la posessions des <expan>b<ex>ie</ex>ns</expan> n’<expan>ap<ex>ar</ex>tie<ex>n</ex>t</expan> mie</seg>
                       <label>[1]</label>
-                      <hi rend="b">J</hi>ulians dit <expan><hi rend="b">Q</hi><ex>ua</ex>nt</expan> mes sers fu fez hoirs ge fis par <expan>trich<ex>er</ex>ie</expan> <expan>q<ex>ue</ex></expan> li testamenz ne fust mie muez. <expan><ex>et</ex></expan> puis le franchi. L’en demande se actions li doivent estre vees. Et la responsse est <expan>q<ex>ue</ex></expan> cil cas n’est mie contenuz es paroles del banissement. Mes il est droiz <expan>q<ex>ue</ex></expan> se li sires fist <expan>p<ex>ar</ex></expan> <expan>trich<ex>er</ex>ie</expan> <expan>q<ex>ue</ex></expan> li <expan>testam<ex>en</ex>z</expan> ne fust muez en quoi ses hoirs est<note><app>
+                      <hi rend="b">J</hi>ulians dit <expan><hi rend="b">Q</hi><ex>ua</ex>nt</expan> mes sers fu fez hoirs ge fis par <expan>trich<ex>er</ex>ie</expan> <expan>q<ex>ue</ex></expan> li testamenz ne fust mie muez. <expan><ex>et</ex></expan> puis le franchi. L’en demande se actions li doivent estre vees. Et la responsse est <expan>q<ex>ue</ex></expan> cil cas n’est mie contenuz es paroles del banissement. Mes il est droiz <expan>q<ex>ue</ex></expan> se li sires fist <expan>p<ex>ar</ex></expan> <expan>trich<ex>er</ex>ie</expan> <expan>q<ex>ue</ex></expan> li <expan>testam<ex>en</ex>z</expan> ne fust muez en quoi ses hoirs est<note n="ae"><app>
                         <rdg wit="#B">ses sers estoit</rdg>
                         <rdg xml:lang="lat">servus eius heres scriptus erat</rdg>
                       </app></note> fez hoirs Ja soit ce qu’il estoit franchiz <expan>q<ex>ua</ex>nt</expan> il reçut l’eritaige : les actions li soient vees <expan>Q<ex>ua</ex>r</expan> au fill qui seroit hors de baill seroient eles vees se ses peres avoit fet <expan>p<ex>ar</ex></expan> tricherie <expan>q<ex>ue</ex></expan> li <expan>testam<ex>en</ex>z</expan> ne fust muez.</p>
@@ -1872,7 +1875,7 @@
                       <seg type="rubric"><expan>Qu<ex>an</ex>t</expan> posession de <expan>b<ex>ie</ex>ns</expan> est donnee par les lois ou <expan>p<ex>ar</ex></expan> le <expan><ex>con</ex>seill</expan> au senat</seg>
                       <label>[1]</label>
                       <hi rend="b">U</hi>lpians dit. <label>[1.pr.]</label>
-                      <hi rend="b">L</hi>i prevoz dit Si comme il convendra <expan>q<ex>ue</ex></expan> ge doigne posession de <expan>b<ex>ie</ex>ns</expan> par loi ou par le conseill au senat. Einssi la donrai ge. <label>[1.1]</label> La posessions des <expan>b<ex>ie</ex>ns</expan> qui est donee <expan>p<ex>ar</ex></expan> l’autre <expan>p<ex>ar</ex>tie</expan> del banissement n’enpeesche nule foiz ceste. <label>[1.2]</label> Et <expan>q<ex>ua</ex>nt</expan> aucuns a heritaige <expan>p<ex>ar</ex></expan> la loi des .xii. tables. Il ne la demande mie par iceste<note><app>
+                      <hi rend="b">L</hi>i prevoz dit Si comme il convendra <expan>q<ex>ue</ex></expan> ge doigne posession de <expan>b<ex>ie</ex>ns</expan> par loi ou par le conseill au senat. Einssi la donrai ge. <label>[1.1]</label> La posessions des <expan>b<ex>ie</ex>ns</expan> qui est donee <expan>p<ex>ar</ex></expan> l’autre <expan>p<ex>ar</ex>tie</expan> del banissement n’enpeesche nule foiz ceste. <label>[1.2]</label> Et <expan>q<ex>ua</ex>nt</expan> aucuns a heritaige <expan>p<ex>ar</ex></expan> la loi des .xii. tables. Il ne la demande mie par iceste<note n="af"><app>
                         <rdg wit="#B">par ceste p.</rdg>
                       </app></note> <expan>p<ex>ar</ex>tie</expan> mes <expan>p<ex>ar</ex></expan> la ou il puet <expan>est<ex>re</ex></expan> hoirs. <expan>q<ex>ua</ex>r</expan> la posessions des <expan>b<ex>ie</ex>ns</expan> ne li apartient mie autrement se la loi ne li donne especialment.</p>
                     <p xml:id="rouen_794-D.38.15"><label>[D. 38.15]</label>
@@ -1882,27 +1885,27 @@
                       <label>[1.1]</label> Se aucuns ne fet point de testament ou il le fet. mes ses heritaiges n’est receuz. ne selonc les tables ne contre les tables la posessions des <expan>b<ex>ie</ex>ns</expan> est donnee en ceste maniere. <label>[1.2]</label> la posessions des <expan>b<ex>ie</ex>ns</expan> au pere qui muert sanz testament est donee a ses enfanz <expan><ex>et</ex></expan> non mie a cels tant seulement qui estoient en sa poesté <expan>q<ex>ua</ex>nt</expan> il morut mes a <expan>ce<ex>us</ex></expan> qui en estoient hors.</p>
                     <p xml:id="rouen_794-D.38.15.2"><label>[2]</label>
                       <hi rend="b">U</hi>lpians dit. <label>[2.pr.]</label>
-                      <hi rend="b">L</hi>’en conte proffita<pb n="f. 220d"/>ble tans a demander la posession des <expan>b<ex>ie</ex>ns</expan>. Se cil a qui ele <expan>ap<ex>ar</ex>tient</expan> le <expan>sore<ex>n</ex>t</expan> toz les jorz. <expan><ex>et</ex></expan> il la porent demander <expan><ex>et</ex></expan> le jor en quoi il ne le sorent mie ou il ne la porent<note><app>
+                      <hi rend="b">L</hi>’en conte proffita<pb n="f. 220d"/>ble tans a demander la posession des <expan>b<ex>ie</ex>ns</expan>. Se cil a qui ele <expan>ap<ex>ar</ex>tient</expan> le <expan>sore<ex>n</ex>t</expan> toz les jorz. <expan><ex>et</ex></expan> il la porent demander <expan><ex>et</ex></expan> le jor en quoi il ne le sorent mie ou il ne la porent<note n="ag"><app>
                         <rdg wit="#B">p. pas d.</rdg>
-                      </app></note> demander ne leur doivent mie estre contés. Si <expan><ex>com</ex>me</expan> se aucuns sot <expan>q<ex>ue</ex></expan> cil de qui il devoit avoir la posesion de ses biens estoit morz sans fere testament <expan><ex>et</ex></expan> puis li vient .i. mesaige qui li dist qu’il n’estoit mie morz ou <expan>q<ex>ue</ex></expan> il avoit fet testament <expan><ex>et</ex></expan> einsi <expan>comme<ex>n</ex>ça</expan> il a douter se la posessions des <expan>b<ex>ie</ex>ns</expan> li <expan>ap<ex>ar</ex>tenoit</expan> ou non : li termes en <expan>q<ex>uo</ex>i</expan> il en douta ne li sera mie contez <label>[2.1]</label> <expan><ex>et</ex></expan> autresi se il ne pot mie<note><app>
+                      </app></note> demander ne leur doivent mie estre contés. Si <expan><ex>com</ex>me</expan> se aucuns sot <expan>q<ex>ue</ex></expan> cil de qui il devoit avoir la posesion de ses biens estoit morz sans fere testament <expan><ex>et</ex></expan> puis li vient .i. mesaige qui li dist qu’il n’estoit mie morz ou <expan>q<ex>ue</ex></expan> il avoit fet testament <expan><ex>et</ex></expan> einsi <expan>comme<ex>n</ex>ça</expan> il a douter se la posessions des <expan>b<ex>ie</ex>ns</expan> li <expan>ap<ex>ar</ex>tenoit</expan> ou non : li termes en <expan>q<ex>uo</ex>i</expan> il en douta ne li sera mie contez <label>[2.1]</label> <expan><ex>et</ex></expan> autresi se il ne pot mie<note n="ah"><app>
                         <rdg wit="#B">ne puet pas plainement d.</rdg>
-                      </app></note> demander la posession des <expan>b<ex>ie</ex>ns</expan> ainz l’en <expan>convi<ex>n</ex>t</expan> aler a plet puis <expan>q<ex>ue</ex></expan> il sot <expan>q<ex>ue</ex></expan> cil fu <expan>m<ex>or</ex>z</expan> sans fere<note><app>
+                      </app></note> demander la posession des <expan>b<ex>ie</ex>ns</expan> ainz l’en <expan>convi<ex>n</ex>t</expan> aler a plet puis <expan>q<ex>ue</ex></expan> il sot <expan>q<ex>ue</ex></expan> cil fu <expan>m<ex>or</ex>z</expan> sans fere<note n="ai"><app>
                         <rdg wit="#B">fere <hi rend="i">om.</hi></rdg>
-                      </app></note> testament : <label>[2.2]</label> li jors en quoi il en pleda ne li doivent mie estre conté. Autresi ne li doit mie estre contez li tans en quoi li prevoz ne pot mie entendre a tenir le plet en quoi<note><app>
+                      </app></note> testament : <label>[2.2]</label> li jors en quoi il en pleda ne li doivent mie estre conté. Autresi ne li doit mie estre contez li tans en quoi li prevoz ne pot mie entendre a tenir le plet en quoi<note n="aj"><app>
                         <rdg wit="#B">plet por ce que il</rdg>
-                      </app></note> il estoit enbesoigniez des<note><app>
+                      </app></note> il estoit enbesoigniez des<note n="ak"><app>
                         <rdg wit="#B">e de c.</rdg>
-                      </app></note> <expan>co<ex>m</ex>munes</expan> besoingnes ou des<note><app>
+                      </app></note> <expan>co<ex>m</ex>munes</expan> besoingnes ou des<note n="al"><app>
                         <rdg wit="#B">ou de p.</rdg>
                       </app></note> <expan>p<ex>ri</ex>vees</expan>
                       <label>[2.3]</label> Et se li prevoz estoit en une autre cité : cil a qui la posession des biens <expan>ap<ex>ar</ex>tient</expan> ne doit mie atendre <expan>q<ex>ue</ex></expan> il viegne la ou il est ainz doit aler a lui. se il est dedenz .xx. lieues prés de lui. ¶
-                      <label>[2.4]</label> Se li enfes qui est encore el ventre sa mere doit estre mie<note><app>
+                      <label>[2.4]</label> Se li enfes qui est encore el ventre sa mere doit estre mie<note n="am"><app>
                         <rdg wit="#B">e. mis en</rdg>
                         <rdg xml:lang="lat">missus sit</rdg>
-                      </app></note> en posession des <expan>b<ex>ie</ex>ns</expan> l’en li doit donner terme <expan>no<ex>n</ex></expan> mie tant seulement .xxx. jorz mes tant qu’il soit nez. <expan>Q<ex>ua</ex>r</expan> se il nest ainz les .xxx. jorz il doit avoir maintenant la posession des <expan>b<ex>ie</ex>ns</expan> ¶ <label>[2.5]</label> Pomponius dit que l’en ne doit mie atendre le seu<note><app>
+                      </app></note> en posession des <expan>b<ex>ie</ex>ns</expan> l’en li doit donner terme <expan>no<ex>n</ex></expan> mie tant seulement .xxx. jorz mes tant qu’il soit nez. <expan>Q<ex>ua</ex>r</expan> se il nest ainz les .xxx. jorz il doit avoir maintenant la posession des <expan>b<ex>ie</ex>ns</expan> ¶ <label>[2.5]</label> Pomponius dit que l’en ne doit mie atendre le seu<note n="an"><app>
                         <rdg wit="#B">le sen que</rdg>
                         <rdg xml:lang="lat">scientia</rdg>
-                      </app></note> <expan>q<ex>ue</ex></expan> cil ont qui ne doutent de riens ; mes celui <expan>q<ex>ue</ex></expan> <expan>aucu<ex>n</ex>s</expan> puet avoir ou <expan>p<ex>ar</ex></expan> lui ou <expan>p<ex>ar</ex></expan><note><app>
+                      </app></note> <expan>q<ex>ue</ex></expan> cil ont qui ne doutent de riens ; mes celui <expan>q<ex>ue</ex></expan> <expan>aucu<ex>n</ex>s</expan> puet avoir ou <expan>p<ex>ar</ex></expan> lui ou <expan>p<ex>ar</ex></expan><note n="ao"><app>
                         <rdg wit="#B">ou pas a.</rdg>
                         <rdg xml:lang="lat">per se aut per alios</rdg>
                       </app></note> autres <expan>p<ex>ar</ex></expan> demander <expan><ex>con</ex>seill</expan> a plus sages <expan>q<ex>ue</ex></expan> il n’est.</p>
@@ -1910,23 +1913,23 @@
                       <hi rend="b">P</hi>aulus dit. <hi rend="b">S</hi>e li peres set <expan>q<ex>ue</ex></expan> la posessions des <expan>b<ex>ie</ex>ns</expan> soit eschaete au fill. <expan><ex>et</ex></expan> li filz ne le set mie li seuz au <expan>p<ex>er</ex>e</expan> ne nuist mie au fill.</p>
                     <p xml:id="rouen_794-D.38.15.4"><label>[4]</label>
                       <supplied resp="#FD">J</supplied>ulians dit. <label>[4.pr.]</label>
-                      <hi rend="b">S</hi>e tu estoies sozmis a celui qui fu fez hoirs o toi. <expan><ex>et</ex></expan> tu receus la posession des <expan>b<ex>ie</ex>ns</expan>. <expan><ex>et</ex></expan> tes compainz <pb n="f. 221a"/> ne la volt demander l’en entent <expan>q<ex>u’e</ex>le</expan> t’est toute donnee. <expan><ex>et</ex></expan> il n’avra mie puis pooir de demander la ¶ <label>[4.1]</label> Li filz a .i. an de terme a demander la posession des <expan>b<ex>ie</ex>ns</expan> non mie tant seulement <expan>q<ex>ua</ex>nt</expan> il la demande <expan><ex>com</ex>me</expan> filz mes <expan>q<ex>ua</ex>nt</expan> il la demande <expan><ex>com</ex>me</expan> <expan>pare<ex>n</ex>s</expan>. Et autresi <expan><ex>com</ex>me</expan><note><app>
+                      <hi rend="b">S</hi>e tu estoies sozmis a celui qui fu fez hoirs o toi. <expan><ex>et</ex></expan> tu receus la posession des <expan>b<ex>ie</ex>ns</expan>. <expan><ex>et</ex></expan> tes compainz <pb n="f. 221a"/> ne la volt demander l’en entent <expan>q<ex>u’e</ex>le</expan> t’est toute donnee. <expan><ex>et</ex></expan> il n’avra mie puis pooir de demander la ¶ <label>[4.1]</label> Li filz a .i. an de terme a demander la posession des <expan>b<ex>ie</ex>ns</expan> non mie tant seulement <expan>q<ex>ua</ex>nt</expan> il la demande <expan><ex>com</ex>me</expan> filz mes <expan>q<ex>ua</ex>nt</expan> il la demande <expan><ex>com</ex>me</expan> <expan>pare<ex>n</ex>s</expan>. Et autresi <expan><ex>com</ex>me</expan><note n="ap"><app>
                         <rdg wit="#B">comme <hi rend="i">om.</hi></rdg>
                         <rdg xml:lang="lat">sicuti</rdg>
                       </app></note> <expan>q<ex>ua</ex>nt</expan> li peres a <expan>fra<ex>n</ex>chi</expan> <expan>so<ex>n</ex></expan> fill ja soit ce qu’il demande la posession de ses <expan>b<ex>ie</ex>ns</expan> <expan><ex>com</ex>me</expan> patrons. ne <expan>porq<ex>ua</ex>nt</expan> il a .i. an de terme a demander la.</p>
                     <p xml:id="rouen_794-D.38.15.5"><label>[5]</label>
                       <hi rend="b">M</hi>arceaus dit <label>[5.pr.]</label>
-                      <hi rend="b">Q</hi>uant <expan>posessio<ex>n</ex></expan> de <expan>b<ex>ie</ex>ns</expan> eschiet au fill qui est en baill Le jor en quoi il ne le puet mie fere savoir a son pere. si qu’il li <expan><ex>com</ex>mant</expan> <expan>q<ex>ue</ex></expan> il la reçoive ne li doit mie<note><app>
+                      <hi rend="b">Q</hi>uant <expan>posessio<ex>n</ex></expan> de <expan>b<ex>ie</ex>ns</expan> eschiet au fill qui est en baill Le jor en quoi il ne le puet mie fere savoir a son pere. si qu’il li <expan><ex>com</ex>mant</expan> <expan>q<ex>ue</ex></expan> il la reçoive ne li doit mie<note n="aq"><app>
                         <rdg wit="#B">li doivent pas e.</rdg>
                         <rdg xml:lang="lat">non cedunt</rdg>
                       </app></note> estre <expan><ex>co</ex>nté</expan> mes li .c. jor qui li sont otroiez <expan>co<ex>m</ex>mencent</expan> a corre dés <expan>q<ex>ue</ex></expan> il li pot fere savoir. Et <expan>q<ex>ua</ex>nt</expan> li .c. jor <expan>sero<ex>n</ex>t</expan> passé li peres li otroiera por neant qu’il reçoive la posession des <expan>b<ex>ie</ex>ns</expan>.
-                      <label>[5.1]</label> Et se li filz pooit demander la possession des <expan>b<ex>ie</ex>ns</expan>. <expan><ex>et</ex></expan> li peres estoit hors del païs si <expan>q<ex>ue</ex></expan> li peres<note><app>
+                      <label>[5.1]</label> Et se li filz pooit demander la possession des <expan>b<ex>ie</ex>ns</expan>. <expan><ex>et</ex></expan> li peres estoit hors del païs si <expan>q<ex>ue</ex></expan> li peres<note n="ar"><app>
                         <rdg wit="#B">li filz</rdg>
                         <rdg xml:lang="lat">ut certiorare eum non possit</rdg>
-                      </app></note> ne li pot mie fere savoir <expan>q<ex>ue</ex></expan> ele li estoit eschaete ou <expan>p<ex>ar</ex></expan> <expan>ave<ex>n</ex>ture</expan> il estoit forsenez <expan><ex>et</ex></expan> li fiz ne la demanda mie. l’en puet demander se il a <expan>p<ex>er</ex>du</expan> <expan>p<ex>ar</ex></expan> ce qu’il ne la puisse puis demander mes ge ne voi mie por quoi ce qu’il ne la demanda mie li doie nuire. <expan>q<ex>ua</ex>r</expan> se il ne<note><app>
+                      </app></note> ne li pot mie fere savoir <expan>q<ex>ue</ex></expan> ele li estoit eschaete ou <expan>p<ex>ar</ex></expan> <expan>ave<ex>n</ex>ture</expan> il estoit forsenez <expan><ex>et</ex></expan> li fiz ne la demanda mie. l’en puet demander se il a <expan>p<ex>er</ex>du</expan> <expan>p<ex>ar</ex></expan> ce qu’il ne la puisse puis demander mes ge ne voi mie por quoi ce qu’il ne la demanda mie li doie nuire. <expan>q<ex>ua</ex>r</expan> se il ne<note n="as"><app>
                         <rdg wit="#B">ne <hi rend="i">om.</hi></rdg>
                         <rdg xml:lang="lat">si petita esset</rdg>
-                      </app></note> l’eust demandee. si ne li fust ele mie confermee <expan>deva<ex>n</ex>t</expan> <expan>q<ex>ue</ex></expan> ses <expan>p<ex>er</ex>es</expan> l’otroiast. <label>[5.2]</label> Se uns sers fu fez hoirs <expan><ex>et</ex></expan> ses sires le vent a un autre <expan><ex>et</ex></expan><note><app>
+                      </app></note> l’eust demandee. si ne li fust ele mie confermee <expan>deva<ex>n</ex>t</expan> <expan>q<ex>ue</ex></expan> ses <expan>p<ex>er</ex>es</expan> l’otroiast. <label>[5.2]</label> Se uns sers fu fez hoirs <expan><ex>et</ex></expan> ses sires le vent a un autre <expan><ex>et</ex></expan><note n="at"><app>
                         <rdg wit="#B">a. l’en</rdg>
                         <rdg xml:lang="lat">quaeritur</rdg>
                       </app></note> en demande se tant <expan><ex>com</ex>me</expan> il passa del terme tant <expan><ex>com</ex>me</expan> il fu au premier seingneur doit estre conté au derrenier. <expan><ex>et</ex></expan> il nos plest <expan>q<ex>ue</ex></expan> il i soit <expan><ex>con</ex>té</expan>.</p>

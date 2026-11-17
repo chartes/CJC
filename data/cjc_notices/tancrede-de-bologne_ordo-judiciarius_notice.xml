@@ -81,6 +81,9 @@
         </citeStructure>
       </refsDecl>
     </encodingDesc>
+    <revisionDesc>
+      <change when="2026-11-17">Numéros des notes et des variantes écrits dans @n (ceux que calculait la feuille) : variantes en lettres (notes de variante et app à lemme), notes en chiffres, notes de l'éditeur en romains ; seg type="title" (rubrique citée) en type="rubrique". Aucune modification du texte édité.</change>
+    </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -949,7 +952,7 @@
                         <locus from="114"/>
                         <title type="sub">[IV.1]</title>
                         <title xml:lang="lat" resp="#FD">De sententiis et interlocutionibus</title>
-                        <incipit>Pour ce que sentence diffinitive met fin en tous plais...<note>Absence de rubrique.</note></incipit>
+                        <incipit>Pour ce que sentence diffinitive met fin en tous plais...<note n="1">Absence de rubrique.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="118"/>
@@ -993,7 +996,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Papier</material> (filigranes : Piccard, Buchstabe P, XIII, 348 [1474] et 361 [1473])</support>
-                      <extent>137 f.<note> précédés et suivis d’1 f. de garde papier moderne ; Pays-Bas bourguignons (la scripta oriente vers le nord-est du domaine picard, soit l’Artois, la Flandre française, le Hainaut belge ou le Tournaisis), 1474 (colophon f. 137) ; <dimensions unit="mm">
+                      <extent>137 f.<note n="2"> précédés et suivis d’1 f. de garde papier moderne ; Pays-Bas bourguignons (la scripta oriente vers le nord-est du domaine picard, soit l’Artois, la Flandre française, le Hainaut belge ou le Tournaisis), 1474 (colophon f. 137) ; <dimensions unit="mm">
                         <height quantity="293">293</height>
                         <width quantity="212">212</width>
                       </dimensions>. (justification : 210 x 117 mm.). Réglure à la mine de plomb et à l’encre (1-1/0/1-1/0) : d’après le f. 25, (35 + 210 + 48 mm. [de haut en bas]) x (42 + 117 + 50 mm. [de la reliure vers la gouttière]). La ligne supérieure est copiée au-dessus du cadre de la justification, qui sert de linéation. Trace de piqûres pour le tracé des lignes verticales. Copié à longues lignes et dépourvu de linéation, le ms compte en général 42 l. par p., même si le nombre de lignes a tendance à se réduire vers la fin (26 l. f. 133). – foliotation ancienne à l’encre plus claire que celle qui a servi à la copie, d’une écriture cursive dans le coin supérieur droit de chaque recto (avec saut du numéro 111) ; foliotation moderne décalée d’une unité avec la foliotation ancienne à partir du f. 111.</note></extent>
@@ -1068,7 +1071,7 @@
               </msDesc>
               <div type="edition">
                 <head>Édition. [II.1]</head>
-                <p xml:id="kbr_21227-pr"><label>[pr.]</label><hi rend="b">NO</hi>us avons traittié en le partye<note>ii a été transcrit y.</note> devant ceste loy des <expan>perso<ex>n</ex>nes</expan> qui <expan>doive<ex>n</ex>t</expan> estre en jugement. Or volons nous en ceste Seconde partye <expan>ense<ex>n</ex>gnier</expan> le juge le demandeur et le respondeur <expan><ex>com</ex>ment</expan> il se doivent avoir en <expan>jugeme<ex>n</ex>t</expan> Et des chozes <expan>q<ex>ui</ex></expan> <expan>doive<ex>n</ex>t</expan> estre faittes ains <expan>q<ex>ue</ex></expan> li plait soit <expan>enta<ex>m</ex>meis</expan> Veons dont <expan>p<ex>re</ex>mierement</expan> a queil <expan>jugeme<ex>n</ex>t</expan> le <expan>dema<ex>n</ex>deur</expan> doit alleir Et qui doit estre juge a alcun <expan><ex>et</ex></expan> en queille cause li <expan>dema<ex>n</ex>deur</expan> doit alleir en court au juge de qui justice li deffendeur est <label>[1]</label> Noz avons une reigle qui est vraie <expan>q<ex>ue</ex></expan> se aucun veult emplaidier ou clerc ou laye Il doit alleir par <expan>deva<ex>n</ex>t</expan> le juge de qui justice cil est qu’il y veult enplaidier Ce <expan>avo<ex>n</ex>s</expan> en une decretale el title de court <expan>avena<ex>n</ex>t</expan> qui <expan>co<ex>m</ex>mence</expan>
+                <p xml:id="kbr_21227-pr"><label>[pr.]</label><hi rend="b">NO</hi>us avons traittié en le partye<note n="3">ii a été transcrit y.</note> devant ceste loy des <expan>perso<ex>n</ex>nes</expan> qui <expan>doive<ex>n</ex>t</expan> estre en jugement. Or volons nous en ceste Seconde partye <expan>ense<ex>n</ex>gnier</expan> le juge le demandeur et le respondeur <expan><ex>com</ex>ment</expan> il se doivent avoir en <expan>jugeme<ex>n</ex>t</expan> Et des chozes <expan>q<ex>ui</ex></expan> <expan>doive<ex>n</ex>t</expan> estre faittes ains <expan>q<ex>ue</ex></expan> li plait soit <expan>enta<ex>m</ex>meis</expan> Veons dont <expan>p<ex>re</ex>mierement</expan> a queil <expan>jugeme<ex>n</ex>t</expan> le <expan>dema<ex>n</ex>deur</expan> doit alleir Et qui doit estre juge a alcun <expan><ex>et</ex></expan> en queille cause li <expan>dema<ex>n</ex>deur</expan> doit alleir en court au juge de qui justice li deffendeur est <label>[1]</label> Noz avons une reigle qui est vraie <expan>q<ex>ue</ex></expan> se aucun veult emplaidier ou clerc ou laye Il doit alleir par <expan>deva<ex>n</ex>t</expan> le juge de qui justice cil est qu’il y veult enplaidier Ce <expan>avo<ex>n</ex>s</expan> en une decretale el title de court <expan>avena<ex>n</ex>t</expan> qui <expan>co<ex>m</ex>mence</expan>
                   <foreign xml:lang="lat" rend="u"><expan>Cu<ex>m</ex></expan> sit generale</foreign> qui dit <expan>q<ex>ue</ex></expan> ce est reigle generale <expan>q<ex>ue</ex></expan> li demandeurs doit tousjours alleir avant en le court au juge de cuy justice li deffendeur est Aussi avons nous en decreis en l’onzime cause en le .i. question en .i. <expan>chap<ex>it</ex>le</expan> qui <expan>co<ex>m</ex>mence</expan>
                   <foreign xml:lang="lat" rend="u">Experiente</foreign>/ qui dit cez <expan>p<ex>ar</ex>olles</expan> tout mot a mot Ad ce meismes <expan>avo<ex>n</ex>s</expan> en code el title de juridiction a tous juges en une loy qui <expan>co<ex>m</ex>mence</expan>
                   <foreign xml:lang="lat" rend="u">Juris</foreign> qui dit ensi Tu veulz besdourneir l’ordene de droit qui veulz que li demandeir voist avant en le court au juge de queil justice li deffendeur est
@@ -1133,7 +1136,7 @@
                       <msItem>
                         <locus from="1a"/>
                         <title type="sub">[Prol. fin]</title>
-                        <incipit><seg type="rubric">Cist tytres <expan>p<ex>ar</ex>ole</expan> de l’ordre des jugemenz</seg><note resp="#FD">Titre présent dans certains mss latins, cf. <bibl>éd. Bergmann, p. 90, n. 7</bibl>.</note></incipit>
+                        <incipit><seg type="rubric">Cist tytres <expan>p<ex>ar</ex>ole</expan> de l’ordre des jugemenz</seg><note n="4" resp="#FD">Titre présent dans certains mss latins, cf. <bibl>éd. Bergmann, p. 90, n. 7</bibl>.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="1b"/>
@@ -1264,7 +1267,7 @@
                       <msItem>
                         <locus from="37b"/>
                         <title type="sub">[II.15]</title>
-                        <incipit><seg type="rubric"><expan><ex>Com</ex>ma<ex>n</ex>t</expan> li deffenderres la<note><hi rend="b">la</hi> ajouté en noir dans l’interligne supérieur.</note> doit <expan>do<ex>n</ex>ner</expan><note><hi rend="b">r</hi> final ajouté en noir.</note></seg></incipit>
+                        <incipit><seg type="rubric"><expan><ex>Com</ex>ma<ex>n</ex>t</expan> li deffenderres la<note n="5"><hi rend="b">la</hi> ajouté en noir dans l’interligne supérieur.</note> doit <expan>do<ex>n</ex>ner</expan><note n="6"><hi rend="b">r</hi> final ajouté en noir.</note></seg></incipit>
                       </msItem>
                       <msItem>
                         <locus from="37d"/>
@@ -1316,7 +1319,7 @@
                         <locus from="48a"/>
                         <title type="sub">[III.1]</title>
                         <title xml:lang="lat" resp="#FD">De litis constestatione</title>
-                        <incipit>Nos nos sumes despechié des choses qui <expan>souva<ex>n</ex>t</expan> sont feites en jugement <expan>deva<ex>n</ex>t</expan> l’entree de la <expan>pri<ex>n</ex>cipal</expan> cause...<note>Sans titre rubriqué.</note></incipit>
+                        <incipit>Nos nos sumes despechié des choses qui <expan>souva<ex>n</ex>t</expan> sont feites en jugement <expan>deva<ex>n</ex>t</expan> l’entree de la <expan>pri<ex>n</ex>cipal</expan> cause...<note n="7">Sans titre rubriqué.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="50a"/>
@@ -1422,7 +1425,7 @@
                       <msItem>
                         <locus from="78c"/>
                         <title type="sub">[IV.3]</title>
-                        <incipit><seg type="rubric"><expan><ex>Com</ex>mant</expan> sentence <expan>q<ex>ui</ex></expan> vaut est souzlegie<note><hi rend="i">uzlegie</hi> à l’encre noire.</note></seg></incipit>
+                        <incipit><seg type="rubric"><expan><ex>Com</ex>mant</expan> sentence <expan>q<ex>ui</ex></expan> vaut est souzlegie<note n="8"><hi rend="i">uzlegie</hi> à l’encre noire.</note></seg></incipit>
                       </msItem>
                       <msItem>
                         <locus from="79d"/>
@@ -1456,7 +1459,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> de qualité médiocre (trous en marge comme dans la justification, coutures, brisets, f. de dimensions irrégulières)</support>
-                      <extent>88 f.<note> précédés d’1 f. de garde pap. et d’1 f. de garde parch. modernes et suivis de 2 f. de garde pap. moderne ; Lorraine (Metz ou environs ?), 1275-1300 ; <dimensions unit="mm">
+                      <extent>88 f.<note n="9"> précédés d’1 f. de garde pap. et d’1 f. de garde parch. modernes et suivis de 2 f. de garde pap. moderne ; Lorraine (Metz ou environs ?), 1275-1300 ; <dimensions unit="mm">
                         <height quantity="265">265</height>
                         <width quantity="200">200</width>
                       </dimensions> (justification 190/205 x 155/160 mm.). Réglure à la mine de plomb (1-1-11/0-2/2-2/J f. 30 ; avec variantes 1-2-11/0-2/2-2/J f. 38, 50, etc. ; 1-3-11/0-2/2-2/J f. 60) : d’après le f. 30, (14 + 205 + 45 [de haut en bas] x (20 + 75 + 10 + 70 + 30 [de la reliure vers la gouttière]). La réglure est irrégulière, la largeur des colonnes pouvant être identique ou au contraire sensiblement différente (84 + 9 + 67 f. 34). Piqûres partiellement rognées dans le premier cahier. Copié sur 2 col., le ms compte de 39 à 47 lignes par col., soit une UR comprise entre 4,75 et 5,25 mm. La linéation couvre l’entrecolonne. − Rubriques d’attente en cursive de petit module souvent visibles en marge, même si certaines ont été rognées. Les réclames et certaines rubriques d’attente sont copiées sur la ligne horizontale tracée dans la marge inférieure. − Foliotation moderne en rouge, sans doute contemporaine de la p. de titre parchemin servant de garde. La foliotation en rouge est doublée d’une f. moderne au crayon de papier.</note></extent>
@@ -1744,7 +1747,7 @@
                 </msIdentifier>
                 <msContents>
                   <summary>traduction <lang xml:lang="fro" n="lang_arrivee">française</lang> anonyme de l’<title xml:lang="lat" type="oeuvre" corresp="http://catalogue.bnf.fr/ark:/12148/cb10772918v">Ordo judiciarius</title> de <persName role="auteur" ref="http://catalogue.bnf.fr/ark:/12148/cb129804640" key="Tancrède de Bologne">Tancrède de Bologne</persName> (titres anciens : <title type="ancien">li Ordinaires Tancrez chanoine de Bouloigne</title> p. 1a, <title type="ancien">l’Ordenaire</title> p. 48b) (sigle C)
-                    <note>La présente description s’appuie sur la notice de Barbara A. Shailor et la consultation d’une reproduction microfilmée en noir et blanc du manuscrit.</note>
+                    <note n="10">La présente description s’appuie sur la notice de Barbara A. Shailor et la consultation d’une reproduction microfilmée en noir et blanc du manuscrit.</note>
                   </summary>
                   <msItem n="1" xml:id="marston_228_ordo_tabletitres">
                     <locus>second f. de garde verso</locus>
@@ -1858,12 +1861,12 @@
                       <msItem>
                         <locus from="92b"/>
                         <title type="sub">[II.8]</title>
-                        <incipit><seg type="rubric">Cist titres est del libelle de posession</seg><note resp="#FD">La rubrique correspond au contenu de II.9, mais le texte qui suit est bien celui de II.8</note>[<seg type="incipit">Porce <expan>q<ex>ue</ex></expan> libelles doit estre bailliez a celui <expan>q<ex>ui</ex></expan> est apelez en jugement...</seg>]</incipit>
+                        <incipit><seg type="rubric">Cist titres est del libelle de posession</seg><note n="11" resp="#FD">La rubrique correspond au contenu de II.9, mais le texte qui suit est bien celui de II.8</note>[<seg type="incipit">Porce <expan>q<ex>ue</ex></expan> libelles doit estre bailliez a celui <expan>q<ex>ui</ex></expan> est apelez en jugement...</seg>]</incipit>
                       </msItem>
                       <msItem>
                         <locus from="94b"/>
                         <title type="sub">[II.9]</title>
-                        <incipit><seg type="rubric">Cist tytres est del libelle d’acusement</seg><note resp="#FD">La rubrique correspond au contenu de II.8, mais le texte qui suit est bien celui de II.9</note> ;[<seg type="incipit">Li uns libelles est d’acusement de quoi nos avons treitié avant el prouchien tytre <expan>q<ex>ui</ex></expan> est donnez es causes <expan>c<ex>ri</ex>minaus</expan>...</seg>]</incipit>
+                        <incipit><seg type="rubric">Cist tytres est del libelle d’acusement</seg><note n="12" resp="#FD">La rubrique correspond au contenu de II.8, mais le texte qui suit est bien celui de II.9</note> ;[<seg type="incipit">Li uns libelles est d’acusement de quoi nos avons treitié avant el prouchien tytre <expan>q<ex>ui</ex></expan> est donnez es causes <expan>c<ex>ri</ex>minaus</expan>...</seg>]</incipit>
                       </msItem>
                       <msItem>
                         <locus from="97b"/>
@@ -1893,7 +1896,7 @@
                       <msItem>
                         <locus from="106a"/>
                         <title type="sub">[II.15]</title>
-                        <incipit><note resp="#FD">Réserve ménagée mais rubrique omise. D’une main cursive plus tardive : <hi rend="i">Cy est le tiltre de la caution du defendeur</hi></note> ;[<seg type="incipit">Il <expan><ex>con</ex>vient</expan> veoir de la caucion <expan>q<ex>ue</ex></expan> li desfendierres doit <expan>do<ex>n</ex>ner</expan>...</seg>]</incipit>
+                        <incipit><note n="13" resp="#FD">Réserve ménagée mais rubrique omise. D’une main cursive plus tardive : <hi rend="i">Cy est le tiltre de la caution du defendeur</hi></note> ;[<seg type="incipit">Il <expan><ex>con</ex>vient</expan> veoir de la caucion <expan>q<ex>ue</ex></expan> li desfendierres doit <expan>do<ex>n</ex>ner</expan>...</seg>]</incipit>
                       </msItem>
                       <msItem>
                         <locus from="107b"/>
@@ -1908,7 +1911,7 @@
                       <msItem>
                         <locus from="112a"/>
                         <title type="sub">[II.16.3-4]</title>
-                        <incipit>Or voions quel force l’action de paier ce <expan>q<ex>ui</ex></expan> sera jugié...<note>Réserve ménagée, mais rubrique non réalisée.</note></incipit>
+                        <incipit>Or voions quel force l’action de paier ce <expan>q<ex>ui</ex></expan> sera jugié...<note n="14">Réserve ménagée, mais rubrique non réalisée.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="112b"/>
@@ -1969,7 +1972,7 @@
                       <msItem>
                         <locus from="161a"/>
                         <title type="sub">[III.6]</title>
-                        <incipit><note resp="#FD">Réserve ménagée mais rubrique non exécutée. D’une main ultérieure en cursive : <quote>Des tesmoins</quote></note><seg type="incipit">Nos avons <expan>deva<ex>n</ex>t</expan> el tytre <expan>generaum<ex>en</ex>t</expan> des preuves</seg></incipit>
+                        <incipit><note n="15" resp="#FD">Réserve ménagée mais rubrique non exécutée. D’une main ultérieure en cursive : <quote>Des tesmoins</quote></note><seg type="incipit">Nos avons <expan>deva<ex>n</ex>t</expan> el tytre <expan>generaum<ex>en</ex>t</expan> des preuves</seg></incipit>
                       </msItem>
                       <msItem>
                         <locus from="168a"/>
@@ -2086,7 +2089,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material></support>
-                      <extent>121 f.<note> précédés de 2 f. de garde papier et de 2 f. de garde parchemin, suivis de 2 f. de garde parchemin et de 2 f. de garde papier ; <dimensions unit="mm">
+                      <extent>121 f.<note n="16"> précédés de 2 f. de garde papier et de 2 f. de garde parchemin, suivis de 2 f. de garde parchemin et de 2 f. de garde papier ; <dimensions unit="mm">
                         <height quantity="303">303</height>
                         <width quantity="205">205</width>
                       </dimensions> (justification 205 x 133 mm.). Réglure à la mine de plomb, suivant le schéma 1-12-11/0-2/1-1/J (d’après p. 23 (recto)), mais le schéma peut être plus complexe, jusqu’à 21-1-11/2-2/2-2/J (p. 16 (verso)). La ligne supérieure est copiée au-dessous du cadre de la justification. Trace de piqûres pour le tracé des lignes verticales. Copié sur 2 colonnes à raison de 40 lignes par colonnes, soit une UR de 5,1 mm. – Pagination moderne (17<hi rend="sup">e</hi> s.) dans le coin supérieur droit (recto) ou gauche (verso) (2 p. 81 à la suite) ; foliotation dans le coin inférieur droit des f. recto (19-20e s.). Titres courants : anciens avec « L » sur le f. verso et numéro du livre sur le f. recto. L’auteur de la pagination a noté en marge de tête l’intitulé des titres copiés dans le corps du texte.</note></extent>
@@ -2193,7 +2196,7 @@
                       <title type="section" xml:lang="fr">Table des rubriques</title>
                       <incipit><seg type="rubric">Cy commence la table des chappitres de ce present volume intitulé l’Ordinaire de maistre Tancrez qui traitte <expan>comme<ex>n</ex>t</expan> toute personne se doit avoir en justice et contient quatre livres dont les rubrices du premier s’ensuivent.</seg><lb/>Premierement le prologue i<lb/>De l’ordre des jugemens i</incipit>
                       <explicit>Fin de la table des quatre livres de l’Ordinaire maistre Tancrez.</explicit>
-                      <note>La table renvoie à la foliotation du texte dans le manuscrit.</note>
+                      <note n="17">La table renvoie à la foliotation du texte dans le manuscrit.</note>
                     </msItem>
                     <msItem xml:id="fr_1073_ordo_livre1">
                       <locus from="1a" to="23c"/>
@@ -2309,12 +2312,12 @@
                       <msItem>
                         <locus from="46c"/>
                         <title type="sub">[II.8]</title>
-                        <incipit><seg type="rubric">Cist <expan>t<ex>itre</ex></expan> est du libelle de possession</seg><note>La rubrique correspond au contenu de II.9, mais le texte qui suit est bien celui de II.8</note>[<seg type="incipit">Pour ce que libelle doit estre bailliez a celui qui est en jugement apelez...</seg>]</incipit>
+                        <incipit><seg type="rubric">Cist <expan>t<ex>itre</ex></expan> est du libelle de possession</seg><note n="18">La rubrique correspond au contenu de II.9, mais le texte qui suit est bien celui de II.8</note>[<seg type="incipit">Pour ce que libelle doit estre bailliez a celui qui est en jugement apelez...</seg>]</incipit>
                       </msItem>
                       <msItem>
                         <locus from="47c"/>
                         <title type="sub">[II.9]</title>
-                        <incipit><seg type="rubric">Du libelle d’acusement</seg><note>La rubrique correspond au contenu de II.8, mais le texte qui suit est bien celui de II.9</note> ;<seg type="incipit">Li uns des libelles est accusement de quoi nous avons tretié avant el prochain titre qui est donez es causes criminaus...</seg></incipit>
+                        <incipit><seg type="rubric">Du libelle d’acusement</seg><note n="19">La rubrique correspond au contenu de II.8, mais le texte qui suit est bien celui de II.9</note> ;<seg type="incipit">Li uns des libelles est accusement de quoi nous avons tretié avant el prochain titre qui est donez es causes criminaus...</seg></incipit>
                       </msItem>
                       <msItem>
                         <locus from="49a"/>
@@ -2492,7 +2495,7 @@
                         <locus from="103d"/>
                         <title type="sub">[IV.1]</title>
                         <title xml:lang="lat" resp="#FD">De sententiis et interlocutionibus</title>
-                        <incipit><note>Absence de rubrique</note>Pour ce que sentence diffinitive met fin en touz plez...</incipit>
+                        <incipit><note n="20">Absence de rubrique</note>Pour ce que sentence diffinitive met fin en touz plez...</incipit>
                       </msItem>
                       <msItem>
                         <locus from="107a"/>
@@ -2536,7 +2539,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> (présentant des défauts : nombreux trous ; cicatrice avec ravaudage f. 95)</support>
-                      <extent>128 f. <note>précédés d’1 f. de garde parch. ancien et suivis de 2 f. de garde parch. ancien (trace d’1 f. de garde parch. ancien coupé avant les 2 f. de garde de fin). Le ternion initial ainsi que le binion final sont constitués d’un parchemin de meilleure qualité. L’unité codicologique originale s’est vue modifiée par l’adjonction (au 14e s. ?) de ces deux cahiers. La copie des dernières lignes du texte par la main, plus récente, du copiste de la table, peut s’expliquer par la volonté de rendre plus présentable la fin du texte (f. abîmé, élimination de mentions ou de notes indésirables) ou bien de l’isoler d’un texte qui aurait pu en prendre la suite. Toutefois, l’absence de réclame au f. 120v ne plaide pas en faveur de cette dernière hypothèse. France (Ile-de-France ?), 1275-1300 (14e s. pour la table et la fin du texte) [I. Hans-Collas et P Schandel datent le ms du « 3e quart du XIIIe s. » et donnent « Paris ? » comme lieu de production] ; <dimensions unit="mm">
+                      <extent>128 f. <note n="21">précédés d’1 f. de garde parch. ancien et suivis de 2 f. de garde parch. ancien (trace d’1 f. de garde parch. ancien coupé avant les 2 f. de garde de fin). Le ternion initial ainsi que le binion final sont constitués d’un parchemin de meilleure qualité. L’unité codicologique originale s’est vue modifiée par l’adjonction (au 14e s. ?) de ces deux cahiers. La copie des dernières lignes du texte par la main, plus récente, du copiste de la table, peut s’expliquer par la volonté de rendre plus présentable la fin du texte (f. abîmé, élimination de mentions ou de notes indésirables) ou bien de l’isoler d’un texte qui aurait pu en prendre la suite. Toutefois, l’absence de réclame au f. 120v ne plaide pas en faveur de cette dernière hypothèse. France (Ile-de-France ?), 1275-1300 (14e s. pour la table et la fin du texte) [I. Hans-Collas et P Schandel datent le ms du « 3e quart du XIIIe s. » et donnent « Paris ? » comme lieu de production] ; <dimensions unit="mm">
                         <height quantity="304">304</height>
                         <width quantity="220">220</width>
                       </dimensions>. (justification : 220 x 163 mm.). Réglure à la mine de plomb : 1-1-11/0-2/2-1/J (texte) ; table (1-1-11/0-0/1-1/JJ) ; f. 121 (1-1-11/0-0/1/J). D’après le f. 39, (25 + 220 + 59 mm. [de haut en bas]) x (23 + 74 + 15 + 74 + 34 mm. [de la reliure vers la gouttière]). Trace de piqûres pour le tracé des lignes verticales ainsi que pour la linéation. Copié sur 2 col., le ms compte 40 lignes par col., soit une UR de 4,1 mm. pour le corps du texte. – Foliotation ancienne à l’encre rouge en chiffres romains dans l’angle supérieur droit (de la main du copiste de la table) ; titre courant (contemporain de la copie du texte) : « L » rouge sur le f. verso ; numéro du livre en capitales romaines bleues et rouges sur le recto (le titre courant du f. 121 n’est pas de la même main que les titres courants des f. précédents).</note></extent>
@@ -2605,7 +2608,7 @@
                   <label>[3.12]</label> Par apel est <expan>contrai<ex>n</ex>z</expan> <expan>aucu<ex>n</ex></expan> de pledier par devant celui qui n’est pas ses juges. Si coume nous <expan>avo<ex>n</ex>s</expan> en decrez en la tierce cause en la siste question en .i. chapistre qui coumence. «
                   <foreign xml:lang="lat" rend="u">per egrina</foreign> ». Qui dit ainsi nous deffendons autrui jugemenz Ce est a dire que nus n’aille pledier en autrui court sauve l’auctorité du siege l’apostoile en toutes choses Car il n’est pas droiz que cil soient jugié par estranges qui doivent avoir leur propres juges. ¶ <label>[3.13]</label> <expan>Aucu<ex>n</ex>s</expan> est contrains de pledier par <expan>deva<ex>n</ex>t</expan> autre juge que le sien quant il re<pb n="f. 25c"/>fuse le sien. Ce avons nous en decrez en la seconde cause en la siste <expan>questio<ex>n</ex></expan> en .i. chapistre qui coumence. « <foreign rend="u" xml:lang="lat">placuit</foreign> » qui dit ainsi. il nous plest que se li prestre ou li diacre ou li autre clerc qui sont de plus basse ordre ont aucune cause <expan><ex>et</ex></expan> il se plaignent que leur evesque leur face tort. Li voisin evesque les oient <expan><ex>et</ex></expan> jugent de la cause. Mes ce soit par le consentement de leur evesques. ¶
                   <label>[3.14]</label> La fame vet pledier en la court ou ses mariz vet Si con nous avons en digeste vielle el titre « de la jurisdicion » a touz juges en une loi qui coumence. « <foreign xml:lang="lat" rend="u"><expan>Cu<ex>m</ex></expan> <expan>q<ex>ue</ex>da<ex>m</ex></expan></foreign> ». qui dit ainsi. quant une pucele ot esté trete en cause par <expan>deva<ex>n</ex>t</expan> le juge de qui justice ele estoit. <expan><ex>et</ex></expan> ele ot esté condampnee ele se maria a .i. houme qui estoit de la justice a .i. autre juge. L’en demandoit Se la sentence au premier juge devoit estre mandee a excepcion. <expan><ex>et</ex></expan> je dis que cil qui ele fu donee ainz que la pucele issist de sa justice. Mes se ele se fust mariee puis que li plez fu coumenciez. <expan><ex>et</ex></expan> ains que la sentence fust dounee je deïsse ce meisme. <expan><ex>et</ex></expan> que li premiers juges peust douner sentence. <expan><ex>et</ex></expan> ce doit estre gardé en touz tiex cas. Ce meismes avons nous en la decretale el titre « de tort avenant » qui coumence « <foreign xml:lang="lat" rend="u">proposuisti</foreign> ». Qui dit ainsi. « Tu proposas devant nous que tu feis semondre .i. de tes souzmis que il venist pledier par devant toi a la requeste a son aversaire. <expan><ex>et</ex></expan> por ce que il est puis alé en autre jurisdicion. il refuse a venir par devant <pb n="f. 25d"/> toi, mes nous creons que tu sez <expan>bie<ex>n</ex></expan> sanz douter que il ne s’en puet pas escuser par droit. Car il fu avant semons par devant toi que il issist de ta justice. <label>[3.15]</label> Li clers qui est a escole doit pledier par devant lequel que il voudra. ou par devant l’evesque ou par devant le gouverneeur de la cité ou par devant son mestre. si coume nous avons en l’establissement Federic. qui est mise sus code sus le titre que la fame ne soit trete en cause pour son mari. <expan><ex>et</ex></expan> <expan>coume<ex>n</ex>ce</expan> « <foreign xml:lang="lat" rend="u">hac. sane</foreign> ». Nepourquant se il eslit a pledier par devant .i. de ces juges il ne porra puis revenir a l’autre. Ce avons nous en decrez en la tierce cause en la tierce question en .i. paragreffe qui coumence « <foreign xml:lang="lat" rend="u">offeratur</foreign> ». qui dit ainsi. Li deffendierres puet bien refuser le juge se ce n’est cil qu’il a esleu en leu d’un autre que il refusa. <label>[3.16]</label> Et ja soit ce que il est voirs que la sentence n’est pas tenable que cil doune qui n’est pas a celui a qui il la douna. Si coume nos avons tout mot a mot en la decretale el titre « des jugemenz ». <expan>Neporq<ex>ua</ex>nt</expan> la sentence que .i. autre doune en touz ces cas est resnable. car il se <expan>so<ex>n</ex>t</expan> mis en sa justice par leur fet.
-                  <label>[3.17]</label> Et je ai mis touz ces cas porce que souvent avient que ce est plus li<note><hi rend="i">li</hi> ajouté par le copiste dans l’interligne supérieur.</note> preuz au demandeeur que il traie son adversaire en cause par devant le juge en qui jurisdicion il est alez <expan>q<ex>ue</ex></expan> par devant celui en qui poosté il a son manoir.</p>
+                  <label>[3.17]</label> Et je ai mis touz ces cas porce que souvent avient que ce est plus li<note n="22"><hi rend="i">li</hi> ajouté par le copiste dans l’interligne supérieur.</note> preuz au demandeeur que il traie son adversaire en cause par devant le juge en qui jurisdicion il est alez <expan>q<ex>ue</ex></expan> par devant celui en qui poosté il a son manoir.</p>
               </div>
             </div>
             <div corresp="http://gallica.bnf.fr/ark:/12148/btv1b9059667q"><!-- xml:id="fr_1074" -->
@@ -2632,7 +2635,7 @@
                       <title type="section" xml:lang="fr">Table des titres</title>
                       <incipit xml:lang="fro">Icist livres est devisés en quatres parties dont la permiere partie <expan><ex>con</ex>tient</expan> x chapitres<lb/>Li premiers <lb/>i. De l’ordre des jugemans</incipit>
                       <explicit xml:lang="lat">In hujus opere sit nomen Domini benedictum. Amen.</explicit>
-                      <note>La table renvoie aux f. du ms. Des initiales nues bleues et rouges de 4 UR distinguent les livres ; des pieds-de-mouche alternativement bleus et rouges précèdent chaque titre.</note>
+                      <note n="23">La table renvoie aux f. du ms. Des initiales nues bleues et rouges de 4 UR distinguent les livres ; des pieds-de-mouche alternativement bleus et rouges précèdent chaque titre.</note>
                     </msItem>
                     <msItem xml:id="fr_1074_ordo_livre1">
                       <locus from="1a" to="28d"/>
@@ -2831,7 +2834,7 @@
                         <locus from="84a"/>
                         <title type="sub">[III.1]</title>
                         <title xml:lang="lat" resp="#FD">De litis constestatione</title>
-                        <incipit>Ton aversaire sanz l’autorité a celui qui t’avoit en garde et li prevolz donna sentence contre toi, celle sentence n’a pas auctorité de chose jugiee.<note>Manque le début du titre (équivalent d’un f. de texte).</note></incipit>
+                        <incipit>Ton aversaire sanz l’autorité a celui qui t’avoit en garde et li prevolz donna sentence contre toi, celle sentence n’a pas auctorité de chose jugiee.<note n="24">Manque le début du titre (équivalent d’un f. de texte).</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="86a"/>
@@ -2882,7 +2885,7 @@
                         <locus from="112d"/>
                         <title type="sub">[III.10] </title>
                         <title xml:lang="lat" resp="#FD">De testium publicatione</title>
-                        <incipit>Li pueploiemenz des <expan>tesmoi<ex>n</ex>z</expan> doit estre fez qant l’une partie <expan><ex>et</ex></expan> l’autre est presente...<note>Ni rubrique ni saut de ligne. Un simple pied-de-mouche précède le début du titre.</note></incipit>
+                        <incipit>Li pueploiemenz des <expan>tesmoi<ex>n</ex>z</expan> doit estre fez qant l’une partie <expan><ex>et</ex></expan> l’autre est presente...<note n="25">Ni rubrique ni saut de ligne. Un simple pied-de-mouche précède le début du titre.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="115a"/>
@@ -2972,14 +2975,14 @@
                     <title type="partie" xml:lang="lat">Versus de mola piperis</title>
                     <incipit xml:lang="lat">Militis uxorem clamidis mercede subegit clericus...</incipit>
                     <explicit xml:lang="lat">Sed magis ad nostram non molet ille molam</explicit>
-                    <note>Ajoutés d’une main cursive aux 14<hi rend="sup">e</hi> ou 15<hi rend="sup">e</hi> s. sur le verso blanc du dernier f.</note>
+                    <note n="26">Ajoutés d’une main cursive aux 14<hi rend="sup">e</hi> ou 15<hi rend="sup">e</hi> s. sur le verso blanc du dernier f.</note>
                   </msItem>
                 </msContents>
                 <physDesc>
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> (présentant quelques défauts : trous f. 40, 46, 89, 97, 129 ; brisets f. 37, 39, 96, 153)</support>
-                      <extent>154 f. <note>précédés de 4 f. de garde pap. moderne + 1 f. de garde parchemin ancien (qui a servi de contreplat d’après les traces de colle) et suivi d’1 f. de garde parchemin ancien (qui a servi de contreplat d’après les traces de colle) + 2 f. de garde papier moderne. Manque l’équivalent en texte d’1 f. entre le f. 83 et le f. 84 : la collation semble pourtant indiquer que le cahier est complet ; d’autre part, si 1 f. manque, cette lacune est antérieure à la foliotation ancienne, dont la numérotation est continue. La table, peu soignée, a été adjointe au texte après sa copie (13e ou 14e s.). Non foliotée, elle est copiée sur un f. isolé présentant une réglure aux dimensions différentes du reste du ms. Des changements d’encre indiquent qu’elle a été écrite en plusieurs étapes. Les renvois aux f. ont été ajoutés ensuite par la main (13e ou 14e s.) qui a folioté le manuscrit. France (Paris ?), 1280-1300 (artiste proche du ms. Paris, Bibl. nat. de Fr., fr. 495) ; <dimensions unit="mm">
+                      <extent>154 f. <note n="27">précédés de 4 f. de garde pap. moderne + 1 f. de garde parchemin ancien (qui a servi de contreplat d’après les traces de colle) et suivi d’1 f. de garde parchemin ancien (qui a servi de contreplat d’après les traces de colle) + 2 f. de garde papier moderne. Manque l’équivalent en texte d’1 f. entre le f. 83 et le f. 84 : la collation semble pourtant indiquer que le cahier est complet ; d’autre part, si 1 f. manque, cette lacune est antérieure à la foliotation ancienne, dont la numérotation est continue. La table, peu soignée, a été adjointe au texte après sa copie (13e ou 14e s.). Non foliotée, elle est copiée sur un f. isolé présentant une réglure aux dimensions différentes du reste du ms. Des changements d’encre indiquent qu’elle a été écrite en plusieurs étapes. Les renvois aux f. ont été ajoutés ensuite par la main (13e ou 14e s.) qui a folioté le manuscrit. France (Paris ?), 1280-1300 (artiste proche du ms. Paris, Bibl. nat. de Fr., fr. 495) ; <dimensions unit="mm">
                         <height quantity="258">258</height>
                         <width quantity="180">180</width>
                       </dimensions>. (justification : 185 x 119 mm.). Réglure à la mine de plomb (1-1-11/0-0/0-0/J) : d’après le f. 6 (19 + 185 + 54 mm. [de haut en bas]) x (20 + 53 + 13 + 53 + 41 mm. [de la reliure vers la gouttière]). Traces de piqûres pour les rectrices verticales. Copié sur 2 col., 38 l. par col., soit une UR de 4,86 mm. Quelques titres d’attente partiellement rognés dans la marge inférieure (ex. f. 118a, 120b, 130a, 138c...) – Foliotation ancienne à l’encre brune en chiffres romains dans l’angle supérieur droit (de la main du copiste qui a indiqué les feuillets dans la table) ; titre courant (contemporain de la copie du texte) : « L » rouge sur le f. verso ; numéro du livre en capitales romaines bleues et rouges sur le recto.</note></extent>
@@ -3063,7 +3066,7 @@
                       <locus from="1a" to="1b"/>
                       <title type="section" xml:lang="fr">Table</title>
                       <incipit xml:lang="fro"><seg type="rubric">Chi <expan><ex>com</ex>menche</expan> li <expan>p<ex>re</ex>mier</expan> titre de l’Ordinaeres maestre <expan>Ta<ex>n</ex>cré</expan> canoigne de Boloigne du <expan>p<ex>re</ex>mier</expan> livre</seg><lb/>De l’ordre des <expan>jugeme<ex>n</ex>s</expan>.<lb/>Des juges ordinaeres.</incipit>
-                      <note>La fin de la table manque, parce que le quart supérieur du f. 1 a été arraché.</note>
+                      <note n="28">La fin de la table manque, parce que le quart supérieur du f. 1 a été arraché.</note>
                     </msItem>
                     <msItem xml:id="fr_1075_ordo_livre1">
                       <locus from="1b" to="18d"/>
@@ -3079,7 +3082,7 @@
                       <msItem>
                         <locus from="1b"/>
                         <title type="sub">[Prol. fin]</title>
-                        <incipit><seg type="rubric">Chest titre <expan>p<ex>ar</ex>ole</expan> de l’ordre des jugemens</seg><note resp="#FD">Manque le début du titre jusqu’à : <quote>si <expan><ex>com</ex>me</expan> <expan>no<ex>us</ex></expan> avon en la decretalle el titre des <expan>p<ex>ro</ex>ves</expan> en .i. chapitre qui <expan><ex>com</ex>mence</expan>
+                        <incipit><seg type="rubric">Chest titre <expan>p<ex>ar</ex>ole</expan> de l’ordre des jugemens</seg><note n="29" resp="#FD">Manque le début du titre jusqu’à : <quote>si <expan><ex>com</ex>me</expan> <expan>no<ex>us</ex></expan> avon en la decretalle el titre des <expan>p<ex>ro</ex>ves</expan> en .i. chapitre qui <expan><ex>com</ex>mence</expan>
                           <foreign xml:lang="lat" rend="u">Quoniam contra</foreign> qui dit que...</quote></note></incipit>
                       </msItem>
                       <msItem>
@@ -3263,7 +3266,7 @@
                         <locus from="48a"/>
                         <title type="sub">[III.1]</title>
                         <title xml:lang="lat" resp="#FD">De litis constestatione</title>
-                        <incipit>Nos <expan>no<ex>us</ex></expan> <expan>so<ex>m</ex>mes</expan> despeeschié des choses qui sovent sont faetes en jugement<note>Sans titre rubriqué.</note></incipit>
+                        <incipit>Nos <expan>no<ex>us</ex></expan> <expan>so<ex>m</ex>mes</expan> despeeschié des choses qui sovent sont faetes en jugement<note n="30">Sans titre rubriqué.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="49b"/>
@@ -3417,7 +3420,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> (de qualité moyenne : trou et œil f. 41 ; brisets f. 67 et 105)</support>
-                      <extent>106 f. <note>(le dernier est blanc, mais réglé sur le recto) précédés et suivis de 2 f. de garde papier moderne ; Normandie (occidentale ?), 1345 (d’après le colophon f. 105d) ; <dimensions unit="mm">
+                      <extent>106 f. <note n="31">(le dernier est blanc, mais réglé sur le recto) précédés et suivis de 2 f. de garde papier moderne ; Normandie (occidentale ?), 1345 (d’après le colophon f. 105d) ; <dimensions unit="mm">
                         <height quantity="260">260</height>
                         <width quantity="180">180</width>
                       </dimensions>. (justification : 201 x 127 mm.). Quart supérieur du f. 1 déchiré. Réglure à la mine de plomb (21-12-11/2-2/1-1/J [même schéma que celui du ms Paris, Bibl. nat. de Fr., fr. 25546, si ce n’est que la linéation n’y est pas justifiée]) : d’après le f. 40 (20 + 201 + 39 mm. [de haut en bas]) x (18 + 59 + 9 + 59 + 35 mm. [de la reliure vers la gouttière]). Trace de piqûres pour tracé des lignes verticales (ex. f. 45). Copié sur 2 col. à raison de 49 l. par col., soit une UR de 4,1 mm. – foliotation moderne et absence de titre courant.</note>
@@ -3567,7 +3570,7 @@
                       <explicit>
                         <seg type="rubric">De restitution viii<lb/>Ci finissent li tytre</seg>
                       </explicit>
-                      <note>Initiale de chaque titre alternativement rouge et bleue. Numéro d’ordre des titres rubriqué. La main plus tardive (14e-15e s.) qui a folioté l’<title xml:lang="lat">Ordo</title> de <persName>Tancrède</persName> a ajouté aux numéros d’ordre les numéros de f. en cursive. La division en livres est signalée dans la table par des rubriques.</note>
+                      <note n="32">Initiale de chaque titre alternativement rouge et bleue. Numéro d’ordre des titres rubriqué. La main plus tardive (14e-15e s.) qui a folioté l’<title xml:lang="lat">Ordo</title> de <persName>Tancrède</persName> a ajouté aux numéros d’ordre les numéros de f. en cursive. La division en livres est signalée dans la table par des rubriques.</note>
                     </msItem>
                     <msItem xml:id="fr_25546_ordo_livre1">
                       <locus from="1a" to="24b"/>
@@ -3900,7 +3903,7 @@
                   <msItem n="2" xml:id="fr_25546_coutumier_champagne">
                     <locus from="130a" to="139a"/>
                     <title type="partie" xml:lang="fr">ancien coutumier de Champagne (titres : <title><seg type="rubric">Ci commance li ordenemanz des coustumes de Champaingne</seg></title> f. 130a ; <title><seg type="rubric">Ci faillent les coustumes de Champaingne</seg></title> f. 139a).</title>
-                    <note>Texte édité dans <bibl>P. Portejoie, <title>L’ancien coutumier de Champagne</title>, Poitiers, 1956</bibl>.</note>
+                    <note n="33">Texte édité dans <bibl>P. Portejoie, <title>L’ancien coutumier de Champagne</title>, Poitiers, 1956</bibl>.</note>
                     <msItem xml:id="fr_25546_coutumier_champagne_table">
                       <locus from="130a" to="130d"/>
                       <title type="section" xml:lang="fr">Table</title>
@@ -3914,15 +3917,15 @@
                   </msItem>
                   <msItem n="3" xml:id="fr_25546_ezechiel">
                     <locus from="139b" to="139d"/>
-                    <title type="partie" xml:lang="fr">Prognostics d’Ezéchiel (en vers) <note>titre : <title xml:lang="lat">Incipit liber Ezechie <expan>p<ex>ro</ex>ph<ex>et</ex>e</expan> de divisione annorum</title> f. 139b</note>.</title>
+                    <title type="partie" xml:lang="fr">Prognostics d’Ezéchiel (en vers) <note n="34">titre : <title xml:lang="lat">Incipit liber Ezechie <expan>p<ex>ro</ex>ph<ex>et</ex>e</expan> de divisione annorum</title> f. 139b</note>.</title>
                     <incipit xml:lang="fro">[E]n terre de labour et de <expan>p<ex>ro</ex>mission</expan><lb/> Ot jadis .i. <expan>p<ex>ro</ex>dome</expan> Ezechiel ot <expan>no<ex>n</ex></expan>...</incipit>
                     <explicit xml:lang="fro">Les bestes morront l’<expan>a<ex>n</ex></expan> nou mettre en obliance<lb/>Garde bien ton <expan>froum<ex>en</ex>t</expan> <expan><ex>et</ex></expan> dou cuillir t’avance.</explicit>
-                    <note>Texte édité par <bibl>Paul Meyer, <title level="a">Notice du ms A 454 de la Bibliothèque de Rouen</title>, dans <title>Bulletin de la Société des anciens textes</title>, t. 9, 1883, p. 89-91</bibl>.</note>
+                    <note n="35">Texte édité par <bibl>Paul Meyer, <title level="a">Notice du ms A 454 de la Bibliothèque de Rouen</title>, dans <title>Bulletin de la Société des anciens textes</title>, t. 9, 1883, p. 89-91</bibl>.</note>
                   </msItem>
                   <msItem n="4" xml:id="fr_25546_autres">
                     <locus from="140a" to="150r"/>
                     <title type="partie" xml:lang="fr">lapidaire, flore et bestiaire (titre : <title>C’est li force <expan><ex>et</ex></expan> les <expan>v<ex>er</ex>tus</expan> des pierres precieuses <expan><ex>et</ex></expan> des herbes et des bestes que li royz Enaux <expan><ex>et</ex></expan> Aaron <expan><ex>et</ex></expan> li royz Foudreiz firent a l’onor <expan><ex>et</ex></expan> au secours de touz ceux qui aprés lour vendrient <expan><ex>et</ex></expan> <expan>p<ex>re</ex>mierema<ex>n</ex>t</expan> des pierres precieuses <expan>enco<ex>m</ex>ma<ex>n</ex>ce</expan> au saphir</title>).</title>
-                    <note>Texte inédit.</note>
+                    <note n="36">Texte inédit.</note>
                     <msItem xml:id="fr_25546_autres_lapidaire">
                       <locus from="140a" to="146b"/>
                       <title type="section" xml:lang="fr">Lapidaire</title>
@@ -3943,7 +3946,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> (de qualité moyenne : brisets f. 69, 83 ; trous f. 81, 87)</support>
-                      <extent>151 f. <note>(f. D + f. 1-150) précédés de 2 f. de garde papier moderne + 3 f. de garde parchemin ancien (f. A-B : fragment de comptes de l’hôpital de Langres de <hi rend="i">ca</hi> 1373 ; f. C, blanc jusqu’à l’époque moderne, présente, par une main du 16e ou du 17e s. le contenu du ms), et le second contient la table de l’<title xml:lang="lat">Ordo</title> de Tancrède), et suivis d’un f. de garde parchemin (f. 151 : fragment de comptes de l’hôpital de Langres datés de 1373) et de 2 f. de garde papier moderne. Champagne orientale, 1329 (d’après le colophon f. 129d) ; <dimensions unit="mm">
+                      <extent>151 f. <note n="37">(f. D + f. 1-150) précédés de 2 f. de garde papier moderne + 3 f. de garde parchemin ancien (f. A-B : fragment de comptes de l’hôpital de Langres de <hi rend="i">ca</hi> 1373 ; f. C, blanc jusqu’à l’époque moderne, présente, par une main du 16e ou du 17e s. le contenu du ms), et le second contient la table de l’<title xml:lang="lat">Ordo</title> de Tancrède), et suivis d’un f. de garde parchemin (f. 151 : fragment de comptes de l’hôpital de Langres datés de 1373) et de 2 f. de garde papier moderne. Champagne orientale, 1329 (d’après le colophon f. 129d) ; <dimensions unit="mm">
                         <height quantity="250">250</height>
                         <width quantity="180">180</width>
                       </dimensions>. (justification : 178 x 125 mm.). Réglure à la mine de plomb (21-12-11/2-2/1-1/C [même schéma que celui du fr. 1075, si ce n’est que la linéation y est justifiée]) : le schéma de réglure est le même de la table jusqu’au f. 149v. Le f. 150 est copié à longue ligne. D’après le f. 9 (22 + 178 + 50 mm. [de haut en bas]) x (20 + 57 + 11 + 57 + 35 mm. [de la reliure vers la gouttière]). Traduction de l’<title xml:lang="lat">Ordo</title> de Tancrède copiée sur 2 col. à raison de 37 l. par col., soit une UR de 4,81 mm. – foliotation ancienne (14e ou 15e s.) en chiffres romains dans le coin supérieur droit de l’<title xml:lang="lat">Ordo</title> de Tancrède, par la main qui a ménagé des renvois de la table aux feuillets ; du f. 130 à la fin, foliotation moderne en chiffres arabes ; les intitulés des titres copiés en rouge dans la double ligne de la marge supérieure en fonction de titre courant.</note></extent>
@@ -4040,7 +4043,7 @@
                       <locus from="1a" to="1b"/>
                       <title type="section" xml:lang="fr">Liste des titres</title>
                       <incipit xml:lang="fro">Des juges delegas. Des arbitres.</incipit>
-                      <note>La liste est amputée du début, suite à une déchirure dans la partie supérieure du f. 1. Le f. 1a commençait par le titre du texte et le nom de l’auteur suivis de la liste des titres du premier livre. Les titres sont copiés à longues lignes les uns à la suite des autres, séparés par un point et par un rehaut de rouge sur la première lettre du titre.</note>
+                      <note n="38">La liste est amputée du début, suite à une déchirure dans la partie supérieure du f. 1. Le f. 1a commençait par le titre du texte et le nom de l’auteur suivis de la liste des titres du premier livre. Les titres sont copiés à longues lignes les uns à la suite des autres, séparés par un point et par un rehaut de rouge sur la première lettre du titre.</note>
                     </msItem>
                     <msItem xml:id="nafr_10046_ordo_livre1">
                       <locus from="1b" to="18b"/>
@@ -4142,13 +4145,13 @@
                         <locus from="27d"/>
                         <title type="sub">[6] [II.5.5]</title>
                         <incipit><seg type="rubric">De <expan>refuseme<ex>n</ex>s</expan> de juges</seg>
-                          <note>La rubrique est mal placée ; pourtant la structuration correcte du texte était prévue dans le ms avec une réserve pour initiale et une lettre d’attente.</note><seg type="incipit">Nos <expan>avo<ex>n</ex></expan> dit des <expan>except<ex>i</ex>ons</expan> mes <expan>po<ex>ur</ex></expan> <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> les <expan>replicat<ex>i</ex>ons</expan> <expan><ex>con</ex>trebate<ex>n</ex>t</expan> les <expan>except<ex>i</ex>ons</expan>...</seg></incipit>
+                          <note n="39">La rubrique est mal placée ; pourtant la structuration correcte du texte était prévue dans le ms avec une réserve pour initiale et une lettre d’attente.</note><seg type="incipit">Nos <expan>avo<ex>n</ex></expan> dit des <expan>except<ex>i</ex>ons</expan> mes <expan>po<ex>ur</ex></expan> <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> les <expan>replicat<ex>i</ex>ons</expan> <expan><ex>con</ex>trebate<ex>n</ex>t</expan> les <expan>except<ex>i</ex>ons</expan>...</seg></incipit>
                       </msItem>
                       <msItem>
                         <locus from="28b"/>
                         <title type="sub">[7] [II.6]</title>
                         <title xml:lang="lat" resp="#FD">De recusationibus judicum</title>
-                        <incipit>Pour <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> il est perilleuse chose de pledier <expan>p<ex>ar</ex></expan> <expan>deva<ex>n</ex>t</expan> juge soupecenoux <expan><ex>et</ex></expan> aucune fois en est courrociez en la fin...<note>Réserve pour une rubrique non réalisée et réserve et lettre d’attente pour initiale. </note></incipit>
+                        <incipit>Pour <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> il est perilleuse chose de pledier <expan>p<ex>ar</ex></expan> <expan>deva<ex>n</ex>t</expan> juge soupecenoux <expan><ex>et</ex></expan> aucune fois en est courrociez en la fin...<note n="40">Réserve pour une rubrique non réalisée et réserve et lettre d’attente pour initiale. </note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="30d"/>
@@ -4305,7 +4308,7 @@
                         <locus from="69b"/>
                         <title type="sub">[13] [III.12]</title>
                         <title xml:lang="lat" resp="#FD">Quibus testibus fides adhibeatur et quanta</title>
-                        <incipit>Pour ce <expan>q<ex>ue</ex></expan> li tesmoing <expan>q<ex>ui</ex></expan> <expan>so<ex>n</ex>t</expan> amené en jugement <expan>so<ex>n</ex>t</expan> aucune fois <expan><ex>con</ex>t<ex>ra</ex>ire</expan><note>Réserve mais pas de rubrique ; lettre d’attente et réserve pour initiale.</note></incipit>
+                        <incipit>Pour ce <expan>q<ex>ue</ex></expan> li tesmoing <expan>q<ex>ui</ex></expan> <expan>so<ex>n</ex>t</expan> amené en jugement <expan>so<ex>n</ex>t</expan> aucune fois <expan><ex>con</ex>t<ex>ra</ex>ire</expan><note n="41">Réserve mais pas de rubrique ; lettre d’attente et réserve pour initiale.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="70d"/>
@@ -4354,7 +4357,7 @@
                         <locus from="83d"/>
                         <title type="sub">[3] [IV.3]</title>
                         <title xml:lang="lat" resp="#FD">Quo remedio valida sententia sublevetur</title>
-                        <incipit>Nous <expan>avo<ex>n</ex></expan> <expan>t<ex>ra</ex>itié</expan> el <expan>tit<ex>re</ex></expan> <expan>deva<ex>n</ex>t</expan> <expan><ex>com</ex>m<ex>en</ex>t</expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> n’a point de force, or <expan>voio<ex>n</ex>s</expan> <expan><ex>com</ex>m<ex>en</ex>t</expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> <expan>q<ex>ui</ex></expan> vaut est sorlegié...<note>Réserve pour rubrique et pour initiale non réalisées ; lettre d’attente.</note></incipit>
+                        <incipit>Nous <expan>avo<ex>n</ex></expan> <expan>t<ex>ra</ex>itié</expan> el <expan>tit<ex>re</ex></expan> <expan>deva<ex>n</ex>t</expan> <expan><ex>com</ex>m<ex>en</ex>t</expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> n’a point de force, or <expan>voio<ex>n</ex>s</expan> <expan><ex>com</ex>m<ex>en</ex>t</expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> <expan>q<ex>ui</ex></expan> vaut est sorlegié...<note n="42">Réserve pour rubrique et pour initiale non réalisées ; lettre d’attente.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="85c"/>
@@ -4366,13 +4369,13 @@
                         <locus from="88c"/>
                         <title type="sub">[5] [IV.5]</title>
                         <title xml:lang="lat" resp="#FD">De appellationibus</title>
-                        <incipit>Nos deismes <expan>ava<ex>n</ex>t</expan> <expan>q<ex>ue</ex></expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> est sorlegie <expan>p<ex>ar</ex></expan> apel <expan><ex>et</ex></expan> <expan>po<ex>ur</ex></expan> <expan>ce<ex>n</ex></expan> <expan>voulo<ex>n</ex></expan> <expan>no<ex>us</ex></expan> <expan>t<ex>ra</ex>itier</expan> d’apel<note>Réserve pour rubrique et pour initiale non réalisées; lettre d’attente.</note></incipit>
+                        <incipit>Nos deismes <expan>ava<ex>n</ex>t</expan> <expan>q<ex>ue</ex></expan> <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> est sorlegie <expan>p<ex>ar</ex></expan> apel <expan><ex>et</ex></expan> <expan>po<ex>ur</ex></expan> <expan>ce<ex>n</ex></expan> <expan>voulo<ex>n</ex></expan> <expan>no<ex>us</ex></expan> <expan>t<ex>ra</ex>itier</expan> d’apel<note n="43">Réserve pour rubrique et pour initiale non réalisées; lettre d’attente.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="91d"/>
                         <title type="sub">[6] [IV.6]</title>
                         <title xml:lang="lat" resp="#FD">De in integrum restitutione</title>
-                        <incipit>Pour <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> li <expan>jugem<ex>en</ex>s</expan> est aucune fois rapeleis <expan>p<ex>ar</ex></expan> le benefice d’<expan>e<ex>n</ex>t<ex>er</ex>ine</expan> <expan>restitut<ex>i</ex>on</expan> la <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> ne puet <expan>est<ex>re</ex></expan> rapelee <expan>p<ex>ar</ex></expan> nul <expan>aut<ex>re</ex></expan> remede...<note>Place en fin de ligne pour une courte rubrique ; réserve pour initiale non réalisée ; lettre d’attente.</note></incipit>
+                        <incipit>Pour <expan>ce<ex>n</ex></expan> <expan>q<ex>ue</ex></expan> li <expan>jugem<ex>en</ex>s</expan> est aucune fois rapeleis <expan>p<ex>ar</ex></expan> le benefice d’<expan>e<ex>n</ex>t<ex>er</ex>ine</expan> <expan>restitut<ex>i</ex>on</expan> la <expan>se<ex>n</ex>te<ex>n</ex>ce</expan> ne puet <expan>est<ex>re</ex></expan> rapelee <expan>p<ex>ar</ex></expan> nul <expan>aut<ex>re</ex></expan> remede...<note n="44">Place en fin de ligne pour une courte rubrique ; réserve pour initiale non réalisée ; lettre d’attente.</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="94c"/>
@@ -4386,7 +4389,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material></support>
-                      <extent>94 f. <note>précédés de 3 f. de garde pap. moderne (sur les 2 premiers f. de garde, copie des titres de l’<title xml:lang="fr">Ordinaire</title>) et suivis de 5 f. de garde pap. moderne ; France (Normandie d’après la graphie du copiste 1), 1275-1350 (d’après l’écriture) ; <dimensions unit="mm">
+                      <extent>94 f. <note n="45">précédés de 3 f. de garde pap. moderne (sur les 2 premiers f. de garde, copie des titres de l’<title xml:lang="fr">Ordinaire</title>) et suivis de 5 f. de garde pap. moderne ; France (Normandie d’après la graphie du copiste 1), 1275-1350 (d’après l’écriture) ; <dimensions unit="mm">
                         <height quantity="230">230</height>
                         <width quantity="155">155</width>
                       </dimensions>. (justification 185 x 110 mm.). Partie supérieure du f. 1 déchirée. Réglure à la mine de plomb (1-1-11/0/1-1/E! et 1-1-111/0/1-1/E!) : d’après le f. 41 (15 + 185 + 30 mm. [de haut en bas]) x (18 + 55 + 8 + 50 + 25 mm. [de la reliure vers la gouttière]). Trace de piqûres pour le tracé des lignes verticales. Copié sur 2 col., le ms compte de 43 (f. 74r, copiste 2) à 58 lignes par col. (f. 41r, copiste 1) (43 l. f. 74r, 47 l. f. 93r, 53 l. f. 71r), soit une UR variant de 3,2 à 4,3 mm. Saut de p. à la fin de la portion de texte copiée par le copiste 2, qui s’interrompt au milieu d’une phrase (<seg type="rubric"><hi rend="i">Tourne le foillet si trouveras la continuance</hi></seg> f. 80a) – double foliotation moderne : la plus ancienne, à l’encre, prend en compte les 3 p. de garde papier précédent le texte ; la seconde, au crayon, commence au premier f. de parch. (la notice renvoie à cette dernière foliotation).</note></extent>
@@ -4500,11 +4503,11 @@
                     <persName role="traducteur" ref="???">anonyme</persName> de l’<title xml:lang="lat" type="oeuvre" corresp="http://catalogue.bnf.fr/ark:/12148/cb10772918v">Ordo judiciarius</title> de <persName role="auteur" ref="http://catalogue.bnf.fr/ark:/12148/cb129804640" key="Tancrède de Bologne">Tancrède de Bologne</persName> (f. 10v-137v) (sigle I).</summary>
                   <msItem n="1" xml:id="stomer_545_traitédroit">
                     <locus from="1" to="9v"/>
-                    <title type="partie" xml:lang="fr">compilation de droits coutumiers <add>Traicté de droit civil<note>Titre f. 1 (main du 18e s.).</note></add>. </title>
+                    <title type="partie" xml:lang="fr">compilation de droits coutumiers <add>Traicté de droit civil<note n="46">Titre f. 1 (main du 18e s.).</note></add>. </title>
                     <incipit xml:lang="fro"><seg type="rubric">Assavoir se le demandeur a fait en son adjournement ses demandes, se le deffenseur avra jour de conseil. .lx.</seg><lb/>Se partie fait mettre en son adjournement les demandes qu’elle entent a faire a son deffendeur...</incipit>
-                    <explicit xml:lang="fro"><seg type="rubric">Question seur provision requise par Jehan de Praelles contre les religieus de saint Maard sur la maison de Ruigny. iii<hi rend="sup">xx</hi>xix.</seg><lb/>Memoire de Jean de Pourelles qui requeroit de l’eglise de saint Maard de Soissons que <expan><ex>com</ex>me</expan> une <expan>p<ex>er</ex>mission</expan>... <note>explicit de la main qui a copié le reste du texte</note></explicit>
-                    <explicit>Par l’us et la coustume dou païs de Flandres dessusdit se aucuns des mainnés muert aprés la mort dou pere, sa portion vient par droit d’escheoite a tous ses frerez tant ainnez <expan><ex>com</ex>me</expan> mainnez par portion egalez soit mors <expan>civilem<ex>en</ex>t</expan>, c’est assavoir mis en religion ou naturelment. <note>pourrait être ajout d’une autre main, f. 9-9v</note></explicit>
-                    <note>Amputé du début, puisque les chapitres sont numérotés de 60 à 99. Il ne s’agit pas d’une coutume du pays de Flandre, comme pourrait le faire croire l’explicit du f. 9v, puisque des allusions sont faites à de nombreux usages et coutumes (coutume de France, style du Parlement de Paris, rappel de jugements divers). Le texte a été complété par une main contemporaine différente (f. 9-9v), postérieure à la rubrication du manuscrit et à la confection des initiales du traité. C’est pourquoi nous donnons l’explicit primitif et l’explicit du texte complété.</note>
+                    <explicit xml:lang="fro"><seg type="rubric">Question seur provision requise par Jehan de Praelles contre les religieus de saint Maard sur la maison de Ruigny. iii<hi rend="sup">xx</hi>xix.</seg><lb/>Memoire de Jean de Pourelles qui requeroit de l’eglise de saint Maard de Soissons que <expan><ex>com</ex>me</expan> une <expan>p<ex>er</ex>mission</expan>... <note n="47">explicit de la main qui a copié le reste du texte</note></explicit>
+                    <explicit>Par l’us et la coustume dou païs de Flandres dessusdit se aucuns des mainnés muert aprés la mort dou pere, sa portion vient par droit d’escheoite a tous ses frerez tant ainnez <expan><ex>com</ex>me</expan> mainnez par portion egalez soit mors <expan>civilem<ex>en</ex>t</expan>, c’est assavoir mis en religion ou naturelment. <note n="48">pourrait être ajout d’une autre main, f. 9-9v</note></explicit>
+                    <note n="49">Amputé du début, puisque les chapitres sont numérotés de 60 à 99. Il ne s’agit pas d’une coutume du pays de Flandre, comme pourrait le faire croire l’explicit du f. 9v, puisque des allusions sont faites à de nombreux usages et coutumes (coutume de France, style du Parlement de Paris, rappel de jugements divers). Le texte a été complété par une main contemporaine différente (f. 9-9v), postérieure à la rubrication du manuscrit et à la confection des initiales du traité. C’est pourquoi nous donnons l’explicit primitif et l’explicit du texte complété.</note>
                   </msItem>
                   <msItem n="2" xml:id="stomer_545_ordo">
                     <locus from="10v" to="137v"/>
@@ -4654,7 +4657,7 @@
                       <msItem>
                         <locus from="69"/>
                         <title type="sub">24’ [II.15]</title>
-                        <incipit><seg type="rubric">De la <expan>caucio<ex>n</ex></expan> au <expan>dema<ex>n</ex>deur</expan></seg><note>Confusion entre <hi rend="i">demandeur</hi> et <hi rend="i">deffendeur</hi> dans la rubrique = « <foreign xml:lang="lat">De satisdatione rei</foreign> ».</note></incipit>
+                        <incipit><seg type="rubric">De la <expan>caucio<ex>n</ex></expan> au <expan>dema<ex>n</ex>deur</expan></seg><note n="50">Confusion entre <hi rend="i">demandeur</hi> et <hi rend="i">deffendeur</hi> dans la rubrique = « <foreign xml:lang="lat">De satisdatione rei</foreign> ».</note></incipit>
                       </msItem>
                       <msItem>
                         <locus from="69v"/>
@@ -4840,7 +4843,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>Parchemin</material> de belle qualité</support>
-                      <extent>137 f. <note>précédés de 2 f. de garde papier (f. A-B) et suivis de 2 f. de garde papier (f. C-D) ; f. 10v et 11v blancs. France, 14<hi rend="sup">e</hi> s. (1330-1375) [cf. f. 6v <hi rend="i">Quelles personnes tindrent le pallement l’an mil .CCC. et xxx.</hi>) ; <dimensions unit="mm">
+                      <extent>137 f. <note n="51">précédés de 2 f. de garde papier (f. A-B) et suivis de 2 f. de garde papier (f. C-D) ; f. 10v et 11v blancs. France, 14<hi rend="sup">e</hi> s. (1330-1375) [cf. f. 6v <hi rend="i">Quelles personnes tindrent le pallement l’an mil .CCC. et xxx.</hi>) ; <dimensions unit="mm">
                         <height quantity="280">280</height>
                         <width quantity="210">210</width>
                       </dimensions>. (justification 215/225 x 140/150 mm.). Réglure à la mine de plomb (f. 64 : 1-1/0/0/A ; f. 80 : 1-1/0/2-2/J). De 37 à 38 l. pour les copistes 1 et 5 (37 l. f. 47, 57 ; 38 l. f. 64, 95, 127) soit une UR de 5,9 à 6 mm. ; 32 l. pour le copiste 4 soit 6,85 mm. – foliotation moderne ; titre courant : « L » en rouge au verso, numéro du livre en chiffres romains alternativement rouges et bleus au recto. Le titre courant « L I » comprend le traité juridique incomplet et le premier livre de l’<title>Ordo</title> de Tancrède.</note></extent>
@@ -4965,7 +4968,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>parchemin</material> (les 2 premiers f. mutilés lors de la rédaction du CGMBPF)</support>
-                      <extent>119 f.<note>, <dimensions unit="mm">
+                      <extent>119 f.<note n="52">, <dimensions unit="mm">
                         <height quantity="280">280</height>
                         <width quantity="190">190</width>
                       </dimensions>, « fin du 13<hi rend="sup">e</hi> s. » (CGMBPF).</note></extent>
@@ -5023,7 +5026,7 @@
                   <objectDesc>
                     <supportDesc>
                       <support><material>parchemin</material></support>
-                      <extent>199 f.<note>, <dimensions unit="mm">
+                      <extent>199 f.<note n="53">, <dimensions unit="mm">
                         <height quantity="200">200</height>
                         <width quantity="135">135</width>
                       </dimensions>, 1334.</note></extent>
