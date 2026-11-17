@@ -5,8 +5,8 @@
            <title ref="http://catalogue.bnf.fr/ark:/12148/cb13736009z https://portail.biblissima.fr/fr/ark:/43093/oedatacadd4a0e3921175d46cb9a2fdbfae6dcc3fcbbc3">Les Institutes de Justinien</title>
         <title type="short">Les Institutes de Justinien</title>
            <author>Anonyme (trad.)</author> 
-           <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205">Justinien Ier</author>
-           <principal xml:id="FD" ref="http://data.bnf.fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</principal>
+           <author ref="https://www.wikidata.org/wiki/Q41866 https://data.bnf.fr/fr/ark:/12148/cb12055108q https://portail.biblissima.fr/fr/ark:/43093/ifdata11d6ca6b3fe8f7b6b0a809ee8e7980eee252c205 https://www.idref.fr/027770591">Justinien Ier</author>
+           <principal xml:id="FD" ref="https://www.wikidata.org/wiki/Q28777003 https://data.bnf.fr/fr/ark:/12148/cb136157348 https://www.idref.fr/096268247">Frédéric Duval</principal>
             <respStmt>
                <resp>Création et première phase d'encodage</resp>
                <persName xml:id="LI">Lucence Ing</persName>
@@ -15,7 +15,7 @@
       <extent/>
          <publicationStmt>
            <date>2026</date>
-           <idno>http://elec.enc.sorbonne.fr/cjc/justinien_institutes_BNF_fr-1064</idno>
+           <idno>https://elec.chartes.psl.eu/cjc/justinien_institutes_BNF_fr-1064</idno>
         <publisher ref="https://www.chartes.psl.eu/">École nationale des chartes – PSL</publisher>
            <address>
           <addrLine>65, rue de Richelieu</addrLine>
@@ -29,7 +29,7 @@
          </publicationStmt>
          <seriesStmt>
         <title>Éditions en ligne de l'École des chartes</title>
-        <idno type="URI">http://elec.enc.sorbonne.fr</idno>
+        <idno type="URI">https://elec.chartes.psl.eu</idno>
         <idno type="vol">17bis</idno>
       </seriesStmt>
       <notesStmt>
@@ -65,9 +65,9 @@
          </projectDesc>
         <refsDecl>
           <citeStructure match="/TEI[1]/text[1]/body[1]/div[@xml:id]" use="@xml:id" unit="liber">
-            <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic or ancestor::orig or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
+            <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic[../corr] or ancestor::orig[../reg] or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
             <citeStructure match="div[@xml:id]" use="@xml:id" unit="part">
-              <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic or ancestor::orig or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
+              <citeData use="normalize-space(replace(replace(normalize-space(string-join(head//text()[not(ancestor::sic[../corr] or ancestor::orig[../reg] or ancestor::del)], ' ')), ' ([.,;:)])', '$1'), ' ?([''’]) ?', '$1'))" property="dct:title"/>
             </citeStructure>
           </citeStructure>
         </refsDecl>
@@ -87,6 +87,7 @@
          </tagsDecl>
       </encodingDesc>
       <revisionDesc>
+      <change when="2026-11-17">Liens d'autorité des responsables (titleStmt) complétés et ordonnés Wikidata, BnF, Biblissima+, IdRef (2 éléments, identifiants interrogés le 17/11) ; adresses ÉLEC de l'en-tête passées de http://elec.enc.sorbonne.fr/ à https://elec.chartes.psl.eu/ (2). Aucune modification du texte édité.</change>
          <change when="2017-10-17" change="creation" who="#LI">Création du document et encodage de
                <gi>choice</gi> pour rendre la leçon du témoin C. Encodage des changements de page.
             Pas de structuration.</change>
