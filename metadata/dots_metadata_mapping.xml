@@ -20,7 +20,7 @@
     <schema:datePublished scope="collection" source="./collection.tsv" value="issued"/>
     <schema:description scope="collection" source="./collection.tsv" value="description"/>
     <dots:shortTitle scope="collection" source="./collection.tsv" value="short_title"/>
-    <dcat:accessURL scope="collection" source="./collection.tsv" value="id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
+    <dcat:accessURL scope="collection" source="./collection.tsv" value="id" prefix="https://data.chartes.psl.eu/api/dts/collection?id="/>
     <dct:title scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
     <dct:creator scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author"/>
     <dct:created scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[not(@type)]"/>
@@ -37,8 +37,8 @@
     <dct:license scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence/@target"/>
     <dct:rights scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/availability/licence"/>
     <dct:identifier scope="document" xpath="/TEI/teiHeader/fileDesc/publicationStmt/idno"/>
-    <dct:relation scope="document" source="./document.tsv" value="subjectOf" prefix="https://dev.chartes.psl.eu/elec/"/>
-    <dct:relation scope="document" source="./document.tsv" value="about" prefix="https://dev.chartes.psl.eu/elec/"/>
+    <dct:relation scope="document" source="./document.tsv" value="subjectOf" prefix="https://data.chartes.psl.eu/elec/"/>
+    <dct:relation scope="document" source="./document.tsv" value="about" prefix="https://data.chartes.psl.eu/elec/"/>
     <schema:type scope="document" resourceId="all">Book</schema:type>
     <schema:name scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]"/>
     <schema:author scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/author[@ref]" type="object">
@@ -48,7 +48,7 @@
       <dots:objectProperty name="sameAs" xpath="subsequence(tokenize(@ref), 2)"/>
     </schema:author>
     <schema:dateCreated scope="document" xpath="/TEI/teiHeader/profileDesc/creation/date[not(@type)]"/>
-    <schema:exampleOfWork scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title" type="object">
+    <schema:exampleOfWork scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[1]" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:CreativeWork</dots:objectProperty>
       <dots:objectProperty name="@id" xpath="let $refs := tokenize(@ref) return $refs[1]"/>
       <dots:objectProperty name="name" xpath="."/>
@@ -87,21 +87,21 @@
     <schema:encoding scope="document" xpath="/TEI/@xml:id" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:MediaObject</dots:objectProperty>
       <dots:objectProperty name="encodingFormat" resourceId="all">application/tei+xml</dots:objectProperty>
-      <dots:objectProperty name="contentUrl" xpath="concat('https://dots.chartes.psl.eu/api/dts/document?resource=', .)"/>
+      <dots:objectProperty name="contentUrl" xpath="concat('https://data.chartes.psl.eu/api/dts/document?resource=', .)"/>
     </schema:encoding>
     <schema:encoding scope="document" xpath="/TEI/@xml:id" type="object">
       <dots:objectProperty name="@type" resourceId="all">schema:MediaObject</dots:objectProperty>
       <dots:objectProperty name="encodingFormat" resourceId="all">text/html</dots:objectProperty>
-      <dots:objectProperty name="contentUrl" xpath="concat('https://dots.chartes.psl.eu/api/dts/document?resource=', ., codepoints-to-string(38), 'mediaType=html')"/>
+      <dots:objectProperty name="contentUrl" xpath="concat('https://data.chartes.psl.eu/api/dts/document?resource=', ., codepoints-to-string(38), 'mediaType=html', codepoints-to-string(38), 'renderer=hteiml')"/>
     </schema:encoding>
     <schema:subjectOf scope="document" source="./document.tsv" type="object">
-      <dots:objectProperty name="@id" value="subjectOf" prefix="https://dev.chartes.psl.eu/elec/"/>
+      <dots:objectProperty name="@id" value="subjectOf" prefix="https://data.chartes.psl.eu/elec/"/>
     </schema:subjectOf>
     <schema:about scope="document" source="./document.tsv" type="object">
-      <dots:objectProperty name="@id" value="about" prefix="https://dev.chartes.psl.eu/elec/"/>
+      <dots:objectProperty name="@id" value="about" prefix="https://data.chartes.psl.eu/elec/"/>
     </schema:about>
-    <download xmlns="http://www.tei-c.org/ns/1.0" scope="document" xpath="let $id := /TEI/@xml:id return concat('api/dts/document?resource=', $id)" prefix="https://dev.chartes.psl.eu/dots/"/>
+    <download xmlns="http://www.tei-c.org/ns/1.0" scope="document" xpath="let $id := /TEI/@xml:id return concat('api/dts/document?resource=', $id)" prefix="https://data.chartes.psl.eu/"/>
     <dots:shortTitle scope="document" xpath="/TEI/teiHeader/fileDesc/titleStmt/title[@type='short']"/>
-    <dcat:accessURL scope="document" xpath="/TEI/@xml:id" prefix="https://dev.chartes.psl.eu/dots/api/dts/collection?id="/>
+    <dcat:accessURL scope="document" xpath="/TEI/@xml:id" prefix="https://data.chartes.psl.eu/api/dts/collection?id="/>
   </dots:mapping>
 </dots:metadataMap>
