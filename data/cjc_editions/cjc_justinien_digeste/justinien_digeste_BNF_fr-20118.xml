@@ -31,7 +31,7 @@
       <notesStmt>
         <note type="citation">Irene Reginato (éd.), Traduction 3 du Digeste de Justinien, École nationale des chartes – PSL, 2026.</note>
       </notesStmt>
-      <sourceDesc>
+      <sourceDesc facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/manifest.json">
         <msDesc source="https://archivesetmanuscrits.bnf.fr/ark:/12148/cc78499p https://gallica.bnf.fr/ark:/12148/btv1b84557828 https://portail.biblissima.fr/fr/ark:/43093/mdata670036930d8e1b201e1f879b442e9111039b21ca">
           <msIdentifier xml:id="F">
             <settlement>Paris</settlement>
@@ -244,7 +244,7 @@
       <div xml:id="justinien_digeste_BNF_fr-20118.1">
         <head>[Liber primus]</head>
         <div xml:id="justinien_digeste_BNF_fr-20118.1.1.0">
-          <head>[1.1.0. De iustitia et iure.]<lb/><cb n="3a"/>
+          <head>[1.1.0. De iustitia et iure.]<lb/><cb n="3a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f21/full/full/0/native.jpg"/>
             <seg type="rubric"> Ci comence li premiers livres des Digestes au glorieus empereor
               Justinian. Cist tytres est de justice et de droit.</seg></head>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.1.1"><label>[1.1.1]</label>
@@ -309,7 +309,7 @@
             lois ou des establissemenz au pueple ou des conseulz<note n="b" resp="editor">des conseulz]
               del (con)seill <hi rend="i">E</hi> (<seg rend="eleve"> « Ius autem civile est, quod ex
                 legibus, plebis scitis, senatus consultis, decretis principum, auctoritate
-                prudentium venit »</seg>).</note> au <cb n="3c"/> senat ou des jugemenz as princes ou
+                prudentium venit »</seg>).</note> au <cb n="3c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f22/full/full/0/native.jpg"/> senat ou des jugemenz as princes ou
             de l’auctorité as sages homes. ¶ <label>[1]</label> Li droiz as prevolz est cil que li
             prevost establirent por aidier ou por acomplir ou pour amender le droit citeain por
             conmun proufit ; et cil<note n="c" resp="editor">cil] cist <hi rend="i">A </hi> (<seg rend="eleve"> « Quod et honorarium dicitur ad honorem praetorum sic
@@ -386,7 +386,7 @@
             ordre. <label>[3]</label> Aprés ce, furent fetes autres lois, et li pueples de Rome
             comença à user de droit, qui n’estoit pas certains, et de costumes plus que des lois qui
             avoient esté donees, et ce dura prés de .xx. anz. ¶ <label>[4]</label> Et aprés, que ce
-            ne durast plus longuement, <cb n="4a"/> il plot as Romains que .x. home fussent establi
+            ne durast plus longuement, <cb n="4a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f23/full/full/0/native.jpg"/> il plot as Romains que .x. home fussent establi
             par conmune auctorité, par qui les lois fussent demandees as citez de Grece, si que la
             cité fust fondee de lois, et il les escristrent en tables d’ivuire, si que eles peussent
             estre veues plus apertement. Et à cez .x. homes fu donee en la cité en cel an que il
@@ -445,7 +445,7 @@
             princes establiz, à qui tel droiture fu donee que quanque il establiroit fust ferm. ¶
               <label>[12]</label> Et einsi furent establies en nostre cité les lois : ou li propres
             droiz citeains, qui est sanz escrit en la seule exposicion as sages homes ; ou les
-            actions <cb n="4c"/> de loi, qui contienent forme de pledier ; ou establissemenz de
+            actions <cb n="4c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f24/full/full/0/native.jpg"/> de loi, qui contienent forme de pledier ; ou establissemenz de
             pueple, qui est establiz sanz l’auctorité as peres ; ou banissemenz à mestres, de quoi
             li droiz hennorez nest ; ou conseulz au senat, qui est establiz par le senat ; ou
             establissemez à prince, qui est gardez come loi. ¶ <label>[13]</label> Aprés ce que nos
@@ -497,7 +497,7 @@
             pueples voloit eslire de soi conseilliers et li pere le refusoient, il avint que
             connestable des chevaliers furent esleu, partie del maien pueple et partie des peres. Et
             cil furent establi par divers nombre, quar aucune foiz en i ot .xx., aucune foiz plus,
-            et aucune foiz meins. <label>[26]</label> Et quant <cb n="5a"/> il plot as Romains que
+            et aucune foiz meins. <label>[26]</label> Et quant <cb n="5a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f25/full/full/0/native.jpg"/> il plot as Romains que
             conseillier fussent establi del maien pueple et des peres et que li pere eussent plus de
             digneté que li autre, dui home furent establi del nombre as peres, <label>[27]</label>
             qui furent apelé voier. ¶ Et, por ce que il covenoit les conseilliers aler à batailles,
@@ -554,7 +554,7 @@
             demander à Rome laquele que il voudroient. <label>[38]</label> Aprés fu Tyberius, de qui
             nos n’avons nul livre, mes nos avons plusors de ses respons, qui sont mis en remembrance. ¶
             Aprés furent Sextus Elius et Publius Attilius, ses freres, qui furent de grant escience
-            en droit. Et cil dui furent <cb n="5c"/> conseillier : Attilius, li premiers, fu apelez
+            en droit. Et cil dui furent <cb n="5c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f26/full/full/0/native.jpg"/> conseillier : Attilius, li premiers, fu apelez
             sages el pueple ; Sextus Elius fu moult loez, et nos avons .i. suen livre qui est
             apelez <title><hi rend="i">Trois parz</hi></title>, et cil livres est autresi come li
             comencemenz de droit. Et l’en dit que il fist .iii. autres livres, neporquant aucun
@@ -624,7 +624,7 @@
             l’acusa Tubero, et Cicero le deffendi. Et encore a l’en l’allegacion Cicero, qui est
             assez bele et est entitulee <title><hi rend="i">Por Quintus Ligarius</hi></title>.
             Tisbero fu tres sages del conmun droit et del privé, et lessa pluseurs livres de l’un et
-            de l’autre, mes <cb n="6a"/> il escrist selonc l’ancienne parole, et por ce sont si
+            de l’autre, mes <cb n="6a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f27/full/full/0/native.jpg"/> il escrist selonc l’ancienne parole, et por ce sont si
             livre petit agraable. ¶ <label>[47]</label> Aprés cestui, furent de grant auctorité
             Ateius Capito, qui ensivi Offilius, et Antistius Labeo, qui oï toz cez. Ateius fu
             conseilliers, mes Labeo ne le volt estre, ja soit ce que li empereres li offri, mes il
@@ -699,7 +699,7 @@
             <hi rend="b"> C</hi>il meismes dit : <hi rend="b"> L</hi>’en ne doute pas que li senaz
             ne puisse establir droit.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.3.10"><label>[1.3.10]</label>
-            <hi rend="b">J</hi>ulians dit : <hi rend="b"> N</hi>e lois ne conseulz au <cb n="6c"/>
+            <hi rend="b">J</hi>ulians dit : <hi rend="b"> N</hi>e lois ne conseulz au <cb n="6c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f28/full/full/0/native.jpg"/>
             senat ne pueent estre einsi escrit que tuit li cas qui aucune foiz avendroit i soient
             conpris, ainz est assez que les choses qui sovent avienent i soient contenues.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.3.11"><label>[1.3.11]</label>
@@ -815,7 +815,7 @@
                 correctionem, mais le texte latin confirme l’intervention du correcteur : « si nec
                 id quidem appareat, tunc ius, quo urbs Roma utitur, servari oportet ».</hi></note>,
             lors covient il garder le droit de qoi la cité de Rome use en tel cas.
-              <label>[1]</label> Quar costume envieillie est par droit gardee <cb n="7a"/> en leu de
+              <label>[1]</label> Quar costume envieillie est par droit gardee <cb n="7a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f29/full/full/0/native.jpg"/> en leu de
             loi, et ce est li droiz que l’en apele droiz establi par meurs ; quar, por ce que les
             lois ne nos lient par nule autre cause fors por ce que eles sont receues par le jugement
             au pueple, autresin les choses que li pueples aloe sanz escrit lieront touz, quar il a
@@ -910,7 +910,7 @@
             aucuns a de fere ce que il li plest. Servages est establissemenz qui vint del droit as
             genz par qoi aucuns est souzmis à autrui seignorie contre nature. Il sont apelé serf por
             ce que li empereeur conmanderent que li chaitif fussent vendu et ne fussent pas 
-            <cb n="7c"/> ocis et einsi estoient il gardé.</p>
+            <cb n="7c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f30/full/full/0/native.jpg"/> ocis et einsi estoient il gardé.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.5.5"><label>[1.5.5]</label>
             <hi rend="b"> M</hi>arcians dit : <hi rend="b"> L</hi>i serf n’ont que une condicion,
             mes li .i. des frans homes sont naturelment franc, et li autre ont esté franchi.
@@ -980,7 +980,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.1.5.16"><label>[1.5.16]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b">A</hi>utresi est il se cele serve ot
             premierement .ii. enfanz à .i. lit, et puis .ii. à .i. autre, quar l’en ne puet pas dire
-            que li uns et <cb n="8a"/> li autres nesse naturelment frans, mes cil qui nest
+            que li uns et <cb n="8a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f31/full/full/0/native.jpg"/> li autres nesse naturelment frans, mes cil qui nest
             derrenierement. Ceste question est donques de fet et ne mie de droit.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.5.17"><label>[1.5.17]</label>
             <hi rend="b"> C</hi>il meismes dit : <hi rend="b"> C</hi>il qui sont en la cité de Rome
@@ -1056,7 +1056,7 @@
             home qui soit souz l’empire de Rome à estre trop cruel envers son serf sanz les causes
             qui sont conneues es lois, quar selonc l’establissement au saint empereeur Antoine, cil
             qui ocit son serf sanz cause ne doit pas estre meins puniz que cil qui ocit autrui serf,
-            et la desmesuree asprece des seigneurs <cb n="8c"/> est refrenee par l’establissement à
+            et la desmesuree asprece des seigneurs <cb n="8c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f32/full/full/0/native.jpg"/> est refrenee par l’establissement à
             cel meisme prince.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.6.2"><label>[1.6.2]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> S</hi>e li sires est trop cruels contre
@@ -1128,7 +1128,7 @@
             vooir se cil enfes est en sa poesté, quar ja soit ce que li forssenez ne puisse pas
             prendre feme, neporquant il puet retenir son mariage que il fist devant, et por ce li
             filz sera en sa poesté. Et se la feme est forssenee, li enfes que ele conçut devant la
-            forssenerie <cb n="9a"/> sera en la poesté son pere. Et se ele conçoit en sa forsenerie 
+            forssenerie <cb n="9a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f33/full/full/0/native.jpg"/> sera en la poesté son pere. Et se ele conçoit en sa forsenerie 
             .i. enfant de
             son mari, il sera en la poesté son pere, quar lor mariages n’est pas
             failliz. Et se il sont amedui forssené et la feme conçoit, lors li enfes sera en la
@@ -1203,7 +1203,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.1.7.9"><label>[1.7.9]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b">A</hi>vugles puet prendre en adopcion et
             estre i donnez.</p>
-          <cb n="9c"/>
+          <cb n="9c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f34/full/full/0/native.jpg"/>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.7.10"><label>[1.7.10] </label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> S</hi>e aucuns done en adopcion par le
             consentement de son fill l’enfant son fill que il a en sa poesté, cil ne sera pas
@@ -1276,7 +1276,7 @@
             li plus povres praigne le plus riche en adopcion, se l’en set que il est de bone vie et
             que sa volenté est honeste. <label>[5]</label> Mes il couvient doner caupcion en cez
             cas.</p>
-          <cb n="10a"/>
+          <cb n="10a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f35/full/full/0/native.jpg"/>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.7.18"><label>[1.7.18]</label>
             <hi rend="b"> M</hi>arceaus dit : <hi rend="b"> L</hi>’en ne doit pas otroier la volenté
             à celui qui velt prendre orfelin en adopcion devant que il ait doné caupcion de rendre
@@ -1359,7 +1359,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.1.7.31"><label>[1.7.31]</label>
             <hi rend="b"> M</hi>arcians dit : <hi rend="b"> L</hi>i filz qui est en la poesté son
             pere ne puet en nule maniere contraindre son pere de metre l’en hors quels filz que il
-            soit, ou <cb n="10c"/> naturels ou adoptis.</p>
+            soit, ou <cb n="10c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f36/full/full/0/native.jpg"/> naturels ou adoptis.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.7.32"><label>[1.7.32]</label>
             <hi rend="b"> P</hi>apinians dit : <hi rend="b"> C</hi>il qui fu donez en adopcion quant
             il avoit meins de .xiiii. anz sera aucune foiz oïz se il velt estre mis hors de baill
@@ -1452,7 +1452,7 @@
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> L</hi>a soveraine division des choses est
             devisee en .ii. parties, quar les unes choses sont de la devine droiture et les autres
             de l’umaine. De la devine droiture sont les choses saintes et les religieuses. Les
-            choses saintes, si <cb n="11a"/> conme li mur et les portes, sont en une maniere de la
+            choses saintes, si <cb n="11a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f37/full/full/0/native.jpg"/> conme li mur et les portes, sont en une maniere de la
             devine droiture. La chose qui est de la devine droiture n’est es biens à nul, mes cele
             qui est d’umaine droiture est es biens à aucun ; et aucune foiz puet il avenir que ele
             n’est es biens à nul, quar les choses de l’eritage ne sont es biens à nul devant que li
@@ -1516,7 +1516,7 @@
               <label>[3]</label> L’en apele choses saintes celes qui sont sacrees conmunement et non
             pas priveement. Se aucuns fet donc priveement .i. leu saint à son oés, ce n’est pas
             sainte chose, mes esconmeniee. Se une meson est une foiz sacree, ja soit ce que li
-            edefiemenz <cb n="11c"/> est depeciez, li leux remaint sainz. <label>[4]</label>
+            edefiemenz <cb n="11c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f38/full/full/0/native.jpg"/> est depeciez, li leux remaint sainz. <label>[4]</label>
             Chascuns puet fere leu religieux par sa volenté, se il enfuet .i. mort en leu qui soit
             suens. En sepulcre qui est conmuns puet chascuns enfoïr mal gré as autres ; et en leu qui
             est à autrui puet chascuns enfoïr, se cil qui<note n="b" resp="editor">qui] <hi rend="i"> Comprendre
@@ -1603,7 +1603,7 @@
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> F</hi>ilz de senateur est cil que il
             prent en adopcion tandis conme il est en sa mesniee. Mes quant il est mis hors de son
             baill, il pert nom de fill. <label>[1]</label> Se senateurs done son fill en adopcion à
-            aucun qui soit de plus <cb n="12a"/> basse digneté, il est filz de senateur, quar la
+            aucun qui soit de plus <cb n="12a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f39/full/full/0/native.jpg"/> basse digneté, il est filz de senateur, quar la
             digneté de senateur n’est pas perdue par adopcion de plus basse digneté ; et autresi est
             il de la digneté à conseillier.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.9.7"><label>[1.9.7]</label>
@@ -1673,7 +1673,7 @@
             malades ou il a autre cause por quoi la franchise ne puet estre donee par devant lui, li
             senaz juge que ce puet estre fet par devant son conpaignon. <label>[2]</label> Ce n’est
             nule doute que li conseillier ne puissent franchir lor sers tout par els, mes se il
-            avient que aucuns qui ait meins de .xxv. anz soit con<cb n="12c"/>seilliers, il ne porra
+            avient que aucuns qui ait meins de .xxv. anz soit con<cb n="12c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f40/full/full/0/native.jpg"/>seilliers, il ne porra
             pas franchir ses sers par lui, quar ce est cil qui doit oïr la cause por quoi aucuns
             doit estre franchiz et examiner la, mes il puet bien franchir les par devant son
             conpaignon, se la cause est prouvee.</p>
@@ -1759,7 +1759,7 @@
                 « Praeterea curare debebit praefectus urbi, ut nummularii probe se agant circa omne
                 negotium suum et temperent his, quae sunt prohibita ».</hi></note> qui leur sont
             deffendues. ¶ <label>[10]</label> Quant li patrons dit que cil que il a franchi le
-            despit ou que il a mesdit à lui ou à ses enfanz ou à <cb n="13a"/> sa feme, ou il dit
+            despit ou que il a mesdit à lui ou à ses enfanz ou à <cb n="13a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f41/full/full/0/native.jpg"/> sa feme, ou il dit
             aucune tel chose, li prevolz de la cité en doit estre requis, qui le doit chastier
             selonc la maniere de la plainte, ou par menaces ou par bateimenz ou par plus grief paine se
             mestiers est, quar cil qui ont esté franchi doivent aucune foiz estre puni. Et se li
@@ -1861,7 +1861,7 @@
             en pluseurs leus.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.15.3"><label>[1.15.3]</label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> Q</hi>uar il li fu avis que nus 
-            <cb n="13c"/>
+            <cb n="13c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f42/full/full/0/native.jpg"/>
             n’estoit plus covenables ne plus soufisanz à garantir la chose conmune que li
             empereres. Il establi donc .vii. conpaignies en leus covenables, si que chascune
             conpaignie deffendist .ii. regions, et si mist connestables par desus els ; et par desus
@@ -1928,7 +1928,7 @@
             que il ne viegnent pas contre lui ne conmunement ne priveement, quar il est avenant
             chose que chascuns le reçoive en son païs. <label>[4]</label> Il feroit à droit se il
             enveoit à celui qui fu devant lui .i. message et li fesoit savoir à quel jor il
-            enterroit es bonnes de la contree, quar sovent avient que les choses qui <cb n="14a"/>
+            enterroit es bonnes de la contree, quar sovent avient que les choses qui <cb n="14a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f43/full/full/0/native.jpg"/>
             ne sont pas certaines et de qoi l’en ne se done garde troublent les contrees et
             empeeschent ce que l’en doit fere. <label>[5]</label> Et quant il entre en la contree,
             il doit garder que il i entre par icele partie par quoi li autre i suelent entrer, et si
@@ -1989,7 +1989,7 @@
             qui par lui ne doie estre despeeschiee, mes se aucune cause i n’est de deniers qui
             soient deu à la borse l’empereeur, por ce que tel cause apartient au procurator au
             prince, il fera mielz se il s’en atient. <label>[1]</label> ¶ Là où il est besoinz de connoistre 
-            <cb n="14c"/>
+            <cb n="14c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f44/full/full/0/native.jpg"/>
             la cause, li viscontes puet doner juge de legat. ¶ <label>[2]</label>
             Il covient que <choice>
               <sic source="#F">li visconte soient</sic>
@@ -2081,7 +2081,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.1.18.3"><label>[1.18.3]</label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> L</hi>i prevolz de la contree a poesté sus
             les homes de sa contree tant seulement et sanz plus tant conme il est dedenz la contree,
-            quar dés <cb n="15a"/> que il est hors de la contree, il est autresin come uns bas hom.
+            quar dés <cb n="15a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f45/full/full/0/native.jpg"/> que il est hors de la contree, il est autresin come uns bas hom.
             Et aucune foiz a il pooir seur estranges homes se il meffont en sa contree, quar il est
             contenu es conmandemenz as princes que cil qui est par desus la
             contree se doit entremetre de netoier la de mauvés homes donc que il soient.</p>
@@ -2175,7 +2175,7 @@
             neporquant l’en ne doit pas regarder que l’en fet à Rome, mes que l’en i doit fere.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.18.13"><label>[1.18.13]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> I</hi>l apartient à bon prevost 
-            <cb n="15c"/> que il s’entremete que la contree soit en pés. Et ce sera legiere chose à
+            <cb n="15c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f46/full/full/0/native.jpg"/> que il s’entremete que la contree soit en pés. Et ce sera legiere chose à
             fere se il met paine que la contree soit vuidiee des mauvés homes et il les fet bien
             querre, quar il doit querre les sacrileges et les larrons, et cels qui vendent autrui
             sers ; et selonc ce que chascuns avra meffet, il li doit enjoindre paine, et si doit
@@ -2241,7 +2241,7 @@
             que li prevost des contrees ne praignent en trop grant familiarité cels qui sont desoz
             els, quar d’oël<note n="g" resp="editor">oël] À comprendre ‘égal’. </note> conversacion n’est
             despiz de digneté. <label>[1]</label> Et quant il juge, il ne covient pas que il se
-            corrouce envers cels que il cuide que soient mauvés, ne que il <cb n="16a"/> pleurt
+            corrouce envers cels que il cuide que soient mauvés, ne que il <cb n="16a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f47/full/full/0/native.jpg"/> pleurt
             por les proieres as mesaaisiez. Il n’afiert pas à droit juge ne à buen que sa chiere
             descuevre le movement de son corage ; et droiz doit estre diz en tel maniere que li
             juges acroisse par son engin l’auctorité de sa dignité.</p>
@@ -2331,7 +2331,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.1.21.2"><label>[1.21.2]</label>
             <hi rend="b"> U</hi>lpians dit : <hi rend="b"> Q</hi>uant li prevolz done jurisdicion,
             cil à qui il la done ne puet pas doner conseill as deffendeeurs ou as
-            procureeurs de vendre les chans <cb n="16c"/> as orfelins que il ont en garde, quar ce
+            procureeurs de vendre les chans <cb n="16c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f48/full/full/0/native.jpg"/> as orfelins que il ont en garde, quar ce
             doit otroier li prevolz meismes quant il voit droite cause. Et se il baille sa
             jurisdicion, il ne puet pas baillier icel cas.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.1.21.3"><label>[1.21.3]</label>
@@ -2421,7 +2421,7 @@
               <corr resp="#IR">purs</corr>
             </choice><note n="b" resp="editor">purs] purf <hi rend="i">ms.</hi></note> ou meslez. Purs
             conmandemenz est quant l’en a poesté de glaive por fere soffrir paine à ceus qui la
-            desservent. Comandemenz meslez est quant jurisdicion est mes<cb n="17a"/>lee ovec la
+            desservent. Comandemenz meslez est quant jurisdicion est mes<cb n="17a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f49/full/full/0/native.jpg"/>lee ovec la
             poesté, et ce est en doner la possession des biens. Jurisdicion ordinaire est poestés de
             doner juge.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.1.4"><label>[2.1.4]</label><hi rend="b"> U</hi>lpians dit :
@@ -2485,7 +2485,7 @@
             l’en en doit pledier par devant .i. meisme juge. ¶ <label>[2]</label> Se une action est
             conmune à pluseurs personnes, si come l’action de deviser heritage ou de partir choses
             conmunes ou de bonner chans, l’en demande savoir mon se toutes les parties doivent estre
-            regardees quant à la jurisdicion au <cb n="17c"/> juge ; et Ofilius et Proculus vuelent
+            regardees quant à la jurisdicion au <cb n="17c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f50/full/full/0/native.jpg"/> juge ; et Ofilius et Proculus vuelent
             que oïl, quar chascuns plede por sa partie. Ou l’en puet demander se tote la chose vient
             en jugement ou se ele puet toute estre ajugiee à .i., et Cassius et Pegasus vuelent que
             oïl, et sanz doute lor sentence est plus provable.</p>
@@ -2550,7 +2550,7 @@
             aucune foiz contre lui par cel meismes droit, se ses aversaires le requiert, quar il
             doit bien soufrir que ce vaille en sa personne que il tint por droit en personne
             d’autrui. ¶ <label>[2]</label> Nos devons garder l’entendement de cez paroles que cil
-            establira qui a jurisdicion, quar se il volt establir aucun droit no<cb n="18a"/>vel et
+            establira qui a jurisdicion, quar se il volt establir aucun droit no<cb n="18a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f51/full/full/0/native.jpg"/>vel et
             il li fu deffendu, si que ses jugemenz n’ot pas force, li banissemenz cesse ; quar cist
             moz establir senefie chose parfete et tort fet parfet, et non pas comencié tant
               seulement<note n="a" resp="editor">tant seulement] Ajouté dans la marge avec un signe
@@ -2617,7 +2617,7 @@
               fu<note n="a" resp="editor">ele en fu] ele en fu i <hi rend="i">avec</hi> i <hi rend="i">
                 exponctué.</hi></note> menee ou portee. Et se il refuse à fere le seurplus, lors
             semble il que il n’obeïst pas au juge. ¶ <label>[2]</label> Se li procurateurs à aucun
-            ou cil qui a .i. orfelin en garde n’obeïst au juge, il sera pu<cb n="18c"/>niz, et non pas
+            ou cil qui a .i. orfelin en garde n’obeïst au juge, il sera pu<cb n="18c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f52/full/full/0/native.jpg"/>niz, et non pas
             ses sires ou li orfelins. ¶ <label>[3]</label> Labeo dit que cist banissemenz comprent non
             pas tant seulement le deffendeeur qui ne velt obeïr au juge, mes le demandeeur. ¶
               <label>[4]</label> Cist jugemenz ne comprent pas toz les deperz, mes tant come la
@@ -2685,7 +2685,7 @@
             tant conme ge vive ; mes Julians dit le contrere, et pluseur loent la sentence Julian.
             Et selonc ce avendra il que li patrons porra estre apelez en droit, et li filz qui n’a
             rien meffet n’i porra pas estre apelez.</p>
-          <p xml:id="justinien_digeste_BNF_fr-20118.2.4.9"><label><cb n="19a"/>[2.4.9]</label>
+          <p xml:id="justinien_digeste_BNF_fr-20118.2.4.9"><label><cb n="19a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f53/full/full/0/native.jpg"/>[2.4.9]</label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> C</hi>il qui franchist .i. serf por ce que
             il li fu commandé en .i. testament ne doit pas estre apelez en droit, ja soit ce que il
             i puisse estre apelez por franchir le.</p>
@@ -2740,7 +2740,7 @@
             peres n’est presenz, que l’en doit secorre au fill qui est en sa poesté, et que action
             de .L. deniers d’or li apartient contre celui qui fu franchiz.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.4.13"><label>[2.4.13]</label>
-            <hi rend="b"> M</hi>odestins dit : <hi rend="b"> G</hi>eneralment nos ne <cb n="19c"/>
+            <hi rend="b"> M</hi>odestins dit : <hi rend="b"> G</hi>eneralment nos ne <cb n="19c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f54/full/full/0/native.jpg"/>
             poons apeler en droit sanz le comandement au prevost nule des personnes à qui nos devons
             reverence.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.4.14"><label>[2.4.14]</label>
@@ -2822,7 +2822,7 @@
               <hi rend="b"> P</hi>or quel chose que aucuns soit apelez en droit par devant le
             prevost ou par devant autre qui ait jurisdicion, il i doit venir au meins por savoir se
             li juges a poesté sor lui. ¶ <label>[1]</label> Se aucuns est apelez en droit par devant
-            son <cb n="20a"/> droit juge et il n’i vient pas por aucune cause, il sera puniz por la
+            son <cb n="20a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f55/full/full/0/native.jpg"/> droit juge et il n’i vient pas por aucune cause, il sera puniz por la
             jurisdicion au juge, mes l’en doit espargnier les nonsachanz. Et se li demanderres ne
             perdi rien en ce que li aversaires ne vint pas au jor où il fu semons, si come se ce fu
             à jor de feste, li prevolz quitera la paine.</p>
@@ -2901,7 +2901,7 @@
             il n’i aille tant que li jorz soit passez ou que l’action soit perdue par atente. Lors
             semble il que il l’ait souztret, ja soit ce que il n’ait pas tenu son cors. Et se il
             le retint el leu où il le trova, ja soit ce que il ne le mena pas aillors, il est tenuz
-            par cest banissement. <label>[1]</label> Et <cb n="20c"/> se aucuns souztret par force
+            par cest banissement. <label>[1]</label> Et <cb n="20c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f56/full/full/0/native.jpg"/> se aucuns souztret par force
             celui qui est apelez en droit par <choice>
               <sic source="#F">fanxe</sic>
               <corr resp="#IR">fauxe</corr>
@@ -2978,7 +2978,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.2.8.5"><label>[2.8.5]</label><hi rend="b"> P</hi>aulus<note n="c" resp="editor"> Paulus] « <hi rend="sc"> Gaius</hi> » <hi rend="i">dans le texte
                 latin.</hi></note> dit : <hi rend="b"> S</hi>e aucuns est pleges por celui qui est
             condampnez et li condampnez muert ou il est forsbaniz de la cité de Rome, por ce ne
-            remaint <cb n="21a"/> pas que l’en ne puisse pledier au plege. ¶ <label>[1]</label> Cil
+            remaint <cb n="21a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f57/full/full/0/native.jpg"/> pas que l’en ne puisse pledier au plege. ¶ <label>[1]</label> Cil
             qui ne velt prendre plege, de quoi l’en voit apertement que il est assez riches selonc
             la qalité de la chose, ou qui prueve que il est assez riches se l’en doute, qui velt
             estre pleges d’amener aucun en jugement, action de tort fet puet estre donee contre
@@ -3036,7 +3036,7 @@
             aucuns dit que il ne puet doner pleges à Rome et il veult estre envoiez en aucun
             chastel por doner les, il doit fere serement de verité que il ne le fet pas par malice.
             Mes cist seremenz est quitez à aucunes personnes, si come as peres et aus 
-            pa<cb n="21c"/>trons. Cil qui est envoiez en aucun chastel por doner pleges doit jurer que il ne les
+            pa<cb n="21c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f58/full/full/0/native.jpg"/>trons. Cil qui est envoiez en aucun chastel por doner pleges doit jurer que il ne les
             puet doner à Rome et que il le fet sanz malice : quar il ne doit pas estre contrainz de
             jurer que il ne puet doner pleges ailleurs que là où il velt estre envoiez, quar l’en
             le feroit parjurer, quar par aventure il ne les puet pas doner à Rome mes il les puet
@@ -3102,7 +3102,7 @@
             porsiee, ou il ou li orfelin. Et autresi dit l’en se li uns des deffendeeurs est
             porseerres. ¶ <label>[6]</label> Se tu me demandes le champ que ge porsie, et sentence
             est donee por toi et ge appel contre la sentence, l’en demande se ge sui mes porseerres
-            de tel champ. Et l’en dit par droit que oïl, quar il ne remaint pas que ge ne por<cb n="22a"/>siee por ce se la possession puet estre gaaigniee contre moi. ¶
+            de tel champ. Et l’en dit par droit que oïl, quar il ne remaint pas que ge ne por<cb n="22a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f59/full/full/0/native.jpg"/>siee por ce se la possession puet estre gaaigniee contre moi. ¶
               <label>[7]</label> Se l’en dote se aucuns a esté porseerres ou non, il covient garder
             au tens que il dona la caucion, quar autresi come il ne nuist rien à celui qui vendi la
             possession aprés ce que il ot doné caucion, ne vaut il rien à celui qui comença à
@@ -3160,7 +3160,7 @@
             plez est por actions capitals et por torz fez, il n’est pas amenez avant soufisamment,
             quar satisfacion est autrement fete de serf que de franc home, quar li sers doit estre
             tormentez et batuz, et li frans hom doit estre condampnez à paine de deniers. Mes se
-            l’action estoit citeaine, li demanderres doit mielz voloir que il ait amenez<note n="b" resp="editor">amenez] <hi rend="i"> Suivi de </hi>ii <hi rend="i">exponctué.</hi></note> frans que sers, quar sa cause en vaut <cb n="22c"/> mielz.</p>
+            l’action estoit citeaine, li demanderres doit mielz voloir que il ait amenez<note n="b" resp="editor">amenez] <hi rend="i"> Suivi de </hi>ii <hi rend="i">exponctué.</hi></note> frans que sers, quar sa cause en vaut <cb n="22c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f60/full/full/0/native.jpg"/> mielz.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.9.6"><label>[2.9.6]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> M</hi>es se aucuns pramet à amener avant celui à qui franchise est deue,
             il semble que il soit amenez en cel meismes estat se il i est amenez quant il est frans,
@@ -3232,7 +3232,7 @@
             causa factis non obtemperaverit.]<lb/>
             <seg type="rubric"> Se aucuns n’obeïst à la caucion que il a donee d’estre à
               droit.</seg></head>
-          <p xml:id="justinien_digeste_BNF_fr-20118.2.11.1"><label><cb n="23a"/>[2.11.1] </label>
+          <p xml:id="justinien_digeste_BNF_fr-20118.2.11.1"><label><cb n="23a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f61/full/full/0/native.jpg"/>[2.11.1] </label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> L</hi>i prevolz commande que chascune
             jornee soit de .xx. miles, fors cele en quoi la caucion est donee, et cele en quoi il
             covient estre à jugement, quar tel jornee n’est greveuse ne au demandeeur ne au
@@ -3294,7 +3294,7 @@
             <note n="b" resp="editor">esprover] espargnier <hi rend="i">ms. Corr. d’après E (cf. le texte
                 latin : « rei capitalis condemnatum accipere debemus, qui morte exiliove coercitus
                 est »).</hi></note> par droit. <label>[1]</label> Nos apelons celui condampné de
-            crime, qui est <cb n="23c"/> chastiez par mort ou par essill. Se aucuns demande donc à que
+            crime, qui est <cb n="23c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f62/full/full/0/native.jpg"/> chastiez par mort ou par essill. Se aucuns demande donc à que
             fere ceste excepcion li est donee, puis que il est dampnez, nos respondrons que ele est
             necessaire à ses pleges. Ou se il est par aventure alez en essill si que il porra
             encore revenir en la cité, ceste excepcion vaudra à son deffendeeur. ¶
@@ -3357,7 +3357,7 @@
             amené en droit. Mes se la paine est offerte por la partie à l’un, se il en est puis trez
             en cause, il puet user d’excepcion de tricherie.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.11.10"><label>[2.11.10]</label><hi rend="b"> P</hi>aulus
-            dit : <hi rend="b"> S</hi>e ge ai pramis à amener à jugement au<cb n="24a"/>cun qui ja
+            dit : <hi rend="b"> S</hi>e ge ai pramis à amener à jugement au<cb n="24a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f63/full/full/0/native.jpg"/>cun qui ja
             est delivrés de l’action, mes il n’est pas seu apertement, action doit estre donee
             contre moi, ou que ge l’amaine à jugement, ou que ge le deffende tant que la verité soit
             enquise. ¶ <label>[1]</label> Li hom que aucuns avoit pramis à amener à jugement morut
@@ -3416,7 +3416,7 @@
             dit : <hi rend="b"> L</hi>i empereres Marc establi que nus ne contraigne son aversaire
             de venir à jugement en tens de moissons ne de vendenges, quar cil qui sont enbesoignié
             des huevres des chans ne doivent pas estre contraint d’aler à cort. ¶ <label>[1]</label>
-            Mes se li prevolz les i apele ou par ignorance ou par malice <cb n="24c"/> et il i
+            Mes se li prevolz les i apele ou par ignorance ou par malice <cb n="24c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f64/full/full/0/native.jpg"/> et il i
             vienent de lor gré et pledent, se il done sentence ele vaudra, ja soit ce que il ne fist
             pas bien d’apeler les à jugement. ¶ Et se il ne voldrent pas venir avant en cel tens et
             il dona sentence sanz els, l’en doit dire que cele sentence n’a point de force, quar li
@@ -3478,7 +3478,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.2.12.8"><label>[2.12.8]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> S</hi>elonc la costume de Rome, li jorz conmence à mienuit et faut à la
             mienuit aprés, si que ce qui est fet en cez .xxiiii. heures, ce est es .ii. demies nuiz
-            et el jor qui est entre .ii. <cb n="25a"/> est autresi tenable come se il fust fet en
+            et el jor qui est entre .ii. <cb n="25a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f65/full/full/0/native.jpg"/> est autresi tenable come se il fust fet en
             aucune heure del jor.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.12.9"><label>[2.12.9]</label><hi rend="b"> U</hi>lpians
             dit : <hi rend="b"> L</hi>i empereres Trajans escrist que li foirie donent terme des
@@ -3541,7 +3541,7 @@
             il a les instrumenz en une autre, il doit estre contrainz de mostrer les en la contree
             où il fu notaires, quar li premiers meffez fu en ce que il les porta en autre leu. Et se
             il fu notaires en .i. leu et l’en velt que il mostre les instrumenz en .i. autre, il ne
-            doit pas estre contrainz de ce se ses aversaires ne velt que il en a<cb n="25c"/>port
+            doit pas estre contrainz de ce se ses aversaires ne velt que il en a<cb n="25c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f66/full/full/0/native.jpg"/>port
             le transescrit à ses despens.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.13.5"><label>[2.13.5]</label><hi rend="b"> P</hi>aulus dit :
               <hi rend="b"> E</hi>t l’en li doit doner terme d’aporter le.</p>
@@ -3593,7 +3593,7 @@
             l’en doit entendre que ce doit estre totes les foiz que mestiers en sera, quar il puet
             avenir que aucuns ait perdu ce qui li a esté mostré par .ii. foiz.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.13.8"><label>[2.13.8]</label><hi rend="b"> U</hi>lpians
-            dit : <hi rend="b"> Q</hi>uant l’en commande à aucun que il mostre ses instrumenz, <cb n="26a"/> il est puniz quant il lesse par tricherie à mostrer les ; mes por legiere
+            dit : <hi rend="b"> Q</hi>uant l’en commande à aucun que il mostre ses instrumenz, <cb n="26a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f67/full/full/0/native.jpg"/> il est puniz quant il lesse par tricherie à mostrer les ; mes por legiere
             corpe n’est il pas puniz se ele n’est prouchaine à tricherie. L’en dit que cil lesse par
             tricherie à mostrer les, qui malicieusement les mostre ou qui n’en mostre point. ¶
               <label>[1]</label> Cil qui enchiet en cest banissement doit paier ce que ce que ses
@@ -3654,7 +3654,7 @@
             dit : <hi rend="b"> L</hi>a loiauté de cest banissement est naturel. Quel chose est si
             covenable à humaine foi conme garder les choses qui sont covenanciees ?
               <label>[1]</label> Covenanz est consentemenz de .ii. <label>[2]</label> ou de plusors
-            en une meismes chose. ¶ <label>[3]</label> Li nons de conve<cb n="26c"/>nance est generals à
+            en une meismes chose. ¶ <label>[3]</label> Li nons de conve<cb n="26c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f68/full/full/0/native.jpg"/>nance est generals à
             touz les marchiez en quoi les parties se consentent, si que Pedius dit que nus marchiez
             ne nus obligemenz ne vaut se il n’i a consentement, ou par fet ou par dit. Et covenance
             qui est fete par paroles n’est nule se il n’i a consentement. ¶ <label>[4]</label> Mes
@@ -3718,7 +3718,7 @@
             bone foi, quar nos soulons dire que covenant sont es jugemenz de bone foi. Et ce doit
             estre si entendu que, se li covenant furent fet au comencement, il sont por la partie au
             demandeeur ; mes se il ont esté puis fet<note n="b" resp="editor">fet] <hi rend="i"> Précédé
-                de</hi> i <hi rend="i">exponctué. </hi></note>, il ne vaudront <cb n="27a"/> rien à
+                de</hi> i <hi rend="i">exponctué. </hi></note>, il ne vaudront <cb n="27a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f69/full/full/0/native.jpg"/> rien à
             doner action. ¶ Marceaus escrit que, se covenanz a esté fez en action de garde que
             graigneurs usures soient donees que celes qui sont establies en la cité, li covenanz
             n’a pas leu si que action en nesse, quar li covenant qui sont fet au conmencement del
@@ -3770,7 +3770,7 @@
             denoncement de novele oevre, aucun cuident que la covenance ne vaut rien por ce que ele
             est contre le banissement au prevost. Mes Labeo destinte que, se li denoncemenz de
             novele oevre est de ma propre chose, g’en puis bien fere covenance. Mes se ce est de
-            chose conmune, ge n’en doi pas fere couve<cb n="27c"/>nant. Et ceste distinction est
+            chose conmune, ge n’en doi pas fere couve<cb n="27c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f70/full/full/0/native.jpg"/>nant. Et ceste distinction est
             veraie. Autresi est il en toutes les autres choses qui apartienent au banissement au
             prevost, qui ne touchent pas la chose conmune mes la propre, qar la loi otroie bien que
             l’en face covenant de larrecin qui a esté fez. <label>[15]</label> Et se aucuns fet
@@ -3821,7 +3821,7 @@
             .ii., quar cil qui a plusors actions n’est<note n="d" resp="editor">n’est] <hi rend="i">
                 Précédé de</hi> o <hi rend="i">exponctué.</hi></note> pas pris por pluseurs
             personnes encontre celui qui a une action. ¶ <label>[1]</label> Nos raporterons la somme
-            de la dete à plusors <cb n="28a"/> petites somes, quar se l’en doit à .i. home menues
+            de la dete à plusors <cb n="28a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f71/full/full/0/native.jpg"/> petites somes, quar se l’en doit à .i. home menues
             somes qui vaillent .c. livres et à .i. autre une somme qui vaille .L. livres tout
             ensemble, l’en gardera à l’assentement à celui à qui l’en doit les menues sommes, quar
             quant eles sont contees ensemble, eles valent plus que la grande. <label>[2]</label> Et
@@ -3874,7 +3874,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.2.14.17"><label>[2.14.17]</label><hi rend="b"> P</hi>aulus
             dit : <hi rend="b"> S</hi>e ge te baille .x. livres et ge te met en covenant que ge t’en
             doie .xx., ge ne sui obligiez que as .x., quar obligemenz qui nest de chose ne se puet
-            estendre fors à tant come l’en baille. ¶ <label>[1]</label> Unes <cb n="28c"/> actions
+            estendre fors à tant come l’en baille. ¶ <label>[1]</label> Unes <cb n="28c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f72/full/full/0/native.jpg"/> actions
             sont qui par droit sont ostees par covenant, si come action de tort fet et de larrecin.
             ¶ <label>[2]</label> De simple covenant qui est fez de gage n’est action par le droit au
             prevost. Mes ele est ostee par excepcion se ge ai fet covenant que ge ne demanderai pas
@@ -3938,7 +3938,7 @@
             pleges.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.14.22"><label>[2.14.22]</label><hi rend="b"> U</hi>lpians
             dit : <hi rend="b"> S</hi>e ce n’a esté mis en covenant que l’en ne lest en pés fors le
-            deteur et que l’en puisse à ses pleges demander la <cb n="29a"/> dete, quar lors n’usera
+            deteur et que l’en puisse à ses pleges demander la <cb n="29a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f73/full/full/0/native.jpg"/> dete, quar lors n’usera
             pas li pleges d’excepcion.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.14.23"><label>[2.14.23]</label><hi rend="b"> P</hi>aulus
             dit : <hi rend="b"> L</hi>a covenance que li pleges fera ne vaudra rien au deteur, qar
@@ -3990,7 +3990,7 @@
             resuscitez par novel covenant, mes li segonz couvenanz vaudra à novel marchié. Mes se li
             premiers covenanz ne fu pas fez por oster tout l’obligement mes por amenuisier le, li
             derreniers couvenanz puet renoveler le premier marchié. Et ce puet valoir en action de
-            doere, si come se la feme fist couve<cb n="29c"/>nant que ses doeres seroit renduz
+            doere, si come se la feme fist couve<cb n="29c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f74/full/full/0/native.jpg"/>nant que ses doeres seroit renduz
             presentement, et aprés ele fist .i. autre covenant que il seroit renduz dedenz le terme
             qui est establiz es lois, ce est dedenz l’an. Li doeres revient à sa droiture par le
             derrenier covenant, ne l’en ne doit pas dire que la condicion del doere soit empiriee
@@ -4040,7 +4040,7 @@
             dit : <hi rend="b"> L</hi>i covenant qui sont fet contre les riulles del droit citeain
             ne doivent pas estre estable, si come se uns orfelins fet covenant sanz l’auctorité à
             celui qui l’a en garde que il ne demandera ce que ses deteurs li doit, ou que il ne le
-            demandera devant .i. certain terme <cb n="30a"/>, quar l’en ne li peust pas paier sanz
+            demandera devant .i. certain terme <cb n="30a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f75/full/full/0/native.jpg"/>, quar l’en ne li peust pas paier sanz
             l’auctorité à celui qui l’a en garde. Mes se li orfelins fet covenant que ce que il doit
             ne li soit pas demandé, li covenanz soit tenables, qar il li est bien otroié à amender
             sa condicion sanz l’auctorité à celui qui l’a en garde. ¶ <label>[1]</label> Se li
@@ -4091,7 +4091,7 @@
           <p xml:id="justinien_digeste_BNF_fr-20118.2.14.33"><label>[2.14.33]</label>
             <hi rend="b"> C</hi>elsus dit : <hi rend="b"> L</hi>i aiels pramist doere el non de sa
             niece que il avoit de son fill ; si mist en covenant que li doeres ne fust demandez ne à
-            lui ne à son fill. Se uns estranges est hoirs o son fill <cb n="30c"/> et li doeres est
+            lui ne à son fill. Se uns estranges est hoirs o son fill <cb n="30c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f76/full/full/0/native.jpg"/> et li doeres est
             demandez à cel estrange, il se deffendra par droit par excepcion de cel covenant.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.14.34"><label>[2.14.34]</label>
             <hi rend="b"> M</hi>odestins dit : <hi rend="b"> L</hi>a sentence Julian est que la
@@ -4150,7 +4150,7 @@
             paieroit li deteurs. Ge di que tel covenance ne doit pas estre gardee quant à la reson
             de la borse l’empereeur, quar la forme de la droiture à la borse l’empereeur ne doit pas
             estre muee por les covenanz que aucun font.</p>
-          <p xml:id="justinien_digeste_BNF_fr-20118.2.14.43"><label><cb n="31a"/>[2.14.43] </label>
+          <p xml:id="justinien_digeste_BNF_fr-20118.2.14.43"><label><cb n="31a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f77/full/full/0/native.jpg"/>[2.14.43] </label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> N</hi>os savons bien as achaz que li
             venderres doit fere et que li achaterres doit fere, mes se il en exceptent aucune chose
             quant il font le marchié, ce que il font doit estre gardé.</p>
@@ -4215,7 +4215,7 @@
             dete, il ne te metra pas arrieres par excepcion de covenant, si come Celsus escrist.
               <label>[1]</label> Et il meismes dit que<note n="m" resp="editor">que] <hi rend="i">suivi
                 de</hi> tu <hi rend="i">exponctué.</hi></note>, se tu conmandas à ton deteur que il
-            paiast ta dete à Tyce à qui tu cuidoies <cb n="31c"/> devoir .i. lés que tu ne li
+            paiast ta dete à Tyce à qui tu cuidoies <cb n="31c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f78/full/full/0/native.jpg"/> devoir .i. lés que tu ne li
             devoies pas, et tes deteurs quita por cele cause à Tyce son deteur ce que il li devoit,
             ne tu n’as perdue l’action que tu avoies contre ton deteur, ne il n’a pas perdue cele
             que il avoit contre Tyce.</p>
@@ -4273,7 +4273,7 @@
             puet estre fet par la covenance qui apartient à depecier ce qui a esté fet, que tu soies
             contrainz à rendre moi ce que ge t’ai ja baillié, quar ce n’afiert pas tant à departir
             nos de l’ancien marchié, come à establir entre nos novel obligement.</p>
-          <p xml:id="justinien_digeste_BNF_fr-20118.2.14.59"><label><cb n="32a"/>[2.14.59]</label>
+          <p xml:id="justinien_digeste_BNF_fr-20118.2.14.59"><label><cb n="32a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f79/full/full/0/native.jpg"/>[2.14.59]</label>
             <hi rend="b"> P</hi>aulus dit : <hi rend="b"> N</hi>otre condicion puet estre amendee
             par les covenanz à cels par qui la chose qui lor est pramise puet estre aquise à
             nos.</p>
@@ -4335,7 +4335,7 @@
             quant la pramesse fu fete, quar l’exposicion as sages homes quasse ce qui fet damage à
             aucun.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.15.6"><label>[2.15.6]</label><hi rend="b"> G</hi>aius dit :
-              <hi rend="b"> D</hi>es causes qui nessent <cb n="32c"/> de testament ne puet
+              <hi rend="b"> D</hi>es causes qui nessent <cb n="32c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f80/full/full/0/native.jpg"/> de testament ne puet
             transaction estre fete ne verité enquise, se l’en ne voit et set les paroles del
             testament.</p>
           <p xml:id="justinien_digeste_BNF_fr-20118.2.15.7"><label>[2.15.7]</label><hi rend="b"> U</hi>lpians
@@ -4387,7 +4387,7 @@
             hoirs a sa meson en une contree et cil à qui la norreture est lessiee a la seue en une
             autre, ou se li uns d’els a proposé à remuer son manoir, ou se il i a droite cause par
             quoi il ait besoing d’avoir deniers presentement, ou se la norreture li est lessiee sor
-            pluseurs et il li est fort chose de pledier <cb n="33a"/> à chascun, ou se il i a aucune
+            pluseurs et il li est fort chose de pledier <cb n="33a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f81/full/full/0/native.jpg"/> à chascun, ou se il i a aucune
             autre cause, si come il avient sovent por qoi li prevolz soit meuz à recevoir la
             transaction. ¶ <label>[10]</label> L’en doit garder aus deniers que l’en vuelt doner par
             la transaction, quar l’en doit prendre garde à l’aage et à la force de celui à qui la
@@ -4435,7 +4435,7 @@
             plus riches d’autrui damage. ¶ <label>[23]</label> Se une certaine quantité est lessiee
             à aucun à paier d’an en an, si come usaires ou aucune tel chose, transaction en porra
             estre fete sanz l’auctorité au prevost. Mes se usaires est lessiez à aucun par non de
-            norreture, ge di que transaction qui en est fete sanz l’auctorité <cb n="33c"/> au
+            norreture, ge di que transaction qui en est fete sanz l’auctorité <cb n="33c" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f82/full/full/0/native.jpg"/> au
             prevost n’est de nule valeur. ¶ <label>[24]</label> Se l’en n’a pas lessié à aucun
             deniers à sa norreture, mes froument ou huile ou aucune tel chose qui soit necessaire à
             mengier ou à boivre, il n’en porra pas fere transaction, coment que la chose soit
@@ -4496,7 +4496,7 @@
             </choice><note n="e" resp="editor">qui] qui qui <hi rend="i">ms.</hi></note> estoit hoirs par
             la loi et celui qui fu fez hoirs el testament. Et cil plez fu finez par transaction et
             par certain covenant. Ge demant lequel li creancier pueent trere en cause por ce que li
-            morz lor de<cb n="34a"/>voit ? Et ge di que, se cil qui firent la transaction estoient
+            morz lor de<cb n="34a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b84557828/f83/full/full/0/native.jpg"/>voit ? Et ge di que, se cil qui firent la transaction estoient
             de ses creanciers, ce que il mistrent en covenant des detes doit estre gardé. Mes se
             autre estoient creancier, chascuns doit estre trez en cause por tel partie come il a de
             l’eritage par la transaction.</p>

@@ -635,6 +635,12 @@
   <xsl:template match="tei:cb[normalize-space(@n)]" priority="5">
     <span class="pb cb" id="cb{normalize-space(@n)}">[f. <xsl:value-of select="normalize-space(@n)"/>]</span>
   </xsl:template>
+  <!-- 2026-11-18 — IMAGES GALLICA (Code fr. 20120, Digeste fr. 20118) : le <cb> qui ouvre une face porte l'image IIIF de la
+       vue (@facs) ; lien a.pb.facs comme un <pb> à image de hteiml, dont dots-vue fait la vignette (manifeste :
+       sourceDesc/@facs → dots:resourceIIIFManifest). -->
+  <xsl:template match="tei:cb[normalize-space(@n)][@facs]" priority="6">
+    <a class="pb facs cb" id="cb{normalize-space(@n)}" href="{@facs}">[f. <xsl:value-of select="normalize-space(@n)"/>]</a>
+  </xsl:template>
 
   <!-- 2026-10-29 — INSTITUTES (fr. 1064) : TEXTE TOKÉNISÉ (88 525 <w>, 10 075 <pc>). Relecture de Maxime (« quand on
        survole, normal ? ») : les blancs de mise en forme entre les mots s'ajoutaient à l'espace que hteiml met devant
