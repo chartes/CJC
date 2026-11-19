@@ -94,8 +94,9 @@
       <div xml:id="justinien_code_BNF_fr-20120.2">
         <head>[Liber secondus]</head>
         <div xml:id="justinien_code_BNF_fr-20120.2.1.0">
+          <cb n="39a" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455783p/f85/full/full/0/native.jpg"/>
           <head>[2.1.0 De edendo] <lb/>
-            <cb n="39b" facs="https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455783p/f85/full/full/0/native.jpg"/>
+            <cb n="39b"/>
             <seg type="rubric">Ci commence li seconz livres. Cist tytres est de fere sa demande et de
               mostrer par quel reson l’en demande.</seg></head>
           <p xml:id="justinien_code_BNF_fr-20120.2.1.1"><label>[2.1.1]</label>
